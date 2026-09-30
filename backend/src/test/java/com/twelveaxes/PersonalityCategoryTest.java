@@ -47,9 +47,16 @@ class PersonalityCategoryTest {
         assertThat(women)
                 .as("O catalogo precisa manter representacao feminina")
                 .isNotEmpty()
-                .allSatisfy(personality -> assertThat(personality.imagePath())
-                        .as("Personalidade feminina %s precisa de retrato", personality.id())
-                        .isNotBlank());
+                .allSatisfy(personality -> {
+                    assertThat(personality.imagePath())
+                            .as("Personalidade feminina %s precisa de retrato", personality.id())
+                            .isNotBlank()
+                            .startsWith("/personalities/portraits/");
+                    assertThat(personality.imagePath())
+                            .as("Retrato feminino deve ser asset local: %s", personality.id())
+                            .doesNotStartWith("http://")
+                            .doesNotStartWith("https://");
+                });
     }
 
     @Test
