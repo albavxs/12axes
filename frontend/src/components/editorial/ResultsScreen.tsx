@@ -34,6 +34,7 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
   const disabledRepresentationModes: PersonalityRepresentationMode[] = femaleAvailable ? [] : ['mixed', 'female'];
   const activeRepresentationMode = femaleAvailable ? representationMode : 'male';
   const selectedPersonalities = selectPersonalities(result, activeRepresentationMode);
+  const selectedBooks = selectBooks(result, activeRepresentationMode);
 
   return (
     <main className="ed e-res" id="resultados" style={catStyle(top.category) as CSSProperties}>
@@ -99,7 +100,7 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
             results={axisResults}
           />
 
-          <BooksSection books={result.bookRecommendations} />
+          <BooksSection books={selectedBooks} />
 
           <IdeologiesSection others={result.matches.slice(1, 4)} distant={result.bottomIdeologyMatch} />
 
@@ -135,7 +136,7 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
               </b>
             </div>
           </div>
-          <ResultsNav hasBooks={(result.bookRecommendations?.length ?? 0) > 0} />
+          <ResultsNav hasBooks={(selectedBooks?.length ?? 0) > 0} />
         </aside>
       </div>
     </main>
@@ -171,4 +172,15 @@ function selectPersonalities(result: QuizResult, mode: PersonalityRepresentation
     generalMatches: result.personalityMatches,
     areaMatches: result.categoryBestMatches
   };
+}
+
+
+function selectBooks(result: QuizResult, mode: PersonalityRepresentationMode) {
+  if (mode === 'female') {
+    return result.femaleBookRecommendations ?? [];
+  }
+  if (mode === 'mixed') {
+    return result.mixedBookRecommendations ?? result.bookRecommendations ?? [];
+  }
+  return result.bookRecommendations ?? [];
 }
