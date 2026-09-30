@@ -6611,5 +6611,226 @@
       "moral": 65,
       "tecnologia": 40
     }
+  },
+  {
+    "personalityId": "margaret-thatcher",
+    "vector": {
+      "estrutura": 50,
+      "representacao": 72.5,
+      "poder": 35,
+      "imigracao": 67.5,
+      "diplomacia": 25,
+      "intervencao": 65,
+      "economia": 15,
+      "controle": 12.5,
+      "comercio": 25,
+      "religiao": 35,
+      "moral": 25,
+      "tecnologia": 55
+    }
+  },
+  {
+    "personalityId": "rosa-luxemburg",
+    "vector": {
+      "estrutura": 70,
+      "representacao": 75,
+      "poder": 15,
+      "imigracao": 15,
+      "diplomacia": 85,
+      "intervencao": 20,
+      "economia": 95,
+      "controle": 90,
+      "comercio": 70,
+      "religiao": 90,
+      "moral": 75,
+      "tecnologia": 55
+    }
+  },
+  {
+    "personalityId": "angela-merkel",
+    "vector": {
+      "estrutura": 50,
+      "representacao": 80,
+      "poder": 45,
+      "imigracao": 30,
+      "diplomacia": 75,
+      "intervencao": 45,
+      "economia": 37.5,
+      "controle": 35,
+      "comercio": 20,
+      "religiao": 35,
+      "moral": 50,
+      "tecnologia": 65
+    }
+  },
+  {
+    "personalityId": "indira-gandhi",
+    "vector": {
+      "estrutura": 20,
+      "representacao": 35,
+      "poder": 75,
+      "imigracao": 50,
+      "diplomacia": 45,
+      "intervencao": 60,
+      "economia": 82.5,
+      "controle": 85,
+      "comercio": 70,
+      "religiao": 65,
+      "moral": 55,
+      "tecnologia": 70
+    }
+  },
+  {
+    "personalityId": "emma-goldman",
+    "vector": {
+      "estrutura": 95,
+      "representacao": 85,
+      "poder": 5,
+      "imigracao": 10,
+      "diplomacia": 90,
+      "intervencao": 10,
+      "economia": 85,
+      "controle": 65,
+      "comercio": 45,
+      "religiao": 95,
+      "moral": 90,
+      "tecnologia": 50
+    }
+  },
+  {
+    "personalityId": "alexandra-kollontai",
+    "vector": {
+      "estrutura": 45,
+      "representacao": 55,
+      "poder": 35,
+      "imigracao": 20,
+      "diplomacia": 80,
+      "intervencao": 25,
+      "economia": 95,
+      "controle": 90,
+      "comercio": 70,
+      "religiao": 95,
+      "moral": 95,
+      "tecnologia": 60
+    }
+  },
+  {
+    "personalityId": "golda-meir",
+    "vector": {
+      "estrutura": 30,
+      "representacao": 72.5,
+      "poder": 72.5,
+      "imigracao": 75,
+      "diplomacia": 25,
+      "intervencao": 82.5,
+      "economia": 70,
+      "controle": 67.5,
+      "comercio": 50,
+      "religiao": 55,
+      "moral": 45,
+      "tecnologia": 60
+    }
+  },
+  {
+    "personalityId": "benazir-bhutto",
+    "vector": {
+      "estrutura": 45,
+      "representacao": 72.5,
+      "poder": 45,
+      "imigracao": 50,
+      "diplomacia": 50,
+      "intervencao": 60,
+      "economia": 45,
+      "controle": 40,
+      "comercio": 40,
+      "religiao": 35,
+      "moral": 55,
+      "tecnologia": 60
+    }
+  },
+  {
+    "personalityId": "ellen-johnson-sirleaf",
+    "vector": {
+      "estrutura": 45,
+      "representacao": 85,
+      "poder": 40,
+      "imigracao": 50,
+      "diplomacia": 70,
+      "intervencao": 45,
+      "economia": 35,
+      "controle": 35,
+      "comercio": 30,
+      "religiao": 45,
+      "moral": 65,
+      "tecnologia": 60
+    }
+  },
+  {
+    "personalityId": "corazon-aquino",
+    "vector": {
+      "estrutura": 40,
+      "representacao": 90,
+      "poder": 25,
+      "imigracao": 50,
+      "diplomacia": 65,
+      "intervencao": 50,
+      "economia": 45,
+      "controle": 45,
+      "comercio": 40,
+      "religiao": 20,
+      "moral": 35,
+      "tecnologia": 50
+    }
+  },
+  {
+    "personalityId": "michelle-bachelet",
+    "vector": {
+      "estrutura": 45,
+      "representacao": 87.5,
+      "poder": 35,
+      "imigracao": 30,
+      "diplomacia": 75,
+      "intervencao": 45,
+      "economia": 72.5,
+      "controle": 70,
+      "comercio": 40,
+      "religiao": 80,
+      "moral": 82.5,
+      "tecnologia": 65
+    }
+  },
+  {
+    "personalityId": "simone-de-beauvoir",
+    "vector": {
+      "estrutura": 70,
+      "representacao": 85,
+      "poder": 10,
+      "imigracao": 20,
+      "diplomacia": 80,
+      "intervencao": 25,
+      "economia": 75,
+      "controle": 65,
+      "comercio": 50,
+      "religiao": 98,
+      "moral": 98,
+      "tecnologia": 55
+    }
+  },
+  {
+    "personalityId": "emmeline-pankhurst",
+    "vector": {
+      "estrutura": 50,
+      "representacao": 90,
+      "poder": 45,
+      "imigracao": 50,
+      "diplomacia": 35,
+      "intervencao": 55,
+      "economia": 60,
+      "controle": 55,
+      "comercio": 50,
+      "religiao": 50,
+      "moral": 75,
+      "tecnologia": 50
+    }
   }
 ]
