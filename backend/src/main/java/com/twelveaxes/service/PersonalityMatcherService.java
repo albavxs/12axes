@@ -119,11 +119,16 @@ public class PersonalityMatcherService {
     }
 
     public List<PersonalityMatch> findMixedBestPerCategory(List<AxisResult> axisResults, String lang) {
-        return interleave(
-                findBestPerCategory(axisResults, lang, REPRESENTATION_MALE),
-                findBestPerCategory(axisResults, lang, REPRESENTATION_FEMALE),
-                TOP_MATCHES
-        );
+        Map<String, PersonalityMatch> bestByCategory = new LinkedHashMap<>();
+        for (PersonalityMatch match : rankAll(axisResults, lang, null)) {
+            if (match.category() != null) {
+                bestByCategory.putIfAbsent(match.category(), match);
+            }
+        }
+        return bestByCategory.values().stream()
+                .sorted(Comparator.comparingDouble(PersonalityMatch::compatibility).reversed())
+                .limit(TOP_MATCHES)
+                .toList();
     }
 
     // As tres menos compativeis do catalogo inteiro, em ordem crescente.
@@ -140,11 +145,11 @@ public class PersonalityMatcherService {
     }
 
     public List<PersonalityMatch> findMixedBottomMatches(List<AxisResult> axisResults, String lang) {
-        return interleave(
-                findBottomMatches(axisResults, lang, REPRESENTATION_MALE),
-                findBottomMatches(axisResults, lang, REPRESENTATION_FEMALE),
-                BOTTOM_MATCHES
-        );
+        List<PersonalityMatch> ranking = rankAll(axisResults, lang, null);
+        return ranking.stream()
+                .skip(Math.max(0, ranking.size() - BOTTOM_MATCHES))
+                .sorted(Comparator.comparingDouble(PersonalityMatch::compatibility))
+                .toList();
     }
 
     // Ranking completo do catalogo, do mais ao menos compativel. Todos os
