@@ -199,6 +199,10 @@ export interface QuizResult {
   axisTension: AxisTension | null;
   /** Até 3 livros das personalidades mais compatíveis, com link de afiliado pronto. */
   bookRecommendations?: BookRecommendation[];
+  /** Livros do ranking feminino para o mesmo resultado ideológico. */
+  femaleBookRecommendations?: BookRecommendation[];
+  /** Livros do ranking global, sem filtro de representação. */
+  mixedBookRecommendations?: BookRecommendation[];
 }
 
 export interface Candidate {
