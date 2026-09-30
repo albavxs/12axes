@@ -2408,5 +2408,26 @@
     "role": "King of Castile and León",
     "lifespan": "c. 1201–1252",
     "description": "King of Castile from 1217 and León from 1230, he consolidated the union of the crowns and conquered Córdoba and Seville. He ruled as a medieval Catholic monarch and promoted legal and administrative organization in conquered territories."
+  },
+  {
+    "id": "dilma-rousseff",
+    "name": "Dilma Rousseff",
+    "role": "Former President of Brazil",
+    "lifespan": "1947–",
+    "description": "Economist and the first woman to serve as president of Brazil, Rousseff governed from 2011 to 2016. Her record combines institutional democracy, social programs, public investment, industrial policy, Latin American integration, multilateralism, and support for science, technology and innovation."
+  },
+  {
+    "id": "eva-peron",
+    "name": "Eva Perón",
+    "role": "Argentine political and social leader",
+    "lifespan": "1919–1952",
+    "description": "A central figure of early Peronism, Eva Perón acted as a link to workers and unions, promoted social welfare, and helped mobilize women politically, including support for women's suffrage and organization of the women's branch of the Peronist Party."
+  },
+  {
+    "id": "greta-thunberg",
+    "name": "Greta Thunberg",
+    "role": "Climate activist",
+    "lifespan": "2003–",
+    "description": "Swedish climate activist associated with Fridays for Future, Thunberg pressures governments and businesses for rapid emissions cuts and structural responses to the climate crisis, criticizing approaches based only on promises, conventional growth or isolated technological solutions."
   }
 ]
