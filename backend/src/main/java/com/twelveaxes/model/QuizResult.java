@@ -27,7 +27,7 @@ import java.util.List;
  * @param femaleCategoryBestMatches personalidade feminina mais compativel de cada area de atuacao
  * @param bottomFemalePersonalityMatches personalidades femininas mais distantes do catalogo
  * @param topMixedPersonalityMatch primeira personalidade no ranking misto
- * @param mixedPersonalityMatches personalidades masculinas e femininas intercaladas por compatibilidade
+ * @param mixedPersonalityMatches ranking global de personalidades, sem filtro de representacao
  * @param mixedDimensionMatches personalidade mais compativel em cada dimensao sem filtro de representacao
  * @param mixedCategoryBestMatches personalidades por area em composicao mista
  * @param bottomMixedPersonalityMatches personalidades mais distantes em composicao mista
