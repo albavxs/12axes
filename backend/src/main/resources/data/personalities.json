@@ -5016,5 +5016,44 @@
     "imageSourceName": "Wikimedia Commons / Catedral de Sevilla",
     "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Retrato_de_San_Fernando,_rey_de_Castilla_y_de_Le%C3%B3n_(Catedral_de_Sevilla).jpg",
     "imageNote": "Pintura anônima de cerca de 1639, posterior à vida de Fernando III; não é um retrato contemporâneo."
+  },
+  {
+    "id": "dilma-rousseff",
+    "name": "Dilma Rousseff",
+    "role": "Ex-presidente do Brasil",
+    "category": "politico",
+    "representation": "female",
+    "lifespan": "1947–",
+    "description": "Economista e primeira mulher a presidir o Brasil, Dilma Rousseff governou de 2011 a 2016. Sua trajetória combina democracia institucional, políticas sociais, investimento público, política industrial, integração latino-americana, multilateralismo e incentivo à ciência, tecnologia e inovação.",
+    "imagePath": "/personalities/portraits/dilma-rousseff.jpg",
+    "imageSourceName": "Wikimedia Commons / Presidência da República",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Dilma_Rousseff_-_foto_oficial_2011-01-09_2_(cropped).jpg",
+    "imageNote": "Foto oficial de Dilma Rousseff no Palácio da Alvorada, 2011, via Wikimedia Commons."
+  },
+  {
+    "id": "eva-peron",
+    "name": "Eva Perón",
+    "role": "Líder política e social argentina",
+    "category": "politico",
+    "representation": "female",
+    "lifespan": "1919–1952",
+    "description": "Figura central do primeiro peronismo, Eva Perón atuou como ligação com trabalhadores e sindicatos, promoveu assistência social e participou da mobilização pela incorporação política das mulheres, incluindo o sufrágio feminino e a organização do ramo feminino do Partido Peronista.",
+    "imagePath": "/personalities/portraits/eva-peron.jpg",
+    "imageSourceName": "Wikimedia Commons / Archivo General de la Nación",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Eva_Per%C3%B3n_Retrato_Oficial.jpg",
+    "imageNote": "Retrato oficial de Eva Perón, 1948, preservado pelo Archivo General de la Nación, via Wikimedia Commons."
+  },
+  {
+    "id": "greta-thunberg",
+    "name": "Greta Thunberg",
+    "role": "Ativista climática",
+    "category": "ativista",
+    "representation": "female",
+    "lifespan": "2003–",
+    "description": "Ativista climática sueca ligada ao movimento Fridays for Future, Greta Thunberg pressiona governos e empresas por reduções rápidas de emissões e mudanças estruturais diante da crise climática, criticando respostas baseadas apenas em promessas, crescimento convencional ou soluções tecnológicas isoladas.",
+    "imagePath": "/personalities/portraits/greta-thunberg.jpg",
+    "imageSourceName": "Wikimedia Commons / Kushal Das",
+    "imageSourceUrl": "https://commons.wikimedia.org/wiki/File:Greta_Thunberg_(cropped).jpg",
+    "imageNote": "Retrato de Greta Thunberg em manifestação do Fridays for Future em Estocolmo, 2023; foto de Kushal Das, via Wikimedia Commons."
   }
 ]
