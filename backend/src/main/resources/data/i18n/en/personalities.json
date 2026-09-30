@@ -2429,5 +2429,96 @@
     "role": "Climate activist",
     "lifespan": "2003–",
     "description": "Swedish climate activist associated with Fridays for Future, Thunberg pressures governments and businesses for rapid emissions cuts and structural responses to the climate crisis, criticizing approaches based only on promises, conventional growth or isolated technological solutions."
+  },
+  {
+    "id": "margaret-thatcher",
+    "name": "Margaret Thatcher",
+    "role": "Prime Minister of the United Kingdom",
+    "lifespan": "1925–2013",
+    "description": "Britain's first female prime minister, Thatcher governed from 1979 to 1990 as a Conservative. Her government pursued privatization, deregulation, trade-union reform, tax cuts and greater use of market mechanisms."
+  },
+  {
+    "id": "rosa-luxemburg",
+    "name": "Rosa Luxemburg",
+    "role": "Marxist theorist and revolutionary",
+    "lifespan": "1871–1919",
+    "description": "Polish-German Marxist theorist and revolutionary, Luxemburg criticized capitalism, imperialism and militarism, advocated mass action and socialist transformation, while also defending elections and freedoms of press, assembly and political debate."
+  },
+  {
+    "id": "angela-merkel",
+    "name": "Angela Merkel",
+    "role": "Former Chancellor of Germany",
+    "lifespan": "1954–",
+    "description": "A physicist and CDU politician, Merkel served as German chancellor from 2005 to 2021, the first woman to hold the office. She governed for four terms, mostly in grand coalitions, and played a central role in German and European politics."
+  },
+  {
+    "id": "indira-gandhi",
+    "name": "Indira Gandhi",
+    "role": "Prime Minister of India",
+    "lifespan": "1917–1984",
+    "description": "Leader of the Indian National Congress and the first woman to head India's government, Gandhi served as prime minister from 1966 to 1977 and again from 1980 to 1984, combining strong political centralization with state-directed economic policies."
+  },
+  {
+    "id": "emma-goldman",
+    "name": "Emma Goldman",
+    "role": "Anarchist and political activist",
+    "lifespan": "1869–1940",
+    "description": "An anarchist and activist, Goldman advocated free speech, birth control, women's equality and independence, and union organization. Her opposition to compulsory military conscription during World War I led to imprisonment and later deportation from the United States."
+  },
+  {
+    "id": "alexandra-kollontai",
+    "name": "Alexandra Kollontai",
+    "role": "Revolutionary, theorist and diplomat",
+    "lifespan": "1872–1952",
+    "description": "A Bolshevik revolutionary and Marxist feminist theorist, Kollontai served as commissar for social welfare, organized working women, advocated reproductive rights and greater worker autonomy, and later served as a Soviet diplomat."
+  },
+  {
+    "id": "golda-meir",
+    "name": "Golda Meir",
+    "role": "Prime Minister of Israel",
+    "lifespan": "1898–1978",
+    "description": "A Labor Party leader and prime minister of Israel from 1969 to 1974, Meir's career was rooted in Labor Zionism, the Histadrut labor federation and the building of Israeli state institutions."
+  },
+  {
+    "id": "benazir-bhutto",
+    "name": "Benazir Bhutto",
+    "role": "Prime Minister of Pakistan",
+    "lifespan": "1953–2007",
+    "description": "Leader of the Pakistan People's Party, Bhutto became in 1988 the first woman to head the government of a Muslim-majority country. She advocated civilian government and faced strong military and Islamist opposition during her career."
+  },
+  {
+    "id": "ellen-johnson-sirleaf",
+    "name": "Ellen Johnson Sirleaf",
+    "role": "Former President of Liberia",
+    "lifespan": "1938–",
+    "description": "President of Liberia from 2006 to 2018, Johnson Sirleaf was Africa's first democratically elected female head of state. Her presidency was associated with postwar reconstruction, women's rights, freedom of speech and economic reform."
+  },
+  {
+    "id": "corazon-aquino",
+    "name": "Corazon Aquino",
+    "role": "Former President of the Philippines",
+    "lifespan": "1933–2009",
+    "description": "Aquino became president of the Philippines in 1986 after the movement that ended Ferdinand Marcos's authoritarian rule. Her presidency restored democratic institutions and faced repeated coup attempts."
+  },
+  {
+    "id": "michelle-bachelet",
+    "name": "Michelle Bachelet",
+    "role": "Former President of Chile",
+    "lifespan": "1951–",
+    "description": "A physician and Socialist politician, Bachelet was Chile's first female president, serving in 2006–2010 and 2014–2018. She also led UN Women and served as UN High Commissioner for Human Rights."
+  },
+  {
+    "id": "simone-de-beauvoir",
+    "name": "Simone de Beauvoir",
+    "role": "Feminist philosopher and public intellectual",
+    "lifespan": "1908–1986",
+    "description": "French existentialist philosopher, writer and public intellectual, Beauvoir became a central figure in feminist theory. The Second Sex analyzed women's subordination and connected freedom, autonomy and social transformation."
+  },
+  {
+    "id": "emmeline-pankhurst",
+    "name": "Emmeline Pankhurst",
+    "role": "British suffragette leader",
+    "lifespan": "1858–1928",
+    "description": "A leader of the British suffrage movement, Pankhurst founded the Women's Social and Political Union in 1903. Frustrated by the lack of progress through conventional means, she led a militant campaign for women's voting rights."
   }
 ]
