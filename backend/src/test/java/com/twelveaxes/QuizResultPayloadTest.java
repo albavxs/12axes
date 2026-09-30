@@ -52,6 +52,15 @@ class QuizResultPayloadTest {
     }
 
     @Test
+    void representationSpecificBookRecommendationsUseMatchingPersonalities() throws Exception {
+        mockMvc.perform(get("/api/results/by-axes").param("v", VETOR))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.bookRecommendations[*].personalityId").isArray())
+                .andExpect(jsonPath("$.femaleBookRecommendations[*].personalityId").isArray())
+                .andExpect(jsonPath("$.mixedBookRecommendations[*].personalityId").isArray());
+    }
+
+    @Test
     void englishResultCarriesEveryNewSection() throws Exception {
         mockMvc.perform(get("/api/results/by-axes").param("v", VETOR).param("lang", "en"))
                 .andExpect(status().isOk())
