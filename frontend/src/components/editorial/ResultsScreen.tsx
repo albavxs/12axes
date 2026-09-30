@@ -28,7 +28,7 @@ interface ResultsScreenProps {
 
 export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, error, onRedo, onShare }: ResultsScreenProps) {
   const top = result.topMatch;
-  const [representationMode, setRepresentationMode] = useState<PersonalityRepresentationMode>('male');
+  const [representationMode, setRepresentationMode] = useState<PersonalityRepresentationMode>('mixed');
   const femaleAvailable = Boolean(result.topFemalePersonalityMatch && (result.femalePersonalityMatches?.length ?? 0) > 0);
   const representationModes: PersonalityRepresentationMode[] = ['male', 'mixed', 'female'];
   const disabledRepresentationModes: PersonalityRepresentationMode[] = femaleAvailable ? [] : ['mixed', 'female'];
