@@ -46,11 +46,9 @@ public class PersonalityMatcherService {
     }
 
     public List<PersonalityMatch> findMixedMatches(List<AxisResult> axisResults, String lang) {
-        return interleave(
-                findMatches(axisResults, lang, REPRESENTATION_MALE),
-                findMatches(axisResults, lang, REPRESENTATION_FEMALE),
-                TOP_MATCHES
-        );
+        return rankAll(axisResults, lang, null).stream()
+                .limit(TOP_MATCHES)
+                .toList();
     }
 
     public PersonalityMatch findTopMatch(List<AxisResult> axisResults) {
