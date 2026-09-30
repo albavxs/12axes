@@ -156,9 +156,17 @@ public class QuizController {
                 axisOutlierService.findMostUnusual(axes, lang),
                 axisOutlierService.findMostCommon(axes, lang),
                 axisTensionService.findStrongest(axes, lang),
-                bookRecommendationService.recommend(personalityMatches, categoryBestMatches, lang),
-                bookRecommendationService.recommend(femalePersonalityMatches, femaleCategoryBestMatches, lang),
-                bookRecommendationService.recommend(mixedPersonalityMatches, mixedCategoryBestMatches, lang)
+                bookRecommendationService.recommend(
+                        personalityMatcherService.findAllMatches(
+                                axes, lang, PersonalityMatcherService.REPRESENTATION_MALE),
+                        lang),
+                bookRecommendationService.recommend(
+                        personalityMatcherService.findAllMatches(
+                                axes, lang, PersonalityMatcherService.REPRESENTATION_FEMALE),
+                        lang),
+                bookRecommendationService.recommend(
+                        personalityMatcherService.findAllMixedMatches(axes, lang),
+                        lang)
         );
     }
 
