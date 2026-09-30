@@ -37,6 +37,21 @@ class PersonalityCategoryTest {
                         .isIn(REPRESENTACOES_VALIDAS));
     }
 
+
+    @Test
+    void catalogContainsFemalePersonalitiesAndLocalPortraits() {
+        var women = dataService.getPersonalities().stream()
+                .filter(personality -> "female".equals(personality.representation()))
+                .toList();
+
+        assertThat(women)
+                .as("O catalogo precisa manter representacao feminina")
+                .isNotEmpty()
+                .allSatisfy(personality -> assertThat(personality.imagePath())
+                        .as("Personalidade feminina %s precisa de retrato", personality.id())
+                        .isNotBlank());
+    }
+
     @Test
     void everyCategoryHasAtLeastOnePersonality() {
         var usadas = dataService.getPersonalities().stream()
