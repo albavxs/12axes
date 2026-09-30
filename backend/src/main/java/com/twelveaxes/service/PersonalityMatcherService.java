@@ -51,6 +51,18 @@ public class PersonalityMatcherService {
                 .toList();
     }
 
+    /**
+     * Ranking completo usado por consumidores que precisam continuar procurando
+     * depois do recorte visual de TOP_MATCHES (por exemplo, livros).
+     */
+    public List<PersonalityMatch> findAllMatches(List<AxisResult> axisResults, String lang, String representation) {
+        return rankAll(axisResults, lang, representation);
+    }
+
+    public List<PersonalityMatch> findAllMixedMatches(List<AxisResult> axisResults, String lang) {
+        return rankAll(axisResults, lang, null);
+    }
+
     public PersonalityMatch findTopMatch(List<AxisResult> axisResults) {
         return findTopMatch(axisResults, QuizDataService.LANG_PT);
     }
