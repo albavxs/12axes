@@ -34,7 +34,9 @@ import java.util.List;
  * @param mostUnusualAxis eixo em que o usuario mais destoa do catalogo de ideologias
  * @param mostCommonAxis eixo em que o usuario mais se aproxima do catalogo
  * @param axisTension par de eixos em que o usuario contraria o padrao do catalogo, ou null
- * @param bookRecommendations livros das personalidades mais compativeis (ate 3)
+ * @param bookRecommendations livros masculinos mais compativeis (contrato legado, ate 3)
+ * @param femaleBookRecommendations livros das personalidades femininas mais compativeis (ate 3)
+ * @param mixedBookRecommendations livros do ranking global misto mais compativeis (ate 3)
  */
 public record QuizResult(
         List<AxisResult> axes,
@@ -64,6 +66,8 @@ public record QuizResult(
         AxisOutlier mostUnusualAxis,
         AxisOutlier mostCommonAxis,
         AxisTension axisTension,
-        List<BookRecommendation> bookRecommendations
+        List<BookRecommendation> bookRecommendations,
+        List<BookRecommendation> femaleBookRecommendations,
+        List<BookRecommendation> mixedBookRecommendations
 ) {
 }
