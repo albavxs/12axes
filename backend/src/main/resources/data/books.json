@@ -2338,5 +2338,161 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "eva-peron",
+    "title": {
+      "pt": "A Razão da Minha Vida",
+      "en": "La razón de mi vida"
+    },
+    "year": 1951,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "greta-thunberg",
+    "title": {
+      "pt": "O Livro do Clima",
+      "en": "The Climate Book"
+    },
+    "year": 2022,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "margaret-thatcher",
+    "title": {
+      "pt": "A Arte de Governar",
+      "en": "Statecraft"
+    },
+    "year": 2002,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "rosa-luxemburg",
+    "title": {
+      "pt": "Reforma ou Revolução",
+      "en": "Reform or Revolution"
+    },
+    "year": 1899,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "angela-merkel",
+    "title": {
+      "pt": "Liberdade",
+      "en": "Freedom"
+    },
+    "year": 2024,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "indira-gandhi",
+    "title": {
+      "pt": "Minha Verdade",
+      "en": "My Truth"
+    },
+    "year": 1980,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "emma-goldman",
+    "title": {
+      "pt": "Anarquismo e Outros Ensaios",
+      "en": "Anarchism and Other Essays"
+    },
+    "year": 1910,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "alexandra-kollontai",
+    "title": {
+      "pt": "A Nova Mulher e a Moral Sexual",
+      "en": "The New Woman and Sexual Morality"
+    },
+    "year": 1918,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "golda-meir",
+    "title": {
+      "pt": "Minha Vida",
+      "en": "My Life"
+    },
+    "year": 1975,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "benazir-bhutto",
+    "title": {
+      "pt": "Reconciliação: Islã, Democracia e Ocidente",
+      "en": "Reconciliation: Islam, Democracy, and the West"
+    },
+    "year": 2008,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "ellen-johnson-sirleaf",
+    "title": {
+      "pt": "Esta Criança Será Grande",
+      "en": "This Child Will Be Great"
+    },
+    "year": 2009,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "simone-de-beauvoir",
+    "title": {
+      "pt": "O Segundo Sexo",
+      "en": "The Second Sex"
+    },
+    "year": 1949,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "emmeline-pankhurst",
+    "title": {
+      "pt": "Minha Própria História",
+      "en": "My Own Story"
+    },
+    "year": 1914,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]
