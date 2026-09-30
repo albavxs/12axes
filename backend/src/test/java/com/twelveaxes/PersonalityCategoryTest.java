@@ -14,6 +14,7 @@ class PersonalityCategoryTest {
             "politico", "religioso", "economista", "filosofo",
             "teorico", "empresario", "intelectual", "ativista"
     );
+    private static final Set<String> REPRESENTACOES_VALIDAS = Set.of("male", "female");
 
     @Autowired
     private QuizDataService dataService;
@@ -25,6 +26,15 @@ class PersonalityCategoryTest {
                 .allSatisfy(personality -> assertThat(personality.category())
                         .as("Personalidade %s precisa de categoria valida", personality.id())
                         .isIn(CATEGORIAS_VALIDAS));
+    }
+
+    @Test
+    void everyPersonalityHasAValidRepresentation() {
+        assertThat(dataService.getPersonalities())
+                .isNotEmpty()
+                .allSatisfy(personality -> assertThat(personality.representation())
+                        .as("Personalidade %s precisa de representation valida", personality.id())
+                        .isIn(REPRESENTACOES_VALIDAS));
     }
 
     @Test
@@ -45,8 +55,13 @@ class PersonalityCategoryTest {
         var en = dataService.getPersonalities(QuizDataService.LANG_EN);
 
         assertThat(en).hasSameSizeAs(pt);
-        assertThat(en).allSatisfy(personality -> assertThat(personality.category())
-                .as("Personalidade %s precisa de categoria no catalogo EN", personality.id())
-                .isIn(CATEGORIAS_VALIDAS));
+        assertThat(en).allSatisfy(personality -> {
+            assertThat(personality.category())
+                    .as("Personalidade %s precisa de categoria no catalogo EN", personality.id())
+                    .isIn(CATEGORIAS_VALIDAS);
+            assertThat(personality.representation())
+                    .as("Personalidade %s precisa de representation no catalogo EN", personality.id())
+                    .isIn(REPRESENTACOES_VALIDAS);
+        });
     }
 }

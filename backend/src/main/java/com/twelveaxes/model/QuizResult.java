@@ -16,11 +16,21 @@ import java.util.List;
  *     historicas juntos, sem distincao), a comecar pelo topo
  * @param topHistoricalCountryMatch experiencia historica mais compativel
  * @param bottomCountryMatches paises mais distantes do catalogo
- * @param topPersonalityMatch personalidade mais compativel, de qualquer categoria
- * @param personalityMatches personalidades mais compativeis, sem filtro por categoria
- * @param dimensionMatches personalidade mais compativel em cada dimensao (politica, social, economica)
- * @param categoryBestMatches personalidade mais compativel de cada area de atuacao
- * @param bottomPersonalityMatches personalidades mais distantes do catalogo
+ * @param topPersonalityMatch personalidade masculina mais compativel, mantendo o contrato legado
+ * @param personalityMatches personalidades masculinas mais compativeis, sem filtro por categoria
+ * @param dimensionMatches personalidade masculina mais compativel em cada dimensao (politica, social, economica)
+ * @param categoryBestMatches personalidade masculina mais compativel de cada area de atuacao
+ * @param bottomPersonalityMatches personalidades masculinas mais distantes do catalogo
+ * @param topFemalePersonalityMatch personalidade feminina mais compativel, ou null quando nao houver catalogo feminino
+ * @param femalePersonalityMatches personalidades femininas mais compativeis
+ * @param femaleDimensionMatches personalidade feminina mais compativel em cada dimensao
+ * @param femaleCategoryBestMatches personalidade feminina mais compativel de cada area de atuacao
+ * @param bottomFemalePersonalityMatches personalidades femininas mais distantes do catalogo
+ * @param topMixedPersonalityMatch primeira personalidade no ranking misto
+ * @param mixedPersonalityMatches personalidades masculinas e femininas intercaladas por compatibilidade
+ * @param mixedDimensionMatches personalidade mais compativel em cada dimensao sem filtro de representacao
+ * @param mixedCategoryBestMatches personalidades por area em composicao mista
+ * @param bottomMixedPersonalityMatches personalidades mais distantes em composicao mista
  * @param mostUnusualAxis eixo em que o usuario mais destoa do catalogo de ideologias
  * @param mostCommonAxis eixo em que o usuario mais se aproxima do catalogo
  * @param axisTension par de eixos em que o usuario contraria o padrao do catalogo, ou null
@@ -41,6 +51,16 @@ public record QuizResult(
         List<DimensionMatch> dimensionMatches,
         List<PersonalityMatch> categoryBestMatches,
         List<PersonalityMatch> bottomPersonalityMatches,
+        PersonalityMatch topFemalePersonalityMatch,
+        List<PersonalityMatch> femalePersonalityMatches,
+        List<DimensionMatch> femaleDimensionMatches,
+        List<PersonalityMatch> femaleCategoryBestMatches,
+        List<PersonalityMatch> bottomFemalePersonalityMatches,
+        PersonalityMatch topMixedPersonalityMatch,
+        List<PersonalityMatch> mixedPersonalityMatches,
+        List<DimensionMatch> mixedDimensionMatches,
+        List<PersonalityMatch> mixedCategoryBestMatches,
+        List<PersonalityMatch> bottomMixedPersonalityMatches,
         AxisOutlier mostUnusualAxis,
         AxisOutlier mostCommonAxis,
         AxisTension axisTension,

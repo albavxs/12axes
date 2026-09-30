@@ -110,6 +110,7 @@ export interface PersonalityMatch {
   name: string;
   role: string;
   category: PersonalityCategory;
+  representation?: 'male' | 'female';
   lifespan: string;
   description: string;
   imagePath: string;
@@ -155,6 +156,7 @@ export interface AxisTension {
 }
 
 export type ProfileDimension = 'political' | 'social' | 'economic';
+export type PersonalityRepresentationMode = 'male' | 'mixed' | 'female';
 
 export interface DimensionMatch {
   dimension: ProfileDimension;
@@ -181,6 +183,16 @@ export interface QuizResult {
   dimensionMatches: DimensionMatch[];
   categoryBestMatches: PersonalityMatch[];
   bottomPersonalityMatches: PersonalityMatch[];
+  topFemalePersonalityMatch: PersonalityMatch | null;
+  femalePersonalityMatches: PersonalityMatch[];
+  femaleDimensionMatches: DimensionMatch[];
+  femaleCategoryBestMatches: PersonalityMatch[];
+  bottomFemalePersonalityMatches: PersonalityMatch[];
+  topMixedPersonalityMatch: PersonalityMatch | null;
+  mixedPersonalityMatches: PersonalityMatch[];
+  mixedDimensionMatches: DimensionMatch[];
+  mixedCategoryBestMatches: PersonalityMatch[];
+  bottomMixedPersonalityMatches: PersonalityMatch[];
   mostUnusualAxis: AxisOutlier;
   mostCommonAxis: AxisOutlier;
   // null quando o perfil nao contraria padrao nenhum (centristas e moderados).

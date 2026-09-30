@@ -1,6 +1,6 @@
-import type { CSSProperties } from 'react';
+import { useState, type CSSProperties } from 'react';
 import { t } from '../../i18n';
-import type { Axis, AxisResult, QuizPayload, QuizResult } from '../../types/quiz';
+import type { Axis, AxisResult, PersonalityRepresentationMode, QuizPayload, QuizResult } from '../../types/quiz';
 import { catStyle } from '../../utils/ideologyColors';
 import { SupportSection } from '../SupportSection';
 import { BooksSection } from '../results/BooksSection';
@@ -28,6 +28,12 @@ interface ResultsScreenProps {
 
 export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, error, onRedo, onShare }: ResultsScreenProps) {
   const top = result.topMatch;
+  const [representationMode, setRepresentationMode] = useState<PersonalityRepresentationMode>('male');
+  const femaleAvailable = Boolean(result.topFemalePersonalityMatch && (result.femalePersonalityMatches?.length ?? 0) > 0);
+  const representationModes: PersonalityRepresentationMode[] = ['male', 'mixed', 'female'];
+  const disabledRepresentationModes: PersonalityRepresentationMode[] = femaleAvailable ? [] : ['mixed', 'female'];
+  const activeRepresentationMode = femaleAvailable ? representationMode : 'male';
+  const selectedPersonalities = selectPersonalities(result, activeRepresentationMode);
 
   return (
     <main className="ed e-res" id="resultados" style={catStyle(top.category) as CSSProperties}>
@@ -75,14 +81,23 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
           />
 
           <PersonalitiesSection
-            top={result.topPersonalityMatch}
-            dimensions={result.dimensionMatches}
-            distant={result.bottomPersonalityMatches}
+            top={selectedPersonalities.top}
+            dimensions={selectedPersonalities.dimensions}
+            distant={selectedPersonalities.distant}
+            axes={axes}
+            results={axisResults}
+            representationMode={activeRepresentationMode}
+            representationModes={representationModes}
+            disabledRepresentationModes={disabledRepresentationModes}
+            onRepresentationModeChange={setRepresentationMode}
+          />
+
+          <AreasSection
+            generalMatches={selectedPersonalities.generalMatches}
+            areaMatches={selectedPersonalities.areaMatches}
             axes={axes}
             results={axisResults}
           />
-
-          <AreasSection generalMatches={result.personalityMatches} areaMatches={result.categoryBestMatches} axes={axes} results={axisResults} />
 
           <BooksSection books={result.bookRecommendations} />
 
@@ -125,4 +140,35 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
       </div>
     </main>
   );
+}
+
+
+function selectPersonalities(result: QuizResult, mode: PersonalityRepresentationMode) {
+  if (mode === 'female' && result.topFemalePersonalityMatch) {
+    return {
+      top: result.topFemalePersonalityMatch,
+      dimensions: result.femaleDimensionMatches,
+      distant: result.bottomFemalePersonalityMatches,
+      generalMatches: result.femalePersonalityMatches,
+      areaMatches: result.femaleCategoryBestMatches
+    };
+  }
+
+  if (mode === 'mixed' && result.topMixedPersonalityMatch) {
+    return {
+      top: result.topMixedPersonalityMatch,
+      dimensions: result.mixedDimensionMatches,
+      distant: result.bottomMixedPersonalityMatches,
+      generalMatches: result.mixedPersonalityMatches,
+      areaMatches: result.mixedCategoryBestMatches
+    };
+  }
+
+  return {
+    top: result.topPersonalityMatch,
+    dimensions: result.dimensionMatches,
+    distant: result.bottomPersonalityMatches,
+    generalMatches: result.personalityMatches,
+    areaMatches: result.categoryBestMatches
+  };
 }

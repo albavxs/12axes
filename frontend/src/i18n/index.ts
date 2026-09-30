@@ -1,7 +1,7 @@
 // Dicionário de UI PT/EN. O idioma é resolvido uma vez por carga de página
 // (?lang → localStorage → navigator) e trocar de idioma recarrega a página,
 // para que quiz e resultados sejam rebuscados já no idioma novo.
-import type { PersonalityCategory, ProfileDimension } from '../types/quiz';
+import type { PersonalityCategory, PersonalityRepresentationMode, ProfileDimension } from '../types/quiz';
 
 export type Lang = 'pt' | 'en';
 
@@ -188,6 +188,8 @@ interface Strings {
   booksCta: string;
   areasSectionTitle: string;
   areasTabsAria: string;
+  personalityRepresentationTabsAria: string;
+  personalityRepresentationLabels: Record<PersonalityRepresentationMode, string>;
   areasGeneralTab: string;
   areasByAreaTab: string;
   personalitiesDistantTitle: string;
@@ -596,6 +598,12 @@ const pt: Strings = {
   areasGeneralTitle: 'Os mais próximos dos seus resultados',
   areasSectionTitle: 'Os mais próximos por área de atuação',
   areasTabsAria: 'Modo de exibição das personalidades',
+  personalityRepresentationTabsAria: 'Representação das personalidades',
+  personalityRepresentationLabels: {
+    male: 'Masculina',
+    mixed: 'Mista',
+    female: 'Feminina',
+  },
   areasGeneralTab: 'Compatibilidade geral',
   areasByAreaTab: 'Área de atuação',
   personalitiesDistantTitle: 'As mais distantes de você',
@@ -1061,6 +1069,12 @@ const en: Strings = {
   areasGeneralTitle: 'The closest figures to your results',
   areasSectionTitle: 'The closest figures by field',
   areasTabsAria: 'How figures are grouped',
+  personalityRepresentationTabsAria: 'Personality representation',
+  personalityRepresentationLabels: {
+    male: 'Male',
+    mixed: 'Mixed',
+    female: 'Female',
+  },
   areasGeneralTab: 'Overall compatibility',
   areasByAreaTab: 'Field',
   personalitiesDistantTitle: 'Furthest from you',

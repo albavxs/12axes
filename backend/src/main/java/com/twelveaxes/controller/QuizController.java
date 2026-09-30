@@ -111,6 +111,14 @@ public class QuizController {
         var personalityMatches = personalityMatcherService.findMatches(axes, lang);
         var topPersonality = personalityMatches.getFirst();
         var categoryBestMatches = personalityMatcherService.findBestPerCategory(axes, lang);
+        var femalePersonalityMatches = personalityMatcherService.findMatches(
+                axes, lang, PersonalityMatcherService.REPRESENTATION_FEMALE);
+        var topFemalePersonality = femalePersonalityMatches.isEmpty() ? null : femalePersonalityMatches.getFirst();
+        var femaleCategoryBestMatches = personalityMatcherService.findBestPerCategory(
+                axes, lang, PersonalityMatcherService.REPRESENTATION_FEMALE);
+        var mixedPersonalityMatches = personalityMatcherService.findMixedMatches(axes, lang);
+        var topMixedPersonality = mixedPersonalityMatches.isEmpty() ? null : mixedPersonalityMatches.getFirst();
+        var mixedCategoryBestMatches = personalityMatcherService.findMixedBestPerCategory(axes, lang);
         var topCountry = countryMatcherService.findTopMatch(axes, lang);
         var topHistoricalCountry = countryMatcherService.findTopHistoricalMatch(axes, lang);
         return new QuizResult(
@@ -129,6 +137,22 @@ public class QuizController {
                 dimensionMatcherService.findAll(axes, lang, topPersonality.personalityId()),
                 categoryBestMatches,
                 personalityMatcherService.findBottomMatches(axes, lang),
+                topFemalePersonality,
+                femalePersonalityMatches,
+                topFemalePersonality == null
+                        ? List.of()
+                        : dimensionMatcherService.findAll(
+                                axes, lang, topFemalePersonality.personalityId(),
+                                PersonalityMatcherService.REPRESENTATION_FEMALE),
+                femaleCategoryBestMatches,
+                personalityMatcherService.findBottomMatches(axes, lang, PersonalityMatcherService.REPRESENTATION_FEMALE),
+                topMixedPersonality,
+                mixedPersonalityMatches,
+                topMixedPersonality == null
+                        ? List.of()
+                        : dimensionMatcherService.findAllMixed(axes, lang, topMixedPersonality.personalityId()),
+                mixedCategoryBestMatches,
+                personalityMatcherService.findMixedBottomMatches(axes, lang),
                 axisOutlierService.findMostUnusual(axes, lang),
                 axisOutlierService.findMostCommon(axes, lang),
                 axisTensionService.findStrongest(axes, lang),
