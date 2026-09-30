@@ -207,35 +207,6 @@ public class PersonalityMatcherService {
         );
     }
 
-    private List<PersonalityMatch> interleave(
-            List<PersonalityMatch> first,
-            List<PersonalityMatch> second,
-            int limit) {
-        List<PersonalityMatch> selected = new ArrayList<>();
-        Set<String> seen = new LinkedHashSet<>();
-        int max = Math.max(first.size(), second.size());
-        for (int i = 0; i < max && selected.size() < limit; i++) {
-            addIfUnseen(selected, seen, first, i, limit);
-            addIfUnseen(selected, seen, second, i, limit);
-        }
-        return List.copyOf(selected);
-    }
-
-    private void addIfUnseen(
-            List<PersonalityMatch> selected,
-            Set<String> seen,
-            List<PersonalityMatch> candidates,
-            int index,
-            int limit) {
-        if (selected.size() >= limit || index >= candidates.size()) {
-            return;
-        }
-        PersonalityMatch match = candidates.get(index);
-        if (seen.add(match.personalityId())) {
-            selected.add(match);
-        }
-    }
-
     private String normalizeRepresentation(String representation) {
         if (representation == null || representation.isBlank()) {
             return null;
