@@ -5,11 +5,8 @@ import com.twelveaxes.model.BookRecommendation;
 import com.twelveaxes.model.PersonalityMatch;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
-import java.util.Comparator;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Stream;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -32,22 +29,23 @@ public class BookRecommendationService {
      * atuacao) que tem livro cadastrado, da maior para a menor compatibilidade.
      */
     public List<BookRecommendation> recommend(
-            List<PersonalityMatch> generalMatches,
-            List<PersonalityMatch> areaMatches,
+            List<PersonalityMatch> rankedMatches,
             String lang
     ) {
         String normalizedLang = QuizDataService.normalizeLang(lang);
         Map<String, Book> books = dataService.getBooks();
-        Map<String, PersonalityMatch> candidates = new LinkedHashMap<>();
-        Stream.concat(generalMatches.stream(), areaMatches.stream())
-                .filter(match -> books.containsKey(match.personalityId()))
-                .forEach(match -> candidates.putIfAbsent(match.personalityId(), match));
 
-        return candidates.values().stream()
-                .sorted(Comparator.comparingDouble(PersonalityMatch::compatibility).reversed())
+        return rankedMatches.stream()
+                .filter(match -> hasAvailableBook(books.get(match.personalityId()), normalizedLang))
                 .limit(MAX_BOOKS)
                 .map(match -> toRecommendation(match, books.get(match.personalityId()), normalizedLang))
                 .toList();
+    }
+
+    private boolean hasAvailableBook(Book book, String lang) {
+        return book != null
+                && localized(book.title(), lang) != null
+                && !localized(book.title(), lang).isBlank();
     }
 
     private BookRecommendation toRecommendation(PersonalityMatch match, Book book, String lang) {
