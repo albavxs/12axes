@@ -3,6 +3,8 @@ package com.twelveaxes;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import com.twelveaxes.service.QuizDataService;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.Set;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -56,6 +58,10 @@ class PersonalityCategoryTest {
                             .as("Retrato feminino deve ser asset local: %s", personality.id())
                             .doesNotStartWith("http://")
                             .doesNotStartWith("https://");
+                    Path imagePath = Path.of("..", "frontend", "public", personality.imagePath().replaceFirst("^/+", ""));
+                    assertThat(Files.exists(imagePath))
+                            .as("Retrato feminino local precisa existir: %s -> %s", personality.id(), imagePath)
+                            .isTrue();
                 });
     }
 
