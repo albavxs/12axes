@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "note": "Evidence dossiers support human review. They intentionally do not assign numeric 0-100 political scores.",
+  "axes": [
+    "estrutura",
+    "representacao",
+    "poder",
+    "imigracao",
+    "diplomacia",
+    "intervencao",
+    "economia",
+    "controle",
+    "comercio",
+    "religiao",
+    "moral",
+    "tecnologia"
+  ],
+  "personalities": [
+    {
+      "id": "rosa-parks",
+      "sources": [
+        {
+          "url": "https://www.loc.gov/exhibitions/rosa-parks-in-her-own-words/about-this-exhibition/early-life-and-activism/",
+          "institution": "Library of Congress"
+        },
+        {
+          "url": "https://www.loc.gov/exhibitions/rosa-parks-in-her-own-words/about-this-exhibition/the-bus-boycott/",
+          "institution": "Library of Congress"
+        }
+      ],
+      "evidence": {
+        "representacao": "Documented civil-rights organizing challenged racial disenfranchisement and segregation; use primary material to distinguish voting-rights advocacy from broader institutional preferences.",
+        "poder": "Her civil-rights work directly contested coercive segregation and unequal treatment under law.",
+        "moral": "Her activism centered racial equality and civil rights; translate this historical evidence into the project's axis only after editorial review."
+      }
+    },
+    {
+      "id": "lelia-gonzalez",
+      "sources": [
+        {
+          "url": "https://ea.fflch.usp.br/autor/lelia-gonzalez",
+          "institution": "Universidade de São Paulo"
+        }
+      ],
+      "evidence": {
+        "representacao": "USP biography documents participation in political and social organizations and public debate on racism and sexism.",
+        "moral": "Her scholarship and activism addressed racism, sexism and the social position of Black and Indigenous women in Latin America.",
+        "economia": "Do not infer an economic score from movement affiliation alone; requires issue-specific evidence."
+      }
+    },
+    {
+      "id": "angela-davis",
+      "sources": [
+        {
+          "url": "https://women.ucsc.edu/",
+          "institution": "University of California, Santa Cruz"
+        }
+      ],
+      "evidence": {
+        "poder": "Her published scholarship and activism address prisons, policing and incarceration; specific axis placement requires source-by-source review.",
+        "moral": "Her academic and activist record includes feminism, racial justice and gender-related scholarship.",
+        "economia": "Her writings engage capitalism and class, but a numeric public/private or planning/market placement requires direct textual evidence and review."
+      }
+    }
+  ]
+}
