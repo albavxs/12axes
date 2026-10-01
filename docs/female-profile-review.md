@@ -120,6 +120,16 @@ Estado do pipeline nesta abertura:
 
 Abrir o lote significa iniciar pesquisa factual. Não autoriza vetor, `ready` ou promoção ao runtime.
 
+## 3B. Primeiro subbloco dos 80
+
+Primeiro subbloco dos 80 concluído:
+
+- 20 novos dossiês factuais movidos para `review`;
+- 60 permanecem em `researching`;
+- 30 permanecem em `pending`.
+
+Os 20 dossiês seguem a mesma regra dos lotes anteriores: pelo menos duas fontes e pelo menos três campos de evidência, sem proposta numérica automática.
+
 ## 4A. Metadata editorial em staging
 
 Os 22 perfis mais antigos em review já possuem drafts factuais PT/EN em:

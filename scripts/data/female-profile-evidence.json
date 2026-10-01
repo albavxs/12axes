@@ -1406,6 +1406,390 @@
         "representacao": "Her public organizing sought political and social voice for workers and women; the selected sources do not by themselves define an electoral-system preference.",
         "poder": "Rights advocacy is relevant to legal status, but the evidence is insufficient for a broad order-versus-liberty score."
       }
+    },
+    {
+      "id": "clara-zetkin",
+      "sources": [
+        {
+          "url": "https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/clara-zetkin",
+          "institution": "Bundesstiftung zur Aufarbeitung der SED-Diktatur"
+        },
+        {
+          "url": "https://clara-zetkin-stiftung.de/biografie/",
+          "institution": "Clara-Zetkin-Stiftung"
+        }
+      ],
+      "evidence": {
+        "representacao": "Biographical sources document Zetkin's long work organizing women in socialist parties and her advocacy for women's political participation and suffrage.",
+        "economia": "Her political work was explicitly tied to socialism and the labour movement; sources describe her view that women's emancipation was connected to broader transformation of the economic and social order.",
+        "moral": "Her organizing focused on women's emancipation and equal political participation; this is direct evidence on gender-equality questions, while other social-policy positions require separate review.",
+        "diplomacia": "Her break with the SPD's wartime line and later anti-war activity are historically relevant, but a numeric diplomacy score would require issue-specific editorial review."
+      }
+    },
+    {
+      "id": "louise-michel",
+      "sources": [
+        {
+          "url": "https://www.bnf.fr/fr/louise-michel-une-heroine-de-la-commune",
+          "institution": "Bibliothèque nationale de France"
+        },
+        {
+          "url": "https://catalogue.bnf.fr/ark:/12148/cb451482239",
+          "institution": "Bibliothèque nationale de France"
+        }
+      ],
+      "evidence": {
+        "poder": "BnF material documents Michel's armed participation in the Paris Commune, her arrest, trial and deportation; this provides evidence about resistance to state authority but not a complete modern civil-liberty/order position.",
+        "economia": "Biographical material connects her activism to opposition to worker exploitation and later revolutionary politics; a precise ownership/planning placement still requires review of her writings.",
+        "moral": "Sources document her concern with women's emancipation and social equality.",
+        "metodologia": "Her revolutionary context differs substantially from modern institutional politics, so axis translation should preserve the distinction between historical action and contemporary policy categories."
+      }
+    },
+    {
+      "id": "millicent-fawcett",
+      "sources": [
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/millicent-garrett-fawcett/millicent-garrett-fawcett/",
+          "institution": "UK Parliament"
+        },
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/millicent-garrett-fawcett/consolidating-leadership-of-the-suffrage-campaign/",
+          "institution": "UK Parliament"
+        }
+      ],
+      "evidence": {
+        "representacao": "UK Parliament documents Fawcett's leadership of the constitutional women's suffrage movement and her role in the NUWSS.",
+        "poder": "Her movement emphasized parliamentary lobbying, petitions and legal constitutional methods rather than militant direct action, relevant to methods of institutional change but not a complete order/liberty profile.",
+        "moral": "Her public work focused on women's political and legal equality, directly relevant to gender-equality questions.",
+        "economia": "Parliamentary material discusses women's property and legal rights, but does not by itself establish a general market/planning position."
+      }
+    },
+    {
+      "id": "sylvia-pankhurst",
+      "sources": [
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/startsuffragette-/",
+          "institution": "UK Parliament"
+        },
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/the-east-london-federation-of-suffragettes/",
+          "institution": "UK Parliament"
+        }
+      ],
+      "evidence": {
+        "representacao": "UK Parliament documents her participation in the WSPU and later organizing through the East London Federation of Suffragettes around women's political rights.",
+        "economia": "The East London Federation organized around unemployment, working conditions, food access, nurseries and support for working women, providing issue-specific evidence on social and labour policy.",
+        "diplomacia": "The East London Federation opposed the First World War on socialist and political grounds and opposed conscription.",
+        "poder": "Opposition to wartime restrictions on free speech is direct civil-liberties evidence, though a broader domestic-order position needs additional review."
+      }
+    },
+    {
+      "id": "christabel-pankhurst",
+      "sources": [
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/startsuffragette-/",
+          "institution": "UK Parliament"
+        },
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/suffrage-societies-response/the-response-of-the-wspu/",
+          "institution": "UK Parliament"
+        },
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/the-vote-for-some/",
+          "institution": "UK Parliament"
+        }
+      ],
+      "evidence": {
+        "representacao": "Parliamentary sources document Christabel Pankhurst's central role in the WSPU and her candidacy after women became eligible to stand for Parliament.",
+        "poder": "The WSPU used civil disobedience and later militant tactics, leading to imprisonment of members; methods should not be equated automatically with a general authoritarian/libertarian position.",
+        "diplomacia": "During the First World War she supported the WSPU's shift toward wartime patriotism, a materially different phase from prewar suffrage militancy.",
+        "moral": "Her sustained campaign for women's political equality is direct evidence on gender-equality questions."
+      }
+    },
+    {
+      "id": "edith-cavell",
+      "sources": [
+        {
+          "url": "https://cavell.org.uk/what-we-do/who-was-edith-cavell/",
+          "institution": "Cavell"
+        },
+        {
+          "url": "https://www.theworldwar.org/learn/about-wwi/edith-cavell",
+          "institution": "National WWI Museum and Memorial"
+        }
+      ],
+      "evidence": {
+        "diplomacia": "Sources document Cavell's treatment of wounded soldiers without regard to nationality during the First World War, a humanitarian record distinct from a general foreign-policy doctrine.",
+        "poder": "She helped Allied soldiers escape occupied Belgium, was arrested by German authorities and executed, providing evidence about resistance under military occupation rather than a broad domestic-state-power position.",
+        "moral": "Her nursing and humanitarian actions emphasized care across national lines.",
+        "metodologia": "Cavell was not principally a political theorist or officeholder, so many of the project's 12 axes remain underdetermined and should not be filled by biographical inference."
+      }
+    },
+    {
+      "id": "sophie-scholl",
+      "sources": [
+        {
+          "url": "https://www.dhm.de/lemo/biografie/sophie-scholl",
+          "institution": "Deutsches Historisches Museum"
+        },
+        {
+          "url": "https://www.weisse-rose-stiftung.de/white-rose-memorial-exhibition/",
+          "institution": "Weiße Rose Stiftung"
+        }
+      ],
+      "evidence": {
+        "poder": "DHM documents Scholl's illegal resistance to the Nazi dictatorship, Gestapo arrest and execution after distributing White Rose leaflets.",
+        "representacao": "The White Rose called for the overthrow of the Nazi regime and a different political future for Germany; this is evidence of anti-dictatorial resistance, not a complete model of preferred democratic institutions.",
+        "moral": "Her resistance is directly documented as opposition to National Socialism and state repression.",
+        "metodologia": "Her short life and resistance context provide strong evidence on dictatorship and conscience but limited evidence for economic, trade or administrative axes."
+      }
+    },
+    {
+      "id": "bertha-von-suttner",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/peace/1905/suttner/facts/",
+          "institution": "Nobel Prize Outreach"
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/themes/heroines-of-peace-the-nine-nobel-women/",
+          "institution": "Nobel Prize Outreach"
+        }
+      ],
+      "evidence": {
+        "diplomacia": "Nobel sources identify von Suttner as a leading figure in the international peace movement and author of the anti-war novel Lay Down Your Arms.",
+        "intervencao": "Her public record was explicitly anti-militarist and oriented toward international peace organization; translating that into the project's intervention axis still requires editorial distinction between anti-war activism and non-interventionism.",
+        "moral": "Her public leadership challenged the military and aristocratic expectations of her social milieu and expanded women's visibility in peace activism.",
+        "metodologia": "The sources strongly establish pacifism but do not by themselves support broad economic or domestic-order scores."
+      }
+    },
+    {
+      "id": "gro-harlem-brundtland",
+      "sources": [
+        {
+          "url": "https://www.who.int/director-general/former-directors-general",
+          "institution": "World Health Organization"
+        },
+        {
+          "url": "https://sdgs.un.org/sites/default/files/documents/5987our-common-future.pdf",
+          "institution": "United Nations"
+        }
+      ],
+      "evidence": {
+        "economia": "WHO documents Brundtland's long public-sector career in health, environment and government; this supports an active public-policy role but not a precise public/private ownership score.",
+        "tecnologia": "Her work linked public health, environment and sustainable development, reflecting use of scientific and institutional policy tools rather than a simple pro/anti-technology stance.",
+        "diplomacia": "She chaired the World Commission on Environment and Development and later led WHO, providing direct evidence of multilateral international engagement.",
+        "representacao": "Her repeated electoral and executive service in Norway is institutional-democratic evidence, though officeholding alone is not a full democracy-axis score."
+      }
+    },
+    {
+      "id": "tarja-halonen",
+      "sources": [
+        {
+          "url": "https://www.presidentti.fi/halonen/public/default625a.html?contentid=168259&contentlan=2&culture=en-US&nodeid=41419",
+          "institution": "Office of the President of Finland"
+        },
+        {
+          "url": "https://www.presidentti.fi/halonen/public/default9c52.html",
+          "institution": "Office of the President of Finland"
+        }
+      ],
+      "evidence": {
+        "representacao": "Official sources document Halonen's parliamentary career, presidency and explicit support for democratic participation and women's political participation.",
+        "moral": "Her presidential speeches describe gender equality and women's rights as human-rights issues and support equal rights and opportunities.",
+        "poder": "Her public statements emphasize human rights, anti-discrimination and civil society as essential to democracy.",
+        "diplomacia": "Presidential speeches frame international cooperation, human rights and multilateral action as central to global policy."
+      }
+    },
+    {
+      "id": "vigdis-finnbogadottir",
+      "sources": [
+        {
+          "url": "https://www.forseti.is/en/former-presidents/vigdis-finnbogadottir",
+          "institution": "Office of the President of Iceland"
+        },
+        {
+          "url": "https://www.unesco.org/en/goodwill-ambassadors/list",
+          "institution": "UNESCO"
+        }
+      ],
+      "evidence": {
+        "representacao": "The Icelandic presidency records that Finnbogadóttir was elected president in 1980 and served through 1996, becoming the first woman in the world elected president by popular vote.",
+        "diplomacia": "Her later UNESCO role as Goodwill Ambassador for Languages is evidence of sustained international cultural engagement, not a complete foreign-policy doctrine.",
+        "moral": "Her public career expanded women's representation in national leadership; broader social-policy positions require issue-specific evidence.",
+        "metodologia": "The selected official sources are strongest on institutional role, culture and representation and do not establish economic or coercive-state positions."
+      }
+    },
+    {
+      "id": "mary-robinson",
+      "sources": [
+        {
+          "url": "https://press.un.org/en/1997/19970612.sga638.html",
+          "institution": "United Nations"
+        },
+        {
+          "url": "https://unric.org/en/women-in-diplomacy-mary-robinsons-ongoing-global-legacy/",
+          "institution": "United Nations Regional Information Centre"
+        }
+      ],
+      "evidence": {
+        "representacao": "UN sources document Robinson's service as Ireland's first woman president and her legal career in constitutional and human-rights law.",
+        "poder": "Her work as UN High Commissioner centered human-rights institutions and protection against rights abuses, directly relevant to civil-liberties concerns.",
+        "diplomacia": "Her UN leadership and later international advocacy provide direct evidence of multilateral engagement.",
+        "moral": "UN material describes sustained advocacy for women's rights and vulnerable groups."
+      }
+    },
+    {
+      "id": "mary-mcaleese",
+      "sources": [
+        {
+          "url": "https://president.ie/en/the-president/mary-mcaleese",
+          "institution": "Office of the President of Ireland"
+        },
+        {
+          "url": "https://www.qub.ac.uk/schools/queens-business-school/about/deib/annual-mary-mcaleese-diversity-lecture-series/",
+          "institution": "Queen's University Belfast"
+        }
+      ],
+      "evidence": {
+        "representacao": "Official biography documents two presidential terms and a career in law, academia and public institutions.",
+        "poder": "Her stated interests include justice, equality, anti-sectarianism and human rights, relevant to rights and inclusion rather than a complete order/liberty score.",
+        "diplomacia": "Her presidency's 'Building Bridges' theme and work on reconciliation in Northern Ireland provide evidence of conflict-reconciliation and cross-community engagement.",
+        "moral": "Queen's University highlights her work on equality of opportunity, diversity and inclusion."
+      }
+    },
+    {
+      "id": "sanna-marin",
+      "sources": [
+        {
+          "url": "https://valtioneuvosto.fi/en/governments-and-ministers/ministers/-/min/sanna-marin",
+          "institution": "Finnish Government"
+        },
+        {
+          "url": "https://www.europarl.europa.eu/cmsdata/305572/Speakers%27%20biographical%20details-.pdf",
+          "institution": "European Parliament"
+        }
+      ],
+      "evidence": {
+        "representacao": "Finnish Government records Marin's service as prime minister and earlier parliamentary and municipal roles.",
+        "moral": "European Parliament biographical material describes reforms on social justice and equality during her government.",
+        "diplomacia": "Her premiership included Finland's response to Russia's full-scale invasion of Ukraine and the country's NATO accession; these events require policy-specific review rather than an inferred general militarism score.",
+        "economia": "Her government operated within Finland's social-democratic welfare-state framework, but a precise market/planning placement requires direct fiscal and economic-policy evidence."
+      }
+    },
+    {
+      "id": "jacinda-ardern",
+      "sources": [
+        {
+          "url": "https://www3.parliament.nz/en/mps-and-electorates/former-members-of-parliament/ardern-jacinda/",
+          "institution": "New Zealand Parliament"
+        },
+        {
+          "url": "https://www.beehive.govt.nz/minister/rt-hon-jacinda-ardern-2017",
+          "institution": "New Zealand Government"
+        }
+      ],
+      "evidence": {
+        "representacao": "New Zealand Parliament documents Ardern's elected parliamentary service, opposition leadership and tenure as prime minister.",
+        "economia": "Her ministerial portfolio included child-poverty reduction and her government treated poverty and housing as public-policy priorities; that does not determine a complete market/planning score.",
+        "poder": "Her premiership included national-security and intelligence responsibility and policy responses after the Christchurch attacks; these require issue-specific review rather than a broad coercion score.",
+        "moral": "Government material documents sustained policy attention to child wellbeing and social inclusion."
+      }
+    },
+    {
+      "id": "julia-gillard",
+      "sources": [
+        {
+          "url": "https://www.naa.gov.au/explore-collection/australias-prime-ministers/julia-gillard/fast-facts",
+          "institution": "National Archives of Australia"
+        },
+        {
+          "url": "https://www.naa.gov.au/explore-collection/australias-prime-ministers/julia-gillard/before-office",
+          "institution": "National Archives of Australia"
+        }
+      ],
+      "evidence": {
+        "representacao": "National Archives documents Gillard's parliamentary career and service as Australia's first woman prime minister.",
+        "economia": "Her earlier ministerial responsibilities included employment, workplace relations and social inclusion; the archives also document Fair Work legislation during her tenure as employment minister.",
+        "moral": "Her public career included education and social-inclusion policy, but these issue areas should not be collapsed into a single progressive/traditionalist score without further review.",
+        "poder": "The selected archival biography focuses on institutional and social policy rather than civil-liberty, surveillance or policing questions, so this axis remains underdetermined."
+      }
+    },
+    {
+      "id": "helen-clark",
+      "sources": [
+        {
+          "url": "https://www.undp.org/our-leadership/past-administrators",
+          "institution": "United Nations Development Programme"
+        },
+        {
+          "url": "https://www3.parliament.nz/en/mps-and-electorates/former-members-of-parliament/clark-helen/",
+          "institution": "New Zealand Parliament"
+        }
+      ],
+      "evidence": {
+        "representacao": "New Zealand Parliament documents Clark's long elected career, opposition leadership and prime-ministerial tenure.",
+        "economia": "UNDP describes her government's period as involving high investment in education and health, while Parliament records housing, health and labour portfolios earlier in her career.",
+        "diplomacia": "Her parliamentary roles included foreign affairs, disarmament and arms control, followed later by leadership of UNDP, providing direct evidence of sustained international engagement.",
+        "poder": "Her responsibility for intelligence agencies while prime minister is documented, but institutional oversight alone does not reveal a general surveillance/order preference."
+      }
+    },
+    {
+      "id": "kate-sheppard",
+      "sources": [
+        {
+          "url": "https://nzhistory.govt.nz/people/kate-sheppard",
+          "institution": "New Zealand Ministry for Culture and Heritage"
+        },
+        {
+          "url": "https://nzhistory.govt.nz/politics/womens-suffrage/brief-history",
+          "institution": "New Zealand Ministry for Culture and Heritage"
+        }
+      ],
+      "evidence": {
+        "representacao": "NZ History documents Sheppard's leadership of the suffrage campaign that culminated in women's parliamentary voting rights in 1893.",
+        "moral": "Her organizing explicitly challenged restrictions on women's social and political roles and continued into broader women's-rights work.",
+        "poder": "Her campaign relied on petitions, lobbying and public organizing within constitutional politics, providing evidence about methods rather than a full liberty/order position.",
+        "religiao": "Her activism had links to the Women's Christian Temperance Union, but organizational religious context should not be converted directly into a state-religion score."
+      }
+    },
+    {
+      "id": "bartolina-sisa",
+      "sources": [
+        {
+          "url": "https://mujer.sea.gob.bo/src/personajeResultado.php?variable=4",
+          "institution": "Servicio Estatal de Autonomías, Bolivia"
+        },
+        {
+          "url": "https://sea.gob.bo/mujeres-y-democracia/participacion_politica/index.html",
+          "institution": "Servicio Estatal de Autonomías, Bolivia"
+        }
+      ],
+      "evidence": {
+        "intervencao": "Bolivian institutional material documents Sisa's participation in the 1781 Indigenous uprising against Spanish colonial rule; anti-colonial resistance should be kept distinct from modern foreign-intervention categories.",
+        "poder": "Her leadership in armed resistance and subsequent execution are evidence about colonial coercion and resistance rather than a general modern domestic-order position.",
+        "representacao": "Her historical role is treated in Bolivia's official chronology of women's political participation, demonstrating political leadership by an Indigenous woman in the colonial period.",
+        "metodologia": "The eighteenth-century colonial context limits direct mapping onto several modern policy axes and warrants cautious human review."
+      }
+    },
+    {
+      "id": "manuela-saenz",
+      "sources": [
+        {
+          "url": "https://enciclopedia.banrepcultural.org/Manuela_S%C3%A1enz",
+          "institution": "Banco de la República Cultural, Colombia"
+        },
+        {
+          "url": "https://www.cancilleria.gob.ec/2014/05/29/obra-manuela-saenz-presente-pasado-y-futuro-recupera-memoria-historica-de-los-pueblos-latinoamericanos/",
+          "institution": "Ministry of Foreign Affairs of Ecuador"
+        }
+      ],
+      "evidence": {
+        "intervencao": "Sources document Sáenz's active participation in South American independence struggles; anti-colonial independence politics should not be treated as a direct modern interventionism score.",
+        "poder": "Her political activity included support for revolutionary forces and resistance to colonial authority, providing historical evidence about coercive institutions and revolutionary politics.",
+        "representacao": "Institutional memory projects treat her as an active political actor in independence rather than only through her relationship with Simón Bolívar.",
+        "metodologia": "Her early nineteenth-century context requires caution when translating revolutionary independence activity into contemporary 12-axis categories."
+      }
     }
   ]
 }

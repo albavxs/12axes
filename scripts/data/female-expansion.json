@@ -1126,8 +1126,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/clara-zetkin",
+        "https://clara-zetkin-stiftung.de/biografie/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "louise-michel",
@@ -1138,8 +1143,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.bnf.fr/fr/louise-michel-une-heroine-de-la-commune",
+        "https://catalogue.bnf.fr/ark:/12148/cb451482239"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "millicent-fawcett",
@@ -1150,8 +1160,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/millicent-garrett-fawcett/millicent-garrett-fawcett/",
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/millicent-garrett-fawcett/consolidating-leadership-of-the-suffrage-campaign/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "sylvia-pankhurst",
@@ -1162,8 +1177,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/startsuffragette-/",
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/the-east-london-federation-of-suffragettes/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "christabel-pankhurst",
@@ -1174,8 +1194,14 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/startsuffragette-/",
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/suffrage-societies-response/the-response-of-the-wspu/",
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/the-vote-for-some/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "edith-cavell",
@@ -1186,8 +1212,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://cavell.org.uk/what-we-do/who-was-edith-cavell/",
+        "https://www.theworldwar.org/learn/about-wwi/edith-cavell"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "sophie-scholl",
@@ -1198,8 +1229,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.dhm.de/lemo/biografie/sophie-scholl",
+        "https://www.weisse-rose-stiftung.de/white-rose-memorial-exhibition/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "bertha-von-suttner",
@@ -1210,8 +1246,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.nobelprize.org/prizes/peace/1905/suttner/facts/",
+        "https://www.nobelprize.org/prizes/themes/heroines-of-peace-the-nine-nobel-women/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "gro-harlem-brundtland",
@@ -1222,8 +1263,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.who.int/director-general/former-directors-general",
+        "https://sdgs.un.org/sites/default/files/documents/5987our-common-future.pdf"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "tarja-halonen",
@@ -1234,8 +1280,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.presidentti.fi/halonen/public/default625a.html?contentid=168259&contentlan=2&culture=en-US&nodeid=41419",
+        "https://www.presidentti.fi/halonen/public/default9c52.html"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "vigdis-finnbogadottir",
@@ -1246,8 +1297,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.forseti.is/en/former-presidents/vigdis-finnbogadottir",
+        "https://www.unesco.org/en/goodwill-ambassadors/list"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "mary-robinson",
@@ -1258,8 +1314,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://press.un.org/en/1997/19970612.sga638.html",
+        "https://unric.org/en/women-in-diplomacy-mary-robinsons-ongoing-global-legacy/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "mary-mcaleese",
@@ -1270,8 +1331,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://president.ie/en/the-president/mary-mcaleese",
+        "https://www.qub.ac.uk/schools/queens-business-school/about/deib/annual-mary-mcaleese-diversity-lecture-series/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "sanna-marin",
@@ -1282,8 +1348,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://valtioneuvosto.fi/en/governments-and-ministers/ministers/-/min/sanna-marin",
+        "https://www.europarl.europa.eu/cmsdata/305572/Speakers%27%20biographical%20details-.pdf"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "jacinda-ardern",
@@ -1294,8 +1365,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www3.parliament.nz/en/mps-and-electorates/former-members-of-parliament/ardern-jacinda/",
+        "https://www.beehive.govt.nz/minister/rt-hon-jacinda-ardern-2017"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "julia-gillard",
@@ -1306,8 +1382,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.naa.gov.au/explore-collection/australias-prime-ministers/julia-gillard/fast-facts",
+        "https://www.naa.gov.au/explore-collection/australias-prime-ministers/julia-gillard/before-office"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "helen-clark",
@@ -1318,8 +1399,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.undp.org/our-leadership/past-administrators",
+        "https://www3.parliament.nz/en/mps-and-electorates/former-members-of-parliament/clark-helen/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "kate-sheppard",
@@ -1330,8 +1416,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://nzhistory.govt.nz/people/kate-sheppard",
+        "https://nzhistory.govt.nz/politics/womens-suffrage/brief-history"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "bartolina-sisa",
@@ -1342,8 +1433,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://mujer.sea.gob.bo/src/personajeResultado.php?variable=4",
+        "https://sea.gob.bo/mujeres-y-democracia/participacion_politica/index.html"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "manuela-saenz",
@@ -1354,8 +1450,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://enciclopedia.banrepcultural.org/Manuela_S%C3%A1enz",
+        "https://www.cancilleria.gob.ec/2014/05/29/obra-manuela-saenz-presente-pasado-y-futuro-recupera-memoria-historica-de-los-pueblos-latinoamericanos/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "policarpa-salavarrieta",
@@ -2445,8 +2546,8 @@
     "targetFemaleCount": 193,
     "remainingUnplanned": 0,
     "readyCandidateCount": 0,
-    "profileReviewCount": 62,
-    "profileResearchingCount": 80,
+    "profileReviewCount": 82,
+    "profileResearchingCount": 60,
     "profilePendingCount": 30,
     "blockedFromRuntimeCount": 172
   },
@@ -2474,7 +2575,7 @@
     "currentResearchBatchSize": 80,
     "nextResearchBatchSize": 30,
     "recoveryPolicy": "Before reset/rebase/pull over local work, inspect git status and preserve unfinished work in a rescue branch/commit. Remote HEAD is the source of truth for committed state.",
-    "batchCheckpoint": "80-profile research batch opened after maintainer approval; 30 candidates remain pending. Research must still pass dossier gates before review.",
+    "batchCheckpoint": "80-profile batch active: first 20 dossiers complete and moved to review; 60 remain researching; 30 remain pending.",
     "metadataDraftFile": "scripts/data/female-metadata-drafts.json",
     "metadataPolicy": "PT/EN metadata may be drafted before profile approval. Drafted metadata remains outside runtime until portrait and profile gates are satisfied.",
     "portraitPolicy": "Portraits in review must exist locally as JPEGs and include source, license and attribution metadata in female-metadata-drafts.json. Human visual review promotes portraitStatus to ready."
