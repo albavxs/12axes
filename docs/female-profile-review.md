@@ -31,8 +31,8 @@ A partir dele, usar crescimento por dobra apenas quando o processo anterior esti
 ```text
 20  -> processo validado
 40  -> pesquisa concluída; checkpoint atual em review
-80  -> próximo lote, BLOQUEADO até validação do mantenedor
-30  -> restante previsto do pipeline atual
+80  -> lote atual aberto após validação do mantenedor
+30  -> lote final ainda pendente
 ```
 
 A dobra vale para **pesquisa aberta**, não significa integrar 40 ou 80 perfis sem revisão.
@@ -106,6 +106,19 @@ Estas 40 concluíram a passada factual e estão agora em `review`:
 38. Tomoe Gozen
 39. Olympe de Gouges
 40. Flora Tristan
+
+## 3A. Lote atual de 80
+
+Após aprovação do checkpoint anterior, os próximos 80 candidatos foram movidos de `pending` para `researching`.
+
+Estado do pipeline nesta abertura:
+
+- 62 em `review`;
+- 80 em `researching`;
+- 30 em `pending`;
+- 28 já integradas no runtime.
+
+Abrir o lote significa iniciar pesquisa factual. Não autoriza vetor, `ready` ou promoção ao runtime.
 
 ## 4A. Metadata editorial em staging
 
