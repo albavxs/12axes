@@ -4,16 +4,25 @@ import { resolve } from 'node:path';
 const root = resolve(import.meta.dirname, '../..');
 const manifestPath = resolve(root, 'scripts/data/female-expansion.json');
 const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
+const personalitiesPath = resolve(root, 'backend/src/main/resources/data/personalities.json');
+const personalities = JSON.parse(readFileSync(personalitiesPath, 'utf8'));
 
 const requiredStatuses = ['metadataStatus', 'portraitStatus', 'translationStatus', 'profileStatus'];
 const candidates = manifest.candidates;
 const ids = candidates.map((candidate) => candidate.id);
 const duplicateIds = ids.filter((id, index) => ids.indexOf(id) !== index);
-const ready = candidates.filter((candidate) =>
+const runtimeFemaleIds = new Set(
+  personalities
+    .filter((personality) => personality.representation === 'female')
+    .map((personality) => personality.id)
+);
+const integratedFromPipeline = candidates.filter((candidate) => runtimeFemaleIds.has(candidate.id));
+const activeCandidates = candidates.filter((candidate) => !runtimeFemaleIds.has(candidate.id));
+const ready = activeCandidates.filter((candidate) =>
   requiredStatuses.every((field) => candidate[field] === 'ready')
 );
-const blocked = candidates.filter((candidate) => !ready.includes(candidate));
-const planned = manifest.target.initialFemaleCount + candidates.length;
+const blocked = activeCandidates.filter((candidate) => !ready.includes(candidate));
+const planned = runtimeFemaleIds.size + activeCandidates.length;
 const remainingUnplanned = Math.max(0, manifest.target.targetFemaleCount - planned);
 
 const errors = [];
@@ -28,11 +37,41 @@ for (const candidate of candidates) {
     }
   }
 }
+for (const candidate of integratedFromPipeline) {
+  const missingReady = requiredStatuses.filter((field) => candidate[field] !== 'ready');
+  if (missingReady.length) {
+    errors.push(
+      `${candidate.id}: presente no runtime antes de concluir os gates: ${missingReady.join(', ')}`
+    );
+  }
+}
+
+const expectedProgress = {
+  integratedFemaleCount: runtimeFemaleIds.size,
+  pipelineCandidateCount: activeCandidates.length,
+  plannedFemaleCount: planned,
+  targetFemaleCount: manifest.target.targetFemaleCount,
+  remainingUnplanned,
+  readyCandidateCount: ready.length,
+  profileReviewCount: activeCandidates.filter((candidate) => candidate.profileStatus === 'review').length,
+  profileResearchingCount: activeCandidates.filter((candidate) => candidate.profileStatus === 'researching').length,
+  profilePendingCount: activeCandidates.filter((candidate) => candidate.profileStatus === 'pending').length,
+  blockedFromRuntimeCount: blocked.length
+};
+for (const [field, expected] of Object.entries(expectedProgress)) {
+  if (manifest.progress?.[field] !== expected) {
+    errors.push(
+      `progress.${field} desatualizado: manifest=${manifest.progress?.[field]} runtime/pipeline=${expected}`
+    );
+  }
+}
 
 const summary = {
   target: manifest.target.targetFemaleCount,
-  integrated: manifest.target.initialFemaleCount,
-  pipeline: candidates.length,
+  integrated: runtimeFemaleIds.size,
+  pipeline: activeCandidates.length,
+  manifestCandidates: candidates.length,
+  integratedFromPipeline: integratedFromPipeline.length,
   planned,
   ready: ready.length,
   blocked: blocked.length,
@@ -40,7 +79,7 @@ const summary = {
   byProfileStatus: Object.fromEntries(
     manifest.statuses.map((status) => [
       status,
-      candidates.filter((candidate) => candidate.profileStatus === status).length
+      activeCandidates.filter((candidate) => candidate.profileStatus === status).length
     ])
   )
 };
