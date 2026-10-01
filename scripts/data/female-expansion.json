@@ -18,11 +18,15 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "researching",
       "translationStatus": "pending",
       "profileStatus": "pending",
-      "bookStatus": "review"
+      "bookStatus": "review",
+      "sources": [
+        "https://www.loc.gov/exhibitions/rosa-parks-in-her-own-words/about-this-exhibition/early-life-and-activism/",
+        "https://www.loc.gov/nls/new-materials/book-lists/rosa-parks/"
+      ]
     },
     {
       "id": "lelia-gonzalez",
@@ -30,11 +34,14 @@
       "region": "latin-america",
       "period": "20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "researching",
       "translationStatus": "pending",
       "profileStatus": "pending",
-      "bookStatus": "review"
+      "bookStatus": "review",
+      "sources": [
+        "https://ea.fflch.usp.br/autor/lelia-gonzalez"
+      ]
     },
     {
       "id": "angela-davis",
@@ -42,11 +49,14 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "researching",
       "translationStatus": "pending",
       "profileStatus": "pending",
-      "bookStatus": "review"
+      "bookStatus": "review",
+      "sources": [
+        "https://campusdirectory.ucsc.edu/cd_detail?uid=aydavis"
+      ]
     },
     {
       "id": "ayn-rand",
