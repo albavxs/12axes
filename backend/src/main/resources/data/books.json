@@ -2494,5 +2494,41 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "rosa-parks",
+    "title": {
+      "pt": "Rosa Parks: Minha História",
+      "en": "Rosa Parks: My Story"
+    },
+    "year": 1992,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "lelia-gonzalez",
+    "title": {
+      "pt": "Por um Feminismo Afro-Latino-Americano",
+      "en": "Por um Feminismo Afro-Latino-Americano"
+    },
+    "year": 2020,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
+  },
+  {
+    "personalityId": "angela-davis",
+    "title": {
+      "pt": "Mulheres, Raça e Classe",
+      "en": "Women, Race & Class"
+    },
+    "year": 1982,
+    "url": {
+      "pt": "",
+      "en": ""
+    }
   }
 ]
