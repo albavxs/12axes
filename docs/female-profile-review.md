@@ -6,15 +6,19 @@
 
 ## 1. Estado de partida
 
-Após a recuperação e integração do primeiro lote auditado:
+Checkpoint após concluir a pesquisa factual da leva de 40:
 
 - runtime feminino: **28**;
 - pipeline ativo: **172**;
 - planejamento total: **200**;
 - meta mínima: **193**;
-- em `review`: **22**;
-- novo lote em `researching`: **40**;
-- ainda em `pending`: **110**.
+- em `review`: **62**;
+- em `researching`: **0**;
+- em `pending`: **110**.
+
+Os 40 dossiês do lote atual possuem pelo menos duas fontes e três campos de evidência. Isso significa **pesquisa pronta para revisão**, não perfil político aprovado.
+
+Metadata, tradução, retratos e vetores continuam sujeitos aos gates próprios. Em especial, nenhum dos 40 foi promovido para `ready` ou runtime.
 
 A meta de 193 é mínima. Não remover candidatas já planejadas apenas para fazer o total voltar a 193.
 
@@ -26,8 +30,8 @@ A partir dele, usar crescimento por dobra apenas quando o processo anterior esti
 
 ```text
 20  -> processo validado
-40  -> lote atual
-80  -> próximo lote, somente após validar o lote de 40
+40  -> pesquisa concluída; checkpoint atual em review
+80  -> próximo lote, BLOQUEADO até validação do mantenedor
 30  -> restante previsto do pipeline atual
 ```
 
@@ -58,9 +62,9 @@ Para cada uma:
 9. integrar runtime;
 10. reconciliar manifest.
 
-### Fila B — pesquisar as próximas 40
+### Fila B — revisar a pesquisa das 40
 
-Estas 40 passam agora para `researching`:
+Estas 40 concluíram a passada factual e estão agora em `review`:
 
 1. Frances Willard
 2. Carrie Chapman Catt

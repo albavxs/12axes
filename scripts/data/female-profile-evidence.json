@@ -630,6 +630,782 @@
         "poder": "Imprisonment and hunger strikes during suffrage campaigns supply evidence about state coercion against protest.",
         "economia": "ERA advocacy affects employment and legal equality but does not settle ownership or planning/market placement."
       }
+    },
+    {
+      "id": "frances-willard",
+      "sources": [
+        {
+          "url": "https://sites.northwestern.edu/radicalwoman/",
+          "institution": "Northwestern University"
+        },
+        {
+          "url": "https://findingaids.library.northwestern.edu/agents/people/2138",
+          "institution": "Northwestern University Archives"
+        }
+      ],
+      "evidence": {
+        "representacao": "Northwestern documents Willard's leadership in the WCTU and her work to make woman suffrage part of its program, providing direct evidence of support for expanding women's political participation.",
+        "economia": "The Northwestern archival description links her reform program to economic equality and fair labor laws; this supports documenting reform interests but not a precise market-versus-planning score.",
+        "moral": "Her public reform work included women's equality and suffrage. Translating those positions into the project's moral axis still requires editorial review.",
+        "religiao": "Her activism operated within a Protestant temperance organization and religious reform milieu; organizational affiliation alone is insufficient to infer a numeric religion-axis position."
+      }
+    },
+    {
+      "id": "carrie-chapman-catt",
+      "sources": [
+        {
+          "url": "https://www.loc.gov/collections/national-american-woman-suffrage-association/articles-and-essays/carrie-chapman-catt/",
+          "institution": "Library of Congress"
+        },
+        {
+          "url": "https://home.nps.gov/people/carrie-chapman-catt.htm",
+          "institution": "National Park Service"
+        }
+      ],
+      "evidence": {
+        "representacao": "Library of Congress and NPS materials document Catt's central role in the woman-suffrage movement, NAWSA leadership and the League of Women Voters.",
+        "diplomacia": "Her later public work included organized peace advocacy. This is relevant evidence for the diplomacy axis, but the breadth and period of that position must be reviewed before modeling.",
+        "poder": "Her suffrage organizing sought equal legal and political participation for women; it does not by itself establish a general position on surveillance, policing or state coercion.",
+        "economia": "Biographical material mentions reform interests including child labor; that is issue-specific evidence and should not be converted directly into an overall economic-system score."
+      }
+    },
+    {
+      "id": "lucy-stone",
+      "sources": [
+        {
+          "url": "https://www.nps.gov/people/lucy-stone.htm",
+          "institution": "National Park Service"
+        },
+        {
+          "url": "https://www.womenshistory.org/education-resources/biographies/lucy-stone",
+          "institution": "National Women's History Museum"
+        }
+      ],
+      "evidence": {
+        "representacao": "Sources document Stone's sustained advocacy for woman suffrage and women's political rights.",
+        "poder": "Her abolitionist and equal-rights activism challenged legal exclusions based on race and sex; this is civil-rights evidence, not a complete civil-liberty/order profile.",
+        "moral": "Her public advocacy for women's legal and social equality is directly relevant to the project's traditionalist-progressive axis.",
+        "economia": "Property, taxation and employment questions appear in the broader women's-rights context, but a general market/planning position requires additional issue-specific evidence."
+      }
+    },
+    {
+      "id": "frances-perkins",
+      "sources": [
+        {
+          "url": "https://beta.dol.gov/about/history/past-secretaries/frances-perkins",
+          "institution": "U.S. Department of Labor"
+        },
+        {
+          "url": "https://www.nps.gov/people/frances-perkins.htm",
+          "institution": "National Park Service"
+        }
+      ],
+      "evidence": {
+        "economia": "Official biographies document Perkins's role in Social Security, labor standards, unemployment relief and worker protections, establishing strong evidence for an active public role in social and labor policy.",
+        "controle": "Her work on federal labor standards and social-insurance institutions shows support for specific economic regulation; it does not automatically determine a full planning-versus-market score.",
+        "poder": "Workplace safety, collective-bargaining protections and limits on child labor are documented policy priorities relevant to how state power was used to protect workers.",
+        "representacao": "Her cabinet service and earlier reform work occurred within electoral and administrative institutions, but officeholding alone should not be used as a democracy score."
+      }
+    },
+    {
+      "id": "eleanor-roosevelt",
+      "sources": [
+        {
+          "url": "https://www.fdrlibrary.org/er-biography",
+          "institution": "Franklin D. Roosevelt Presidential Library"
+        },
+        {
+          "url": "https://www.fdrlibrary.org/human-rights",
+          "institution": "Franklin D. Roosevelt Presidential Library"
+        }
+      ],
+      "evidence": {
+        "representacao": "The FDR Library documents Roosevelt's work for civil and political rights and her public role in expanding participation, including advocacy involving women and marginalized groups.",
+        "poder": "Her human-rights work and civil-rights advocacy provide evidence of concern with individual rights and equal protection.",
+        "diplomacia": "She chaired the UN Human Rights Commission during preparation of the Universal Declaration of Human Rights, providing direct evidence of multilateral international engagement.",
+        "moral": "Her documented advocacy included racial equality, women's rights and social equality; any numeric placement should distinguish these specific positions from unrelated moral-policy questions."
+      }
+    },
+    {
+      "id": "ruth-bader-ginsburg",
+      "sources": [
+        {
+          "url": "https://www.loc.gov/item/n50029918/ruth-bader-ginsburg/",
+          "institution": "Library of Congress"
+        },
+        {
+          "url": "https://www.supremecourt.gov/about/biographyginsburg.aspx?aff_id=1262",
+          "institution": "Supreme Court of the United States"
+        }
+      ],
+      "evidence": {
+        "representacao": "Official biographies document Ginsburg's litigation and institutional work on sex discrimination and equal legal participation.",
+        "poder": "Her Women's Rights Project litigation provides direct evidence on constitutional and civil-rights protections; a general order-versus-liberty score requires review of a wider judicial record.",
+        "moral": "Her career includes sustained legal advocacy against sex-based discrimination, relevant to gender-equality questions on the moral axis.",
+        "estrutura": "Service on federal courts does not by itself establish a centralization or federalism preference; constitutional decisions would need issue-specific review."
+      }
+    },
+    {
+      "id": "sandra-day-oconnor",
+      "sources": [
+        {
+          "url": "https://www.supremecourt.gov/about/biographyOconnor.aspx",
+          "institution": "Supreme Court of the United States"
+        },
+        {
+          "url": "https://loc.gov/loc/lcib/0812/oconnor.html",
+          "institution": "Library of Congress"
+        }
+      ],
+      "evidence": {
+        "representacao": "Official biographical sources document O'Connor's elected and appointed service in Arizona government and the federal judiciary; this establishes institutional participation, not a complete democracy-axis position.",
+        "estrutura": "Her career spans state legislative, state judicial and federal judicial institutions, but biography alone does not establish a substantive federalism or decentralization preference.",
+        "poder": "Judicial office alone cannot be translated into a civil-liberty/order score; issue-specific opinions would be required before proposal.",
+        "moral": "The selected biographical sources do not support a broad traditionalist-progressive placement. This axis should remain explicitly uncertain pending direct jurisprudential evidence."
+      }
+    },
+    {
+      "id": "geraldine-ferraro",
+      "sources": [
+        {
+          "url": "https://history.house.gov/People/Detail/13081",
+          "institution": "U.S. House of Representatives: History, Art & Archives"
+        },
+        {
+          "url": "https://history.house.gov/Collection/Detail/30688",
+          "institution": "U.S. House of Representatives: History, Art & Archives"
+        }
+      ],
+      "evidence": {
+        "representacao": "House history documents Ferraro's congressional service and her 1984 vice-presidential nomination, as well as work in women's political leadership.",
+        "moral": "The House historical record explicitly describes her support for feminist causes including reproductive rights and women's equality; this is attributable institutional historiography, not a complete moral-axis score.",
+        "economia": "House materials document advocacy for financial equality for women and sponsorship of the Economic Equality Act of 1981; broader market/planning preferences require separate evidence.",
+        "poder": "Later service connected to the UN human-rights system is documented, but a general civil-liberty/order position should not be inferred from that role alone."
+      }
+    },
+    {
+      "id": "jeannette-rankin",
+      "sources": [
+        {
+          "url": "https://history.house.gov/People/Detail/20147",
+          "institution": "U.S. House of Representatives: History, Art & Archives"
+        },
+        {
+          "url": "https://history.house.gov/Exhibitions-and-Publications/WIC/Historical-Essays/No-Lady/House-Supports-Suffrage/",
+          "institution": "U.S. House of Representatives: History, Art & Archives"
+        }
+      ],
+      "evidence": {
+        "representacao": "House history documents Rankin's woman-suffrage activism and congressional role, providing direct evidence on expanding women's political participation.",
+        "diplomacia": "Her votes against U.S. entry into both World Wars and her peace activism are direct evidence of a strong anti-war record.",
+        "economia": "Her legislative work addressed child welfare and labor conditions; these specific reforms should not be treated as a complete economic-system position.",
+        "poder": "Her peace and civil-reform activity may be relevant to coercive state power, but an order-versus-liberty proposal requires broader direct evidence."
+      }
+    },
+    {
+      "id": "clara-barton",
+      "sources": [
+        {
+          "url": "https://www.nps.gov/people/clara-barton.htm",
+          "institution": "National Park Service"
+        },
+        {
+          "url": "https://www.nps.gov/places/000/clara-barton-national-historic-site.htm",
+          "institution": "National Park Service"
+        }
+      ],
+      "evidence": {
+        "representacao": "NPS material documents Barton's participation in women's-rights and suffrage causes alongside her humanitarian work.",
+        "diplomacia": "Her work founding the American Red Cross and advocating U.S. adherence to the Geneva Convention is direct evidence of international humanitarian engagement.",
+        "poder": "Her humanitarian activity focused on treatment of wounded and disaster victims; that evidence concerns limits and responses to coercive harm, not a full domestic-order position.",
+        "moral": "Support for women's rights is documented and relevant to gender-equality questions, while other moral-policy issues remain unestablished."
+      }
+    },
+    {
+      "id": "jane-addams",
+      "sources": [
+        {
+          "url": "https://home.nps.gov/people/jane-addams.htm",
+          "institution": "National Park Service"
+        },
+        {
+          "url": "https://home.nps.gov/places/hull-house.htm",
+          "institution": "National Park Service"
+        },
+        {
+          "url": "https://www.nobelprize.org/nomination/archive/show.php?id=408",
+          "institution": "Nobel Prize Outreach"
+        }
+      ],
+      "evidence": {
+        "economia": "Hull House work and Addams's reform record addressed working conditions, poverty and social services, providing evidence for social-reform intervention without fixing a precise economic score.",
+        "representacao": "Her suffrage work and civic organizing support expanded political participation.",
+        "diplomacia": "Her organized pacifism and international peace activity provide direct evidence relevant to the diplomacy axis.",
+        "moral": "Settlement work and advocacy for women and disadvantaged communities are relevant to social-equality questions; unrelated moral issues require separate evidence."
+      }
+    },
+    {
+      "id": "rachel-carson",
+      "sources": [
+        {
+          "url": "https://www.epa.gov/archive/epa/aboutepa/rachel-carson.html",
+          "institution": "U.S. Environmental Protection Agency"
+        },
+        {
+          "url": "https://www.fws.gov/staff-profile/rachel-carson-1907-1964-author-modern-environmental-movement",
+          "institution": "U.S. Fish and Wildlife Service"
+        }
+      ],
+      "evidence": {
+        "tecnologia": "Official sources document Carson's scientific work and criticism of indiscriminate pesticide use. This supports a cautious technology-risk perspective, not a general anti-technology or pro-technology score.",
+        "controle": "Silent Spring contributed to public debate over pesticide oversight and environmental regulation; a planning-versus-market score would overstate that issue-specific evidence.",
+        "moral": "Her conservation work documents concern for ecological harms and public responsibility, relevant to environmental values but not sufficient for unrelated social-policy positions.",
+        "poder": "The selected sources concern environmental science and regulatory debate rather than surveillance, policing or civil liberties; that axis remains underdetermined."
+      }
+    },
+    {
+      "id": "wangari-maathai",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/",
+          "institution": "Nobel Prize Outreach"
+        },
+        {
+          "url": "https://www.greenbeltmovement.org/wangari-maathai/",
+          "institution": "Green Belt Movement"
+        }
+      ],
+      "evidence": {
+        "representacao": "Nobel and Green Belt Movement sources document Maathai's democracy and human-rights advocacy in Kenya.",
+        "moral": "Her work connected women's empowerment, environmental protection and community rights, relevant to equality and environmental values.",
+        "diplomacia": "The Nobel record frames her work around sustainable development, democracy and peace, including international advocacy.",
+        "economia": "Grassroots livelihood and environmental programs are documented, but they do not by themselves establish a public-versus-private ownership preference."
+      }
+    },
+    {
+      "id": "funmilayo-ransome-kuti",
+      "sources": [
+        {
+          "url": "https://shop.unesco.org/en/products/funmilayo-ransome-kuti-and-the-womens-union-of-abeokuta",
+          "institution": "UNESCO"
+        },
+        {
+          "url": "https://unesdoc.unesco.org/query?q=Series%3A%20%22UNESCO%20series%20on%20women%20in%20African%20history%22",
+          "institution": "UNESCO Digital Library"
+        }
+      ],
+      "evidence": {
+        "representacao": "UNESCO material documents her leadership in the Abeokuta Women's Union and campaigns for women's political participation and rights.",
+        "moral": "Her organized advocacy against gender discrimination and for women's social status is relevant to equality questions.",
+        "economia": "Campaigns involving taxation and women's economic conditions provide issue-specific economic evidence; they do not settle a general ownership or planning position.",
+        "intervencao": "Her anti-colonial activism is historically important, but colonial independence politics should not be mechanically mapped onto the project's modern foreign-intervention axis."
+      }
+    },
+    {
+      "id": "joyce-banda",
+      "sources": [
+        {
+          "url": "https://www.councilwomenworldleaders.org/joyce-banda",
+          "institution": "Council of Women World Leaders"
+        },
+        {
+          "url": "https://press.un.org/en/2006/wom1560.doc.htm",
+          "institution": "United Nations"
+        }
+      ],
+      "evidence": {
+        "representacao": "Sources document Banda's service as Malawi's vice president and president and her public work on women's participation in political decision-making.",
+        "moral": "As gender minister she presented policies on eliminating violence and discrimination against women, and sources document support for women's and children's welfare.",
+        "economia": "UN reporting records programs aimed at women's access to land, credit, capital, markets and entrepreneurial skills; these are targeted empowerment policies, not a complete economic-system position.",
+        "poder": "Domestic-violence legislation and anti-discrimination policy are relevant to protective uses of law, but do not establish a general order-versus-liberty preference."
+      }
+    },
+    {
+      "id": "miriam-makeba",
+      "sources": [
+        {
+          "url": "https://sahistory.org.za/people/miriam-makeba",
+          "institution": "South African History Online"
+        },
+        {
+          "url": "https://sahistory.org.za/article/biography-miriam-makeba-narcy-negrete",
+          "institution": "South African History Online"
+        }
+      ],
+      "evidence": {
+        "representacao": "Biographical sources document Makeba's public opposition to apartheid and advocacy for political and racial rights.",
+        "poder": "Her exile and anti-apartheid activism provide evidence concerning resistance to racially coercive state institutions.",
+        "diplomacia": "Her international advocacy, including appearances connected to the United Nations, made apartheid a transnational political issue.",
+        "moral": "Opposition to racial segregation and support for equal dignity are directly documented; broader social-policy views require separate evidence."
+      }
+    },
+    {
+      "id": "nadine-gordimer",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/literature/1991/gordimer/facts/",
+          "institution": "Nobel Prize Outreach"
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/literature/1991/gordimer/article/",
+          "institution": "Nobel Prize Outreach"
+        }
+      ],
+      "evidence": {
+        "representacao": "Nobel material places Gordimer's literary and public activity in the struggle against apartheid and racial exclusion.",
+        "poder": "The banning of some of her work and her engagement with repression provide evidence relevant to censorship and civil freedom.",
+        "moral": "Her anti-apartheid record is direct evidence on racial equality and opposition to institutional discrimination.",
+        "economia": "The selected Nobel sources are insufficient for a reliable public/private or planning/market placement; no score should be inferred from anti-apartheid affiliation."
+      }
+    },
+    {
+      "id": "leymah-gbowee",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/peace/2011/gbowee/facts/",
+          "institution": "Nobel Prize Outreach"
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/peace/2011/gbowee/biographical/",
+          "institution": "Nobel Prize Outreach"
+        }
+      ],
+      "evidence": {
+        "diplomacia": "Nobel sources document leadership of a nonviolent women's peace movement that helped press for an end to Liberia's civil war.",
+        "representacao": "Her organizing emphasized women's participation in peacebuilding and public decision-making.",
+        "religiao": "The movement intentionally brought Christian and Muslim women together. Interfaith organizing does not itself establish a secular-versus-religious policy score.",
+        "poder": "Nonviolent mobilization against armed conflict is relevant to coercion and conflict, but domestic civil-liberty preferences require separate evidence."
+      }
+    },
+    {
+      "id": "tawakkol-karman",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/peace/2011/karman/facts/",
+          "institution": "Nobel Prize Outreach"
+        },
+        {
+          "url": "https://www.nobelprize.org/events/nobel-prize-summit/2021/speakers/tawakkol-karman-2/",
+          "institution": "Nobel Prize Outreach"
+        }
+      ],
+      "evidence": {
+        "representacao": "Nobel sources document Karman's nonviolent advocacy for democracy and women's full participation in public life.",
+        "poder": "Her journalism and activism centered freedom of expression and opposition to political repression.",
+        "diplomacia": "Her Nobel-recognized record emphasizes nonviolent action, peace and political reconciliation.",
+        "religiao": "Her public framing connects Islamic faith with women's political participation; this is evidence about her stated compatibility claim, not a numeric religion-axis placement."
+      }
+    },
+    {
+      "id": "shirin-ebadi",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/peace/2003/ebadi/biographical/",
+          "institution": "Nobel Prize Outreach"
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/peace/2003/summary/",
+          "institution": "Nobel Prize Outreach"
+        }
+      ],
+      "evidence": {
+        "representacao": "Nobel material explicitly describes Ebadi's efforts for democracy and her legal work for equal participation and rights.",
+        "poder": "Her legal practice and human-rights work include press cases, political violence and rights protections, providing direct civil-liberties evidence.",
+        "moral": "The Nobel citation highlights her work for the rights of women and children.",
+        "religiao": "Her biography identifies her as a practicing Muslim, while her rights advocacy is legal and political; personal faith alone should not determine a religion-policy score."
+      }
+    },
+    {
+      "id": "nawal-el-saadawi",
+      "sources": [
+        {
+          "url": "https://www.today.duke.edu/2021/04/when-duke-gave-shelter-egyptian-intellectual",
+          "institution": "Duke University"
+        },
+        {
+          "url": "https://sahistory.org.za/archive/biography-nawal-el-saadawi-sierra-hussey",
+          "institution": "South African History Online"
+        }
+      ],
+      "evidence": {
+        "moral": "Biographical sources document El Saadawi's sustained feminist writing and advocacy against gender-based social and sexual oppression.",
+        "poder": "Her record includes imprisonment, censorship, threats and exile connected to her public writing, making freedom of expression and political repression relevant.",
+        "religiao": "Her writings criticized patriarchal uses and interpretations of religion. A numeric secular/religious placement requires direct review of her own texts rather than a biographical shortcut.",
+        "representacao": "Her activism sought greater legal and social agency for women; the selected sources do not establish a complete institutional-democracy position."
+      }
+    },
+    {
+      "id": "huda-shaarawi",
+      "sources": [
+        {
+          "url": "https://library.aucegypt.edu/rare-books-special-collections/collections/egyptian-society-arts-culture",
+          "institution": "American University in Cairo"
+        },
+        {
+          "url": "https://www.aucegypt.edu/news/celebrating-egypts-1919-revolution",
+          "institution": "American University in Cairo"
+        }
+      ],
+      "evidence": {
+        "representacao": "AUC archival and historical material places Sha'arawi in organized women's activism and public political mobilization around the 1919 period.",
+        "moral": "Her women's-rights organizing is relevant to gender equality and women's social autonomy.",
+        "intervencao": "Her participation in Egyptian nationalist politics is important historical evidence, but anti-colonial independence activity should not be directly converted into a modern interventionism score.",
+        "poder": "Participation in mass political protest concerns relations with colonial authority, yet the selected sources do not establish a broad domestic order-versus-liberty position."
+      }
+    },
+    {
+      "id": "fatima-mernissi",
+      "sources": [
+        {
+          "url": "https://fatemamernissi.com/about-us",
+          "institution": "Fatema Mernissi Estate / Foundation"
+        },
+        {
+          "url": "https://www.blogs.unicamp.br/mulheresnafilosofia/2564-2/",
+          "institution": "Universidade Estadual de Campinas"
+        }
+      ],
+      "evidence": {
+        "moral": "Sources document Mernissi's scholarship on women's status, gender hierarchy and social autonomy in Muslim societies.",
+        "religiao": "Her work examined Islamic texts, institutions and interpretations in relation to gender. Scholarly criticism of particular interpretations should not be reduced to a secular/religious score.",
+        "representacao": "Her research and public intellectual work addressed women's participation in civil and public life.",
+        "economia": "Selected biographical sources note sociological research but do not establish a reliable market/planning or ownership position."
+      }
+    },
+    {
+      "id": "sarojini-naidu",
+      "sources": [
+        {
+          "url": "https://amritmahotsav.nic.in/district-reopsitory-detail.htm?17092=",
+          "institution": "Ministry of Culture, Government of India"
+        },
+        {
+          "url": "https://cmsadmin.amritmahotsav.nic.in/district-reopsitory-detail.htm?128=",
+          "institution": "Ministry of Culture, Government of India"
+        }
+      ],
+      "evidence": {
+        "representacao": "Government historical material documents Naidu's leadership in the Indian National Congress and her prominence as a woman in electoral and nationalist politics.",
+        "intervencao": "Her involvement in the independence movement is direct evidence of anti-colonial nationalism, but it is not equivalent to the project's modern foreign-intervention axis.",
+        "religiao": "Her public appeals to communal harmony provide evidence relevant to pluralism; they do not by themselves establish a state-religion policy.",
+        "poder": "Participation in civil-disobedience and independence campaigns is relevant to state coercion and political rights, while broader domestic order preferences remain uncertain."
+      }
+    },
+    {
+      "id": "vijaya-lakshmi-pandit",
+      "sources": [
+        {
+          "url": "https://india.un.org/en/about/about-the-un",
+          "institution": "United Nations in India"
+        },
+        {
+          "url": "https://www.un.org/ar/node/211672",
+          "institution": "United Nations"
+        }
+      ],
+      "evidence": {
+        "diplomacia": "UN sources document Pandit's diplomatic career and presidency of the UN General Assembly, providing direct evidence of multilateral engagement.",
+        "representacao": "Her national and international public offices provide evidence of women's participation in representative institutions, though officeholding does not alone establish a democracy score.",
+        "intervencao": "Her internationalist diplomatic work is relevant to foreign-policy orientation, but a non-intervention versus nationalist-assertive placement requires issue-specific positions.",
+        "poder": "The selected institutional biographies are not sufficient for a general civil-liberty/order placement."
+      }
+    },
+    {
+      "id": "aruna-asaf-ali",
+      "sources": [
+        {
+          "url": "https://amritmahotsav.nic.in/event-detail.htm?57877=",
+          "institution": "Government of India"
+        },
+        {
+          "url": "https://cmsadmin.amritmahotsav.nic.in/unsung-heroes-detail.htm?320=",
+          "institution": "Government of India"
+        }
+      ],
+      "evidence": {
+        "representacao": "Government sources document Ali's participation in the Indian National Congress, independence politics and later service as Delhi's first mayor.",
+        "poder": "Her arrests, civil disobedience and underground activity during British rule provide historical evidence involving political repression and resistance.",
+        "intervencao": "Her independence activism is anti-colonial and nationalist evidence; it should not be treated as a direct proxy for the project's foreign-intervention axis.",
+        "moral": "The selected sources focus on independence activism and officeholding and do not support a broad social traditionalism/progressivism score."
+      }
+    },
+    {
+      "id": "kamaladevi-chattopadhyay",
+      "sources": [
+        {
+          "url": "https://cmsadmin.amritmahotsav.nic.in/district-reopsitory-detail.htm?5507=",
+          "institution": "Ministry of Culture, Government of India"
+        },
+        {
+          "url": "https://amritmahotsav.nic.in/unsung-heroes-detail.htm?319=",
+          "institution": "Ministry of Culture, Government of India"
+        }
+      ],
+      "evidence": {
+        "representacao": "Government historical material documents Chattopadhyay's early electoral candidacy, women's political mobilization and independence activism.",
+        "economia": "Her work promoting cooperatives, crafts and artisan livelihoods provides evidence on community economic organization, but not a complete public/private ownership position.",
+        "moral": "Her advocacy for women's public participation and social reform is relevant to equality questions.",
+        "intervencao": "Her role in the independence movement is anti-colonial evidence and should be kept distinct from the project's modern interventionism axis."
+      }
+    },
+    {
+      "id": "savitribai-phule",
+      "sources": [
+        {
+          "url": "https://cdnbbsr.s3waas.gov.in/s33837a451cd0abc5ce4069304c5442c87/uploads/2024/11/20241126690139104.pdf",
+          "institution": "Government of India educational publication"
+        },
+        {
+          "url": "https://lokbhavan.haryana.gov.in/savitribai-phule-an-iconic-reformer-educationist-honble-governor-haryana/",
+          "institution": "Lok Bhavan Haryana, Government of India"
+        }
+      ],
+      "evidence": {
+        "moral": "Government sources document Phule's campaigns for girls' education, caste equality, widow remarriage and against child marriage and untouchability.",
+        "representacao": "Her schools expanded educational participation for girls and marginalized castes, establishing a record of social inclusion rather than an electoral-system position.",
+        "poder": "Her reform activity directly challenged discriminatory social institutions; this is rights-related evidence but does not establish views on surveillance or public order.",
+        "economia": "The selected sources focus on education and social reform and do not support a reliable economic-system score."
+      }
+    },
+    {
+      "id": "begum-rokeya",
+      "sources": [
+        {
+          "url": "https://www.gbrcr.gov.bd/project/1/details",
+          "institution": "Government Begum Rokeya College, Bangladesh"
+        },
+        {
+          "url": "https://teachers.gov.bd/content/details/1697585",
+          "institution": "Bangladesh Teachers Portal"
+        }
+      ],
+      "evidence": {
+        "moral": "Bangladeshi government education sources document Rokeya's advocacy for equality between women and men and women's emancipation.",
+        "representacao": "Her schools and women's association sought educational and public opportunities for women; this is participation evidence but not a complete electoral-democracy position.",
+        "religiao": "Her reform work took place within a Muslim social context and contested restrictions justified in religious terms. This does not by itself determine a secular-versus-religious state preference.",
+        "economia": "Sources connect education and opportunity to women's status, but do not establish an overall market/planning or ownership position."
+      }
+    },
+    {
+      "id": "malala-yousafzai",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/peace/2014/yousafzai/facts/",
+          "institution": "Nobel Prize Outreach"
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/peace/2014/yousafzai/biographical/",
+          "institution": "Nobel Prize Outreach"
+        }
+      ],
+      "evidence": {
+        "moral": "Nobel sources document Yousafzai's advocacy for equal educational rights for girls and children.",
+        "poder": "Her activism arose in opposition to coercive restrictions imposed by the Taliban and attacks on access to education, directly relevant to personal rights and political violence.",
+        "representacao": "Education advocacy supports equal social participation, while the selected sources do not define a detailed institutional-democracy program.",
+        "religiao": "Her biography includes a Muslim cultural and religious context; personal faith and opposition to extremist coercion should not be collapsed into a simple religion-axis score."
+      }
+    },
+    {
+      "id": "aung-san-suu-kyi",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/peace/1991/kyi/facts/",
+          "institution": "Nobel Prize Outreach"
+        },
+        {
+          "url": "https://webtv.un.org/en/asset/k18/k18inoichc",
+          "institution": "United Nations / International Court of Justice"
+        },
+        {
+          "url": "https://www.icj-cij.org/case/178",
+          "institution": "International Court of Justice"
+        }
+      ],
+      "evidence": {
+        "representacao": "The Nobel record documents her long nonviolent campaign for democracy and human rights under military rule.",
+        "poder": "Her earlier record includes resistance to military repression, while her later period as State Counsellor requires separate review rather than projecting the earlier record across her entire career.",
+        "diplomacia": "Nonviolent democratic activism is relevant to conflict orientation, but her role representing Myanmar before the ICJ in the Rohingya genocide case is a materially different later episode that must be included in human review.",
+        "moral": "UN and ICJ material documents her 2019 defense of Myanmar against genocide allegations concerning the Rohingya. The dossier therefore contains conflicting-era evidence and should not receive a simplified one-period characterization."
+      }
+    },
+    {
+      "id": "megawati-sukarnoputri",
+      "sources": [
+        {
+          "url": "https://pusdipres.anri.go.id/presidenpedia?slug=presiden-megawati-soekarnoputri",
+          "institution": "National Archives of the Republic of Indonesia - Presidential Archives"
+        },
+        {
+          "url": "https://setkab.go.id/profil-kabinet/",
+          "institution": "Cabinet Secretariat of the Republic of Indonesia"
+        }
+      ],
+      "evidence": {
+        "representacao": "Official Indonesian records document Megawati's legislative, vice-presidential and presidential service during the post-Suharto Reformasi period.",
+        "estrutura": "Holding national executive office does not establish a centralization-versus-decentralization preference. Direct policy evidence is still required before proposing this axis.",
+        "economia": "The selected official biographical and cabinet sources establish tenure and institutional role but are insufficient for a reliable market/planning or ownership score.",
+        "poder": "The sources do not, by themselves, support a general civil-liberty/order placement. This dossier should remain cautious until policy-specific evidence is reviewed."
+      }
+    },
+    {
+      "id": "sirimavo-bandaranaike",
+      "sources": [
+        {
+          "url": "https://www.parliament.lk/en/learn/women-in-parliament/who-we-are",
+          "institution": "Parliament of Sri Lanka"
+        },
+        {
+          "url": "https://www.parliament.lk/uploads/documents/hansard/PUBDOC2063_document.pdf",
+          "institution": "Parliament of Sri Lanka"
+        }
+      ],
+      "evidence": {
+        "representacao": "Sri Lankan parliamentary history documents Bandaranaike's terms as prime minister and her place in the history of women's political leadership.",
+        "diplomacia": "Parliamentary material documents Sri Lanka's hosting of the 1976 Non-Aligned summit during her leadership, relevant to a non-aligned foreign-policy record.",
+        "economia": "The selected parliamentary sources do not by themselves establish the full scope of her economic nationalization and planning policies; those require dedicated policy sources before scoring.",
+        "estrutura": "National executive leadership does not alone reveal centralization/federalism preferences."
+      }
+    },
+    {
+      "id": "tsai-ing-wen",
+      "sources": [
+        {
+          "url": "https://english.president.gov.tw/Page/646",
+          "institution": "Office of the President, Republic of China (Taiwan)"
+        },
+        {
+          "url": "https://english.president.gov.tw/News/6004",
+          "institution": "Office of the President, Republic of China (Taiwan)"
+        },
+        {
+          "url": "https://english.president.gov.tw/NEWS/6720",
+          "institution": "Office of the President, Republic of China (Taiwan)"
+        }
+      ],
+      "evidence": {
+        "representacao": "Official speeches and biography repeatedly emphasize democratic institutions, elections and citizen participation.",
+        "moral": "Her presidential record includes support for marriage equality and increased women's participation, direct evidence on specific equality issues.",
+        "diplomacia": "Official statements emphasize cross-Strait peace and stability, dialogue, international cooperation and Taiwan's external partnerships; security policy still requires issue-specific review.",
+        "economia": "Official speeches discuss pension reform, social fairness and economic development, but those policy goals do not directly determine a market/planning score."
+      }
+    },
+    {
+      "id": "qiu-jin",
+      "sources": [
+        {
+          "url": "https://weai.columbia.edu/sites/weai.columbia.edu/files/content/Files/The%20Reed%20-%202022%20.pdf",
+          "institution": "Columbia University Weatherhead East Asian Institute"
+        },
+        {
+          "url": "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/silent-half-speaks/87DF02A8F96C10A54C899233D17D033E",
+          "institution": "Cambridge University Press"
+        }
+      ],
+      "evidence": {
+        "moral": "Academic sources document Qiu Jin's arguments for women's education, autonomy and gender equality.",
+        "representacao": "Her writing and organizing pressed for women's participation in public and political life in late Qing China.",
+        "intervencao": "Her revolutionary nationalism is historically significant, but nationalist resistance to the Qing order should not be treated as a direct modern foreign-intervention score.",
+        "diplomacia": "Participation in revolutionary movements does not by itself establish a general militarist-versus-pacifist foreign policy."
+      }
+    },
+    {
+      "id": "akiko-yosano",
+      "sources": [
+        {
+          "url": "https://www.ndl.go.jp/portrait/e/datas/347",
+          "institution": "National Diet Library, Japan"
+        },
+        {
+          "url": "https://www.ndl.go.jp/portrait/e/pickup/011/index.html",
+          "institution": "National Diet Library, Japan"
+        }
+      ],
+      "evidence": {
+        "moral": "National Diet Library material documents Yosano's writing and public engagement with women's education and status.",
+        "diplomacia": "Her poem associated with the Russo-Japanese War is significant anti-war cultural evidence, but a literary work alone is insufficient for a complete foreign-policy score.",
+        "representacao": "Her role as a prominent woman writer and advocate for women's education expanded public voice, though this is not equivalent to an institutional-democracy program.",
+        "religiao": "The selected sources do not establish a state-religion preference."
+      }
+    },
+    {
+      "id": "raicho-hiratsuka",
+      "sources": [
+        {
+          "url": "https://www.ndl.go.jp/portrait/e/datas/380/",
+          "institution": "National Diet Library, Japan"
+        },
+        {
+          "url": "https://www5.jwu.ac.jp/st/grp/raiteu/raiteu01/raiteu-prize2005.pdf",
+          "institution": "Japan Women's University"
+        }
+      ],
+      "evidence": {
+        "representacao": "Sources document Hiratsuka's leadership in the Japanese women's movement and campaigns connected to women's political participation.",
+        "moral": "Her feminist organizing directly addressed women's liberation and equality.",
+        "diplomacia": "Japan Women's University material describes her postwar work for peace, providing evidence relevant to pacifist activism.",
+        "poder": "Women's-rights advocacy is rights-related, but the selected sources do not support a broad policing/surveillance/order position."
+      }
+    },
+    {
+      "id": "tomoe-gozen",
+      "sources": [
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/54499",
+          "institution": "The Metropolitan Museum of Art"
+        },
+        {
+          "url": "https://www.metmuseum.org/art/collection/search/893321",
+          "institution": "The Metropolitan Museum of Art"
+        },
+        {
+          "url": "https://visualizingcultures.mit.edu/opium_wars_japan/noble3.html",
+          "institution": "Massachusetts Institute of Technology"
+        }
+      ],
+      "evidence": {
+        "diplomacia": "Surviving cultural and literary traditions depict Tomoe Gozen as a warrior in a medieval civil conflict. That does not establish a modern pacifist-versus-militarist foreign-policy preference.",
+        "poder": "The sources concern martial reputation and later representation, not views on civil liberties, surveillance, policing or constitutional order.",
+        "moral": "Evidence about a medieval warrior role cannot reliably answer modern traditionalist-progressive policy questions.",
+        "metodologia": "The historical source base is not sufficient for a defensible 12-axis political profile without a separate methodology for premodern or partly legendary figures. Human review should decide whether she belongs in this pipeline at all."
+      }
+    },
+    {
+      "id": "olympe-de-gouges",
+      "sources": [
+        {
+          "url": "https://www.bnf.fr/fr/mediatheque/olympe-de-gouges-1748-1793",
+          "institution": "Bibliothèque nationale de France"
+        },
+        {
+          "url": "https://www.bnf.fr/fr/mediatheque/pionnieres-olympe-de-gouges",
+          "institution": "Bibliothèque nationale de France"
+        }
+      ],
+      "evidence": {
+        "representacao": "BnF material documents de Gouges's Declaration of the Rights of Woman and the Female Citizen and her demand that women be recognized as political and legal subjects.",
+        "moral": "Her writing directly challenged sex-based legal inequality and is strong evidence on gender equality.",
+        "poder": "Her political writing during the French Revolution engaged legal rights and political punishment; exact civil-liberty/order placement requires source-specific review rather than a revolutionary-era shortcut.",
+        "economia": "The selected BnF materials are not sufficient for a comprehensive public/private ownership or planning position."
+      }
+    },
+    {
+      "id": "flora-tristan",
+      "sources": [
+        {
+          "url": "https://catalogue.bnf.fr/ark%3A/12148/cb11927116m.public",
+          "institution": "Bibliothèque nationale de France"
+        },
+        {
+          "url": "https://www.bnf.fr/fr/mediatheque/flora-tristan",
+          "institution": "Bibliothèque nationale de France"
+        }
+      ],
+      "evidence": {
+        "economia": "BnF material identifies Tristan with early efforts to connect workers' organization and social reform, relevant to labor and collective economic questions.",
+        "moral": "Her feminist advocacy and writing directly addressed women's subordinate legal and social status.",
+        "representacao": "Her public organizing sought political and social voice for workers and women; the selected sources do not by themselves define an electoral-system preference.",
+        "poder": "Rights advocacy is relevant to legal status, but the evidence is insufficient for a broad order-versus-liberty score."
+      }
     }
   ]
 }

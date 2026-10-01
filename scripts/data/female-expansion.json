@@ -402,8 +402,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://sites.northwestern.edu/radicalwoman/",
+        "https://findingaids.library.northwestern.edu/agents/people/2138"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "carrie-chapman-catt",
@@ -414,8 +419,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.loc.gov/collections/national-american-woman-suffrage-association/articles-and-essays/carrie-chapman-catt/",
+        "https://home.nps.gov/people/carrie-chapman-catt.htm"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "alice-paul",
@@ -444,8 +454,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.nps.gov/people/lucy-stone.htm",
+        "https://www.womenshistory.org/education-resources/biographies/lucy-stone"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "frances-perkins",
@@ -456,8 +471,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://beta.dol.gov/about/history/past-secretaries/frances-perkins",
+        "https://www.nps.gov/people/frances-perkins.htm"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "eleanor-roosevelt",
@@ -468,8 +488,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.fdrlibrary.org/er-biography",
+        "https://www.fdrlibrary.org/human-rights"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "ruth-bader-ginsburg",
@@ -480,8 +505,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.loc.gov/item/n50029918/ruth-bader-ginsburg/",
+        "https://www.supremecourt.gov/about/biographyginsburg.aspx?aff_id=1262"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "sandra-day-oconnor",
@@ -492,8 +522,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.supremecourt.gov/about/biographyOconnor.aspx",
+        "https://loc.gov/loc/lcib/0812/oconnor.html"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "geraldine-ferraro",
@@ -504,8 +539,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://history.house.gov/People/Detail/13081",
+        "https://history.house.gov/Collection/Detail/30688"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "jeannette-rankin",
@@ -516,8 +556,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://history.house.gov/People/Detail/20147",
+        "https://history.house.gov/Exhibitions-and-Publications/WIC/Historical-Essays/No-Lady/House-Supports-Suffrage/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "clara-barton",
@@ -528,8 +573,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.nps.gov/people/clara-barton.htm",
+        "https://www.nps.gov/places/000/clara-barton-national-historic-site.htm"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "jane-addams",
@@ -540,8 +590,14 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://home.nps.gov/people/jane-addams.htm",
+        "https://home.nps.gov/places/hull-house.htm",
+        "https://www.nobelprize.org/nomination/archive/show.php?id=408"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "rachel-carson",
@@ -552,8 +608,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.epa.gov/archive/epa/aboutepa/rachel-carson.html",
+        "https://www.fws.gov/staff-profile/rachel-carson-1907-1964-author-modern-environmental-movement"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "wangari-maathai",
@@ -564,8 +625,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/",
+        "https://www.greenbeltmovement.org/wangari-maathai/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "funmilayo-ransome-kuti",
@@ -576,8 +642,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://shop.unesco.org/en/products/funmilayo-ransome-kuti-and-the-womens-union-of-abeokuta",
+        "https://unesdoc.unesco.org/query?q=Series%3A%20%22UNESCO%20series%20on%20women%20in%20African%20history%22"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "joyce-banda",
@@ -588,8 +659,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.councilwomenworldleaders.org/joyce-banda",
+        "https://press.un.org/en/2006/wom1560.doc.htm"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "miriam-makeba",
@@ -600,8 +676,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://sahistory.org.za/people/miriam-makeba",
+        "https://sahistory.org.za/article/biography-miriam-makeba-narcy-negrete"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "nadine-gordimer",
@@ -612,8 +693,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.nobelprize.org/prizes/literature/1991/gordimer/facts/",
+        "https://www.nobelprize.org/prizes/literature/1991/gordimer/article/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "leymah-gbowee",
@@ -624,8 +710,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.nobelprize.org/prizes/peace/2011/gbowee/facts/",
+        "https://www.nobelprize.org/prizes/peace/2011/gbowee/biographical/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "tawakkol-karman",
@@ -636,8 +727,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.nobelprize.org/prizes/peace/2011/karman/facts/",
+        "https://www.nobelprize.org/events/nobel-prize-summit/2021/speakers/tawakkol-karman-2/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "shirin-ebadi",
@@ -648,8 +744,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.nobelprize.org/prizes/peace/2003/ebadi/biographical/",
+        "https://www.nobelprize.org/prizes/peace/2003/summary/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "nawal-el-saadawi",
@@ -660,8 +761,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.today.duke.edu/2021/04/when-duke-gave-shelter-egyptian-intellectual",
+        "https://sahistory.org.za/archive/biography-nawal-el-saadawi-sierra-hussey"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "huda-shaarawi",
@@ -672,8 +778,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://library.aucegypt.edu/rare-books-special-collections/collections/egyptian-society-arts-culture",
+        "https://www.aucegypt.edu/news/celebrating-egypts-1919-revolution"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "fatima-mernissi",
@@ -684,8 +795,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://fatemamernissi.com/about-us",
+        "https://www.blogs.unicamp.br/mulheresnafilosofia/2564-2/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "sarojini-naidu",
@@ -696,8 +812,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://amritmahotsav.nic.in/district-reopsitory-detail.htm?17092=",
+        "https://cmsadmin.amritmahotsav.nic.in/district-reopsitory-detail.htm?128="
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "vijaya-lakshmi-pandit",
@@ -708,8 +829,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://india.un.org/en/about/about-the-un",
+        "https://www.un.org/ar/node/211672"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "aruna-asaf-ali",
@@ -720,8 +846,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://amritmahotsav.nic.in/event-detail.htm?57877=",
+        "https://cmsadmin.amritmahotsav.nic.in/unsung-heroes-detail.htm?320="
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "kamaladevi-chattopadhyay",
@@ -732,8 +863,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://cmsadmin.amritmahotsav.nic.in/district-reopsitory-detail.htm?5507=",
+        "https://amritmahotsav.nic.in/unsung-heroes-detail.htm?319="
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "savitribai-phule",
@@ -744,8 +880,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://cdnbbsr.s3waas.gov.in/s33837a451cd0abc5ce4069304c5442c87/uploads/2024/11/20241126690139104.pdf",
+        "https://lokbhavan.haryana.gov.in/savitribai-phule-an-iconic-reformer-educationist-honble-governor-haryana/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "begum-rokeya",
@@ -756,8 +897,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.gbrcr.gov.bd/project/1/details",
+        "https://teachers.gov.bd/content/details/1697585"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "malala-yousafzai",
@@ -768,8 +914,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.nobelprize.org/prizes/peace/2014/yousafzai/facts/",
+        "https://www.nobelprize.org/prizes/peace/2014/yousafzai/biographical/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "aung-san-suu-kyi",
@@ -780,8 +931,14 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.nobelprize.org/prizes/peace/1991/kyi/facts/",
+        "https://webtv.un.org/en/asset/k18/k18inoichc",
+        "https://www.icj-cij.org/case/178"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "megawati-sukarnoputri",
@@ -792,8 +949,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://pusdipres.anri.go.id/presidenpedia?slug=presiden-megawati-soekarnoputri",
+        "https://setkab.go.id/profil-kabinet/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "sirimavo-bandaranaike",
@@ -804,8 +966,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.parliament.lk/en/learn/women-in-parliament/who-we-are",
+        "https://www.parliament.lk/uploads/documents/hansard/PUBDOC2063_document.pdf"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "tsai-ing-wen",
@@ -816,8 +983,14 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://english.president.gov.tw/Page/646",
+        "https://english.president.gov.tw/News/6004",
+        "https://english.president.gov.tw/NEWS/6720"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "qiu-jin",
@@ -828,8 +1001,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://weai.columbia.edu/sites/weai.columbia.edu/files/content/Files/The%20Reed%20-%202022%20.pdf",
+        "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/silent-half-speaks/87DF02A8F96C10A54C899233D17D033E"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "akiko-yosano",
@@ -840,8 +1018,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.ndl.go.jp/portrait/e/datas/347",
+        "https://www.ndl.go.jp/portrait/e/pickup/011/index.html"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "raicho-hiratsuka",
@@ -852,8 +1035,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.ndl.go.jp/portrait/e/datas/380/",
+        "https://www5.jwu.ac.jp/st/grp/raiteu/raiteu01/raiteu-prize2005.pdf"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "tomoe-gozen",
@@ -864,8 +1052,14 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.metmuseum.org/art/collection/search/54499",
+        "https://www.metmuseum.org/art/collection/search/893321",
+        "https://visualizingcultures.mit.edu/opium_wars_japan/noble3.html"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "olympe-de-gouges",
@@ -876,8 +1070,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.bnf.fr/fr/mediatheque/olympe-de-gouges-1748-1793",
+        "https://www.bnf.fr/fr/mediatheque/pionnieres-olympe-de-gouges"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "flora-tristan",
@@ -888,8 +1087,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://catalogue.bnf.fr/ark%3A/12148/cb11927116m.public",
+        "https://www.bnf.fr/fr/mediatheque/flora-tristan"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "clara-zetkin",
@@ -2219,8 +2423,8 @@
     "targetFemaleCount": 193,
     "remainingUnplanned": 0,
     "readyCandidateCount": 0,
-    "profileReviewCount": 22,
-    "profileResearchingCount": 40,
+    "profileReviewCount": 62,
+    "profileResearchingCount": 0,
     "profilePendingCount": 110,
     "blockedFromRuntimeCount": 172
   },
@@ -2247,7 +2451,8 @@
     "reviewer": "project maintainer",
     "currentResearchBatchSize": 40,
     "nextResearchBatchSize": 80,
-    "recoveryPolicy": "Before reset/rebase/pull over local work, inspect git status and preserve unfinished work in a rescue branch/commit. Remote HEAD is the source of truth for committed state."
+    "recoveryPolicy": "Before reset/rebase/pull over local work, inspect git status and preserve unfinished work in a rescue branch/commit. Remote HEAD is the source of truth for committed state.",
+    "batchCheckpoint": "40-profile research pass completed; all 40 dossiers moved to review. Do not open the 80-profile batch until maintainer validation of this checkpoint."
   },
   "integrated": [
     {
