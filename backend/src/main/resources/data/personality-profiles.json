@@ -6832,5 +6832,209 @@
       "moral": 75,
       "tecnologia": 50
     }
+  },
+  {
+    "personalityId": "ayn-rand",
+    "vector": {
+      "estrutura": 78,
+      "representacao": 55,
+      "poder": 6,
+      "imigracao": 45,
+      "diplomacia": 72,
+      "intervencao": 28,
+      "economia": 3,
+      "controle": 3,
+      "comercio": 6,
+      "religiao": 96,
+      "moral": 55,
+      "tecnologia": 92
+    }
+  },
+  {
+    "personalityId": "hannah-arendt",
+    "vector": {
+      "estrutura": 58,
+      "representacao": 94,
+      "poder": 18,
+      "imigracao": 30,
+      "diplomacia": 22,
+      "intervencao": 45,
+      "economia": 42,
+      "controle": 38,
+      "comercio": 45,
+      "religiao": 86,
+      "moral": 76,
+      "tecnologia": 38
+    }
+  },
+  {
+    "personalityId": "mary-wollstonecraft",
+    "vector": {
+      "estrutura": 50,
+      "representacao": 84,
+      "poder": 20,
+      "imigracao": 25,
+      "diplomacia": 25,
+      "intervencao": 62,
+      "economia": 42,
+      "controle": 35,
+      "comercio": 35,
+      "religiao": 72,
+      "moral": 88,
+      "tecnologia": 66
+    }
+  },
+  {
+    "personalityId": "elinor-ostrom",
+    "vector": {
+      "estrutura": 94,
+      "representacao": 82,
+      "poder": 36,
+      "imigracao": 45,
+      "diplomacia": 28,
+      "intervencao": 62,
+      "economia": 46,
+      "controle": 42,
+      "comercio": 45,
+      "religiao": 74,
+      "moral": 55,
+      "tecnologia": 72
+    }
+  },
+  {
+    "personalityId": "judith-butler",
+    "vector": {
+      "estrutura": 90,
+      "representacao": 78,
+      "poder": 10,
+      "imigracao": 5,
+      "diplomacia": 5,
+      "intervencao": 92,
+      "economia": 70,
+      "controle": 55,
+      "comercio": 72,
+      "religiao": 96,
+      "moral": 99,
+      "tecnologia": 28
+    }
+  },
+  {
+    "personalityId": "bell-hooks",
+    "vector": {
+      "estrutura": 50,
+      "representacao": 92,
+      "poder": 28,
+      "imigracao": 8,
+      "diplomacia": 18,
+      "intervencao": 62,
+      "economia": 75,
+      "controle": 45,
+      "comercio": 55,
+      "religiao": 70,
+      "moral": 98,
+      "tecnologia": 75
+    }
+  },
+  {
+    "personalityId": "lelia-gonzalez",
+    "vector": {
+      "estrutura": 68,
+      "representacao": 82,
+      "poder": 36,
+      "imigracao": 5,
+      "diplomacia": 25,
+      "intervencao": 70,
+      "economia": 88,
+      "controle": 82,
+      "comercio": 72,
+      "religiao": 50,
+      "moral": 96,
+      "tecnologia": 60
+    }
+  },
+  {
+    "personalityId": "nisia-floresta",
+    "vector": {
+      "estrutura": 60,
+      "representacao": 68,
+      "poder": 35,
+      "imigracao": 25,
+      "diplomacia": 40,
+      "intervencao": 55,
+      "economia": 45,
+      "controle": 40,
+      "comercio": 35,
+      "religiao": 35,
+      "moral": 80,
+      "tecnologia": 45
+    }
+  },
+  {
+    "personalityId": "dorothy-day",
+    "vector": {
+      "estrutura": 88,
+      "representacao": 70,
+      "poder": 15,
+      "imigracao": 10,
+      "diplomacia": 0,
+      "intervencao": 96,
+      "economia": 74,
+      "controle": 64,
+      "comercio": 86,
+      "religiao": 5,
+      "moral": 40,
+      "tecnologia": 10
+    }
+  },
+  {
+    "personalityId": "phyllis-schlafly",
+    "vector": {
+      "estrutura": 20,
+      "representacao": 65,
+      "poder": 70,
+      "imigracao": 86,
+      "diplomacia": 66,
+      "intervencao": 35,
+      "economia": 15,
+      "controle": 20,
+      "comercio": 72,
+      "religiao": 5,
+      "moral": 5,
+      "tecnologia": 30
+    }
+  },
+  {
+    "personalityId": "jane-jacobs",
+    "vector": {
+      "estrutura": 92,
+      "representacao": 75,
+      "poder": 36,
+      "imigracao": 22,
+      "diplomacia": 38,
+      "intervencao": 62,
+      "economia": 24,
+      "controle": 14,
+      "comercio": 28,
+      "religiao": 55,
+      "moral": 72,
+      "tecnologia": 24
+    }
+  },
+  {
+    "personalityId": "condoleezza-rice",
+    "vector": {
+      "estrutura": 25,
+      "representacao": 78,
+      "poder": 66,
+      "imigracao": 55,
+      "diplomacia": 86,
+      "intervencao": 20,
+      "economia": 18,
+      "controle": 25,
+      "comercio": 15,
+      "religiao": 35,
+      "moral": 35,
+      "tecnologia": 75
+    }
   }
 ]
