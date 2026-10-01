@@ -1,520 +1,186 @@
-# Plano de expansão da representação feminina — 12 Axes
+# Contexto da feature — expansão da representação feminina
 
-> Status: em execução na branch `feat/women-leaders`
+> Branch de trabalho: `feat/women-leaders`
 >
-> Objetivo: ampliar a representação feminina do catálogo de personalidades de forma incremental, auditável e tecnicamente segura, preservando o caráter educativo e comparativo do 12 Axes.
+> Este arquivo contém apenas o contexto estável da feature: objetivo, invariantes, arquitetura, metodologia e regras que não devem se perder entre sessões.
 
-## 1. Objetivos
+## 1. Objetivo
 
-### 1.1 Meta quantitativa
+Expandir a representação feminina no catálogo de personalidades do 12 Axes sem alterar a lógica ideológica do produto.
 
-Estado medido no início desta frente:
+Base de referência da frente:
 
-- 386 personalidades masculinas.
-- 16 personalidades femininas.
-- Meta desta migração: pelo menos 193 personalidades femininas, equivalente a metade do catálogo masculino atual.
-- Incremento necessário a partir da base inicial: +177 mulheres.
+- 386 personalidades masculinas;
+- 16 mulheres no início da migração;
+- meta mínima: 193 mulheres;
+- o pipeline foi planejado acima da meta mínima para evitar descartar trabalho útil.
 
-A meta quantitativa não substitui critérios de qualidade. Uma personalidade só conta como concluída quando satisfaz os critérios de integridade definidos neste documento.
+Estado atual após a primeira integração ampliada:
 
-### 1.2 Objetivos de produto
+- 28 mulheres no runtime;
+- 386 homens;
+- 414 personalidades no total;
+- 172 candidatas ainda no pipeline;
+- 200 mulheres planejadas no total;
+- meta mínima de 193 já totalmente coberta pelo planejamento.
 
-1. Tornar `Misto` o modo padrão sem impor proporção artificial entre homens e mulheres.
-2. Permitir alternância entre `Misto`, `Homens` e `Mulheres` sem alterar as respostas ou o vetor do usuário.
-3. Aumentar representação feminina em diferentes regiões, períodos históricos e categorias existentes no catálogo.
-4. Garantir retratos funcionais e locais.
-5. Garantir recomendações de livros coerentes com o filtro de representação selecionado.
-6. Tornar a expansão verificável por testes e documentação.
+## 2. Invariantes de produto
 
-## 2. Princípios metodológicos
+### Representação
 
-### 2.1 Representação não altera compatibilidade
+`representation` é metadata de catálogo e filtro de resultado.
 
-`representation` é metadata e filtro de catálogo. O gênero da personalidade não adiciona bônus, penalidade ou peso ao cálculo de compatibilidade.
+Ela não pode:
 
-O modo `mixed` usa ranking global por compatibilidade. Não deve existir intercalação forçada 50/50.
+- alterar o vetor do usuário;
+- adicionar bônus ou penalidade;
+- alterar a compatibilidade ideológica;
+- forçar proporção entre gêneros.
 
-### 2.2 Perfis políticos precisam ser auditáveis
+O modo padrão continua sendo `mixed`.
 
-Os vetores de 12 eixos representam uma simplificação editorial para fins comparativos. Novos valores não devem ser derivados automaticamente apenas de rótulos como "esquerda", "direita", "liberal", "socialista" etc.
+`mixed` significa ranking global de compatibilidade, e não 50% homens + 50% mulheres.
 
-Para cada nova personalidade:
+### Livros
 
-1. reunir fontes;
-2. registrar evidências relevantes por eixo;
-3. identificar e documentar incertezas;
-4. revisar o vetor antes de torná-lo matchable;
-5. evitar inferir uma posição quando não houver evidência suficiente.
+As recomendações possuem rankings masculino, feminino e misto.
 
-### 2.3 Incrementos pequenos
+Se uma personalidade compatível não tiver livro válido no catálogo local, o serviço continua descendo o ranking até encontrar outra elegível.
 
-Preferir lotes pequenos e revisáveis a um commit único com centenas de registros.
+Ter livro não é requisito para integrar uma personalidade.
 
-Cada lote deve manter backend e frontend em estado executável.
+### Retratos
 
----
-
-## 3. Estado já implementado
-
-### 3.1 Representação
-
-- campo `representation` integrado ao catálogo e aos matches;
-- suporte a `male` e `female`;
-- modo padrão do frontend alterado para `mixed`;
-- ranking misto global, sem intercalação artificial;
-- resultados separados para masculino, feminino e misto.
-
-### 3.2 Catálogo feminino inicial
-
-Primeiro conjunto com 16 mulheres:
-
-- Dilma Rousseff
-- Eva Perón
-- Greta Thunberg
-- Margaret Thatcher
-- Rosa Luxemburg
-- Angela Merkel
-- Indira Gandhi
-- Emma Goldman
-- Alexandra Kollontai
-- Golda Meir
-- Benazir Bhutto
-- Ellen Johnson Sirleaf
-- Corazon Aquino
-- Michelle Bachelet
-- Simone de Beauvoir
-- Emmeline Pankhurst
-
-### 3.3 Retratos
-
-Os 16 registros foram migrados para caminhos locais em:
+Retratos femininos integrados devem usar assets locais em:
 
 `frontend/public/personalities/portraits/`
 
-O catálogo não deve depender de hotlinks para renderizar retratos.
+Não voltar a hotlinks externos em `imagePath`.
 
-### 3.4 Livros
+O build do frontend executa a validação de retratos antes do TypeScript/Vite.
 
-O resultado possui recomendações independentes para:
+## 3. Arquivos que formam a feature
 
-- masculino;
-- feminino;
-- misto.
+Runtime:
 
-A recomendação agora percorre o ranking completo. Se uma personalidade não possuir livro disponível/cadastrado, ela é ignorada e a próxima personalidade elegível é considerada até atingir `MAX_BOOKS = 3`.
+- `backend/src/main/resources/data/personalities.json`
+- `backend/src/main/resources/data/personality-profiles.json`
+- `backend/src/main/resources/data/i18n/en/personalities.json`
+- `backend/src/main/resources/data/books.json`
 
----
+Pipeline editorial:
 
-## 4. Fase A — fechar integridade da infraestrutura
+- `scripts/data/female-expansion.json`
+- `scripts/data/female-profile-evidence.json`
+- `scripts/validate-female-expansion.mjs`
 
-### A1. Teste real de assets
+Auditoria dos vetores:
 
-Problema: verificar apenas que `imagePath` não está vazio não garante que o arquivo exista.
+- `profile-audit/answers/personality/`
+- `profile-audit/subagent-out/personality/`
+- `profile-audit/validate.py`
 
-Implementar validação:
+Assets:
 
-- personalidade feminina possui `imagePath`;
-- caminho começa com `/personalities/portraits/`;
-- caminho não é HTTP/HTTPS;
-- arquivo correspondente existe em `frontend/public`;
-- extensão/formato aceito;
-- opcionalmente detectar arquivo vazio/corrompido no pipeline.
+- `frontend/public/personalities/portraits/`
+- `frontend/scripts/validate-personality-portraits.mjs`
 
-**Critério de aceite:** nenhuma personalidade marcada como pronta pode cair no fallback de iniciais por asset ausente.
+## 4. Modelo editorial dos 12 eixos
 
-### A2. Testes do fallback de livros
+Os vetores são uma interpretação editorial comparativa, não uma medição científica.
 
-Criar cobertura dedicada para:
+Fontes documentam fatos e posições. Elas não geram automaticamente números de 0–100.
 
-1. primeiro match tem livro -> recomendado;
-2. primeiro match não tem livro -> próximo elegível entra;
-3. múltiplos matches sem livro -> busca continua;
-4. nunca retorna mais de três;
-5. não duplica personalidade;
-6. mantém ordem de compatibilidade entre os elegíveis;
-7. respeita PT/EN;
-8. feminino consulta ranking feminino completo;
-9. misto consulta ranking global completo.
+Regras:
 
-**Critério de aceite:** ausência de livro nunca cria um buraco quando há outra obra elegível mais abaixo no ranking.
+1. manter evidência histórica separada da interpretação editorial;
+2. não inferir posição apenas por rótulos políticos;
+3. não usar `50` como sinônimo de ausência de evidência;
+4. registrar incerteza quando uma fonte não sustenta um eixo;
+5. validar as 240 respostas com `profile-audit/validate.py`;
+6. não reconstruir automaticamente um vetor que já passou por revisão;
+7. promoção ao runtime exige revisão humana.
 
-### A3. Validação do catálogo de livros
+## 5. Estados do pipeline
 
-Uma entrada utilizável deve ter:
+Estados válidos:
 
-- `personalityId` existente;
-- título não vazio;
-- ano quando conhecido;
-- localização PT/EN consistente;
-- URL opcional.
+- `pending`: ainda não iniciado;
+- `researching`: pesquisa ativa;
+- `review`: dossiê factual pronto para revisão;
+- `proposed`: interpretação editorial proposta;
+- `ready`: aprovado pelo mantenedor para integração.
 
-URL vazia continua autorizada quando o produto usa a busca de loja como fallback.
+Uma candidata em `review`, `proposed` ou `ready` precisa ter:
 
----
+- `evidenceFile` apontando para `female-profile-evidence.json`;
+- pelo menos 2 fontes no dossiê;
+- evidência documentada em pelo menos 3 eixos.
 
-## 5. Fase B — lote imediato: Rosa Parks, Lélia Gonzalez e Angela Davis
+O validator também deve garantir:
 
-IDs propostos:
+- nenhum ID duplicado;
+- nenhuma candidata ativa já presente no runtime;
+- registros marcados como integrados realmente presentes no runtime;
+- `progress` sincronizado com runtime + pipeline;
+- planejamento total não abaixo da meta.
 
-- `rosa-parks`
-- `lelia-gonzalez`
-- `angela-davis`
+## 6. O que aprendemos com a integração interrompida
 
-### B1. Metadata PT
+Um `push` bem-sucedido não prova que todo o trabalho de um agente entrou no commit.
 
-Para cada personalidade:
+Nesta frente ocorreu o seguinte:
 
-- nome;
-- função/descrição curta;
-- categoria existente;
-- representação `female`;
-- período de vida;
-- descrição editorial factual;
-- `imagePath` local;
-- origem/licença da imagem;
-- nota de atribuição quando necessária.
+1. parte dos arquivos foi commitada e enviada;
+2. runtime, livros, testes e auditorias ainda estavam apenas no working tree local;
+3. o trabalho foi recuperado por uma branch de resgate;
+4. as 12 auditorias foram validadas novamente;
+5. a integração foi aplicada sobre o HEAD remoto atual;
+6. manifest, evidence e validator foram reconciliados depois.
 
-### B2. Tradução EN
+Protocolo obrigatório daqui em diante:
 
-O catálogo inglês deve manter:
+1. antes de `pull`, `reset`, `rebase` ou troca destrutiva, rodar `git status --short`;
+2. se houver trabalho local importante, criar branch/commit de resgate;
+3. confirmar o HEAD remoto antes de escrever;
+4. nunca assumir que o conteúdo descrito numa conversa está realmente commitado;
+5. depois de integrar runtime, executar o validator do pipeline para reconciliar contagens.
 
-- mesmo ID;
-- mesma categoria;
-- mesma representação;
-- mesmo asset;
-- descrição e função traduzidas;
-- metadata de imagem equivalente.
+## 7. Regras de segurança operacional
 
-### B3. Retratos
+Não executar cegamente `scripts/implement_female_representation.mjs`.
 
-Fluxo obrigatório:
+O script contém material editorial histórico e não é fonte de verdade para vetores já revisados.
 
-1. localizar imagem;
-2. confirmar licença/regras de reutilização;
-3. preservar atribuição;
-4. baixar asset;
-5. normalizar nome para o ID;
-6. adicionar em `frontend/public/personalities/portraits`;
-7. testar existência;
-8. verificar renderização.
+Também evitar:
 
-Não copiar automaticamente imagens cujo status de direitos seja incerto.
-
-### B4. Livros
-
-Entradas preparadas:
-
-- Rosa Parks — *Rosa Parks: My Story*;
-- Lélia Gonzalez — *Por um Feminismo Afro-Latino-Americano*;
-- Angela Davis — *Women, Race & Class*.
-
-Antes do merge, revisar título, ano, autoria/edição e tradução exibida.
-
-### B5. Perfis dos 12 eixos
-
-Não bloquear pesquisa de metadata e assets por causa do vetor.
-
-Criar uma ficha de auditoria por personalidade:
-
-| Eixo | Evidência | Fonte | Confiança | Valor proposto | Revisado |
-| --- | --- | --- | --- | ---: | --- |
-| estrutura |  |  |  |  |  |
-| representacao |  |  |  |  |  |
-| poder |  |  |  |  |  |
-| imigracao |  |  |  |  |  |
-| diplomacia |  |  |  |  |  |
-| intervencao |  |  |  |  |  |
-| economia |  |  |  |  |  |
-| controle |  |  |  |  |  |
-| comercio |  |  |  |  |  |
-| religiao |  |  |  |  |  |
-| moral |  |  |  |  |  |
-| tecnologia |  |  |  |  |  |
-
-**Critério de aceite:** uma personalidade só entra no matching depois de o vetor completo ser revisado.
-
----
-
-## 6. Fase C — pipeline de expansão até 193
-
-### 6.1 Manifesto de migração
-
-Criar um arquivo de acompanhamento, preferencialmente:
-
-`scripts/data/female-expansion.json`
-
-Campos sugeridos:
-
-```json
-{
-  "id": "example",
-  "name": "Example",
-  "region": "latin-america",
-  "period": "20th-century",
-  "category": "ativista",
-  "metadataStatus": "pending",
-  "portraitStatus": "pending",
-  "translationStatus": "pending",
-  "profileStatus": "pending",
-  "bookStatus": "pending"
-}
-```
-
-Estados:
-
-- `pending`
-- `researching`
-- `review`
-- `ready`
-
-O manifesto não participa do matching.
-
-### 6.2 Organização dos lotes
-
-Trabalhar inicialmente com lotes de aproximadamente 10–20 registros.
-
-Usar dimensões descritivas para evitar concentração acidental:
-
-- América Latina e Caribe;
-- América do Norte;
-- Europa;
-- África;
-- Oriente Médio;
-- Sul da Ásia;
-- Leste/Sudeste Asiático;
-- diferentes períodos históricos;
-- políticas e chefes de governo;
-- ativistas;
-- economistas;
-- filósofas/teóricas;
-- intelectuais;
-- empresárias quando relevantes ao escopo.
-
-Esses grupos são instrumentos de cobertura, não cotas de compatibilidade.
-
-### 6.3 Próximos nomes já preparados parcialmente
-
-Assets já existentes/preparados no trabalho atual podem tornar candidatas técnicas para lotes seguintes:
-
-- Ayn Rand
-- Hannah Arendt
-- Mary Wollstonecraft
-- Elinor Ostrom
-
-Outros nomes podem ser adicionados ao manifesto depois de pesquisa e revisão.
-
----
-
-## 7. Fase D — controle de progresso
-
-Registrar métricas sem alterar o algoritmo de matching.
-
-Exemplo:
-
-```text
-Female catalog target: 193
-Ready: 19
-In review: 12
-Researching: 20
-Pending: 142
-Progress: 9.8%
-```
-
-Durante a migração, não tornar o CI vermelho simplesmente porque ainda não chegamos a 193.
-
-Adicionar primeiro uma verificação informativa/progressiva.
-
-Quando a meta for atingida, promover para uma invariável de regressão:
-
-`femaleCount >= ceil(maleCount / 2)`
-
-Antes dessa mudança, revisar se a intenção continua sendo acompanhar dinamicamente o número de homens ou congelar o alvo desta migração em 193.
-
----
-
-## 8. Fase E — qualidade editorial
-
-### 8.1 Descrições
-
-Descrições devem:
-
-- ser factuais;
-- evitar linguagem promocional;
-- evitar julgamento moral;
-- distinguir fatos de interpretações contestadas;
-- usar o mesmo nível de detalhe entre figuras comparáveis.
-
-### 8.2 Fontes
-
-Prioridade:
-
-1. arquivos/documentos primários;
-2. instituições públicas;
-3. universidades;
-4. fundações/arquivos oficiais;
-5. enciclopédias e obras acadêmicas;
-6. fontes secundárias reputadas.
-
-Evitar usar redes sociais, páginas de fãs ou agregadores como fonte principal de perfil.
-
-### 8.3 Cobertura dos eixos
-
-Ausência de evidência não deve ser convertida automaticamente em `50`.
-
-`50` significa posição central/modelada, não "não sabemos".
-
-Quando um eixo tiver evidência insuficiente, a ficha deve registrar explicitamente a incerteza antes da revisão final.
-
----
-
-## 9. Fase F — testes finais por lote
-
-### Backend
-
-```bash
-cd backend
-mvn test
-mvn package -DskipTests
-```
-
-Validar:
-
-- startup dos JSONs;
-- IDs únicos;
-- categorias;
-- representação;
-- perfis completos;
-- valores 0–100;
-- payload masculino/feminino/misto;
-- fallback de livros;
-- PT/EN.
-
-### Frontend
-
-```bash
-cd frontend
-npm ci
-npm test
-npm run build
-```
-
-Validar manualmente:
-
-- aba Misto inicial;
-- troca Misto -> Mulheres -> Homens;
-- hero;
-- matches por dimensão;
-- retratos;
-- modal de personalidade;
-- livros;
-- compartilhamento;
-- mobile.
-
----
-
-## 10. Estratégia de commits
-
-Manter commits pequenos por responsabilidade.
-
-Exemplo:
-
-```text
-test(books): cover recommendation fallback
-test(personality): validate portrait assets
-feat(personality): add batch metadata
-feat(i18n): translate female personality batch
-feat(books): add books for female batch
-feat(assets): add licensed female portraits
-data(profiles): add reviewed personality vectors
-docs(personality): update female expansion progress
-```
-
-Evitar misturar refactor amplo com alteração de dados.
-
----
-
-## 11. Critério de conclusão de uma personalidade
-
-Uma personalidade é `ready` apenas quando:
-
-- [ ] metadata PT completa;
-- [ ] metadata EN completa;
-- [ ] `representation = female`;
-- [ ] categoria válida;
-- [ ] retrato local existente;
-- [ ] origem/licença registrada;
-- [ ] perfil de 12 eixos completo e revisado;
-- [ ] fontes de auditoria registradas;
-- [ ] livro validado quando aplicável;
-- [ ] backend carrega sem erro;
-- [ ] testes passam;
-- [ ] frontend renderiza sem fallback inesperado.
-
-Não é obrigatório possuir livro para integrar o catálogo. O sistema deve simplesmente recomendar a próxima obra elegível.
-
----
-
-## 12. Checkpoints de revisão
-
-### Checkpoint 1 — infraestrutura
-- assets validados;
-- fallback de livros coberto por testes;
-- manifesto criado.
-
-### Checkpoint 2 — 19 mulheres
-- Rosa Parks;
-- Lélia Gonzalez;
-- Angela Davis.
-
-### Checkpoint 3 — primeiro lote ampliado
-Revisar qualidade do processo antes de escalar.
-
-### Checkpoint 4 — aproximadamente 50 mulheres
-Auditar distribuição regional, temporal e por categoria.
-
-### Checkpoint 5 — aproximadamente 100 mulheres
-Revisar performance, UX, duplicatas e qualidade editorial.
-
-### Checkpoint 6 — 150 mulheres
-Auditoria pré-meta.
-
-### Checkpoint 7 — 193 mulheres
-- auditoria completa;
-- ativar teste de regressão da meta;
-- atualizar README;
-- preparar PR upstream.
-
----
-
-## 13. Ordem de execução imediata
-
-1. adicionar testes específicos do fallback de livros;
-2. melhorar validação de retratos para verificar o arquivo físico;
-3. criar manifesto de expansão;
-4. finalizar metadata PT/EN de Rosa Parks, Lélia Gonzalez e Angela Davis;
-5. obter retratos reutilizáveis e registrar atribuições;
-6. revisar entradas bibliográficas;
-7. montar fichas de evidência dos 12 eixos;
-8. revisar os vetores;
-9. integrar os perfis aprovados;
-10. executar suíte backend/frontend;
-11. atualizar contagem e documentação;
-12. iniciar o lote seguinte.
-
----
-
-## 14. Definition of Done da frente inteira
-
-A expansão é considerada concluída quando:
-
-- o catálogo atingir pelo menos 193 mulheres para a base masculina usada como referência nesta migração;
-- todos os registros femininos possuírem metadata PT/EN consistente;
-- todos os retratos forem locais, existentes e rastreáveis;
-- todos os perfis matchable tiverem 12 eixos completos e auditados;
-- recomendações de livros fizerem fallback corretamente;
-- Misto permanecer ranking global sem cota de gênero;
-- testes backend/frontend passarem;
-- build de produção passar;
-- documentação refletir o comportamento real;
-- nenhuma personalidade feminina depender de hotlink para funcionar;
-- a PR estiver dividida e documentada de forma revisável.
+- commits por personalidade;
+- alterar `main`;
+- recriar vetores auditados;
+- apagar candidatas só para voltar exatamente a 193;
+- declarar teste como aprovado sem executá-lo;
+- misturar mudanças editoriais grandes com refactors não relacionados.
+
+## 8. Estratégia de commits
+
+Por lote, preferir poucos commits consolidados:
+
+1. pesquisa + pipeline + evidências;
+2. integração do lote no runtime;
+3. testes/correções, se necessários.
+
+A documentação deve refletir o estado real depois da reconciliação, e não servir como log histórico de cada tentativa.
+
+## 9. Critério de conclusão da frente
+
+A frente termina quando:
+
+- houver pelo menos 193 mulheres integradas;
+- os perfis integrados tiverem metadata PT/EN consistente;
+- retratos forem locais e validados;
+- vetores tiverem auditoria completa;
+- livros fizerem fallback corretamente;
+- filtros de representação não afetarem compatibilidade;
+- validator estiver limpo;
+- testes backend/frontend e build passarem;
+- o estado final estiver documentado e pronto para revisão upstream.
