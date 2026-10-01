@@ -9,7 +9,8 @@
     "pending",
     "researching",
     "review",
-    "ready"
+    "ready",
+    "proposed"
   ],
   "candidates": [
     {
@@ -2184,10 +2185,11 @@
     "profileReadyRequires": [
       "12-axis vector present",
       "axis evidence reviewed",
-      "values approved by human reviewer"
+      "editorial proposal reviewed by project maintainer"
     ],
     "runtimeRule": "Only ready candidates may be promoted into personalities.json/personality-profiles.json.",
-    "booksRule": "A book is optional; missing books are backfilled from the next eligible ranked personality."
+    "booksRule": "A book is optional; missing books are backfilled from the next eligible ranked personality.",
+    "profileProposalRule": "Assistant may prepare evidence-backed editorial proposals, clearly marked proposed; only maintainer review promotes them to ready."
   },
   "workflow": {
     "batchPolicy": "Consolidate research, metadata, translation, bibliography, portrait, evidence and tests before committing.",
