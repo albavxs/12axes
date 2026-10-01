@@ -1,0 +1,100 @@
+{
+  "target": {
+    "baselineMaleCount": 386,
+    "targetFemaleCount": 193,
+    "initialFemaleCount": 16,
+    "requiredAdditions": 177
+  },
+  "statuses": [
+    "pending",
+    "researching",
+    "review",
+    "ready"
+  ],
+  "candidates": [
+    {
+      "id": "rosa-parks",
+      "name": "Rosa Parks",
+      "region": "north-america",
+      "period": "20th-century",
+      "category": "ativista",
+      "metadataStatus": "researching",
+      "portraitStatus": "researching",
+      "translationStatus": "pending",
+      "profileStatus": "pending",
+      "bookStatus": "review"
+    },
+    {
+      "id": "lelia-gonzalez",
+      "name": "Lélia Gonzalez",
+      "region": "latin-america",
+      "period": "20th-century",
+      "category": "intelectual",
+      "metadataStatus": "researching",
+      "portraitStatus": "researching",
+      "translationStatus": "pending",
+      "profileStatus": "pending",
+      "bookStatus": "review"
+    },
+    {
+      "id": "angela-davis",
+      "name": "Angela Davis",
+      "region": "north-america",
+      "period": "20th-21st-century",
+      "category": "ativista",
+      "metadataStatus": "researching",
+      "portraitStatus": "researching",
+      "translationStatus": "pending",
+      "profileStatus": "pending",
+      "bookStatus": "review"
+    },
+    {
+      "id": "ayn-rand",
+      "name": "Ayn Rand",
+      "region": "north-america",
+      "period": "20th-century",
+      "category": "filosofo",
+      "metadataStatus": "pending",
+      "portraitStatus": "ready",
+      "translationStatus": "pending",
+      "profileStatus": "pending",
+      "bookStatus": "pending"
+    },
+    {
+      "id": "hannah-arendt",
+      "name": "Hannah Arendt",
+      "region": "europe-north-america",
+      "period": "20th-century",
+      "category": "filosofo",
+      "metadataStatus": "pending",
+      "portraitStatus": "ready",
+      "translationStatus": "pending",
+      "profileStatus": "pending",
+      "bookStatus": "pending"
+    },
+    {
+      "id": "mary-wollstonecraft",
+      "name": "Mary Wollstonecraft",
+      "region": "europe",
+      "period": "18th-century",
+      "category": "filosofo",
+      "metadataStatus": "pending",
+      "portraitStatus": "ready",
+      "translationStatus": "pending",
+      "profileStatus": "pending",
+      "bookStatus": "pending"
+    },
+    {
+      "id": "elinor-ostrom",
+      "name": "Elinor Ostrom",
+      "region": "north-america",
+      "period": "20th-21st-century",
+      "category": "economista",
+      "metadataStatus": "pending",
+      "portraitStatus": "ready",
+      "translationStatus": "pending",
+      "profileStatus": "pending",
+      "bookStatus": "pending"
+    }
+  ]
+}
