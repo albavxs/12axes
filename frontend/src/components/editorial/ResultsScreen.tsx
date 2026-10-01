@@ -1,6 +1,6 @@
 import { useState, type CSSProperties } from 'react';
 import { t } from '../../i18n';
-import type { Axis, AxisResult, PersonalityRepresentationMode, QuizPayload, QuizResult } from '../../types/quiz';
+import type { Axis, AxisResult, PersonalityMatch, PersonalityRepresentationMode, QuizPayload, QuizResult } from '../../types/quiz';
 import { catStyle } from '../../utils/ideologyColors';
 import { SupportSection } from '../SupportSection';
 import { BooksSection } from '../results/BooksSection';
@@ -23,7 +23,7 @@ interface ResultsScreenProps {
   isSharing: boolean;
   error: string | null;
   onRedo: () => void;
-  onShare: () => void;
+  onShare: (personality: PersonalityMatch, personalityMatches: PersonalityMatch[]) => void;
 }
 
 export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, error, onRedo, onShare }: ResultsScreenProps) {
@@ -65,7 +65,7 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
           <AxesSection axes={axes} results={axisResults} />
 
           <div className="e-actions">
-            <button className="e-btn e-btn-ghost" type="button" onClick={onShare} disabled={isSharing}>
+            <button className="e-btn e-btn-ghost" type="button" onClick={() => onShare(selectedPersonalities.top, selectedPersonalities.generalMatches)} disabled={isSharing}>
               {isSharing ? t.generatingPng : t.saveOrShare} <ShareImageIcon />
             </button>
           </div>
@@ -108,7 +108,7 @@ export function ResultsScreen({ result, quiz, axes, axisResults, isSharing, erro
             <button className="e-btn e-btn-primary" type="button" onClick={onRedo}>
               {t.redoAnalysis} <RefreshIcon />
             </button>
-            <button className="e-btn e-btn-ghost" type="button" onClick={onShare} disabled={isSharing}>
+            <button className="e-btn e-btn-ghost" type="button" onClick={() => onShare(selectedPersonalities.top, selectedPersonalities.generalMatches)} disabled={isSharing}>
               {isSharing ? t.generatingPng : t.share} <DownloadIcon />
             </button>
           </div>

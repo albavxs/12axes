@@ -4,7 +4,7 @@ import { HOME_AXES } from './data/homeAxes';
 import type { ExampleResult } from './data/exampleResult';
 import { LANG, setLang, t } from './i18n';
 import { fetchQuiz, fetchSharedResult, submitResults } from './services/quizApi';
-import type { AnswerValue, QuizPayload, QuizResult, QuizVariant } from './types/quiz';
+import type { AnswerValue, PersonalityMatch, QuizPayload, QuizResult, QuizVariant } from './types/quiz';
 import { HomeScreen } from './components/editorial/HomeScreen';
 import { VariantScreen } from './components/editorial/VariantScreen';
 import { ResultsScreen } from './components/editorial/ResultsScreen';
@@ -458,7 +458,7 @@ function MainApp() {
     }
   }
 
-  async function downloadResultsPng() {
+  async function downloadResultsPng(sharePersonality?: PersonalityMatch, sharePersonalityMatches?: PersonalityMatch[]) {
     if (!result || isSharing) {
       return;
     }
@@ -495,7 +495,10 @@ function MainApp() {
       ]);
       const { buildShareCard, renderSharePng } = shareCard;
 
-      const { stage: builtStage, target } = buildShareCard(result, exportQuiz);
+      const { stage: builtStage, target } = buildShareCard(result, exportQuiz, {
+        personality: sharePersonality,
+        personalityMatches: sharePersonalityMatches
+      });
       stage = builtStage;
       document.body.appendChild(stage);
 
@@ -505,7 +508,7 @@ function MainApp() {
         dataUrl,
         `${t.shareFilePrefix}-${new Date().toISOString().slice(0, 10)}.png`
       );
-      await tryNativeShare(dataUrl, result);
+      await tryNativeShare(dataUrl, result, sharePersonality ?? result.topPersonalityMatch);
     } catch (err) {
       setError(err instanceof Error ? err.message : t.errImage);
     } finally {
@@ -752,7 +755,7 @@ function MainApp() {
           isSharing={isSharing}
           error={error}
           onRedo={() => void startQuiz(selectedVariant)}
-          onShare={() => void downloadResultsPng()}
+          onShare={(personality, personalityMatches) => void downloadResultsPng(personality, personalityMatches)}
         />
       )}
 
@@ -768,7 +771,7 @@ export default function App() {
 // Abre a folha de compartilhamento nativa (iPhone/Android) com a imagem do
 // resultado e um texto pronto. Em navegadores sem Web Share API (ou se o
 // usuário cancelar), fica só o download que já aconteceu antes.
-async function tryNativeShare(dataUrl: string, result: QuizResult) {
+async function tryNativeShare(dataUrl: string, result: QuizResult, personality: PersonalityMatch) {
   if (typeof navigator.share !== 'function') {
     return;
   }
@@ -778,8 +781,8 @@ async function tryNativeShare(dataUrl: string, result: QuizResult) {
       Math.round(result.topMatch.compatibility),
       result.topCountryMatch.name,
       Math.round(result.topCountryMatch.compatibility),
-      result.topPersonalityMatch.name,
-      Math.round(result.topPersonalityMatch.compatibility)
+      personality.name,
+      Math.round(personality.compatibility)
     );
 
     const blob = await (await fetch(dataUrl)).blob();

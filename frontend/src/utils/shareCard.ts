@@ -129,9 +129,15 @@ const sharePoleIconPaths: Record<string, Record<PoleSide, string[]>> = {
   }
 };
 
+interface ShareCardOptions {
+  personality?: PersonalityMatch;
+  personalityMatches?: PersonalityMatch[];
+}
+
 export function buildShareCard(
   result: QuizResult,
-  quiz: QuizPayload
+  quiz: QuizPayload,
+  options: ShareCardOptions = {}
 ): { stage: HTMLDivElement; target: HTMLDivElement; backgroundColor: string } {
   const color = resolveIdeologyColor(result.topMatch.category);
   const stage = el('div', {
@@ -172,8 +178,8 @@ export function buildShareCard(
   content.append(
     buildShareHeader(),
     buildShareIdentity(result, color.bg),
-    buildShareTwoColumns(result, quiz, color),
-    buildShareLists(result, color),
+    buildShareTwoColumns(result, quiz, color, options.personality ?? result.topPersonalityMatch),
+    buildShareLists(result, color, options.personalityMatches ?? result.personalityMatches),
     buildShareFooter()
   );
 
@@ -248,7 +254,8 @@ function buildShareIdentity(result: QuizResult, bgColor: string): HTMLElement {
 function buildShareTwoColumns(
   result: QuizResult,
   quiz: QuizPayload,
-  color: { base: string; bg: string }
+  color: { base: string; bg: string },
+  personality: PersonalityMatch
 ): HTMLElement {
   const row = el('div', {
     display: 'flex',
@@ -259,7 +266,7 @@ function buildShareTwoColumns(
     marginTop: '8px'
   });
   row.append(
-    buildSharePersonalityPortrait(result.topPersonalityMatch, color),
+    buildSharePersonalityPortrait(personality, color),
     buildShareAxesColumn(result, quiz, color)
   );
   return row;
@@ -472,7 +479,8 @@ function buildPoleGlyph(axisId: string, side: PoleSide): SVGElement {
 
 function buildShareLists(
   result: QuizResult,
-  color: { base: string; bg: string }
+  color: { base: string; bg: string },
+  personalityMatches: PersonalityMatch[]
 ): HTMLElement {
   const row = el('div', {
     display: 'flex',
@@ -481,7 +489,7 @@ function buildShareLists(
   row.append(
     buildShareListBox(
       t.shareOtherPersonalities,
-      result.personalityMatches.slice(1, 4).map((person) => ({
+      personalityMatches.slice(1, 4).map((person) => ({
         label: person.name,
         pct: person.compatibility,
         avatar: resolvePersonalityImageSrc(person.imagePath),
