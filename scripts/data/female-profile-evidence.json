@@ -24,6 +24,10 @@
           "institution": "Library of Congress"
         },
         {
+          "url": "https://www.loc.gov/nls/new-materials/book-lists/rosa-parks/",
+          "institution": "Library of Congress"
+        },
+        {
           "url": "https://www.loc.gov/exhibitions/rosa-parks-in-her-own-words/about-this-exhibition/the-bus-boycott/",
           "institution": "Library of Congress"
         }
@@ -40,6 +44,10 @@
         {
           "url": "https://ea.fflch.usp.br/autor/lelia-gonzalez",
           "institution": "Universidade de São Paulo"
+        },
+        {
+          "url": "https://www.gov.br/palmares/pt-br/assuntos/noticias/20-anos-sem-lelia-gonzalez",
+          "institution": "Fundação Cultural Palmares"
         }
       ],
       "evidence": {
@@ -51,6 +59,14 @@
     {
       "id": "angela-davis",
       "sources": [
+        {
+          "url": "https://campusdirectory.ucsc.edu/cd_detail?guid=G000122719",
+          "institution": "University of California, Santa Cruz"
+        },
+        {
+          "url": "https://women.ucsc.edu/",
+          "institution": "University of California, Santa Cruz"
+        },
         {
           "url": "https://campusdirectory.ucsc.edu/cd_detail?uid=aydavis",
           "institution": "University of California, Santa Cruz"
@@ -72,6 +88,10 @@
         {
           "url": "https://plato.stanford.edu/entries/ayn-rand/",
           "institution": "Stanford Encyclopedia of Philosophy"
+        },
+        {
+          "url": "https://iep.utm.edu/rand/",
+          "institution": "Internet Encyclopedia of Philosophy"
         }
       ],
       "evidence": {
@@ -87,6 +107,10 @@
         {
           "url": "https://plato.stanford.edu/entries/arendt/",
           "institution": "Stanford Encyclopedia of Philosophy"
+        },
+        {
+          "url": "https://iep.utm.edu/hannah-arendt/",
+          "institution": "Internet Encyclopedia of Philosophy"
         }
       ],
       "evidence": {
@@ -102,6 +126,10 @@
         {
           "url": "https://plato.stanford.edu/entries/wollstonecraft/",
           "institution": "Stanford Encyclopedia of Philosophy"
+        },
+        {
+          "url": "https://www.britishlibrary.cn/en/works/vindication-of-the-rights-of-woman/",
+          "institution": "The British Library"
         }
       ],
       "evidence": {
@@ -117,6 +145,10 @@
         {
           "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/",
           "institution": "Nobel Prize"
+        },
+        {
+          "url": "https://www.ostrom.indiana.edu/about/ostroms-history/index.html",
+          "institution": "Indiana University Ostrom Workshop"
         }
       ],
       "evidence": {
@@ -130,61 +162,106 @@
       "id": "dorothy-height",
       "sources": [
         {
+          "url": "https://www.nps.gov/people/dorothy-i-height.htm",
+          "institution": "National Park Service"
+        },
+        {
+          "url": "https://www.womenshistory.org/education-resources/biographies/dorothy-height",
+          "institution": "National Women’s History Museum"
+        },
+        {
           "url": "https://home.nps.gov/people/dorothy-i-height.htm",
           "institution": "U.S. National Park Service"
         }
       ],
       "evidence": {
-        "representacao": "NPS documents Height's long civil-rights leadership, political mobilization work, and service on federal commissions; this supports review of her stance toward democratic participation without implying a numeric score.",
-        "poder": "Her activism against lynching, discriminatory criminal-justice practices, and unequal treatment is relevant to the liberty/coercion dimension.",
-        "moral": "Her work explicitly joined racial equality and women's equality, providing direct evidence for the project's social-rights axis."
+        "representacao": "Civil-rights and women’s-rights leadership through the National Council of Negro Women and major coalitions supports review on democratic participation and institutional reform.",
+        "poder": "Her organizing confronted legally enforced racial hierarchy and state-tolerated discrimination, but does not by itself imply a broad anti-policing or anti-security position.",
+        "moral": "Her public work centered racial equality, women’s rights and civic inclusion; map to the social axis with attention to mid-20th-century institutional context.",
+        "economia": "Anti-poverty and employment concerns appear in her movement work, but public/private and planning/market placement needs narrower source review."
       }
     },
     {
       "id": "ella-baker",
       "sources": [
         {
+          "url": "https://snccdigital.org/people/ella-baker/",
+          "institution": "SNCC Digital Gateway"
+        },
+        {
+          "url": "https://kinginstitute.stanford.edu/baker-ella-josephine",
+          "institution": "The Martin Luther King, Jr. Research and Education Institute, Stanford University"
+        },
+        {
           "url": "https://home.nps.gov/articles/women-in-the-african-american-civil-rights-movement-an-historic-context.htm",
           "institution": "U.S. National Park Service"
         }
       ],
       "evidence": {
-        "representacao": "NPS documents Baker's decades of grassroots organizing across civil-rights organizations; her organizing record is relevant to participation and bottom-up political action.",
+        "representacao": "SNCC evidence highlights participatory, bottom-up movement democracy and skepticism toward charismatic top-down leadership.",
         "economia": "Her co-founding role in the Young Negroes Cooperative League is evidence of interest in cooperative economic organization, but it is insufficient by itself to set a public/private or planning/market score.",
-        "moral": "Her civil-rights work provides direct evidence on racial equality and social rights."
+        "moral": "Her organizing for racial equality and youth participation supports a socially egalitarian reading in the project’s terms.",
+        "estrutura": "Her preference for grassroots organizing and local leadership is relevant to decentralization, but should not be overread as constitutional federalism.",
+        "poder": "Her civil-rights activism opposed coercive segregation and political intimidation; specific criminal-justice scoring still needs focused review."
       }
     },
     {
       "id": "fannie-lou-hamer",
       "sources": [
         {
+          "url": "https://www.womenshistory.org/education-resources/biographies/fannie-lou-hamer",
+          "institution": "National Women’s History Museum"
+        },
+        {
+          "url": "https://snccdigital.org/people/fannie-lou-hamer/",
+          "institution": "SNCC Digital Gateway"
+        },
+        {
           "url": "https://www.nps.gov/articles/women-in-the-african-american-civil-rights-movement-an-historic-context.htm",
           "institution": "U.S. National Park Service"
         }
       ],
       "evidence": {
-        "representacao": "NPS documents Hamer's voter-registration organizing, the Mississippi Freedom Democratic Party, and congressional campaigns; these are direct evidence concerning political participation and voting rights.",
-        "poder": "The documented repression surrounding Black voter registration is relevant background for her civil-liberties activism, but a numeric security/liberty placement still requires editorial review.",
-        "moral": "Her civil-rights organizing directly addressed racial equality and segregation."
+        "representacao": "Voting-rights organizing, the Mississippi Freedom Democratic Party and convention challenge supply direct evidence for strong democratic inclusion.",
+        "poder": "Her life and activism confronted racial terror, police violence and coercive suppression of Black political participation.",
+        "moral": "Civil-rights, voting-rights and bodily-autonomy evidence support a progressive equality profile, with religious language considered separately.",
+        "economia": "Freedom Farm and anti-poverty work are relevant evidence for material redistribution and community self-help, but need review before numeric mapping."
       }
     },
     {
       "id": "ida-b-wells",
       "sources": [
         {
+          "url": "https://www.nps.gov/people/ida-b-wells.htm",
+          "institution": "National Park Service"
+        },
+        {
+          "url": "https://www.womenshistory.org/education-resources/biographies/ida-b-wells-barnett",
+          "institution": "National Women’s History Museum"
+        },
+        {
           "url": "https://www.loc.gov/exhibits/civil-rights-act/prologue.html",
           "institution": "Library of Congress"
         }
       ],
       "evidence": {
-        "poder": "Library of Congress documents Wells-Barnett's anti-lynching campaign, directly relevant to state protection, violence, and civil liberties.",
-        "representacao": "Her women's-rights activism and suffrage work are evidence concerning equal political participation.",
-        "moral": "Her anti-lynching and civil-rights work directly addressed racial equality."
+        "poder": "The anti-lynching campaign directly addressed extralegal violence, state failure and racialized coercion.",
+        "representacao": "Her anti-lynching journalism, suffrage work and civil-rights organizing provide evidence for democratic inclusion and legal equality.",
+        "moral": "Her work against racism and for women’s suffrage supports an egalitarian social reading in context.",
+        "religiao": "Christian moral argument appears in the reform milieu, but her profile should not be reduced to religiosity without direct evidence."
       }
     },
     {
       "id": "mary-mcleod-bethune",
       "sources": [
+        {
+          "url": "https://www.nps.gov/people/mary-mcleod-bethune.htm",
+          "institution": "National Park Service"
+        },
+        {
+          "url": "https://www.womenshistory.org/education-resources/biographies/mary-mcleod-bethune",
+          "institution": "National Women’s History Museum"
+        },
         {
           "url": "https://home.nps.gov/people/mary-mcleod-bethune.htm",
           "institution": "U.S. National Park Service"
@@ -195,22 +272,33 @@
         }
       ],
       "evidence": {
-        "representacao": "NPS documents Bethune's advocacy for universal suffrage, political participation, and channels between civil-rights organizations and the Roosevelt administration.",
-        "moral": "Her work for racial and gender equality is directly documented.",
-        "economia": "NPS records advocacy around employment, education, housing, and opportunities; these facts are relevant but do not by themselves establish a planning/market or public/private score."
+        "representacao": "Her institution-building, public service and Black women’s political organizing support democratic participation and representation evidence.",
+        "moral": "Education and civil-rights advocacy point toward equality across race and gender within a reformist framework.",
+        "economia": "New Deal advisory work and education-building relate to public provision and social uplift, requiring careful economic-axis review.",
+        "religiao": "Her background and educational mission used Christian institutional networks; score only after separating personal faith from church-state politics."
       }
     },
     {
       "id": "shirley-chisholm",
       "sources": [
         {
+          "url": "https://history.house.gov/People/Detail/10918",
+          "institution": "U.S. House of Representatives: History, Art & Archives"
+        },
+        {
+          "url": "https://www.womenshistory.org/education-resources/biographies/shirley-chisholm",
+          "institution": "National Women’s History Museum"
+        },
+        {
           "url": "https://guides.loc.gov/shirley-chisholm",
           "institution": "Library of Congress"
         }
       ],
       "evidence": {
-        "representacao": "Library of Congress documents Chisholm's election to Congress and presidential-primary campaign, providing strong evidence for participation through electoral institutions.",
-        "moral": "Her public career included advocacy around equal political access and representation; axis placement should be based on specific issue records rather than identity alone."
+        "representacao": "Election to Congress and the 1972 presidential campaign provide direct evidence for electoral-democratic participation and expanded representation.",
+        "moral": "Her campaign and legislative priorities emphasize racial and gender equality, relevant to the social-progressive side.",
+        "economia": "House biography and policy record point to anti-poverty, education and social-program commitments; map public/private and planning/market axes after policy review.",
+        "imigracao": "Do not infer immigration placement from civil-rights politics alone; seek issue-specific material before scoring."
       }
     },
     {
@@ -221,19 +309,33 @@
           "institution": "U.S. House of Representatives: History, Art & Archives"
         },
         {
+          "url": "https://www.womenshistory.org/education-resources/biographies/barbara-jordan",
+          "institution": "National Women’s History Museum"
+        },
+        {
           "url": "https://www.nps.gov/people/barbara-jordan.htm",
           "institution": "U.S. National Park Service"
         }
       ],
       "evidence": {
-        "representacao": "Official House history documents Jordan's elected legislative career, constitutional work, and coalition-building; this is relevant to democratic institutional participation.",
-        "poder": "Her work on constitutional questions and antidiscrimination measures is relevant to rights and constraints on government power.",
-        "imigracao": "Jordan later chaired the U.S. Commission on Immigration Reform; that fact warrants issue-specific research before any assimilation/multicultural placement."
+        "representacao": "Congressional service, constitutional rhetoric and Watergate-era rule-of-law speeches are central evidence for institutional democracy.",
+        "poder": "Her emphasis on constitutional limits and due process is relevant to civil-liberties/security balance, but does not settle policing questions.",
+        "imigracao": "Jordan later chaired the U.S. Commission on Immigration Reform; that fact warrants issue-specific research before any assimilation/multicultural placement.",
+        "economia": "Legislative identity was Democratic and reformist, but economic-axis scoring needs specific policy evidence beyond party affiliation.",
+        "moral": "Civil-rights representation and equal citizenship support equality evidence; reviewer should account for her institutional moderation."
       }
     },
     {
       "id": "harriet-tubman",
       "sources": [
+        {
+          "url": "https://www.nps.gov/people/harriet-tubman.htm",
+          "institution": "National Park Service"
+        },
+        {
+          "url": "https://www.womenshistory.org/education-resources/biographies/harriet-tubman",
+          "institution": "National Women’s History Museum"
+        },
         {
           "url": "https://www.nps.gov/articles/000/harriet-tubman-s-boston.htm",
           "institution": "U.S. National Park Service"
@@ -244,14 +346,24 @@
         }
       ],
       "evidence": {
-        "poder": "NPS documents Tubman's escape from slavery and repeated efforts to free enslaved people, directly relevant to coercion, personal liberty, and abolition.",
-        "representacao": "NPS documents her postwar participation in women's-suffrage meetings and civil-rights activism.",
-        "diplomacia": "Her Civil War service is a historical fact, not sufficient evidence by itself for a general militarist/pacifist score."
+        "poder": "Escape from slavery, Underground Railroad work and Civil War service directly concern resistance to coercive bondage and state-backed domination.",
+        "representacao": "Abolition and later suffrage activity support democratic inclusion, though her historical context predates modern party democracy.",
+        "diplomacia": "Her Civil War service is a historical fact, not sufficient evidence by itself for a general militarist/pacifist score.",
+        "intervencao": "Union wartime service and direct action against slavery are relevant to force used for emancipatory ends; do not map as generic militarism.",
+        "religiao": "Religious conviction was important in her life; separate personal faith from policy about religious authority."
       }
     },
     {
       "id": "sojourner-truth",
       "sources": [
+        {
+          "url": "https://www.nps.gov/people/sojourner-truth.htm",
+          "institution": "National Park Service"
+        },
+        {
+          "url": "https://www.womenshistory.org/education-resources/biographies/sojourner-truth",
+          "institution": "National Women’s History Museum"
+        },
         {
           "url": "https://home.nps.gov/people/sojourner-truth.htm",
           "institution": "U.S. National Park Service"
@@ -259,41 +371,70 @@
       ],
       "evidence": {
         "poder": "NPS documents Truth's anti-slavery activism, directly relevant to liberty and coercion.",
-        "representacao": "Her advocacy included women's voting rights and political equality.",
-        "religiao": "NPS documents her Methodist faith and religious motivation; this is relevant to personal religiosity, while views on religion in government require separate evidence.",
-        "moral": "Her advocacy for the rights of African Americans and women is direct evidence on social equality."
+        "representacao": "Abolitionist and women’s-rights advocacy provide evidence for expanding civic standing and democratic inclusion.",
+        "religiao": "Religious preaching and spiritual conviction were central to her public persona; review must distinguish religiosity from theocratic politics.",
+        "moral": "Her public advocacy challenged racial and gender hierarchy, strongly relevant to equality and social reform.",
+        "economia": "Antislavery work has direct labor/property implications, but modern economic-axis mapping needs careful historical translation."
       }
     },
     {
       "id": "gloria-steinem",
       "sources": [
         {
+          "url": "https://www.womenshistory.org/education-resources/biographies/gloria-steinem",
+          "institution": "National Women’s History Museum"
+        },
+        {
+          "url": "https://www.britannica.com/biography/Gloria-Steinem",
+          "institution": "Encyclopaedia Britannica"
+        },
+        {
           "url": "https://americanhistory.si.edu/explore/exhibitions/american-enterprise/online/global-era/biographies-1980s%E2%80%932010s",
           "institution": "Smithsonian National Museum of American History"
         }
       ],
       "evidence": {
-        "moral": "Smithsonian identifies Steinem as a prominent leader in the U.S. women's movement; this supports review of positions on gender equality and social rights.",
-        "representacao": "Movement leadership and public advocacy are relevant to political participation, but do not automatically determine views on institutional structure."
+        "moral": "Second-wave feminist organizing, reproductive-rights advocacy and women’s liberation work are directly relevant to the project’s social axis.",
+        "representacao": "Political organizing and advocacy for women’s public voice support democratic participation and equal representation.",
+        "economia": "Workplace equality and feminist economic critiques appear in her activism; public/private economic placement still needs issue-specific review.",
+        "religiao": "Avoid assuming irreligious placement from feminism alone; source direct church-state or religion evidence if needed."
       }
     },
     {
       "id": "betty-friedan",
       "sources": [
         {
+          "url": "https://www.womenshistory.org/education-resources/biographies/betty-friedan",
+          "institution": "National Women’s History Museum"
+        },
+        {
+          "url": "https://www.britannica.com/biography/Betty-Friedan",
+          "institution": "Encyclopaedia Britannica"
+        },
+        {
           "url": "https://www.si.edu/stories/betty-friedans-birthday",
           "institution": "Smithsonian Institution"
         }
       ],
       "evidence": {
-        "moral": "Smithsonian documents Friedan's role in second-wave feminism and advocacy for women's equal rights.",
-        "economia": "Her organizing addressed equal opportunities for women in employment and education; this is issue-specific evidence, not a complete economic-system position.",
-        "poder": "The documented focus on access to contraception is relevant to personal autonomy and civil liberties."
+        "moral": "The Feminine Mystique and NOW leadership supply direct evidence for challenging traditional gender roles and expanding women’s autonomy.",
+        "economia": "Her feminism includes employment and workplace equality; map economic axes only after distinguishing equality law from ownership/planning policy.",
+        "poder": "The documented focus on access to contraception is relevant to personal autonomy and civil liberties.",
+        "representacao": "Organizing through NOW and rights advocacy supports democratic pressure for equal legal and civic status.",
+        "imigracao": "No obvious immigration evidence in core biography; leave for review rather than infer."
       }
     },
     {
       "id": "audre-lorde",
       "sources": [
+        {
+          "url": "https://www.poetryfoundation.org/poets/audre-lorde",
+          "institution": "Poetry Foundation"
+        },
+        {
+          "url": "https://www.poets.org/poet/audre-lorde",
+          "institution": "Academy of American Poets"
+        },
         {
           "url": "https://nmaahc.si.edu/audre-lorde",
           "institution": "Smithsonian National Museum of African American History and Culture"
@@ -304,9 +445,10 @@
         }
       ],
       "evidence": {
-        "moral": "Institutional biographies identify Lorde as a feminist and equal-rights activist whose work addressed race, gender, and sexuality.",
-        "representacao": "Her activism and public scholarship are relevant to equality in civic life, but institutional preferences need narrower evidence.",
-        "economia": "Her work engaged class alongside race and gender; this alone does not support a specific public/private or planning/market score."
+        "moral": "Her Black lesbian feminist writing directly addresses race, gender, sexuality and difference, strongly relevant to social-progressive scoring.",
+        "representacao": "Her essays and activism concern marginalized voices and coalition politics; institutional-democracy scoring needs source-specific review.",
+        "economia": "Class and capitalism appear in her intersectional critique; do not convert this automatically into a full economic vector.",
+        "poder": "Critique of oppression and institutional violence appears in her work, but policing/security placement should be tied to direct texts."
       }
     },
     {
@@ -314,13 +456,18 @@
       "sources": [
         {
           "url": "https://socy.umd.edu/facultyprofile/collins/patricia-hill",
-          "institution": "University of Maryland"
+          "institution": "University of Maryland Department of Sociology"
+        },
+        {
+          "url": "https://www.asanet.org/about/governance-and-leadership/council/presidents/patricia-hill-collins/",
+          "institution": "American Sociological Association"
         }
       ],
       "evidence": {
-        "moral": "University of Maryland documents Collins's scholarship on race, gender, sexuality, and nation, including Black feminist thought.",
-        "economia": "Her scholarship explicitly includes social class, but theoretical analysis of class should not be converted directly into an economic-policy score.",
-        "representacao": "Work on empowerment and inequality is relevant to participation and representation, though it does not itself specify a preferred constitutional structure."
+        "moral": "Black feminist thought and intersectionality scholarship directly inform equality, identity and anti-hierarchy analysis for the social axis.",
+        "economia": "Class is part of her intersectional framework; ownership/planning scoring requires narrower evidence from texts.",
+        "representacao": "Her scholarship on power, knowledge and marginalization is relevant to voice and representation but not equivalent to an electoral-system position.",
+        "poder": "Analysis of interlocking systems of oppression can inform liberty/security placement, but reviewer should avoid overprecision without direct policy claims."
       }
     },
     {
@@ -329,99 +476,159 @@
         {
           "url": "https://www.law.columbia.edu/faculty/kimberle-w-crenshaw",
           "institution": "Columbia Law School"
+        },
+        {
+          "url": "https://law.ucla.edu/faculty/faculty-profiles/kimberle-w-crenshaw",
+          "institution": "UCLA School of Law"
         }
       ],
       "evidence": {
-        "moral": "Columbia documents Crenshaw's scholarship and activism on civil rights, feminism, racism, and intersectionality.",
-        "poder": "Her work on policing, criminalization, and the school-to-prison pipeline is directly relevant to state coercion and civil liberties.",
-        "representacao": "Her constitutional-law and civil-rights work is relevant to equal access to legal and political institutions, but does not by itself determine a democracy/autocracy score."
+        "moral": "Scholarship on race, gender and structural inequality is directly relevant to the social-progressive side of the axis.",
+        "poder": "Legal analysis of state institutions and discrimination is relevant, but do not infer a broad policing/security score without direct issue review.",
+        "representacao": "Critical race theory and intersectionality work concern legal recognition of overlapping discrimination and institutional inclusion.",
+        "economia": "Structural inequality appears in her work; economic vector needs sources about property, markets or redistribution."
       }
     },
     {
       "id": "nancy-fraser",
       "sources": [
         {
+          "url": "https://www.newschool.edu/nssr/faculty/nancy-fraser/",
+          "institution": "The New School for Social Research"
+        },
+        {
+          "url": "https://www.britannica.com/biography/Nancy-Fraser",
+          "institution": "Encyclopaedia Britannica"
+        },
+        {
           "url": "https://www.newschool.edu/lang/faculty/nancy-fraser/",
           "institution": "The New School"
         }
       ],
       "evidence": {
-        "economia": "The New School documents Fraser's critical-theory work on capitalism, redistribution, social reproduction, and public power; these are directly relevant to economic axes but require issue-level review before scoring.",
-        "moral": "Her work on feminist movements and racial oppression is relevant to the progressive/traditional axis.",
-        "representacao": "Her scholarship addresses democracy and public power, but a numeric institutional preference requires narrower evidence."
+        "economia": "Her work on capitalism, redistribution, recognition and crisis provides direct evidence for economic and social analysis, pending editorial mapping.",
+        "moral": "Recognition, feminism and justice theory are central to her work and strongly relevant to social equality.",
+        "representacao": "Democratic justice and public-sphere theory are relevant to participation, but not a simple electoral-system score.",
+        "controle": "Critiques of capitalism and neoliberalism suggest skepticism toward laissez-faire, but precise planning/market placement requires text review."
       }
     },
     {
       "id": "martha-nussbaum",
       "sources": [
         {
+          "url": "https://philosophy.uchicago.edu/faculty/nussbaum",
+          "institution": "University of Chicago Department of Philosophy"
+        },
+        {
+          "url": "https://www.britannica.com/biography/Martha-Nussbaum",
+          "institution": "Encyclopaedia Britannica"
+        },
+        {
           "url": "https://www.law.uchicago.edu/faculty/nussbaum",
           "institution": "University of Chicago Law School"
         }
       ],
       "evidence": {
-        "moral": "University of Chicago documents Nussbaum's capabilities approach and work on equal dignity, sex and social justice, disability, and sexual-orientation law.",
-        "religiao": "Her work includes a defense of religious equality and liberty of conscience; this is relevant to religion and state but should not be reduced to personal religiosity.",
-        "representacao": "Her published work explicitly addresses democracy and civic education, providing relevant evidence for democratic participation without yielding a numeric score automatically.",
-        "comercio": "Her work on cosmopolitanism is relevant background for globalism, but should not be treated as a direct free-trade position."
+        "moral": "Capabilities theory, dignity and gender justice are central evidence for equality and liberal social commitments.",
+        "religiao": "Her work addresses religion and pluralism in liberal democracy; score only after reviewing church-state claims directly.",
+        "representacao": "Her liberal political philosophy supports rights and constitutional protections; review separately from direct-democracy preferences.",
+        "comercio": "Her work on cosmopolitanism is relevant background for globalism, but should not be treated as a direct free-trade position.",
+        "economia": "Capabilities approach supports public commitments to welfare and opportunity, but does not map as simple socialism or planning."
       }
     },
     {
       "id": "susan-b-anthony",
       "sources": [
         {
+          "url": "https://www.womenshistory.org/education-resources/biographies/susan-b-anthony",
+          "institution": "National Women’s History Museum"
+        },
+        {
+          "url": "https://susanb.org/her-story/biography/",
+          "institution": "National Susan B. Anthony Museum & House"
+        },
+        {
           "url": "https://www.loc.gov/collections/susan-b-anthony-papers/about-this-collection/",
           "institution": "Library of Congress"
         }
       ],
       "evidence": {
-        "representacao": "Library of Congress documents Anthony's central role in the campaign for women's suffrage and a federal constitutional amendment.",
-        "moral": "Her work on women's property rights, education, abolition, and suffrage provides direct evidence on legal and social equality.",
-        "estrutura": "Her support for a federal suffrage amendment is an issue-specific preference for national constitutional action, not enough by itself to define a broad federal/unitary score."
+        "representacao": "Women’s suffrage organizing is direct evidence for expanding electoral representation and citizenship.",
+        "moral": "Her reform work challenged gender hierarchy; historical positions outside suffrage require source-specific review.",
+        "estrutura": "Her support for a federal suffrage amendment is an issue-specific preference for national constitutional action, not enough by itself to define a broad federal/unitary score.",
+        "religiao": "Quaker/reform networks may be relevant background but should not drive religious-axis scoring without direct political evidence.",
+        "economia": "Labor and property-rights concerns appear in suffrage-era reform; map economic axes only after evidence review."
       }
     },
     {
       "id": "elizabeth-cady-stanton",
       "sources": [
         {
+          "url": "https://www.womenshistory.org/education-resources/biographies/elizabeth-cady-stanton",
+          "institution": "National Women’s History Museum"
+        },
+        {
+          "url": "https://www.nps.gov/people/elizabeth-cady-stanton.htm",
+          "institution": "National Park Service"
+        },
+        {
           "url": "https://www.loc.gov/collections/elizabeth-cady-stanton-papers/about-this-collection/",
           "institution": "Library of Congress"
         }
       ],
       "evidence": {
-        "representacao": "Library of Congress documents Stanton's advocacy for women's voting rights at state and federal levels.",
-        "moral": "Her advocacy included equal legal status, property rights, education, employment opportunities, and more liberal divorce laws.",
-        "religiao": "LOC documents her criticism of church authority, including The Woman's Bible; distinguish this from a simple measure of personal religious belief.",
-        "estrutura": "Her campaign for a federal constitutional suffrage amendment is relevant issue-specific evidence but not a complete territorial-centralization position."
+        "representacao": "Seneca Falls and suffrage leadership provide direct evidence for expanding democratic representation.",
+        "moral": "Women’s rights advocacy challenged legal and familial gender hierarchy, directly relevant to social-axis review.",
+        "religiao": "The Woman’s Bible and criticism of religious justifications for patriarchy are relevant to secular/religious placement.",
+        "estrutura": "Her campaign for a federal constitutional suffrage amendment is relevant issue-specific evidence but not a complete territorial-centralization position.",
+        "economia": "Property and legal independence for women are relevant, but modern public/private scoring needs careful translation."
       }
     },
     {
       "id": "lucretia-mott",
       "sources": [
         {
+          "url": "https://www.womenshistory.org/education-resources/biographies/lucretia-mott",
+          "institution": "National Women’s History Museum"
+        },
+        {
+          "url": "https://www.nps.gov/wori/learn/historyculture/lucretia-mott.htm",
+          "institution": "National Park Service"
+        },
+        {
           "url": "https://home.nps.gov/wori/learn/historyculture/lucretia-mott.htm",
           "institution": "U.S. National Park Service"
         }
       ],
       "evidence": {
-        "representacao": "NPS documents Mott's organization of the 1848 Woman's Rights Convention and leadership in equal-rights movements.",
-        "poder": "Her abolitionist work directly opposed slavery and racial subordination, relevant to liberty and coercion.",
-        "moral": "Her advocacy for equality of women and African Americans is direct evidence on social equality.",
-        "religiao": "Her Quaker ministry is documented, but views on religion's role in government require separate evidence."
+        "representacao": "Abolition and women’s-rights convention work support democratic inclusion and equal civic standing.",
+        "poder": "Antislavery activism directly opposed coercive domination; broader state/security placement remains to review.",
+        "moral": "Her reform activism challenged slavery and gender exclusion, relevant to equality-oriented social scoring.",
+        "religiao": "Quaker ministry and reform theology were central; distinguish religious motivation from preference for religious government."
       }
     },
     {
       "id": "alice-paul",
       "sources": [
         {
+          "url": "https://www.womenshistory.org/education-resources/biographies/alice-paul",
+          "institution": "National Women’s History Museum"
+        },
+        {
+          "url": "https://www.nps.gov/people/alice-paul.htm",
+          "institution": "National Park Service"
+        },
+        {
           "url": "https://www.nps.gov/bepa/learn/alice-paul.htm",
           "institution": "U.S. National Park Service"
         }
       ],
       "evidence": {
-        "representacao": "NPS documents Paul's campaign for a federal constitutional amendment securing women's voting rights.",
-        "moral": "After ratification of the Nineteenth Amendment, she continued to work for full social, political, and economic equality for women.",
-        "estrutura": "Her amendment strategy is evidence for using federal constitutional mechanisms on suffrage/equality, but does not alone establish a general federal/unitary preference."
+        "representacao": "Militant suffrage organizing and Equal Rights Amendment authorship are direct evidence for legal and electoral equality.",
+        "moral": "Equal-rights feminism strongly challenges traditional gender roles in legal and civic life.",
+        "estrutura": "Her amendment strategy is evidence for using federal constitutional mechanisms on suffrage/equality, but does not alone establish a general federal/unitary preference.",
+        "poder": "Imprisonment and hunger strikes during suffrage campaigns supply evidence about state coercion against protest.",
+        "economia": "ERA advocacy affects employment and legal equality but does not settle ownership or planning/market placement."
       }
     }
   ]

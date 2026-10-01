@@ -26,23 +26,8 @@
       "bookStatus": "ready",
       "sources": [
         "https://www.loc.gov/exhibitions/rosa-parks-in-her-own-words/about-this-exhibition/early-life-and-activism/",
-        "https://www.loc.gov/nls/new-materials/book-lists/rosa-parks/"
-      ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
-    },
-    {
-      "id": "lelia-gonzalez",
-      "name": "Lélia Gonzalez",
-      "region": "latin-america",
-      "period": "20th-century",
-      "category": "intelectual",
-      "metadataStatus": "ready",
-      "portraitStatus": "researching",
-      "translationStatus": "ready",
-      "profileStatus": "review",
-      "bookStatus": "ready",
-      "sources": [
-        "https://ea.fflch.usp.br/autor/lelia-gonzalez"
+        "https://www.loc.gov/nls/new-materials/book-lists/rosa-parks/",
+        "https://www.loc.gov/exhibitions/rosa-parks-in-her-own-words/about-this-exhibition/the-bus-boycott/"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
@@ -58,72 +43,10 @@
       "profileStatus": "review",
       "bookStatus": "ready",
       "sources": [
+        "https://campusdirectory.ucsc.edu/cd_detail?guid=G000122719",
+        "https://women.ucsc.edu/",
         "https://campusdirectory.ucsc.edu/cd_detail?uid=aydavis",
         "https://news.ucsc.edu/2019/07/davis-hall-fame/"
-      ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
-    },
-    {
-      "id": "ayn-rand",
-      "name": "Ayn Rand",
-      "region": "north-america",
-      "period": "20th-century",
-      "category": "filosofo",
-      "metadataStatus": "review",
-      "portraitStatus": "ready",
-      "translationStatus": "review",
-      "profileStatus": "review",
-      "bookStatus": "researching",
-      "sources": [
-        "https://plato.stanford.edu/entries/ayn-rand/"
-      ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
-    },
-    {
-      "id": "hannah-arendt",
-      "name": "Hannah Arendt",
-      "region": "europe-north-america",
-      "period": "20th-century",
-      "category": "filosofo",
-      "metadataStatus": "review",
-      "portraitStatus": "ready",
-      "translationStatus": "review",
-      "profileStatus": "review",
-      "bookStatus": "researching",
-      "sources": [
-        "https://plato.stanford.edu/entries/arendt/"
-      ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
-    },
-    {
-      "id": "mary-wollstonecraft",
-      "name": "Mary Wollstonecraft",
-      "region": "europe",
-      "period": "18th-century",
-      "category": "filosofo",
-      "metadataStatus": "review",
-      "portraitStatus": "ready",
-      "translationStatus": "review",
-      "profileStatus": "review",
-      "bookStatus": "researching",
-      "sources": [
-        "https://plato.stanford.edu/entries/wollstonecraft/"
-      ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
-    },
-    {
-      "id": "elinor-ostrom",
-      "name": "Elinor Ostrom",
-      "region": "north-america",
-      "period": "20th-21st-century",
-      "category": "economista",
-      "metadataStatus": "review",
-      "portraitStatus": "ready",
-      "translationStatus": "review",
-      "profileStatus": "review",
-      "bookStatus": "researching",
-      "sources": [
-        "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
@@ -133,12 +56,14 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://www.nps.gov/people/dorothy-i-height.htm",
+        "https://www.womenshistory.org/education-resources/biographies/dorothy-height",
         "https://home.nps.gov/people/dorothy-i-height.htm"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -149,12 +74,14 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://snccdigital.org/people/ella-baker/",
+        "https://kinginstitute.stanford.edu/baker-ella-josephine",
         "https://home.nps.gov/articles/women-in-the-african-american-civil-rights-movement-an-historic-context.htm"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -165,12 +92,14 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://www.womenshistory.org/education-resources/biographies/fannie-lou-hamer",
+        "https://snccdigital.org/people/fannie-lou-hamer/",
         "https://www.nps.gov/articles/women-in-the-african-american-civil-rights-movement-an-historic-context.htm"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -181,12 +110,14 @@
       "region": "north-america",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://www.nps.gov/people/ida-b-wells.htm",
+        "https://www.womenshistory.org/education-resources/biographies/ida-b-wells-barnett",
         "https://www.loc.gov/exhibits/civil-rights-act/prologue.html"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -197,12 +128,14 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://www.nps.gov/people/mary-mcleod-bethune.htm",
+        "https://www.womenshistory.org/education-resources/biographies/mary-mcleod-bethune",
         "https://home.nps.gov/people/mary-mcleod-bethune.htm",
         "https://www.nps.gov/articles/000/mary-mcleod-bethune-true-democracy-and-the-fight-for-universal-suffrage.htm"
       ],
@@ -214,12 +147,14 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://history.house.gov/People/Detail/10918",
+        "https://www.womenshistory.org/education-resources/biographies/shirley-chisholm",
         "https://guides.loc.gov/shirley-chisholm"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -230,13 +165,14 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
         "https://history.house.gov/People/Detail/16031",
+        "https://www.womenshistory.org/education-resources/biographies/barbara-jordan",
         "https://www.nps.gov/people/barbara-jordan.htm"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -247,12 +183,14 @@
       "region": "north-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://www.nps.gov/people/harriet-tubman.htm",
+        "https://www.womenshistory.org/education-resources/biographies/harriet-tubman",
         "https://www.nps.gov/articles/000/harriet-tubman-s-boston.htm",
         "https://www.nps.gov/hart/faqs.htm"
       ],
@@ -264,12 +202,14 @@
       "region": "north-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://www.nps.gov/people/sojourner-truth.htm",
+        "https://www.womenshistory.org/education-resources/biographies/sojourner-truth",
         "https://home.nps.gov/people/sojourner-truth.htm"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -280,12 +220,14 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://www.womenshistory.org/education-resources/biographies/gloria-steinem",
+        "https://www.britannica.com/biography/Gloria-Steinem",
         "https://americanhistory.si.edu/explore/exhibitions/american-enterprise/online/global-era/biographies-1980s%E2%80%932010s"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -296,12 +238,14 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://www.womenshistory.org/education-resources/biographies/betty-friedan",
+        "https://www.britannica.com/biography/Betty-Friedan",
         "https://www.si.edu/stories/betty-friedans-birthday"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -312,12 +256,14 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://www.poetryfoundation.org/poets/audre-lorde",
+        "https://www.poets.org/poet/audre-lorde",
         "https://nmaahc.si.edu/audre-lorde",
         "https://library.hunter.cuny.edu/news/honoring-audre-lorde"
       ],
@@ -329,13 +275,14 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
-        "https://socy.umd.edu/facultyprofile/collins/patricia-hill"
+        "https://socy.umd.edu/facultyprofile/collins/patricia-hill",
+        "https://www.asanet.org/about/governance-and-leadership/council/presidents/patricia-hill-collins/"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
@@ -345,13 +292,14 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
-        "https://www.law.columbia.edu/faculty/kimberle-w-crenshaw"
+        "https://www.law.columbia.edu/faculty/kimberle-w-crenshaw",
+        "https://law.ucla.edu/faculty/faculty-profiles/kimberle-w-crenshaw"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
@@ -361,12 +309,14 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "filosofo",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://www.newschool.edu/nssr/faculty/nancy-fraser/",
+        "https://www.britannica.com/biography/Nancy-Fraser",
         "https://www.newschool.edu/lang/faculty/nancy-fraser/"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -377,12 +327,14 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "filosofo",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://philosophy.uchicago.edu/faculty/nussbaum",
+        "https://www.britannica.com/biography/Martha-Nussbaum",
         "https://www.law.uchicago.edu/faculty/nussbaum"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -393,12 +345,14 @@
       "region": "north-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://www.womenshistory.org/education-resources/biographies/susan-b-anthony",
+        "https://susanb.org/her-story/biography/",
         "https://www.loc.gov/collections/susan-b-anthony-papers/about-this-collection/"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -409,12 +363,14 @@
       "region": "north-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://www.womenshistory.org/education-resources/biographies/elizabeth-cady-stanton",
+        "https://www.nps.gov/people/elizabeth-cady-stanton.htm",
         "https://www.loc.gov/collections/elizabeth-cady-stanton-papers/about-this-collection/"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -425,12 +381,14 @@
       "region": "north-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://www.womenshistory.org/education-resources/biographies/lucretia-mott",
+        "https://www.nps.gov/wori/learn/historyculture/lucretia-mott.htm",
         "https://home.nps.gov/wori/learn/historyculture/lucretia-mott.htm"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -465,12 +423,14 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "pending",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "researching",
       "sources": [
+        "https://www.womenshistory.org/education-resources/biographies/alice-paul",
+        "https://www.nps.gov/people/alice-paul.htm",
         "https://www.nps.gov/bepa/learn/alice-paul.htm"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
@@ -2253,16 +2213,16 @@
     }
   ],
   "progress": {
-    "integratedFemaleCount": 16,
-    "pipelineCandidateCount": 177,
-    "plannedFemaleCount": 193,
+    "integratedFemaleCount": 28,
+    "pipelineCandidateCount": 172,
+    "plannedFemaleCount": 200,
     "targetFemaleCount": 193,
     "remainingUnplanned": 0,
     "readyCandidateCount": 0,
-    "profileReviewCount": 27,
+    "profileReviewCount": 22,
     "profileResearchingCount": 0,
     "profilePendingCount": 150,
-    "blockedFromRuntimeCount": 177
+    "blockedFromRuntimeCount": 172
   },
   "gates": {
     "readyRequires": [
@@ -2285,5 +2245,67 @@
     "commitPolicy": "Prefer one reviewed commit per complete batch; avoid per-personality and per-file commits.",
     "reviewPolicy": "Keep documented evidence separate from editorial 12-axis proposals. Human review is required before runtime promotion.",
     "reviewer": "project maintainer"
-  }
+  },
+  "integrated": [
+    {
+      "id": "ayn-rand",
+      "name": "Ayn Rand",
+      "integratedAtCommit": "99bae2a4eec84b6a0dda198a12237f9ff149e500"
+    },
+    {
+      "id": "hannah-arendt",
+      "name": "Hannah Arendt",
+      "integratedAtCommit": "99bae2a4eec84b6a0dda198a12237f9ff149e500"
+    },
+    {
+      "id": "mary-wollstonecraft",
+      "name": "Mary Wollstonecraft",
+      "integratedAtCommit": "99bae2a4eec84b6a0dda198a12237f9ff149e500"
+    },
+    {
+      "id": "elinor-ostrom",
+      "name": "Elinor Ostrom",
+      "integratedAtCommit": "99bae2a4eec84b6a0dda198a12237f9ff149e500"
+    },
+    {
+      "id": "judith-butler",
+      "name": "Judith Butler",
+      "integratedAtCommit": "99bae2a4eec84b6a0dda198a12237f9ff149e500"
+    },
+    {
+      "id": "bell-hooks",
+      "name": "bell hooks",
+      "integratedAtCommit": "99bae2a4eec84b6a0dda198a12237f9ff149e500"
+    },
+    {
+      "id": "lelia-gonzalez",
+      "name": "Lélia Gonzalez",
+      "integratedAtCommit": "99bae2a4eec84b6a0dda198a12237f9ff149e500"
+    },
+    {
+      "id": "nisia-floresta",
+      "name": "Nísia Floresta",
+      "integratedAtCommit": "99bae2a4eec84b6a0dda198a12237f9ff149e500"
+    },
+    {
+      "id": "dorothy-day",
+      "name": "Dorothy Day",
+      "integratedAtCommit": "99bae2a4eec84b6a0dda198a12237f9ff149e500"
+    },
+    {
+      "id": "phyllis-schlafly",
+      "name": "Phyllis Schlafly",
+      "integratedAtCommit": "99bae2a4eec84b6a0dda198a12237f9ff149e500"
+    },
+    {
+      "id": "jane-jacobs",
+      "name": "Jane Jacobs",
+      "integratedAtCommit": "99bae2a4eec84b6a0dda198a12237f9ff149e500"
+    },
+    {
+      "id": "condoleezza-rice",
+      "name": "Condoleezza Rice",
+      "integratedAtCommit": "99bae2a4eec84b6a0dda198a12237f9ff149e500"
+    }
+  ]
 }
