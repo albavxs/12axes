@@ -2188,5 +2188,11 @@
     ],
     "runtimeRule": "Only ready candidates may be promoted into personalities.json/personality-profiles.json.",
     "booksRule": "A book is optional; missing books are backfilled from the next eligible ranked personality."
+  },
+  "workflow": {
+    "batchPolicy": "Consolidate research, metadata, translation, bibliography, portrait, evidence and tests before committing.",
+    "commitPolicy": "Prefer one reviewed commit per complete batch; avoid per-personality and per-file commits.",
+    "reviewPolicy": "Keep documented evidence separate from editorial 12-axis proposals. Human review is required before runtime promotion.",
+    "reviewer": "project maintainer"
   }
 }
