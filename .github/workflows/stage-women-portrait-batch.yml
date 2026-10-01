@@ -1,0 +1,104 @@
+name: Stage women portrait batch
+
+on:
+  push:
+    branches:
+      - feat/women-leaders
+    paths:
+      - .github/workflows/stage-women-portrait-batch.yml
+
+permissions:
+  contents: write
+
+jobs:
+  stage-portraits:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out branch
+        uses: actions/checkout@v4
+        with:
+          ref: feat/women-leaders
+          fetch-depth: 0
+
+      - name: Install image tooling
+        run: python3 -m pip install --quiet pillow
+
+      - name: Download and normalize portraits
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+          from urllib.parse import quote
+          from urllib.request import Request, urlopen
+          from PIL import Image, ImageOps
+          import shutil
+
+          portraits = {
+              "rosa-parks": "Rosa Parks 1955.jpg",
+              "angela-davis": "Angela Davis.jpg",
+              "dorothy-height": "DrDorothyHeight.jpg",
+              "ella-baker": "Ella Baker (1903-1986) circa 1944.png",
+              "fannie-lou-hamer": "Fannie Lou Hamer.png",
+              "ida-b-wells": "Ida B. Wells.jpg",
+              "mary-mcleod-bethune": "Portrait of Mary McLeod Bethune LCCN2004662601.jpg",
+              "shirley-chisholm": "Shirley Chisholm.jpg",
+              "barbara-jordan": "Rep. Barbara Jordan.jpg",
+              "harriet-tubman": "Harriet Tubman portrait.jpg",
+              "sojourner-truth": "Sojourner Truth 01.jpg",
+              "gloria-steinem": "Gloria Steinem 1975.jpg",
+              "betty-friedan": "Betty Friedan 1960.jpg",
+              "audre-lorde": "Audre Lorde.jpg",
+              "patricia-hill-collins": "PatriciaHillCollins.jpg",
+              "kimberle-crenshaw": "Kimberle Crenshaw 2026 1 (cropped).jpg",
+              "nancy-fraser": "NancyFraser.JPG",
+              "martha-nussbaum": "Martha Nussbaum bij The School of Life.png",
+              "susan-b-anthony": "Susan B Anthony portrait, circa 1898.jpg",
+              "elizabeth-cady-stanton": "Elizabeth Cady Stanton, 1889.jpg",
+              "lucretia-mott": "Lucretia Mott 1793–1880.jpg",
+              "alice-paul": "Alice paul.jpg",
+          }
+
+          out_dir = Path("frontend/public/personalities/portraits")
+          tmp_dir = Path("/tmp/12axes-women-portraits")
+          tmp_dir.mkdir(parents=True, exist_ok=True)
+          out_dir.mkdir(parents=True, exist_ok=True)
+
+          for person_id, filename in portraits.items():
+              url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/" + quote(filename, safe="")
+              tmp = tmp_dir / person_id
+              req = Request(url, headers={"User-Agent": "12axes-open-source-project/1.0"})
+              with urlopen(req, timeout=60) as response, tmp.open("wb") as fh:
+                  shutil.copyfileobj(response, fh)
+
+              with Image.open(tmp) as raw:
+                  img = ImageOps.exif_transpose(raw).convert("RGB")
+                  width, height = img.size
+                  if width < 200 or height < 200:
+                      raise RuntimeError(f"{person_id}: image too small: {width}x{height}")
+                  max_side = 1800
+                  if max(width, height) > max_side:
+                      img.thumbnail((max_side, max_side), Image.Resampling.LANCZOS)
+                  target = out_dir / f"{person_id}.jpg"
+                  img.save(target, "JPEG", quality=90, optimize=True, progressive=True)
+
+          for person_id in portraits:
+              path = out_dir / f"{person_id}.jpg"
+              with Image.open(path) as img:
+                  if img.format != "JPEG":
+                      raise RuntimeError(f"{person_id}: not JPEG after normalization")
+                  if img.width < 200 or img.height < 200:
+                      raise RuntimeError(f"{person_id}: normalized image too small")
+                  print(f"{person_id}: {img.width}x{img.height} {path.stat().st_size} bytes")
+          PY
+
+      - name: Commit staged portraits
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add frontend/public/personalities/portraits/*.jpg
+          git diff --cached --quiet && exit 0
+          git commit -m "feat(assets): stage portraits for 22 women in review"
+          git push origin HEAD:feat/women-leaders
