@@ -23,20 +23,21 @@ jobs:
       - name: Install image tooling
         run: python3 -m pip install --quiet pillow
 
-      - name: Download and normalize portraits
+      - name: Download missing portraits through Commons thumbnail API
         shell: bash
         run: |
           set -euo pipefail
           python3 - <<'PY'
           from pathlib import Path
-          from urllib.parse import quote
+          from urllib.parse import urlencode
           from urllib.request import Request, urlopen
+          from urllib.error import HTTPError
           from PIL import Image, ImageOps
-          import json, shutil, traceback
+          import json, shutil, time
 
           portraits = {
               "rosa-parks": "Rosa Parks 1955.jpg",
-              "angela-davis": "Angela Davis.jpg",
+              "angela-davis": "Angela Davis (15852241216) (cropped).jpg",
               "dorothy-height": "DrDorothyHeight.jpg",
               "ella-baker": "Ella Baker (1903-1986) circa 1944.png",
               "fannie-lou-hamer": "Fannie Lou Hamer.png",
@@ -64,16 +65,69 @@ jobs:
           report_path = Path("scripts/data/portrait-stage-report.json")
           tmp_dir.mkdir(parents=True, exist_ok=True)
           out_dir.mkdir(parents=True, exist_ok=True)
-
           report = {"success": [], "failed": []}
 
+          def get_json(url, attempts=6):
+              delay = 2
+              for attempt in range(attempts):
+                  try:
+                      req = Request(url, headers={"User-Agent": "12axes-open-source-project/1.0 (GitHub Actions)"})
+                      with urlopen(req, timeout=90) as response:
+                          return json.load(response)
+                  except HTTPError as exc:
+                      if exc.code != 429 or attempt == attempts - 1:
+                          raise
+                      time.sleep(delay)
+                      delay *= 2
+
+          def download(url, path, attempts=6):
+              delay = 2
+              for attempt in range(attempts):
+                  try:
+                      req = Request(url, headers={"User-Agent": "12axes-open-source-project/1.0 (GitHub Actions)"})
+                      with urlopen(req, timeout=90) as response, path.open("wb") as fh:
+                          shutil.copyfileobj(response, fh)
+                      return
+                  except HTTPError as exc:
+                      if exc.code != 429 or attempt == attempts - 1:
+                          raise
+                      time.sleep(delay)
+                      delay *= 2
+
           for person_id, filename in portraits.items():
+              target = out_dir / f"{person_id}.jpg"
               try:
-                  url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/" + quote(filename, safe="")
+                  if target.exists():
+                      with Image.open(target) as img:
+                          report["success"].append({
+                              "id": person_id,
+                              "sourceFile": filename,
+                              "width": img.width,
+                              "height": img.height,
+                              "bytes": target.stat().st_size,
+                              "reused": True,
+                          })
+                      continue
+
+                  params = urlencode({
+                      "action": "query",
+                      "format": "json",
+                      "formatversion": "2",
+                      "prop": "imageinfo",
+                      "iiprop": "url",
+                      "iiurlwidth": "1200",
+                      "titles": "File:" + filename,
+                  })
+                  api_url = "https://commons.wikimedia.org/w/api.php?" + params
+                  data = get_json(api_url)
+                  page = data["query"]["pages"][0]
+                  info = page.get("imageinfo", [{}])[0]
+                  image_url = info.get("thumburl") or info.get("url")
+                  if not image_url:
+                      raise RuntimeError(f"Commons returned no image URL for {filename}")
+
                   tmp = tmp_dir / person_id
-                  req = Request(url, headers={"User-Agent": "12axes-open-source-project/1.0"})
-                  with urlopen(req, timeout=90) as response, tmp.open("wb") as fh:
-                      shutil.copyfileobj(response, fh)
+                  download(image_url, tmp)
 
                   with Image.open(tmp) as raw:
                       img = ImageOps.exif_transpose(raw).convert("RGB")
@@ -83,7 +137,6 @@ jobs:
                       max_side = 1800
                       if max(width, height) > max_side:
                           img.thumbnail((max_side, max_side), Image.Resampling.LANCZOS)
-                      target = out_dir / f"{person_id}.jpg"
                       img.save(target, "JPEG", quality=90, optimize=True, progressive=True)
 
                   with Image.open(target) as img:
@@ -93,7 +146,9 @@ jobs:
                           "width": img.width,
                           "height": img.height,
                           "bytes": target.stat().st_size,
+                          "reused": False,
                       })
+                  time.sleep(1.25)
               except Exception as exc:
                   report["failed"].append({
                       "id": person_id,
@@ -103,11 +158,12 @@ jobs:
 
           report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
           print(json.dumps(report, ensure_ascii=False, indent=2))
-          if not report["success"]:
-              raise SystemExit("No portrait could be staged")
+          if report["failed"]:
+              raise SystemExit(f"{len(report['failed'])} portrait(s) still failed")
           PY
 
       - name: Commit staged portraits and report
+        if: success()
         shell: bash
         run: |
           set -euo pipefail
@@ -115,5 +171,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add frontend/public/personalities/portraits/*.jpg scripts/data/portrait-stage-report.json
           git diff --cached --quiet && exit 0
-          git commit -m "feat(assets): stage available portraits for women in review"
+          git commit -m "feat(assets): complete portrait staging for 22 women"
           git push origin HEAD:feat/women-leaders
