@@ -5,118 +5,177 @@
       "sourceFile": "Rosa Parks 1955.jpg",
       "width": 1800,
       "height": 1289,
-      "bytes": 353137
+      "bytes": 353137,
+      "reused": true
+    },
+    {
+      "id": "angela-davis",
+      "sourceFile": "Angela Davis (15852241216) (cropped).jpg",
+      "width": 1280,
+      "height": 1708,
+      "bytes": 327830,
+      "reused": false
+    },
+    {
+      "id": "dorothy-height",
+      "sourceFile": "DrDorothyHeight.jpg",
+      "width": 1280,
+      "height": 1586,
+      "bytes": 441348,
+      "reused": false
+    },
+    {
+      "id": "ella-baker",
+      "sourceFile": "Ella Baker (1903-1986) circa 1944.png",
+      "width": 349,
+      "height": 450,
+      "bytes": 26318,
+      "reused": false
+    },
+    {
+      "id": "fannie-lou-hamer",
+      "sourceFile": "Fannie Lou Hamer.png",
+      "width": 1280,
+      "height": 1360,
+      "bytes": 583177,
+      "reused": false
+    },
+    {
+      "id": "ida-b-wells",
+      "sourceFile": "Ida B. Wells.jpg",
+      "width": 607,
+      "height": 809,
+      "bytes": 76996,
+      "reused": false
+    },
+    {
+      "id": "mary-mcleod-bethune",
+      "sourceFile": "Portrait of Mary McLeod Bethune LCCN2004662601.jpg",
+      "width": 1280,
+      "height": 1783,
+      "bytes": 418815,
+      "reused": false
+    },
+    {
+      "id": "shirley-chisholm",
+      "sourceFile": "Shirley Chisholm.jpg",
+      "width": 1208,
+      "height": 1800,
+      "bytes": 473863,
+      "reused": false
+    },
+    {
+      "id": "barbara-jordan",
+      "sourceFile": "Rep. Barbara Jordan.jpg",
+      "width": 1280,
+      "height": 1605,
+      "bytes": 392376,
+      "reused": false
+    },
+    {
+      "id": "harriet-tubman",
+      "sourceFile": "Harriet Tubman portrait.jpg",
+      "width": 1000,
+      "height": 919,
+      "bytes": 110016,
+      "reused": false
+    },
+    {
+      "id": "sojourner-truth",
+      "sourceFile": "Sojourner Truth 01.jpg",
+      "width": 1168,
+      "height": 1671,
+      "bytes": 326030,
+      "reused": false
+    },
+    {
+      "id": "gloria-steinem",
+      "sourceFile": "Gloria Steinem 1975.jpg",
+      "width": 1280,
+      "height": 1702,
+      "bytes": 440276,
+      "reused": false
+    },
+    {
+      "id": "betty-friedan",
+      "sourceFile": "Betty Friedan 1960.jpg",
+      "width": 1280,
+      "height": 1640,
+      "bytes": 306555,
+      "reused": false
     },
     {
       "id": "audre-lorde",
       "sourceFile": "Audre Lorde.jpg",
       "width": 993,
       "height": 1489,
-      "bytes": 358317
+      "bytes": 358317,
+      "reused": true
+    },
+    {
+      "id": "patricia-hill-collins",
+      "sourceFile": "PatriciaHillCollins.jpg",
+      "width": 1280,
+      "height": 1345,
+      "bytes": 338372,
+      "reused": false
+    },
+    {
+      "id": "kimberle-crenshaw",
+      "sourceFile": "Kimberle Crenshaw 2026 1 (cropped).jpg",
+      "width": 1280,
+      "height": 1667,
+      "bytes": 393775,
+      "reused": false
     },
     {
       "id": "nancy-fraser",
       "sourceFile": "NancyFraser.JPG",
       "width": 1800,
       "height": 1350,
-      "bytes": 310171
-    }
-  ],
-  "failed": [
-    {
-      "id": "angela-davis",
-      "sourceFile": "Angela Davis.jpg",
-      "error": "RuntimeError: image too small: 156x168"
-    },
-    {
-      "id": "dorothy-height",
-      "sourceFile": "DrDorothyHeight.jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "id": "ella-baker",
-      "sourceFile": "Ella Baker (1903-1986) circa 1944.png",
-      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "id": "fannie-lou-hamer",
-      "sourceFile": "Fannie Lou Hamer.png",
-      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "id": "ida-b-wells",
-      "sourceFile": "Ida B. Wells.jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "id": "mary-mcleod-bethune",
-      "sourceFile": "Portrait of Mary McLeod Bethune LCCN2004662601.jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "id": "shirley-chisholm",
-      "sourceFile": "Shirley Chisholm.jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "id": "barbara-jordan",
-      "sourceFile": "Rep. Barbara Jordan.jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "id": "harriet-tubman",
-      "sourceFile": "Harriet Tubman portrait.jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
-    },
-    {
-      "id": "sojourner-truth",
-      "sourceFile": "Sojourner Truth 01.jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
-    },
-    {
-      "id": "gloria-steinem",
-      "sourceFile": "Gloria Steinem 1975.jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
-    },
-    {
-      "id": "betty-friedan",
-      "sourceFile": "Betty Friedan 1960.jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
-    },
-    {
-      "id": "patricia-hill-collins",
-      "sourceFile": "PatriciaHillCollins.jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
-    },
-    {
-      "id": "kimberle-crenshaw",
-      "sourceFile": "Kimberle Crenshaw 2026 1 (cropped).jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+      "bytes": 310171,
+      "reused": true
     },
     {
       "id": "martha-nussbaum",
       "sourceFile": "Martha Nussbaum bij The School of Life.png",
-      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+      "width": 852,
+      "height": 589,
+      "bytes": 96344,
+      "reused": false
     },
     {
       "id": "susan-b-anthony",
       "sourceFile": "Susan B Anthony portrait, circa 1898.jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+      "width": 394,
+      "height": 599,
+      "bytes": 35716,
+      "reused": false
     },
     {
       "id": "elizabeth-cady-stanton",
       "sourceFile": "Elizabeth Cady Stanton, 1889.jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+      "width": 644,
+      "height": 800,
+      "bytes": 94267,
+      "reused": false
     },
     {
       "id": "lucretia-mott",
       "sourceFile": "Lucretia Mott 1793–1880.jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+      "width": 674,
+      "height": 874,
+      "bytes": 117399,
+      "reused": false
     },
     {
       "id": "alice-paul",
       "sourceFile": "Alice paul.jpg",
-      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+      "width": 1280,
+      "height": 1783,
+      "bytes": 420999,
+      "reused": false
     }
-  ]
+  ],
+  "failed": []
 }
