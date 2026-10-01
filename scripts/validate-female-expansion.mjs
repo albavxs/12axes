@@ -77,6 +77,29 @@ for (const candidate of candidates) {
     }
   }
 
+  if (['review', 'ready'].includes(candidate.portraitStatus)) {
+    if (candidate.metadataFile !== 'scripts/data/female-metadata-drafts.json') {
+      errors.push(`${candidate.id}: portraitStatus=${candidate.portraitStatus} exige metadataFile em scripts/data/female-metadata-drafts.json`);
+    }
+    const draft = metadataById.get(candidate.id);
+    const portrait = draft?.portrait;
+    if (!portrait?.path || !portrait?.sourceUrl || !portrait?.license || !portrait?.attribution) {
+      errors.push(`${candidate.id}: portrait metadata incompleta`);
+    } else {
+      const relativePortraitPath = portrait.path.replace(/^\//, '');
+      const portraitPath = resolve(root, 'frontend/public', relativePortraitPath);
+      if (!existsSync(portraitPath)) {
+        errors.push(`${candidate.id}: retrato local ausente: ${portrait.path}`);
+      } else {
+        const bytes = readFileSync(portraitPath);
+        const isJpeg = bytes.length >= 3 && bytes[0] === 0xff && bytes[1] === 0xd8 && bytes[2] === 0xff;
+        if (!isJpeg) {
+          errors.push(`${candidate.id}: retrato local não é JPEG válido: ${portrait.path}`);
+        }
+      }
+    }
+  }
+
   if (['review', 'proposed', 'ready'].includes(candidate.profileStatus)) {
     if (candidate.evidenceFile !== 'scripts/data/female-profile-evidence.json') {
       errors.push(
@@ -142,6 +165,7 @@ const summary = {
   remainingUnplanned,
   dossiers: evidence.personalities?.length ?? 0,
   metadataDrafts: metadata.personalities?.length ?? 0,
+  portraitsInReview: candidates.filter((candidate) => candidate.portraitStatus === 'review').length,
   integratedRecorded: manifest.integrated?.length ?? 0,
   byProfileStatus: Object.fromEntries(
     manifest.statuses.map((status) => [

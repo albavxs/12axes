@@ -123,6 +123,24 @@ Regras:
 
 O próximo gargalo desses 22 é retrato/licença + revisão editorial do perfil de 12 eixos.
 
+## 4B. Retratos locais em review
+
+Os 22 perfis mais antigos agora possuem JPEG local em:
+
+`frontend/public/personalities/portraits/<id>.jpg`
+
+Cada draft registra:
+
+- arquivo de origem;
+- URL da fonte;
+- licença;
+- atribuição;
+- caminho local.
+
+Os arquivos foram normalizados proporcionalmente para JPEG, sem crop.
+
+`portraitStatus = review` significa que a origem/licença e o arquivo físico estão prontos, mas o mantenedor ainda deve conferir visualmente se enquadramento e escolha da foto funcionam no produto.
+
 ## 4. Pipeline obrigatório por personalidade
 
 ### Etapa 1 — pesquisa

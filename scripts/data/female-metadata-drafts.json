@@ -23,6 +23,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/rosa-parks.jpg",
+        "sourceFile": "Rosa Parks 1955.jpg",
+        "sourceName": "Wikimedia Commons / Associated Press",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rosa_Parks_1955.jpg",
+        "license": "Public domain (US, copyright not renewed)",
+        "attribution": "Associated Press",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -46,6 +55,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/angela-davis.jpg",
+        "sourceFile": "Angela Davis (15852241216) (cropped).jpg",
+        "sourceName": "Wikimedia Commons / Columbia GSAPP",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Angela_Davis_(15852241216)_(cropped).jpg",
+        "license": "CC BY 2.0",
+        "attribution": "Columbia GSAPP",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -69,6 +87,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/dorothy-height.jpg",
+        "sourceFile": "DrDorothyHeight.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:DrDorothyHeight.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adrian Hood",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -82,7 +109,16 @@
         "role": "Civil rights organizer",
         "description": "An American civil rights organizer, Ella Baker worked with organizations including the NAACP, SCLC, and SNCC and promoted grassroots leadership that expanded direct participation by students and local communities."
       },
-      "book": null
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/ella-baker.jpg",
+        "sourceFile": "Ella Baker (1903-1986) circa 1944.png",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ella_Baker_(1903-1986)_circa_1944.png",
+        "license": "Public domain (US, copyright not renewed)",
+        "attribution": "Unknown photographer",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
+      }
     },
     {
       "id": "fannie-lou-hamer",
@@ -95,7 +131,16 @@
         "role": "Civil and voting rights activist",
         "description": "An American activist, Fannie Lou Hamer fought the exclusion of Black voters in Mississippi, helped organize the Mississippi Freedom Democratic Party, and became a national voice for political equality and civil rights."
       },
-      "book": null
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/fannie-lou-hamer.jpg",
+        "sourceFile": "Fannie Lou Hamer.png",
+        "sourceName": "Wikimedia Commons / Mississippi Department of Archives and History",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fannie_Lou_Hamer.png",
+        "license": "Public domain (US, no copyright notice)",
+        "attribution": "Mississippi Department of Archives and History",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
+      }
     },
     {
       "id": "ida-b-wells",
@@ -118,6 +163,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/ida-b-wells.jpg",
+        "sourceFile": "Ida B. Wells.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ida_B._Wells.jpg",
+        "license": "Public domain (US)",
+        "attribution": "Historical portrait; author listed on Commons as Barnett",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -131,7 +185,16 @@
         "role": "Educator and civil rights activist",
         "description": "An American educator and civil rights activist, Mary McLeod Bethune founded a school focused on educating Black students, led the National Council of Negro Women, and served in public-policy advisory roles during the New Deal."
       },
-      "book": null
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/mary-mcleod-bethune.jpg",
+        "sourceFile": "Portrait of Mary McLeod Bethune LCCN2004662601.jpg",
+        "sourceName": "Wikimedia Commons / Library of Congress",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Mary_McLeod_Bethune_LCCN2004662601.jpg",
+        "license": "Public domain / no known copyright restrictions",
+        "attribution": "Carl Van Vechten, Library of Congress",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
+      }
     },
     {
       "id": "shirley-chisholm",
@@ -154,6 +217,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/shirley-chisholm.jpg",
+        "sourceFile": "Shirley Chisholm.jpg",
+        "sourceName": "Wikimedia Commons / Library of Congress",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shirley_Chisholm.jpg",
+        "license": "Public domain (U.S. News & World Report collection)",
+        "attribution": "Thomas J. O'Halloran; restoration by Adam Cuerden",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -177,6 +249,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/barbara-jordan.jpg",
+        "sourceFile": "Rep. Barbara Jordan.jpg",
+        "sourceName": "Wikimedia Commons / U.S. House of Representatives",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rep._Barbara_Jordan.jpg",
+        "license": "Public domain (U.S. Congress)",
+        "attribution": "U.S. Congress",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -200,6 +281,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/harriet-tubman.jpg",
+        "sourceFile": "Harriet Tubman portrait.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harriet_Tubman_portrait.jpg",
+        "license": "Public domain",
+        "attribution": "Unknown photographer",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -223,6 +313,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/sojourner-truth.jpg",
+        "sourceFile": "Sojourner Truth 01.jpg",
+        "sourceName": "Wikimedia Commons / Library of Congress",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sojourner_Truth_01.jpg",
+        "license": "Public domain",
+        "attribution": "Unknown artist; Library of Congress",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -246,6 +345,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/gloria-steinem.jpg",
+        "sourceFile": "Gloria Steinem 1975.jpg",
+        "sourceName": "Wikimedia Commons / LBJ Presidential Library",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gloria_Steinem_1975.jpg",
+        "license": "Public domain (U.S. federal government)",
+        "attribution": "Jay Godwin",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -269,6 +377,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/betty-friedan.jpg",
+        "sourceFile": "Betty Friedan 1960.jpg",
+        "sourceName": "Wikimedia Commons / Library of Congress",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Betty_Friedan_1960.jpg",
+        "license": "Public domain (New York World-Telegram & Sun collection)",
+        "attribution": "Fred Palumbo",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -292,6 +409,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/audre-lorde.jpg",
+        "sourceFile": "Audre Lorde.jpg",
+        "sourceName": "Wikimedia Commons / Flickr",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Audre_Lorde.jpg",
+        "license": "CC BY 2.0",
+        "attribution": "K. Kendall",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -315,6 +441,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/patricia-hill-collins.jpg",
+        "sourceFile": "PatriciaHillCollins.jpg",
+        "sourceName": "Wikimedia Commons / Agência Brasil",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:PatriciaHillCollins.jpg",
+        "license": "CC BY 3.0 BR",
+        "attribution": "Valter Campanato / Agência Brasil",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -338,6 +473,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/kimberle-crenshaw.jpg",
+        "sourceFile": "Kimberle Crenshaw 2026 1 (cropped).jpg",
+        "sourceName": "Wikimedia Commons / WikiPortraits",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kimberle_Crenshaw_2026_1_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "LaShawnda Jones / Harvest Life / WikiPortraits",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -361,6 +505,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/nancy-fraser.jpg",
+        "sourceFile": "NancyFraser.JPG",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:NancyFraser.JPG",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Bunnyfrosch",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -384,6 +537,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/martha-nussbaum.jpg",
+        "sourceFile": "Martha Nussbaum bij The School of Life.png",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Martha_Nussbaum_bij_The_School_of_Life.png",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Jjnoordman",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -397,7 +559,16 @@
         "role": "Suffragist and reformer",
         "description": "An American reformer, Susan B. Anthony became one of the leading organizers of the women’s suffrage movement and also participated in antislavery campaigns and efforts for women’s property and education rights."
       },
-      "book": null
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/susan-b-anthony.jpg",
+        "sourceFile": "Susan B Anthony portrait, circa 1898.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Susan_B_Anthony_portrait,_circa_1898.jpg",
+        "license": "Public domain",
+        "attribution": "Historical portrait",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
+      }
     },
     {
       "id": "elizabeth-cady-stanton",
@@ -420,6 +591,15 @@
           "pt": "",
           "en": ""
         }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/elizabeth-cady-stanton.jpg",
+        "sourceFile": "Elizabeth Cady Stanton, 1889.jpg",
+        "sourceName": "Wikimedia Commons / National Portrait Gallery",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elizabeth_Cady_Stanton,_1889.jpg",
+        "license": "Public domain",
+        "attribution": "Anna Elizabeth Klumpke",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
     },
     {
@@ -433,7 +613,16 @@
         "role": "Abolitionist and suffragist",
         "description": "An American abolitionist, Quaker minister, and women’s-rights advocate, Lucretia Mott helped organize the 1848 Seneca Falls Convention and spent decades campaigning against slavery and for civil equality."
       },
-      "book": null
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/lucretia-mott.jpg",
+        "sourceFile": "Lucretia Mott 1793–1880.jpg",
+        "sourceName": "Wikimedia Commons / National Portrait Gallery",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lucretia_Mott_1793%E2%80%931880.jpg",
+        "license": "Public domain",
+        "attribution": "Marcus Aurelius Root",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
+      }
     },
     {
       "id": "alice-paul",
@@ -446,7 +635,16 @@
         "role": "Suffragist and political strategist",
         "description": "An American suffragist and political strategist, Alice Paul organized protests for the Nineteenth Amendment, founded the National Woman’s Party, and introduced the first version of the Equal Rights Amendment in 1923."
       },
-      "book": null
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/alice-paul.jpg",
+        "sourceFile": "Alice paul.jpg",
+        "sourceName": "Wikimedia Commons / Library of Congress",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alice_paul.jpg",
+        "license": "Public domain",
+        "attribution": "Library of Congress",
+        "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
+      }
     }
   ]
 }
