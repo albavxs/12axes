@@ -32,7 +32,7 @@ jobs:
           from urllib.parse import quote
           from urllib.request import Request, urlopen
           from PIL import Image, ImageOps
-          import shutil
+          import json, shutil, traceback
 
           portraits = {
               "rosa-parks": "Rosa Parks 1955.jpg",
@@ -61,44 +61,59 @@ jobs:
 
           out_dir = Path("frontend/public/personalities/portraits")
           tmp_dir = Path("/tmp/12axes-women-portraits")
+          report_path = Path("scripts/data/portrait-stage-report.json")
           tmp_dir.mkdir(parents=True, exist_ok=True)
           out_dir.mkdir(parents=True, exist_ok=True)
 
+          report = {"success": [], "failed": []}
+
           for person_id, filename in portraits.items():
-              url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/" + quote(filename, safe="")
-              tmp = tmp_dir / person_id
-              req = Request(url, headers={"User-Agent": "12axes-open-source-project/1.0"})
-              with urlopen(req, timeout=60) as response, tmp.open("wb") as fh:
-                  shutil.copyfileobj(response, fh)
+              try:
+                  url = "https://commons.wikimedia.org/wiki/Special:Redirect/file/" + quote(filename, safe="")
+                  tmp = tmp_dir / person_id
+                  req = Request(url, headers={"User-Agent": "12axes-open-source-project/1.0"})
+                  with urlopen(req, timeout=90) as response, tmp.open("wb") as fh:
+                      shutil.copyfileobj(response, fh)
 
-              with Image.open(tmp) as raw:
-                  img = ImageOps.exif_transpose(raw).convert("RGB")
-                  width, height = img.size
-                  if width < 200 or height < 200:
-                      raise RuntimeError(f"{person_id}: image too small: {width}x{height}")
-                  max_side = 1800
-                  if max(width, height) > max_side:
-                      img.thumbnail((max_side, max_side), Image.Resampling.LANCZOS)
-                  target = out_dir / f"{person_id}.jpg"
-                  img.save(target, "JPEG", quality=90, optimize=True, progressive=True)
+                  with Image.open(tmp) as raw:
+                      img = ImageOps.exif_transpose(raw).convert("RGB")
+                      width, height = img.size
+                      if width < 200 or height < 200:
+                          raise RuntimeError(f"image too small: {width}x{height}")
+                      max_side = 1800
+                      if max(width, height) > max_side:
+                          img.thumbnail((max_side, max_side), Image.Resampling.LANCZOS)
+                      target = out_dir / f"{person_id}.jpg"
+                      img.save(target, "JPEG", quality=90, optimize=True, progressive=True)
 
-          for person_id in portraits:
-              path = out_dir / f"{person_id}.jpg"
-              with Image.open(path) as img:
-                  if img.format != "JPEG":
-                      raise RuntimeError(f"{person_id}: not JPEG after normalization")
-                  if img.width < 200 or img.height < 200:
-                      raise RuntimeError(f"{person_id}: normalized image too small")
-                  print(f"{person_id}: {img.width}x{img.height} {path.stat().st_size} bytes")
+                  with Image.open(target) as img:
+                      report["success"].append({
+                          "id": person_id,
+                          "sourceFile": filename,
+                          "width": img.width,
+                          "height": img.height,
+                          "bytes": target.stat().st_size,
+                      })
+              except Exception as exc:
+                  report["failed"].append({
+                      "id": person_id,
+                      "sourceFile": filename,
+                      "error": f"{type(exc).__name__}: {exc}",
+                  })
+
+          report_path.write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print(json.dumps(report, ensure_ascii=False, indent=2))
+          if not report["success"]:
+              raise SystemExit("No portrait could be staged")
           PY
 
-      - name: Commit staged portraits
+      - name: Commit staged portraits and report
         shell: bash
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add frontend/public/personalities/portraits/*.jpg
+          git add frontend/public/personalities/portraits/*.jpg scripts/data/portrait-stage-report.json
           git diff --cached --quiet && exit 0
-          git commit -m "feat(assets): stage portraits for 22 women in review"
+          git commit -m "feat(assets): stage available portraits for women in review"
           git push origin HEAD:feat/women-leaders
