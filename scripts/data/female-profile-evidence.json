@@ -61,6 +61,66 @@
         "moral": "Her academic and activist record includes feminism, racial justice and gender-related scholarship.",
         "economia": "Her writings engage capitalism and class, but a numeric public/private or planning/market placement requires direct textual evidence and review."
       }
+    },
+    {
+      "id": "ayn-rand",
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/ayn-rand/",
+          "institution": "Stanford Encyclopedia of Philosophy"
+        }
+      ],
+      "evidence": {
+        "economia": "SEP describes Rand's defense of laissez-faire capitalism and opposition to state economic controls; map only after editorial review.",
+        "controle": "Her political philosophy explicitly favors laissez-faire over centralized economic planning.",
+        "poder": "Her account of individual rights constrains coercive state action, while still assigning government roles in police, courts and national defense.",
+        "moral": "Her ethics centers rational self-interest and individual autonomy; relation to the project's progressive/traditional axis is not one-to-one."
+      }
+    },
+    {
+      "id": "hannah-arendt",
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/arendt/",
+          "institution": "Stanford Encyclopedia of Philosophy"
+        }
+      ],
+      "evidence": {
+        "representacao": "SEP discusses Arendt's theory of political action, plurality and public freedom; these concepts are relevant but do not directly yield a democracy/autocracy score.",
+        "poder": "Her work on totalitarianism and political freedom supplies evidence concerning domination and liberty.",
+        "economia": "Arendt distinguishes political action from social/economic administration; do not infer a conventional public/private economic position without narrower evidence.",
+        "moral": "Her political theory emphasizes plurality and public action; this does not map cleanly onto a progressive/traditional social axis."
+      }
+    },
+    {
+      "id": "mary-wollstonecraft",
+      "sources": [
+        {
+          "url": "https://plato.stanford.edu/entries/wollstonecraft/",
+          "institution": "Stanford Encyclopedia of Philosophy"
+        }
+      ],
+      "evidence": {
+        "representacao": "Her political writings argue for women's civic standing and criticize inherited hierarchy; institutional scoring requires historical-context review.",
+        "poder": "Her defense of liberty and criticism of arbitrary authority are relevant to the security/liberty axis.",
+        "moral": "Her advocacy of women's education and equality challenged prevailing gender hierarchy, while some personal moral views reflected her eighteenth-century context.",
+        "economia": "Her writings discuss property, inequality and independence, but do not map simply to the modern public/private axis."
+      }
+    },
+    {
+      "id": "elinor-ostrom",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/",
+          "institution": "Nobel Prize"
+        }
+      ],
+      "evidence": {
+        "economia": "Nobel documentation highlights Ostrom's analysis of economic governance, especially commons managed by users rather than assuming privatization or central government control.",
+        "controle": "Her empirical work challenges a binary choice between centralized planning and pure market solutions by documenting self-governing institutions.",
+        "estrutura": "Polycentric and locally governed institutions are relevant evidence, but a federal/unitary political score requires separate institutional evidence.",
+        "poder": "Her work emphasizes rule systems designed and monitored by participants; mapping to liberty/security requires caution."
+      }
     }
   ]
 }
