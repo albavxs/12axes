@@ -67,11 +67,14 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "filosofo",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "ready",
-      "translationStatus": "pending",
-      "profileStatus": "pending",
-      "bookStatus": "pending"
+      "translationStatus": "researching",
+      "profileStatus": "researching",
+      "bookStatus": "researching",
+      "sources": [
+        "https://plato.stanford.edu/entries/ayn-rand/"
+      ]
     },
     {
       "id": "hannah-arendt",
@@ -79,11 +82,14 @@
       "region": "europe-north-america",
       "period": "20th-century",
       "category": "filosofo",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "ready",
-      "translationStatus": "pending",
-      "profileStatus": "pending",
-      "bookStatus": "pending"
+      "translationStatus": "researching",
+      "profileStatus": "researching",
+      "bookStatus": "researching",
+      "sources": [
+        "https://plato.stanford.edu/entries/arendt/"
+      ]
     },
     {
       "id": "mary-wollstonecraft",
@@ -91,11 +97,14 @@
       "region": "europe",
       "period": "18th-century",
       "category": "filosofo",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "ready",
-      "translationStatus": "pending",
-      "profileStatus": "pending",
-      "bookStatus": "pending"
+      "translationStatus": "researching",
+      "profileStatus": "researching",
+      "bookStatus": "researching",
+      "sources": [
+        "https://plato.stanford.edu/entries/wollstonecraft/"
+      ]
     },
     {
       "id": "elinor-ostrom",
@@ -103,11 +112,14 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "economista",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "ready",
-      "translationStatus": "pending",
-      "profileStatus": "pending",
-      "bookStatus": "pending"
+      "translationStatus": "researching",
+      "profileStatus": "researching",
+      "bookStatus": "researching",
+      "sources": [
+        "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/"
+      ]
     },
     {
       "id": "dorothy-height",
@@ -2157,6 +2169,7 @@
     "targetFemaleCount": 193,
     "remainingUnplanned": 0,
     "readyCandidateCount": 0,
-    "profileReviewCount": 3
+    "profileReviewCount": 3,
+    "profileResearchingCount": 4
   }
 }
