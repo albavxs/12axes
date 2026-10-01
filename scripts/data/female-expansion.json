@@ -58,7 +58,8 @@
       "profileStatus": "review",
       "bookStatus": "ready",
       "sources": [
-        "https://campusdirectory.ucsc.edu/cd_detail?uid=aydavis"
+        "https://campusdirectory.ucsc.edu/cd_detail?uid=aydavis",
+        "https://news.ucsc.edu/2019/07/davis-hall-fame/"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
@@ -135,8 +136,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://home.nps.gov/people/dorothy-i-height.htm"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "ella-baker",
@@ -147,8 +152,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://home.nps.gov/articles/women-in-the-african-american-civil-rights-movement-an-historic-context.htm"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "fannie-lou-hamer",
@@ -159,8 +168,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.nps.gov/articles/women-in-the-african-american-civil-rights-movement-an-historic-context.htm"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "ida-b-wells",
@@ -171,8 +184,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.loc.gov/exhibits/civil-rights-act/prologue.html"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "mary-mcleod-bethune",
@@ -183,8 +200,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://home.nps.gov/people/mary-mcleod-bethune.htm",
+        "https://www.nps.gov/articles/000/mary-mcleod-bethune-true-democracy-and-the-fight-for-universal-suffrage.htm"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "shirley-chisholm",
@@ -195,8 +217,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://guides.loc.gov/shirley-chisholm"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "barbara-jordan",
@@ -207,8 +233,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://history.house.gov/People/Detail/16031",
+        "https://www.nps.gov/people/barbara-jordan.htm"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "harriet-tubman",
@@ -219,8 +250,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.nps.gov/articles/000/harriet-tubman-s-boston.htm",
+        "https://www.nps.gov/hart/faqs.htm"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "sojourner-truth",
@@ -231,8 +267,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://home.nps.gov/people/sojourner-truth.htm"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "gloria-steinem",
@@ -243,8 +283,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://americanhistory.si.edu/explore/exhibitions/american-enterprise/online/global-era/biographies-1980s%E2%80%932010s"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "betty-friedan",
@@ -255,8 +299,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.si.edu/stories/betty-friedans-birthday"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "audre-lorde",
@@ -267,8 +315,13 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://nmaahc.si.edu/audre-lorde",
+        "https://library.hunter.cuny.edu/news/honoring-audre-lorde"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "patricia-hill-collins",
@@ -279,8 +332,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://socy.umd.edu/facultyprofile/collins/patricia-hill"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "kimberle-crenshaw",
@@ -291,8 +348,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.law.columbia.edu/faculty/kimberle-w-crenshaw"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "nancy-fraser",
@@ -303,8 +364,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.newschool.edu/lang/faculty/nancy-fraser/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "martha-nussbaum",
@@ -315,8 +380,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.law.uchicago.edu/faculty/nussbaum"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "susan-b-anthony",
@@ -327,8 +396,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.loc.gov/collections/susan-b-anthony-papers/about-this-collection/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "elizabeth-cady-stanton",
@@ -339,8 +412,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.loc.gov/collections/elizabeth-cady-stanton-papers/about-this-collection/"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "lucretia-mott",
@@ -351,8 +428,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://home.nps.gov/wori/learn/historyculture/lucretia-mott.htm"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "frances-willard",
@@ -387,8 +468,12 @@
       "metadataStatus": "researching",
       "portraitStatus": "pending",
       "translationStatus": "pending",
-      "profileStatus": "researching",
-      "bookStatus": "pending"
+      "profileStatus": "review",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.nps.gov/bepa/learn/alice-paul.htm"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "lucy-stone",
@@ -2174,8 +2259,8 @@
     "targetFemaleCount": 193,
     "remainingUnplanned": 0,
     "readyCandidateCount": 0,
-    "profileReviewCount": 7,
-    "profileResearchingCount": 20,
+    "profileReviewCount": 27,
+    "profileResearchingCount": 0,
     "profilePendingCount": 150,
     "blockedFromRuntimeCount": 177
   },
