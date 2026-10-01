@@ -18,15 +18,16 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "review",
+      "metadataStatus": "ready",
       "portraitStatus": "researching",
-      "translationStatus": "pending",
-      "profileStatus": "pending",
-      "bookStatus": "review",
+      "translationStatus": "ready",
+      "profileStatus": "review",
+      "bookStatus": "ready",
       "sources": [
         "https://www.loc.gov/exhibitions/rosa-parks-in-her-own-words/about-this-exhibition/early-life-and-activism/",
         "https://www.loc.gov/nls/new-materials/book-lists/rosa-parks/"
-      ]
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "lelia-gonzalez",
@@ -34,14 +35,15 @@
       "region": "latin-america",
       "period": "20th-century",
       "category": "intelectual",
-      "metadataStatus": "review",
+      "metadataStatus": "ready",
       "portraitStatus": "researching",
-      "translationStatus": "pending",
-      "profileStatus": "pending",
-      "bookStatus": "review",
+      "translationStatus": "ready",
+      "profileStatus": "review",
+      "bookStatus": "ready",
       "sources": [
         "https://ea.fflch.usp.br/autor/lelia-gonzalez"
-      ]
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "angela-davis",
@@ -49,14 +51,15 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "review",
+      "metadataStatus": "ready",
       "portraitStatus": "researching",
-      "translationStatus": "pending",
-      "profileStatus": "pending",
-      "bookStatus": "review",
+      "translationStatus": "ready",
+      "profileStatus": "review",
+      "bookStatus": "ready",
       "sources": [
         "https://campusdirectory.ucsc.edu/cd_detail?uid=aydavis"
-      ]
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "ayn-rand",
@@ -2153,6 +2156,7 @@
     "plannedFemaleCount": 193,
     "targetFemaleCount": 193,
     "remainingUnplanned": 0,
-    "readyCandidateCount": 0
+    "readyCandidateCount": 0,
+    "profileReviewCount": 3
   }
 }
