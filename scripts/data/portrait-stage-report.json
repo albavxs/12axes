@@ -1,0 +1,122 @@
+{
+  "success": [
+    {
+      "id": "rosa-parks",
+      "sourceFile": "Rosa Parks 1955.jpg",
+      "width": 1800,
+      "height": 1289,
+      "bytes": 353137
+    },
+    {
+      "id": "audre-lorde",
+      "sourceFile": "Audre Lorde.jpg",
+      "width": 993,
+      "height": 1489,
+      "bytes": 358317
+    },
+    {
+      "id": "nancy-fraser",
+      "sourceFile": "NancyFraser.JPG",
+      "width": 1800,
+      "height": 1350,
+      "bytes": 310171
+    }
+  ],
+  "failed": [
+    {
+      "id": "angela-davis",
+      "sourceFile": "Angela Davis.jpg",
+      "error": "RuntimeError: image too small: 156x168"
+    },
+    {
+      "id": "dorothy-height",
+      "sourceFile": "DrDorothyHeight.jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "ella-baker",
+      "sourceFile": "Ella Baker (1903-1986) circa 1944.png",
+      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "fannie-lou-hamer",
+      "sourceFile": "Fannie Lou Hamer.png",
+      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "ida-b-wells",
+      "sourceFile": "Ida B. Wells.jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "mary-mcleod-bethune",
+      "sourceFile": "Portrait of Mary McLeod Bethune LCCN2004662601.jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "shirley-chisholm",
+      "sourceFile": "Shirley Chisholm.jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "barbara-jordan",
+      "sourceFile": "Rep. Barbara Jordan.jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "harriet-tubman",
+      "sourceFile": "Harriet Tubman portrait.jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests (f061ab2)"
+    },
+    {
+      "id": "sojourner-truth",
+      "sourceFile": "Sojourner Truth 01.jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+    },
+    {
+      "id": "gloria-steinem",
+      "sourceFile": "Gloria Steinem 1975.jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+    },
+    {
+      "id": "betty-friedan",
+      "sourceFile": "Betty Friedan 1960.jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+    },
+    {
+      "id": "patricia-hill-collins",
+      "sourceFile": "PatriciaHillCollins.jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+    },
+    {
+      "id": "kimberle-crenshaw",
+      "sourceFile": "Kimberle Crenshaw 2026 1 (cropped).jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+    },
+    {
+      "id": "martha-nussbaum",
+      "sourceFile": "Martha Nussbaum bij The School of Life.png",
+      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+    },
+    {
+      "id": "susan-b-anthony",
+      "sourceFile": "Susan B Anthony portrait, circa 1898.jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+    },
+    {
+      "id": "elizabeth-cady-stanton",
+      "sourceFile": "Elizabeth Cady Stanton, 1889.jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+    },
+    {
+      "id": "lucretia-mott",
+      "sourceFile": "Lucretia Mott 1793–1880.jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+    },
+    {
+      "id": "alice-paul",
+      "sourceFile": "Alice paul.jpg",
+      "error": "HTTPError: HTTP Error 429: Too many requests - please contact noc@wikimedia.org to discuss a less disruptive approach or instead use thumbnail images in sizes listed on https://w.wiki/GHai. (0c640b1)"
+    }
+  ]
+}
