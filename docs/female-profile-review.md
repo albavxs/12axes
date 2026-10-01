@@ -107,6 +107,22 @@ Estas 40 concluíram a passada factual e estão agora em `review`:
 39. Olympe de Gouges
 40. Flora Tristan
 
+## 4A. Metadata editorial em staging
+
+Os 22 perfis mais antigos em review já possuem drafts factuais PT/EN em:
+
+`scripts/data/female-metadata-drafts.json`
+
+Regras:
+
+- `metadataStatus = review` significa que o draft factual existe, não que foi aprovado para runtime;
+- `translationStatus = review` significa que a versão EN foi preparada e ainda pode receber revisão;
+- livros só recebem `bookStatus = review` quando existe uma obra identificada no staging;
+- livro continua opcional;
+- o arquivo de staging não participa do matching.
+
+O próximo gargalo desses 22 é retrato/licença + revisão editorial do perfil de 12 eixos.
+
 ## 4. Pipeline obrigatório por personalidade
 
 ### Etapa 1 — pesquisa

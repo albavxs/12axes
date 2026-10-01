@@ -1,0 +1,452 @@
+{
+  "version": 1,
+  "purpose": "Editorial staging for factual PT/EN metadata and optional book recommendations. These drafts do not enter runtime until profile and portrait gates are satisfied.",
+  "personalities": [
+    {
+      "id": "rosa-parks",
+      "lifespan": "1913–2005",
+      "pt": {
+        "role": "Ativista dos direitos civis",
+        "description": "Ativista norte-americana dos direitos civis, Rosa Parks tinha longa atuação contra a segregação racial e seu protesto em um ônibus de Montgomery, em 1955, tornou-se um marco do boicote aos ônibus da cidade e do movimento por igualdade perante a lei."
+      },
+      "en": {
+        "role": "Civil rights activist",
+        "description": "An American civil rights activist, Rosa Parks had a long record of organizing against racial segregation, and her 1955 protest on a Montgomery bus became a landmark of the city’s bus boycott and the movement for equal treatment under law."
+      },
+      "book": {
+        "title": {
+          "pt": "Rosa Parks: Minha História",
+          "en": "Rosa Parks: My Story"
+        },
+        "year": 1992,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "angela-davis",
+      "lifespan": "1944–",
+      "pt": {
+        "role": "Professora e ativista",
+        "description": "Professora, escritora e ativista norte-americana, Angela Davis desenvolveu trabalho acadêmico e público sobre prisões, raça, gênero e classe, tornando-se uma referência nos debates sobre feminismo, justiça racial e abolicionismo penal."
+      },
+      "en": {
+        "role": "Professor and activist",
+        "description": "An American professor, writer, and activist, Angela Davis has developed academic and public work on prisons, race, gender, and class, becoming an influential voice in debates on feminism, racial justice, and prison abolition."
+      },
+      "book": {
+        "title": {
+          "pt": "Mulheres, Raça e Classe",
+          "en": "Women, Race & Class"
+        },
+        "year": 1981,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "dorothy-height",
+      "lifespan": "1912–2010",
+      "pt": {
+        "role": "Líder dos direitos civis",
+        "description": "Líder norte-americana dos direitos civis, Dorothy Height presidiu por quatro décadas o National Council of Negro Women e articulou campanhas por igualdade racial, direitos das mulheres e participação política, além de colaborar na organização da Marcha sobre Washington de 1963."
+      },
+      "en": {
+        "role": "Civil rights leader",
+        "description": "An American civil rights leader, Dorothy Height led the National Council of Negro Women for four decades and organized for racial equality, women’s rights, and political participation, while also helping organize the 1963 March on Washington."
+      },
+      "book": {
+        "title": {
+          "pt": "Open Wide the Freedom Gates: A Memoir",
+          "en": "Open Wide the Freedom Gates: A Memoir"
+        },
+        "year": 2003,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "ella-baker",
+      "lifespan": "1903–1986",
+      "pt": {
+        "role": "Organizadora dos direitos civis",
+        "description": "Organizadora norte-americana dos direitos civis, Ella Baker trabalhou com organizações como NAACP, SCLC e SNCC e defendeu formas de liderança de base que ampliassem a participação direta de estudantes e comunidades no movimento."
+      },
+      "en": {
+        "role": "Civil rights organizer",
+        "description": "An American civil rights organizer, Ella Baker worked with organizations including the NAACP, SCLC, and SNCC and promoted grassroots leadership that expanded direct participation by students and local communities."
+      },
+      "book": null
+    },
+    {
+      "id": "fannie-lou-hamer",
+      "lifespan": "1917–1977",
+      "pt": {
+        "role": "Ativista por direitos civis e voto",
+        "description": "Ativista norte-americana, Fannie Lou Hamer combateu a exclusão de eleitores negros no Mississippi, participou da organização do Mississippi Freedom Democratic Party e tornou-se uma voz nacional pela igualdade política e pelos direitos civis."
+      },
+      "en": {
+        "role": "Civil and voting rights activist",
+        "description": "An American activist, Fannie Lou Hamer fought the exclusion of Black voters in Mississippi, helped organize the Mississippi Freedom Democratic Party, and became a national voice for political equality and civil rights."
+      },
+      "book": null
+    },
+    {
+      "id": "ida-b-wells",
+      "lifespan": "1862–1931",
+      "pt": {
+        "role": "Jornalista e ativista",
+        "description": "Jornalista e ativista norte-americana, Ida B. Wells investigou e denunciou linchamentos, participou de campanhas por direitos civis e sufrágio feminino e usou pesquisa, imprensa e organização política contra a violência racial."
+      },
+      "en": {
+        "role": "Journalist and activist",
+        "description": "An American journalist and activist, Ida B. Wells investigated and exposed lynching, participated in civil-rights and women’s-suffrage campaigns, and used research, journalism, and political organizing against racial violence."
+      },
+      "book": {
+        "title": {
+          "pt": "Horrores do Sul",
+          "en": "Southern Horrors: Lynch Law in All Its Phases"
+        },
+        "year": 1892,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "mary-mcleod-bethune",
+      "lifespan": "1875–1955",
+      "pt": {
+        "role": "Educadora e ativista dos direitos civis",
+        "description": "Educadora e ativista norte-americana, Mary McLeod Bethune fundou uma escola voltada à educação de estudantes negras, liderou o National Council of Negro Women e atuou como conselheira em políticas públicas durante o New Deal."
+      },
+      "en": {
+        "role": "Educator and civil rights activist",
+        "description": "An American educator and civil rights activist, Mary McLeod Bethune founded a school focused on educating Black students, led the National Council of Negro Women, and served in public-policy advisory roles during the New Deal."
+      },
+      "book": null
+    },
+    {
+      "id": "shirley-chisholm",
+      "lifespan": "1924–2005",
+      "pt": {
+        "role": "Congressista e educadora",
+        "description": "Educadora e política norte-americana, Shirley Chisholm foi a primeira mulher negra eleita para o Congresso dos Estados Unidos e, em 1972, disputou a indicação presidencial do Partido Democrata, mantendo atuação ligada a direitos civis e políticas sociais."
+      },
+      "en": {
+        "role": "Congresswoman and educator",
+        "description": "An American educator and politician, Shirley Chisholm was the first Black woman elected to the U.S. Congress and sought the Democratic presidential nomination in 1972, while maintaining a legislative focus on civil rights and social policy."
+      },
+      "book": {
+        "title": {
+          "pt": "Unbought and Unbossed",
+          "en": "Unbought and Unbossed"
+        },
+        "year": 1970,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "barbara-jordan",
+      "lifespan": "1936–1996",
+      "pt": {
+        "role": "Congressista e jurista",
+        "description": "Jurista e política norte-americana, Barbara Jordan serviu no Senado do Texas e na Câmara dos Representantes dos Estados Unidos, ganhou projeção nacional durante o processo de impeachment de Watergate e depois lecionou políticas públicas."
+      },
+      "en": {
+        "role": "Congresswoman and lawyer",
+        "description": "An American lawyer and politician, Barbara Jordan served in the Texas Senate and the U.S. House of Representatives, gained national prominence during the Watergate impeachment proceedings, and later taught public policy."
+      },
+      "book": {
+        "title": {
+          "pt": "Barbara Jordan: A Self-Portrait",
+          "en": "Barbara Jordan: A Self-Portrait"
+        },
+        "year": 1979,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "harriet-tubman",
+      "lifespan": "1822–1913",
+      "pt": {
+        "role": "Abolicionista",
+        "description": "Abolicionista norte-americana nascida sob escravidão, Harriet Tubman escapou e retornou repetidas vezes ao sul dos Estados Unidos para conduzir outras pessoas à liberdade pela Underground Railroad, além de colaborar com a União durante a Guerra Civil e apoiar o sufrágio feminino."
+      },
+      "en": {
+        "role": "Abolitionist",
+        "description": "An American abolitionist born into slavery, Harriet Tubman escaped and repeatedly returned to the U.S. South to guide others to freedom through the Underground Railroad, later assisting the Union during the Civil War and supporting women’s suffrage."
+      },
+      "book": {
+        "title": {
+          "pt": "Scenes in the Life of Harriet Tubman",
+          "en": "Scenes in the Life of Harriet Tubman"
+        },
+        "year": 1869,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "sojourner-truth",
+      "lifespan": "c. 1797–1883",
+      "pt": {
+        "role": "Abolicionista e ativista",
+        "description": "Abolicionista e ativista norte-americana nascida sob escravidão, Sojourner Truth tornou-se pregadora e oradora pública, defendendo o fim da escravidão, os direitos das mulheres e a igualdade jurídica no século XIX."
+      },
+      "en": {
+        "role": "Abolitionist and activist",
+        "description": "An American abolitionist and activist born into slavery, Sojourner Truth became an itinerant preacher and public speaker who advocated the abolition of slavery, women’s rights, and legal equality in the nineteenth century."
+      },
+      "book": {
+        "title": {
+          "pt": "Narrativa de Sojourner Truth",
+          "en": "Narrative of Sojourner Truth"
+        },
+        "year": 1850,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "gloria-steinem",
+      "lifespan": "1934–2026",
+      "pt": {
+        "role": "Jornalista e ativista feminista",
+        "description": "Jornalista, escritora e organizadora norte-americana, Gloria Steinem tornou-se uma das figuras mais conhecidas do movimento feminista dos Estados Unidos a partir do fim dos anos 1960 e foi cofundadora da revista Ms. e de organizações voltadas aos direitos das mulheres."
+      },
+      "en": {
+        "role": "Journalist and feminist activist",
+        "description": "An American journalist, writer, and organizer, Gloria Steinem became one of the best-known figures of the U.S. feminist movement from the late 1960s onward and co-founded Ms. magazine and organizations focused on women’s rights."
+      },
+      "book": {
+        "title": {
+          "pt": "My Life on the Road",
+          "en": "My Life on the Road"
+        },
+        "year": 2015,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "betty-friedan",
+      "lifespan": "1921–2006",
+      "pt": {
+        "role": "Escritora e ativista feminista",
+        "description": "Escritora e ativista norte-americana, Betty Friedan publicou The Feminine Mystique em 1963 e participou da fundação da National Organization for Women, contribuindo para a expansão do debate público sobre igualdade, trabalho e oportunidades para mulheres."
+      },
+      "en": {
+        "role": "Writer and feminist activist",
+        "description": "An American writer and activist, Betty Friedan published The Feminine Mystique in 1963 and helped found the National Organization for Women, contributing to broader public debate on equality, employment, and opportunities for women."
+      },
+      "book": {
+        "title": {
+          "pt": "A Mística Feminina",
+          "en": "The Feminine Mystique"
+        },
+        "year": 1963,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "audre-lorde",
+      "lifespan": "1934–1992",
+      "pt": {
+        "role": "Poeta e ensaísta",
+        "description": "Poeta, ensaísta, bibliotecária e ativista norte-americana, Audre Lorde escreveu sobre raça, gênero, sexualidade, identidade e desigualdade, articulando literatura e crítica social a partir da experiência de mulheres negras e lésbicas."
+      },
+      "en": {
+        "role": "Poet and essayist",
+        "description": "An American poet, essayist, librarian, and activist, Audre Lorde wrote about race, gender, sexuality, identity, and inequality, combining literature and social criticism from the perspective of Black and lesbian women."
+      },
+      "book": {
+        "title": {
+          "pt": "Irmã Outsider",
+          "en": "Sister Outsider"
+        },
+        "year": 1984,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "patricia-hill-collins",
+      "lifespan": "1948–",
+      "pt": {
+        "role": "Socióloga",
+        "description": "Socióloga norte-americana, Patricia Hill Collins desenvolveu pesquisas sobre raça, gênero, classe, sexualidade e nacionalidade e consolidou parte de sua contribuição teórica em Black Feminist Thought, publicado originalmente em 1990."
+      },
+      "en": {
+        "role": "Sociologist",
+        "description": "An American sociologist, Patricia Hill Collins has researched race, gender, social class, sexuality, and nation and consolidated a major part of her theoretical contribution in Black Feminist Thought, first published in 1990."
+      },
+      "book": {
+        "title": {
+          "pt": "Pensamento Feminista Negro",
+          "en": "Black Feminist Thought"
+        },
+        "year": 1990,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "kimberle-crenshaw",
+      "lifespan": "1959–",
+      "pt": {
+        "role": "Jurista e professora",
+        "description": "Jurista e professora norte-americana, Kimberlé Crenshaw pesquisa direitos civis, teoria crítica da raça e teoria jurídica feminista e formulou o conceito de interseccionalidade para analisar formas sobrepostas de discriminação."
+      },
+      "en": {
+        "role": "Legal scholar and professor",
+        "description": "An American legal scholar and professor, Kimberlé Crenshaw works on civil rights, critical race theory, and feminist legal theory and coined the concept of intersectionality to analyze overlapping forms of discrimination."
+      },
+      "book": {
+        "title": {
+          "pt": "On Intersectionality: Essential Writings",
+          "en": "On Intersectionality: Essential Writings"
+        },
+        "year": 2017,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "nancy-fraser",
+      "lifespan": "1947–",
+      "pt": {
+        "role": "Filósofa e teórica crítica",
+        "description": "Filósofa e teórica crítica norte-americana, Nancy Fraser desenvolveu trabalhos sobre justiça, reconhecimento, redistribuição, democracia e feminismo, examinando como desigualdades econômicas e de status se relacionam nas sociedades contemporâneas."
+      },
+      "en": {
+        "role": "Philosopher and critical theorist",
+        "description": "An American philosopher and critical theorist, Nancy Fraser has written on justice, recognition, redistribution, democracy, and feminism, examining how economic and status inequalities interact in contemporary societies."
+      },
+      "book": {
+        "title": {
+          "pt": "Justice Interruptus",
+          "en": "Justice Interruptus"
+        },
+        "year": 1997,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "martha-nussbaum",
+      "lifespan": "1947–",
+      "pt": {
+        "role": "Filósofa e professora",
+        "description": "Filósofa e professora norte-americana, Martha Nussbaum trabalha com ética, filosofia política, direito, direitos humanos e filosofia antiga, relacionando essas áreas a questões de justiça, dignidade e desenvolvimento humano."
+      },
+      "en": {
+        "role": "Philosopher and professor",
+        "description": "An American philosopher and professor, Martha Nussbaum works on ethics, political philosophy, law, human rights, and ancient philosophy, connecting these fields to questions of justice, dignity, and human development."
+      },
+      "book": {
+        "title": {
+          "pt": "Mulheres e Desenvolvimento Humano",
+          "en": "Women and Human Development"
+        },
+        "year": 2000,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "susan-b-anthony",
+      "lifespan": "1820–1906",
+      "pt": {
+        "role": "Sufragista e reformadora",
+        "description": "Reformadora norte-americana, Susan B. Anthony tornou-se uma das principais organizadoras do movimento pelo sufrágio feminino, além de participar de campanhas abolicionistas e por direitos de propriedade e educação para mulheres."
+      },
+      "en": {
+        "role": "Suffragist and reformer",
+        "description": "An American reformer, Susan B. Anthony became one of the leading organizers of the women’s suffrage movement and also participated in antislavery campaigns and efforts for women’s property and education rights."
+      },
+      "book": null
+    },
+    {
+      "id": "elizabeth-cady-stanton",
+      "lifespan": "1815–1902",
+      "pt": {
+        "role": "Sufragista e teórica feminista",
+        "description": "Reformadora e teórica norte-americana, Elizabeth Cady Stanton organizou a Convenção de Seneca Falls de 1848, coescreveu a Declaration of Sentiments e atuou por sufrágio, direitos legais das mulheres e abolição da escravidão."
+      },
+      "en": {
+        "role": "Suffragist and feminist theorist",
+        "description": "An American reformer and theorist, Elizabeth Cady Stanton organized the 1848 Seneca Falls Convention, co-authored the Declaration of Sentiments, and campaigned for suffrage, women’s legal rights, and the abolition of slavery."
+      },
+      "book": {
+        "title": {
+          "pt": "Eighty Years and More",
+          "en": "Eighty Years and More"
+        },
+        "year": 1898,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "lucretia-mott",
+      "lifespan": "1793–1880",
+      "pt": {
+        "role": "Abolicionista e sufragista",
+        "description": "Abolicionista, pregadora quaker e defensora dos direitos das mulheres, Lucretia Mott participou da organização da Convenção de Seneca Falls de 1848 e dedicou décadas a campanhas contra a escravidão e pela igualdade civil."
+      },
+      "en": {
+        "role": "Abolitionist and suffragist",
+        "description": "An American abolitionist, Quaker minister, and women’s-rights advocate, Lucretia Mott helped organize the 1848 Seneca Falls Convention and spent decades campaigning against slavery and for civil equality."
+      },
+      "book": null
+    },
+    {
+      "id": "alice-paul",
+      "lifespan": "1885–1977",
+      "pt": {
+        "role": "Sufragista e estrategista política",
+        "description": "Sufragista e estrategista norte-americana, Alice Paul organizou protestos em favor da 19ª Emenda, fundou o National Woman’s Party e apresentou em 1923 a primeira versão da Equal Rights Amendment."
+      },
+      "en": {
+        "role": "Suffragist and political strategist",
+        "description": "An American suffragist and political strategist, Alice Paul organized protests for the Nineteenth Amendment, founded the National Woman’s Party, and introduced the first version of the Equal Rights Amendment in 1923."
+      },
+      "book": null
+    }
+  ]
+}

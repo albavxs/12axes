@@ -5,16 +5,21 @@ const root = resolve(import.meta.dirname, '..');
 const manifestPath = resolve(root, 'scripts/data/female-expansion.json');
 const personalitiesPath = resolve(root, 'backend/src/main/resources/data/personalities.json');
 const evidencePath = resolve(root, 'scripts/data/female-profile-evidence.json');
+const metadataPath = resolve(root, 'scripts/data/female-metadata-drafts.json');
 
 const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
 const personalities = JSON.parse(readFileSync(personalitiesPath, 'utf8'));
 const evidence = existsSync(evidencePath)
   ? JSON.parse(readFileSync(evidencePath, 'utf8'))
   : { personalities: [] };
+const metadata = existsSync(metadataPath)
+  ? JSON.parse(readFileSync(metadataPath, 'utf8'))
+  : { personalities: [] };
 
 const requiredStatuses = ['metadataStatus', 'portraitStatus', 'translationStatus', 'profileStatus'];
 const candidates = manifest.candidates;
 const evidenceById = new Map((evidence.personalities ?? []).map((entry) => [entry.id, entry]));
+const metadataById = new Map((metadata.personalities ?? []).map((entry) => [entry.id, entry]));
 const runtimeFemaleIds = new Set(
   personalities
     .filter((personality) => personality.representation === 'female')
@@ -47,6 +52,28 @@ for (const candidate of candidates) {
   for (const field of requiredStatuses) {
     if (!manifest.statuses.includes(candidate[field])) {
       errors.push(`${candidate.id}: status inválido em ${field}: ${candidate[field]}`);
+    }
+  }
+
+  if (['review', 'ready'].includes(candidate.metadataStatus) || ['review', 'ready'].includes(candidate.translationStatus)) {
+    if (candidate.metadataFile !== 'scripts/data/female-metadata-drafts.json') {
+      errors.push(`${candidate.id}: metadata/translation em review/ready exige metadataFile em scripts/data/female-metadata-drafts.json`);
+    }
+    const draft = metadataById.get(candidate.id);
+    if (!draft) {
+      errors.push(`${candidate.id}: metadata/translation em review/ready sem draft factual`);
+    } else {
+      if (!draft.lifespan || !draft.pt?.role || !draft.pt?.description) {
+        errors.push(`${candidate.id}: draft PT incompleto`);
+      }
+      if (!draft.en?.role || !draft.en?.description) {
+        errors.push(`${candidate.id}: draft EN incompleto`);
+      }
+      if (candidate.bookStatus === 'review' || candidate.bookStatus === 'ready') {
+        if (!draft.book?.title?.pt || !draft.book?.title?.en || !draft.book?.year) {
+          errors.push(`${candidate.id}: bookStatus=${candidate.bookStatus} sem livro completo no staging`);
+        }
+      }
     }
   }
 
@@ -114,6 +141,7 @@ const summary = {
   blocked: blocked.length,
   remainingUnplanned,
   dossiers: evidence.personalities?.length ?? 0,
+  metadataDrafts: metadata.personalities?.length ?? 0,
   integratedRecorded: manifest.integrated?.length ?? 0,
   byProfileStatus: Object.fromEntries(
     manifest.statuses.map((status) => [

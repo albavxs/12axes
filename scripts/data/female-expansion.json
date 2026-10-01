@@ -29,7 +29,8 @@
         "https://www.loc.gov/nls/new-materials/book-lists/rosa-parks/",
         "https://www.loc.gov/exhibitions/rosa-parks-in-her-own-words/about-this-exhibition/the-bus-boycott/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "angela-davis",
@@ -48,7 +49,8 @@
         "https://campusdirectory.ucsc.edu/cd_detail?uid=aydavis",
         "https://news.ucsc.edu/2019/07/davis-hall-fame/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "dorothy-height",
@@ -58,15 +60,16 @@
       "category": "ativista",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "researching",
+      "bookStatus": "review",
       "sources": [
         "https://www.nps.gov/people/dorothy-i-height.htm",
         "https://www.womenshistory.org/education-resources/biographies/dorothy-height",
         "https://home.nps.gov/people/dorothy-i-height.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "ella-baker",
@@ -76,7 +79,7 @@
       "category": "ativista",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "researching",
       "sources": [
@@ -84,7 +87,8 @@
         "https://kinginstitute.stanford.edu/baker-ella-josephine",
         "https://home.nps.gov/articles/women-in-the-african-american-civil-rights-movement-an-historic-context.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "fannie-lou-hamer",
@@ -94,7 +98,7 @@
       "category": "ativista",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "researching",
       "sources": [
@@ -102,7 +106,8 @@
         "https://snccdigital.org/people/fannie-lou-hamer/",
         "https://www.nps.gov/articles/women-in-the-african-american-civil-rights-movement-an-historic-context.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "ida-b-wells",
@@ -112,15 +117,16 @@
       "category": "ativista",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "researching",
+      "bookStatus": "review",
       "sources": [
         "https://www.nps.gov/people/ida-b-wells.htm",
         "https://www.womenshistory.org/education-resources/biographies/ida-b-wells-barnett",
         "https://www.loc.gov/exhibits/civil-rights-act/prologue.html"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "mary-mcleod-bethune",
@@ -130,7 +136,7 @@
       "category": "ativista",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "researching",
       "sources": [
@@ -139,7 +145,8 @@
         "https://home.nps.gov/people/mary-mcleod-bethune.htm",
         "https://www.nps.gov/articles/000/mary-mcleod-bethune-true-democracy-and-the-fight-for-universal-suffrage.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "shirley-chisholm",
@@ -149,15 +156,16 @@
       "category": "politico",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "researching",
+      "bookStatus": "review",
       "sources": [
         "https://history.house.gov/People/Detail/10918",
         "https://www.womenshistory.org/education-resources/biographies/shirley-chisholm",
         "https://guides.loc.gov/shirley-chisholm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "barbara-jordan",
@@ -167,15 +175,16 @@
       "category": "politico",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "researching",
+      "bookStatus": "review",
       "sources": [
         "https://history.house.gov/People/Detail/16031",
         "https://www.womenshistory.org/education-resources/biographies/barbara-jordan",
         "https://www.nps.gov/people/barbara-jordan.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "harriet-tubman",
@@ -185,16 +194,17 @@
       "category": "ativista",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "researching",
+      "bookStatus": "review",
       "sources": [
         "https://www.nps.gov/people/harriet-tubman.htm",
         "https://www.womenshistory.org/education-resources/biographies/harriet-tubman",
         "https://www.nps.gov/articles/000/harriet-tubman-s-boston.htm",
         "https://www.nps.gov/hart/faqs.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sojourner-truth",
@@ -204,15 +214,16 @@
       "category": "ativista",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "researching",
+      "bookStatus": "review",
       "sources": [
         "https://www.nps.gov/people/sojourner-truth.htm",
         "https://www.womenshistory.org/education-resources/biographies/sojourner-truth",
         "https://home.nps.gov/people/sojourner-truth.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "gloria-steinem",
@@ -222,15 +233,16 @@
       "category": "ativista",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "researching",
+      "bookStatus": "review",
       "sources": [
         "https://www.womenshistory.org/education-resources/biographies/gloria-steinem",
         "https://www.britannica.com/biography/Gloria-Steinem",
         "https://americanhistory.si.edu/explore/exhibitions/american-enterprise/online/global-era/biographies-1980s%E2%80%932010s"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "betty-friedan",
@@ -240,15 +252,16 @@
       "category": "intelectual",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "researching",
+      "bookStatus": "review",
       "sources": [
         "https://www.womenshistory.org/education-resources/biographies/betty-friedan",
         "https://www.britannica.com/biography/Betty-Friedan",
         "https://www.si.edu/stories/betty-friedans-birthday"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "audre-lorde",
@@ -258,16 +271,17 @@
       "category": "intelectual",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "researching",
+      "bookStatus": "review",
       "sources": [
         "https://www.poetryfoundation.org/poets/audre-lorde",
         "https://www.poets.org/poet/audre-lorde",
         "https://nmaahc.si.edu/audre-lorde",
         "https://library.hunter.cuny.edu/news/honoring-audre-lorde"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "patricia-hill-collins",
@@ -277,14 +291,15 @@
       "category": "intelectual",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "researching",
+      "bookStatus": "review",
       "sources": [
         "https://socy.umd.edu/facultyprofile/collins/patricia-hill",
         "https://www.asanet.org/about/governance-and-leadership/council/presidents/patricia-hill-collins/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "kimberle-crenshaw",
@@ -294,14 +309,15 @@
       "category": "intelectual",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "researching",
+      "bookStatus": "review",
       "sources": [
         "https://www.law.columbia.edu/faculty/kimberle-w-crenshaw",
         "https://law.ucla.edu/faculty/faculty-profiles/kimberle-w-crenshaw"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "nancy-fraser",
@@ -311,15 +327,16 @@
       "category": "filosofo",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "researching",
+      "bookStatus": "review",
       "sources": [
         "https://www.newschool.edu/nssr/faculty/nancy-fraser/",
         "https://www.britannica.com/biography/Nancy-Fraser",
         "https://www.newschool.edu/lang/faculty/nancy-fraser/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "martha-nussbaum",
@@ -329,15 +346,16 @@
       "category": "filosofo",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "researching",
+      "bookStatus": "review",
       "sources": [
         "https://philosophy.uchicago.edu/faculty/nussbaum",
         "https://www.britannica.com/biography/Martha-Nussbaum",
         "https://www.law.uchicago.edu/faculty/nussbaum"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "susan-b-anthony",
@@ -347,7 +365,7 @@
       "category": "ativista",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "researching",
       "sources": [
@@ -355,7 +373,8 @@
         "https://susanb.org/her-story/biography/",
         "https://www.loc.gov/collections/susan-b-anthony-papers/about-this-collection/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "elizabeth-cady-stanton",
@@ -365,15 +384,16 @@
       "category": "ativista",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "researching",
+      "bookStatus": "review",
       "sources": [
         "https://www.womenshistory.org/education-resources/biographies/elizabeth-cady-stanton",
         "https://www.nps.gov/people/elizabeth-cady-stanton.htm",
         "https://www.loc.gov/collections/elizabeth-cady-stanton-papers/about-this-collection/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "lucretia-mott",
@@ -383,7 +403,7 @@
       "category": "ativista",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "researching",
       "sources": [
@@ -391,7 +411,8 @@
         "https://www.nps.gov/wori/learn/historyculture/lucretia-mott.htm",
         "https://home.nps.gov/wori/learn/historyculture/lucretia-mott.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "frances-willard",
@@ -435,7 +456,7 @@
       "category": "ativista",
       "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "researching",
       "sources": [
@@ -443,7 +464,8 @@
         "https://www.nps.gov/people/alice-paul.htm",
         "https://www.nps.gov/bepa/learn/alice-paul.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "lucy-stone",
@@ -2452,7 +2474,9 @@
     "currentResearchBatchSize": 40,
     "nextResearchBatchSize": 80,
     "recoveryPolicy": "Before reset/rebase/pull over local work, inspect git status and preserve unfinished work in a rescue branch/commit. Remote HEAD is the source of truth for committed state.",
-    "batchCheckpoint": "40-profile research pass completed; all 40 dossiers moved to review. Do not open the 80-profile batch until maintainer validation of this checkpoint."
+    "batchCheckpoint": "40-profile research pass completed; all 40 dossiers moved to review. Do not open the 80-profile batch until maintainer validation of this checkpoint.",
+    "metadataDraftFile": "scripts/data/female-metadata-drafts.json",
+    "metadataPolicy": "PT/EN metadata may be drafted before profile approval. Drafted metadata remains outside runtime until portrait and profile gates are satisfied."
   },
   "integrated": [
     {
