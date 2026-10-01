@@ -70,12 +70,13 @@
       "category": "filosofo",
       "metadataStatus": "review",
       "portraitStatus": "ready",
-      "translationStatus": "researching",
-      "profileStatus": "researching",
+      "translationStatus": "review",
+      "profileStatus": "review",
       "bookStatus": "researching",
       "sources": [
         "https://plato.stanford.edu/entries/ayn-rand/"
-      ]
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "hannah-arendt",
@@ -85,12 +86,13 @@
       "category": "filosofo",
       "metadataStatus": "review",
       "portraitStatus": "ready",
-      "translationStatus": "researching",
-      "profileStatus": "researching",
+      "translationStatus": "review",
+      "profileStatus": "review",
       "bookStatus": "researching",
       "sources": [
         "https://plato.stanford.edu/entries/arendt/"
-      ]
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "mary-wollstonecraft",
@@ -100,12 +102,13 @@
       "category": "filosofo",
       "metadataStatus": "review",
       "portraitStatus": "ready",
-      "translationStatus": "researching",
-      "profileStatus": "researching",
+      "translationStatus": "review",
+      "profileStatus": "review",
       "bookStatus": "researching",
       "sources": [
         "https://plato.stanford.edu/entries/wollstonecraft/"
-      ]
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "elinor-ostrom",
@@ -115,12 +118,13 @@
       "category": "economista",
       "metadataStatus": "review",
       "portraitStatus": "ready",
-      "translationStatus": "researching",
-      "profileStatus": "researching",
+      "translationStatus": "review",
+      "profileStatus": "review",
       "bookStatus": "researching",
       "sources": [
         "https://www.nobelprize.org/prizes/economic-sciences/2009/ostrom/facts/"
-      ]
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "dorothy-height",
@@ -2170,8 +2174,8 @@
     "targetFemaleCount": 193,
     "remainingUnplanned": 0,
     "readyCandidateCount": 0,
-    "profileReviewCount": 3,
-    "profileResearchingCount": 4,
+    "profileReviewCount": 7,
+    "profileResearchingCount": 0,
     "profilePendingCount": 170,
     "blockedFromRuntimeCount": 177
   },
