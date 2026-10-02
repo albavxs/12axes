@@ -8,8 +8,9 @@ frontend/dist/
 frontend/.npm-cache/
 .tools/
 
-# Personality Studio generated snapshot
+# Personality Studio generated/local state
 frontend/public/__dev/
+.personality-studio/
 
 # Local env
 .env

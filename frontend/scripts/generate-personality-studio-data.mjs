@@ -8,6 +8,7 @@ const dataRoot = resolve(repoRoot, 'backend/src/main/resources/data');
 const publicRoot = resolve(frontendRoot, 'public');
 const auditRoot = resolve(repoRoot, 'profile-audit');
 const scriptsDataRoot = resolve(repoRoot, 'scripts/data');
+const localDraftsPath = resolve(repoRoot, '.personality-studio/drafts.json');
 const outDir = resolve(publicRoot, '__dev/personality-studio');
 const outPath = resolve(outDir, 'catalog.json');
 
@@ -23,6 +24,7 @@ const axes = readJson(resolve(dataRoot, 'axes.json'), []);
 const evidence = readJson(resolve(scriptsDataRoot, 'female-profile-evidence.json'), { personalities: [] });
 const manifest = readJson(resolve(scriptsDataRoot, 'female-expansion.json'), { candidates: [] });
 const metadataDrafts = readJson(resolve(scriptsDataRoot, 'female-metadata-drafts.json'), { personalities: [] });
+const localDrafts = readJson(localDraftsPath, {});
 
 const englishById = new Map(english.map((entry) => [entry.id, entry]));
 const profileById = new Map(profiles.map((entry) => [entry.personalityId, entry]));
@@ -45,11 +47,7 @@ async function inspectImage(imagePath) {
   if (exists) {
     try {
       const decoded = await sharp(assetPath).metadata();
-      metadata = {
-        format: decoded.format ?? null,
-        width: decoded.width ?? null,
-        height: decoded.height ?? null,
-      };
+      metadata = { format: decoded.format ?? null, width: decoded.width ?? null, height: decoded.height ?? null };
     } catch (cause) {
       error = cause instanceof Error ? cause.message : String(cause);
     }
@@ -92,7 +90,6 @@ const runtimeEntries = await Promise.all(personalities.map(async (personality) =
   const auditAnswerExists = existsSync(resolve(auditRoot, 'answers/personality', `${id}.json`));
   const auditPendingExists = existsSync(resolve(auditRoot, 'subagent-out/personality', `${id}.json`));
   const image = await inspectImage(personality.imagePath);
-
   const errors = [];
   const warnings = [];
 
@@ -115,11 +112,8 @@ const runtimeEntries = await Promise.all(personalities.map(async (personality) =
   } else {
     for (const axisId of axisIds) {
       const value = profile.vector[axisId];
-      if (typeof value !== 'number' || !Number.isFinite(value)) {
-        errors.push(`Eixo ausente/inválido: ${axisId}`);
-      } else if (value < 0 || value > 100) {
-        errors.push(`Eixo fora de 0–100: ${axisId}`);
-      }
+      if (typeof value !== 'number' || !Number.isFinite(value)) errors.push(`Eixo ausente/inválido: ${axisId}`);
+      else if (value < 0 || value > 100) errors.push(`Eixo fora de 0–100: ${axisId}`);
     }
     const extraAxes = Object.keys(profile.vector).filter((axisId) => !axisIds.includes(axisId));
     if (extraAxes.length) warnings.push(`Eixos extras: ${extraAxes.join(', ')}`);
@@ -139,11 +133,8 @@ const runtimeEntries = await Promise.all(personalities.map(async (personality) =
     evidence: dossier,
     audit: { answerExists: auditAnswerExists, pendingExists: auditPendingExists },
     image,
-    validation: {
-      errors,
-      warnings,
-      status: errors.length ? 'error' : warnings.length ? 'warning' : 'ok',
-    },
+    localDraft: localDrafts[`runtime:${id}`] ?? null,
+    validation: { errors, warnings, status: errors.length ? 'error' : warnings.length ? 'warning' : 'ok' },
   };
 }));
 
@@ -158,13 +149,8 @@ const stagingEntries = await Promise.all(
       const auditPendingExists = existsSync(resolve(auditRoot, 'subagent-out/personality', `${id}.json`));
       const imagePath = draft?.portrait?.path ?? '';
       const image = await inspectImage(imagePath);
-      const translated = draft?.en
-        ? { id, name: candidate.name, role: draft.en.role, description: draft.en.description }
-        : null;
-      const book = draft?.book
-        ? { personalityId: id, ...draft.book }
-        : null;
-
+      const translated = draft?.en ? { id, name: candidate.name, role: draft.en.role, description: draft.en.description } : null;
+      const book = draft?.book ? { personalityId: id, ...draft.book } : null;
       const errors = [];
       const warnings = [];
 
@@ -172,50 +158,37 @@ const stagingEntries = await Promise.all(
         if (!draft?.lifespan || !draft?.pt?.role || !draft?.pt?.description) {
           errors.push(`metadataStatus=${candidate.metadataStatus}, mas draft PT está incompleto`);
         }
-      } else {
-        warnings.push(`Metadata ainda em ${candidate.metadataStatus}`);
-      }
+      } else warnings.push(`Metadata ainda em ${candidate.metadataStatus}`);
 
       if (['review', 'ready'].includes(candidate.translationStatus)) {
         if (!draft?.en?.role || !draft?.en?.description) {
           errors.push(`translationStatus=${candidate.translationStatus}, mas draft EN está incompleto`);
         }
-      } else {
-        warnings.push(`Tradução ainda em ${candidate.translationStatus}`);
-      }
+      } else warnings.push(`Tradução ainda em ${candidate.translationStatus}`);
 
       if (['review', 'ready'].includes(candidate.portraitStatus)) {
         if (!draft?.portrait?.sourceUrl || !draft?.portrait?.license || !draft?.portrait?.attribution) {
           errors.push(`portraitStatus=${candidate.portraitStatus}, mas origem/licença está incompleta`);
         }
         validateDecodedImage(image, errors, warnings, { required: true });
-      } else {
-        warnings.push(`Retrato ainda em ${candidate.portraitStatus}`);
-      }
+      } else warnings.push(`Retrato ainda em ${candidate.portraitStatus}`);
 
       if (['review', 'proposed', 'ready'].includes(candidate.profileStatus)) {
         const sourceCount = dossier?.sources?.length ?? 0;
         const evidenceCount = Object.keys(dossier?.evidence ?? {}).length;
         if (sourceCount < 2) errors.push(`Dossiê tem apenas ${sourceCount} fonte(s); mínimo 2`);
         if (evidenceCount < 3) errors.push(`Dossiê tem apenas ${evidenceCount} campo(s) de evidência; mínimo 3`);
-      } else {
-        warnings.push(`Perfil ainda em ${candidate.profileStatus}`);
-      }
+      } else warnings.push(`Perfil ainda em ${candidate.profileStatus}`);
 
-      if (candidate.profileStatus === 'ready' && !auditAnswerExists) {
-        errors.push('profileStatus=ready sem auditoria permanente de 240 respostas');
-      } else if (!auditAnswerExists) {
-        warnings.push('Sem auditoria permanente de 240 respostas');
-      }
+      if (candidate.profileStatus === 'ready' && !auditAnswerExists) errors.push('profileStatus=ready sem auditoria permanente de 240 respostas');
+      else if (!auditAnswerExists) warnings.push('Sem auditoria permanente de 240 respostas');
       if (auditPendingExists) warnings.push('Há saída de auditoria pendente em subagent-out');
 
       if (['review', 'ready'].includes(candidate.bookStatus)) {
         if (!book?.title?.pt || !book?.title?.en || !book?.year) {
           errors.push(`bookStatus=${candidate.bookStatus}, mas livro no staging está incompleto`);
         }
-      } else if (!book) {
-        warnings.push(`Livro: ${candidate.bookStatus}`);
-      }
+      } else if (!book) warnings.push(`Livro: ${candidate.bookStatus}`);
 
       return {
         source: 'staging',
@@ -245,11 +218,8 @@ const stagingEntries = await Promise.all(
         evidence: dossier,
         audit: { answerExists: auditAnswerExists, pendingExists: auditPendingExists },
         image,
-        validation: {
-          errors,
-          warnings,
-          status: errors.length ? 'error' : warnings.length ? 'warning' : 'ok',
-        },
+        localDraft: localDrafts[`staging:${id}`] ?? null,
+        validation: { errors, warnings, status: errors.length ? 'error' : warnings.length ? 'warning' : 'ok' },
       };
     })
 );
@@ -263,12 +233,9 @@ const stats = {
   runtimeFemale: runtimeEntries.filter((entry) => entry.representation === 'female').length,
   plannedFemale: runtimeEntries.filter((entry) => entry.representation === 'female').length + stagingEntries.length,
   errors: entries.filter((entry) => entry.validation.errors.length > 0).length,
-  warnings: entries.filter(
-    (entry) => entry.validation.errors.length === 0 && entry.validation.warnings.length > 0
-  ).length,
-  ok: entries.filter(
-    (entry) => entry.validation.errors.length === 0 && entry.validation.warnings.length === 0
-  ).length,
+  warnings: entries.filter((entry) => entry.validation.errors.length === 0 && entry.validation.warnings.length > 0).length,
+  ok: entries.filter((entry) => entry.validation.errors.length === 0 && entry.validation.warnings.length === 0).length,
+  localDrafts: entries.filter((entry) => entry.localDraft).length,
 };
 
 mkdirSync(outDir, { recursive: true });

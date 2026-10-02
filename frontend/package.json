@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "dev:studio": "vite --open /dev/personality-studio",
+    "dev:studio": "node scripts/run-personality-studio.mjs",
     "build": "npm run validate:portraits && tsc --noEmit && vite build && node scripts/generate-pages.mjs",
     "generate:pages": "node scripts/generate-pages.mjs",
     "optimize:images": "node scripts/optimize-images.mjs",
@@ -13,8 +13,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "validate:portraits": "node scripts/validate-personality-portraits.mjs",
-    "studio:refresh": "node scripts/generate-personality-studio-data.mjs",
-    "predev:studio": "npm run studio:refresh"
+    "studio:refresh": "node scripts/generate-personality-studio-data.mjs"
   },
   "dependencies": {
     "@fontsource/poppins": "^5.3.0",

@@ -6,9 +6,9 @@
 
 ## Goal
 
-Inspect and validate both the live personality catalog and active staging pipelines before data is merged.
+Inspect, validate and manually prepare personality catalog information before data is merged.
 
-The Studio is read-only: it never writes runtime or staging JSON.
+The Studio uses the same Paper / Forest / Carmine visual language as the production site and reads both runtime and active staging pipelines.
 
 ## Run
 
@@ -21,9 +21,58 @@ npm run dev:studio
 
 Open `http://localhost:5173/dev/personality-studio`.
 
-`predev:studio` generates `frontend/public/__dev/personality-studio/catalog.json`; the directory is ignored by Git.
+`dev:studio` starts two local processes:
 
-Use `npm run studio:refresh` after changing repository data while Vite is already running.
+- Vite on port 5173;
+- a write API bound only to `127.0.0.1:5174`.
+
+The API is available to the browser only through the Vite proxy.
+
+## Filters
+
+The UI can filter:
+
+- all / men / women;
+- runtime / staging;
+- clean / warning / error;
+- search by name, id, role or category.
+
+## Manual editing
+
+The editor supports:
+
+- PT name, role, category, lifespan and description;
+- EN name, role and description;
+- local portrait path and source metadata;
+- staging-only license and attribution fields;
+- optional book title/year.
+
+The 12-axis vector remains read-only. Profile values still come from the separate 240-question human-review audit process.
+
+### Save local draft
+
+`Salvar rascunho` writes to:
+
+`.personality-studio/drafts.json`
+
+That folder is ignored by Git. It is useful for experimenting without changing repository data.
+
+### Apply to repository files
+
+`Aplicar no runtime` updates:
+
+- `backend/src/main/resources/data/personalities.json`;
+- `backend/src/main/resources/data/i18n/en/personalities.json`;
+- `backend/src/main/resources/data/books.json`.
+
+`Aplicar no staging` updates:
+
+- `scripts/data/female-expansion.json` for candidate name/category;
+- `scripts/data/female-metadata-drafts.json` for PT/EN metadata, portrait information and book.
+
+Applying information does **not** automatically change pipeline review/ready states and does not modify political vectors.
+
+After every save/apply/discard, the Studio regenerates its local snapshot automatically.
 
 ## Data sources
 
@@ -61,6 +110,6 @@ A staged profile marked `ready` must also have permanent 240-question audit answ
 - production work: `feat/women-leaders`
 - contributor tooling: `dev/personality-studio`
 
-To validate the current feature, rebase/update the Studio branch on the feature HEAD. Fix discovered data problems on the feature branch, then sync the Studio again.
+To validate the current feature, update the Studio branch on the feature HEAD. Fix discovered data problems on the feature branch, then sync the Studio again.
 
 The final production PR remains `feat/women-leaders -> main`; Studio UI/code does not enter that merge.

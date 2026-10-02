@@ -30,14 +30,16 @@ export default defineConfig(({ mode }) => {
       port: 5173,
       strictPort: false,
       proxy: {
+        '/__dev/personality-studio-api': {
+          target: 'http://127.0.0.1:5174',
+          changeOrigin: false,
+          secure: false,
+        },
         '/api': {
           target: proxyTarget,
           changeOrigin: true,
           secure: true,
           configure: (proxy) => {
-            // Strip browser-origin headers so the backend treats this as same-origin.
-            // The Render backend's CORS allowlist doesn't include localhost:5xxx
-            // beyond 5173, so we hide the Origin entirely in dev.
             proxy.on('proxyReq', (proxyReq) => {
               proxyReq.removeHeader('origin');
               proxyReq.removeHeader('referer');
