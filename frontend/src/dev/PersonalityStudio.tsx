@@ -12,7 +12,7 @@ type Pipeline = {
 type EditableDraft = {
   pt: { name: string; role: string; category: string; lifespan: string; description: string };
   en: { name: string; role: string; description: string };
-  portrait: { path: string; sourceName: string; sourceUrl: string; note: string; license: string; attribution: string };
+  portrait: { path: string; sourceFile: string; sourceName: string; sourceUrl: string; note: string; license: string; attribution: string };
   book: { enabled: boolean; titlePt: string; titleEn: string; year: string };
   savedAt?: string;
 };
@@ -21,7 +21,7 @@ type Personality = {
   pipeline: Pipeline | null;
   id: string; name: string; role: string; category: string;
   representation: 'male' | 'female'; lifespan: string; description: string;
-  imagePath?: string; imageSourceName?: string; imageSourceUrl?: string; imageNote?: string;
+  imagePath?: string; previewImagePath?: string; imageSourceFile?: string; imageSourceName?: string; imageSourceUrl?: string; imageNote?: string;
   translated: Translation | null; profile: Profile | null; book: Book | null;
   evidence: { sources?: unknown[]; evidence?: Record<string, unknown> } | null;
   audit: { answerExists: boolean; pendingExists: boolean };
@@ -70,6 +70,7 @@ function emptyDraft(personality: Personality): EditableDraft {
     },
     portrait: {
       path: personality.imagePath ?? '',
+      sourceFile: personality.imageSourceFile ?? '',
       sourceName: personality.imageSourceName ?? '',
       sourceUrl: personality.imageSourceUrl ?? '',
       note: personality.imageNote ?? '',
@@ -298,7 +299,7 @@ function PersonalityStudio() {
     });
   }
 
-  async function mutate(action: 'draft' | 'apply' | 'discard') {
+  async function mutate(action: 'draft' | 'apply' | 'discard' | 'portrait') {
     if (!selected) return;
     if (action !== 'discard' && !form) return;
     setSaving(true);
@@ -420,7 +421,7 @@ function PersonalityStudio() {
             const key = `${personality.source}:${personality.id}`;
             return (
               <button key={key} className={`studio-list-item ${key === selectedKey ? 'is-selected' : ''}`} onClick={() => setSelectedKey(key)} type="button">
-                {personality.imagePath ? <img src={personality.imagePath} alt="" loading="lazy" /> : <span className="studio-image-placeholder">—</span>}
+                {personality.previewImagePath ? <img src={personality.previewImagePath} alt="" loading="lazy" /> : <span className="studio-image-placeholder">—</span>}
                 <span className="studio-list-copy">
                   <strong>{language === 'en' ? (personality.translated?.name || personality.name) : personality.name}</strong>
                   <small>{personality.id} · {personality.source}</small>
@@ -437,7 +438,7 @@ function PersonalityStudio() {
           {selected ? (
             <>
               <section className="studio-profile-head">
-                {selected.imagePath ? <img className="studio-portrait" src={selected.imagePath} alt={selected.name} /> : <div className="studio-portrait studio-portrait--missing">{ui.noPortrait}</div>}
+                {selected.previewImagePath ? <img className="studio-portrait" src={selected.previewImagePath} alt={selected.name} /> : <div className="studio-portrait studio-portrait--missing">{ui.noPortrait}</div>}
                 <div className="studio-profile-copy">
                   <div className="studio-badges">
                     <Badge tone={selected.source === 'runtime' ? 'good' : 'warn'}>{selected.source}</Badge>
@@ -564,6 +565,7 @@ function PersonalityStudio() {
                 <legend>Retrato</legend>
                 <div className="studio-form-grid">
                   <Field label="Path local" hint="Ex.: /personalities/portraits/nome.jpg"><input value={form.portrait.path} onChange={(e) => setDraft('portrait.path', e.target.value)} /></Field>
+                  <Field label="Arquivo no Commons" hint="Ex.: Nome da Pessoa.jpg"><input value={form.portrait.sourceFile} onChange={(e) => setDraft('portrait.sourceFile', e.target.value)} /></Field>
                   <Field label="Nome da fonte"><input value={form.portrait.sourceName} onChange={(e) => setDraft('portrait.sourceName', e.target.value)} /></Field>
                   <Field label="URL da fonte"><input value={form.portrait.sourceUrl} onChange={(e) => setDraft('portrait.sourceUrl', e.target.value)} /></Field>
                   <Field label="Licença" hint={selected.source === 'runtime' ? 'Guardada no rascunho; runtime atual usa imageNote/source.' : undefined}><input value={form.portrait.license} onChange={(e) => setDraft('portrait.license', e.target.value)} /></Field>
@@ -591,6 +593,7 @@ function PersonalityStudio() {
                 <span>não altera o repositório e fica em .personality-studio/</span>
               </div>
               <div className="studio-editor-actions">
+                <button className="secondary-button" type="button" disabled={saving || !form.portrait.sourceUrl || !form.portrait.path} onClick={() => mutate('portrait')}>Baixar retrato</button>
                 <button className="secondary-button" type="button" disabled={saving} onClick={() => mutate('draft')}>Salvar rascunho</button>
                 <button className="primary-button" type="button" disabled={saving} onClick={() => mutate('apply')}>{saving ? 'Salvando…' : selected.source === 'runtime' ? 'Aplicar no runtime' : 'Aplicar no staging'}</button>
               </div>

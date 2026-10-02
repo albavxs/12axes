@@ -133,6 +133,8 @@ const runtimeEntries = await Promise.all(personalities.map(async (personality) =
     evidence: dossier,
     audit: { answerExists: auditAnswerExists, pendingExists: auditPendingExists },
     image,
+    previewImagePath: personality.imagePath ?? '',
+    imageSourceFile: null,
     localDraft: localDrafts[`runtime:${id}`] ?? null,
     validation: { errors, warnings, status: errors.length ? 'error' : warnings.length ? 'warning' : 'ok' },
   };
@@ -209,6 +211,12 @@ const stagingEntries = await Promise.all(
         lifespan: draft?.lifespan ?? '',
         description: draft?.pt?.description ?? '',
         imagePath,
+        previewImagePath: image.exists
+          ? imagePath
+          : (draft?.portrait?.sourceFile
+              ? 'https://commons.wikimedia.org/wiki/Special:Redirect/file/' + encodeURIComponent(draft.portrait.sourceFile)
+              : ''),
+        imageSourceFile: draft?.portrait?.sourceFile ?? '',
         imageSourceName: draft?.portrait?.sourceName ?? '',
         imageSourceUrl: draft?.portrait?.sourceUrl ?? '',
         imageNote: draft?.portrait?.note ?? '',

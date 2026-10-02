@@ -1,12 +1,14 @@
 import { spawn, spawnSync } from 'node:child_process';
 import { createServer } from 'node:http';
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { dirname, resolve } from 'node:path';
+import sharp from 'sharp';
 
 const frontendRoot = resolve(import.meta.dirname, '..');
 const repoRoot = resolve(frontendRoot, '..');
 const dataRoot = resolve(repoRoot, 'backend/src/main/resources/data');
 const scriptsDataRoot = resolve(repoRoot, 'scripts/data');
+const publicRoot = resolve(frontendRoot, 'public');
 const localRoot = resolve(repoRoot, '.personality-studio');
 const localDraftsPath = resolve(localRoot, 'drafts.json');
 const generatorPath = resolve(frontendRoot, 'scripts/generate-personality-studio-data.mjs');
@@ -75,6 +77,7 @@ function normalizeDraft(input = {}) {
     },
     portrait: {
       path: cleanText(portrait.path, 500),
+      sourceFile: cleanText(portrait.sourceFile, 500),
       sourceName: cleanText(portrait.sourceName, 240),
       sourceUrl: cleanText(portrait.sourceUrl, 1000),
       note: cleanText(portrait.note, 1200),
@@ -198,6 +201,7 @@ function applyStaging(id, draft) {
   if (portraitHasContent) {
     entry.portrait = {
       path: draft.portrait.path,
+      sourceFile: draft.portrait.sourceFile,
       sourceName: draft.portrait.sourceName,
       sourceUrl: draft.portrait.sourceUrl,
       note: draft.portrait.note,
@@ -219,6 +223,67 @@ function applyStaging(id, draft) {
 
   writeJson(manifestPath, manifest);
   writeJson(metadataPath, metadata);
+}
+
+async function materializeCommonsPortrait(draft) {
+  const sourceUrl = new URL(draft.portrait.sourceUrl);
+  if (sourceUrl.protocol !== 'https:' || sourceUrl.hostname !== 'commons.wikimedia.org') {
+    throw new Error('Portrait download is restricted to commons.wikimedia.org.');
+  }
+
+  let sourceFile = draft.portrait.sourceFile;
+  if (!sourceFile) {
+    const decodedPath = decodeURIComponent(sourceUrl.pathname);
+    const marker = '/wiki/File:';
+    const index = decodedPath.indexOf(marker);
+    if (index >= 0) sourceFile = decodedPath.slice(index + marker.length);
+  }
+  if (!sourceFile) throw new Error('Could not determine the Wikimedia Commons file name.');
+
+  const portraitPath = draft.portrait.path;
+  if (!portraitPath.startsWith('/personalities/portraits/') || !portraitPath.toLowerCase().endsWith('.jpg')) {
+    throw new Error('Portrait path must be /personalities/portraits/<id>.jpg.');
+  }
+
+  const relative = portraitPath.replace(/^\/+/, '');
+  const target = resolve(publicRoot, relative);
+  const portraitsRoot = resolve(publicRoot, 'personalities/portraits');
+  if (!target.startsWith(portraitsRoot + '/')) {
+    throw new Error('Invalid portrait target path.');
+  }
+
+  const params = new URLSearchParams({
+    action: 'query',
+    format: 'json',
+    formatversion: '2',
+    prop: 'imageinfo',
+    iiprop: 'url',
+    iiurlwidth: '1200',
+    titles: 'File:' + sourceFile,
+  });
+  const apiResponse = await fetch('https://commons.wikimedia.org/w/api.php?' + params, {
+    headers: { 'User-Agent': '12axes-personality-studio/1.0' },
+  });
+  if (!apiResponse.ok) throw new Error('Commons API request failed.');
+  const payload = await apiResponse.json();
+  const page = payload?.query?.pages?.[0];
+  const imageUrl = page?.imageinfo?.[0]?.thumburl || page?.imageinfo?.[0]?.url;
+  if (!imageUrl) throw new Error('Commons did not return an image URL.');
+
+  const imageResponse = await fetch(imageUrl, {
+    headers: { 'User-Agent': '12axes-personality-studio/1.0' },
+  });
+  if (!imageResponse.ok) throw new Error('Could not download the Commons image.');
+  const buffer = Buffer.from(await imageResponse.arrayBuffer());
+
+  mkdirSync(dirname(target), { recursive: true });
+  await sharp(buffer)
+    .rotate()
+    .resize({ width: 1200, height: 1600, fit: 'inside', withoutEnlargement: true })
+    .jpeg({ quality: 90, progressive: true })
+    .toFile(target);
+
+  return target;
 }
 
 function validateTarget(source, id) {
@@ -257,6 +322,14 @@ const api = createServer(async (req, res) => {
       discardLocalDraft(source, id);
       refreshSnapshot();
       return jsonResponse(res, 200, { ok: true, message: 'Rascunho local descartado.' });
+    }
+
+    if (req.url === '/__dev/personality-studio-api/portrait') {
+      const draft = normalizeDraft(body.draft);
+      await materializeCommonsPortrait(draft);
+      saveLocalDraft(source, id, draft);
+      refreshSnapshot();
+      return jsonResponse(res, 200, { ok: true, message: 'Retrato do Commons salvo localmente.' });
     }
 
     if (req.url === '/__dev/personality-studio-api/apply') {
