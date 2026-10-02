@@ -3,10 +3,10 @@ name: CI
 on:
   pull_request:
   push:
-    branches: [main, feat/women-leaders]
+    branches: [main]
 
 permissions:
-  contents: write
+  contents: read
 
 jobs:
   backend:
@@ -45,119 +45,3 @@ jobs:
       - name: Build frontend and static pages
         working-directory: frontend
         run: npm run build
-
-
-  stage-next-women-portraits:
-    name: Stage next 10 women portraits
-    if: github.ref == 'refs/heads/feat/women-leaders' && github.actor != 'github-actions[bot]'
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v7
-        with:
-          ref: feat/women-leaders
-          fetch-depth: 0
-      - name: Install Pillow
-        run: python3 -m pip install --quiet pillow
-      - name: Download and normalize Commons portraits
-        shell: bash
-        run: |
-          set -euo pipefail
-          python3 - <<'PY'
-          from pathlib import Path
-          from urllib.parse import urlencode
-          from urllib.request import Request, urlopen
-          from urllib.error import HTTPError
-          from PIL import Image, ImageOps
-          import json, shutil, time
-
-          portraits = {
-              "policarpa-salavarrieta": "Policarpa Salabarrieta.jpg",
-              "rigoberta-menchu": "RIGOBERTA MENCHÚ.png",
-              "berta-caceres": "Berta Cáceres.jpg",
-              "domitila-barrios": "Domitila Barrios de Chungara Portrait.jpg",
-              "vanda-pignato": "Vanda Pignato.jpg",
-              "berta-lutz": "Bertha Lutz 01.jpg",
-              "nise-da-silveira": "Nise da Silveira.jpg",
-              "carolina-maria-de-jesus": "Carolina Maria de Jesus, 1960 cr.jpg",
-              "sueli-carneiro": "SueliCarneiro.jpg",
-              "djamila-ribeiro": "Djamila Ribeiro.jpg",
-          }
-
-          out_dir = Path("frontend/public/personalities/portraits")
-          tmp_dir = Path("/tmp/12axes-next-women")
-          out_dir.mkdir(parents=True, exist_ok=True)
-          tmp_dir.mkdir(parents=True, exist_ok=True)
-
-          def get_json(url, attempts=7):
-              delay = 2
-              for attempt in range(attempts):
-                  try:
-                      req = Request(url, headers={"User-Agent": "12axes-open-source-project/1.0"})
-                      with urlopen(req, timeout=90) as response:
-                          return json.load(response)
-                  except HTTPError as exc:
-                      if exc.code != 429 or attempt == attempts - 1:
-                          raise
-                      time.sleep(delay)
-                      delay = min(delay * 2, 30)
-
-          def download(url, path, attempts=7):
-              delay = 2
-              for attempt in range(attempts):
-                  try:
-                      req = Request(url, headers={"User-Agent": "12axes-open-source-project/1.0"})
-                      with urlopen(req, timeout=90) as response, path.open("wb") as fh:
-                          shutil.copyfileobj(response, fh)
-                      return
-                  except HTTPError as exc:
-                      if exc.code != 429 or attempt == attempts - 1:
-                          raise
-                      time.sleep(delay)
-                      delay = min(delay * 2, 30)
-
-          report = []
-          for person_id, filename in portraits.items():
-              params = urlencode({
-                  "action": "query",
-                  "format": "json",
-                  "formatversion": "2",
-                  "prop": "imageinfo",
-                  "iiprop": "url",
-                  "iiurlwidth": "1200",
-                  "titles": "File:" + filename,
-              })
-              data = get_json("https://commons.wikimedia.org/w/api.php?" + params)
-              page = data["query"]["pages"][0]
-              if page.get("missing"):
-                  raise RuntimeError(f"{person_id}: missing Commons file {filename}")
-              info = page["imageinfo"][0]
-              image_url = info.get("thumburl") or info["url"]
-              tmp = tmp_dir / person_id
-              download(image_url, tmp)
-
-              with Image.open(tmp) as raw:
-                  img = ImageOps.exif_transpose(raw).convert("RGB")
-                  if img.width < 200 or img.height < 200:
-                      raise RuntimeError(f"{person_id}: image too small {img.width}x{img.height}")
-                  if max(img.size) > 1600:
-                      img.thumbnail((1600, 1600), Image.Resampling.LANCZOS)
-                  target = out_dir / f"{person_id}.jpg"
-                  img.save(target, "JPEG", quality=90, optimize=True, progressive=True)
-                  report.append((person_id, img.width, img.height, target.stat().st_size))
-              time.sleep(1.1)
-
-          if len(report) != len(portraits):
-              raise RuntimeError("not all portraits staged")
-          for row in report:
-              print(*row)
-          PY
-      - name: Commit portraits
-        shell: bash
-        run: |
-          set -euo pipefail
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add frontend/public/personalities/portraits/*.jpg
-          git diff --cached --quiet && exit 0
-          git commit -m "feat(assets): stage portraits for next 10 women"
-          git push origin HEAD:feat/women-leaders
