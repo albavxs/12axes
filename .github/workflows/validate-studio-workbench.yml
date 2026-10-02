@@ -1,0 +1,52 @@
+name: Validate Studio Workbench
+
+on:
+  push:
+    branches:
+      - dev/personality-studio
+    paths:
+      - .github/workflows/validate-studio-workbench.yml
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: dev/personality-studio
+      - uses: actions/setup-node@v7
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: frontend/package-lock.json
+      - name: Install
+        working-directory: frontend
+        run: npm ci
+      - name: Test
+        working-directory: frontend
+        run: npm test
+      - name: Build
+        working-directory: frontend
+        run: npm run build
+      - name: Generate snapshot
+        working-directory: frontend
+        run: npm run studio:refresh
+      - name: Validate workbench data
+        working-directory: frontend
+        run: |
+          node - <<'NODE'
+          const fs=require('node:fs');
+          const p=JSON.parse(fs.readFileSync('public/__dev/personality-studio/catalog.json','utf8'));
+          const required=['policarpa-salavarrieta','rigoberta-menchu','berta-caceres','domitila-barrios','vanda-pignato','berta-lutz','nise-da-silveira','carolina-maria-de-jesus','sueli-carneiro','djamila-ribeiro'];
+          for (const id of required) {
+            const x=p.personalities.find(e=>e.id===id && e.source==='staging');
+            if(!x) throw new Error('missing staging entry '+id);
+            if(!x.role || !x.description || !x.translated?.role || !x.translated?.description) throw new Error('incomplete metadata '+id);
+          }
+          if(!p.personalities.some(x=>x.representation==='male')) throw new Error('no men');
+          if(!p.personalities.some(x=>x.representation==='female')) throw new Error('no women');
+          console.log(p.stats);
+          NODE
