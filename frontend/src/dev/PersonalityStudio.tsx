@@ -45,6 +45,9 @@ type Payload = {
 type RepresentationFilter = 'all' | 'male' | 'female';
 type StatusFilter = 'all' | 'error' | 'warning' | 'ok';
 type SourceFilter = 'all' | 'runtime' | 'staging';
+type StudioLanguage = 'pt' | 'en';
+type StudioTheme = 'light' | 'dark';
+type SortOrder = 'az' | 'za';
 
 function Badge({ children, tone = 'neutral' }: { children: ReactNode; tone?: 'neutral' | 'good' | 'warn' | 'bad' | 'accent' }) {
   return <span className={`studio-badge studio-badge--${tone}`}>{children}</span>;
@@ -99,6 +102,11 @@ function PersonalityStudio() {
   const [representation, setRepresentation] = useState<RepresentationFilter>('all');
   const [source, setSource] = useState<SourceFilter>('all');
   const [status, setStatus] = useState<StatusFilter>('all');
+  const [language, setLanguage] = useState<StudioLanguage>(() => (localStorage.getItem('personality-studio:language') as StudioLanguage) || 'pt');
+  const [theme, setTheme] = useState<StudioTheme>(() => (localStorage.getItem('personality-studio:theme') as StudioTheme) || 'light');
+  const [sortOrder, setSortOrder] = useState<SortOrder>('az');
+  const [targetMen, setTargetMen] = useState<number>(() => Number(localStorage.getItem('personality-studio:target-men')) || 386);
+  const [targetWomen, setTargetWomen] = useState<number>(() => Number(localStorage.getItem('personality-studio:target-women')) || 200);
   const [selectedKey, setSelectedKey] = useState<string | null>(null);
   const [editing, setEditing] = useState(false);
   const [form, setForm] = useState<EditableDraft | null>(null);
@@ -120,19 +128,145 @@ function PersonalityStudio() {
     loadCatalog().catch((error: Error) => setLoadError(error.message));
   }, []);
 
+  useEffect(() => {
+    localStorage.setItem('personality-studio:language', language);
+  }, [language]);
+
+  useEffect(() => {
+    localStorage.setItem('personality-studio:theme', theme);
+  }, [theme]);
+
+  useEffect(() => {
+    localStorage.setItem('personality-studio:target-men', String(targetMen));
+    localStorage.setItem('personality-studio:target-women', String(targetWomen));
+  }, [targetMen, targetWomen]);
+
+  const ui = language === 'pt' ? {
+    catalog: 'Catálogo',
+    runtime: 'Runtime',
+    staging: 'Staging',
+    men: 'Homens',
+    women: 'Mulheres',
+    all: 'Todos',
+    plannedWomen: 'Mulheres planejadas',
+    errors: 'Erros',
+    drafts: 'Rascunhos',
+    search: 'Buscar nome, id, função ou categoria…',
+    states: 'Todos os estados',
+    withError: 'Com erro',
+    withWarning: 'Com aviso',
+    clean: 'Limpos',
+    visible: 'visíveis',
+    composition: 'Composição',
+    targetMen: 'Meta homens',
+    targetWomen: 'Meta mulheres',
+    current: 'atual',
+    planned: 'planejado',
+    remaining: 'faltam',
+    edit: 'Editar informações',
+    discard: 'Descartar rascunho',
+    noPortrait: 'Sem retrato',
+    noSource: 'origem não informada',
+    roleMissing: 'Função ainda não preparada',
+    descriptionMissing: 'Descrição ainda não preparada.',
+    workflow: 'Workflow',
+    pipeline: 'Pipeline da personalidade',
+    validation: 'Validação',
+    audit: 'Auditoria',
+    english: 'Inglês',
+    book: 'Livro',
+    axes: '12 eixos',
+    readonly: 'somente leitura · vem da auditoria',
+    noIssues: 'Nenhum problema detectado.',
+    permanentAnswers: 'Respostas permanentes',
+    pendingOutput: 'Saída pendente',
+    dossier: 'Dossiê',
+    sources: 'Fontes',
+    evidenceFields: 'Campos de evidência',
+    yes: 'sim',
+    no: 'não',
+    noEnglish: 'Sem entrada em inglês.',
+    noBook: 'Sem livro cadastrado/preparado.',
+    select: 'Selecione uma personalidade.',
+    sortAZ: 'A → Z',
+    sortZA: 'Z → A',
+    sourceAll: 'Runtime + staging',
+    localTool: 'Studio local',
+    snapshot: 'snapshot',
+  } : {
+    catalog: 'Catalog',
+    runtime: 'Runtime',
+    staging: 'Staging',
+    men: 'Men',
+    women: 'Women',
+    all: 'All',
+    plannedWomen: 'Women planned',
+    errors: 'Errors',
+    drafts: 'Drafts',
+    search: 'Search name, id, role or category…',
+    states: 'All states',
+    withError: 'Errors',
+    withWarning: 'Warnings',
+    clean: 'Clean',
+    visible: 'visible',
+    composition: 'Composition',
+    targetMen: 'Men target',
+    targetWomen: 'Women target',
+    current: 'current',
+    planned: 'planned',
+    remaining: 'remaining',
+    edit: 'Edit information',
+    discard: 'Discard draft',
+    noPortrait: 'No portrait',
+    noSource: 'source not provided',
+    roleMissing: 'Role not prepared yet',
+    descriptionMissing: 'Description not prepared yet.',
+    workflow: 'Workflow',
+    pipeline: 'Personality pipeline',
+    validation: 'Validation',
+    audit: 'Audit',
+    english: 'English',
+    book: 'Book',
+    axes: '12 axes',
+    readonly: 'read-only · comes from audit',
+    noIssues: 'No issues detected.',
+    permanentAnswers: 'Permanent answers',
+    pendingOutput: 'Pending output',
+    dossier: 'Dossier',
+    sources: 'Sources',
+    evidenceFields: 'Evidence fields',
+    yes: 'yes',
+    no: 'no',
+    noEnglish: 'No English entry.',
+    noBook: 'No book registered/staged.',
+    select: 'Select a personality.',
+    sortAZ: 'A → Z',
+    sortZA: 'Z → A',
+    sourceAll: 'Runtime + staging',
+    localTool: 'Local Studio',
+    snapshot: 'snapshot',
+  };
+
   const filtered = useMemo(() => {
     if (!payload) return [];
     const normalizedQuery = query.trim().toLocaleLowerCase();
-    return payload.personalities.filter((personality) => {
-      if (representation !== 'all' && personality.representation !== representation) return false;
-      if (source !== 'all' && personality.source !== source) return false;
-      if (status !== 'all' && personality.validation.status !== status) return false;
-      if (!normalizedQuery) return true;
-      return [personality.id, personality.name, personality.role, personality.category]
-        .filter(Boolean)
-        .some((value) => value.toLocaleLowerCase().includes(normalizedQuery));
-    });
-  }, [payload, query, representation, source, status]);
+    return payload.personalities
+      .filter((personality) => {
+        if (representation !== 'all' && personality.representation !== representation) return false;
+        if (source !== 'all' && personality.source !== source) return false;
+        if (status !== 'all' && personality.validation.status !== status) return false;
+        if (!normalizedQuery) return true;
+        return [personality.id, personality.name, personality.translated?.name, personality.role, personality.category]
+          .filter(Boolean)
+          .some((value) => String(value).toLocaleLowerCase().includes(normalizedQuery));
+      })
+      .sort((a, b) => {
+        const aName = language === 'en' ? (a.translated?.name || a.name) : a.name;
+        const bName = language === 'en' ? (b.translated?.name || b.name) : b.name;
+        const result = aName.localeCompare(bName, language === 'pt' ? 'pt-BR' : 'en', { sensitivity: 'base' });
+        return sortOrder === 'az' ? result : -result;
+      });
+  }, [payload, query, representation, source, status, sortOrder, language]);
 
   useEffect(() => {
     if (!filtered.length) return;
@@ -196,7 +330,7 @@ function PersonalityStudio() {
   }
 
   if (loadError) {
-    return <main className="studio-shell"><section className="studio-empty"><h1>Personality Studio</h1><p>{loadError}</p><p>Run <code>npm run dev:studio</code> first.</p></section></main>;
+    return <main className="studio-shell" data-theme={theme}><section className="studio-empty"><h1>Personality Studio</h1><p>{loadError}</p><p>Run <code>npm run dev:studio</code> first.</p></section></main>;
   }
   if (!payload) {
     return <main className="studio-shell"><section className="studio-empty"><h1>Personality Studio</h1><p>Reading repository data…</p></section></main>;
@@ -206,57 +340,76 @@ function PersonalityStudio() {
     <main className="studio-shell">
       <header className="site-header studio-site-header">
         <a className="brand-lockup" href="/" aria-label="12 Axes">
-          <span className="brand-num">12</span>
-          <span className="brand-word">Axes</span>
+          <span className="brand-num">12</span><span className="brand-word">Axes</span>
         </a>
+        <div className="studio-title-inline">
+          <strong>Personality Studio</strong>
+          <span>{ui.localTool}</span>
+        </div>
         <div className="studio-header-tools">
-          <Badge tone="accent">local contributor tool</Badge>
-          <span className="studio-generated">snapshot {new Date(payload.generatedAt).toLocaleTimeString()}</span>
+          <button className="studio-icon-button" type="button" onClick={() => setSortOrder((value) => value === 'az' ? 'za' : 'az')} title="Sort">
+            {sortOrder === 'az' ? ui.sortAZ : ui.sortZA}
+          </button>
+          <button className="studio-icon-button" type="button" onClick={() => setLanguage((value) => value === 'pt' ? 'en' : 'pt')} title="Language">
+            {language === 'pt' ? 'EN' : 'PT'}
+          </button>
+          <button className="studio-icon-button" type="button" onClick={() => setTheme((value) => value === 'light' ? 'dark' : 'light')} title="Theme">
+            {theme === 'light' ? '◐' : '☀'}
+          </button>
+          <span className="studio-generated">{ui.snapshot} {new Date(payload.generatedAt).toLocaleTimeString(language === 'pt' ? 'pt-BR' : 'en-US')}</span>
         </div>
       </header>
 
-      <section className="studio-hero">
-        <div>
-          <p className="intro-eyebrow"><strong>Personality Studio</strong><small>QA editorial</small></p>
-          <h1>Revise o catálogo <em>antes do merge.</em></h1>
-          <p className="intro-lead">Metadados, tradução, retratos, livros, auditorias e vetores em um painel local que segue a mesma linguagem visual do 12 Axes.</p>
+      <section className="studio-workbar">
+        <div className="studio-metrics-compact">
+          <span><strong>{payload.stats.runtime}</strong>{ui.runtime}</span>
+          <span><strong>{payload.stats.staging}</strong>{ui.staging}</span>
+          <span><strong>{payload.stats.runtimeMale}</strong>{ui.men}</span>
+          <span><strong>{payload.stats.plannedFemale}</strong>{ui.women}</span>
+          <span className={payload.stats.errors ? 'has-error' : ''}><strong>{payload.stats.errors}</strong>{ui.errors}</span>
+          <span><strong>{payload.stats.localDrafts}</strong>{ui.drafts}</span>
         </div>
-        <div className="studio-summary">
-          <div className="studio-stat-card"><strong>{payload.stats.runtime}</strong><span>Runtime</span></div>
-          <div className="studio-stat-card"><strong>{payload.stats.staging}</strong><span>Staging</span></div>
-          <div className="studio-stat-card"><strong>{payload.stats.runtimeMale}</strong><span>Homens</span></div>
-          <div className="studio-stat-card"><strong>{payload.stats.plannedFemale}</strong><span>Mulheres planejadas</span></div>
-          <div className="studio-stat-card studio-stat-card--critical"><strong>{payload.stats.errors}</strong><span>Erros</span></div>
-          <div className="studio-stat-card"><strong>{payload.stats.localDrafts}</strong><span>Rascunhos locais</span></div>
+        <div className="studio-composition">
+          <span className="studio-composition-title">{ui.composition}</span>
+          <label>
+            <span>{ui.targetMen}</span>
+            <input type="number" min="0" value={targetMen} onChange={(event) => setTargetMen(Math.max(0, Number(event.target.value) || 0))} />
+            <small>{ui.current}: {payload.stats.runtimeMale} · {ui.remaining}: {Math.max(0, targetMen - payload.stats.runtimeMale)}</small>
+          </label>
+          <label>
+            <span>{ui.targetWomen}</span>
+            <input type="number" min="0" value={targetWomen} onChange={(event) => setTargetWomen(Math.max(0, Number(event.target.value) || 0))} />
+            <small>{ui.planned}: {payload.stats.plannedFemale} · {ui.remaining}: {Math.max(0, targetWomen - payload.stats.plannedFemale)}</small>
+          </label>
         </div>
       </section>
 
       <section className="studio-filter-card" aria-label="Catalog filters">
         <div className="studio-search-wrap">
           <span aria-hidden="true">⌕</span>
-          <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Buscar nome, id, função ou categoria…" aria-label="Search personalities" />
+          <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={ui.search} aria-label="Search personalities" />
         </div>
-        <div className="studio-segmented" aria-label="Filtrar por representação">
+        <div className="studio-segmented" aria-label="Representation">
           {([
-            ['all', 'Todos'],
-            ['male', 'Homens'],
-            ['female', 'Mulheres'],
+            ['all', ui.all],
+            ['male', ui.men],
+            ['female', ui.women],
           ] as const).map(([value, label]) => (
             <button key={value} type="button" className={representation === value ? 'is-active' : ''} onClick={() => setRepresentation(value)}>{label}</button>
           ))}
         </div>
         <select value={source} onChange={(event) => setSource(event.target.value as SourceFilter)} aria-label="Filter by source">
-          <option value="all">Runtime + staging</option>
-          <option value="runtime">Runtime</option>
-          <option value="staging">Staging</option>
+          <option value="all">{ui.sourceAll}</option>
+          <option value="runtime">{ui.runtime}</option>
+          <option value="staging">{ui.staging}</option>
         </select>
         <select value={status} onChange={(event) => setStatus(event.target.value as StatusFilter)} aria-label="Filter by validation state">
-          <option value="all">Todos os estados</option>
-          <option value="error">Com erro</option>
-          <option value="warning">Com aviso</option>
-          <option value="ok">Limpos</option>
+          <option value="all">{ui.states}</option>
+          <option value="error">{ui.withError}</option>
+          <option value="warning">{ui.withWarning}</option>
+          <option value="ok">{ui.clean}</option>
         </select>
-        <span className="studio-result-count">{filtered.length} visíveis</span>
+        <span className="studio-result-count">{filtered.length} {ui.visible}</span>
       </section>
 
       {notice ? <div className={`studio-notice studio-notice--${notice.tone}`}>{notice.text}</div> : null}
@@ -269,7 +422,7 @@ function PersonalityStudio() {
               <button key={key} className={`studio-list-item ${key === selectedKey ? 'is-selected' : ''}`} onClick={() => setSelectedKey(key)} type="button">
                 {personality.imagePath ? <img src={personality.imagePath} alt="" loading="lazy" /> : <span className="studio-image-placeholder">—</span>}
                 <span className="studio-list-copy">
-                  <strong>{personality.name}</strong>
+                  <strong>{language === 'en' ? (personality.translated?.name || personality.name) : personality.name}</strong>
                   <small>{personality.id} · {personality.source}</small>
                 </span>
                 {personality.localDraft ? <span className="studio-draft-dot" title="Rascunho local" /> : null}
@@ -284,25 +437,25 @@ function PersonalityStudio() {
           {selected ? (
             <>
               <section className="studio-profile-head">
-                {selected.imagePath ? <img className="studio-portrait" src={selected.imagePath} alt={selected.name} /> : <div className="studio-portrait studio-portrait--missing">Sem retrato</div>}
+                {selected.imagePath ? <img className="studio-portrait" src={selected.imagePath} alt={selected.name} /> : <div className="studio-portrait studio-portrait--missing">{ui.noPortrait}</div>}
                 <div className="studio-profile-copy">
                   <div className="studio-badges">
                     <Badge tone={selected.source === 'runtime' ? 'good' : 'warn'}>{selected.source}</Badge>
-                    <Badge>{selected.representation === 'male' ? 'homem' : 'mulher'}</Badge>
+                    <Badge>{selected.representation === 'male' ? ui.men : ui.women}</Badge>
                     <Badge>{selected.category}</Badge>
                     <Badge tone={selected.validation.status === 'ok' ? 'good' : selected.validation.status === 'warning' ? 'warn' : 'bad'}>{selected.validation.status}</Badge>
                     {selected.localDraft ? <Badge tone="accent">rascunho local</Badge> : null}
                   </div>
-                  <h2>{selected.name}</h2>
-                  <p className="studio-role">{selected.role || 'Função ainda não preparada'}{selected.lifespan ? ` · ${selected.lifespan}` : ''}</p>
-                  <p>{selected.description || 'Descrição ainda não preparada.'}</p>
+                  <h2>{language === 'en' ? (selected.translated?.name || selected.name) : selected.name}</h2>
+                  <p className="studio-role">{language === 'en' ? (selected.translated?.role || selected.role || ui.roleMissing) : (selected.role || ui.roleMissing)}{selected.lifespan ? ` · ${selected.lifespan}` : ''}</p>
+                  <p>{language === 'en' ? (selected.translated?.description || selected.description || ui.descriptionMissing) : (selected.description || ui.descriptionMissing)}</p>
                   <div className="studio-profile-actions">
-                    <button className="primary-button" type="button" onClick={openEditor}>Editar informações</button>
-                    {selected.localDraft ? <button className="secondary-button" type="button" onClick={() => mutate('discard')} disabled={saving}>Descartar rascunho</button> : null}
+                    <button className="primary-button" type="button" onClick={openEditor}>{ui.edit}</button>
+                    {selected.localDraft ? <button className="secondary-button" type="button" onClick={() => mutate('discard')} disabled={saving}>{ui.discard}</button> : null}
                   </div>
                   <div className="studio-source">
                     <strong>Retrato:</strong>{' '}
-                    {selected.imageSourceUrl ? <a href={selected.imageSourceUrl} target="_blank" rel="noreferrer">{selected.imageSourceName || selected.imageSourceUrl}</a> : 'origem não informada'}
+                    {selected.imageSourceUrl ? <a href={selected.imageSourceUrl} target="_blank" rel="noreferrer">{selected.imageSourceName || selected.imageSourceUrl}</a> : ui.noSource}
                     {selected.image.bytes ? <span> · {Math.round(selected.image.bytes / 1024)} KB</span> : null}
                     {selected.image.metadata?.width && selected.image.metadata?.height ? <span> · {selected.image.metadata.width}×{selected.image.metadata.height}</span> : null}
                   </div>
@@ -311,7 +464,7 @@ function PersonalityStudio() {
 
               {selected.pipeline ? (
                 <section className="studio-panel studio-pipeline-panel">
-                  <div className="studio-panel-title"><p className="studio-eyebrow">Workflow</p><h3>Pipeline da personalidade</h3></div>
+                  <div className="studio-panel-title"><p className="studio-eyebrow">{ui.workflow}</p><h3>{ui.pipeline}</h3></div>
                   <div className="studio-pipeline-grid">
                     <span>metadata <strong>{selected.pipeline.metadataStatus}</strong></span>
                     <span>translation <strong>{selected.pipeline.translationStatus}</strong></span>
@@ -325,38 +478,38 @@ function PersonalityStudio() {
 
               <section className="studio-grid">
                 <div className="studio-panel">
-                  <div className="studio-panel-title"><p className="studio-eyebrow">QA</p><h3>Validação</h3></div>
-                  {selected.validation.errors.length === 0 && selected.validation.warnings.length === 0 ? <p className="studio-ok">Nenhum problema detectado.</p> : null}
+                  <div className="studio-panel-title"><p className="studio-eyebrow">QA</p><h3>{ui.validation}</h3></div>
+                  {selected.validation.errors.length === 0 && selected.validation.warnings.length === 0 ? <p className="studio-ok">{ui.noIssues}</p> : null}
                   {selected.validation.errors.map((message) => <p key={message} className="studio-issue studio-issue--error">{message}</p>)}
                   {selected.validation.warnings.map((message) => <p key={message} className="studio-issue studio-issue--warning">{message}</p>)}
                 </div>
 
                 <div className="studio-panel">
-                  <div className="studio-panel-title"><p className="studio-eyebrow">Evidência</p><h3>Auditoria</h3></div>
+                  <div className="studio-panel-title"><p className="studio-eyebrow">QA</p><h3>{ui.audit}</h3></div>
                   <dl className="studio-definition-list">
-                    <div><dt>Respostas permanentes</dt><dd>{selected.audit.answerExists ? 'sim' : 'não'}</dd></div>
-                    <div><dt>Saída pendente</dt><dd>{selected.audit.pendingExists ? 'sim' : 'não'}</dd></div>
-                    <div><dt>Dossiê</dt><dd>{selected.evidence ? 'sim' : 'não'}</dd></div>
-                    <div><dt>Fontes</dt><dd>{selected.evidence?.sources?.length ?? 0}</dd></div>
-                    <div><dt>Campos de evidência</dt><dd>{Object.keys(selected.evidence?.evidence ?? {}).length}</dd></div>
+                    <div><dt>{ui.permanentAnswers}</dt><dd>{selected.audit.answerExists ? ui.yes : ui.no}</dd></div>
+                    <div><dt>{ui.pendingOutput}</dt><dd>{selected.audit.pendingExists ? ui.yes : ui.no}</dd></div>
+                    <div><dt>{ui.dossier}</dt><dd>{selected.evidence ? ui.yes : ui.no}</dd></div>
+                    <div><dt>{ui.sources}</dt><dd>{selected.evidence?.sources?.length ?? 0}</dd></div>
+                    <div><dt>{ui.evidenceFields}</dt><dd>{Object.keys(selected.evidence?.evidence ?? {}).length}</dd></div>
                   </dl>
                 </div>
 
                 <div className="studio-panel">
-                  <div className="studio-panel-title"><p className="studio-eyebrow">i18n</p><h3>Inglês</h3></div>
-                  {selected.translated ? <><strong>{selected.translated.name || selected.name}</strong><p className="studio-role">{selected.translated.role || 'Função ausente'}</p><p>{selected.translated.description || 'Descrição ausente'}</p></> : <p>Sem entrada em inglês.</p>}
+                  <div className="studio-panel-title"><p className="studio-eyebrow">i18n</p><h3>{ui.english}</h3></div>
+                  {selected.translated ? <><strong>{selected.translated.name || selected.name}</strong><p className="studio-role">{selected.translated.role || 'Função ausente'}</p><p>{selected.translated.description || 'Descrição ausente'}</p></> : <p>{ui.noEnglish}</p>}
                 </div>
 
                 <div className="studio-panel">
-                  <div className="studio-panel-title"><p className="studio-eyebrow">Referência</p><h3>Livro</h3></div>
-                  {selected.book ? <><strong>{selected.book.title.pt}</strong><p>{selected.book.title.en}</p><p className="studio-role">{selected.book.year ?? 'Ano não definido'}</p></> : <p>Sem livro cadastrado/preparado.</p>}
+                  <div className="studio-panel-title"><p className="studio-eyebrow">ref</p><h3>{ui.book}</h3></div>
+                  {selected.book ? <><strong>{selected.book.title.pt}</strong><p>{selected.book.title.en}</p><p className="studio-role">{selected.book.year ?? 'Ano não definido'}</p></> : <p>{ui.noBook}</p>}
                 </div>
               </section>
 
               <section className="studio-panel studio-axis-panel">
                 <div className="studio-panel-title studio-panel-title--row">
-                  <div><p className="studio-eyebrow">Perfil</p><h3>12 eixos</h3></div>
-                  <span className="studio-readonly-label">somente leitura · vem da auditoria</span>
+                  <div><p className="studio-eyebrow">profile</p><h3>{ui.axes}</h3></div>
+                  <span className="studio-readonly-label">{ui.readonly}</span>
                 </div>
                 {selected.profile ? (
                   <div className="studio-axes">
@@ -374,7 +527,7 @@ function PersonalityStudio() {
                 ) : <p>{selected.source === 'staging' ? `Ainda fora do runtime. profileStatus=${selected.pipeline?.profileStatus ?? 'unknown'}.` : 'Sem vetor de perfil.'}</p>}
               </section>
             </>
-          ) : <div className="studio-empty">Selecione uma personalidade.</div>}
+          ) : <div className="studio-empty">{ui.select}</div>}
         </article>
       </section>
 
