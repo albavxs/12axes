@@ -194,6 +194,38 @@ function PersonalityStudio() {
     sourceAll: 'Runtime + staging',
     localTool: 'Studio local',
     snapshot: 'snapshot',
+    localEdit: 'Edição local',
+    runtimeCatalog: 'Catálogo em runtime',
+    stagingPipeline: 'Pipeline de staging',
+    vectorsReadonly: 'vetores não são editáveis aqui',
+    close: 'Fechar',
+    portuguese: 'Português',
+    name: 'Nome',
+    role: 'Função',
+    category: 'Categoria',
+    lifespan: 'Período de vida',
+    description: 'Descrição',
+    portrait: 'Retrato',
+    localPath: 'Path local',
+    localPathHint: 'Ex.: /personalities/portraits/nome.jpg',
+    commonsFile: 'Arquivo no Commons',
+    commonsFileHint: 'Ex.: Nome da Pessoa.jpg',
+    sourceName: 'Nome da fonte',
+    sourceUrl: 'URL da fonte',
+    license: 'Licença',
+    attribution: 'Atribuição',
+    note: 'Nota',
+    registerBook: 'Cadastrar livro para esta personalidade',
+    titlePt: 'Título PT',
+    titleEn: 'Título EN',
+    year: 'Ano',
+    localDraft: 'Rascunho local',
+    localDraftHint: 'não altera o repositório e fica em .personality-studio/',
+    downloadPortrait: 'Baixar retrato',
+    saveDraft: 'Salvar rascunho',
+    saving: 'Salvando…',
+    applyRuntime: 'Aplicar no runtime',
+    applyStaging: 'Aplicar no staging',
   } : {
     catalog: 'Catalog',
     runtime: 'Runtime',
@@ -246,6 +278,38 @@ function PersonalityStudio() {
     sourceAll: 'Runtime + staging',
     localTool: 'Local Studio',
     snapshot: 'snapshot',
+    localEdit: 'Local editing',
+    runtimeCatalog: 'Runtime catalog',
+    stagingPipeline: 'Staging pipeline',
+    vectorsReadonly: 'vectors are not editable here',
+    close: 'Close',
+    portuguese: 'Portuguese',
+    name: 'Name',
+    role: 'Role',
+    category: 'Category',
+    lifespan: 'Lifespan',
+    description: 'Description',
+    portrait: 'Portrait',
+    localPath: 'Local path',
+    localPathHint: 'Example: /personalities/portraits/name.jpg',
+    commonsFile: 'Commons file',
+    commonsFileHint: 'Example: Person Name.jpg',
+    sourceName: 'Source name',
+    sourceUrl: 'Source URL',
+    license: 'License',
+    attribution: 'Attribution',
+    note: 'Note',
+    registerBook: 'Register a book for this personality',
+    titlePt: 'PT title',
+    titleEn: 'EN title',
+    year: 'Year',
+    localDraft: 'Local draft',
+    localDraftHint: 'does not change repository files and stays in .personality-studio/',
+    downloadPortrait: 'Download portrait',
+    saveDraft: 'Save draft',
+    saving: 'Saving…',
+    applyRuntime: 'Apply to runtime',
+    applyStaging: 'Apply to staging',
   };
 
   const filtered = useMemo(() => {
@@ -534,22 +598,22 @@ function PersonalityStudio() {
 
       {editing && selected && form ? (
         <div className="studio-editor-backdrop" role="presentation" onMouseDown={(event) => { if (event.currentTarget === event.target) setEditing(false); }}>
-          <section className="studio-editor" role="dialog" aria-modal="true" aria-label={`Editar ${selected.name}`}>
+          <section className="studio-editor" role="dialog" aria-modal="true" aria-label={`${ui.edit} ${selected.name}`}>
             <header className="studio-editor-header">
-              <div><p className="studio-eyebrow">Edição local</p><h2>{selected.name}</h2><p>{selected.source === 'runtime' ? 'Catálogo em runtime' : 'Pipeline de staging'} · vetores não são editáveis aqui.</p></div>
-              <button type="button" className="studio-close" onClick={() => setEditing(false)} aria-label="Fechar">×</button>
+              <div><p className="studio-eyebrow">{ui.localEdit}</p><h2>{selected.name}</h2><p>{selected.source === 'runtime' ? ui.runtimeCatalog : ui.stagingPipeline} · {ui.vectorsReadonly}.</p></div>
+              <button type="button" className="studio-close" onClick={() => setEditing(false)} aria-label={ui.close}>×</button>
             </header>
 
             <div className="studio-editor-body">
               <fieldset className="studio-editor-section">
-                <legend>Português</legend>
+                <legend>{ui.portuguese}</legend>
                 <div className="studio-form-grid">
-                  <Field label="Nome"><input value={form.pt.name} onChange={(e) => setDraft('pt.name', e.target.value)} /></Field>
-                  <Field label="Função"><input value={form.pt.role} onChange={(e) => setDraft('pt.role', e.target.value)} /></Field>
-                  <Field label="Categoria"><input value={form.pt.category} onChange={(e) => setDraft('pt.category', e.target.value)} /></Field>
-                  <Field label="Período de vida"><input value={form.pt.lifespan} onChange={(e) => setDraft('pt.lifespan', e.target.value)} /></Field>
+                  <Field label={ui.name}><input value={form.pt.name} onChange={(e) => setDraft('pt.name', e.target.value)} /></Field>
+                  <Field label={ui.role}><input value={form.pt.role} onChange={(e) => setDraft('pt.role', e.target.value)} /></Field>
+                  <Field label={ui.category}><input value={form.pt.category} onChange={(e) => setDraft('pt.category', e.target.value)} /></Field>
+                  <Field label={ui.lifespan}><input value={form.pt.lifespan} onChange={(e) => setDraft('pt.lifespan', e.target.value)} /></Field>
                 </div>
-                <Field label="Descrição"><textarea rows={4} value={form.pt.description} onChange={(e) => setDraft('pt.description', e.target.value)} /></Field>
+                <Field label={ui.description}><textarea rows={4} value={form.pt.description} onChange={(e) => setDraft('pt.description', e.target.value)} /></Field>
               </fieldset>
 
               <fieldset className="studio-editor-section">
@@ -562,26 +626,26 @@ function PersonalityStudio() {
               </fieldset>
 
               <fieldset className="studio-editor-section">
-                <legend>Retrato</legend>
+                <legend>{ui.portrait}</legend>
                 <div className="studio-form-grid">
-                  <Field label="Path local" hint="Ex.: /personalities/portraits/nome.jpg"><input value={form.portrait.path} onChange={(e) => setDraft('portrait.path', e.target.value)} /></Field>
-                  <Field label="Arquivo no Commons" hint="Ex.: Nome da Pessoa.jpg"><input value={form.portrait.sourceFile} onChange={(e) => setDraft('portrait.sourceFile', e.target.value)} /></Field>
-                  <Field label="Nome da fonte"><input value={form.portrait.sourceName} onChange={(e) => setDraft('portrait.sourceName', e.target.value)} /></Field>
-                  <Field label="URL da fonte"><input value={form.portrait.sourceUrl} onChange={(e) => setDraft('portrait.sourceUrl', e.target.value)} /></Field>
-                  <Field label="Licença" hint={selected.source === 'runtime' ? 'Guardada no rascunho; runtime atual usa imageNote/source.' : undefined}><input value={form.portrait.license} onChange={(e) => setDraft('portrait.license', e.target.value)} /></Field>
-                  <Field label="Atribuição"><input value={form.portrait.attribution} onChange={(e) => setDraft('portrait.attribution', e.target.value)} /></Field>
+                  <Field label={ui.localPath} hint={ui.localPathHint}><input value={form.portrait.path} onChange={(e) => setDraft('portrait.path', e.target.value)} /></Field>
+                  <Field label={ui.commonsFile} hint={ui.commonsFileHint}><input value={form.portrait.sourceFile} onChange={(e) => setDraft('portrait.sourceFile', e.target.value)} /></Field>
+                  <Field label={ui.sourceName}><input value={form.portrait.sourceName} onChange={(e) => setDraft('portrait.sourceName', e.target.value)} /></Field>
+                  <Field label={ui.sourceUrl}><input value={form.portrait.sourceUrl} onChange={(e) => setDraft('portrait.sourceUrl', e.target.value)} /></Field>
+                  <Field label={ui.license} hint={selected.source === 'runtime' ? (language === 'pt' ? 'Guardada no rascunho; runtime atual usa imageNote/source.' : 'Stored in the draft; current runtime uses imageNote/source.') : undefined}><input value={form.portrait.license} onChange={(e) => setDraft('portrait.license', e.target.value)} /></Field>
+                  <Field label={ui.attribution}><input value={form.portrait.attribution} onChange={(e) => setDraft('portrait.attribution', e.target.value)} /></Field>
                 </div>
-                <Field label="Nota"><textarea rows={3} value={form.portrait.note} onChange={(e) => setDraft('portrait.note', e.target.value)} /></Field>
+                <Field label={ui.note}><textarea rows={3} value={form.portrait.note} onChange={(e) => setDraft('portrait.note', e.target.value)} /></Field>
               </fieldset>
 
               <fieldset className="studio-editor-section">
-                <legend>Livro</legend>
-                <label className="studio-checkbox"><input type="checkbox" checked={form.book.enabled} onChange={(e) => setDraft('book.enabled', e.target.checked)} /><span>Cadastrar livro para esta personalidade</span></label>
+                <legend>{ui.book}</legend>
+                <label className="studio-checkbox"><input type="checkbox" checked={form.book.enabled} onChange={(e) => setDraft('book.enabled', e.target.checked)} /><span>{ui.registerBook}</span></label>
                 {form.book.enabled ? (
                   <div className="studio-form-grid">
-                    <Field label="Título PT"><input value={form.book.titlePt} onChange={(e) => setDraft('book.titlePt', e.target.value)} /></Field>
-                    <Field label="Título EN"><input value={form.book.titleEn} onChange={(e) => setDraft('book.titleEn', e.target.value)} /></Field>
-                    <Field label="Ano"><input inputMode="numeric" value={form.book.year} onChange={(e) => setDraft('book.year', e.target.value)} /></Field>
+                    <Field label={ui.titlePt}><input value={form.book.titlePt} onChange={(e) => setDraft('book.titlePt', e.target.value)} /></Field>
+                    <Field label={ui.titleEn}><input value={form.book.titleEn} onChange={(e) => setDraft('book.titleEn', e.target.value)} /></Field>
+                    <Field label={ui.year}><input inputMode="numeric" value={form.book.year} onChange={(e) => setDraft('book.year', e.target.value)} /></Field>
                   </div>
                 ) : null}
               </fieldset>
@@ -589,13 +653,13 @@ function PersonalityStudio() {
 
             <footer className="studio-editor-footer">
               <div>
-                <strong>Rascunho local</strong>
-                <span>não altera o repositório e fica em .personality-studio/</span>
+                <strong>{ui.localDraft}</strong>
+                <span>{ui.localDraftHint}</span>
               </div>
               <div className="studio-editor-actions">
-                <button className="secondary-button" type="button" disabled={saving || !form.portrait.sourceUrl || !form.portrait.path} onClick={() => mutate('portrait')}>Baixar retrato</button>
-                <button className="secondary-button" type="button" disabled={saving} onClick={() => mutate('draft')}>Salvar rascunho</button>
-                <button className="primary-button" type="button" disabled={saving} onClick={() => mutate('apply')}>{saving ? 'Salvando…' : selected.source === 'runtime' ? 'Aplicar no runtime' : 'Aplicar no staging'}</button>
+                <button className="secondary-button" type="button" disabled={saving || !form.portrait.sourceUrl || !form.portrait.path} onClick={() => mutate('portrait')}>{ui.downloadPortrait}</button>
+                <button className="secondary-button" type="button" disabled={saving} onClick={() => mutate('draft')}>{ui.saveDraft}</button>
+                <button className="primary-button" type="button" disabled={saving} onClick={() => mutate('apply')}>{saving ? ui.saving : selected.source === 'runtime' ? ui.applyRuntime : ui.applyStaging}</button>
               </div>
             </footer>
           </section>
