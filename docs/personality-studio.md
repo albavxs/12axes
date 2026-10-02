@@ -28,6 +28,21 @@ Open `http://localhost:5173/dev/personality-studio`.
 
 The API is available to the browser only through the Vite proxy.
 
+## Workbench controls
+
+The Studio is intentionally compact and tool-like rather than a landing page.
+
+It provides:
+
+- light/dark theme toggle;
+- PT/EN interface toggle;
+- A→Z / Z→A ordering;
+- runtime/staging and validation filters;
+- explicit All / Men / Women filtering;
+- local composition targets for men and women.
+
+Composition targets are planning controls stored in browser `localStorage`. They do not add or delete personalities by themselves; the panel shows the current/planned count and how many entries remain to reach each target.
+
 ## Filters
 
 The UI can filter:
@@ -48,6 +63,18 @@ The editor supports:
 - optional book title/year.
 
 The 12-axis vector remains read-only. Profile values still come from the separate 240-question human-review audit process.
+
+### Portrait preview and download
+
+A staged portrait may define a Wikimedia Commons `sourceFile` before the local JPEG exists.
+
+In that case the Studio:
+
+1. uses the Commons file as a remote preview for visual review;
+2. keeps `portraitStatus` pending until a local asset exists;
+3. exposes **Download portrait** in the editor.
+
+The local API only materializes portraits from `https://commons.wikimedia.org` and only writes under `frontend/public/personalities/portraits/`. The result is normalized to JPEG.
 
 ### Save local draft
 
