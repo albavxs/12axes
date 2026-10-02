@@ -645,6 +645,246 @@
         "attribution": "Library of Congress",
         "note": "Local JPEG normalized proportionally from the cited reusable source; no crop applied by the staging workflow."
       }
+    },
+    {
+      "id": "policarpa-salavarrieta",
+      "lifespan": "c. 1794–1817",
+      "pt": {
+        "role": "Agente da independência",
+        "description": "Costureira e agente da independência da Nova Granada, Policarpa Salavarrieta atuou em redes de apoio aos insurgentes durante a reconquista espanhola, foi presa pelas autoridades realistas e executada em Bogotá em 1817."
+      },
+      "en": {
+        "role": "Independence activist",
+        "description": "A seamstress and independence activist in New Granada, Policarpa Salavarrieta worked in support networks for insurgents during the Spanish reconquest, was arrested by royalist authorities, and was executed in Bogotá in 1817."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/policarpa-salavarrieta.jpg",
+        "sourceFile": "Policarpa Salabarrieta.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Policarpa_Salabarrieta.jpg",
+        "license": "Public domain",
+        "attribution": "José María Espinosa Prieto",
+        "note": "Retrato histórico de 1855; obra em domínio público."
+      }
+    },
+    {
+      "id": "rigoberta-menchu",
+      "lifespan": "1959–",
+      "pt": {
+        "role": "Ativista indígena e de direitos humanos",
+        "description": "Ativista guatemalteca do povo maia k'iche', Rigoberta Menchú tornou-se conhecida por sua atuação em direitos indígenas, direitos das mulheres e justiça social e recebeu o Prêmio Nobel da Paz em 1992."
+      },
+      "en": {
+        "role": "Indigenous and human rights activist",
+        "description": "A Guatemalan K'iche' Maya activist, Rigoberta Menchú became known for work on Indigenous rights, women's rights, and social justice and received the Nobel Peace Prize in 1992."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/rigoberta-menchu.jpg",
+        "sourceFile": "RIGOBERTA MENCHÚ.png",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:RIGOBERTA_MENCH%C3%9A.png",
+        "license": "CC0 1.0",
+        "attribution": "David Ross Photographer",
+        "note": "Retrato de 1994 dedicado ao domínio público pelo autor via CC0."
+      }
+    },
+    {
+      "id": "berta-caceres",
+      "lifespan": "1971–2016",
+      "pt": {
+        "role": "Ativista ambiental e de direitos indígenas",
+        "description": "Liderança indígena lenca e ativista hondurenha, Berta Cáceres cofundou o COPINH e organizou resistência comunitária a projetos que afetavam territórios indígenas, incluindo a barragem de Agua Zarca; recebeu o Goldman Environmental Prize em 2015."
+      },
+      "en": {
+        "role": "Environmental and Indigenous rights activist",
+        "description": "A Lenca Indigenous leader and Honduran activist, Berta Cáceres co-founded COPINH and organized community resistance to projects affecting Indigenous territories, including the Agua Zarca dam; she received the Goldman Environmental Prize in 2015."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/berta-caceres.jpg",
+        "sourceFile": "Berta Cáceres.jpg",
+        "sourceName": "Wikimedia Commons / UN Environment",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Berta_C%C3%A1ceres.jpg",
+        "license": "CC BY 3.0",
+        "attribution": "UN Environment",
+        "note": "Frame de homenagem produzido pela ONU Meio Ambiente, licenciado CC BY 3.0."
+      }
+    },
+    {
+      "id": "domitila-barrios",
+      "lifespan": "1937–2012",
+      "pt": {
+        "role": "Líder trabalhista e ativista",
+        "description": "Ativista boliviana ligada às comunidades mineiras, Domitila Barrios de Chungara participou do Comitê de Amas de Casa de Siglo XX, denunciou repressão política e condições de vida nas minas e tornou-se referência na organização de mulheres trabalhadoras."
+      },
+      "en": {
+        "role": "Labor leader and activist",
+        "description": "A Bolivian activist rooted in mining communities, Domitila Barrios de Chungara participated in the Siglo XX Housewives' Committee, denounced political repression and living conditions in mining areas, and became a prominent organizer of working women."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/domitila-barrios.jpg",
+        "sourceFile": "Domitila Barrios de Chungara Portrait.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Domitila_Barrios_de_Chungara_Portrait.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Fduriez",
+        "note": "Retrato gráfico de Domitila Barrios, licenciado CC BY-SA 4.0."
+      }
+    },
+    {
+      "id": "vanda-pignato",
+      "lifespan": "1963–",
+      "pt": {
+        "role": "Advogada e gestora pública",
+        "description": "Advogada e ex-secretária de Inclusão Social de El Salvador, Vanda Pignato esteve à frente da criação do programa Ciudad Mujer, que reuniu em centros integrados serviços de saúde, capacitação, atenção à violência e apoio econômico para mulheres."
+      },
+      "en": {
+        "role": "Lawyer and public administrator",
+        "description": "A lawyer and former Minister of Social Inclusion of El Salvador, Vanda Pignato led the creation of Ciudad Mujer, an integrated service-center program providing health, training, violence-response, and economic-support services for women."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/vanda-pignato.jpg",
+        "sourceFile": "Vanda Pignato.jpg",
+        "sourceName": "Wikimedia Commons / Presidency of El Salvador",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vanda_Pignato.jpg",
+        "license": "CC0 1.0",
+        "attribution": "Presidencia El Salvador",
+        "note": "Foto de 2015 da Presidência de El Salvador, disponibilizada em CC0."
+      }
+    },
+    {
+      "id": "berta-lutz",
+      "lifespan": "1894–1976",
+      "pt": {
+        "role": "Bióloga, sufragista e deputada",
+        "description": "Bióloga e ativista brasileira, Bertha Lutz foi uma das principais articuladoras do sufrágio feminino no país, fundou a Federação Brasileira pelo Progresso Feminino e assumiu mandato de deputada federal em 1936."
+      },
+      "en": {
+        "role": "Biologist, suffragist, and congresswoman",
+        "description": "A Brazilian biologist and activist, Bertha Lutz was a leading organizer for women's suffrage in Brazil, founded the Brazilian Federation for Women's Progress, and took office as a federal deputy in 1936."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/berta-lutz.jpg",
+        "sourceFile": "Bertha Lutz 01.jpg",
+        "sourceName": "Wikimedia Commons / Arquivo Nacional",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bertha_Lutz_01.jpg",
+        "license": "Public domain",
+        "attribution": "Domínio público / Acervo Arquivo Nacional",
+        "note": "Retrato do acervo do Arquivo Nacional em domínio público."
+      }
+    },
+    {
+      "id": "nise-da-silveira",
+      "lifespan": "1905–1999",
+      "pt": {
+        "role": "Psiquiatra",
+        "description": "Psiquiatra brasileira, Nise da Silveira rejeitou métodos como lobotomia e eletrochoque no tratamento psiquiátrico e desenvolveu práticas de terapia ocupacional baseadas em expressão artística, contribuindo para novas abordagens em saúde mental."
+      },
+      "en": {
+        "role": "Psychiatrist",
+        "description": "A Brazilian psychiatrist, Nise da Silveira rejected treatments such as lobotomy and electroshock and developed occupational-therapy practices centered on artistic expression, contributing to alternative approaches in mental health care."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/nise-da-silveira.jpg",
+        "sourceFile": "Nise da Silveira.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nise_da_Silveira.jpg",
+        "license": "Public domain",
+        "attribution": "Unknown photographer",
+        "note": "Fotografia histórica anterior a 1989, disponibilizada em domínio público no Commons."
+      }
+    },
+    {
+      "id": "carolina-maria-de-jesus",
+      "lifespan": "1914–1977",
+      "pt": {
+        "role": "Escritora",
+        "description": "Escritora brasileira, Carolina Maria de Jesus registrou em diários o cotidiano, a pobreza e a desigualdade vividos na favela do Canindé, em São Paulo. Seu livro Quarto de Despejo, publicado em 1960, alcançou ampla repercussão."
+      },
+      "en": {
+        "role": "Writer",
+        "description": "A Brazilian writer, Carolina Maria de Jesus documented everyday life, poverty, and inequality in São Paulo's Canindé favela through her diaries. Her book Child of the Dark (Quarto de Despejo), published in 1960, gained wide recognition."
+      },
+      "book": {
+        "title": {
+          "pt": "Quarto de Despejo",
+          "en": "Child of the Dark"
+        },
+        "year": 1960,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/carolina-maria-de-jesus.jpg",
+        "sourceFile": "Carolina Maria de Jesus, 1960 cr.jpg",
+        "sourceName": "Wikimedia Commons / Arquivo Nacional",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carolina_Maria_de_Jesus,_1960_cr.jpg",
+        "license": "Public domain",
+        "attribution": "Domínio público / Acervo Arquivo Nacional",
+        "note": "Retrato de 1960 do fundo Correio da Manhã, preservado pelo Arquivo Nacional e em domínio público."
+      }
+    },
+    {
+      "id": "sueli-carneiro",
+      "lifespan": "1950–",
+      "pt": {
+        "role": "Filósofa, escritora e ativista",
+        "description": "Filósofa, escritora e ativista brasileira, Sueli Carneiro é uma referência do feminismo negro no país e desenvolveu atuação pública e acadêmica sobre racismo, desigualdade de gênero, ações afirmativas e direitos da população negra."
+      },
+      "en": {
+        "role": "Philosopher, writer, and activist",
+        "description": "A Brazilian philosopher, writer, and activist, Sueli Carneiro is a major figure in Black feminism in Brazil and has worked publicly and academically on racism, gender inequality, affirmative action, and the rights of Black Brazilians."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/sueli-carneiro.jpg",
+        "sourceFile": "SueliCarneiro.jpg",
+        "sourceName": "Wikimedia Commons / Agência Brasil",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:SueliCarneiro.jpg",
+        "license": "CC BY 3.0 BR",
+        "attribution": "Wilson Dias / Agência Brasil",
+        "note": "Foto do Festival Latinidades de 2016, licenciada CC BY 3.0 Brasil."
+      }
+    },
+    {
+      "id": "djamila-ribeiro",
+      "lifespan": "1980–",
+      "pt": {
+        "role": "Filósofa e escritora",
+        "description": "Filósofa e escritora brasileira, Djamila Ribeiro é mestre em filosofia política pela Unifesp, foi secretária-adjunta de Direitos Humanos e Cidadania de São Paulo e publicou obras voltadas a feminismo negro, racismo e participação social."
+      },
+      "en": {
+        "role": "Philosopher and writer",
+        "description": "A Brazilian philosopher and writer, Djamila Ribeiro holds a master's degree in political philosophy from Unifesp, served as São Paulo's deputy secretary for Human Rights and Citizenship, and has published works on Black feminism, racism, and social participation."
+      },
+      "book": {
+        "title": {
+          "pt": "O que é lugar de fala?",
+          "en": "Place of Speech"
+        },
+        "year": 2017,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/djamila-ribeiro.jpg",
+        "sourceFile": "Djamila Ribeiro.jpg",
+        "sourceName": "Wikimedia Commons / Agência PT",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Djamila_Ribeiro.jpg",
+        "license": "CC BY 3.0",
+        "attribution": "Agência PT",
+        "note": "Foto de 2016 publicada pela Agência PT sob CC BY 3.0."
+      }
     }
   ]
 }
