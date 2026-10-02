@@ -287,7 +287,11 @@ api.listen(apiPort, '127.0.0.1', () => {
 });
 
 const viteBin = resolve(frontendRoot, 'node_modules/vite/bin/vite.js');
-const vite = spawn(process.execPath, [viteBin, '--open', '/dev/personality-studio'], {
+const forwardedArgs = process.argv.slice(2);
+const viteArgs = process.env.CI
+  ? [viteBin, ...forwardedArgs]
+  : [viteBin, '--open', '/dev/personality-studio', ...forwardedArgs];
+const vite = spawn(process.execPath, viteArgs, {
   cwd: frontendRoot,
   stdio: 'inherit',
 });
