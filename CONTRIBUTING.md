@@ -2,6 +2,21 @@
 
 Open an issue or pull request for corrections and new features. Keep each pull request focused on one change.
 
+## Local personality validation
+
+Catalog contributors can use the read-only Personality Studio maintained on `dev/personality-studio`.
+
+It inspects both runtime entries and staged candidates, including metadata, translations, portraits, books, 12-axis profiles, evidence and audit state.
+
+```bash
+git switch dev/personality-studio
+cd frontend
+npm ci
+npm run dev:studio
+```
+
+The Studio is contributor tooling and should not be bundled into unrelated production feature pull requests.
+
 ## Before requesting a review
 
 1. Run `mvn test` in `backend/` after backend or catalog changes.

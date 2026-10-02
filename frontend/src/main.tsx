@@ -20,8 +20,20 @@ import './styles/motion.css';
 const root = document.getElementById('root') as HTMLElement;
 protectTranslatedText(root);
 
+const isPersonalityStudio =
+  import.meta.env.DEV &&
+  window.location.pathname.replace(/\/+$/, '') === '/dev/personality-studio';
+
+const PersonalityStudio = React.lazy(() => import('./dev/PersonalityStudio'));
+
 ReactDOM.createRoot(root).render(
   <React.StrictMode>
-    <App />
+    {isPersonalityStudio ? (
+      <React.Suspense fallback={<div style={{ padding: 32 }}>Loading Personality Studio…</div>}>
+        <PersonalityStudio />
+      </React.Suspense>
+    ) : (
+      <App />
+    )}
   </React.StrictMode>
 );
