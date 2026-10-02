@@ -1464,11 +1464,12 @@
       "region": "latin-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "rigoberta-menchu",
@@ -1476,11 +1477,12 @@
       "region": "latin-america",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "berta-caceres",
@@ -1488,11 +1490,12 @@
       "region": "latin-america",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "domitila-barrios",
@@ -1500,11 +1503,12 @@
       "region": "latin-america",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "vanda-pignato",
@@ -1512,11 +1516,12 @@
       "region": "latin-america",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "berta-lutz",
@@ -1524,11 +1529,12 @@
       "region": "latin-america",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "nise-da-silveira",
@@ -1536,11 +1542,12 @@
       "region": "latin-america",
       "period": "20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "carolina-maria-de-jesus",
@@ -1548,11 +1555,12 @@
       "region": "latin-america",
       "period": "20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sueli-carneiro",
@@ -1560,11 +1568,12 @@
       "region": "latin-america",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "djamila-ribeiro",
@@ -1572,11 +1581,12 @@
       "region": "latin-america",
       "period": "21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "marielle-franco",
