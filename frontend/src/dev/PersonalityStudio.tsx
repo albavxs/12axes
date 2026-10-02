@@ -333,11 +333,11 @@ function PersonalityStudio() {
     return <main className="studio-shell" data-theme={theme}><section className="studio-empty"><h1>Personality Studio</h1><p>{loadError}</p><p>Run <code>npm run dev:studio</code> first.</p></section></main>;
   }
   if (!payload) {
-    return <main className="studio-shell"><section className="studio-empty"><h1>Personality Studio</h1><p>Reading repository data…</p></section></main>;
+    return <main className="studio-shell" data-theme={theme}><section className="studio-empty"><h1>Personality Studio</h1><p>Reading repository data…</p></section></main>;
   }
 
   return (
-    <main className="studio-shell">
+    <main className="studio-shell" data-theme={theme}>
       <header className="site-header studio-site-header">
         <a className="brand-lockup" href="/" aria-label="12 Axes">
           <span className="brand-num">12</span><span className="brand-word">Axes</span>
