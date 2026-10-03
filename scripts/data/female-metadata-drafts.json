@@ -3383,6 +3383,453 @@
         "attribution": "Keith Edkins",
         "note": "Fotografia de Shirley Williams em 2010, licenciada sob CC BY-SA 3.0."
       }
+    },
+    {
+      "id": "theresa-may",
+      "lifespan": "1956–",
+      "pt": {
+        "role": "Política e ex-primeira-ministra",
+        "description": "Política britânica do Partido Conservador, Theresa May foi secretária do Interior de 2010 a 2016 e primeira-ministra do Reino Unido de 13 de julho de 2016 a 24 de julho de 2019. Foi eleita deputada por Maidenhead em 1997."
+      },
+      "en": {
+        "role": "Politician and former Prime Minister",
+        "description": "A British Conservative politician, Theresa May served as Home Secretary from 2010 to 2016 and as Prime Minister of the United Kingdom from 13 July 2016 to 24 July 2019. She was elected MP for Maidenhead in 1997."
+      },
+      "book": {
+        "title": {
+          "pt": "The Abuse of Power",
+          "en": "The Abuse of Power"
+        },
+        "year": 2023,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null,
+      "sources": [
+        "https://www.gov.uk/government/people/theresa-may",
+        "https://www.gov.uk/government/history/past-prime-ministers/theresa-may"
+      ]
+    },
+    {
+      "id": "liz-truss",
+      "lifespan": "1975–",
+      "pt": {
+        "role": "Política e ex-primeira-ministra",
+        "description": "Política britânica do Partido Conservador, Liz Truss foi primeira-ministra do Reino Unido de 6 de setembro a 25 de outubro de 2022. Antes disso, ocupou cargos ministeriais como secretária de Relações Exteriores e Lord Chancellor."
+      },
+      "en": {
+        "role": "Politician and former Prime Minister",
+        "description": "A British Conservative politician, Liz Truss served as Prime Minister of the United Kingdom from 6 September to 25 October 2022. She previously held ministerial posts including Foreign Secretary and Lord Chancellor."
+      },
+      "book": {
+        "title": {
+          "pt": "Ten Years to Save the West",
+          "en": "Ten Years to Save the West"
+        },
+        "year": 2024,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/liz-truss.jpg",
+        "sourceFile": "Liz Truss official portrait (cropped).jpg",
+        "sourceName": "Wikimedia Commons / 10 Downing Street",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Liz_Truss_official_portrait_(cropped).jpg",
+        "license": "Open Government Licence v3.0",
+        "attribution": "Simon Dawson / No 10 Downing Street",
+        "note": "Retrato oficial de 2022, reutilizável sob a Open Government Licence v3.0."
+      },
+      "sources": [
+        "https://www.gov.uk/government/people/elizabeth-truss"
+      ]
+    },
+    {
+      "id": "kaja-kallas",
+      "lifespan": "1977–",
+      "pt": {
+        "role": "Diplomata e política",
+        "description": "Advogada e política estoniana, Kaja Kallas foi primeira-ministra da Estônia de 2021 a 2024. Desde dezembro de 2024, exerce as funções de Alta Representante da União Europeia para os Negócios Estrangeiros e a Política de Segurança e vice-presidente da Comissão Europeia."
+      },
+      "en": {
+        "role": "Diplomat and politician",
+        "description": "An Estonian lawyer and politician, Kaja Kallas served as Prime Minister of Estonia from 2021 to 2024. Since December 2024, she has served as the EU High Representative for Foreign Affairs and Security Policy and Vice-President of the European Commission."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/kaja-kallas.jpg",
+        "sourceFile": "Kallas portrait 2024 (cropped).jpg",
+        "sourceName": "Wikimedia Commons / European Commission",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kallas_portrait_2024_(cropped).jpg",
+        "license": "CC BY 4.0",
+        "attribution": "Aurore Martignoni / European Union",
+        "note": "Retrato do Serviço Audiovisual da Comissão Europeia, licenciado sob CC BY 4.0."
+      },
+      "sources": [
+        "https://commission.europa.eu/about/organisation/college-commissioners/kaja-kallas_en"
+      ]
+    },
+    {
+      "id": "kersti-kaljulaid",
+      "lifespan": "1969–",
+      "pt": {
+        "role": "Ex-presidente da Estônia",
+        "description": "Gestora e figura pública estoniana, Kersti Kaljulaid foi presidente da República da Estônia de 2016 a 2021. Antes da presidência, integrou o Tribunal de Contas Europeu entre 2004 e 2016 e trabalhou em funções econômicas e de gestão."
+      },
+      "en": {
+        "role": "Former President of Estonia",
+        "description": "An Estonian public official and manager, Kersti Kaljulaid served as President of the Republic of Estonia from 2016 to 2021. Before the presidency, she was a member of the European Court of Auditors from 2004 to 2016 and held economic and management roles."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://president.ee/en/republic-of-estonia/heads-of-state/441/"
+      ]
+    },
+    {
+      "id": "dalia-grybauskaite",
+      "lifespan": "1956–",
+      "pt": {
+        "role": "Economista e ex-presidente da Lituânia",
+        "description": "Economista e política lituana, Dalia Grybauskaitė foi presidente da Lituânia de 2009 a 2019. Antes disso, exerceu funções governamentais e foi comissária europeia, incluindo a pasta de Programação Financeira e Orçamento."
+      },
+      "en": {
+        "role": "Economist and former President of Lithuania",
+        "description": "A Lithuanian economist and politician, Dalia Grybauskaitė served as President of Lithuania from 2009 to 2019. Before that, she held government posts and served as a European Commissioner, including responsibility for Financial Programming and Budget."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/dalia-grybauskaite.jpg",
+        "sourceFile": "Dalia Grybauskaitė, Member of the EC (cropped).jpg",
+        "sourceName": "Wikimedia Commons / European Commission",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dalia_Grybauskait%C4%97,_Member_of_the_EC_(cropped).jpg",
+        "license": "CC BY 4.0",
+        "attribution": "Christian Lambiotte / European Commission",
+        "note": "Retrato do período em que integrou a Comissão Europeia; licença CC BY 4.0 confirmada no Commons."
+      },
+      "sources": [
+        "https://commission.europa.eu/system/files/2018-10/eu-public-finance-edition-5_2014_en_0.pdf"
+      ]
+    },
+    {
+      "id": "vaira-vike-freiberga",
+      "lifespan": "1937–",
+      "pt": {
+        "role": "Acadêmica e ex-presidente da Letônia",
+        "description": "Psicóloga, acadêmica e política letã-canadense, Vaira Vīķe-Freiberga foi presidente da Letônia de 1999 a 2007, após uma longa carreira universitária no Canadá. Foi reeleita para um segundo mandato em 2003."
+      },
+      "en": {
+        "role": "Academic and former President of Latvia",
+        "description": "A Latvian-Canadian psychologist, academic, and politician, Vaira Vīķe-Freiberga served as President of Latvia from 1999 to 2007 after a long university career in Canada. She was re-elected for a second term in 2003."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/vaira-vike-freiberga.jpg",
+        "sourceFile": "Vaira Vīķe-Freiberga (Cropped).jpg",
+        "sourceName": "Wikimedia Commons / Saeima",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vaira_V%C4%AB%C4%B7e-Freiberga_(Cropped).jpg",
+        "license": "CC BY-SA 2.0",
+        "attribution": "Saeima",
+        "note": "Fotografia de 2011 publicada no Flickr da Saeima e confirmada sob CC BY-SA 2.0."
+      },
+      "sources": [
+        "https://www.president.lv/en/vaira-vike-freiberga"
+      ]
+    },
+    {
+      "id": "zuzana-caputova",
+      "lifespan": "1973–",
+      "pt": {
+        "role": "Advogada e ex-presidente da Eslováquia",
+        "description": "Advogada e figura pública eslovaca, Zuzana Čaputová trabalhou por anos no terceiro setor em temas de Estado de direito, transparência e meio ambiente. Foi eleita presidente da Eslováquia em 2019 e exerceu o cargo até 2024."
+      },
+      "en": {
+        "role": "Lawyer and former President of Slovakia",
+        "description": "A Slovak lawyer and public figure, Zuzana Čaputová spent years working in the non-profit sector on rule of law, transparency, and environmental issues. She was elected President of Slovakia in 2019 and served until 2024."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://archiv.prezident.sk/zuzana-caputova/en/page/biography/",
+        "https://www.prezident.sk/zuzana-caputova/"
+      ]
+    },
+    {
+      "id": "kolinda-grabar-kitarovic",
+      "lifespan": "1968–",
+      "pt": {
+        "role": "Diplomata e ex-presidente da Croácia",
+        "description": "Diplomata e política croata, Kolinda Grabar-Kitarović foi presidente da Croácia de 2015 a 2020. Antes disso, foi ministra das Relações Exteriores e Integração Europeia, embaixadora nos Estados Unidos e secretária-geral adjunta da OTAN para Diplomacia Pública."
+      },
+      "en": {
+        "role": "Diplomat and former President of Croatia",
+        "description": "A Croatian diplomat and politician, Kolinda Grabar-Kitarović served as President of Croatia from 2015 to 2020. Earlier, she was Minister of Foreign Affairs and European Integration, ambassador to the United States, and NATO Assistant Secretary-General for Public Diplomacy."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/kolinda-grabar-kitarovic.jpg",
+        "sourceFile": "Official portrait of Kolinda Grabar-Kitarovic.jpg",
+        "sourceName": "Wikimedia Commons / Office of the President of Croatia",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Kolinda_Grabar-Kitarovic.jpg",
+        "license": "CC BY 4.0",
+        "attribution": "Spinaker Graphics / Office of the President of the Republic of Croatia / Kremlin.ru",
+        "note": "Retrato oficial disponibilizado no Commons sob CC BY 4.0."
+      },
+      "sources": [
+        "https://www.predsjednik.hr/en/bivsi-predsjednici/kolinda-grabar-kitarovic/"
+      ]
+    },
+    {
+      "id": "borjana-kristo",
+      "lifespan": "1961–",
+      "pt": {
+        "role": "Advogada e presidente do Conselho de Ministros",
+        "description": "Advogada e política bósnia, Borjana Krišto preside o Conselho de Ministros da Bósnia e Herzegovina. Anteriormente, foi presidente da Federação da Bósnia e Herzegovina entre 2007 e 2011 e exerceu mandatos no parlamento nacional."
+      },
+      "en": {
+        "role": "Lawyer and Chairwoman of the Council of Ministers",
+        "description": "A Bosnian lawyer and politician, Borjana Krišto serves as Chairwoman of the Council of Ministers of Bosnia and Herzegovina. She previously served as President of the Federation of Bosnia and Herzegovina from 2007 to 2011 and held seats in the national parliament."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/borjana-kristo.jpg",
+        "sourceFile": "Borjana Krišto (2025-06-11).jpg",
+        "sourceName": "Wikimedia Commons / European Commission",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Borjana_Kri%C5%A1to_(2025-06-11).jpg",
+        "license": "CC BY 4.0",
+        "attribution": "Lukasz Kobus / European Commission",
+        "note": "Fotografia de 2025 do Serviço Audiovisual da Comissão Europeia, licenciada sob CC BY 4.0."
+      },
+      "sources": [
+        "https://vijeceministara.gov.ba/en/curriculum-vitae"
+      ]
+    },
+    {
+      "id": "viorica-dancila",
+      "lifespan": "1963–",
+      "pt": {
+        "role": "Política e ex-primeira-ministra",
+        "description": "Política romena, Viorica Dăncilă foi deputada ao Parlamento Europeu antes de assumir como primeira-ministra da Romênia em janeiro de 2018. Exerceu a chefia do governo até 2019."
+      },
+      "en": {
+        "role": "Politician and former Prime Minister",
+        "description": "A Romanian politician, Viorica Dăncilă served in the European Parliament before becoming Prime Minister of Romania in January 2018. She led the government until 2019."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://www.europarl.europa.eu/doceo/document/CRE-8-2019-01-15-ITM-013_EN.html"
+      ]
+    },
+    {
+      "id": "maia-sandu",
+      "lifespan": "1972–",
+      "pt": {
+        "role": "Economista e presidente da Moldávia",
+        "description": "Economista e política moldava, Maia Sandu foi ministra da Educação e primeira-ministra em 2019. Assumiu a presidência da República da Moldávia em 24 de dezembro de 2020 e iniciou um segundo mandato em 24 de dezembro de 2024."
+      },
+      "en": {
+        "role": "Economist and President of Moldova",
+        "description": "A Moldovan economist and politician, Maia Sandu served as Minister of Education and as Prime Minister in 2019. She took office as President of the Republic of Moldova on 24 December 2020 and began a second term on 24 December 2024."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/maia-sandu.jpg",
+        "sourceFile": "Maia Sandu official portrait 2024.jpg",
+        "sourceName": "Wikimedia Commons / Presidency of Moldova",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maia_Sandu_official_portrait_2024.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "President of Moldova / Presedinte.md",
+        "note": "Retrato oficial do segundo mandato, publicado sob CC BY-SA 4.0."
+      },
+      "sources": [
+        "https://presedinte.md/eng/biography"
+      ]
+    },
+    {
+      "id": "salome-zourabichvili",
+      "lifespan": "1952–",
+      "pt": {
+        "role": "Diplomata e ex-presidente da Geórgia",
+        "description": "Diplomata e política georgiana nascida na França, Salome Zourabichvili foi embaixadora francesa na Geórgia e depois ministra das Relações Exteriores da Geórgia. Exerceu a presidência do país de 2018 a 2024."
+      },
+      "en": {
+        "role": "Diplomat and former President of Georgia",
+        "description": "A French-born Georgian diplomat and politician, Salome Zourabichvili served as France's ambassador to Georgia and later as Georgia's Foreign Minister. She served as President of Georgia from 2018 to 2024."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/salome-zourabichvili.jpg",
+        "sourceFile": "Salome Zourabichvili in 2024 (cropped).jpg",
+        "sourceName": "Wikimedia Commons / Administration of the President of Georgia",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Salome_Zourabichvili_in_2024_(cropped).jpg",
+        "license": "CC BY 4.0",
+        "attribution": "Administration of the President of Georgia / President.ge",
+        "note": "Fotografia oficial de 2024 publicada sob CC BY 4.0."
+      },
+      "sources": [
+        "https://www.coe.int/en/web/world-forum-democracy/speakers-2022/-/asset_publisher/JTQ3V5aITSo7/content/zourabichvili-salome"
+      ]
+    },
+    {
+      "id": "roza-otunbayeva",
+      "lifespan": "1950–",
+      "pt": {
+        "role": "Diplomata e ex-presidente do Quirguistão",
+        "description": "Diplomata e política quirguiz, Roza Otunbayeva foi ministra das Relações Exteriores em diferentes períodos e presidente do Quirguistão entre 2010 e 2011. Em 2022, foi nomeada representante especial do secretário-geral da ONU para o Afeganistão e chefe da UNAMA."
+      },
+      "en": {
+        "role": "Diplomat and former President of Kyrgyzstan",
+        "description": "A Kyrgyz diplomat and politician, Roza Otunbayeva served as Foreign Minister on several occasions and as President of Kyrgyzstan from 2010 to 2011. In 2022, she was appointed the UN Secretary-General's Special Representative for Afghanistan and head of UNAMA."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://www.un.org/sg/en/content/sg/personnel-appointments/2022-09-02/ms-roza-otunbayeva-of-kyrgyzstan-special-representative-for-afghanistan-and-head-of-the-united-nations-assistance-mission-afghanistan"
+      ]
+    },
+    {
+      "id": "khaleda-zia",
+      "lifespan": "1945–2025",
+      "pt": {
+        "role": "Política e ex-primeira-ministra",
+        "description": "Política bengalesa e dirigente do Bangladesh Nationalist Party, Khaleda Zia foi primeira-ministra de Bangladesh de 1991 a 1996 e novamente de 2001 a 2006. Foi a primeira mulher a chefiar o governo do país. Morreu em 30 de dezembro de 2025."
+      },
+      "en": {
+        "role": "Politician and former Prime Minister",
+        "description": "A Bangladeshi politician and leader of the Bangladesh Nationalist Party, Khaleda Zia served as Prime Minister of Bangladesh from 1991 to 1996 and again from 2001 to 2006. She was the country's first woman Prime Minister. She died on 30 December 2025."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://www.reuters.com/world/asia-pacific/bangladeshs-first-female-prime-minister-khaleda-zia-dies-80-2025-12-30/",
+        "https://www.parliament.gov.bd/public/uploads/publication/202308271011_bulletin_sb2017.pdf"
+      ]
+    },
+    {
+      "id": "sheikh-hasina",
+      "lifespan": "1947–",
+      "pt": {
+        "role": "Política e ex-primeira-ministra",
+        "description": "Política bengalesa e dirigente da Awami League, Sheikh Hasina foi primeira-ministra de Bangladesh de 1996 a 2001 e voltou ao cargo em janeiro de 2009, permanecendo até 2024."
+      },
+      "en": {
+        "role": "Politician and former Prime Minister",
+        "description": "A Bangladeshi politician and Awami League leader, Sheikh Hasina served as Prime Minister of Bangladesh from 1996 to 2001 and returned to office in January 2009, remaining in power until 2024."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://bangladesh.un.org/en/290957-un-chief-affirms-solidarity-bangladesh-amid-political-transition"
+      ]
+    },
+    {
+      "id": "chandrika-kumaratunga",
+      "lifespan": "1945–",
+      "pt": {
+        "role": "Política e ex-presidente do Sri Lanka",
+        "description": "Política cingalesa, Chandrika Bandaranaike Kumaratunga ocupou brevemente o cargo de primeira-ministra em 1994 e foi presidente do Sri Lanka de 1994 a 2005."
+      },
+      "en": {
+        "role": "Politician and former President of Sri Lanka",
+        "description": "A Sri Lankan politician, Chandrika Bandaranaike Kumaratunga briefly served as Prime Minister in 1994 and was President of Sri Lanka from 1994 to 2005."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://press.un.org/en/2005/ga10386.doc.htm"
+      ]
+    },
+    {
+      "id": "pratibha-patil",
+      "lifespan": "1934–",
+      "pt": {
+        "role": "Advogada e ex-presidente da Índia",
+        "description": "Advogada e política indiana, Pratibha Devisingh Patil foi a 12ª presidente da Índia, exercendo o cargo de 2007 a 2012, e a primeira mulher a ocupar a presidência do país. Antes disso, foi governadora do Rajastão."
+      },
+      "en": {
+        "role": "Lawyer and former President of India",
+        "description": "An Indian lawyer and politician, Pratibha Devisingh Patil served as the 12th President of India from 2007 to 2012 and was the first woman to hold the office. She had previously served as Governor of Rajasthan."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://www.presidentofindia.gov.in/node/?page=264",
+        "https://www.presidentofindia.gov.in/smt-pratibha-devi-singh-patil"
+      ]
+    },
+    {
+      "id": "meira-kumar",
+      "lifespan": "1945–",
+      "pt": {
+        "role": "Diplomata e ex-presidente da Lok Sabha",
+        "description": "Diplomata e política indiana, Meira Kumar integrou o serviço diplomático e ocupou cargos ministeriais antes de se tornar presidente da Lok Sabha. Exerceu a presidência da câmara baixa do Parlamento indiano de 2009 a 2014, sendo a primeira mulher no cargo."
+      },
+      "en": {
+        "role": "Diplomat and former Speaker of the Lok Sabha",
+        "description": "An Indian diplomat and politician, Meira Kumar served in the diplomatic corps and held ministerial office before becoming Speaker of the Lok Sabha. She led the lower house of India's Parliament from 2009 to 2014 as its first woman Speaker."
+      },
+      "book": {
+        "title": {
+          "pt": "Indian Parliamentary Diplomacy – Speaker’s Perspective",
+          "en": "Indian Parliamentary Diplomacy – Speaker’s Perspective"
+        },
+        "year": 2015,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null,
+      "sources": [
+        "https://www.presidentofindia.gov.in/shri-pranab-mukherjee/speeches/speech-honble-president-india-shri-pranab-mukherjee-occasion-seventh"
+      ]
+    },
+    {
+      "id": "suchitra-kripalani",
+      "lifespan": "1908–1974",
+      "pt": {
+        "role": "Ativista da independência e política",
+        "description": "Ativista da independência e política indiana, Sucheta Kripalani participou do movimento Quit India, integrou a Assembleia Constituinte e, em 1963, tornou-se a primeira mulher a chefiar um governo estadual na Índia ao assumir como Chief Minister de Uttar Pradesh."
+      },
+      "en": {
+        "role": "Independence activist and politician",
+        "description": "An Indian independence activist and politician, Sucheta Kripalani took part in the Quit India movement, served in the Constituent Assembly and, in 1963, became India's first woman state Chief Minister when she took office in Uttar Pradesh."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/suchitra-kripalani.jpg",
+        "sourceFile": "Sucheta Kriplani official portrait.gif",
+        "sourceName": "Wikimedia Commons / Government of India",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sucheta_Kriplani_official_portrait.gif",
+        "license": "Public domain (India)",
+        "attribution": "Government of India",
+        "note": "Retrato oficial de 1952; obra governamental antiga identificada como domínio público na Índia."
+      },
+      "sources": [
+        "https://amritmahotsav.nic.in/district-reopsitory-detail.htm?10567=",
+        "https://amritmahotsav.nic.in/district-reopsitory-detail.htm?32="
+      ]
+    },
+    {
+      "id": "lakshmi-sahgal",
+      "lifespan": "1914–2012",
+      "pt": {
+        "role": "Médica e ativista da independência",
+        "description": "Médica e ativista da independência indiana, Lakshmi Sahgal integrou o Indian National Army e comandou o Rani of Jhansi Regiment, unidade feminina formada no contexto do movimento liderado por Subhas Chandra Bose. Também exerceu a medicina."
+      },
+      "en": {
+        "role": "Physician and independence activist",
+        "description": "An Indian physician and independence activist, Lakshmi Sahgal joined the Indian National Army and commanded the Rani of Jhansi Regiment, a women's unit formed within the movement led by Subhas Chandra Bose. She also practiced medicine."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://cmsadmin.amritmahotsav.nic.in/unsung-heroes-detail.htm?244="
+      ]
     }
   ]
 }
