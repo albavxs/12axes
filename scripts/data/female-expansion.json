@@ -1654,11 +1654,12 @@
       "region": "latin-america",
       "period": "21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "maria-da-penha",
@@ -1666,11 +1667,12 @@
       "region": "latin-america",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "olga-benario",
@@ -1678,11 +1680,12 @@
       "region": "europe-latin-america",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "anita-garibaldi",
@@ -1690,11 +1693,12 @@
       "region": "latin-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "chiquinha-gonzaga",
@@ -1702,11 +1706,12 @@
       "region": "latin-america",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "pagu",
@@ -1714,11 +1719,12 @@
       "region": "latin-america",
       "period": "20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "carmen-da-silva",
@@ -1726,11 +1732,12 @@
       "region": "latin-america",
       "period": "20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "maria-lacerda-de-moura",
@@ -1738,11 +1745,12 @@
       "region": "latin-america",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "ivone-lara",
@@ -1750,11 +1758,12 @@
       "region": "latin-america",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "maria-firmina-dos-reis",
@@ -1762,11 +1771,12 @@
       "region": "latin-america",
       "period": "19th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "antonieta-de-barros",
@@ -1774,11 +1784,12 @@
       "region": "latin-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "michelle-obama",
@@ -1786,11 +1797,12 @@
       "region": "north-america",
       "period": "21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "dolores-huerta",
@@ -1798,11 +1810,12 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "wilma-mankiller",
@@ -1810,11 +1823,12 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "patsy-mink",
@@ -1822,11 +1836,12 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "tammy-duckworth",
@@ -1834,11 +1849,12 @@
       "region": "north-america",
       "period": "21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "carol-moseley-braun",
@@ -1846,11 +1862,12 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "madeleine-albright",
@@ -1858,11 +1875,12 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "janet-yellen",
@@ -1870,11 +1888,12 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "economista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "edith-abbott",
@@ -1882,11 +1901,12 @@
       "region": "north-america",
       "period": "19th-20th-century",
       "category": "economista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "anna-schwartz",

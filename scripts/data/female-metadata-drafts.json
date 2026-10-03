@@ -2365,6 +2365,488 @@
         "attribution": "Pedro Durante",
         "note": "1825 portrait by Pedro Durante in the Peruvian national museum collection; public domain."
       }
+    },
+    {
+      "id": "marielle-franco",
+      "lifespan": "1979–2018",
+      "pt": {
+        "role": "Socióloga, vereadora e defensora de direitos humanos",
+        "description": "Socióloga e política brasileira, Marielle Franco foi eleita vereadora do Rio de Janeiro em 2016. Sua atuação pública concentrou-se em direitos humanos, violência de Estado, direitos das mulheres, população negra, moradores de favelas e pessoas LGBT. Foi assassinada em 2018."
+      },
+      "en": {
+        "role": "Sociologist, city councilor, and human rights advocate",
+        "description": "A Brazilian sociologist and politician, Marielle Franco was elected to Rio de Janeiro's city council in 2016. Her public work focused on human rights, state violence, women's rights, Black communities, favela residents, and LGBT people. She was assassinated in 2018."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/marielle-franco.jpg",
+        "sourceFile": "Marielle Franco.jpg",
+        "sourceName": "Wikimedia Commons / Mídia NINJA",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Marielle_Franco.jpg",
+        "license": "CC BY-SA 2.0",
+        "attribution": "Mídia NINJA",
+        "note": "Retrato de 2016 publicado originalmente no Flickr da Mídia NINJA."
+      }
+    },
+    {
+      "id": "maria-da-penha",
+      "lifespan": "1945–",
+      "pt": {
+        "role": "Biofarmacêutica e ativista pelos direitos das mulheres",
+        "description": "Biofarmacêutica brasileira e ativista pelo enfrentamento à violência doméstica, Maria da Penha Maia Fernandes levou seu caso ao sistema interamericano de direitos humanos após sobreviver a tentativas de homicídio cometidas pelo então marido. Sua trajetória está diretamente ligada à Lei nº 11.340/2006, conhecida como Lei Maria da Penha."
+      },
+      "en": {
+        "role": "Biopharmacist and women's rights activist",
+        "description": "A Brazilian biopharmacist and activist against domestic violence, Maria da Penha Maia Fernandes took her case to the Inter-American human rights system after surviving attempted murders by her then husband. Her advocacy is directly associated with Brazil's Law 11,340/2006, known as the Maria da Penha Law."
+      },
+      "book": {
+        "title": {
+          "pt": "Sobrevivi... Posso Contar",
+          "en": "I Survived... I Can Tell"
+        },
+        "year": 1994,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/maria-da-penha.jpg",
+        "sourceFile": "Maria da Penha em novembro de 2018 (cropped 2).jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maria_da_Penha_em_novembro_de_2018_(cropped_2).jpg",
+        "license": "CC BY 2.0",
+        "attribution": "Agência Brasil / source credited on Commons",
+        "note": "Retrato de Maria da Penha em 2018; arquivo reutilizável no Wikimedia Commons."
+      }
+    },
+    {
+      "id": "olga-benario",
+      "lifespan": "1908–1942",
+      "pt": {
+        "role": "Militante política antifascista",
+        "description": "Olga Benário Prestes foi uma militante comunista alemã que atuou em movimentos revolucionários europeus e depois no Brasil. Presa pelo governo Vargas, foi deportada grávida para a Alemanha nazista em 1936 e morreu no centro de extermínio de Bernburg em 1942."
+      },
+      "en": {
+        "role": "Anti-fascist political activist",
+        "description": "Olga Benário Prestes was a German communist activist who participated in revolutionary movements in Europe and later in Brazil. Arrested by the Vargas government, she was deported while pregnant to Nazi Germany in 1936 and was killed at the Bernburg killing center in 1942."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/olga-benario.jpg",
+        "sourceFile": "Olga Benário Prestes.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olga_Ben%C3%A1rio_Prestes.jpg",
+        "license": "Public domain mark",
+        "attribution": "Partido Comunista Brasileiro / historical image",
+        "note": "Imagem histórica identificada no Commons como livre de restrições conhecidas."
+      }
+    },
+    {
+      "id": "anita-garibaldi",
+      "lifespan": "1821–1849",
+      "pt": {
+        "role": "Combatente revolucionária",
+        "description": "Ana Maria de Jesus Ribeiro, conhecida como Anita Garibaldi, participou de conflitos republicanos no sul do Brasil e, posteriormente, de campanhas ligadas à unificação italiana ao lado de Giuseppe Garibaldi."
+      },
+      "en": {
+        "role": "Revolutionary combatant",
+        "description": "Ana Maria de Jesus Ribeiro, known as Anita Garibaldi, took part in republican conflicts in southern Brazil and later in campaigns connected to Italian unification alongside Giuseppe Garibaldi."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/anita-garibaldi.jpg",
+        "sourceFile": "Anita Garibaldi - 1839.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anita_Garibaldi_-_1839.jpg",
+        "license": "Public domain",
+        "attribution": "Gaetano Gallino",
+        "note": "Retrato histórico feito em Montevidéu na década de 1840."
+      }
+    },
+    {
+      "id": "chiquinha-gonzaga",
+      "lifespan": "1847–1935",
+      "pt": {
+        "role": "Compositora, pianista e maestrina",
+        "description": "Compositora, pianista e maestrina brasileira, Chiquinha Gonzaga foi uma figura pioneira da música popular urbana no país e também participou de campanhas abolicionistas e republicanas. Foi a primeira mulher a reger uma orquestra no Brasil em contextos profissionais de destaque."
+      },
+      "en": {
+        "role": "Composer, pianist, and conductor",
+        "description": "A Brazilian composer, pianist, and conductor, Chiquinha Gonzaga was a pioneering figure in the country's urban popular music and also participated in abolitionist and republican campaigns. She became one of the first prominent women to conduct professionally in Brazil."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/chiquinha-gonzaga.jpg",
+        "sourceFile": "Chiquinha Gonzaga portrait 1877.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chiquinha_Gonzaga_portrait_1877.jpg",
+        "license": "Public domain",
+        "attribution": "Historical portrait",
+        "note": "Retrato de Chiquinha Gonzaga aos 29 anos, datado de 1877."
+      }
+    },
+    {
+      "id": "pagu",
+      "lifespan": "1910–1962",
+      "pt": {
+        "role": "Escritora e jornalista",
+        "description": "Patrícia Galvão, conhecida como Pagu, foi escritora, jornalista, tradutora e militante política brasileira ligada ao modernismo. Atuou na imprensa, publicou ficção e crítica cultural e participou de movimentos políticos e sociais ao longo do século XX."
+      },
+      "en": {
+        "role": "Writer and journalist",
+        "description": "Patrícia Galvão, known as Pagu, was a Brazilian writer, journalist, translator, and political activist associated with modernism. She worked in journalism, published fiction and cultural criticism, and participated in political and social movements during the twentieth century."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/pagu.jpg",
+        "sourceFile": "Pagu.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pagu.jpg",
+        "license": "Public domain",
+        "attribution": "Unknown photographer",
+        "note": "Retrato histórico de Patrícia Galvão, década de 1920."
+      }
+    },
+    {
+      "id": "carmen-da-silva",
+      "lifespan": "1919–1985",
+      "pt": {
+        "role": "Jornalista, escritora e feminista",
+        "description": "Jornalista, escritora e psicanalista brasileira, Carmen da Silva escreveu por mais de duas décadas a coluna A arte de ser mulher na revista Claudia. Seus textos abordaram autonomia feminina, trabalho, sexualidade, divórcio e transformações nas relações de gênero, e ela participou ativamente do movimento feminista brasileiro."
+      },
+      "en": {
+        "role": "Journalist, writer, and feminist",
+        "description": "A Brazilian journalist, writer, and psychoanalyst, Carmen da Silva wrote the column A arte de ser mulher in Claudia magazine for more than two decades. Her work addressed women's autonomy, employment, sexuality, divorce, and changing gender relations, and she participated actively in Brazil's feminist movement."
+      },
+      "book": {
+        "title": {
+          "pt": "Histórias Híbridas de uma Senhora de Respeito",
+          "en": "Histórias Híbridas de uma Senhora de Respeito"
+        },
+        "year": 1984,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null
+    },
+    {
+      "id": "maria-lacerda-de-moura",
+      "lifespan": "1887–1945",
+      "pt": {
+        "role": "Educadora, escritora e ativista",
+        "description": "Educadora e escritora brasileira, Maria Lacerda de Moura desenvolveu uma obra feminista e libertária sobre educação, emancipação das mulheres, militarismo, religião e organização social. Participou de redes anarquistas e pacifistas no início do século XX."
+      },
+      "en": {
+        "role": "Educator, writer, and activist",
+        "description": "A Brazilian educator and writer, Maria Lacerda de Moura developed feminist and libertarian work on education, women's emancipation, militarism, religion, and social organization. She participated in anarchist and pacifist networks in the early twentieth century."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/maria-lacerda-de-moura.jpg",
+        "sourceFile": "Mlacerda.png",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mlacerda.png",
+        "license": "Public domain",
+        "attribution": "Gioconda Rizzo",
+        "note": "Retrato publicado em 1926, identificado no Commons como domínio público."
+      }
+    },
+    {
+      "id": "ivone-lara",
+      "lifespan": "1922–2018",
+      "pt": {
+        "role": "Compositora, cantora e assistente social",
+        "description": "Dona Ivone Lara foi compositora, cantora e assistente social brasileira, uma das figuras centrais da história do samba. Antes da carreira artística em tempo integral, trabalhou por décadas em saúde mental e assistência social no Rio de Janeiro."
+      },
+      "en": {
+        "role": "Composer, singer, and social worker",
+        "description": "Dona Ivone Lara was a Brazilian composer, singer, and social worker and a major figure in the history of samba. Before becoming a full-time artist, she worked for decades in mental health and social services in Rio de Janeiro."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/ivone-lara.jpg",
+        "sourceFile": "Quinteto em Branco e Preto e D. Ivone Lara (2449338907).jpg",
+        "sourceName": "Wikimedia Commons / Flickr",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Quinteto_em_Branco_e_Preto_e_D._Ivone_Lara_(2449338907).jpg",
+        "license": "CC BY-SA 2.0",
+        "attribution": "Natalia Bezerra / Expansão Cultural",
+        "note": "Foto de Dona Ivone Lara em apresentação em 2008."
+      }
+    },
+    {
+      "id": "maria-firmina-dos-reis",
+      "lifespan": "1822–1917",
+      "pt": {
+        "role": "Escritora, professora e abolicionista",
+        "description": "Maria Firmina dos Reis foi escritora e professora maranhense. Publicou o romance Úrsula em 1859, obra que aborda a escravidão a partir de uma perspectiva crítica, além de contos, poesia e textos abolicionistas."
+      },
+      "en": {
+        "role": "Writer, teacher, and abolitionist",
+        "description": "Maria Firmina dos Reis was a Brazilian writer and teacher from Maranhão. She published the novel Úrsula in 1859, a work that addresses slavery from a critical perspective, as well as short fiction, poetry, and abolitionist writing."
+      },
+      "book": {
+        "title": {
+          "pt": "Úrsula",
+          "en": "Úrsula"
+        },
+        "year": 1859,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/maria-firmina-dos-reis.jpg",
+        "sourceFile": "Maria firmina (detailed).jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Maria_firmina_(detailed).jpg",
+        "license": "CC BY-SA (see Commons file)",
+        "attribution": "Ramsessantos",
+        "note": "Detalhe de busto de Maria Firmina dos Reis na Praça do Pantheon, São Luís."
+      }
+    },
+    {
+      "id": "antonieta-de-barros",
+      "lifespan": "1901–1952",
+      "pt": {
+        "role": "Professora, jornalista e deputada",
+        "description": "Professora, jornalista e política brasileira, Antonieta de Barros foi eleita deputada estadual em Santa Catarina em 1934 e esteve entre as primeiras mulheres negras a ocupar um mandato eletivo no país. Sua atuação pública incluiu educação e direitos civis."
+      },
+      "en": {
+        "role": "Teacher, journalist, and legislator",
+        "description": "A Brazilian teacher, journalist, and politician, Antonieta de Barros was elected to the Santa Catarina state legislature in 1934 and was among the first Black women to hold elected office in Brazil. Her public work included education and civil rights."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/antonieta-de-barros.jpg",
+        "sourceFile": "Antonieta de Barros.webp",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Antonieta_de_Barros.webp",
+        "license": "Reusable historical image; see Commons",
+        "attribution": "Instituto Histórico e Geográfico de Santa Catarina",
+        "note": "Retrato histórico de Antonieta de Barros preservado por instituição catarinense."
+      }
+    },
+    {
+      "id": "michelle-obama",
+      "lifespan": "1964–",
+      "pt": {
+        "role": "Advogada, escritora e ex-primeira-dama",
+        "description": "Advogada e escritora norte-americana, Michelle Obama foi primeira-dama dos Estados Unidos entre 2009 e 2017. No período, liderou iniciativas relacionadas a alimentação saudável, famílias de militares, acesso ao ensino superior e educação de meninas."
+      },
+      "en": {
+        "role": "Lawyer, writer, and former First Lady",
+        "description": "An American lawyer and writer, Michelle Obama served as First Lady of the United States from 2009 to 2017. During that period she led initiatives related to healthy families, military families, higher education, and girls' education."
+      },
+      "book": {
+        "title": {
+          "pt": "Minha História",
+          "en": "Becoming"
+        },
+        "year": 2018,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/michelle-obama.jpg",
+        "sourceFile": "Michelle Obama official portrait.jpg",
+        "sourceName": "Wikimedia Commons / White House",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Michelle_Obama_official_portrait.jpg",
+        "license": "Public domain (U.S. federal government)",
+        "attribution": "Joyce N. Boghosian / White House",
+        "note": "Retrato oficial da Casa Branca de 2009."
+      }
+    },
+    {
+      "id": "dolores-huerta",
+      "lifespan": "1930–",
+      "pt": {
+        "role": "Líder sindical e ativista de direitos civis",
+        "description": "Dolores Huerta é uma organizadora sindical e ativista de direitos civis norte-americana. Cofundou com César Chávez a National Farm Workers Association, precursora da United Farm Workers, e atuou em campanhas por direitos trabalhistas, registro eleitoral e participação política."
+      },
+      "en": {
+        "role": "Labor leader and civil rights activist",
+        "description": "Dolores Huerta is an American labor organizer and civil rights activist. She co-founded the National Farm Workers Association with César Chávez, a predecessor of the United Farm Workers, and has worked on labor rights, voter registration, and political participation."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/dolores-huerta.jpg",
+        "sourceFile": "Dolores Huerta.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dolores_Huerta.jpg",
+        "license": "CC BY 2.0",
+        "attribution": "Eric Guo",
+        "note": "Foto de Dolores Huerta na Universidade de Chicago em 2009."
+      }
+    },
+    {
+      "id": "wilma-mankiller",
+      "lifespan": "1945–2010",
+      "pt": {
+        "role": "Líder da Nação Cherokee",
+        "description": "Wilma Mankiller foi uma liderança da Nação Cherokee e exerceu o cargo de Principal Chief entre 1985 e 1995, tornando-se a primeira mulher eleita para a chefia principal da nação. Sua administração trabalhou com desenvolvimento comunitário, serviços de saúde e educação."
+      },
+      "en": {
+        "role": "Cherokee Nation leader",
+        "description": "Wilma Mankiller was a leader of the Cherokee Nation and served as Principal Chief from 1985 to 1995, becoming the first woman elected to the nation's highest office. Her administration worked on community development, health services, and education."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/wilma-mankiller.jpg",
+        "sourceFile": "Wilma Mankiller 1998 (cropped).jpg",
+        "sourceName": "Wikimedia Commons / Clinton Presidential Library",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wilma_Mankiller_1998_(cropped).jpg",
+        "license": "Public domain (U.S. federal government)",
+        "attribution": "White House Television / Clinton Presidential Library",
+        "note": "Imagem de 1998, quando recebeu a Presidential Medal of Freedom."
+      }
+    },
+    {
+      "id": "patsy-mink",
+      "lifespan": "1927–2002",
+      "pt": {
+        "role": "Advogada e congressista",
+        "description": "Advogada e política norte-americana, Patsy Takemoto Mink foi a primeira mulher não branca eleita para o Congresso dos Estados Unidos. Serviu por vários mandatos pela representação do Havaí e participou de legislação sobre educação, igualdade de gênero e programas sociais, incluindo o Title IX."
+      },
+      "en": {
+        "role": "Lawyer and congresswoman",
+        "description": "An American lawyer and politician, Patsy Takemoto Mink was the first woman of color elected to the U.S. Congress. She represented Hawaii across multiple terms and worked on education, gender equality, and social legislation, including Title IX."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/patsy-mink.jpg",
+        "sourceFile": "Patsy Mink 1994 portrait (cropped).tif",
+        "sourceName": "Wikimedia Commons / Library of Congress",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patsy_Mink_1994_portrait_(cropped).tif",
+        "license": "Public domain / no known copyright restrictions",
+        "attribution": "Library of Congress",
+        "note": "Retrato oficial da Câmara dos Representantes, cerca de 1994."
+      }
+    },
+    {
+      "id": "tammy-duckworth",
+      "lifespan": "1968–",
+      "pt": {
+        "role": "Senadora e veterana militar",
+        "description": "Tammy Duckworth é uma política e veterana militar norte-americana. Serviu no Exército e na Guarda Nacional, foi ferida em combate no Iraque, ocupou cargos de administração de assuntos de veteranos, serviu na Câmara dos Representantes e foi eleita para o Senado em 2016."
+      },
+      "en": {
+        "role": "Senator and military veteran",
+        "description": "Tammy Duckworth is an American politician and military veteran. She served in the Army and National Guard, was wounded in combat in Iraq, held veterans-affairs positions, served in the House of Representatives, and was elected to the Senate in 2016."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/tammy-duckworth.jpg",
+        "sourceFile": "Tammy Duckworth, official portrait, 115th Congress.jpg",
+        "sourceName": "Wikimedia Commons / U.S. Senate",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tammy_Duckworth,_official_portrait,_115th_Congress.jpg",
+        "license": "Public domain (U.S. Congress)",
+        "attribution": "U.S. Senate Photographic Studio / Renee Bouchard",
+        "note": "Retrato oficial do Senado, 2017."
+      }
+    },
+    {
+      "id": "carol-moseley-braun",
+      "lifespan": "1947–",
+      "pt": {
+        "role": "Advogada, ex-senadora e diplomata",
+        "description": "Advogada, diplomata e política norte-americana, Carol Moseley Braun foi a primeira mulher negra a servir no Senado dos Estados Unidos, representando Illinois entre 1993 e 1999. Depois atuou como embaixadora dos Estados Unidos na Nova Zelândia."
+      },
+      "en": {
+        "role": "Lawyer, former senator, and diplomat",
+        "description": "An American lawyer, diplomat, and politician, Carol Moseley Braun was the first Black woman to serve in the U.S. Senate, representing Illinois from 1993 to 1999. She later served as U.S. ambassador to New Zealand."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/carol-moseley-braun.jpg",
+        "sourceFile": "Carol Moseley Braun USADF portrait 2024 (1).png",
+        "sourceName": "Wikimedia Commons / USADF",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carol_Moseley_Braun_USADF_portrait_2024_(1).png",
+        "license": "Public domain (U.S. federal government)",
+        "attribution": "United States African Development Foundation",
+        "note": "Retrato institucional de 2024."
+      }
+    },
+    {
+      "id": "madeleine-albright",
+      "lifespan": "1937–2022",
+      "pt": {
+        "role": "Diplomata e ex-secretária de Estado",
+        "description": "Diplomata e acadêmica norte-americana nascida na Tchecoslováquia, Madeleine Albright foi embaixadora dos Estados Unidos nas Nações Unidas e, de 1997 a 2001, a primeira mulher a ocupar o cargo de secretária de Estado dos Estados Unidos."
+      },
+      "en": {
+        "role": "Diplomat and former Secretary of State",
+        "description": "A Czechoslovak-born American diplomat and academic, Madeleine Albright served as U.S. ambassador to the United Nations and, from 1997 to 2001, became the first woman to serve as U.S. Secretary of State."
+      },
+      "book": {
+        "title": {
+          "pt": "Madam Secretary",
+          "en": "Madam Secretary"
+        },
+        "year": 2003,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/madeleine-albright.jpg",
+        "sourceFile": "Albrightmadeleine.jpg",
+        "sourceName": "Wikimedia Commons / U.S. Department of State",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Albrightmadeleine.jpg",
+        "license": "Public domain (U.S. federal government)",
+        "attribution": "U.S. Department of State",
+        "note": "Retrato oficial como secretária de Estado."
+      }
+    },
+    {
+      "id": "janet-yellen",
+      "lifespan": "1946–",
+      "pt": {
+        "role": "Economista e ex-secretária do Tesouro",
+        "description": "Economista norte-americana, Janet Yellen presidiu o Federal Reserve entre 2014 e 2018 e foi secretária do Tesouro dos Estados Unidos entre 2021 e 2025. Também presidiu o Council of Economic Advisers e exerceu carreira acadêmica."
+      },
+      "en": {
+        "role": "Economist and former Treasury Secretary",
+        "description": "An American economist, Janet Yellen chaired the Federal Reserve from 2014 to 2018 and served as U.S. Treasury Secretary from 2021 to 2025. She also chaired the Council of Economic Advisers and held academic posts."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/janet-yellen.jpg",
+        "sourceFile": "Janet Yellen official Federal Reserve portrait.jpg",
+        "sourceName": "Wikimedia Commons / Federal Reserve",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Janet_Yellen_official_Federal_Reserve_portrait.jpg",
+        "license": "Public domain",
+        "attribution": "Board of Governors of the Federal Reserve System",
+        "note": "Retrato oficial do Federal Reserve, 2015."
+      }
+    },
+    {
+      "id": "edith-abbott",
+      "lifespan": "1876–1957",
+      "pt": {
+        "role": "Economista e pioneira do serviço social",
+        "description": "Economista, estatística e educadora norte-americana, Edith Abbott foi uma figura central na profissionalização do serviço social e no desenvolvimento de políticas de bem-estar social. Atuou na Universidade de Chicago e dirigiu a School of Social Service Administration."
+      },
+      "en": {
+        "role": "Economist and social-work pioneer",
+        "description": "An American economist, statistician, and educator, Edith Abbott was a major figure in the professionalization of social work and the development of social-welfare policy. She worked at the University of Chicago and led its School of Social Service Administration."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/edith-abbott.jpg",
+        "sourceFile": "Edith Abbott (cropped).jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edith_Abbott_(cropped).jpg",
+        "license": "Public domain",
+        "attribution": "Historical photograph",
+        "note": "Retrato histórico de Edith Abbott em domínio público."
+      }
     }
   ]
 }
