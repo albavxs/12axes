@@ -3092,7 +3092,15 @@
         "description": "A British thinker and essayist, Harriet Taylor Mill wrote on social and political philosophy, with particular attention to women's rights. She collaborated closely with John Stuart Mill, although scholars continue to debate the extent of her contribution to works published under his name."
       },
       "book": null,
-      "portrait": null
+      "portrait": {
+        "path": "/personalities/portraits/harriet-taylor-mill.jpg",
+        "sourceFile": "Harriet Taylor, c1830 (6882958014).jpg",
+        "sourceName": "Wikimedia Commons / LSE Library / Flickr Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Harriet_Taylor,_c1830_(6882958014).jpg",
+        "license": "No known copyright restrictions / Public Domain Mark 1.0",
+        "attribution": "LSE Library",
+        "note": "Miniature portrait of Harriet Taylor from the LSE Library collection. Flickr Commons review confirms no known copyright restrictions; Commons also marks the work as public domain."
+      }
     },
     {
       "id": "edith-stein",
