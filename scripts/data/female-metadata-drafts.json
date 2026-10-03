@@ -2720,12 +2720,12 @@
       "book": null,
       "portrait": {
         "path": "/personalities/portraits/patsy-mink.jpg",
-        "sourceFile": "Patsy Mink 1994 portrait (cropped).tif",
-        "sourceName": "Wikimedia Commons / Library of Congress",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patsy_Mink_1994_portrait_(cropped).tif",
-        "license": "Public domain / no known copyright restrictions",
-        "attribution": "Library of Congress",
-        "note": "Retrato oficial da Câmara dos Representantes, cerca de 1994."
+        "sourceFile": "Patsymink.jpg",
+        "sourceName": "Wikimedia Commons / U.S. House of Representatives",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Patsymink.jpg",
+        "license": "Public domain (U.S. Congress)",
+        "attribution": "U.S. House of Representatives",
+        "note": "Retrato congressional de Patsy Mink, cerca de 1994. Versão JPEG compacta escolhida para o Studio; o Commons a identifica como domínio público."
       }
     },
     {
