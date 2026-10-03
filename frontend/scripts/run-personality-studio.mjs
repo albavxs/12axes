@@ -357,6 +357,52 @@ async function markStagingEditorialReady(id) {
   };
 }
 
+function sleep(ms) {
+  return new Promise((resolveSleep) => setTimeout(resolveSleep, ms));
+}
+
+async function materializeAllPendingPortraits() {
+  const metadataPath = resolve(scriptsDataRoot, 'female-metadata-drafts.json');
+  const metadata = readJson(metadataPath, { personalities: [] });
+  const report = { downloaded: [], skipped: [], failed: [] };
+
+  for (const entry of metadata.personalities ?? []) {
+    const portrait = entry.portrait;
+    if (!portrait?.path || !portrait?.sourceUrl) {
+      report.skipped.push({ id: entry.id, reason: 'portrait metadata missing' });
+      continue;
+    }
+
+    const relative = portrait.path.replace(/^\/+/, '');
+    const target = resolve(publicRoot, relative);
+    if (existsSync(target)) {
+      report.skipped.push({ id: entry.id, reason: 'already local' });
+      continue;
+    }
+
+    try {
+      const draft = normalizeDraft({
+        pt: {},
+        en: {},
+        portrait,
+        book: {},
+      });
+      await materializeCommonsPortrait(draft);
+      report.downloaded.push(entry.id);
+      await sleep(900);
+    } catch (error) {
+      report.failed.push({
+        id: entry.id,
+        reason: error instanceof Error ? error.message : String(error),
+      });
+      await sleep(900);
+    }
+  }
+
+  refreshSnapshot();
+  return report;
+}
+
 function validateTarget(source, id) {
   if (!['runtime', 'staging'].includes(source)) throw new Error('Invalid source.');
   if (!/^[a-z0-9][a-z0-9-]*$/.test(id)) throw new Error('Invalid personality id.');
@@ -401,6 +447,15 @@ const api = createServer(async (req, res) => {
       saveLocalDraft(source, id, draft);
       refreshSnapshot();
       return jsonResponse(res, 200, { ok: true, message: 'Retrato do Commons salvo localmente.' });
+    }
+
+    if (req.url === '/__dev/personality-studio-api/portraits-all') {
+      const report = await materializeAllPendingPortraits();
+      return jsonResponse(res, 200, {
+        ok: report.failed.length === 0,
+        message: `Retratos: ${report.downloaded.length} baixados, ${report.skipped.length} já locais/sem fonte, ${report.failed.length} falharam.`,
+        report,
+      });
     }
 
     if (req.url === '/__dev/personality-studio-api/validate') {

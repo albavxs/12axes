@@ -24,6 +24,7 @@ type Personality = {
   imagePath?: string; previewImagePath?: string; imageSourceFile?: string; imageSourceName?: string; imageSourceUrl?: string; imageNote?: string;
   translated: Translation | null; profile: Profile | null; book: Book | null;
   evidence: { sources?: unknown[]; evidence?: Record<string, unknown> } | null;
+  evidenceReady: boolean;
   audit: { answerExists: boolean; pendingExists: boolean };
   editorial: {
     metadataValid: boolean; translationValid: boolean; portraitValid: boolean; bookValid: boolean;
@@ -198,6 +199,8 @@ function PersonalityStudio() {
     sourceAll: 'Runtime + staging',
     localTool: 'Studio local',
     snapshot: 'snapshot',
+    downloadPendingPortraits: 'Baixar fotos pendentes',
+    evidenceGate: 'EVIDENCE',
     markValid: 'Marcar como válido',
     markedValid: 'Validado ✓',
     completeBeforeValidation: 'Complete metadata, EN e retrato local',
@@ -293,6 +296,8 @@ function PersonalityStudio() {
     sourceAll: 'Runtime + staging',
     localTool: 'Local Studio',
     snapshot: 'snapshot',
+    downloadPendingPortraits: 'Download pending photos',
+    evidenceGate: 'EVIDENCE',
     markValid: 'Mark as valid',
     markedValid: 'Validated ✓',
     completeBeforeValidation: 'Complete metadata, EN and local portrait',
@@ -389,6 +394,26 @@ function PersonalityStudio() {
     });
   }
 
+  async function downloadPendingPortraits() {
+    setSaving(true);
+    setNotice(null);
+    try {
+      const response = await fetch('/__dev/personality-studio-api/portraits-all', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ source: 'staging', id: 'bulk-portraits' }),
+      });
+      const body = await response.json();
+      if (!response.ok) throw new Error(body.error || 'Could not download portraits');
+      await loadCatalog(selectedKey);
+      setNotice({ tone: body.report?.failed?.length ? 'bad' : 'good', text: body.message });
+    } catch (error) {
+      setNotice({ tone: 'bad', text: error instanceof Error ? error.message : String(error) });
+    } finally {
+      setSaving(false);
+    }
+  }
+
   async function mutate(action: 'draft' | 'apply' | 'discard' | 'portrait' | 'validate') {
     if (!selected) return;
     if (action !== 'discard' && action !== 'validate' && !form) return;
@@ -459,6 +484,9 @@ function PersonalityStudio() {
           <span><strong>{payload.stats.plannedFemale}</strong>{ui.women}</span>
           <span className={payload.stats.errors ? 'has-error' : ''}><strong>{payload.stats.errors}</strong>{ui.errors}</span>
           <span><strong>{payload.stats.localDrafts}</strong>{ui.drafts}</span>
+        </div>
+        <div className="studio-workbar-actions">
+          <button className="studio-icon-button studio-bulk-button" type="button" disabled={saving} onClick={downloadPendingPortraits}>{ui.downloadPendingPortraits}</button>
         </div>
         <div className="studio-composition">
           <span className="studio-composition-title">{ui.composition}</span>
@@ -562,6 +590,7 @@ function PersonalityStudio() {
                     <Badge tone={selected.source === 'runtime' ? (selected.profile ? 'good' : 'bad') : (selected.pipeline?.profileStatus === 'ready' ? 'good' : 'warn')}>
                       {ui.profileGate} {selected.pipeline?.profileStatus ?? (selected.profile ? ui.readyGate : ui.pendingGate)}
                     </Badge>
+                    <Badge tone={selected.evidenceReady ? 'good' : 'warn'}>{ui.evidenceGate} {selected.evidenceReady ? ui.readyGate : ui.pendingGate}</Badge>
                     <Badge tone={selected.audit.answerExists ? 'good' : 'warn'}>{ui.auditGate} {selected.audit.answerExists ? ui.readyGate : ui.pendingGate}</Badge>
                   </div>
                   <div className="studio-source">
