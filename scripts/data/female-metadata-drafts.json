@@ -885,6 +885,226 @@
         "attribution": "Agência PT",
         "note": "Foto de 2016 publicada pela Agência PT sob CC BY 3.0."
       }
+    },
+    {
+      "id": "frances-willard",
+      "lifespan": "1839–1898",
+      "pt": {
+        "role": "Sufragista e reformadora",
+        "description": "Reformadora norte-americana, Frances Willard liderou a Woman’s Christian Temperance Union e defendeu sufrágio feminino, reformas trabalhistas e maior participação política das mulheres."
+      },
+      "en": {
+        "role": "Suffragist and reformer",
+        "description": "An American reformer, Frances Willard led the Woman’s Christian Temperance Union and advocated women’s suffrage, labor reform, and greater political participation for women."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/frances-willard.jpg",
+        "sourceFile": "Frances Willard portrait.jpg",
+        "sourceName": "Wikimedia Commons / Library of Congress",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frances_Willard_portrait.jpg",
+        "license": "Public domain (United States)",
+        "attribution": "Library of Congress / unknown photographer",
+        "note": "Head-and-shoulders portrait published in 1906; public domain in the United States."
+      }
+    },
+    {
+      "id": "carrie-chapman-catt",
+      "lifespan": "1859–1947",
+      "pt": {
+        "role": "Sufragista e organizadora política",
+        "description": "Sufragista norte-americana, Carrie Chapman Catt liderou a NAWSA, participou da campanha pela 19ª Emenda e cofundou a League of Women Voters, além de atuar posteriormente em iniciativas pela paz."
+      },
+      "en": {
+        "role": "Suffragist and political organizer",
+        "description": "An American suffragist, Carrie Chapman Catt led the NAWSA, campaigned for the Nineteenth Amendment, co-founded the League of Women Voters, and later worked in peace advocacy."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/carrie-chapman-catt.jpg",
+        "sourceFile": "Carrie Chapman Catt NPG.jpg",
+        "sourceName": "Wikimedia Commons / National Portrait Gallery",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Carrie_Chapman_Catt_NPG.jpg",
+        "license": "Public domain (United States)",
+        "attribution": "Theodore C. Marceau / National Portrait Gallery",
+        "note": "1901 portrait; public domain in the United States."
+      }
+    },
+    {
+      "id": "lucy-stone",
+      "lifespan": "1818–1893",
+      "pt": {
+        "role": "Abolicionista e sufragista",
+        "description": "Ativista norte-americana, Lucy Stone atuou nos movimentos abolicionista e pelos direitos das mulheres, organizou convenções nacionais e defendeu o sufrágio e a igualdade jurídica feminina."
+      },
+      "en": {
+        "role": "Abolitionist and suffragist",
+        "description": "An American activist, Lucy Stone worked in the abolitionist and women’s-rights movements, organized national conventions, and advocated women’s suffrage and legal equality."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/lucy-stone.jpg",
+        "sourceFile": "Lucy Stone portrait.jpg",
+        "sourceName": "Wikimedia Commons / Library of Congress",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lucy_Stone_portrait.jpg",
+        "license": "Public domain",
+        "attribution": "Library of Congress / unknown photographer",
+        "note": "Historical photographic portrait, dated between 1840 and 1860; public domain."
+      }
+    },
+    {
+      "id": "frances-perkins",
+      "lifespan": "1880–1965",
+      "pt": {
+        "role": "Secretária do Trabalho dos Estados Unidos",
+        "description": "Reformadora e gestora pública norte-americana, Frances Perkins foi a primeira mulher em um gabinete presidencial dos EUA e teve papel central em políticas do New Deal, incluindo seguridade social e padrões trabalhistas."
+      },
+      "en": {
+        "role": "U.S. Secretary of Labor",
+        "description": "An American reformer and public official, Frances Perkins was the first woman in a U.S. presidential cabinet and played a central role in New Deal labor and social-welfare policy."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/frances-perkins.jpg",
+        "sourceFile": "Frances Perkins Sipprell Portrait 1952.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Frances_Perkins_Sipprell_Portrait_1952.jpg",
+        "license": "Public domain / CC0 scan",
+        "attribution": "Clara Sipprell; public-domain scan",
+        "note": "1952 portrait; original public domain and scan released under CC0."
+      }
+    },
+    {
+      "id": "eleanor-roosevelt",
+      "lifespan": "1884–1962",
+      "pt": {
+        "role": "Diplomata e ativista de direitos humanos",
+        "description": "Eleanor Roosevelt atuou como primeira-dama dos Estados Unidos, defensora de direitos civis e sociais e delegada na ONU, presidindo a Comissão de Direitos Humanos durante a elaboração da Declaração Universal."
+      },
+      "en": {
+        "role": "Diplomat and human-rights advocate",
+        "description": "Eleanor Roosevelt served as U.S. First Lady, advocated civil and social rights, and later served at the United Nations, chairing the Human Rights Commission during the drafting of the Universal Declaration."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/eleanor-roosevelt.jpg",
+        "sourceFile": "Eleanor Roosevelt portrait 1933.jpg",
+        "sourceName": "Wikimedia Commons / Library of Congress",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eleanor_Roosevelt_portrait_1933.jpg",
+        "license": "Public domain (United States; copyright not renewed)",
+        "attribution": "Library of Congress / unknown photographer",
+        "note": "1933 portrait from the Library of Congress; public domain in the United States."
+      }
+    },
+    {
+      "id": "ruth-bader-ginsburg",
+      "lifespan": "1933–2020",
+      "pt": {
+        "role": "Jurista e juíza da Suprema Corte",
+        "description": "Jurista norte-americana, Ruth Bader Ginsburg cofundou o Women’s Rights Project da ACLU, litigou contra discriminação sexual e integrou a Suprema Corte dos Estados Unidos de 1993 a 2020."
+      },
+      "en": {
+        "role": "Jurist and Supreme Court Justice",
+        "description": "An American jurist, Ruth Bader Ginsburg co-founded the ACLU Women’s Rights Project, litigated against sex discrimination, and served on the U.S. Supreme Court from 1993 to 2020."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/ruth-bader-ginsburg.jpg",
+        "sourceFile": "Ruth Bader Ginsburg official portrait.jpg",
+        "sourceName": "Wikimedia Commons / U.S. Supreme Court",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Ruth_Bader_Ginsburg_official_portrait.jpg",
+        "license": "Public domain (U.S. Supreme Court official work)",
+        "attribution": "Supreme Court of the United States",
+        "note": "Official Supreme Court portrait, public domain as an official U.S. Supreme Court work."
+      }
+    },
+    {
+      "id": "sandra-day-oconnor",
+      "lifespan": "1930–2023",
+      "pt": {
+        "role": "Jurista e juíza da Suprema Corte",
+        "description": "Jurista norte-americana, Sandra Day O’Connor serviu no Legislativo e no Judiciário do Arizona antes de se tornar, em 1981, a primeira mulher nomeada para a Suprema Corte dos Estados Unidos."
+      },
+      "en": {
+        "role": "Jurist and Supreme Court Justice",
+        "description": "An American jurist, Sandra Day O’Connor served in Arizona’s legislature and judiciary before becoming, in 1981, the first woman appointed to the U.S. Supreme Court."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/sandra-day-oconnor.jpg",
+        "sourceFile": "Sandra Day O'Connor Official Portrait.jpg",
+        "sourceName": "Wikimedia Commons / U.S. federal government",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sandra_Day_O%27Connor_Official_Portrait.jpg",
+        "license": "Public domain (U.S. federal government)",
+        "attribution": "Unknown U.S. federal government photographer",
+        "note": "Official portrait released as a U.S. federal government work."
+      }
+    },
+    {
+      "id": "geraldine-ferraro",
+      "lifespan": "1935–2011",
+      "pt": {
+        "role": "Congressista e candidata a vice-presidente",
+        "description": "Política norte-americana, Geraldine Ferraro representou Nova York na Câmara dos Representantes e, em 1984, tornou-se a primeira mulher indicada à vice-presidência por um grande partido dos Estados Unidos."
+      },
+      "en": {
+        "role": "Congresswoman and vice-presidential nominee",
+        "description": "An American politician, Geraldine Ferraro represented New York in the U.S. House and in 1984 became the first woman nominated for vice president by a major U.S. political party."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/geraldine-ferraro.jpg",
+        "sourceFile": "Geraldine Ferraro congressional portrait.jpg",
+        "sourceName": "Wikimedia Commons / U.S. House of Representatives",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Geraldine_Ferraro_congressional_portrait.jpg",
+        "license": "Public domain (U.S. Congress)",
+        "attribution": "U.S. House of Representatives",
+        "note": "1983 congressional portrait; public domain."
+      }
+    },
+    {
+      "id": "jeannette-rankin",
+      "lifespan": "1880–1973",
+      "pt": {
+        "role": "Congressista, sufragista e pacifista",
+        "description": "Política e ativista norte-americana, Jeannette Rankin foi a primeira mulher eleita ao Congresso dos EUA, trabalhou pelo sufrágio feminino e votou contra a entrada do país nas duas guerras mundiais."
+      },
+      "en": {
+        "role": "Congresswoman, suffragist, and pacifist",
+        "description": "An American politician and activist, Jeannette Rankin was the first woman elected to the U.S. Congress, campaigned for women’s suffrage, and voted against U.S. entry into both World Wars."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/jeannette-rankin.jpg",
+        "sourceFile": "Jeanette Rankin, 1880-1973 LCCN2003688488.jpg",
+        "sourceName": "Wikimedia Commons / Library of Congress",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jeanette_Rankin,_1880-1973_LCCN2003688488.jpg",
+        "license": "Public domain",
+        "attribution": "Library of Congress / Matzene",
+        "note": "1917 portrait; no copyright renewal and public domain."
+      }
+    },
+    {
+      "id": "clara-barton",
+      "lifespan": "1821–1912",
+      "pt": {
+        "role": "Enfermeira e humanitária",
+        "description": "Enfermeira e organizadora humanitária norte-americana, Clara Barton prestou assistência durante a Guerra Civil, fundou a Cruz Vermelha Americana e apoiou causas de direitos das mulheres."
+      },
+      "en": {
+        "role": "Nurse and humanitarian",
+        "description": "An American nurse and humanitarian organizer, Clara Barton provided aid during the Civil War, founded the American Red Cross, and supported women’s-rights causes."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/clara-barton.jpg",
+        "sourceFile": "Portrait of Clara Barton.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Clara_Barton.jpg",
+        "license": "Public domain (United States)",
+        "attribution": "Unknown photographer",
+        "note": "Historical portrait published no later than 1901; public domain in the United States."
+      }
     }
   ]
 }

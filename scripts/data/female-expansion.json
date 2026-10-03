@@ -420,16 +420,17 @@
       "region": "north-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://sites.northwestern.edu/radicalwoman/",
         "https://findingaids.library.northwestern.edu/agents/people/2138"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "carrie-chapman-catt",
@@ -437,16 +438,17 @@
       "region": "north-america",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.loc.gov/collections/national-american-woman-suffrage-association/articles-and-essays/carrie-chapman-catt/",
         "https://home.nps.gov/people/carrie-chapman-catt.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "alice-paul",
@@ -473,16 +475,17 @@
       "region": "north-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.nps.gov/people/lucy-stone.htm",
         "https://www.womenshistory.org/education-resources/biographies/lucy-stone"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "frances-perkins",
@@ -490,16 +493,17 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://beta.dol.gov/about/history/past-secretaries/frances-perkins",
         "https://www.nps.gov/people/frances-perkins.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "eleanor-roosevelt",
@@ -507,16 +511,17 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.fdrlibrary.org/er-biography",
         "https://www.fdrlibrary.org/human-rights"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "ruth-bader-ginsburg",
@@ -524,16 +529,17 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.loc.gov/item/n50029918/ruth-bader-ginsburg/",
         "https://www.supremecourt.gov/about/biographyginsburg.aspx?aff_id=1262"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sandra-day-oconnor",
@@ -541,16 +547,17 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.supremecourt.gov/about/biographyOconnor.aspx",
         "https://loc.gov/loc/lcib/0812/oconnor.html"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "geraldine-ferraro",
@@ -558,16 +565,17 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://history.house.gov/People/Detail/13081",
         "https://history.house.gov/Collection/Detail/30688"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "jeannette-rankin",
@@ -575,16 +583,17 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://history.house.gov/People/Detail/20147",
         "https://history.house.gov/Exhibitions-and-Publications/WIC/Historical-Essays/No-Lady/House-Supports-Suffrage/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "clara-barton",
@@ -592,16 +601,17 @@
       "region": "north-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.nps.gov/people/clara-barton.htm",
         "https://www.nps.gov/places/000/clara-barton-national-historic-site.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "jane-addams",
