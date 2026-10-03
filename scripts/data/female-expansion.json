@@ -2499,11 +2499,16 @@
       "region": "south-asia",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/gender-mainstreaming-a-legacy-of-learning-9874291/",
+        "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/knowledge-nugget-savitribai-phule-birth-anniversary-jyotirao-dalit-9756695/"
+      ]
     },
     {
       "id": "pandita-ramabai",
@@ -2511,11 +2516,15 @@
       "region": "south-asia",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://amritmahotsav.nic.in/unsung-heroes-detail.htm?23123="
+      ]
     },
     {
       "id": "kamla-bhasin",
@@ -2523,11 +2532,16 @@
       "region": "south-asia",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://sangatnetwork.org/kamla-bhasin-tribute-statement-and-works",
+        "https://sangatnetwork.org/history-of-sangat"
+      ]
     },
     {
       "id": "asma-jahangir",
@@ -2535,11 +2549,15 @@
       "region": "south-asia",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://spcommreports.ohchr.org/TmSearch/SummaryPrint?id=18091"
+      ]
     },
     {
       "id": "irene-khan",
@@ -2547,11 +2565,15 @@
       "region": "south-asia",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://hrcportal.ohchr.org/62nd-regular-session-human-rights-council-0"
+      ]
     },
     {
       "id": "rania-al-abdullah",
@@ -2559,11 +2581,15 @@
       "region": "middle-east",
       "period": "21st-century",
       "category": "ativista",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://www.queenrania.jo/en/rania"
+      ]
     },
     {
       "id": "moza-bint-nasser",
@@ -2571,11 +2597,16 @@
       "region": "middle-east",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://www.qf.org.qa/about/profile/her-highness-sheikha-moza-bint-nasser",
+        "https://www.qf.org.qa/about/"
+      ]
     },
     {
       "id": "masih-alinejad",
@@ -2583,11 +2614,16 @@
       "region": "middle-east",
       "period": "21st-century",
       "category": "ativista",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://www.voanews.com/a/6117655.html",
+        "https://www.voanews.com/author/masih-alinejad/bibyo"
+      ]
     },
     {
       "id": "nasrin-sotoudeh",
@@ -2595,11 +2631,15 @@
       "region": "middle-east",
       "period": "21st-century",
       "category": "ativista",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://www.europarl.europa.eu/sakharovprize/en/nasrin-sotude-2012-iran/products-details/20200331CAN54204"
+      ]
     },
     {
       "id": "loujain-al-hathloul",
@@ -2607,11 +2647,16 @@
       "region": "middle-east",
       "period": "21st-century",
       "category": "ativista",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://www.europarl.europa.eu/delegations/en/women-s-rights-defenders-in-saudi-arabia/product-details/20180601DPU17821",
+        "https://www.europarl.europa.eu/doceo/document/TA-8-2019-0117_EN.html"
+      ]
     },
     {
       "id": "hatoon-al-fassi",
@@ -2619,11 +2664,15 @@
       "region": "middle-east",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://research.manchester.ac.uk/en/persons/hatoon.alfassi"
+      ]
     },
     {
       "id": "amina-wadud",
@@ -2631,11 +2680,15 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://academic.oup.com/edited-volume/62249/chapter-abstract/551452824"
+      ]
     },
     {
       "id": "leila-ahmed",
@@ -2643,11 +2696,15 @@
       "region": "africa-north-america",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://www.hds.harvard.edu/people/leila-ahmed"
+      ]
     },
     {
       "id": "amina-mama",
@@ -2655,11 +2712,16 @@
       "region": "africa",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://culturalstudies.ucdavis.edu/people/amina-mama",
+        "https://academic.oup.com/reference/62382/reference-article-abstract/555030355"
+      ]
     },
     {
       "id": "oyewumi-oyeronke",
@@ -2667,11 +2729,15 @@
       "region": "africa",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://linguistics.stonybrook.edu/commcms/sociology/people/faculty/oyewumi.php"
+      ]
     },
     {
       "id": "amina-j-mohammed",
@@ -2679,11 +2745,16 @@
       "region": "africa",
       "period": "21st-century",
       "category": "politico",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://www.un.org/sg/en/dsg/about-the-deputy-secretary-general",
+        "https://www.un.org/sg/en/content/sg/personnel-appointments/2017-01-01/ms-amina-j-mohammed-of-nigeria-deputy-secretary-general"
+      ]
     },
     {
       "id": "ngozi-okonjo-iweala",
@@ -2691,11 +2762,16 @@
       "region": "africa",
       "period": "20th-21st-century",
       "category": "economista",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://www.wto.org/english/thewto_e/dg_e/dg_e.htm",
+        "https://www.wto.org/english/thewto_e/dg_e/dg_selection_process_e.htm"
+      ]
     },
     {
       "id": "vera-songwe",
@@ -2703,11 +2779,16 @@
       "region": "africa",
       "period": "21st-century",
       "category": "economista",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://archive.uneca.org/executive-secretary/pages/biography",
+        "https://archive.uneca.org/stories/vera-songwe-appointed-executive-secretary-economic-commission-africa"
+      ]
     },
     {
       "id": "dambisa-moyo",
@@ -2715,11 +2796,15 @@
       "region": "africa",
       "period": "21st-century",
       "category": "economista",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://dambisamoyo.com/"
+      ]
     },
     {
       "id": "nana-konadu-agyeman-rawlings",
@@ -2727,11 +2812,16 @@
       "region": "africa",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "pending",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "pending",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://gna.org.gh/2025/10/former-first-lady-nana-konadu-agyeman-rawlings-is-dead/",
+        "https://gna.org.gh/2025/11/president-mahama-leads-ghanaians-to-bid-farewell-to-former-first-lady/"
+      ]
     }
   ],
   "progress": {
