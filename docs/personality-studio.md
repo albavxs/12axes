@@ -138,6 +138,10 @@ The Audit panel exposes **Run audit / Rodar auditoria** for the selected persona
 
 The Studio deliberately does not synthesize political scores or 240-answer files. When no audit output exists yet, the panel points to the project audit workflow (`/audit_personality <id>`) so the answers can be prepared/reviewed before validation.
 
+The same **Run audit / Rodar auditoria** action is also exposed in the profile header so contributors do not need to hunt for the Audit card.
+
+The catalog status dot follows the actual QA result (`validation.status`), not whether every editorial workflow gate has already been promoted to `ready`. A healthy local portrait is therefore not shown as a red image failure merely because source/license review is still pending; provenance gaps remain visible as warnings.
+
 ## Branch workflow
 
 - production work: `feat/women-leaders`

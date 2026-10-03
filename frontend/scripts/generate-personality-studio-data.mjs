@@ -194,8 +194,17 @@ const stagingEntries = await Promise.all(
         !draft?.portrait?.attribution;
       const portraitClaimed = ['review', 'ready'].includes(candidate.portraitStatus);
       if (portraitMetadataMissing) {
-        const message = 'Retrato sem path, fonte, licença ou atribuição completa';
-        if (portraitClaimed) errors.push(message);
+        const localImageHealthy = Boolean(
+          image.exists &&
+          !image.error &&
+          image.bytes &&
+          image.metadata?.width &&
+          image.metadata?.height
+        );
+        const message = localImageHealthy
+          ? 'Retrato local válido, mas fonte/licença/atribuição ainda está incompleta'
+          : 'Retrato sem path, fonte, licença ou atribuição completa';
+        if (portraitClaimed && !localImageHealthy) errors.push(message);
         else warnings.push(message);
       } else {
         const portraitErrors = [];
@@ -257,7 +266,7 @@ const stagingEntries = await Promise.all(
         bookValid: bookComplete,
         canMarkValid: metadataComplete && translationComplete && portraitComplete && bookComplete,
         isMarkedValid: editorialMarkedReady,
-        status: editorialMarkedReady ? 'ok' : (metadataComplete && translationComplete && portraitComplete && bookComplete ? 'warning' : 'error'),
+        status: errors.length ? 'error' : warnings.length ? 'warning' : 'ok',
       };
 
       return {

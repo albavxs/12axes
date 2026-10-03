@@ -586,7 +586,7 @@ function PersonalityStudio() {
                   <small>{personality.id} · {personality.source}</small>
                 </span>
                 {personality.localDraft ? <span className="studio-draft-dot" title="Rascunho local" /> : null}
-                <span className={`studio-status-dot studio-status-dot--${personality.editorial.status}`} aria-label={`editorial ${personality.editorial.status}`} />
+                <span className={`studio-status-dot studio-status-dot--${personality.validation.status}`} aria-label={`qa ${personality.validation.status}`} />
               </button>
             );
           })}
@@ -611,6 +611,9 @@ function PersonalityStudio() {
                   <p>{language === 'en' ? (selected.translated?.description || selected.description || ui.descriptionMissing) : (selected.description || ui.descriptionMissing)}</p>
                   <div className="studio-profile-actions">
                     <button className="primary-button" type="button" onClick={openEditor}>{ui.edit}</button>
+                    <button className="secondary-button" type="button" onClick={runAudit} disabled={auditing}>
+                      {auditing ? ui.runningAudit : ui.runAudit}
+                    </button>
                     {selected.source === 'staging' ? (
                       <button
                         className="secondary-button studio-validate-button"
@@ -627,7 +630,15 @@ function PersonalityStudio() {
                   <div className="studio-gate-strip" aria-label={ui.editorialData}>
                     <Badge tone={selected.editorial.metadataValid ? 'good' : 'bad'}>{ui.metadataGate} {selected.pipeline?.metadataStatus ?? ui.readyGate}</Badge>
                     <Badge tone={selected.editorial.translationValid ? 'good' : 'bad'}>{ui.translationGate} {selected.pipeline?.translationStatus ?? ui.readyGate}</Badge>
-                    <Badge tone={selected.editorial.portraitValid ? 'good' : 'bad'}>{ui.portraitGate} {selected.pipeline?.portraitStatus ?? ui.readyGate}</Badge>
+                    <Badge
+                      tone={
+                        selected.image.exists && !selected.image.error
+                          ? (selected.editorial.portraitValid ? 'good' : 'warn')
+                          : 'bad'
+                      }
+                    >
+                      {ui.portraitGate} {selected.image.exists && !selected.image.error ? 'local' : (selected.pipeline?.portraitStatus ?? ui.pendingGate)}
+                    </Badge>
                     <Badge tone={selected.source === 'runtime' ? (selected.profile ? 'good' : 'bad') : (selected.pipeline?.profileStatus === 'ready' ? 'good' : 'warn')}>
                       {ui.profileGate} {selected.pipeline?.profileStatus ?? (selected.profile ? ui.readyGate : ui.pendingGate)}
                     </Badge>
