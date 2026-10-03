@@ -1914,11 +1914,12 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "economista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "joan-robinson",
@@ -1926,11 +1927,12 @@
       "region": "europe",
       "period": "20th-century",
       "category": "economista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "rosa-mayreder",
@@ -1938,11 +1940,12 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "hedwig-dohm",
@@ -1950,11 +1953,12 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "gisela-bock",
@@ -1962,11 +1966,12 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "germaine-greer",
@@ -1974,11 +1979,12 @@
       "region": "oceania-europe",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sheila-rowbotham",
@@ -1986,11 +1992,12 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "beatrice-webb",
@@ -1998,11 +2005,12 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "harriet-taylor-mill",
@@ -2010,11 +2018,12 @@
       "region": "europe",
       "period": "19th-century",
       "category": "filosofo",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "edith-stein",
@@ -2022,11 +2031,12 @@
       "region": "europe",
       "period": "20th-century",
       "category": "filosofo",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "philippa-foot",
@@ -2034,11 +2044,12 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "filosofo",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "elizabeth-anscombe",
@@ -2046,11 +2057,12 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "filosofo",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "iris-murdoch",
@@ -2058,11 +2070,12 @@
       "region": "europe",
       "period": "20th-century",
       "category": "filosofo",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "agnes-heller",
@@ -2070,11 +2083,12 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "filosofo",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "hubertine-auclert",
@@ -2082,11 +2096,12 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "nina-bang",
@@ -2094,11 +2109,12 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "alva-myrdal",
@@ -2106,11 +2122,12 @@
       "region": "europe",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "edith-summerskill",
@@ -2118,11 +2135,12 @@
       "region": "europe",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "barbara-castle",
@@ -2130,11 +2148,12 @@
       "region": "europe",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "shirley-williams",
@@ -2142,11 +2161,12 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "theresa-may",
