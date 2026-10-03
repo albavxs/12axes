@@ -3350,7 +3350,15 @@
           "en": ""
         }
       },
-      "portrait": null
+      "portrait": {
+        "path": "/personalities/portraits/barbara-castle.jpg",
+        "sourceFile": "Barbara Castle, 1965 (cropped).jpg",
+        "sourceName": "Wikimedia Commons / National Archives of Malawi",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Barbara_Castle,_1965_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "National Archives of Malawi",
+        "note": "Retrato de Barbara Castle em 1965, licenciado sob CC BY-SA 4.0."
+      }
     },
     {
       "id": "shirley-williams",
@@ -3984,7 +3992,15 @@
         "description": "An Indian feminist activist, poet, author, and social scientist, Kamla Bhasin worked for decades on gender education, human development, and media. She coordinated regional programmes and became a central figure in the South Asian feminist network Sangat."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/kamla-bhasin.jpg",
+        "sourceFile": "Kamla Bhasin in Dhaka Lit Fest 2017.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kamla_Bhasin_in_Dhaka_Lit_Fest_2017.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Hasive",
+        "note": "Fotografia de Kamla Bhasin no Dhaka Lit Fest 2017, obra própria do autor e licenciada sob CC BY-SA 4.0."
+      },
       "sources": [
         "https://sangatnetwork.org/kamla-bhasin-tribute-statement-and-works",
         "https://sangatnetwork.org/history-of-sangat"
@@ -4037,7 +4053,15 @@
           "en": ""
         }
       },
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/irene-khan.jpg",
+        "sourceFile": "Irene Khan World Economic Forum 2007.jpg",
+        "sourceName": "Wikimedia Commons / World Economic Forum",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Irene_Khan_World_Economic_Forum_2007.jpg",
+        "license": "CC BY-SA 2.0",
+        "attribution": "World Economic Forum / swiss-image.ch",
+        "note": "Fotografia do World Economic Forum de 2007, com licença CC BY-SA 2.0 confirmada no Commons."
+      },
       "sources": [
         "https://hrcportal.ohchr.org/62nd-regular-session-human-rights-council-0"
       ]
@@ -4360,7 +4384,15 @@
         "description": "A Nigerian diplomat and development specialist, Amina J. Mohammed is the United Nations Deputy Secretary-General and Chair of the United Nations Sustainable Development Group. She previously served as Nigeria's Minister of Environment and as the UN Special Adviser on Post-2015 Development Planning."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/amina-j-mohammed.jpg",
+        "sourceFile": "UN Deputy Secretary General Amina J. Mohammed (3x4 cropped).jpg",
+        "sourceName": "Wikimedia Commons / U.S. Department of State",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:UN_Deputy_Secretary_General_Amina_J._Mohammed_(3x4_cropped).jpg",
+        "license": "Public domain (U.S. federal government)",
+        "attribution": "Ron Przysucha / U.S. Department of State",
+        "note": "Retrato recortado de fotografia oficial do Departamento de Estado dos EUA, domínio público."
+      },
       "sources": [
         "https://www.un.org/sg/en/dsg/about-the-deputy-secretary-general",
         "https://www.un.org/sg/en/content/sg/personnel-appointments/2017-01-01/ms-amina-j-mohammed-of-nigeria-deputy-secretary-general"
