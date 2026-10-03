@@ -3326,7 +3326,15 @@
         "description": "A British physician and Labour politician, Edith Summerskill was elected to the House of Commons in 1938, served as Parliamentary Secretary at the Ministry of Food and as Minister of National Insurance, and became a life peer in 1961."
       },
       "book": null,
-      "portrait": null
+      "portrait": {
+        "path": "/personalities/portraits/edith-summerskill.jpg",
+        "sourceFile": "Kandidaat voor de Labour partij Edith Summerskill met een verkoper van verkiezings-rozetten, RP-F-2019-113.jpg",
+        "sourceName": "Wikimedia Commons / Rijksmuseum",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kandidaat_voor_de_Labour_partij_Edith_Summerskill_met_een_verkoper_van_verkiezings-rozetten,_RP-F-2019-113.jpg",
+        "license": "CC0 1.0",
+        "attribution": "Rijksmuseum",
+        "note": "Fotografia de 1938 do Rijksmuseum, disponibilizada sob CC0 1.0. A imagem mostra Edith Summerskill durante campanha eleitoral."
+      }
     },
     {
       "id": "barbara-castle",
