@@ -286,6 +286,77 @@ async function materializeCommonsPortrait(draft) {
   return target;
 }
 
+async function markStagingEditorialReady(id) {
+  const manifestPath = resolve(scriptsDataRoot, 'female-expansion.json');
+  const metadataPath = resolve(scriptsDataRoot, 'female-metadata-drafts.json');
+  const manifest = readJson(manifestPath, { candidates: [] });
+  const metadata = readJson(metadataPath, { personalities: [] });
+
+  const candidate = manifest.candidates?.find((entry) => entry.id === id);
+  if (!candidate) throw new Error(`Staging candidate not found: ${id}`);
+  const draft = metadata.personalities?.find((entry) => entry.id === id);
+  if (!draft) throw new Error('Não é possível validar: metadata draft ausente.');
+
+  const missing = [];
+  if (!candidate.name) missing.push('nome');
+  if (!candidate.category) missing.push('categoria');
+  if (!draft.lifespan) missing.push('lifespan');
+  if (!draft.pt?.role) missing.push('função PT');
+  if (!draft.pt?.description) missing.push('descrição PT');
+  if (!draft.en?.role) missing.push('função EN');
+  if (!draft.en?.description) missing.push('descrição EN');
+
+  const portrait = draft.portrait;
+  if (!portrait?.path) missing.push('path do retrato');
+  if (!portrait?.sourceUrl) missing.push('fonte do retrato');
+  if (!portrait?.license) missing.push('licença do retrato');
+  if (!portrait?.attribution) missing.push('atribuição do retrato');
+
+  if (portrait?.path) {
+    if (!portrait.path.startsWith('/personalities/portraits/') || !portrait.path.toLowerCase().endsWith('.jpg')) {
+      missing.push('path de retrato JPEG válido');
+    } else {
+      const relative = portrait.path.replace(/^\/+/, '');
+      const target = resolve(publicRoot, relative);
+      const portraitsRoot = resolve(publicRoot, 'personalities/portraits');
+      if (!target.startsWith(portraitsRoot + '/') || !existsSync(target)) {
+        missing.push('arquivo local do retrato');
+      } else {
+        try {
+          const image = await sharp(target).metadata();
+          if (image.format !== 'jpeg' || !image.width || !image.height) missing.push('JPEG legível');
+        } catch {
+          missing.push('JPEG legível');
+        }
+      }
+    }
+  }
+
+  if (draft.book) {
+    if (!draft.book.title?.pt) missing.push('título PT do livro');
+    if (!draft.book.title?.en) missing.push('título EN do livro');
+    if (!draft.book.year) missing.push('ano do livro');
+  }
+
+  if (missing.length) {
+    throw new Error('Não é possível marcar como válido. Falta: ' + [...new Set(missing)].join(', ') + '.');
+  }
+
+  candidate.metadataStatus = 'ready';
+  candidate.translationStatus = 'ready';
+  candidate.portraitStatus = 'ready';
+  if (draft.book) candidate.bookStatus = 'ready';
+
+  writeJson(manifestPath, manifest);
+  return {
+    metadataStatus: candidate.metadataStatus,
+    translationStatus: candidate.translationStatus,
+    portraitStatus: candidate.portraitStatus,
+    bookStatus: candidate.bookStatus,
+    profileStatus: candidate.profileStatus,
+  };
+}
+
 function validateTarget(source, id) {
   if (!['runtime', 'staging'].includes(source)) throw new Error('Invalid source.');
   if (!/^[a-z0-9][a-z0-9-]*$/.test(id)) throw new Error('Invalid personality id.');
@@ -330,6 +401,19 @@ const api = createServer(async (req, res) => {
       saveLocalDraft(source, id, draft);
       refreshSnapshot();
       return jsonResponse(res, 200, { ok: true, message: 'Retrato do Commons salvo localmente.' });
+    }
+
+    if (req.url === '/__dev/personality-studio-api/validate') {
+      if (source !== 'staging') {
+        throw new Error('A validação manual é usada somente para entradas em staging.');
+      }
+      const statuses = await markStagingEditorialReady(id);
+      refreshSnapshot();
+      return jsonResponse(res, 200, {
+        ok: true,
+        message: 'Dados editoriais marcados como válidos. Profile e audit não foram alterados.',
+        statuses,
+      });
     }
 
     if (req.url === '/__dev/personality-studio-api/apply') {

@@ -140,3 +140,27 @@ A staged profile marked `ready` must also have permanent 240-question audit answ
 To validate the current feature, update the Studio branch on the feature HEAD. Fix discovered data problems on the feature branch, then sync the Studio again.
 
 The final production PR remains `feat/women-leaders -> main`; Studio UI/code does not enter that merge.
+
+
+## Manual editorial validation
+
+For staging entries, **Mark as valid** is a maintainer action for editorial data only.
+
+The button is enabled only when the Studio can verify:
+
+- PT metadata is complete;
+- EN role/description are complete;
+- portrait source, license and attribution are present;
+- the portrait exists locally and decodes as JPEG;
+- an optional staged book is complete when present.
+
+After confirmation, the Studio changes:
+
+- `metadataStatus -> ready`
+- `translationStatus -> ready`
+- `portraitStatus -> ready`
+- `bookStatus -> ready` only when a book exists.
+
+It deliberately does **not** change `profileStatus`, the 12-axis vector, or permanent audit answers. Those remain separate review gates.
+
+The status dot in the personality list now represents editorial integrity/validation rather than profile-audit completeness. PROFILE and AUDIT are displayed as separate badges in the detail view.

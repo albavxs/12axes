@@ -25,6 +25,10 @@ type Personality = {
   translated: Translation | null; profile: Profile | null; book: Book | null;
   evidence: { sources?: unknown[]; evidence?: Record<string, unknown> } | null;
   audit: { answerExists: boolean; pendingExists: boolean };
+  editorial: {
+    metadataValid: boolean; translationValid: boolean; portraitValid: boolean; bookValid: boolean;
+    canMarkValid: boolean; isMarkedValid: boolean; status: 'error' | 'warning' | 'ok';
+  };
   image: {
     exists: boolean; bytes: number | null; normalizedPath: string | null;
     metadata: { format: string | null; width: number | null; height: number | null } | null;
@@ -194,6 +198,17 @@ function PersonalityStudio() {
     sourceAll: 'Runtime + staging',
     localTool: 'Studio local',
     snapshot: 'snapshot',
+    markValid: 'Marcar como válido',
+    markedValid: 'Validado ✓',
+    completeBeforeValidation: 'Complete metadata, EN e retrato local',
+    editorialData: 'Dados editoriais',
+    metadataGate: 'META',
+    translationGate: 'EN',
+    portraitGate: 'IMG',
+    profileGate: 'PROFILE',
+    auditGate: 'AUDIT',
+    readyGate: 'ready',
+    pendingGate: 'pending',
     localEdit: 'Edição local',
     runtimeCatalog: 'Catálogo em runtime',
     stagingPipeline: 'Pipeline de staging',
@@ -278,6 +293,17 @@ function PersonalityStudio() {
     sourceAll: 'Runtime + staging',
     localTool: 'Local Studio',
     snapshot: 'snapshot',
+    markValid: 'Mark as valid',
+    markedValid: 'Validated ✓',
+    completeBeforeValidation: 'Complete metadata, EN and local portrait',
+    editorialData: 'Editorial data',
+    metadataGate: 'META',
+    translationGate: 'EN',
+    portraitGate: 'IMG',
+    profileGate: 'PROFILE',
+    auditGate: 'AUDIT',
+    readyGate: 'ready',
+    pendingGate: 'pending',
     localEdit: 'Local editing',
     runtimeCatalog: 'Runtime catalog',
     stagingPipeline: 'Staging pipeline',
@@ -363,9 +389,9 @@ function PersonalityStudio() {
     });
   }
 
-  async function mutate(action: 'draft' | 'apply' | 'discard' | 'portrait') {
+  async function mutate(action: 'draft' | 'apply' | 'discard' | 'portrait' | 'validate') {
     if (!selected) return;
-    if (action !== 'discard' && !form) return;
+    if (action !== 'discard' && action !== 'validate' && !form) return;
     setSaving(true);
     setNotice(null);
     try {
@@ -375,7 +401,7 @@ function PersonalityStudio() {
         body: JSON.stringify({
           source: selected.source,
           id: selected.id,
-          ...(action === 'discard' ? {} : { draft: form }),
+          ...(action === 'discard' || action === 'validate' ? {} : { draft: form }),
         }),
       });
       const body = await response.json();
@@ -491,7 +517,7 @@ function PersonalityStudio() {
                   <small>{personality.id} · {personality.source}</small>
                 </span>
                 {personality.localDraft ? <span className="studio-draft-dot" title="Rascunho local" /> : null}
-                <span className={`studio-status-dot studio-status-dot--${personality.validation.status}`} aria-label={personality.validation.status} />
+                <span className={`studio-status-dot studio-status-dot--${personality.editorial.status}`} aria-label={`editorial ${personality.editorial.status}`} />
               </button>
             );
           })}
@@ -516,7 +542,27 @@ function PersonalityStudio() {
                   <p>{language === 'en' ? (selected.translated?.description || selected.description || ui.descriptionMissing) : (selected.description || ui.descriptionMissing)}</p>
                   <div className="studio-profile-actions">
                     <button className="primary-button" type="button" onClick={openEditor}>{ui.edit}</button>
+                    {selected.source === 'staging' ? (
+                      <button
+                        className="secondary-button studio-validate-button"
+                        type="button"
+                        onClick={() => mutate('validate')}
+                        disabled={saving || selected.editorial.isMarkedValid || !selected.editorial.canMarkValid}
+                        title={!selected.editorial.canMarkValid ? ui.completeBeforeValidation : undefined}
+                      >
+                        {selected.editorial.isMarkedValid ? ui.markedValid : ui.markValid}
+                      </button>
+                    ) : null}
                     {selected.localDraft ? <button className="secondary-button" type="button" onClick={() => mutate('discard')} disabled={saving}>{ui.discard}</button> : null}
+                  </div>
+                  <div className="studio-gate-strip" aria-label={ui.editorialData}>
+                    <Badge tone={selected.editorial.metadataValid ? 'good' : 'bad'}>{ui.metadataGate} {selected.pipeline?.metadataStatus ?? ui.readyGate}</Badge>
+                    <Badge tone={selected.editorial.translationValid ? 'good' : 'bad'}>{ui.translationGate} {selected.pipeline?.translationStatus ?? ui.readyGate}</Badge>
+                    <Badge tone={selected.editorial.portraitValid ? 'good' : 'bad'}>{ui.portraitGate} {selected.pipeline?.portraitStatus ?? ui.readyGate}</Badge>
+                    <Badge tone={selected.source === 'runtime' ? (selected.profile ? 'good' : 'bad') : (selected.pipeline?.profileStatus === 'ready' ? 'good' : 'warn')}>
+                      {ui.profileGate} {selected.pipeline?.profileStatus ?? (selected.profile ? ui.readyGate : ui.pendingGate)}
+                    </Badge>
+                    <Badge tone={selected.audit.answerExists ? 'good' : 'warn'}>{ui.auditGate} {selected.audit.answerExists ? ui.readyGate : ui.pendingGate}</Badge>
                   </div>
                   <div className="studio-source">
                     <strong>Retrato:</strong>{' '}

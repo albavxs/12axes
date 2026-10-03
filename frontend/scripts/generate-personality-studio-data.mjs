@@ -123,6 +123,22 @@ const runtimeEntries = await Promise.all(personalities.map(async (personality) =
   if (!auditAnswerExists) warnings.push('Sem auditoria permanente em profile-audit/answers');
   if (auditPendingExists) warnings.push('Há saída de auditoria pendente em subagent-out');
 
+  const runtimeMetadataValid = ['id', 'name', 'role', 'category', 'representation', 'lifespan', 'description']
+    .every((field) => Boolean(personality[field]));
+  const runtimeTranslationValid = Boolean(translated?.role && translated?.description);
+  const runtimePortraitValid = Boolean(
+    image.path && !image.isRemote && image.exists && !image.error && image.bytes && image.metadata?.width && image.metadata?.height
+  );
+  const runtimeEditorial = {
+    metadataValid: runtimeMetadataValid,
+    translationValid: runtimeTranslationValid,
+    portraitValid: runtimePortraitValid,
+    bookValid: true,
+    canMarkValid: false,
+    isMarkedValid: runtimeMetadataValid && runtimeTranslationValid && runtimePortraitValid,
+    status: runtimeMetadataValid && runtimeTranslationValid && runtimePortraitValid ? 'ok' : 'error',
+  };
+
   return {
     source: 'runtime',
     pipeline: null,
@@ -132,6 +148,7 @@ const runtimeEntries = await Promise.all(personalities.map(async (personality) =
     book,
     evidence: dossier,
     audit: { answerExists: auditAnswerExists, pendingExists: auditPendingExists },
+    editorial: runtimeEditorial,
     image,
     previewImagePath: personality.imagePath ?? '',
     imageSourceFile: null,
@@ -192,6 +209,37 @@ const stagingEntries = await Promise.all(
         }
       } else if (!book) warnings.push(`Livro: ${candidate.bookStatus}`);
 
+      const metadataComplete = Boolean(
+        candidate.name && candidate.category && draft?.lifespan && draft?.pt?.role && draft?.pt?.description
+      );
+      const translationComplete = Boolean(draft?.en?.role && draft?.en?.description);
+      const portraitComplete = Boolean(
+        draft?.portrait?.path &&
+        draft?.portrait?.sourceUrl &&
+        draft?.portrait?.license &&
+        draft?.portrait?.attribution &&
+        image.exists &&
+        !image.error &&
+        image.bytes &&
+        image.metadata?.width &&
+        image.metadata?.height
+      );
+      const bookComplete = !draft?.book || Boolean(draft.book.title?.pt && draft.book.title?.en && draft.book.year);
+      const editorialMarkedReady =
+        candidate.metadataStatus === 'ready' &&
+        candidate.translationStatus === 'ready' &&
+        candidate.portraitStatus === 'ready' &&
+        (!draft?.book || candidate.bookStatus === 'ready');
+      const stagingEditorial = {
+        metadataValid: metadataComplete,
+        translationValid: translationComplete,
+        portraitValid: portraitComplete,
+        bookValid: bookComplete,
+        canMarkValid: metadataComplete && translationComplete && portraitComplete && bookComplete,
+        isMarkedValid: editorialMarkedReady,
+        status: editorialMarkedReady ? 'ok' : (metadataComplete && translationComplete && portraitComplete && bookComplete ? 'warning' : 'error'),
+      };
+
       return {
         source: 'staging',
         pipeline: {
@@ -225,6 +273,7 @@ const stagingEntries = await Promise.all(
         book,
         evidence: dossier,
         audit: { answerExists: auditAnswerExists, pendingExists: auditPendingExists },
+        editorial: stagingEditorial,
         image,
         localDraft: localDrafts[`staging:${id}`] ?? null,
         validation: { errors, warnings, status: errors.length ? 'error' : warnings.length ? 'warning' : 'ok' },

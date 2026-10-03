@@ -1181,3 +1181,39 @@
     max-height: none;
   }
 }
+
+
+/* Editorial validation gates */
+.studio-gate-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+
+.studio-gate-strip .studio-badge {
+  font-variant-numeric: tabular-nums;
+}
+
+.studio-validate-button:not(:disabled) {
+  border-color: var(--green-100);
+  background: var(--green-50);
+  color: var(--green-700);
+}
+
+.studio-validate-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.58;
+}
+
+.studio-list-item .studio-status-dot--ok {
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--green-100) 70%, transparent);
+}
+
+.studio-list-item .studio-status-dot--warning {
+  box-shadow: 0 0 0 2px rgba(183, 121, 31, 0.12);
+}
+
+.studio-list-item .studio-status-dot--error {
+  box-shadow: 0 0 0 2px color-mix(in srgb, var(--red-100) 70%, transparent);
+}
