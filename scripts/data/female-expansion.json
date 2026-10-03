@@ -420,16 +420,17 @@
       "region": "north-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://sites.northwestern.edu/radicalwoman/",
         "https://findingaids.library.northwestern.edu/agents/people/2138"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "carrie-chapman-catt",
@@ -437,16 +438,17 @@
       "region": "north-america",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.loc.gov/collections/national-american-woman-suffrage-association/articles-and-essays/carrie-chapman-catt/",
         "https://home.nps.gov/people/carrie-chapman-catt.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "alice-paul",
@@ -473,16 +475,17 @@
       "region": "north-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.nps.gov/people/lucy-stone.htm",
         "https://www.womenshistory.org/education-resources/biographies/lucy-stone"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "frances-perkins",
@@ -490,16 +493,17 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://beta.dol.gov/about/history/past-secretaries/frances-perkins",
         "https://www.nps.gov/people/frances-perkins.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "eleanor-roosevelt",
@@ -507,16 +511,17 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.fdrlibrary.org/er-biography",
         "https://www.fdrlibrary.org/human-rights"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "ruth-bader-ginsburg",
@@ -524,16 +529,17 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.loc.gov/item/n50029918/ruth-bader-ginsburg/",
         "https://www.supremecourt.gov/about/biographyginsburg.aspx?aff_id=1262"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sandra-day-oconnor",
@@ -541,16 +547,17 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.supremecourt.gov/about/biographyOconnor.aspx",
         "https://loc.gov/loc/lcib/0812/oconnor.html"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "geraldine-ferraro",
@@ -558,16 +565,17 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://history.house.gov/People/Detail/13081",
         "https://history.house.gov/Collection/Detail/30688"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "jeannette-rankin",
@@ -575,16 +583,17 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://history.house.gov/People/Detail/20147",
         "https://history.house.gov/Exhibitions-and-Publications/WIC/Historical-Essays/No-Lady/House-Supports-Suffrage/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "clara-barton",
@@ -592,16 +601,17 @@
       "region": "north-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.nps.gov/people/clara-barton.htm",
         "https://www.nps.gov/places/000/clara-barton-national-historic-site.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "jane-addams",
@@ -609,17 +619,18 @@
       "region": "north-america",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://home.nps.gov/people/jane-addams.htm",
         "https://home.nps.gov/places/hull-house.htm",
         "https://www.nobelprize.org/nomination/archive/show.php?id=408"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "rachel-carson",
@@ -627,16 +638,17 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.epa.gov/archive/epa/aboutepa/rachel-carson.html",
         "https://www.fws.gov/staff-profile/rachel-carson-1907-1964-author-modern-environmental-movement"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "wangari-maathai",
@@ -644,16 +656,17 @@
       "region": "africa",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/",
         "https://www.greenbeltmovement.org/wangari-maathai/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "funmilayo-ransome-kuti",
@@ -661,16 +674,17 @@
       "region": "africa",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://shop.unesco.org/en/products/funmilayo-ransome-kuti-and-the-womens-union-of-abeokuta",
         "https://unesdoc.unesco.org/query?q=Series%3A%20%22UNESCO%20series%20on%20women%20in%20African%20history%22"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "joyce-banda",
@@ -678,16 +692,17 @@
       "region": "africa",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.councilwomenworldleaders.org/joyce-banda",
         "https://press.un.org/en/2006/wom1560.doc.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "miriam-makeba",
@@ -695,16 +710,17 @@
       "region": "africa",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://sahistory.org.za/people/miriam-makeba",
         "https://sahistory.org.za/article/biography-miriam-makeba-narcy-negrete"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "nadine-gordimer",
@@ -712,16 +728,17 @@
       "region": "africa",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.nobelprize.org/prizes/literature/1991/gordimer/facts/",
         "https://www.nobelprize.org/prizes/literature/1991/gordimer/article/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "leymah-gbowee",
@@ -729,16 +746,17 @@
       "region": "africa",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.nobelprize.org/prizes/peace/2011/gbowee/facts/",
         "https://www.nobelprize.org/prizes/peace/2011/gbowee/biographical/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "tawakkol-karman",
@@ -746,16 +764,17 @@
       "region": "middle-east",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.nobelprize.org/prizes/peace/2011/karman/facts/",
         "https://www.nobelprize.org/events/nobel-prize-summit/2021/speakers/tawakkol-karman-2/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "shirin-ebadi",
@@ -763,16 +782,17 @@
       "region": "middle-east",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.nobelprize.org/prizes/peace/2003/ebadi/biographical/",
         "https://www.nobelprize.org/prizes/peace/2003/summary/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "nawal-el-saadawi",
@@ -780,16 +800,17 @@
       "region": "middle-east",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.today.duke.edu/2021/04/when-duke-gave-shelter-egyptian-intellectual",
         "https://sahistory.org.za/archive/biography-nawal-el-saadawi-sierra-hussey"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "huda-shaarawi",
@@ -797,16 +818,17 @@
       "region": "middle-east",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://library.aucegypt.edu/rare-books-special-collections/collections/egyptian-society-arts-culture",
         "https://www.aucegypt.edu/news/celebrating-egypts-1919-revolution"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "fatima-mernissi",
@@ -814,16 +836,17 @@
       "region": "africa",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://fatemamernissi.com/about-us",
         "https://www.blogs.unicamp.br/mulheresnafilosofia/2564-2/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sarojini-naidu",
@@ -831,16 +854,17 @@
       "region": "south-asia",
       "period": "19th-20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://amritmahotsav.nic.in/district-reopsitory-detail.htm?17092=",
         "https://cmsadmin.amritmahotsav.nic.in/district-reopsitory-detail.htm?128="
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "vijaya-lakshmi-pandit",
@@ -848,16 +872,17 @@
       "region": "south-asia",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://india.un.org/en/about/about-the-un",
         "https://www.un.org/ar/node/211672"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "aruna-asaf-ali",
@@ -865,16 +890,17 @@
       "region": "south-asia",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://amritmahotsav.nic.in/event-detail.htm?57877=",
         "https://cmsadmin.amritmahotsav.nic.in/unsung-heroes-detail.htm?320="
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "kamaladevi-chattopadhyay",
@@ -882,16 +908,17 @@
       "region": "south-asia",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://cmsadmin.amritmahotsav.nic.in/district-reopsitory-detail.htm?5507=",
         "https://amritmahotsav.nic.in/unsung-heroes-detail.htm?319="
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "savitribai-phule",
@@ -899,16 +926,17 @@
       "region": "south-asia",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://cdnbbsr.s3waas.gov.in/s33837a451cd0abc5ce4069304c5442c87/uploads/2024/11/20241126690139104.pdf",
         "https://lokbhavan.haryana.gov.in/savitribai-phule-an-iconic-reformer-educationist-honble-governor-haryana/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "begum-rokeya",
@@ -916,16 +944,17 @@
       "region": "south-asia",
       "period": "19th-20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.gbrcr.gov.bd/project/1/details",
         "https://teachers.gov.bd/content/details/1697585"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "malala-yousafzai",
@@ -933,16 +962,17 @@
       "region": "south-asia",
       "period": "21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.nobelprize.org/prizes/peace/2014/yousafzai/facts/",
         "https://www.nobelprize.org/prizes/peace/2014/yousafzai/biographical/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "aung-san-suu-kyi",
@@ -950,9 +980,9 @@
       "region": "southeast-asia",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
@@ -960,7 +990,8 @@
         "https://webtv.un.org/en/asset/k18/k18inoichc",
         "https://www.icj-cij.org/case/178"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "megawati-sukarnoputri",
@@ -968,16 +999,17 @@
       "region": "southeast-asia",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://pusdipres.anri.go.id/presidenpedia?slug=presiden-megawati-soekarnoputri",
         "https://setkab.go.id/profil-kabinet/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sirimavo-bandaranaike",
@@ -985,16 +1017,17 @@
       "region": "south-asia",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.parliament.lk/en/learn/women-in-parliament/who-we-are",
         "https://www.parliament.lk/uploads/documents/hansard/PUBDOC2063_document.pdf"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "tsai-ing-wen",
@@ -1002,9 +1035,9 @@
       "region": "east-asia",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
@@ -1012,7 +1045,8 @@
         "https://english.president.gov.tw/News/6004",
         "https://english.president.gov.tw/NEWS/6720"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "qiu-jin",
@@ -1020,16 +1054,17 @@
       "region": "east-asia",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://weai.columbia.edu/sites/weai.columbia.edu/files/content/Files/The%20Reed%20-%202022%20.pdf",
         "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/silent-half-speaks/87DF02A8F96C10A54C899233D17D033E"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "akiko-yosano",
@@ -1037,16 +1072,17 @@
       "region": "east-asia",
       "period": "19th-20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.ndl.go.jp/portrait/e/datas/347",
         "https://www.ndl.go.jp/portrait/e/pickup/011/index.html"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "raicho-hiratsuka",
@@ -1054,16 +1090,17 @@
       "region": "east-asia",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.ndl.go.jp/portrait/e/datas/380/",
         "https://www5.jwu.ac.jp/st/grp/raiteu/raiteu01/raiteu-prize2005.pdf"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "tomoe-gozen",
@@ -1071,9 +1108,9 @@
       "region": "east-asia",
       "period": "12th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
@@ -1081,7 +1118,8 @@
         "https://www.metmuseum.org/art/collection/search/893321",
         "https://visualizingcultures.mit.edu/opium_wars_japan/noble3.html"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "olympe-de-gouges",
@@ -1089,16 +1127,17 @@
       "region": "europe",
       "period": "18th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.bnf.fr/fr/mediatheque/olympe-de-gouges-1748-1793",
         "https://www.bnf.fr/fr/mediatheque/pionnieres-olympe-de-gouges"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "flora-tristan",
@@ -1106,16 +1145,17 @@
       "region": "europe-latin-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://catalogue.bnf.fr/ark%3A/12148/cb11927116m.public",
         "https://www.bnf.fr/fr/mediatheque/flora-tristan"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "clara-zetkin",
@@ -1123,16 +1163,17 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/clara-zetkin",
         "https://clara-zetkin-stiftung.de/biografie/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "louise-michel",
@@ -1140,16 +1181,17 @@
       "region": "europe",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.bnf.fr/fr/louise-michel-une-heroine-de-la-commune",
         "https://catalogue.bnf.fr/ark:/12148/cb451482239"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "millicent-fawcett",
@@ -1157,16 +1199,17 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/millicent-garrett-fawcett/millicent-garrett-fawcett/",
         "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/millicent-garrett-fawcett/consolidating-leadership-of-the-suffrage-campaign/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sylvia-pankhurst",
@@ -1174,16 +1217,17 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/startsuffragette-/",
         "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/the-east-london-federation-of-suffragettes/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "christabel-pankhurst",
@@ -1191,9 +1235,9 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
@@ -1201,7 +1245,8 @@
         "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/suffrage-societies-response/the-response-of-the-wspu/",
         "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/the-vote-for-some/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "edith-cavell",
@@ -1209,16 +1254,17 @@
       "region": "europe",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://cavell.org.uk/what-we-do/who-was-edith-cavell/",
         "https://www.theworldwar.org/learn/about-wwi/edith-cavell"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sophie-scholl",
@@ -1226,16 +1272,17 @@
       "region": "europe",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.dhm.de/lemo/biografie/sophie-scholl",
         "https://www.weisse-rose-stiftung.de/white-rose-memorial-exhibition/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "bertha-von-suttner",
@@ -1243,16 +1290,17 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.nobelprize.org/prizes/peace/1905/suttner/facts/",
         "https://www.nobelprize.org/prizes/themes/heroines-of-peace-the-nine-nobel-women/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "gro-harlem-brundtland",
@@ -1260,16 +1308,17 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.who.int/director-general/former-directors-general",
         "https://sdgs.un.org/sites/default/files/documents/5987our-common-future.pdf"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "tarja-halonen",
@@ -1277,16 +1326,17 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.presidentti.fi/halonen/public/default625a.html?contentid=168259&contentlan=2&culture=en-US&nodeid=41419",
         "https://www.presidentti.fi/halonen/public/default9c52.html"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "vigdis-finnbogadottir",
@@ -1294,16 +1344,17 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.forseti.is/en/former-presidents/vigdis-finnbogadottir",
         "https://www.unesco.org/en/goodwill-ambassadors/list"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "mary-robinson",
@@ -1311,16 +1362,17 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://press.un.org/en/1997/19970612.sga638.html",
         "https://unric.org/en/women-in-diplomacy-mary-robinsons-ongoing-global-legacy/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "mary-mcaleese",
@@ -1328,16 +1380,17 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://president.ie/en/the-president/mary-mcaleese",
         "https://www.qub.ac.uk/schools/queens-business-school/about/deib/annual-mary-mcaleese-diversity-lecture-series/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sanna-marin",
@@ -1345,16 +1398,17 @@
       "region": "europe",
       "period": "21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://valtioneuvosto.fi/en/governments-and-ministers/ministers/-/min/sanna-marin",
         "https://www.europarl.europa.eu/cmsdata/305572/Speakers%27%20biographical%20details-.pdf"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "jacinda-ardern",
@@ -1362,16 +1416,17 @@
       "region": "oceania",
       "period": "21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www3.parliament.nz/en/mps-and-electorates/former-members-of-parliament/ardern-jacinda/",
         "https://www.beehive.govt.nz/minister/rt-hon-jacinda-ardern-2017"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "julia-gillard",
@@ -1379,16 +1434,17 @@
       "region": "oceania",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.naa.gov.au/explore-collection/australias-prime-ministers/julia-gillard/fast-facts",
         "https://www.naa.gov.au/explore-collection/australias-prime-ministers/julia-gillard/before-office"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "helen-clark",
@@ -1396,16 +1452,17 @@
       "region": "oceania",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.undp.org/our-leadership/past-administrators",
         "https://www3.parliament.nz/en/mps-and-electorates/former-members-of-parliament/clark-helen/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "kate-sheppard",
@@ -1413,16 +1470,17 @@
       "region": "oceania",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://nzhistory.govt.nz/people/kate-sheppard",
         "https://nzhistory.govt.nz/politics/womens-suffrage/brief-history"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "bartolina-sisa",
@@ -1430,16 +1488,17 @@
       "region": "latin-america",
       "period": "18th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://mujer.sea.gob.bo/src/personajeResultado.php?variable=4",
         "https://sea.gob.bo/mujeres-y-democracia/participacion_politica/index.html"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "manuela-saenz",
@@ -1447,16 +1506,17 @@
       "region": "latin-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://enciclopedia.banrepcultural.org/Manuela_S%C3%A1enz",
         "https://www.cancilleria.gob.ec/2014/05/29/obra-manuela-saenz-presente-pasado-y-futuro-recupera-memoria-historica-de-los-pueblos-latinoamericanos/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "policarpa-salavarrieta",
@@ -1594,11 +1654,12 @@
       "region": "latin-america",
       "period": "21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "maria-da-penha",
@@ -1606,11 +1667,12 @@
       "region": "latin-america",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "olga-benario",
@@ -1618,11 +1680,12 @@
       "region": "europe-latin-america",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "anita-garibaldi",
@@ -1630,11 +1693,12 @@
       "region": "latin-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "chiquinha-gonzaga",
@@ -1642,11 +1706,12 @@
       "region": "latin-america",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "pagu",
@@ -1654,11 +1719,12 @@
       "region": "latin-america",
       "period": "20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "carmen-da-silva",
@@ -1666,11 +1732,12 @@
       "region": "latin-america",
       "period": "20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "maria-lacerda-de-moura",
@@ -1678,11 +1745,12 @@
       "region": "latin-america",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "ivone-lara",
@@ -1690,11 +1758,12 @@
       "region": "latin-america",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "maria-firmina-dos-reis",
@@ -1702,11 +1771,12 @@
       "region": "latin-america",
       "period": "19th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "antonieta-de-barros",
@@ -1714,11 +1784,12 @@
       "region": "latin-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "michelle-obama",
@@ -1726,11 +1797,12 @@
       "region": "north-america",
       "period": "21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "dolores-huerta",
@@ -1738,11 +1810,12 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "wilma-mankiller",
@@ -1750,11 +1823,12 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "patsy-mink",
@@ -1762,11 +1836,12 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "tammy-duckworth",
@@ -1774,11 +1849,12 @@
       "region": "north-america",
       "period": "21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "carol-moseley-braun",
@@ -1786,11 +1862,12 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "madeleine-albright",
@@ -1798,11 +1875,12 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "janet-yellen",
@@ -1810,11 +1888,12 @@
       "region": "north-america",
       "period": "20th-21st-century",
       "category": "economista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "edith-abbott",
@@ -1822,11 +1901,12 @@
       "region": "north-america",
       "period": "19th-20th-century",
       "category": "economista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "researching",
-      "bookStatus": "pending"
+      "bookStatus": "pending",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "anna-schwartz",
