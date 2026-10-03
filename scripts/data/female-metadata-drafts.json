@@ -3406,7 +3406,15 @@
           "en": ""
         }
       },
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/theresa-may.jpg",
+        "sourceFile": "Official portrait of Theresa May (cropped).jpg",
+        "sourceName": "Wikimedia Commons / UK Parliament",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Official_portrait_of_Theresa_May_(cropped).jpg",
+        "license": "CC BY 3.0",
+        "attribution": "Roger Harris / UK Parliament",
+        "note": "Retrato oficial parlamentar de 2024, disponibilizado sob CC BY 3.0."
+      },
       "sources": [
         "https://www.gov.uk/government/people/theresa-may",
         "https://www.gov.uk/government/history/past-prime-ministers/theresa-may"
@@ -3484,7 +3492,15 @@
         "description": "An Estonian public official and manager, Kersti Kaljulaid served as President of the Republic of Estonia from 2016 to 2021. Before the presidency, she was a member of the European Court of Auditors from 2004 to 2016 and held economic and management roles."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/kersti-kaljulaid.jpg",
+        "sourceFile": "Kersti Kaljulaid, EOK president.jpg",
+        "sourceName": "Wikimedia Commons / Estonian Olympic Committee",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kersti_Kaljulaid,_EOK_president.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Hendrik Osula / Estonian Olympic Committee",
+        "note": "Retrato de Kersti Kaljulaid com licença CC BY-SA 4.0 e permissão registrada no Commons."
+      },
       "sources": [
         "https://president.ee/en/republic-of-estonia/heads-of-state/441/"
       ]
@@ -3551,7 +3567,15 @@
         "description": "A Slovak lawyer and public figure, Zuzana Čaputová spent years working in the non-profit sector on rule of law, transparency, and environmental issues. She was elected President of Slovakia in 2019 and served until 2024."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/zuzana-caputova.jpg",
+        "sourceFile": "Zuzana Caputova, 2023.jpg",
+        "sourceName": "Wikimedia Commons / European Commission",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zuzana_Caputova,_2023.jpg",
+        "license": "CC BY 4.0",
+        "attribution": "Vladimir Simicek / European Union",
+        "note": "Fotografia de 2023 disponibilizada pelo Serviço Audiovisual da Comissão Europeia sob CC BY 4.0."
+      },
       "sources": [
         "https://archiv.prezident.sk/zuzana-caputova/en/page/biography/",
         "https://www.prezident.sk/zuzana-caputova/"
@@ -3619,7 +3643,15 @@
         "description": "A Romanian politician, Viorica Dăncilă served in the European Parliament before becoming Prime Minister of Romania in January 2018. She led the government until 2019."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/viorica-dancila.jpg",
+        "sourceFile": "Viorica Dancila - PES Activists Romania, Palatul Parlamentului, Bucuresti - 08.02.2014 (2) (12384074104).jpg",
+        "sourceName": "Wikimedia Commons / Flickr",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Viorica_Dancila_-_PES_Activists_Romania,_Palatul_Parlamentului,_Bucuresti_-_08.02.2014_(2)_(12384074104).jpg",
+        "license": "CC BY 2.0",
+        "attribution": "Partidul Social Democrat din România",
+        "note": "Fotografia de 2014 publicada no Flickr e reutilizável sob CC BY 2.0."
+      },
       "sources": [
         "https://www.europarl.europa.eu/doceo/document/CRE-8-2019-01-15-ITM-013_EN.html"
       ]
@@ -3686,7 +3718,15 @@
         "description": "A Kyrgyz diplomat and politician, Roza Otunbayeva served as Foreign Minister on several occasions and as President of Kyrgyzstan from 2010 to 2011. In 2022, she was appointed the UN Secretary-General's Special Representative for Afghanistan and head of UNAMA."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/roza-otunbayeva.jpg",
+        "sourceFile": "Roza Otunbaeva.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Roza_Otunbaeva.jpg",
+        "license": "Public domain",
+        "attribution": "Ilias Beshimov",
+        "note": "Retrato liberado ao domínio público pelo autor."
+      },
       "sources": [
         "https://www.un.org/sg/en/content/sg/personnel-appointments/2022-09-02/ms-roza-otunbayeva-of-kyrgyzstan-special-representative-for-afghanistan-and-head-of-the-united-nations-assistance-mission-afghanistan"
       ]
@@ -3703,7 +3743,15 @@
         "description": "A Bangladeshi politician and leader of the Bangladesh Nationalist Party, Khaleda Zia served as Prime Minister of Bangladesh from 1991 to 1996 and again from 2001 to 2006. She was the country's first woman Prime Minister. She died on 30 December 2025."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/khaleda-zia.jpg",
+        "sourceFile": "Khaleda Zia Poses for a Photo with Secretary Kerry at U.S. Embassy Dhaka (29284522026) (cropped).jpg",
+        "sourceName": "Wikimedia Commons / U.S. Department of State",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Khaleda_Zia_Poses_for_a_Photo_with_Secretary_Kerry_at_U.S._Embassy_Dhaka_(29284522026)_(cropped).jpg",
+        "license": "Public domain (U.S. federal government)",
+        "attribution": "U.S. Department of State",
+        "note": "Fotografia produzida no exercício de funções oficiais do Departamento de Estado dos EUA."
+      },
       "sources": [
         "https://www.reuters.com/world/asia-pacific/bangladeshs-first-female-prime-minister-khaleda-zia-dies-80-2025-12-30/",
         "https://www.parliament.gov.bd/public/uploads/publication/202308271011_bulletin_sb2017.pdf"
@@ -3721,7 +3769,15 @@
         "description": "A Bangladeshi politician and Awami League leader, Sheikh Hasina served as Prime Minister of Bangladesh from 1996 to 2001 and returned to office in January 2009, remaining in power until 2024."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/sheikh-hasina.jpg",
+        "sourceFile": "Portrait of Sheikh Hasina.jpg",
+        "sourceName": "Wikimedia Commons / Press Information Department, Bangladesh",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Sheikh_Hasina.jpg",
+        "license": "Public domain in Bangladesh",
+        "attribution": "Press Information Department, Government of Bangladesh",
+        "note": "Retrato oficial governamental identificado no Commons como domínio público em Bangladesh."
+      },
       "sources": [
         "https://bangladesh.un.org/en/290957-un-chief-affirms-solidarity-bangladesh-amid-political-transition"
       ]
@@ -3738,7 +3794,15 @@
         "description": "A Sri Lankan politician, Chandrika Bandaranaike Kumaratunga briefly served as Prime Minister in 1994 and was President of Sri Lanka from 1994 to 2005."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/chandrika-kumaratunga.jpg",
+        "sourceFile": "Chandrika Kumaratunga.jpg",
+        "sourceName": "Wikimedia Commons / U.S. Department of State",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Chandrika_Kumaratunga.jpg",
+        "license": "Public domain (U.S. federal government)",
+        "attribution": "U.S. Department of State",
+        "note": "Imagem produzida pelo governo federal dos Estados Unidos e indicada como domínio público."
+      },
       "sources": [
         "https://press.un.org/en/2005/ga10386.doc.htm"
       ]
@@ -3755,7 +3819,15 @@
         "description": "An Indian lawyer and politician, Pratibha Devisingh Patil served as the 12th President of India from 2007 to 2012 and was the first woman to hold the office. She had previously served as Governor of Rajasthan."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/pratibha-patil.jpg",
+        "sourceFile": "Pratibha Patil.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pratibha_Patil.jpg",
+        "license": "CC BY 2.5",
+        "attribution": "Jaisingh Rathore",
+        "note": "Retrato de Pratibha Patil licenciado sob CC BY 2.5."
+      },
       "sources": [
         "https://www.presidentofindia.gov.in/node/?page=264",
         "https://www.presidentofindia.gov.in/smt-pratibha-devi-singh-patil"
@@ -3783,7 +3855,15 @@
           "en": ""
         }
       },
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/meira-kumar.jpg",
+        "sourceFile": "The Minister of Social Justice & Empowerment Smt. Meira Kumar with the Governor of Punjab Mr. Justice O.P. Verma in New Delhi on August 20, 2004.jpg",
+        "sourceName": "Wikimedia Commons / Press Information Bureau, Government of India",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:The_Minister_of_Social_Justice_%26_Empowerment_Smt._Meira_Kumar_with_the_Governor_of_Punjab_Mr._Justice_O.P._Verma_in_New_Delhi_on_August_20,_2004.jpg",
+        "license": "Government Open Data License - India",
+        "attribution": "Press Information Bureau, Government of India",
+        "note": "Fotografia oficial disponibilizada sob a Government Open Data License - India."
+      },
       "sources": [
         "https://www.presidentofindia.gov.in/shri-pranab-mukherjee/speeches/speech-honble-president-india-shri-pranab-mukherjee-occasion-seventh"
       ]
@@ -3826,7 +3906,15 @@
         "description": "An Indian physician and independence activist, Lakshmi Sahgal joined the Indian National Army and commanded the Rani of Jhansi Regiment, a women's unit formed within the movement led by Subhas Chandra Bose. She also practiced medicine."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/lakshmi-sahgal.jpg",
+        "sourceFile": "Lakshmi Sahgal.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Lakshmi_Sahgal.jpg",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Soman",
+        "note": "Retrato de Lakshmi Sahgal licenciado sob CC BY-SA 3.0."
+      },
       "sources": [
         "https://cmsadmin.amritmahotsav.nic.in/unsung-heroes-detail.htm?244="
       ]
@@ -3871,7 +3959,15 @@
           "en": ""
         }
       },
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/pandita-ramabai.jpg",
+        "sourceFile": "Pandita Ramabai Sarasvati 1858-1922 front-page-portrait.jpg",
+        "sourceName": "Wikimedia Commons / historical publication",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Pandita_Ramabai_Sarasvati_1858-1922_front-page-portrait.jpg",
+        "license": "Public domain (United States)",
+        "attribution": "Historical publication / Wikimedia Commons",
+        "note": "Retrato histórico publicado antes de 1929 e identificado como domínio público nos Estados Unidos."
+      },
       "sources": [
         "https://amritmahotsav.nic.in/unsung-heroes-detail.htm?23123="
       ]
@@ -3958,7 +4054,15 @@
         "description": "Rania Al Abdullah has been Queen of Jordan since 1999. Her public work includes initiatives related to education, child and family protection, women and community participation, youth, innovation, and entrepreneurship."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/rania-al-abdullah.jpg",
+        "sourceFile": "Queen rania.jpg",
+        "sourceName": "Wikimedia Commons / Executive Office of the President of the United States",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Queen_rania.jpg",
+        "license": "Public domain (U.S. federal government)",
+        "attribution": "Krisaane Johnson / Executive Office of the President of the United States",
+        "note": "Fotografia oficial de 2005, domínio público como obra do governo federal dos EUA."
+      },
       "sources": [
         "https://www.queenrania.jo/en/rania"
       ]
@@ -3975,7 +4079,15 @@
         "description": "Moza bint Nasser is co-founder and Chairperson of Qatar Foundation and has worked for decades on education, science, community development, and social reform initiatives in Qatar as well as international development projects."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/moza-bint-nasser.jpg",
+        "sourceFile": "HH Sheikha Moza bint Nasser.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:HH_Sheikha_Moza_bint_Nasser.jpg",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Buthaina.Media",
+        "note": "Retrato disponibilizado sob CC BY-SA 3.0."
+      },
       "sources": [
         "https://www.qf.org.qa/about/profile/her-highness-sheikha-moza-bint-nasser",
         "https://www.qf.org.qa/about/"
@@ -4029,7 +4141,15 @@
         "description": "An Iranian human rights lawyer, Nasrin Sotoudeh became known for legally representing women, religious minorities, minors, and protesters, among other clients. She shared the European Parliament's 2012 Sakharov Prize with Jafar Panahi."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/nasrin-sotoudeh.jpg",
+        "sourceFile": "Nasrin Sotoudeh (1).jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nasrin_Sotoudeh_(1).jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Hossein Ronaghi",
+        "note": "Fotografia de Nasrin Sotoudeh disponibilizada sob CC BY-SA 4.0."
+      },
       "sources": [
         "https://www.europarl.europa.eu/sakharovprize/en/nasrin-sotude-2012-iran/products-details/20200331CAN54204"
       ]
@@ -4109,7 +4229,15 @@
           "en": ""
         }
       },
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/amina-wadud.jpg",
+        "sourceFile": "Amina Wadud.jpg",
+        "sourceName": "Wikimedia Commons / Oregon State University",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amina_Wadud.jpg",
+        "license": "CC BY-SA 2.0",
+        "attribution": "Oregon State University",
+        "note": "Imagem proveniente do Flickr da Oregon State University, com licença CC BY-SA 2.0 confirmada no Commons."
+      },
       "sources": [
         "https://academic.oup.com/edited-volume/62249/chapter-abstract/551452824"
       ]
@@ -4136,7 +4264,15 @@
           "en": ""
         }
       },
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/leila-ahmed.jpg",
+        "sourceFile": "Leila Ahmed.jpg",
+        "sourceName": "Wikimedia Commons / Marginalia Review of Books",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leila_Ahmed.jpg",
+        "license": "CC BY 3.0",
+        "attribution": "Marginalia Review of Books",
+        "note": "Retrato disponibilizado sob CC BY 3.0."
+      },
       "sources": [
         "https://www.hds.harvard.edu/people/leila-ahmed"
       ]
@@ -4252,7 +4388,15 @@
           "en": ""
         }
       },
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/ngozi-okonjo-iweala.jpg",
+        "sourceFile": "Okonjo-Iweala Ngozi (DG WTO).jpg",
+        "sourceName": "Wikimedia Commons / National Library of Nigeria",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Okonjo-Iweala_Ngozi_(DG_WTO).jpg",
+        "license": "CC0 1.0",
+        "attribution": "National Library of Nigeria",
+        "note": "Retrato dedicado ao domínio público por meio da licença CC0 1.0."
+      },
       "sources": [
         "https://www.wto.org/english/thewto_e/dg_e/dg_e.htm",
         "https://www.wto.org/english/thewto_e/dg_e/dg_selection_process_e.htm"
@@ -4270,7 +4414,15 @@
         "description": "A Cameroonian economist, Vera Songwe became Executive Secretary of the United Nations Economic Commission for Africa in 2017, the first woman to hold the post. Earlier, she worked at the World Bank and International Finance Corporation in economics, development, and regional leadership roles."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/vera-songwe.jpg",
+        "sourceFile": "Dr Vera Songwe, Country Director for Senegal, Cape Verde, The Gambia, Guinea Bissau and Mauritania, The World Bank (18378757655) (2).jpg",
+        "sourceName": "Wikimedia Commons / Chatham House",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dr_Vera_Songwe,_Country_Director_for_Senegal,_Cape_Verde,_The_Gambia,_Guinea_Bissau_and_Mauritania,_The_World_Bank_(18378757655)_(2).jpg",
+        "license": "CC BY 2.0",
+        "attribution": "Chatham House",
+        "note": "Fotografia publicada no Flickr da Chatham House e licenciada sob CC BY 2.0."
+      },
       "sources": [
         "https://archive.uneca.org/executive-secretary/pages/biography",
         "https://archive.uneca.org/stories/vera-songwe-appointed-executive-secretary-economic-commission-africa"
@@ -4298,7 +4450,15 @@
           "en": ""
         }
       },
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/dambisa-moyo.jpg",
+        "sourceFile": "Dambisa Moyo4.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dambisa_Moyo4.jpg",
+        "license": "CC BY-SA 3.0",
+        "attribution": "David Grundy / Helen Jones Photography",
+        "note": "Retrato disponibilizado sob CC BY-SA 3.0, com permissão registrada via VRT no Commons."
+      },
       "sources": [
         "https://dambisamoyo.com/"
       ]
