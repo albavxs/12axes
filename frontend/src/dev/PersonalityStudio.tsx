@@ -25,7 +25,7 @@ type Personality = {
   translated: Translation | null; profile: Profile | null; book: Book | null;
   evidence: { sources?: unknown[]; evidence?: Record<string, unknown> } | null;
   evidenceReady: boolean;
-  audit: { answerExists: boolean; pendingExists: boolean };
+  audit: { answerExists: boolean; pendingExists: boolean; packetExists: boolean };
   editorial: {
     metadataValid: boolean; translationValid: boolean; portraitValid: boolean; bookValid: boolean;
     canMarkValid: boolean; isMarkedValid: boolean; status: 'error' | 'warning' | 'ok';
@@ -118,6 +118,7 @@ function PersonalityStudio() {
   const [form, setForm] = useState<EditableDraft | null>(null);
   const [saving, setSaving] = useState(false);
   const [auditing, setAuditing] = useState(false);
+  const [portraitBusy, setPortraitBusy] = useState(false);
   const [auditResult, setAuditResult] = useState<{ ok: boolean; message: string; output: string } | null>(null);
   const [notice, setNotice] = useState<{ tone: 'good' | 'bad'; text: string } | null>(null);
 
@@ -183,8 +184,31 @@ function PersonalityStudio() {
     audit: 'Auditoria',
     english: 'Inglês',
     book: 'Livro',
-    axes: '12 eixos',
-    readonly: 'somente leitura · vem da auditoria',
+    axes: 'Perfil em 12 eixos',
+    readonly: 'resultado da auditoria · somente leitura',
+    axesHelp: 'Cada eixo vai de 0 (polo à esquerda) a 100 (polo à direita). O marcador mostra o valor atualmente salvo.',
+    noAxisProfile: 'Ainda não existe um vetor de 12 eixos para esta personalidade.',
+    dataCard: 'Dados',
+    photoCard: 'Foto',
+    profileCard: 'Perfil 12 eixos',
+    complete: 'Completo',
+    needsReview: 'Precisa revisar',
+    localPhoto: 'Foto local pronta',
+    sourceReady: 'Fonte pronta para baixar',
+    noPhotoSource: 'Sem fonte de foto',
+    downloadPhoto: 'Baixar foto',
+    downloadingPhoto: 'Baixando…',
+    addPhotoSource: 'Adicionar fonte',
+    searchCommons: 'Buscar no Commons',
+    auditNotStarted: 'Auditoria não iniciada',
+    auditPrepared: 'Ficha preparada',
+    auditAnswersReady: 'Respostas disponíveis',
+    auditComplete: 'Auditoria arquivada',
+    prepareAudit: 'Preparar auditoria',
+    preparingAudit: 'Preparando…',
+    validateAnswers: 'Validar respostas',
+    technicalDetails: 'Detalhes técnicos',
+
     noIssues: 'Nenhum problema detectado.',
     permanentAnswers: 'Respostas permanentes',
     pendingOutput: 'Saída pendente',
@@ -283,8 +307,31 @@ function PersonalityStudio() {
     audit: 'Audit',
     english: 'English',
     book: 'Book',
-    axes: '12 axes',
-    readonly: 'read-only · comes from audit',
+    axes: '12-axis profile',
+    readonly: 'audit result · read-only',
+    axesHelp: 'Each axis runs from 0 (left pole) to 100 (right pole). The marker shows the currently saved value.',
+    noAxisProfile: 'There is no 12-axis vector for this personality yet.',
+    dataCard: 'Data',
+    photoCard: 'Photo',
+    profileCard: '12-axis profile',
+    complete: 'Complete',
+    needsReview: 'Needs review',
+    localPhoto: 'Local photo ready',
+    sourceReady: 'Source ready to download',
+    noPhotoSource: 'No photo source',
+    downloadPhoto: 'Download photo',
+    downloadingPhoto: 'Downloading…',
+    addPhotoSource: 'Add source',
+    searchCommons: 'Search Commons',
+    auditNotStarted: 'Audit not started',
+    auditPrepared: 'Audit sheet prepared',
+    auditAnswersReady: 'Answers available',
+    auditComplete: 'Audit archived',
+    prepareAudit: 'Prepare audit',
+    preparingAudit: 'Preparing…',
+    validateAnswers: 'Validate answers',
+    technicalDetails: 'Technical details',
+
     noIssues: 'No issues detected.',
     permanentAnswers: 'Permanent answers',
     pendingOutput: 'Pending output',
@@ -426,23 +473,48 @@ function PersonalityStudio() {
     }
   }
 
+  async function downloadSelectedPortrait() {
+    if (!selected || selected.source !== 'staging') return;
+    setPortraitBusy(true);
+    setNotice(null);
+    try {
+      const response = await fetch('/__dev/personality-studio-api/portrait-selected', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ source: selected.source, id: selected.id }),
+      });
+      const body = await response.json();
+      if (!response.ok) throw new Error(body.error || 'Could not download portrait');
+      await loadCatalog(selectedKey);
+      setNotice({ tone: 'good', text: body.message });
+    } catch (error) {
+      setNotice({ tone: 'bad', text: error instanceof Error ? error.message : String(error) });
+    } finally {
+      setPortraitBusy(false);
+    }
+  }
+
   async function runAudit() {
     if (!selected) return;
     setAuditing(true);
     setAuditResult(null);
     setNotice(null);
     try {
-      const response = await fetch('/__dev/personality-studio-api/audit', {
+      const needsPreparation = !selected.audit.answerExists && !selected.audit.pendingExists;
+      const endpoint = needsPreparation
+        ? '/__dev/personality-studio-api/audit-prepare'
+        : '/__dev/personality-studio-api/audit';
+      const response = await fetch(endpoint, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ source: selected.source, id: selected.id }),
       });
       const body = await response.json();
-      if (!response.ok) throw new Error(body.error || 'Could not run audit validation');
+      if (!response.ok) throw new Error(body.error || 'Could not run audit action');
       setAuditResult({
         ok: Boolean(body.ok),
         message: String(body.message || ''),
-        output: String(body.output || ''),
+        output: String(body.output || body.path || ''),
       });
       setNotice({ tone: body.ok ? 'good' : 'bad', text: body.message });
       await loadCatalog(selectedKey);
@@ -611,9 +683,11 @@ function PersonalityStudio() {
                   <p>{language === 'en' ? (selected.translated?.description || selected.description || ui.descriptionMissing) : (selected.description || ui.descriptionMissing)}</p>
                   <div className="studio-profile-actions">
                     <button className="primary-button" type="button" onClick={openEditor}>{ui.edit}</button>
-                    <button className="secondary-button" type="button" onClick={runAudit} disabled={auditing}>
-                      {auditing ? ui.runningAudit : ui.runAudit}
-                    </button>
+                    {selected.source === 'staging' && !selected.image.exists && selected.imageSourceUrl && selected.imageSourceFile ? (
+                      <button className="secondary-button" type="button" onClick={downloadSelectedPortrait} disabled={portraitBusy}>
+                        {portraitBusy ? ui.downloadingPhoto : ui.downloadPhoto}
+                      </button>
+                    ) : null}
                     {selected.source === 'staging' ? (
                       <button
                         className="secondary-button studio-validate-button"
@@ -627,36 +701,111 @@ function PersonalityStudio() {
                     ) : null}
                     {selected.localDraft ? <button className="secondary-button" type="button" onClick={() => mutate('discard')} disabled={saving}>{ui.discard}</button> : null}
                   </div>
-                  <div className="studio-gate-strip" aria-label={ui.editorialData}>
-                    <Badge tone={selected.editorial.metadataValid ? 'good' : 'bad'}>{ui.metadataGate} {selected.pipeline?.metadataStatus ?? ui.readyGate}</Badge>
-                    <Badge tone={selected.editorial.translationValid ? 'good' : 'bad'}>{ui.translationGate} {selected.pipeline?.translationStatus ?? ui.readyGate}</Badge>
-                    <Badge
-                      tone={
-                        selected.image.exists && !selected.image.error
-                          ? (selected.editorial.portraitValid ? 'good' : 'warn')
-                          : 'bad'
-                      }
-                    >
-                      {ui.portraitGate} {selected.image.exists && !selected.image.error ? 'local' : (selected.pipeline?.portraitStatus ?? ui.pendingGate)}
-                    </Badge>
-                    <Badge tone={selected.source === 'runtime' ? (selected.profile ? 'good' : 'bad') : (selected.pipeline?.profileStatus === 'ready' ? 'good' : 'warn')}>
-                      {ui.profileGate} {selected.pipeline?.profileStatus ?? (selected.profile ? ui.readyGate : ui.pendingGate)}
-                    </Badge>
-                    <Badge tone={selected.evidenceReady ? 'good' : 'warn'}>{ui.evidenceGate} {selected.evidenceReady ? ui.readyGate : ui.pendingGate}</Badge>
-                    <Badge tone={selected.audit.answerExists ? 'good' : 'warn'}>{ui.auditGate} {selected.audit.answerExists ? ui.readyGate : ui.pendingGate}</Badge>
+                  <div className="studio-action-grid">
+                    <section className="studio-action-card">
+                      <div>
+                        <p className="studio-eyebrow">{ui.dataCard}</p>
+                        <strong>{selected.editorial.metadataValid && selected.editorial.translationValid ? ui.complete : ui.needsReview}</strong>
+                        <span>PT + EN</span>
+                      </div>
+                      <button className="studio-icon-button" type="button" onClick={openEditor}>{ui.edit}</button>
+                    </section>
+
+                    <section className="studio-action-card">
+                      <div>
+                        <p className="studio-eyebrow">{ui.photoCard}</p>
+                        <strong>
+                          {selected.image.exists
+                            ? ui.localPhoto
+                            : selected.imageSourceUrl && selected.imageSourceFile
+                              ? ui.sourceReady
+                              : ui.noPhotoSource}
+                        </strong>
+                        <span>
+                          {selected.image.metadata?.width && selected.image.metadata?.height
+                            ? `${selected.image.metadata.width}×${selected.image.metadata.height}`
+                            : (selected.imageSourceName || ui.noSource)}
+                        </span>
+                      </div>
+                      <div className="studio-action-buttons">
+                        {selected.source === 'staging' && !selected.image.exists && selected.imageSourceUrl && selected.imageSourceFile ? (
+                          <button className="studio-icon-button" type="button" onClick={downloadSelectedPortrait} disabled={portraitBusy}>
+                            {portraitBusy ? ui.downloadingPhoto : ui.downloadPhoto}
+                          </button>
+                        ) : null}
+                        {!selected.image.exists && (!selected.imageSourceUrl || !selected.imageSourceFile) ? (
+                          <>
+                            <button className="studio-icon-button" type="button" onClick={openEditor}>{ui.addPhotoSource}</button>
+                            <a
+                              className="studio-icon-button studio-link-button"
+                              href={`https://commons.wikimedia.org/wiki/Special:MediaSearch?type=image&search=${encodeURIComponent(selected.name)}`}
+                              target="_blank"
+                              rel="noreferrer"
+                            >
+                              {ui.searchCommons}
+                            </a>
+                          </>
+                        ) : null}
+                      </div>
+                    </section>
+
+                    <section className="studio-action-card">
+                      <div>
+                        <p className="studio-eyebrow">{ui.profileCard}</p>
+                        <strong>
+                          {selected.profile
+                            ? ui.complete
+                            : selected.audit.answerExists
+                              ? ui.auditComplete
+                              : selected.audit.pendingExists
+                                ? ui.auditAnswersReady
+                                : selected.audit.packetExists
+                                  ? ui.auditPrepared
+                                  : ui.auditNotStarted}
+                        </strong>
+                        <span>{selected.profile ? ui.readonly : ui.noAxisProfile}</span>
+                      </div>
+                      {!selected.profile ? (
+                        <button className="studio-icon-button" type="button" onClick={runAudit} disabled={auditing}>
+                          {auditing
+                            ? (selected.audit.answerExists || selected.audit.pendingExists ? ui.runningAudit : ui.preparingAudit)
+                            : (selected.audit.answerExists || selected.audit.pendingExists ? ui.validateAnswers : ui.prepareAudit)}
+                        </button>
+                      ) : selected.audit.answerExists || selected.audit.pendingExists ? (
+                        <button className="studio-icon-button" type="button" onClick={runAudit} disabled={auditing}>
+                          {auditing ? ui.runningAudit : ui.validateAnswers}
+                        </button>
+                      ) : null}
+                    </section>
                   </div>
-                  <div className="studio-source">
-                    <strong>Retrato:</strong>{' '}
-                    {selected.imageSourceUrl ? <a href={selected.imageSourceUrl} target="_blank" rel="noreferrer">{selected.imageSourceName || selected.imageSourceUrl}</a> : ui.noSource}
-                    {selected.image.bytes ? <span> · {Math.round(selected.image.bytes / 1024)} KB</span> : null}
-                    {selected.image.metadata?.width && selected.image.metadata?.height ? <span> · {selected.image.metadata.width}×{selected.image.metadata.height}</span> : null}
-                  </div>
+
+                  <details className="studio-technical-details">
+                    <summary>{ui.technicalDetails}</summary>
+                    <div className="studio-gate-strip" aria-label={ui.editorialData}>
+                      <Badge tone={selected.editorial.metadataValid ? 'good' : 'bad'}>{ui.metadataGate} {selected.pipeline?.metadataStatus ?? ui.readyGate}</Badge>
+                      <Badge tone={selected.editorial.translationValid ? 'good' : 'bad'}>{ui.translationGate} {selected.pipeline?.translationStatus ?? ui.readyGate}</Badge>
+                      <Badge tone={selected.image.exists && !selected.image.error ? 'good' : selected.imageSourceUrl ? 'warn' : 'bad'}>
+                        {ui.portraitGate} {selected.image.exists && !selected.image.error ? 'local' : (selected.pipeline?.portraitStatus ?? ui.pendingGate)}
+                      </Badge>
+                      <Badge tone={selected.source === 'runtime' ? (selected.profile ? 'good' : 'bad') : (selected.pipeline?.profileStatus === 'ready' ? 'good' : 'warn')}>
+                        {ui.profileGate} {selected.pipeline?.profileStatus ?? (selected.profile ? ui.readyGate : ui.pendingGate)}
+                      </Badge>
+                      <Badge tone={selected.evidenceReady ? 'good' : 'warn'}>{ui.evidenceGate} {selected.evidenceReady ? ui.readyGate : ui.pendingGate}</Badge>
+                      <Badge tone={selected.audit.answerExists ? 'good' : 'warn'}>{ui.auditGate} {selected.audit.answerExists ? ui.readyGate : ui.pendingGate}</Badge>
+                    </div>
+                    <div className="studio-source">
+                      <strong>Retrato:</strong>{' '}
+                      {selected.imageSourceUrl ? <a href={selected.imageSourceUrl} target="_blank" rel="noreferrer">{selected.imageSourceName || selected.imageSourceUrl}</a> : ui.noSource}
+                      {selected.image.bytes ? <span> · {Math.round(selected.image.bytes / 1024)} KB</span> : null}
+                      {selected.image.metadata?.width && selected.image.metadata?.height ? <span> · {selected.image.metadata.width}×{selected.image.metadata.height}</span> : null}
+                    </div>
+                  </details>
                 </div>
               </section>
 
               {selected.pipeline ? (
-                <section className="studio-panel studio-pipeline-panel">
-                  <div className="studio-panel-title"><p className="studio-eyebrow">{ui.workflow}</p><h3>{ui.pipeline}</h3></div>
+                <details className="studio-panel studio-pipeline-panel studio-pipeline-details">
+                  <summary>{ui.workflow} · {ui.pipeline}</summary>
                   <div className="studio-pipeline-grid">
                     <span>metadata <strong>{selected.pipeline.metadataStatus}</strong></span>
                     <span>translation <strong>{selected.pipeline.translationStatus}</strong></span>
@@ -665,7 +814,7 @@ function PersonalityStudio() {
                     <span>book <strong>{selected.pipeline.bookStatus}</strong></span>
                     <span>{selected.pipeline.region} · {selected.pipeline.period}</span>
                   </div>
-                </section>
+                </details>
               ) : null}
 
               <section className="studio-grid">
@@ -686,10 +835,12 @@ function PersonalityStudio() {
                       disabled={auditing}
                       title={ui.auditRunnerHint}
                     >
-                      {auditing ? ui.runningAudit : ui.runAudit}
+                      {auditing
+                        ? (selected.audit.answerExists || selected.audit.pendingExists ? ui.runningAudit : ui.preparingAudit)
+                        : (selected.audit.answerExists || selected.audit.pendingExists ? ui.validateAnswers : ui.prepareAudit)}
                     </button>
                   </div>
-                  <p className="studio-role">{ui.auditRunnerHint}</p>
+                  <p className="studio-role">{selected.audit.answerExists || selected.audit.pendingExists ? ui.auditRunnerHint : (selected.audit.packetExists ? ui.auditPrepared : ui.auditNotStarted)}</p>
                   <dl className="studio-definition-list">
                     <div><dt>{ui.permanentAnswers}</dt><dd>{selected.audit.answerExists ? ui.yes : ui.no}</dd></div>
                     <div><dt>{ui.pendingOutput}</dt><dd>{selected.audit.pendingExists ? ui.yes : ui.no}</dd></div>
@@ -719,22 +870,43 @@ function PersonalityStudio() {
               <section className="studio-panel studio-axis-panel">
                 <div className="studio-panel-title studio-panel-title--row">
                   <div><p className="studio-eyebrow">profile</p><h3>{ui.axes}</h3></div>
-                  <span className="studio-readonly-label">{ui.readonly}</span>
+                  {selected.profile ? <span className="studio-readonly-label">{ui.readonly}</span> : null}
                 </div>
+                <p className="studio-axis-help">{ui.axesHelp}</p>
                 {selected.profile ? (
                   <div className="studio-axes">
                     {payload.axes.map((axis) => {
                       const value = selected.profile?.vector[axis.id];
+                      const position = typeof value === 'number' ? Math.max(0, Math.min(100, value)) : 50;
                       return (
                         <div className="studio-axis-row" key={axis.id}>
-                          <div className="studio-axis-label"><strong>{axis.label}</strong><span>{typeof value === 'number' ? value.toFixed(1) : 'missing'}</span></div>
-                          <div className="studio-axis-poles"><span>{axis.leftPole}</span><span>{axis.rightPole}</span></div>
-                          <div className="studio-axis-track"><div className="studio-axis-fill" style={{ width: `${typeof value === 'number' ? Math.max(0, Math.min(100, value)) : 0}%` }} /></div>
+                          <div className="studio-axis-label">
+                            <strong>{axis.label}</strong>
+                            <span className="studio-axis-value">{typeof value === 'number' ? value.toFixed(1) : '—'}</span>
+                          </div>
+                          <div className="studio-axis-track studio-axis-track--marker">
+                            <span className="studio-axis-midpoint" aria-hidden="true" />
+                            <span className="studio-axis-marker" style={{ left: `${position}%` }} aria-hidden="true" />
+                          </div>
+                          <div className="studio-axis-poles">
+                            <span><b>0</b> · {axis.leftPole}</span>
+                            <span><b>100</b> · {axis.rightPole}</span>
+                          </div>
                         </div>
                       );
                     })}
                   </div>
-                ) : <p>{selected.source === 'staging' ? `Ainda fora do runtime. profileStatus=${selected.pipeline?.profileStatus ?? 'unknown'}.` : 'Sem vetor de perfil.'}</p>}
+                ) : (
+                  <div className="studio-axis-empty">
+                    <strong>{ui.noAxisProfile}</strong>
+                    <span>{selected.audit.answerExists || selected.audit.pendingExists ? ui.auditAnswersReady : selected.audit.packetExists ? ui.auditPrepared : ui.auditNotStarted}</span>
+                    <button className="secondary-button" type="button" onClick={runAudit} disabled={auditing}>
+                      {auditing
+                        ? (selected.audit.answerExists || selected.audit.pendingExists ? ui.runningAudit : ui.preparingAudit)
+                        : (selected.audit.answerExists || selected.audit.pendingExists ? ui.validateAnswers : ui.prepareAudit)}
+                    </button>
+                  </div>
+                )}
               </section>
             </>
           ) : <div className="studio-empty">{ui.select}</div>}

@@ -15,6 +15,8 @@ const generatorPath = resolve(frontendRoot, 'scripts/generate-personality-studio
 const auditValidatorPath = resolve(repoRoot, 'profile-audit/validate.py');
 const auditAnswersRoot = resolve(repoRoot, 'profile-audit/answers/personality');
 const auditPendingRoot = resolve(repoRoot, 'profile-audit/subagent-out/personality');
+const auditPacketsRoot = resolve(localRoot, 'audit-packets');
+const auditQuestionsTemplatePath = resolve(repoRoot, 'profile-audit/questions-template.txt');
 const apiPort = 5174;
 
 function readJson(path, fallback) {
@@ -411,6 +413,78 @@ function validateTarget(source, id) {
   if (!/^[a-z0-9][a-z0-9-]*$/.test(id)) throw new Error('Invalid personality id.');
 }
 
+async function materializeSelectedPortrait(id) {
+  const metadataPath = resolve(scriptsDataRoot, 'female-metadata-drafts.json');
+  const metadata = readJson(metadataPath, { personalities: [] });
+  const entry = metadata.personalities?.find((item) => item.id === id);
+  if (!entry?.portrait?.sourceUrl || !entry?.portrait?.sourceFile || !entry?.portrait?.path) {
+    throw new Error('Esta personalidade ainda não tem uma fonte de retrato pronta para download.');
+  }
+
+  const draft = normalizeDraft({ pt: {}, en: {}, portrait: entry.portrait, book: {} });
+  const target = await materializeCommonsPortrait(draft);
+  refreshSnapshot();
+  return target;
+}
+
+function prepareAuditPacket(id) {
+  const runtimePersonalities = readJson(resolve(dataRoot, 'personalities.json'), []);
+  const manifest = readJson(resolve(scriptsDataRoot, 'female-expansion.json'), { candidates: [] });
+  const metadata = readJson(resolve(scriptsDataRoot, 'female-metadata-drafts.json'), { personalities: [] });
+
+  const runtime = runtimePersonalities.find((item) => item.id === id);
+  const candidate = manifest.candidates?.find((item) => item.id === id);
+  const draft = metadata.personalities?.find((item) => item.id === id);
+
+  const profile = runtime ? {
+    id: runtime.id,
+    name: runtime.name,
+    role: runtime.role,
+    category: runtime.category,
+    lifespan: runtime.lifespan,
+    description: runtime.description,
+  } : candidate && draft ? {
+    id: candidate.id,
+    name: candidate.name,
+    role: draft.pt?.role ?? '',
+    category: candidate.category,
+    lifespan: draft.lifespan ?? '',
+    description: draft.pt?.description ?? '',
+  } : null;
+
+  if (!profile) throw new Error('Dados da personalidade não encontrados para preparar a auditoria.');
+  if (!existsSync(auditQuestionsTemplatePath)) throw new Error('questions-template.txt não encontrado.');
+
+  const questions = readFileSync(auditQuestionsTemplatePath, 'utf8');
+  const packet = [
+    '12AXES — FICHA DE AUDITORIA DE PERSONALIDADE',
+    '',
+    'Esta ficha organiza a revisão humana das 240 perguntas. Ela não contém respostas, não atribui vetor e não substitui revisão editorial.',
+    '',
+    'DADOS DA PERSONALIDADE',
+    `id: ${profile.id}`,
+    `name: ${profile.name}`,
+    `role: ${profile.role}`,
+    `category: ${profile.category}`,
+    `lifespan: ${profile.lifespan}`,
+    `description: ${profile.description}`,
+    '',
+    'FLUXO',
+    '1. Revise as fontes factuais da personalidade.',
+    '2. Registre as respostas no formato permanente de profile-audit.',
+    '3. Volte ao Studio e use "Validar respostas".',
+    '4. Só depois de uma auditoria válida o vetor de 12 eixos deve ser integrado.',
+    '',
+    questions,
+  ].join('\n');
+
+  mkdirSync(auditPacketsRoot, { recursive: true });
+  const path = resolve(auditPacketsRoot, `${id}.txt`);
+  writeFileSync(path, packet, 'utf8');
+  refreshSnapshot();
+  return { path, packet };
+}
+
 function runAuditValidation(id) {
   const pendingPath = resolve(auditPendingRoot, `${id}.json`);
   const answerPath = resolve(auditAnswersRoot, `${id}.json`);
@@ -420,7 +494,7 @@ function runAuditValidation(id) {
     return {
       ok: false,
       kind: 'missing',
-      message: `Sem respostas de auditoria para ${id}. Rode /audit_personality ${id} no fluxo de auditoria e volte aqui para validar.`,
+      message: `Ainda não existem respostas de auditoria para ${id}. Use "Preparar auditoria" no Studio primeiro.`,
       output: '',
     };
   }
@@ -498,6 +572,26 @@ const api = createServer(async (req, res) => {
         ok: report.failed.length === 0,
         message: `Retratos: ${report.downloaded.length} baixados, ${report.skipped.length} já locais/sem fonte, ${report.failed.length} falharam.`,
         report,
+      });
+    }
+
+    if (req.url === '/__dev/personality-studio-api/portrait-selected') {
+      if (source !== 'staging') throw new Error('Download direto de retrato é usado para staging.');
+      const target = await materializeSelectedPortrait(id);
+      return jsonResponse(res, 200, {
+        ok: true,
+        message: 'Retrato baixado e normalizado para JPEG.',
+        target,
+      });
+    }
+
+    if (req.url === '/__dev/personality-studio-api/audit-prepare') {
+      const prepared = prepareAuditPacket(id);
+      return jsonResponse(res, 200, {
+        ok: true,
+        message: 'Ficha de auditoria preparada no Studio.',
+        path: prepared.path,
+        packet: prepared.packet,
       });
     }
 

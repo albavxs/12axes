@@ -174,3 +174,18 @@ After confirmation, the Studio changes:
 It deliberately does **not** change `profileStatus`, the 12-axis vector, or permanent audit answers. Those remain separate review gates.
 
 The status dot in the personality list now represents editorial integrity/validation rather than profile-audit completeness. PROFILE and AUDIT are displayed as separate badges in the detail view.
+
+
+## Simplified contributor flow
+
+The primary profile view is organized around three contributor-facing cards instead of raw pipeline states:
+
+- **Data** — PT/EN completeness and edit action.
+- **Photo** — local asset, downloadable source, or missing-source state. A staged personality with valid Commons metadata exposes **Download photo** directly without opening the editor.
+- **12-axis profile** — audit sheet, existing answers, validation state, or completed vector.
+
+Raw pipeline gates remain available under **Technical details**.
+
+When no audit answers exist, **Prepare audit** creates a neutral review sheet in `.personality-studio/audit-packets/<id>.txt`. It contains the personality metadata and the 240 project questions, but no answers or generated political scores. When answers already exist, the same action becomes **Validate answers** and runs the repository validator.
+
+The 12-axis visualization explicitly labels the scale as `0 = left pole` and `100 = right pole` and uses a point marker rather than a directional fill, reducing ambiguity about what the saved number means.

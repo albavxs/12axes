@@ -380,8 +380,78 @@
 }
 
 .studio-profile-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
   margin-top: 16px;
 }
+
+.studio-action-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 18px;
+}
+
+.studio-action-card {
+  display: flex;
+  justify-content: space-between;
+  gap: 14px;
+  align-items: center;
+  min-width: 0;
+  padding: 12px 13px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--paper-soft);
+}
+
+.studio-action-card > div:first-child {
+  min-width: 0;
+}
+
+.studio-action-card strong,
+.studio-action-card span {
+  display: block;
+}
+
+.studio-action-card strong {
+  color: var(--text-strong);
+  font-size: 0.78rem;
+}
+
+.studio-action-card span {
+  margin-top: 3px;
+  overflow: hidden;
+  color: var(--text-muted);
+  font-size: 0.64rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.studio-action-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 6px;
+}
+
+.studio-link-button {
+  text-decoration: none;
+}
+
+.studio-technical-details {
+  margin-top: 10px;
+  color: var(--text-muted);
+  font-size: 0.7rem;
+}
+
+.studio-technical-details > summary,
+.studio-pipeline-details > summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: var(--text-muted);
+}
+
 
 .studio-portrait {
   width: 190px;
@@ -598,17 +668,75 @@
   font-size: 0.62rem;
 }
 
-.studio-axis-track {
-  height: 7px;
-  overflow: hidden;
-  border-radius: var(--radius-pill);
-  background: var(--ink-100);
+.studio-axis-help {
+  margin: -2px 0 14px;
+  color: var(--text-muted);
+  font-size: 0.72rem;
 }
 
-.studio-axis-fill {
-  height: 100%;
-  border-radius: inherit;
-  background: var(--grad-accent);
+.studio-axis-row {
+  padding: 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  background: var(--surface);
+}
+
+.studio-axis-value {
+  min-width: 44px;
+  text-align: right;
+  color: var(--text-strong) !important;
+  font-variant-numeric: tabular-nums;
+  font-weight: 800;
+}
+
+.studio-axis-track {
+  position: relative;
+  height: 8px;
+  overflow: visible;
+  margin: 10px 4px 7px;
+  border-radius: var(--radius-pill);
+  background: linear-gradient(90deg, var(--ink-100), var(--paper), var(--ink-100));
+  border: 1px solid var(--line);
+}
+
+.studio-axis-midpoint {
+  position: absolute;
+  top: -3px;
+  bottom: -3px;
+  left: 50%;
+  width: 1px;
+  background: var(--line-strong);
+}
+
+.studio-axis-marker {
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--surface);
+  border-radius: 999px;
+  background: var(--accent);
+  box-shadow: 0 0 0 1px var(--accent);
+  transform: translate(-50%, -50%);
+}
+
+.studio-axis-poles b {
+  color: var(--text-strong);
+}
+
+.studio-axis-empty {
+  display: grid;
+  justify-items: start;
+  gap: 7px;
+  padding: 18px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-md);
+  background: var(--paper-soft);
+}
+
+.studio-axis-empty span {
+  color: var(--text-muted);
+  font-size: 0.72rem;
 }
 
 .studio-empty,
@@ -794,6 +922,10 @@
   }
 
   .studio-filter-card {
+    grid-template-columns: 1fr;
+  }
+
+  .studio-action-grid {
     grid-template-columns: 1fr;
   }
 

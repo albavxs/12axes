@@ -89,6 +89,7 @@ const runtimeEntries = await Promise.all(personalities.map(async (personality) =
   const dossier = evidenceById.get(id) ?? null;
   const auditAnswerExists = existsSync(resolve(auditRoot, 'answers/personality', `${id}.json`));
   const auditPendingExists = existsSync(resolve(auditRoot, 'subagent-out/personality', `${id}.json`));
+  const auditPacketExists = existsSync(resolve(repoRoot, '.personality-studio/audit-packets', `${id}.txt`));
   const image = await inspectImage(personality.imagePath);
   const errors = [];
   const warnings = [];
@@ -147,7 +148,7 @@ const runtimeEntries = await Promise.all(personalities.map(async (personality) =
     book,
     evidence: dossier,
     evidenceReady: Boolean((dossier?.sources?.length ?? 0) >= 2 && Object.keys(dossier?.evidence ?? {}).length >= 3),
-    audit: { answerExists: auditAnswerExists, pendingExists: auditPendingExists },
+    audit: { answerExists: auditAnswerExists, pendingExists: auditPendingExists, packetExists: auditPacketExists },
     editorial: runtimeEditorial,
     image,
     previewImagePath: personality.imagePath ?? '',
@@ -166,6 +167,7 @@ const stagingEntries = await Promise.all(
       const dossier = evidenceById.get(id) ?? null;
       const auditAnswerExists = existsSync(resolve(auditRoot, 'answers/personality', `${id}.json`));
       const auditPendingExists = existsSync(resolve(auditRoot, 'subagent-out/personality', `${id}.json`));
+      const auditPacketExists = existsSync(resolve(repoRoot, '.personality-studio/audit-packets', `${id}.txt`));
       const imagePath = draft?.portrait?.path ?? '';
       const image = await inspectImage(imagePath);
       const translated = draft?.en ? { id, name: candidate.name, role: draft.en.role, description: draft.en.description } : null;
@@ -302,7 +304,7 @@ const stagingEntries = await Promise.all(
         book,
         evidence: dossier,
         evidenceReady: Boolean((dossier?.sources?.length ?? 0) >= 2 && Object.keys(dossier?.evidence ?? {}).length >= 3),
-        audit: { answerExists: auditAnswerExists, pendingExists: auditPendingExists },
+        audit: { answerExists: auditAnswerExists, pendingExists: auditPendingExists, packetExists: auditPacketExists },
         editorial: stagingEditorial,
         image,
         localDraft: localDrafts[`staging:${id}`] ?? null,
