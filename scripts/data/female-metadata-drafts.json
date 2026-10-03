@@ -1635,6 +1635,256 @@
         "attribution": "flowcomm",
         "note": "2023 portrait at the Nelson Mandela Annual Lecture, licensed CC BY 2.0."
       }
+    },
+    {
+      "id": "aung-san-suu-kyi",
+      "lifespan": "1945–",
+      "pt": {
+        "role": "Política e ex-conselheira de Estado de Myanmar",
+        "description": "Política birmanesa, Aung San Suu Kyi liderou por décadas uma campanha não violenta contra o regime militar e pelo governo civil. Mais tarde, como conselheira de Estado, representou Myanmar perante a Corte Internacional de Justiça em 2019 no caso relativo às acusações de genocídio contra os Rohingya."
+      },
+      "en": {
+        "role": "Politician and former State Counsellor of Myanmar",
+        "description": "A Burmese politician, Aung San Suu Kyi led a decades-long nonviolent campaign against military rule and for civilian government. Later, as State Counsellor, she represented Myanmar before the International Court of Justice in 2019 in proceedings concerning genocide allegations against the Rohingya."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/aung-san-suu-kyi.jpg",
+        "sourceFile": "Aung San Suu Kyi 2016.jpg",
+        "sourceName": "Wikimedia Commons / UK Foreign and Commonwealth Office",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aung_San_Suu_Kyi_2016.jpg",
+        "license": "CC BY 2.0 / Open Government Licence v1.0",
+        "attribution": "Foreign and Commonwealth Office",
+        "note": "2016 photograph in London; source confirms CC BY 2.0 and Open Government Licence reuse."
+      }
+    },
+    {
+      "id": "megawati-sukarnoputri",
+      "lifespan": "1947–",
+      "pt": {
+        "role": "Política e ex-presidente da Indonésia",
+        "description": "Política indonésia, Megawati Sukarnoputri exerceu mandatos legislativos, foi vice-presidente entre 1999 e 2001 e presidiu a Indonésia de 2001 a 2004, durante o período de reformas institucionais posterior ao regime de Suharto."
+      },
+      "en": {
+        "role": "Politician and former President of Indonesia",
+        "description": "An Indonesian politician, Megawati Sukarnoputri served in parliament, was vice president from 1999 to 2001, and president from 2001 to 2004 during Indonesia’s post-Suharto institutional reform period."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/megawati-sukarnoputri.jpg",
+        "sourceFile": "Megawati Soekarnoputri, Official President portrait (2001).jpg",
+        "sourceName": "Wikimedia Commons / Government of Indonesia",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Megawati_Soekarnoputri,_Official_President_portrait_(2001).jpg",
+        "license": "Public domain in Indonesia",
+        "attribution": "Government of Indonesia",
+        "note": "Official presidential portrait; public domain under Indonesian copyright law for government publications."
+      }
+    },
+    {
+      "id": "sirimavo-bandaranaike",
+      "lifespan": "1916–2000",
+      "pt": {
+        "role": "Política e ex-primeira-ministra do Sri Lanka",
+        "description": "Política do Sri Lanka, Sirimavo Bandaranaike tornou-se em 1960 a primeira mulher chefe de governo do mundo e exerceu três períodos como primeira-ministra. Em 1976, seu governo sediou a cúpula do Movimento dos Não Alinhados."
+      },
+      "en": {
+        "role": "Politician and former Prime Minister of Sri Lanka",
+        "description": "A Sri Lankan politician, Sirimavo Bandaranaike became the world’s first woman head of government in 1960 and served three periods as prime minister. In 1976, her government hosted the Non-Aligned Movement summit."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/sirimavo-bandaranaike.jpg",
+        "sourceFile": "Sirimavo Bandaranaike 1970.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sirimavo_Bandaranaike_1970.jpg",
+        "license": "CC0 1.0",
+        "attribution": "Indiragandhifan",
+        "note": "1970 photograph released under the CC0 1.0 public-domain dedication."
+      }
+    },
+    {
+      "id": "tsai-ing-wen",
+      "lifespan": "1956–",
+      "pt": {
+        "role": "Jurista e ex-presidente de Taiwan",
+        "description": "Jurista e política taiwanesa, Tsai Ing-wen presidiu Taiwan de 2016 a 2024, após atuar em negociações comerciais, relações através do Estreito e liderança partidária. Durante seus mandatos, Taiwan aprovou o casamento entre pessoas do mesmo sexo."
+      },
+      "en": {
+        "role": "Jurist and former President of Taiwan",
+        "description": "A Taiwanese jurist and politician, Tsai Ing-wen served as president from 2016 to 2024 after work in trade negotiations, cross-strait affairs, and party leadership. During her presidency, Taiwan enacted marriage equality."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/tsai-ing-wen.jpg",
+        "sourceFile": "Tsai Ing-wen 2016 MOFA Portrait.png",
+        "sourceName": "Wikimedia Commons / Office of the President of Taiwan",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tsai_Ing-wen_2016_MOFA_Portrait.png",
+        "license": "Government Website Open Information Announcement; attribution required",
+        "attribution": "Office of the President of the Republic of China (Taiwan)",
+        "note": "Official 2016 presidential portrait; government open-information terms permit reproduction and adaptation with attribution."
+      }
+    },
+    {
+      "id": "qiu-jin",
+      "lifespan": "1875–1907",
+      "pt": {
+        "role": "Escritora, feminista e revolucionária",
+        "description": "Escritora e revolucionária chinesa, Qiu Jin defendeu educação, autonomia e igualdade para mulheres, participou de organizações revolucionárias contra a dinastia Qing e foi executada em 1907 após uma repressão às redes insurgentes."
+      },
+      "en": {
+        "role": "Writer, feminist, and revolutionary",
+        "description": "A Chinese writer and revolutionary, Qiu Jin advocated women’s education, autonomy, and equality, joined revolutionary organizations opposing the Qing dynasty, and was executed in 1907 after a crackdown on insurgent networks."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/qiu-jin.jpg",
+        "sourceFile": "Qiu jin.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Qiu_jin.jpg",
+        "license": "Public domain in China and the United States",
+        "attribution": "Unknown Qing-era photographer",
+        "note": "Photograph dated between 1900 and 1907; public domain in China and the United States."
+      }
+    },
+    {
+      "id": "akiko-yosano",
+      "lifespan": "1878–1942",
+      "pt": {
+        "role": "Poeta, escritora e educadora",
+        "description": "Poeta e ensaísta japonesa, Akiko Yosano foi uma figura central da literatura moderna japonesa, escreveu sobre a condição e a educação das mulheres e publicou durante a Guerra Russo-Japonesa o poema antibélico 'Kimi shinitamou koto nakare'."
+      },
+      "en": {
+        "role": "Poet, writer, and educator",
+        "description": "A Japanese poet and essayist, Akiko Yosano was a major figure in modern Japanese literature, wrote on women’s status and education, and during the Russo-Japanese War published the anti-war poem 'Kimi shinitamou koto nakare'."
+      },
+      "book": {
+        "title": {
+          "pt": "Midaregami",
+          "en": "Tangled Hair"
+        },
+        "year": 1901,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/akiko-yosano.jpg",
+        "sourceFile": "YOSANO Akiko.jpg",
+        "sourceName": "Wikimedia Commons / National Diet Library",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:YOSANO_Akiko.jpg",
+        "license": "Public domain in Japan",
+        "attribution": "Unknown photographer; National Diet Library source",
+        "note": "Historical portrait published no later than 1952; Commons identifies the photograph as public domain in Japan."
+      }
+    },
+    {
+      "id": "raicho-hiratsuka",
+      "lifespan": "1886–1971",
+      "pt": {
+        "role": "Escritora e ativista feminista",
+        "description": "Escritora e ativista japonesa, Raichō Hiratsuka fundou a revista Seitō em 1911, ajudou a criar a New Woman’s Association e participou dos movimentos por direitos políticos das mulheres, feminismo e paz."
+      },
+      "en": {
+        "role": "Writer and feminist activist",
+        "description": "A Japanese writer and activist, Raichō Hiratsuka founded the magazine Seitō in 1911, helped establish the New Woman’s Association, and participated in movements for women’s political rights, feminism, and peace."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/raicho-hiratsuka.jpg",
+        "sourceFile": "Raicho Hiratsuka.jpg",
+        "sourceName": "Wikimedia Commons / National Diet Library",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Raicho_Hiratsuka.jpg",
+        "license": "Public domain (PD-Japan-oldphoto / PD-1996)",
+        "attribution": "Unknown photographer; National Diet Library",
+        "note": "Historical portrait from the National Diet Library; Commons marks the file under Japanese old-photo and PD-1996 public-domain tags."
+      }
+    },
+    {
+      "id": "tomoe-gozen",
+      "lifespan": "c. 12th–13th century",
+      "pt": {
+        "role": "Figura guerreira histórico-literária",
+        "description": "Tomoe Gozen é uma guerreira associada às narrativas da Guerra Genpei e à tradição do Heike Monogatari. Sua biografia é parcialmente histórico-literária; as fontes preservam sobretudo representações de sua atuação marcial, não um programa político moderno."
+      },
+      "en": {
+        "role": "Historical-literary warrior figure",
+        "description": "Tomoe Gozen is a warrior associated with accounts of the Genpei War and the Heike Monogatari tradition. Her biography is partly historical-literary; surviving sources mainly concern martial representation rather than a modern political program."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/tomoe-gozen.jpg",
+        "sourceFile": "Tomoe-Gozen.jpg",
+        "sourceName": "Wikimedia Commons / Tokyo National Museum",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tomoe-Gozen.jpg",
+        "license": "Public domain / Public Domain Mark",
+        "attribution": "Kangetsu Shitomi; Tokyo National Museum",
+        "note": "Edo-period depiction of Tomoe Gozen; faithful reproduction of a public-domain artwork."
+      }
+    },
+    {
+      "id": "olympe-de-gouges",
+      "lifespan": "1748–1793",
+      "pt": {
+        "role": "Escritora e ativista política",
+        "description": "Escritora e militante francesa, Olympe de Gouges publicou em 1791 a Declaração dos Direitos da Mulher e da Cidadã, defendendo igualdade jurídica e participação política feminina durante a Revolução Francesa."
+      },
+      "en": {
+        "role": "Writer and political activist",
+        "description": "A French writer and activist, Olympe de Gouges published the Declaration of the Rights of Woman and of the Female Citizen in 1791, arguing for women’s legal equality and political participation during the French Revolution."
+      },
+      "book": {
+        "title": {
+          "pt": "Declaração dos Direitos da Mulher e da Cidadã",
+          "en": "Declaration of the Rights of Woman and of the Female Citizen"
+        },
+        "year": 1791,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/olympe-de-gouges.jpg",
+        "sourceFile": "Olympe de Gouges - portrait.jpg",
+        "sourceName": "Wikimedia Commons / Louvre Museum",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Olympe_de_Gouges_-_portrait.jpg",
+        "license": "Public domain / Public Domain Mark 1.0",
+        "attribution": "Unknown artist; Louvre Museum collection",
+        "note": "Faithful reproduction of an eighteenth-century public-domain portrait."
+      }
+    },
+    {
+      "id": "flora-tristan",
+      "lifespan": "1803–1844",
+      "pt": {
+        "role": "Escritora, feminista e militante social",
+        "description": "Escritora e militante franco-peruana, Flora Tristan relacionou emancipação das mulheres e organização dos trabalhadores, viajou documentando condições sociais e defendeu uma união internacional da classe trabalhadora."
+      },
+      "en": {
+        "role": "Writer, feminist, and social activist",
+        "description": "A French-Peruvian writer and activist, Flora Tristan linked women’s emancipation with workers’ organization, documented social conditions through travel, and advocated an international workers’ union."
+      },
+      "book": {
+        "title": {
+          "pt": "A União Operária",
+          "en": "The Workers' Union"
+        },
+        "year": 1843,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/flora-tristan.jpg",
+        "sourceFile": "Flora Tristan par Jules Laure.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Flora_Tristan_par_Jules_Laure.jpg",
+        "license": "Public domain",
+        "attribution": "Jules Laure",
+        "note": "1847 portrait by Jules Laure; public domain."
+      }
     }
   ]
 }

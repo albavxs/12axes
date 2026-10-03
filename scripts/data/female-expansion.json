@@ -980,9 +980,9 @@
       "region": "southeast-asia",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
@@ -990,7 +990,8 @@
         "https://webtv.un.org/en/asset/k18/k18inoichc",
         "https://www.icj-cij.org/case/178"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "megawati-sukarnoputri",
@@ -998,16 +999,17 @@
       "region": "southeast-asia",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://pusdipres.anri.go.id/presidenpedia?slug=presiden-megawati-soekarnoputri",
         "https://setkab.go.id/profil-kabinet/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sirimavo-bandaranaike",
@@ -1015,16 +1017,17 @@
       "region": "south-asia",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.parliament.lk/en/learn/women-in-parliament/who-we-are",
         "https://www.parliament.lk/uploads/documents/hansard/PUBDOC2063_document.pdf"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "tsai-ing-wen",
@@ -1032,9 +1035,9 @@
       "region": "east-asia",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
@@ -1042,7 +1045,8 @@
         "https://english.president.gov.tw/News/6004",
         "https://english.president.gov.tw/NEWS/6720"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "qiu-jin",
@@ -1050,16 +1054,17 @@
       "region": "east-asia",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://weai.columbia.edu/sites/weai.columbia.edu/files/content/Files/The%20Reed%20-%202022%20.pdf",
         "https://www.cambridge.org/core/journals/journal-of-chinese-history/article/silent-half-speaks/87DF02A8F96C10A54C899233D17D033E"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "akiko-yosano",
@@ -1067,16 +1072,17 @@
       "region": "east-asia",
       "period": "19th-20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.ndl.go.jp/portrait/e/datas/347",
         "https://www.ndl.go.jp/portrait/e/pickup/011/index.html"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "raicho-hiratsuka",
@@ -1084,16 +1090,17 @@
       "region": "east-asia",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.ndl.go.jp/portrait/e/datas/380/",
         "https://www5.jwu.ac.jp/st/grp/raiteu/raiteu01/raiteu-prize2005.pdf"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "tomoe-gozen",
@@ -1101,9 +1108,9 @@
       "region": "east-asia",
       "period": "12th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
@@ -1111,7 +1118,8 @@
         "https://www.metmuseum.org/art/collection/search/893321",
         "https://visualizingcultures.mit.edu/opium_wars_japan/noble3.html"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "olympe-de-gouges",
@@ -1119,16 +1127,17 @@
       "region": "europe",
       "period": "18th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.bnf.fr/fr/mediatheque/olympe-de-gouges-1748-1793",
         "https://www.bnf.fr/fr/mediatheque/pionnieres-olympe-de-gouges"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "flora-tristan",
@@ -1136,16 +1145,17 @@
       "region": "europe-latin-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://catalogue.bnf.fr/ark%3A/12148/cb11927116m.public",
         "https://www.bnf.fr/fr/mediatheque/flora-tristan"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "clara-zetkin",
