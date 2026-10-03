@@ -12,6 +12,9 @@ const publicRoot = resolve(frontendRoot, 'public');
 const localRoot = resolve(repoRoot, '.personality-studio');
 const localDraftsPath = resolve(localRoot, 'drafts.json');
 const generatorPath = resolve(frontendRoot, 'scripts/generate-personality-studio-data.mjs');
+const auditValidatorPath = resolve(repoRoot, 'profile-audit/validate.py');
+const auditAnswersRoot = resolve(repoRoot, 'profile-audit/answers/personality');
+const auditPendingRoot = resolve(repoRoot, 'profile-audit/subagent-out/personality');
 const apiPort = 5174;
 
 function readJson(path, fallback) {
@@ -408,6 +411,46 @@ function validateTarget(source, id) {
   if (!/^[a-z0-9][a-z0-9-]*$/.test(id)) throw new Error('Invalid personality id.');
 }
 
+function runAuditValidation(id) {
+  const pendingPath = resolve(auditPendingRoot, `${id}.json`);
+  const answerPath = resolve(auditAnswersRoot, `${id}.json`);
+  const inputPath = existsSync(pendingPath) ? pendingPath : existsSync(answerPath) ? answerPath : null;
+
+  if (!inputPath) {
+    return {
+      ok: false,
+      kind: 'missing',
+      message: `Sem respostas de auditoria para ${id}. Rode /audit_personality ${id} no fluxo de auditoria e volte aqui para validar.`,
+      output: '',
+    };
+  }
+
+  let result = null;
+  for (const python of ['python3', 'python']) {
+    const attempt = spawnSync(python, [auditValidatorPath, 'personality', id, inputPath], {
+      cwd: repoRoot,
+      encoding: 'utf8',
+      maxBuffer: 2 * 1024 * 1024,
+    });
+    if (attempt.error?.code === 'ENOENT') continue;
+    result = attempt;
+    break;
+  }
+
+  if (!result) throw new Error('Python não encontrado. Instale python3 para rodar a auditoria.');
+  if (result.error) throw result.error;
+
+  const output = [result.stdout, result.stderr].filter(Boolean).join('\n').trim().slice(0, 80_000);
+  return {
+    ok: result.status === 0,
+    kind: existsSync(pendingPath) ? 'pending' : 'archived',
+    message: result.status === 0
+      ? `Auditoria de ${id} passou no validador.`
+      : `Auditoria de ${id} encontrou bloqueios; revise a saída abaixo.`,
+    output,
+  };
+}
+
 function jsonResponse(res, status, payload) {
   res.statusCode = status;
   res.setHeader('Content-Type', 'application/json; charset=utf-8');
@@ -456,6 +499,12 @@ const api = createServer(async (req, res) => {
         message: `Retratos: ${report.downloaded.length} baixados, ${report.skipped.length} já locais/sem fonte, ${report.failed.length} falharam.`,
         report,
       });
+    }
+
+    if (req.url === '/__dev/personality-studio-api/audit') {
+      const report = runAuditValidation(id);
+      refreshSnapshot();
+      return jsonResponse(res, 200, report);
     }
 
     if (req.url === '/__dev/personality-studio-api/validate') {

@@ -119,9 +119,8 @@ const runtimeEntries = await Promise.all(personalities.map(async (personality) =
     if (extraAxes.length) warnings.push(`Eixos extras: ${extraAxes.join(', ')}`);
   }
 
-  if (!book) warnings.push('Sem livro cadastrado');
-  if (!auditAnswerExists) warnings.push('Sem auditoria permanente em profile-audit/answers');
-  if (auditPendingExists) warnings.push('Há saída de auditoria pendente em subagent-out');
+  // Livro e auditoria são gates independentes. A ausência deles não torna o
+  // catálogo inválido e já é exibida nos badges/painel de auditoria do Studio.
 
   const runtimeMetadataValid = ['id', 'name', 'role', 'category', 'representation', 'lifespan', 'description']
     .every((field) => Boolean(personality[field]));
@@ -174,41 +173,61 @@ const stagingEntries = await Promise.all(
       const errors = [];
       const warnings = [];
 
-      if (['review', 'ready'].includes(candidate.metadataStatus)) {
-        if (!draft?.lifespan || !draft?.pt?.role || !draft?.pt?.description) {
-          errors.push(`metadataStatus=${candidate.metadataStatus}, mas draft PT está incompleto`);
-        }
-      } else warnings.push(`Metadata ainda em ${candidate.metadataStatus}`);
+      const metadataMissing = !draft?.lifespan || !draft?.pt?.role || !draft?.pt?.description;
+      if (metadataMissing) {
+        const message = 'Metadata PT incompleta';
+        if (['review', 'ready'].includes(candidate.metadataStatus)) errors.push(message);
+        else warnings.push(message);
+      }
 
-      if (['review', 'ready'].includes(candidate.translationStatus)) {
-        if (!draft?.en?.role || !draft?.en?.description) {
-          errors.push(`translationStatus=${candidate.translationStatus}, mas draft EN está incompleto`);
-        }
-      } else warnings.push(`Tradução ainda em ${candidate.translationStatus}`);
+      const translationMissing = !draft?.en?.role || !draft?.en?.description;
+      if (translationMissing) {
+        const message = 'Tradução EN incompleta';
+        if (['review', 'ready'].includes(candidate.translationStatus)) errors.push(message);
+        else warnings.push(message);
+      }
 
-      if (['review', 'ready'].includes(candidate.portraitStatus)) {
-        if (!draft?.portrait?.sourceUrl || !draft?.portrait?.license || !draft?.portrait?.attribution) {
-          errors.push(`portraitStatus=${candidate.portraitStatus}, mas origem/licença está incompleta`);
-        }
-        validateDecodedImage(image, errors, warnings, { required: true });
-      } else warnings.push(`Retrato ainda em ${candidate.portraitStatus}`);
+      const portraitMetadataMissing =
+        !draft?.portrait?.path ||
+        !draft?.portrait?.sourceUrl ||
+        !draft?.portrait?.license ||
+        !draft?.portrait?.attribution;
+      const portraitClaimed = ['review', 'ready'].includes(candidate.portraitStatus);
+      if (portraitMetadataMissing) {
+        const message = 'Retrato sem path, fonte, licença ou atribuição completa';
+        if (portraitClaimed) errors.push(message);
+        else warnings.push(message);
+      } else {
+        const portraitErrors = [];
+        const portraitWarnings = [];
+        validateDecodedImage(image, portraitErrors, portraitWarnings, { required: true });
+        if (portraitClaimed) errors.push(...portraitErrors);
+        else warnings.push(...portraitErrors);
+        warnings.push(...portraitWarnings);
+      }
 
+      // Estados pending/researching/proposed pertencem ao workflow e aparecem nos
+      // badges. Só viram problema de QA quando o gate declara revisão/ready e os
+      // dados que sustentam esse estado estão inconsistentes.
       if (['review', 'proposed', 'ready'].includes(candidate.profileStatus)) {
         const sourceCount = dossier?.sources?.length ?? 0;
         const evidenceCount = Object.keys(dossier?.evidence ?? {}).length;
         if (sourceCount < 2) errors.push(`Dossiê tem apenas ${sourceCount} fonte(s); mínimo 2`);
         if (evidenceCount < 3) errors.push(`Dossiê tem apenas ${evidenceCount} campo(s) de evidência; mínimo 3`);
-      } else warnings.push(`Perfil ainda em ${candidate.profileStatus}`);
+      }
 
-      if (candidate.profileStatus === 'ready' && !auditAnswerExists) errors.push('profileStatus=ready sem auditoria permanente de 240 respostas');
-      else if (!auditAnswerExists) warnings.push('Sem auditoria permanente de 240 respostas');
-      if (auditPendingExists) warnings.push('Há saída de auditoria pendente em subagent-out');
+      if (candidate.profileStatus === 'ready' && !auditAnswerExists) {
+        errors.push('profileStatus=ready sem auditoria permanente de 240 respostas');
+      }
 
-      if (['review', 'ready'].includes(candidate.bookStatus)) {
-        if (!book?.title?.pt || !book?.title?.en || !book?.year) {
-          errors.push(`bookStatus=${candidate.bookStatus}, mas livro no staging está incompleto`);
-        }
-      } else if (!book) warnings.push(`Livro: ${candidate.bookStatus}`);
+      const bookIncomplete = Boolean(book) && (!book?.title?.pt || !book?.title?.en || !book?.year);
+      if (bookIncomplete) {
+        const message = 'Livro cadastrado, mas incompleto';
+        if (['review', 'ready'].includes(candidate.bookStatus)) errors.push(message);
+        else warnings.push(message);
+      } else if (['review', 'ready'].includes(candidate.bookStatus) && !book) {
+        errors.push(`bookStatus=${candidate.bookStatus}, mas não há livro no staging`);
+      }
 
       const metadataComplete = Boolean(
         candidate.name && candidate.category && draft?.lifespan && draft?.pt?.role && draft?.pt?.description

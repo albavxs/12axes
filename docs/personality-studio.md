@@ -128,9 +128,15 @@ Runtime and staging are displayed as separate sources and can be filtered indepe
 
 Runtime integrity failures are errors: missing metadata/translation/portrait/profile, invalid axis values or broken assets.
 
-Staging is workflow-aware. An unfinished `pending` or `researching` field is a warning, not an error. If a field claims `review` or `ready`, the Studio verifies that the corresponding draft, evidence, image, attribution or book actually exists.
+For staging, the QA panel reports **actual data problems**, not ordinary workflow states. A `pending`, `researching` or `proposed` label remains visible in the gate strip/pipeline panel, but it does not create a warning by itself. Missing or broken metadata, translations, portrait assets, source/license data, or incomplete claimed review/ready gates still surface as warnings/errors.
 
 A staged profile marked `ready` must also have permanent 240-question audit answers.
+
+### Audit button
+
+The Audit panel exposes **Run audit / Rodar auditoria** for the selected personality. It runs `profile-audit/validate.py personality <id>` against an existing pending or archived 240-answer file and prints the validator output directly in the Studio.
+
+The Studio deliberately does not synthesize political scores or 240-answer files. When no audit output exists yet, the panel points to the project audit workflow (`/audit_personality <id>`) so the answers can be prepared/reviewed before validation.
 
 ## Branch workflow
 

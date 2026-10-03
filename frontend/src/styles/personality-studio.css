@@ -531,6 +531,36 @@
   color: #79571b;
 }
 
+.studio-audit-result {
+  margin-top: 12px;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  font-size: 0.72rem;
+}
+
+.studio-audit-result--good {
+  background: var(--green-50);
+  color: var(--green-700);
+}
+
+.studio-audit-result--bad {
+  background: var(--red-50);
+  color: var(--red-700);
+}
+
+.studio-audit-result pre {
+  max-height: 280px;
+  margin: 10px 0 0;
+  padding: 10px;
+  overflow: auto;
+  border-radius: var(--radius-sm);
+  background: color-mix(in srgb, var(--paper) 82%, transparent);
+  color: var(--ink);
+  font: 0.68rem/1.5 ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  white-space: pre-wrap;
+}
+
 .studio-ok {
   color: var(--green-700);
   font-weight: 600;

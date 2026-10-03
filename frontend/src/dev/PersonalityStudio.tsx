@@ -117,6 +117,8 @@ function PersonalityStudio() {
   const [editing, setEditing] = useState(false);
   const [form, setForm] = useState<EditableDraft | null>(null);
   const [saving, setSaving] = useState(false);
+  const [auditing, setAuditing] = useState(false);
+  const [auditResult, setAuditResult] = useState<{ ok: boolean; message: string; output: string } | null>(null);
   const [notice, setNotice] = useState<{ tone: 'good' | 'bad'; text: string } | null>(null);
 
   async function loadCatalog(preferredKey?: string | null) {
@@ -186,6 +188,9 @@ function PersonalityStudio() {
     noIssues: 'Nenhum problema detectado.',
     permanentAnswers: 'Respostas permanentes',
     pendingOutput: 'Saída pendente',
+    runAudit: 'Rodar auditoria',
+    runningAudit: 'Auditando…',
+    auditRunnerHint: 'Valida as 240 respostas existentes com o validador do projeto; não gera pontuação automaticamente.',
     dossier: 'Dossiê',
     sources: 'Fontes',
     evidenceFields: 'Campos de evidência',
@@ -283,6 +288,9 @@ function PersonalityStudio() {
     noIssues: 'No issues detected.',
     permanentAnswers: 'Permanent answers',
     pendingOutput: 'Pending output',
+    runAudit: 'Run audit',
+    runningAudit: 'Auditing…',
+    auditRunnerHint: 'Validates existing 240 answers with the project validator; it does not generate scores automatically.',
     dossier: 'Dossier',
     sources: 'Sources',
     evidenceFields: 'Evidence fields',
@@ -373,6 +381,10 @@ function PersonalityStudio() {
 
   const selected = payload?.personalities.find((personality) => `${personality.source}:${personality.id}` === selectedKey) ?? null;
 
+  useEffect(() => {
+    setAuditResult(null);
+  }, [selectedKey]);
+
   function openEditor() {
     if (!selected) return;
     setForm(selected.localDraft ?? emptyDraft(selected));
@@ -411,6 +423,35 @@ function PersonalityStudio() {
       setNotice({ tone: 'bad', text: error instanceof Error ? error.message : String(error) });
     } finally {
       setSaving(false);
+    }
+  }
+
+  async function runAudit() {
+    if (!selected) return;
+    setAuditing(true);
+    setAuditResult(null);
+    setNotice(null);
+    try {
+      const response = await fetch('/__dev/personality-studio-api/audit', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ source: selected.source, id: selected.id }),
+      });
+      const body = await response.json();
+      if (!response.ok) throw new Error(body.error || 'Could not run audit validation');
+      setAuditResult({
+        ok: Boolean(body.ok),
+        message: String(body.message || ''),
+        output: String(body.output || ''),
+      });
+      setNotice({ tone: body.ok ? 'good' : 'bad', text: body.message });
+      await loadCatalog(selectedKey);
+    } catch (error) {
+      const message = error instanceof Error ? error.message : String(error);
+      setAuditResult({ ok: false, message, output: '' });
+      setNotice({ tone: 'bad', text: message });
+    } finally {
+      setAuditing(false);
     }
   }
 
@@ -625,7 +666,19 @@ function PersonalityStudio() {
                 </div>
 
                 <div className="studio-panel">
-                  <div className="studio-panel-title"><p className="studio-eyebrow">QA</p><h3>{ui.audit}</h3></div>
+                  <div className="studio-panel-title studio-panel-title--row">
+                    <div><p className="studio-eyebrow">QA</p><h3>{ui.audit}</h3></div>
+                    <button
+                      className="studio-icon-button"
+                      type="button"
+                      onClick={runAudit}
+                      disabled={auditing}
+                      title={ui.auditRunnerHint}
+                    >
+                      {auditing ? ui.runningAudit : ui.runAudit}
+                    </button>
+                  </div>
+                  <p className="studio-role">{ui.auditRunnerHint}</p>
                   <dl className="studio-definition-list">
                     <div><dt>{ui.permanentAnswers}</dt><dd>{selected.audit.answerExists ? ui.yes : ui.no}</dd></div>
                     <div><dt>{ui.pendingOutput}</dt><dd>{selected.audit.pendingExists ? ui.yes : ui.no}</dd></div>
@@ -633,6 +686,12 @@ function PersonalityStudio() {
                     <div><dt>{ui.sources}</dt><dd>{selected.evidence?.sources?.length ?? 0}</dd></div>
                     <div><dt>{ui.evidenceFields}</dt><dd>{Object.keys(selected.evidence?.evidence ?? {}).length}</dd></div>
                   </dl>
+                  {auditResult ? (
+                    <div className={`studio-audit-result ${auditResult.ok ? 'studio-audit-result--good' : 'studio-audit-result--bad'}`}>
+                      <strong>{auditResult.message}</strong>
+                      {auditResult.output ? <pre>{auditResult.output}</pre> : null}
+                    </div>
+                  ) : null}
                 </div>
 
                 <div className="studio-panel">
