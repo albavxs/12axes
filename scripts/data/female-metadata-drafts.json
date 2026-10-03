@@ -3830,6 +3830,504 @@
       "sources": [
         "https://cmsadmin.amritmahotsav.nic.in/unsung-heroes-detail.htm?244="
       ]
+    },
+    {
+      "id": "fatima-sheikh",
+      "lifespan": "1831–?",
+      "pt": {
+        "role": "Educadora e reformadora social",
+        "description": "Educadora e reformadora social associada a Savitribai e Jyotirao Phule em Pune, Fatima Sheikh é lembrada em relatos contemporâneos por sua participação na educação de meninas e de grupos marginalizados no século XIX. A documentação histórica sobrevivente sobre sua vida é escassa, por isso detalhes biográficos devem ser tratados com cautela."
+      },
+      "en": {
+        "role": "Educator and social reformer",
+        "description": "An educator and social reformer associated with Savitribai and Jyotirao Phule in Pune, Fatima Sheikh is remembered in modern accounts for her role in educating girls and marginalized communities in the 19th century. Surviving historical documentation about her life is sparse, so biographical details should be treated cautiously."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/gender-mainstreaming-a-legacy-of-learning-9874291/",
+        "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/knowledge-nugget-savitribai-phule-birth-anniversary-jyotirao-dalit-9756695/"
+      ]
+    },
+    {
+      "id": "pandita-ramabai",
+      "lifespan": "1858–1922",
+      "pt": {
+        "role": "Educadora e reformadora social",
+        "description": "Erudita em sânscrito, escritora e reformadora social indiana, Pandita Ramabai defendeu a educação e a autonomia das mulheres e chamou atenção para as condições enfrentadas por viúvas e meninas. Fundou a Sharada Sadan e outras iniciativas educacionais e assistenciais."
+      },
+      "en": {
+        "role": "Educator and social reformer",
+        "description": "An Indian Sanskrit scholar, writer, and social reformer, Pandita Ramabai advocated women's education and autonomy and drew attention to the conditions faced by widows and girls. She founded Sharada Sadan and other educational and welfare initiatives."
+      },
+      "book": {
+        "title": {
+          "pt": "The High-Caste Hindu Woman",
+          "en": "The High-Caste Hindu Woman"
+        },
+        "year": 1887,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null,
+      "sources": [
+        "https://amritmahotsav.nic.in/unsung-heroes-detail.htm?23123="
+      ]
+    },
+    {
+      "id": "kamla-bhasin",
+      "lifespan": "1946–2021",
+      "pt": {
+        "role": "Ativista feminista, escritora e cientista social",
+        "description": "Ativista feminista, poeta, autora e cientista social indiana, Kamla Bhasin trabalhou por décadas com educação de gênero, desenvolvimento humano e mídia. Coordenou programas regionais e foi uma das figuras centrais da rede feminista sul-asiática Sangat."
+      },
+      "en": {
+        "role": "Feminist activist, writer, and social scientist",
+        "description": "An Indian feminist activist, poet, author, and social scientist, Kamla Bhasin worked for decades on gender education, human development, and media. She coordinated regional programmes and became a central figure in the South Asian feminist network Sangat."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://sangatnetwork.org/kamla-bhasin-tribute-statement-and-works",
+        "https://sangatnetwork.org/history-of-sangat"
+      ]
+    },
+    {
+      "id": "asma-jahangir",
+      "lifespan": "1952–2018",
+      "pt": {
+        "role": "Advogada e defensora de direitos humanos",
+        "description": "Advogada paquistanesa e defensora de direitos humanos, Asma Jahangir foi presidente da Supreme Court Bar Association e exerceu mandatos das Nações Unidas como relatora especial sobre execuções extrajudiciais, sumárias ou arbitrárias e sobre liberdade de religião ou crença."
+      },
+      "en": {
+        "role": "Lawyer and human rights defender",
+        "description": "A Pakistani lawyer and human rights defender, Asma Jahangir served as President of the Supreme Court Bar Association and held United Nations mandates as Special Rapporteur on extrajudicial, summary or arbitrary executions and on freedom of religion or belief."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/asma-jahangir.jpg",
+        "sourceFile": "Asma Jahangir (33308430296).jpg",
+        "sourceName": "Wikimedia Commons / Simon Fraser University",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Asma_Jahangir_(33308430296).jpg",
+        "license": "CC BY 2.0",
+        "attribution": "Simon Fraser University - Communications & Marketing",
+        "note": "Retrato publicado no Flickr da Simon Fraser University e licenciado sob CC BY 2.0."
+      },
+      "sources": [
+        "https://spcommreports.ohchr.org/TmSearch/SummaryPrint?id=18091"
+      ]
+    },
+    {
+      "id": "irene-khan",
+      "lifespan": "1956–",
+      "pt": {
+        "role": "Advogada e especialista em direitos humanos",
+        "description": "Advogada e especialista em direitos humanos de Bangladesh, Irene Khan foi secretária-geral da Amnesty International e atua como relatora especial das Nações Unidas para a promoção e proteção do direito à liberdade de opinião e expressão."
+      },
+      "en": {
+        "role": "Lawyer and human rights expert",
+        "description": "A Bangladeshi lawyer and human rights expert, Irene Khan served as Secretary General of Amnesty International and serves as the United Nations Special Rapporteur on the promotion and protection of the right to freedom of opinion and expression."
+      },
+      "book": {
+        "title": {
+          "pt": "The Unheard Truth: Poverty and Human Rights",
+          "en": "The Unheard Truth: Poverty and Human Rights"
+        },
+        "year": 2009,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null,
+      "sources": [
+        "https://hrcportal.ohchr.org/62nd-regular-session-human-rights-council-0"
+      ]
+    },
+    {
+      "id": "rania-al-abdullah",
+      "lifespan": "1970–",
+      "pt": {
+        "role": "Rainha da Jordânia e defensora de iniciativas sociais",
+        "description": "Rania Al Abdullah é rainha da Jordânia desde 1999. Sua atuação pública inclui iniciativas relacionadas à educação, proteção de crianças e famílias, participação de mulheres e comunidades, juventude, inovação e empreendedorismo."
+      },
+      "en": {
+        "role": "Queen of Jordan and social-initiative advocate",
+        "description": "Rania Al Abdullah has been Queen of Jordan since 1999. Her public work includes initiatives related to education, child and family protection, women and community participation, youth, innovation, and entrepreneurship."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://www.queenrania.jo/en/rania"
+      ]
+    },
+    {
+      "id": "moza-bint-nasser",
+      "lifespan": "1959–",
+      "pt": {
+        "role": "Líder de iniciativas educacionais e sociais",
+        "description": "Moza bint Nasser é cofundadora e presidente da Qatar Foundation e atua há décadas em iniciativas de educação, ciência, desenvolvimento comunitário e reformas sociais no Catar, além de projetos internacionais de desenvolvimento."
+      },
+      "en": {
+        "role": "Education and social-development leader",
+        "description": "Moza bint Nasser is co-founder and Chairperson of Qatar Foundation and has worked for decades on education, science, community development, and social reform initiatives in Qatar as well as international development projects."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://www.qf.org.qa/about/profile/her-highness-sheikha-moza-bint-nasser",
+        "https://www.qf.org.qa/about/"
+      ]
+    },
+    {
+      "id": "masih-alinejad",
+      "lifespan": "1976–",
+      "pt": {
+        "role": "Jornalista, autora e ativista",
+        "description": "Jornalista e autora iraniana radicada nos Estados Unidos, Masih Alinejad tornou-se conhecida por campanhas e reportagens relacionadas aos direitos das mulheres e à liberdade de expressão no Irã."
+      },
+      "en": {
+        "role": "Journalist, author, and activist",
+        "description": "An Iranian journalist and author based in the United States, Masih Alinejad became known for campaigns and reporting related to women's rights and freedom of expression in Iran."
+      },
+      "book": {
+        "title": {
+          "pt": "The Wind in My Hair",
+          "en": "The Wind in My Hair"
+        },
+        "year": 2018,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/masih-alinejad.jpg",
+        "sourceFile": "Secretary Pompeo's Meeting With Iranian Women's Rights Activist Masih Alinejad (cropped).jpg",
+        "sourceName": "Wikimedia Commons / U.S. Department of State",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Secretary_Pompeo%27s_Meeting_With_Iranian_Women%27s_Rights_Activist_Masih_Alinejad_(cropped).jpg",
+        "license": "Public domain (U.S. federal government)",
+        "attribution": "U.S. Department of State",
+        "note": "Fotografia de 2019 produzida no exercício de funções oficiais do Departamento de Estado dos EUA; domínio público nos Estados Unidos."
+      },
+      "sources": [
+        "https://www.voanews.com/a/6117655.html",
+        "https://www.voanews.com/author/masih-alinejad/bibyo"
+      ]
+    },
+    {
+      "id": "nasrin-sotoudeh",
+      "lifespan": "1963–",
+      "pt": {
+        "role": "Advogada de direitos humanos",
+        "description": "Advogada iraniana de direitos humanos, Nasrin Sotoudeh tornou-se conhecida pela defesa jurídica de mulheres, minorias religiosas, menores e manifestantes, entre outros clientes. Recebeu, ao lado de Jafar Panahi, o Prêmio Sakharov de 2012 do Parlamento Europeu."
+      },
+      "en": {
+        "role": "Human rights lawyer",
+        "description": "An Iranian human rights lawyer, Nasrin Sotoudeh became known for legally representing women, religious minorities, minors, and protesters, among other clients. She shared the European Parliament's 2012 Sakharov Prize with Jafar Panahi."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://www.europarl.europa.eu/sakharovprize/en/nasrin-sotude-2012-iran/products-details/20200331CAN54204"
+      ]
+    },
+    {
+      "id": "loujain-al-hathloul",
+      "lifespan": "1989–",
+      "pt": {
+        "role": "Ativista pelos direitos das mulheres",
+        "description": "Ativista saudita pelos direitos das mulheres, Loujain al-Hathloul tornou-se conhecida por campanhas contra a proibição de mulheres dirigirem e por mudanças no sistema de tutela masculina. Foi detida em 2018 e libertada da prisão em fevereiro de 2021."
+      },
+      "en": {
+        "role": "Women's rights activist",
+        "description": "A Saudi women's rights activist, Loujain al-Hathloul became known for campaigning against the ban on women driving and for changes to the male guardianship system. She was detained in 2018 and released from prison in February 2021."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/loujain-al-hathloul.jpg",
+        "sourceFile": "Loujain Alhathloul.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Loujain_Alhathloul.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Unknown author; Wikimedia VRTS permission confirmed",
+        "note": "Retrato com permissão confirmada pelo sistema VRTS da Wikimedia e licença CC BY-SA 4.0."
+      },
+      "sources": [
+        "https://www.europarl.europa.eu/delegations/en/women-s-rights-defenders-in-saudi-arabia/product-details/20180601DPU17821",
+        "https://www.europarl.europa.eu/doceo/document/TA-8-2019-0117_EN.html"
+      ]
+    },
+    {
+      "id": "hatoon-al-fassi",
+      "lifespan": "1964–",
+      "pt": {
+        "role": "Historiadora",
+        "description": "Historiadora saudita, Hatoon al-Fassi é pesquisadora da história da Arábia pré-islâmica e da história das mulheres. Trabalhou e lecionou na King Saud University e na Qatar University e é Honorary Research Fellow na University of Manchester."
+      },
+      "en": {
+        "role": "Historian",
+        "description": "A Saudi historian, Hatoon al-Fassi researches pre-Islamic Arabian history and women's history. She worked and taught at King Saud University and Qatar University and is an Honorary Research Fellow at the University of Manchester."
+      },
+      "book": {
+        "title": {
+          "pt": "Women in Pre-Islamic Arabia: Nabataea",
+          "en": "Women in Pre-Islamic Arabia: Nabataea"
+        },
+        "year": 2007,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null,
+      "sources": [
+        "https://research.manchester.ac.uk/en/persons/hatoon.alfassi"
+      ]
+    },
+    {
+      "id": "amina-wadud",
+      "lifespan": "1952–",
+      "pt": {
+        "role": "Pesquisadora de estudos islâmicos",
+        "description": "Acadêmica norte-americana de estudos islâmicos, amina wadud trabalha com hermenêutica do Alcorão, gênero e ética. É professora emérita de estudos islâmicos e sua obra inclui Qur'an and Woman, dedicada à releitura do texto sagrado a partir de questões de gênero."
+      },
+      "en": {
+        "role": "Islamic studies scholar",
+        "description": "An American scholar of Islamic studies, amina wadud works on Qur'anic hermeneutics, gender, and ethics. She is Professor Emeritus of Islamic Studies and her work includes Qur'an and Woman, which rereads the sacred text through questions of gender."
+      },
+      "book": {
+        "title": {
+          "pt": "Qur'an and Woman: Rereading the Sacred Text from a Woman's Perspective",
+          "en": "Qur'an and Woman: Rereading the Sacred Text from a Woman's Perspective"
+        },
+        "year": 1999,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null,
+      "sources": [
+        "https://academic.oup.com/edited-volume/62249/chapter-abstract/551452824"
+      ]
+    },
+    {
+      "id": "leila-ahmed",
+      "lifespan": "1940–",
+      "pt": {
+        "role": "Acadêmica de estudos de gênero e religião",
+        "description": "Acadêmica egípcio-americana, Leila Ahmed é professora emérita da Harvard Divinity School. Seu trabalho aborda mulheres, gênero e religião, com atenção especial à história do Islã, ao Oriente Médio e às experiências de mulheres muçulmanas."
+      },
+      "en": {
+        "role": "Scholar of gender and religion",
+        "description": "An Egyptian-American scholar, Leila Ahmed is Professor Emerita at Harvard Divinity School. Her work addresses women, gender, and religion, with particular attention to the history of Islam, the Middle East, and Muslim women's experiences."
+      },
+      "book": {
+        "title": {
+          "pt": "Women and Gender in Islam: Historical Roots of a Modern Debate",
+          "en": "Women and Gender in Islam: Historical Roots of a Modern Debate"
+        },
+        "year": 1993,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null,
+      "sources": [
+        "https://www.hds.harvard.edu/people/leila-ahmed"
+      ]
+    },
+    {
+      "id": "amina-mama",
+      "lifespan": "1958–",
+      "pt": {
+        "role": "Acadêmica e pesquisadora feminista",
+        "description": "Acadêmica nigeriano-britânica, Amina Mama é professora de Gender, Sexuality and Women's Studies na University of California, Davis. Sua trajetória combina pesquisa, educação e organização feminista em contextos africanos e transnacionais."
+      },
+      "en": {
+        "role": "Feminist scholar and researcher",
+        "description": "A Nigerian-British scholar, Amina Mama is Professor of Gender, Sexuality and Women's Studies at the University of California, Davis. Her career combines research, education, and feminist organizing in African and transnational contexts."
+      },
+      "book": {
+        "title": {
+          "pt": "Beyond the Masks: Race, Gender and Subjectivity",
+          "en": "Beyond the Masks: Race, Gender and Subjectivity"
+        },
+        "year": 1995,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/amina-mama.jpg",
+        "sourceFile": "Amina Mama, 2022.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Amina_Mama,_2022.jpg",
+        "license": "CC0 1.0",
+        "attribution": "Koolbeen",
+        "note": "Retrato de 2022 dedicado ao domínio público por meio de CC0 1.0."
+      },
+      "sources": [
+        "https://culturalstudies.ucdavis.edu/people/amina-mama",
+        "https://academic.oup.com/reference/62382/reference-article-abstract/555030355"
+      ]
+    },
+    {
+      "id": "oyewumi-oyeronke",
+      "lifespan": "1957–",
+      "pt": {
+        "role": "Socióloga e teórica social",
+        "description": "Socióloga nigeriana e professora emérita da Stony Brook University, Oyèrónkẹ́ Oyěwùmí pesquisa sociologia do gênero, conhecimento, cultura, teoria feminista e estudos africanos. Seu livro The Invention of Women discute os limites da aplicação universal de categorias ocidentais de gênero."
+      },
+      "en": {
+        "role": "Sociologist and social theorist",
+        "description": "A Nigerian sociologist and Professor Emerita at Stony Brook University, Oyèrónkẹ́ Oyěwùmí researches the sociology of gender, knowledge, culture, feminist theory, and African studies. Her book The Invention of Women examines the limits of treating Western gender categories as universal."
+      },
+      "book": {
+        "title": {
+          "pt": "The Invention of Women: Making an African Sense of Western Gender Discourses",
+          "en": "The Invention of Women: Making an African Sense of Western Gender Discourses"
+        },
+        "year": 1997,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/oyewumi-oyeronke.jpg",
+        "sourceFile": "Oyèrónkẹ́ Oyěwùmí, 2020 (cropped).jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Oy%C3%A8r%C3%B3nk%E1%BA%B9%CC%81_Oy%C4%9Bw%C3%B9m%C3%AD,_2020_(cropped).jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Oyeronke Oyewumi",
+        "note": "Retrato de 2020 publicado sob CC BY-SA 4.0."
+      },
+      "sources": [
+        "https://linguistics.stonybrook.edu/commcms/sociology/people/faculty/oyewumi.php"
+      ]
+    },
+    {
+      "id": "amina-j-mohammed",
+      "lifespan": "1961–",
+      "pt": {
+        "role": "Diplomata e vice-secretária-geral das Nações Unidas",
+        "description": "Diplomata e especialista em desenvolvimento nigeriana, Amina J. Mohammed é vice-secretária-geral das Nações Unidas e presidente do United Nations Sustainable Development Group. Antes disso, foi ministra do Meio Ambiente da Nigéria e assessora especial da ONU para o planejamento pós-2015."
+      },
+      "en": {
+        "role": "Diplomat and United Nations Deputy Secretary-General",
+        "description": "A Nigerian diplomat and development specialist, Amina J. Mohammed is the United Nations Deputy Secretary-General and Chair of the United Nations Sustainable Development Group. She previously served as Nigeria's Minister of Environment and as the UN Special Adviser on Post-2015 Development Planning."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://www.un.org/sg/en/dsg/about-the-deputy-secretary-general",
+        "https://www.un.org/sg/en/content/sg/personnel-appointments/2017-01-01/ms-amina-j-mohammed-of-nigeria-deputy-secretary-general"
+      ]
+    },
+    {
+      "id": "ngozi-okonjo-iweala",
+      "lifespan": "1954–",
+      "pt": {
+        "role": "Economista e diretora-geral da OMC",
+        "description": "Economista e especialista em desenvolvimento internacional nigeriana, Ngozi Okonjo-Iweala é diretora-geral da Organização Mundial do Comércio. Assumiu o cargo em 2021 como a primeira mulher e a primeira pessoa africana a liderar a OMC e iniciou um segundo mandato de quatro anos em 1º de setembro de 2025."
+      },
+      "en": {
+        "role": "Economist and WTO Director-General",
+        "description": "A Nigerian economist and international development expert, Ngozi Okonjo-Iweala is Director-General of the World Trade Organization. She took office in 2021 as the first woman and first African to lead the WTO and began a second four-year term on 1 September 2025."
+      },
+      "book": {
+        "title": {
+          "pt": "Reforming the UnReformable: Lessons from Nigeria",
+          "en": "Reforming the UnReformable: Lessons from Nigeria"
+        },
+        "year": 2012,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null,
+      "sources": [
+        "https://www.wto.org/english/thewto_e/dg_e/dg_e.htm",
+        "https://www.wto.org/english/thewto_e/dg_e/dg_selection_process_e.htm"
+      ]
+    },
+    {
+      "id": "vera-songwe",
+      "lifespan": "1968–",
+      "pt": {
+        "role": "Economista",
+        "description": "Economista camaronesa, Vera Songwe foi secretária-executiva da Comissão Econômica das Nações Unidas para a África a partir de 2017, tornando-se a primeira mulher a ocupar o cargo. Antes disso, trabalhou no Banco Mundial e na International Finance Corporation em funções de economia, desenvolvimento e liderança regional."
+      },
+      "en": {
+        "role": "Economist",
+        "description": "A Cameroonian economist, Vera Songwe became Executive Secretary of the United Nations Economic Commission for Africa in 2017, the first woman to hold the post. Earlier, she worked at the World Bank and International Finance Corporation in economics, development, and regional leadership roles."
+      },
+      "book": null,
+      "portrait": null,
+      "sources": [
+        "https://archive.uneca.org/executive-secretary/pages/biography",
+        "https://archive.uneca.org/stories/vera-songwe-appointed-executive-secretary-economic-commission-africa"
+      ]
+    },
+    {
+      "id": "dambisa-moyo",
+      "lifespan": "1969–",
+      "pt": {
+        "role": "Economista e autora",
+        "description": "Economista e autora zambiana-britânica, Dambisa Moyo atua em temas de economia global, mercados financeiros e geopolítica. É membro da Câmara dos Lordes do Reino Unido, integra conselhos de organizações e empresas e possui doutorado em economia pela University of Oxford."
+      },
+      "en": {
+        "role": "Economist and author",
+        "description": "A Zambian-British economist and author, Dambisa Moyo works on the global economy, financial markets, and geopolitics. She is a member of the United Kingdom's House of Lords, serves on organizational and corporate boards, and holds a doctorate in economics from the University of Oxford."
+      },
+      "book": {
+        "title": {
+          "pt": "Dead Aid",
+          "en": "Dead Aid"
+        },
+        "year": 2009,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null,
+      "sources": [
+        "https://dambisamoyo.com/"
+      ]
+    },
+    {
+      "id": "nana-konadu-agyeman-rawlings",
+      "lifespan": "1948–2025",
+      "pt": {
+        "role": "Ativista, ex-primeira-dama e política",
+        "description": "Ativista e política ganesa, Nana Konadu Agyeman-Rawlings foi primeira-dama de Gana durante os períodos em que Jerry Rawlings chefiou o Estado, fundou o 31st December Women's Movement e, em 2012, fundou o National Democratic Party. Em 2016, tornou-se a primeira mulher a disputar a presidência de Gana. Morreu em 23 de outubro de 2025."
+      },
+      "en": {
+        "role": "Activist, former First Lady, and politician",
+        "description": "A Ghanaian activist and politician, Nana Konadu Agyeman-Rawlings served as First Lady of Ghana during the periods when Jerry Rawlings led the state, founded the 31st December Women's Movement, and founded the National Democratic Party in 2012. In 2016, she became the first woman to contest Ghana's presidency. She died on 23 October 2025."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/nana-konadu-agyeman-rawlings.jpg",
+        "sourceFile": "Nana Konadu Agyeman Rawlings.png",
+        "sourceName": "Wikimedia Commons / NdaniTV",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nana_Konadu_Agyeman_Rawlings.png",
+        "license": "CC BY 3.0",
+        "attribution": "NdaniTV",
+        "note": "Retrato extraído de vídeo publicado sob CC BY 3.0; a licença foi revisada e confirmada no Wikimedia Commons."
+      },
+      "sources": [
+        "https://gna.org.gh/2025/10/former-first-lady-nana-konadu-agyeman-rawlings-is-dead/",
+        "https://gna.org.gh/2025/11/president-mahama-leads-ghanaians-to-bid-farewell-to-former-first-lady/"
+      ]
     }
   ]
 }
