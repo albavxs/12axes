@@ -1885,6 +1885,486 @@
         "attribution": "Jules Laure",
         "note": "1847 portrait by Jules Laure; public domain."
       }
+    },
+    {
+      "id": "clara-zetkin",
+      "lifespan": "1857–1933",
+      "pt": {
+        "role": "Política socialista e ativista pelos direitos das mulheres",
+        "description": "Política e jornalista alemã, Clara Zetkin organizou mulheres no movimento socialista, defendeu o sufrágio feminino e representou partidos socialistas e comunistas em instituições parlamentares alemãs."
+      },
+      "en": {
+        "role": "Socialist politician and women’s-rights activist",
+        "description": "A German politician and journalist, Clara Zetkin organized women in the socialist movement, advocated women’s suffrage, and represented socialist and communist parties in German parliamentary institutions."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/clara-zetkin.jpg",
+        "sourceFile": "Zetkin Clara.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Zetkin_Clara.jpg",
+        "license": "Public domain",
+        "attribution": "Karl Pinkau",
+        "note": "Portrait from circa 1890 by Karl Pinkau; public domain because the photographer died in 1922."
+      }
+    },
+    {
+      "id": "louise-michel",
+      "lifespan": "1830–1905",
+      "pt": {
+        "role": "Educadora, comunarda e ativista",
+        "description": "Educadora e militante francesa, Louise Michel participou da Comuna de Paris de 1871, foi presa e deportada para a Nova Caledônia e, após retornar à França, continuou atuando em movimentos revolucionários e sociais."
+      },
+      "en": {
+        "role": "Educator, Communard, and activist",
+        "description": "A French educator and activist, Louise Michel participated in the 1871 Paris Commune, was imprisoned and deported to New Caledonia, and after returning to France continued working in revolutionary and social movements."
+      },
+      "book": {
+        "title": {
+          "pt": "Memórias",
+          "en": "Memoirs"
+        },
+        "year": 1886,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/louise-michel.jpg",
+        "sourceFile": "Portrait de Louise Michel (1830-1905), pendant la Commune de Paris 1871. PH15064(2).jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_de_Louise_Michel_(1830-1905),_pendant_la_Commune_de_Paris_1871._PH15064(2).jpg",
+        "license": "CC0 1.0",
+        "attribution": "Ernest-Charles Appert",
+        "note": "1871 portrait associated with the Paris Commune; released under CC0 on Commons."
+      }
+    },
+    {
+      "id": "millicent-fawcett",
+      "lifespan": "1847–1929",
+      "pt": {
+        "role": "Sufragista e reformadora",
+        "description": "Sufragista britânica, Millicent Garrett Fawcett liderou a National Union of Women’s Suffrage Societies e defendeu uma estratégia constitucional de petições, marchas, lobby parlamentar e educação pública pelo direito de voto das mulheres."
+      },
+      "en": {
+        "role": "Suffragist and reformer",
+        "description": "A British suffragist, Millicent Garrett Fawcett led the National Union of Women’s Suffrage Societies and pursued a constitutional strategy of petitions, marches, parliamentary lobbying, and public education for women’s voting rights."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/millicent-fawcett.jpg",
+        "sourceFile": "Portrait of Millicent Fawcett.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Millicent_Fawcett.jpg",
+        "license": "Public domain in the United States",
+        "attribution": "Unknown photographer",
+        "note": "Portrait from circa 1892, published before 1931 and public domain in the United States."
+      }
+    },
+    {
+      "id": "sylvia-pankhurst",
+      "lifespan": "1882–1960",
+      "pt": {
+        "role": "Sufragista, socialista e ativista",
+        "description": "Ativista britânica, Sylvia Pankhurst participou do movimento sufragista e depois organizou mulheres trabalhadoras no East End de Londres, atuando também em campanhas socialistas, antifascistas e contra a guerra."
+      },
+      "en": {
+        "role": "Suffragist, socialist, and activist",
+        "description": "A British activist, Sylvia Pankhurst participated in the suffrage movement and later organized working women in London’s East End, while also working in socialist, anti-fascist, and anti-war campaigns."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/sylvia-pankhurst.jpg",
+        "sourceFile": "Photograph of Sylvia Pankhurst , c. 1910. (22790898511).jpg",
+        "sourceName": "Wikimedia Commons / LSE Library",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Photograph_of_Sylvia_Pankhurst_,_c._1910._(22790898511).jpg",
+        "license": "No known copyright restrictions / Flickr Commons",
+        "attribution": "LSE Library",
+        "note": "Circa-1910 portrait from LSE Library’s Women’s Library collection, shared through Flickr Commons."
+      }
+    },
+    {
+      "id": "christabel-pankhurst",
+      "lifespan": "1880–1958",
+      "pt": {
+        "role": "Sufragista e dirigente da WSPU",
+        "description": "Sufragista britânica, Christabel Pankhurst cofundou a Women’s Social and Political Union e tornou-se uma de suas principais estrategistas, defendendo táticas militantes na campanha pelo voto feminino."
+      },
+      "en": {
+        "role": "Suffragist and WSPU leader",
+        "description": "A British suffragist, Christabel Pankhurst co-founded the Women’s Social and Political Union and became one of its principal strategists, supporting militant tactics in the campaign for women’s voting rights."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/christabel-pankhurst.jpg",
+        "sourceFile": "Christabel Pankhurst 1912.jpg",
+        "sourceName": "Wikimedia Commons / Bibliothèque nationale de France",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Christabel_Pankhurst_1912.jpg",
+        "license": "Public domain",
+        "attribution": "Agence de presse Meurisse",
+        "note": "1912 press portrait from the Bibliothèque nationale de France; public domain."
+      }
+    },
+    {
+      "id": "edith-cavell",
+      "lifespan": "1865–1915",
+      "pt": {
+        "role": "Enfermeira e humanitária",
+        "description": "Enfermeira britânica radicada em Bruxelas, Edith Cavell tratou soldados feridos de diferentes nacionalidades durante a Primeira Guerra Mundial e ajudou militares aliados e civis a sair da Bélgica ocupada; foi executada pelas autoridades alemãs em 1915."
+      },
+      "en": {
+        "role": "Nurse and humanitarian",
+        "description": "A British nurse based in Brussels, Edith Cavell treated wounded soldiers of different nationalities during the First World War and helped Allied servicemen and civilians leave occupied Belgium; German authorities executed her in 1915."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/edith-cavell.jpg",
+        "sourceFile": "Edith Cavell portrait.jpg",
+        "sourceName": "Wikimedia Commons / Library of Congress",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edith_Cavell_portrait.jpg",
+        "license": "Public domain in the United States",
+        "attribution": "Bain News Service / Library of Congress",
+        "note": "Historical portrait from the Library of Congress; public domain in the United States."
+      }
+    },
+    {
+      "id": "sophie-scholl",
+      "lifespan": "1921–1943",
+      "pt": {
+        "role": "Integrante da resistência antinazista",
+        "description": "Estudante alemã e integrante da Rosa Branca, Sophie Scholl participou da produção e distribuição de panfletos contra o regime nazista. Foi presa na Universidade de Munique, julgada e executada em fevereiro de 1943."
+      },
+      "en": {
+        "role": "Anti-Nazi resistance member",
+        "description": "A German student and member of the White Rose, Sophie Scholl participated in producing and distributing leaflets against the Nazi regime. She was arrested at the University of Munich, tried, and executed in February 1943."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/sophie-scholl.jpg",
+        "sourceFile": "Gestapo photo of Sophie Scholl taken after her capture on February 18, 1943-2.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gestapo_photo_of_Sophie_Scholl_taken_after_her_capture_on_February_18,_1943-2.jpg",
+        "license": "Public domain",
+        "attribution": "Unknown German police photographer",
+        "note": "Gestapo identification photograph after her arrest in 1943; Commons identifies it as public domain due to anonymous authorship."
+      }
+    },
+    {
+      "id": "bertha-von-suttner",
+      "lifespan": "1843–1914",
+      "pt": {
+        "role": "Escritora e ativista pacifista",
+        "description": "Escritora austro-boêmia e dirigente do movimento pacifista internacional, Bertha von Suttner fundou a Austrian Peace Society, publicou o romance antibélico Die Waffen nieder! e recebeu o Nobel da Paz em 1905."
+      },
+      "en": {
+        "role": "Writer and peace activist",
+        "description": "An Austro-Bohemian writer and international peace-movement leader, Bertha von Suttner founded the Austrian Peace Society, published the anti-war novel Lay Down Your Arms!, and received the Nobel Peace Prize in 1905."
+      },
+      "book": {
+        "title": {
+          "pt": "Abaixo as Armas!",
+          "en": "Lay Down Your Arms!"
+        },
+        "year": 1889,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/bertha-von-suttner.jpg",
+        "sourceFile": "Bertha-von-Suttner-1906.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Bertha-von-Suttner-1906.jpg",
+        "license": "Public domain / Public Domain Mark",
+        "attribution": "Carl Pietzner",
+        "note": "1906 portrait; public domain in source country and the United States."
+      }
+    },
+    {
+      "id": "gro-harlem-brundtland",
+      "lifespan": "1939–",
+      "pt": {
+        "role": "Médica, ex-primeira-ministra e ex-diretora-geral da OMS",
+        "description": "Médica e política norueguesa, Gro Harlem Brundtland exerceu três períodos como primeira-ministra, presidiu a Comissão Mundial sobre Meio Ambiente e Desenvolvimento e dirigiu a Organização Mundial da Saúde de 1998 a 2003."
+      },
+      "en": {
+        "role": "Physician, former Prime Minister, and former WHO Director-General",
+        "description": "A Norwegian physician and politician, Gro Harlem Brundtland served three periods as prime minister, chaired the World Commission on Environment and Development, and led the World Health Organization from 1998 to 2003."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/gro-harlem-brundtland.jpg",
+        "sourceFile": "Gro Harlem Brundtland ca.1974–1979.jpg",
+        "sourceName": "Wikimedia Commons / Norsk Teknisk Museum",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Gro_Harlem_Brundtland_ca.1974%E2%80%931979.jpg",
+        "license": "CC BY 4.0",
+        "attribution": "Teigens Fotoatelier / Norsk Teknisk Museum",
+        "note": "Portrait from circa 1974–1979, licensed CC BY 4.0."
+      }
+    },
+    {
+      "id": "tarja-halonen",
+      "lifespan": "1943–",
+      "pt": {
+        "role": "Jurista e ex-presidente da Finlândia",
+        "description": "Jurista e política finlandesa, Tarja Halonen foi parlamentar, ministra e presidente da Finlândia de 2000 a 2012, com atuação pública associada a direitos humanos, igualdade e participação internacional."
+      },
+      "en": {
+        "role": "Jurist and former President of Finland",
+        "description": "A Finnish jurist and politician, Tarja Halonen served as a member of parliament, minister, and president of Finland from 2000 to 2012, with public work focused on human rights, equality, and international engagement."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/tarja-halonen.jpg",
+        "sourceFile": "Tarja Halonen on August 26, 2010.jpg",
+        "sourceName": "Wikimedia Commons / Estonian Foreign Ministry",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tarja_Halonen_on_August_26,_2010.jpg",
+        "license": "CC BY 2.0",
+        "attribution": "Estonian Foreign Ministry",
+        "note": "2010 portrait licensed under Creative Commons Attribution 2.0."
+      }
+    },
+    {
+      "id": "vigdis-finnbogadottir",
+      "lifespan": "1930–",
+      "pt": {
+        "role": "Ex-presidente da Islândia",
+        "description": "Educadora e dirigente cultural islandesa, Vigdís Finnbogadóttir foi presidente da Islândia de 1980 a 1996, tornando-se a primeira mulher eleita por voto popular para a presidência de um país."
+      },
+      "en": {
+        "role": "Former President of Iceland",
+        "description": "An Icelandic educator and cultural leader, Vigdís Finnbogadóttir served as president of Iceland from 1980 to 1996, becoming the first woman elected by popular vote to serve as a country’s president."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/vigdis-finnbogadottir.jpg",
+        "sourceFile": "Vigdis Finnbogadottir (1985).jpg",
+        "sourceName": "Wikimedia Commons / Nationaal Archief",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vigdis_Finnbogadottir_(1985).jpg",
+        "license": "CC BY-SA 3.0 NL",
+        "attribution": "Rob Croes / Nationaal Archief",
+        "note": "1985 portrait from the Dutch National Archives, licensed CC BY-SA 3.0 Netherlands."
+      }
+    },
+    {
+      "id": "mary-robinson",
+      "lifespan": "1944–",
+      "pt": {
+        "role": "Jurista, ex-presidente da Irlanda e ex-alta-comissária da ONU",
+        "description": "Jurista irlandesa, Mary Robinson foi presidente da Irlanda de 1990 a 1997 e depois Alta-Comissária das Nações Unidas para os Direitos Humanos, mantendo atuação internacional em direitos humanos e justiça climática."
+      },
+      "en": {
+        "role": "Jurist, former President of Ireland, and former UN High Commissioner",
+        "description": "An Irish jurist, Mary Robinson served as president of Ireland from 1990 to 1997 and later as United Nations High Commissioner for Human Rights, continuing international work on human rights and climate justice."
+      },
+      "book": {
+        "title": {
+          "pt": "Everybody Matters",
+          "en": "Everybody Matters"
+        },
+        "year": 2012,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/mary-robinson.jpg",
+        "sourceFile": "Mary Robinson, May 1995 01.jpg",
+        "sourceName": "Wikimedia Commons / European Commission",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mary_Robinson,_May_1995_01.jpg",
+        "license": "CC BY 4.0",
+        "attribution": "European Communities / European Commission Audiovisual Service",
+        "note": "1995 photograph of President Mary Robinson, licensed CC BY 4.0."
+      }
+    },
+    {
+      "id": "mary-mcaleese",
+      "lifespan": "1951–",
+      "pt": {
+        "role": "Jurista e ex-presidente da Irlanda",
+        "description": "Jurista e acadêmica irlandesa, Mary McAleese foi presidente da Irlanda de 1997 a 2011. Sua presidência adotou o tema 'Building Bridges' e destacou reconciliação, inclusão social, igualdade e diálogo entre comunidades."
+      },
+      "en": {
+        "role": "Jurist and former President of Ireland",
+        "description": "An Irish jurist and academic, Mary McAleese served as president of Ireland from 1997 to 2011. Her presidency used the theme 'Building Bridges' and emphasized reconciliation, social inclusion, equality, and cross-community dialogue."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/mary-mcaleese.jpg",
+        "sourceFile": "Mary McAleese, November 2003 (cropped).jpg",
+        "sourceName": "Wikimedia Commons / European Commission",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mary_McAleese,_November_2003_(cropped).jpg",
+        "license": "CC BY 4.0",
+        "attribution": "European Union / European Commission Audiovisual Service",
+        "note": "2003 portrait from the European Commission Audiovisual Service, licensed CC BY 4.0."
+      }
+    },
+    {
+      "id": "sanna-marin",
+      "lifespan": "1985–",
+      "pt": {
+        "role": "Política e ex-primeira-ministra da Finlândia",
+        "description": "Política finlandesa, Sanna Marin foi parlamentar, ministra dos Transportes e Comunicações e primeira-ministra de 2019 a 2023. Seu mandato incluiu a pandemia de COVID-19, a resposta à invasão russa da Ucrânia e o processo de adesão da Finlândia à OTAN."
+      },
+      "en": {
+        "role": "Politician and former Prime Minister of Finland",
+        "description": "A Finnish politician, Sanna Marin served as a member of parliament, transport and communications minister, and prime minister from 2019 to 2023. Her term included the COVID-19 pandemic, Finland’s response to Russia’s invasion of Ukraine, and the country’s NATO accession process."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/sanna-marin.jpg",
+        "sourceFile": "Sanna Marin (Sanna-Marin-7-2022).jpg",
+        "sourceName": "Wikimedia Commons / Prime Minister's Office, Finland",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sanna_Marin_(Sanna-Marin-7-2022).jpg",
+        "license": "CC BY 4.0",
+        "attribution": "Lauri Heikkinen / Prime Minister's Office, Finland",
+        "note": "2022 official photograph licensed CC BY 4.0."
+      }
+    },
+    {
+      "id": "jacinda-ardern",
+      "lifespan": "1980–",
+      "pt": {
+        "role": "Política e ex-primeira-ministra da Nova Zelândia",
+        "description": "Política neozelandesa, Jacinda Ardern foi parlamentar de 2008 a 2023 e primeira-ministra de 2017 a 2023. Também acumulou a pasta de redução da pobreza infantil e responsabilidades em segurança nacional e inteligência."
+      },
+      "en": {
+        "role": "Politician and former Prime Minister of New Zealand",
+        "description": "A New Zealand politician, Jacinda Ardern served in parliament from 2008 to 2023 and as prime minister from 2017 to 2023. She also held the child-poverty-reduction portfolio and national-security and intelligence responsibilities."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/jacinda-ardern.jpg",
+        "sourceFile": "Jacinda Ardern 2025.jpg",
+        "sourceName": "Wikimedia Commons / WikiPortraits",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jacinda_Ardern_2025.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Adam Chitayat / WikiPortraits",
+        "note": "Portrait associated with the 2025 Sundance Film Festival, licensed CC BY-SA 4.0."
+      }
+    },
+    {
+      "id": "julia-gillard",
+      "lifespan": "1961–",
+      "pt": {
+        "role": "Jurista e ex-primeira-ministra da Austrália",
+        "description": "Jurista e política australiana, Julia Gillard foi deputada federal, ministra, vice-primeira-ministra e primeira-ministra de 2010 a 2013, tornando-se a primeira mulher a chefiar o governo australiano."
+      },
+      "en": {
+        "role": "Jurist and former Prime Minister of Australia",
+        "description": "An Australian jurist and politician, Julia Gillard served as a federal member of parliament, minister, deputy prime minister, and prime minister from 2010 to 2013, becoming the first woman to lead the Australian government."
+      },
+      "book": {
+        "title": {
+          "pt": "My Story",
+          "en": "My Story"
+        },
+        "year": 2014,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/julia-gillard.jpg",
+        "sourceFile": "Julia-gillard-official-portrait-pmc.jpg",
+        "sourceName": "Wikimedia Commons / National Archives of Australia",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Julia-gillard-official-portrait-pmc.jpg",
+        "license": "CC BY 3.0 AU",
+        "attribution": "Commonwealth of Australia / National Archives of Australia",
+        "note": "Official portrait, licensed Creative Commons Attribution 3.0 Australia."
+      }
+    },
+    {
+      "id": "helen-clark",
+      "lifespan": "1950–",
+      "pt": {
+        "role": "Política, ex-primeira-ministra e ex-administradora do PNUD",
+        "description": "Política neozelandesa, Helen Clark exerceu longa carreira parlamentar, foi primeira-ministra de 1999 a 2008 e administradora do Programa das Nações Unidas para o Desenvolvimento de 2009 a 2017."
+      },
+      "en": {
+        "role": "Politician, former Prime Minister, and former UNDP Administrator",
+        "description": "A New Zealand politician, Helen Clark had a long parliamentary career, served as prime minister from 1999 to 2008, and was Administrator of the United Nations Development Programme from 2009 to 2017."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/helen-clark.jpg",
+        "sourceFile": "Helen Clark.jpg",
+        "sourceName": "Wikimedia Commons / U.S. Department of Defense",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Helen_Clark.jpg",
+        "license": "Public domain in the United States",
+        "attribution": "U.S. Department of Defense",
+        "note": "Portrait extracted from an official U.S. Department of Defense photograph; public domain as a U.S. federal work."
+      }
+    },
+    {
+      "id": "kate-sheppard",
+      "lifespan": "1848–1934",
+      "pt": {
+        "role": "Sufragista e reformadora",
+        "description": "Ativista neozelandesa, Kate Sheppard liderou campanhas e petições pelo sufrágio feminino que contribuíram para a aprovação, em 1893, do direito de voto das mulheres nas eleições parlamentares da Nova Zelândia."
+      },
+      "en": {
+        "role": "Suffragist and reformer",
+        "description": "A New Zealand activist, Kate Sheppard led campaigns and petitions for women’s suffrage that contributed to the 1893 enactment of women’s voting rights in New Zealand parliamentary elections."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/kate-sheppard.jpg",
+        "sourceFile": "Kate Sheppard.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kate_Sheppard.jpg",
+        "license": "Public domain in New Zealand and the United States",
+        "attribution": "Unknown historical photographer",
+        "note": "Historical photograph; Commons marks it public domain in New Zealand and the United States."
+      }
+    },
+    {
+      "id": "bartolina-sisa",
+      "lifespan": "c. 1750–1782",
+      "pt": {
+        "role": "Líder aimará anticolonial",
+        "description": "Liderança aimará do Alto Peru, Bartolina Sisa participou com Túpac Katari da rebelião indígena de 1781 contra o domínio colonial espanhol e da organização do cerco de La Paz. Foi capturada e executada pelas autoridades coloniais em 1782."
+      },
+      "en": {
+        "role": "Aymara anti-colonial leader",
+        "description": "An Aymara leader in Upper Peru, Bartolina Sisa participated with Túpac Katari in the 1781 Indigenous uprising against Spanish colonial rule and in organizing the siege of La Paz. Colonial authorities captured and executed her in 1782."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/bartolina-sisa.jpg",
+        "sourceFile": "Monumento a Bartolina Sisa en la plaza de Caracato.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Monumento_a_Bartolina_Sisa_en_la_plaza_de_Caracato.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Carlillasa",
+        "note": "No authenticated contemporary portrait is known in the selected sources; this local asset uses a 2023 photograph of the Bartolina Sisa monument in Caracato, licensed CC BY-SA 4.0."
+      }
+    },
+    {
+      "id": "manuela-saenz",
+      "lifespan": "1797–1856",
+      "pt": {
+        "role": "Ativista e participante das guerras de independência",
+        "description": "Ativista sul-americana nascida em Quito, Manuela Sáenz participou das redes políticas e militares das guerras de independência contra o domínio espanhol e é documentada por instituições culturais como agente política da emancipação, para além de sua relação com Simón Bolívar."
+      },
+      "en": {
+        "role": "Activist and participant in the wars of independence",
+        "description": "A South American activist born in Quito, Manuela Sáenz participated in political and military networks of the independence wars against Spanish rule and is documented by cultural institutions as a political actor in emancipation beyond her relationship with Simón Bolívar."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/manuela-saenz.jpg",
+        "sourceFile": "Manuela Saenz 1825.jpg",
+        "sourceName": "Wikimedia Commons / Museo Nacional de Arqueología, Antropología e Historia del Perú",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Manuela_Saenz_1825.jpg",
+        "license": "Public domain",
+        "attribution": "Pedro Durante",
+        "note": "1825 portrait by Pedro Durante in the Peruvian national museum collection; public domain."
+      }
     }
   ]
 }

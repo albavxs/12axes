@@ -1163,16 +1163,17 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/clara-zetkin",
         "https://clara-zetkin-stiftung.de/biografie/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "louise-michel",
@@ -1180,16 +1181,17 @@
       "region": "europe",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.bnf.fr/fr/louise-michel-une-heroine-de-la-commune",
         "https://catalogue.bnf.fr/ark:/12148/cb451482239"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "millicent-fawcett",
@@ -1197,16 +1199,17 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/millicent-garrett-fawcett/millicent-garrett-fawcett/",
         "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/millicent-garrett-fawcett/consolidating-leadership-of-the-suffrage-campaign/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sylvia-pankhurst",
@@ -1214,16 +1217,17 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/startsuffragette-/",
         "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/the-east-london-federation-of-suffragettes/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "christabel-pankhurst",
@@ -1231,9 +1235,9 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
@@ -1241,7 +1245,8 @@
         "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/suffrage-societies-response/the-response-of-the-wspu/",
         "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/the-vote-for-some/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "edith-cavell",
@@ -1249,16 +1254,17 @@
       "region": "europe",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://cavell.org.uk/what-we-do/who-was-edith-cavell/",
         "https://www.theworldwar.org/learn/about-wwi/edith-cavell"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sophie-scholl",
@@ -1266,16 +1272,17 @@
       "region": "europe",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.dhm.de/lemo/biografie/sophie-scholl",
         "https://www.weisse-rose-stiftung.de/white-rose-memorial-exhibition/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "bertha-von-suttner",
@@ -1283,16 +1290,17 @@
       "region": "europe",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.nobelprize.org/prizes/peace/1905/suttner/facts/",
         "https://www.nobelprize.org/prizes/themes/heroines-of-peace-the-nine-nobel-women/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "gro-harlem-brundtland",
@@ -1300,16 +1308,17 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.who.int/director-general/former-directors-general",
         "https://sdgs.un.org/sites/default/files/documents/5987our-common-future.pdf"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "tarja-halonen",
@@ -1317,16 +1326,17 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.presidentti.fi/halonen/public/default625a.html?contentid=168259&contentlan=2&culture=en-US&nodeid=41419",
         "https://www.presidentti.fi/halonen/public/default9c52.html"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "vigdis-finnbogadottir",
@@ -1334,16 +1344,17 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.forseti.is/en/former-presidents/vigdis-finnbogadottir",
         "https://www.unesco.org/en/goodwill-ambassadors/list"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "mary-robinson",
@@ -1351,16 +1362,17 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://press.un.org/en/1997/19970612.sga638.html",
         "https://unric.org/en/women-in-diplomacy-mary-robinsons-ongoing-global-legacy/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "mary-mcaleese",
@@ -1368,16 +1380,17 @@
       "region": "europe",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://president.ie/en/the-president/mary-mcaleese",
         "https://www.qub.ac.uk/schools/queens-business-school/about/deib/annual-mary-mcaleese-diversity-lecture-series/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sanna-marin",
@@ -1385,16 +1398,17 @@
       "region": "europe",
       "period": "21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://valtioneuvosto.fi/en/governments-and-ministers/ministers/-/min/sanna-marin",
         "https://www.europarl.europa.eu/cmsdata/305572/Speakers%27%20biographical%20details-.pdf"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "jacinda-ardern",
@@ -1402,16 +1416,17 @@
       "region": "oceania",
       "period": "21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www3.parliament.nz/en/mps-and-electorates/former-members-of-parliament/ardern-jacinda/",
         "https://www.beehive.govt.nz/minister/rt-hon-jacinda-ardern-2017"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "julia-gillard",
@@ -1419,16 +1434,17 @@
       "region": "oceania",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.naa.gov.au/explore-collection/australias-prime-ministers/julia-gillard/fast-facts",
         "https://www.naa.gov.au/explore-collection/australias-prime-ministers/julia-gillard/before-office"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "helen-clark",
@@ -1436,16 +1452,17 @@
       "region": "oceania",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.undp.org/our-leadership/past-administrators",
         "https://www3.parliament.nz/en/mps-and-electorates/former-members-of-parliament/clark-helen/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "kate-sheppard",
@@ -1453,16 +1470,17 @@
       "region": "oceania",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://nzhistory.govt.nz/people/kate-sheppard",
         "https://nzhistory.govt.nz/politics/womens-suffrage/brief-history"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "bartolina-sisa",
@@ -1470,16 +1488,17 @@
       "region": "latin-america",
       "period": "18th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://mujer.sea.gob.bo/src/personajeResultado.php?variable=4",
         "https://sea.gob.bo/mujeres-y-democracia/participacion_politica/index.html"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "manuela-saenz",
@@ -1487,16 +1506,17 @@
       "region": "latin-america",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://enciclopedia.banrepcultural.org/Manuela_S%C3%A1enz",
         "https://www.cancilleria.gob.ec/2014/05/29/obra-manuela-saenz-presente-pasado-y-futuro-recupera-memoria-historica-de-los-pueblos-latinoamericanos/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "policarpa-salavarrieta",
