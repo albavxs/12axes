@@ -2847,6 +2847,542 @@
         "attribution": "Historical photograph",
         "note": "Retrato histórico de Edith Abbott em domínio público."
       }
+    },
+    {
+      "id": "anna-schwartz",
+      "lifespan": "1915–2012",
+      "pt": {
+        "role": "Economista monetária",
+        "description": "Economista norte-americana e pesquisadora de longa data do National Bureau of Economic Research, Anna Schwartz ficou especialmente conhecida por seus estudos de história monetária e pela colaboração com Milton Friedman em A Monetary History of the United States, 1867–1960."
+      },
+      "en": {
+        "role": "Monetary economist",
+        "description": "An American economist and longtime National Bureau of Economic Research researcher, Anna Schwartz became especially known for her work on monetary history and for coauthoring A Monetary History of the United States, 1867–1960 with Milton Friedman."
+      },
+      "book": {
+        "title": {
+          "pt": "A Monetary History of the United States, 1867–1960",
+          "en": "A Monetary History of the United States, 1867–1960"
+        },
+        "year": 1963,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/anna-schwartz.jpg",
+        "sourceFile": "Anna Schwartz (cropped).jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Anna_Schwartz_(cropped).jpg",
+        "license": "CC BY-SA 3.0",
+        "attribution": "David Shankbone",
+        "note": "Retrato de Anna Schwartz fotografado em 2007; arquivo reutilizável sob CC BY-SA 3.0."
+      }
+    },
+    {
+      "id": "joan-robinson",
+      "lifespan": "1903–1983",
+      "pt": {
+        "role": "Economista",
+        "description": "Economista britânica ligada à Universidade de Cambridge, Joan Robinson contribuiu para a teoria da concorrência imperfeita e para debates sobre crescimento, capital e as tradições keynesiana e pós-keynesiana."
+      },
+      "en": {
+        "role": "Economist",
+        "description": "A British economist associated with the University of Cambridge, Joan Robinson contributed to the theory of imperfect competition and to debates on growth, capital, and the Keynesian and post-Keynesian traditions."
+      },
+      "book": {
+        "title": {
+          "pt": "The Economics of Imperfect Competition",
+          "en": "The Economics of Imperfect Competition"
+        },
+        "year": 1933,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/joan-robinson.jpg",
+        "sourceFile": "Joan Robinson (1973) (cropped).jpg",
+        "sourceName": "Wikimedia Commons / Nationaal Archief",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joan_Robinson_(1973)_(cropped).jpg",
+        "license": "CC0 1.0",
+        "attribution": "W. Punt / Anefo / Nationaal Archief",
+        "note": "Retrato de Joan Robinson em 1973, disponibilizado sob CC0 1.0."
+      }
+    },
+    {
+      "id": "rosa-mayreder",
+      "lifespan": "1858–1938",
+      "pt": {
+        "role": "Escritora, filósofa cultural e ativista pelos direitos das mulheres",
+        "description": "Escritora, pintora e pensadora austríaca, Rosa Mayreder foi uma figura do primeiro movimento de mulheres na Áustria. Participou da fundação do Allgemeiner Österreichischer Frauenverein e escreveu sobre gênero, cultura e emancipação."
+      },
+      "en": {
+        "role": "Writer, cultural philosopher, and women's rights activist",
+        "description": "An Austrian writer, painter, and thinker, Rosa Mayreder was a figure in Austria's early women's movement. She helped found the Allgemeiner Österreichischer Frauenverein and wrote on gender, culture, and emancipation."
+      },
+      "book": {
+        "title": {
+          "pt": "Zur Kritik der Weiblichkeit",
+          "en": "Zur Kritik der Weiblichkeit"
+        },
+        "year": 1905,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null
+    },
+    {
+      "id": "hedwig-dohm",
+      "lifespan": "1831–1919",
+      "pt": {
+        "role": "Escritora e feminista",
+        "description": "Escritora alemã, Hedwig Dohm defendeu igualdade jurídica, social e econômica para as mulheres e esteve entre as primeiras vozes na Alemanha a reivindicar explicitamente o sufrágio feminino."
+      },
+      "en": {
+        "role": "Writer and feminist",
+        "description": "A German writer, Hedwig Dohm argued for women's legal, social, and economic equality and was among the early voices in Germany to explicitly demand women's suffrage."
+      },
+      "book": {
+        "title": {
+          "pt": "Der Frauen Natur und Recht",
+          "en": "Der Frauen Natur und Recht"
+        },
+        "year": 1876,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/hedwig-dohm.jpg",
+        "sourceFile": "Hedwig Dohm, c. 1898.png",
+        "sourceName": "Wikimedia Commons / Berliner Leben",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hedwig_Dohm,_c._1898.png",
+        "license": "Public domain",
+        "attribution": "Unknown photographer / Berliner Leben",
+        "note": "Retrato publicado por volta de 1898; identificado no Commons como domínio público e livre de restrições conhecidas."
+      }
+    },
+    {
+      "id": "gisela-bock",
+      "lifespan": "1942–2025",
+      "pt": {
+        "role": "Historiadora",
+        "description": "Historiadora alemã, Gisela Bock foi uma das pioneiras da história das mulheres e de gênero na Europa. Lecionou História da Europa Ocidental Moderna na Freie Universität Berlin e pesquisou, entre outros temas, esterilização forçada durante o regime nazista."
+      },
+      "en": {
+        "role": "Historian",
+        "description": "A German historian, Gisela Bock was a pioneer of women's and gender history in Europe. She taught Modern Western European History at Freie Universität Berlin and researched, among other topics, forced sterilization under the Nazi regime."
+      },
+      "book": {
+        "title": {
+          "pt": "Zwangssterilisation im Nationalsozialismus",
+          "en": "Zwangssterilisation im Nationalsozialismus"
+        },
+        "year": 1986,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null
+    },
+    {
+      "id": "germaine-greer",
+      "lifespan": "1939–",
+      "pt": {
+        "role": "Escritora e intelectual feminista",
+        "description": "Escritora, acadêmica e comentarista australiana, Germaine Greer tornou-se internacionalmente conhecida com The Female Eunuch, obra de 1970 associada aos debates da segunda onda do feminismo."
+      },
+      "en": {
+        "role": "Writer and feminist intellectual",
+        "description": "An Australian writer, academic, and commentator, Germaine Greer became internationally known through The Female Eunuch, a 1970 work associated with debates of second-wave feminism."
+      },
+      "book": {
+        "title": {
+          "pt": "The Female Eunuch",
+          "en": "The Female Eunuch"
+        },
+        "year": 1970,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/germaine-greer.jpg",
+        "sourceFile": "Germaine Greer SLNSW FL4580206.jpg",
+        "sourceName": "Wikimedia Commons / State Library of New South Wales",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Germaine_Greer_SLNSW_FL4580206.jpg",
+        "license": "CC BY 4.0",
+        "attribution": "Tribune News photographer / State Library of New South Wales",
+        "note": "Retrato de Germaine Greer de cerca de 1975, licenciado sob CC BY 4.0."
+      }
+    },
+    {
+      "id": "sheila-rowbotham",
+      "lifespan": "1943–",
+      "pt": {
+        "role": "Historiadora e escritora",
+        "description": "Historiadora e escritora britânica, Sheila Rowbotham pesquisa história das mulheres, movimentos trabalhistas, movimentos sociais e história feminista. Sua obra relaciona experiências cotidianas, trabalho e transformação social."
+      },
+      "en": {
+        "role": "Historian and writer",
+        "description": "A British historian and writer, Sheila Rowbotham studies women's history, labour movements, social movements, and feminist history. Her work connects everyday experience, labour, and social change."
+      },
+      "book": {
+        "title": {
+          "pt": "Women, Resistance and Revolution",
+          "en": "Women, Resistance and Revolution"
+        },
+        "year": 1972,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null
+    },
+    {
+      "id": "beatrice-webb",
+      "lifespan": "1858–1943",
+      "pt": {
+        "role": "Pesquisadora social e reformadora",
+        "description": "Pesquisadora social e reformadora britânica, Beatrice Webb participou de investigações sobre pobreza, trabalho e instituições sociais. Foi uma das fundadoras da London School of Economics e integrante da Fabian Society."
+      },
+      "en": {
+        "role": "Social researcher and reformer",
+        "description": "A British social researcher and reformer, Beatrice Webb worked on investigations of poverty, labour, and social institutions. She was a co-founder of the London School of Economics and a member of the Fabian Society."
+      },
+      "book": {
+        "title": {
+          "pt": "The Co-operative Movement in Great Britain",
+          "en": "The Co-operative Movement in Great Britain"
+        },
+        "year": 1891,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/beatrice-webb.jpg",
+        "sourceFile": "Portrait album of who's who at the International Congress of Women - Mrs Beatrice Webb.jpg",
+        "sourceName": "Wikimedia Commons / Harvard Library",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_album_of_who%27s_who_at_the_International_Congress_of_Women_-_Mrs_Beatrice_Webb.jpg",
+        "license": "Public domain",
+        "attribution": "Unknown photographer / Harvard Library",
+        "note": "Retrato de 1899 do International Congress of Women; identificado no Commons como domínio público."
+      }
+    },
+    {
+      "id": "harriet-taylor-mill",
+      "lifespan": "1807–1858",
+      "pt": {
+        "role": "Filósofa e ensaísta",
+        "description": "Pensadora e ensaísta britânica, Harriet Taylor Mill escreveu sobre filosofia social e política, com atenção especial aos direitos das mulheres. Colaborou de forma próxima com John Stuart Mill, embora a extensão de sua participação em obras publicadas por ele continue sendo debatida por estudiosos."
+      },
+      "en": {
+        "role": "Philosopher and essayist",
+        "description": "A British thinker and essayist, Harriet Taylor Mill wrote on social and political philosophy, with particular attention to women's rights. She collaborated closely with John Stuart Mill, although scholars continue to debate the extent of her contribution to works published under his name."
+      },
+      "book": null,
+      "portrait": null
+    },
+    {
+      "id": "edith-stein",
+      "lifespan": "1891–1942",
+      "pt": {
+        "role": "Filósofa e religiosa carmelita",
+        "description": "Filósofa alemã de origem judaica, Edith Stein estudou com Edmund Husserl e desenvolveu trabalho em fenomenologia. Mais tarde converteu-se ao catolicismo, tornou-se carmelita com o nome Teresa Benedita da Cruz e foi assassinada em Auschwitz em 1942."
+      },
+      "en": {
+        "role": "Philosopher and Carmelite nun",
+        "description": "A German philosopher of Jewish origin, Edith Stein studied under Edmund Husserl and worked in phenomenology. She later converted to Catholicism, became a Carmelite nun under the name Teresa Benedicta of the Cross, and was murdered at Auschwitz in 1942."
+      },
+      "book": {
+        "title": {
+          "pt": "Zum Problem der Einfühlung",
+          "en": "Zum Problem der Einfühlung"
+        },
+        "year": 1917,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/edith-stein.jpg",
+        "sourceFile": "Edith Stein - Retrato.png",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Edith_Stein_-_Retrato.png",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Albarluque",
+        "note": "Retrato ilustrado de Edith Stein, criado em 2014 e licenciado sob CC BY-SA 3.0; não é fotografia histórica."
+      }
+    },
+    {
+      "id": "philippa-foot",
+      "lifespan": "1920–2010",
+      "pt": {
+        "role": "Filósofa moral",
+        "description": "Filósofa britânica, Philippa Foot foi uma figura importante da ética das virtudes contemporânea. Seu trabalho tratou de virtude, razões para agir, julgamento moral e da ideia de bondade natural."
+      },
+      "en": {
+        "role": "Moral philosopher",
+        "description": "A British philosopher, Philippa Foot was an important figure in contemporary virtue ethics. Her work addressed virtue, reasons for action, moral judgment, and the idea of natural goodness."
+      },
+      "book": {
+        "title": {
+          "pt": "Natural Goodness",
+          "en": "Natural Goodness"
+        },
+        "year": 2001,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null
+    },
+    {
+      "id": "elizabeth-anscombe",
+      "lifespan": "1919–2001",
+      "pt": {
+        "role": "Filósofa analítica",
+        "description": "Filósofa britânica nascida na Irlanda, G. E. M. Anscombe fez contribuições centrais à filosofia da ação, intenção e ética. Foi também tradutora e intérprete da obra de Ludwig Wittgenstein e lecionou em Oxford e Cambridge."
+      },
+      "en": {
+        "role": "Analytic philosopher",
+        "description": "An Irish-born British philosopher, G. E. M. Anscombe made major contributions to the philosophy of action, intention, and ethics. She was also a translator and interpreter of Ludwig Wittgenstein and taught at Oxford and Cambridge."
+      },
+      "book": {
+        "title": {
+          "pt": "Intention",
+          "en": "Intention"
+        },
+        "year": 1957,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/elizabeth-anscombe.jpg",
+        "sourceFile": "Elisabeth Anscombe.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elisabeth_Anscombe.jpg",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Albarluque",
+        "note": "Retrato ilustrado de G. E. M. Anscombe, criado em 2014 e licenciado sob CC BY-SA 3.0."
+      }
+    },
+    {
+      "id": "iris-murdoch",
+      "lifespan": "1919–1999",
+      "pt": {
+        "role": "Filósofa e romancista",
+        "description": "Filósofa e romancista nascida em Dublin, Iris Murdoch lecionou filosofia em Oxford e publicou obras de filosofia moral ao lado de uma extensa produção literária. The Sovereignty of Good, de 1970, reúne ensaios centrais de sua reflexão ética."
+      },
+      "en": {
+        "role": "Philosopher and novelist",
+        "description": "A Dublin-born philosopher and novelist, Iris Murdoch taught philosophy at Oxford and published works of moral philosophy alongside an extensive literary career. The Sovereignty of Good, published in 1970, collects central essays in her ethical thought."
+      },
+      "book": {
+        "title": {
+          "pt": "The Sovereignty of Good",
+          "en": "The Sovereignty of Good"
+        },
+        "year": 1970,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null
+    },
+    {
+      "id": "agnes-heller",
+      "lifespan": "1929–2019",
+      "pt": {
+        "role": "Filósofa e teórica social",
+        "description": "Filósofa húngara, Ágnes Heller integrou a chamada Escola de Budapeste e desenvolveu trabalhos sobre ética, vida cotidiana, necessidades e modernidade. Mais tarde lecionou na Austrália e na New School, em Nova York."
+      },
+      "en": {
+        "role": "Philosopher and social theorist",
+        "description": "A Hungarian philosopher, Ágnes Heller was associated with the Budapest School and wrote on ethics, everyday life, needs, and modernity. She later taught in Australia and at The New School in New York."
+      },
+      "book": {
+        "title": {
+          "pt": "The Theory of Need in Marx",
+          "en": "The Theory of Need in Marx"
+        },
+        "year": 1976,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/agnes-heller.jpg",
+        "sourceFile": "Ágnes Heller.jpg",
+        "sourceName": "Wikimedia Commons / University of Innsbruck",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:%C3%81gnes_Heller.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Presseteam Uni Innsbruck",
+        "note": "Fotografia de Ágnes Heller na Universidade de Innsbruck em 2015, licenciada sob CC BY-SA 4.0."
+      }
+    },
+    {
+      "id": "hubertine-auclert",
+      "lifespan": "1848–1914",
+      "pt": {
+        "role": "Jornalista e sufragista",
+        "description": "Jornalista e militante sufragista francesa, Hubertine Auclert defendeu direitos políticos e jurídicos iguais para as mulheres e fundou o jornal La Citoyenne, dedicado à campanha pelo sufrágio feminino."
+      },
+      "en": {
+        "role": "Journalist and suffragist",
+        "description": "A French journalist and suffrage activist, Hubertine Auclert advocated equal political and legal rights for women and founded the newspaper La Citoyenne, which campaigned for women's suffrage."
+      },
+      "book": {
+        "title": {
+          "pt": "Le Vote des femmes",
+          "en": "Le Vote des femmes"
+        },
+        "year": 1908,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/hubertine-auclert.jpg",
+        "sourceFile": "Hubertine Auclert 1910.jpg",
+        "sourceName": "Wikimedia Commons / Bibliothèque nationale de France",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hubertine_Auclert_1910.jpg",
+        "license": "Public domain",
+        "attribution": "Agence Rol / Bibliothèque nationale de France",
+        "note": "Retrato de 1910; obra anônima/pseudônima em domínio público conforme a página do Commons."
+      }
+    },
+    {
+      "id": "nina-bang",
+      "lifespan": "1866–1928",
+      "pt": {
+        "role": "Historiadora e ministra",
+        "description": "Historiadora e política social-democrata dinamarquesa, Nina Bang integrou o Landsting e tornou-se ministra da Educação em 1924, sendo a primeira mulher a ocupar um ministério no governo da Dinamarca."
+      },
+      "en": {
+        "role": "Historian and government minister",
+        "description": "A Danish historian and Social Democratic politician, Nina Bang served in the Landsting and became Minister of Education in 1924, the first woman to hold a government ministry in Denmark."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/nina-bang.jpg",
+        "sourceFile": "Nina Bang.jpg",
+        "sourceName": "Wikimedia Commons / Royal Library, Copenhagen",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nina_Bang.jpg",
+        "license": "Public domain",
+        "attribution": "Unknown photographer / Royal Library, Copenhagen",
+        "note": "Retrato anterior a 1928, identificado no Commons como domínio público."
+      }
+    },
+    {
+      "id": "alva-myrdal",
+      "lifespan": "1902–1986",
+      "pt": {
+        "role": "Diplomata, socióloga e política",
+        "description": "Diplomata, socióloga e política sueca, Alva Myrdal teve atuação destacada em negociações internacionais de desarmamento. Recebeu o Prêmio Nobel da Paz de 1982, compartilhado com Alfonso García Robles, pelo trabalho em favor do desarmamento e de zonas livres de armas nucleares."
+      },
+      "en": {
+        "role": "Diplomat, sociologist, and politician",
+        "description": "A Swedish diplomat, sociologist, and politician, Alva Myrdal played a prominent role in international disarmament negotiations. She shared the 1982 Nobel Peace Prize with Alfonso García Robles for work on disarmament and nuclear- and weapon-free zones."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/alva-myrdal.jpg",
+        "sourceFile": "Alva Myrdal close-up (cropped).jpg",
+        "sourceName": "Wikimedia Commons / Library of Congress",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Alva_Myrdal_close-up_(cropped).jpg",
+        "license": "Public domain",
+        "attribution": "Bernard Gotfryd / Library of Congress",
+        "note": "Retrato de 1980 proveniente da coleção Bernard Gotfryd da Library of Congress; indicado no Commons como domínio público."
+      }
+    },
+    {
+      "id": "edith-summerskill",
+      "lifespan": "1901–1980",
+      "pt": {
+        "role": "Médica e política",
+        "description": "Médica e política trabalhista britânica, Edith Summerskill foi eleita para a Câmara dos Comuns em 1938, serviu como Parliamentary Secretary no Ministry of Food e como ministra do National Insurance, e tornou-se life peer em 1961."
+      },
+      "en": {
+        "role": "Physician and politician",
+        "description": "A British physician and Labour politician, Edith Summerskill was elected to the House of Commons in 1938, served as Parliamentary Secretary at the Ministry of Food and as Minister of National Insurance, and became a life peer in 1961."
+      },
+      "book": null,
+      "portrait": null
+    },
+    {
+      "id": "barbara-castle",
+      "lifespan": "1910–2002",
+      "pt": {
+        "role": "Política trabalhista",
+        "description": "Política trabalhista britânica, Barbara Castle foi deputada por Blackburn e ocupou cargos no gabinete. Como secretária de Estado para Employment and Productivity, apresentou em 1970 o projeto que se tornou o Equal Pay Act."
+      },
+      "en": {
+        "role": "Labour politician",
+        "description": "A British Labour politician, Barbara Castle represented Blackburn and held Cabinet office. As Secretary of State for Employment and Productivity, she introduced the 1970 bill that became the Equal Pay Act."
+      },
+      "book": {
+        "title": {
+          "pt": "Fighting All the Way",
+          "en": "Fighting All the Way"
+        },
+        "year": 1993,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": null
+    },
+    {
+      "id": "shirley-williams",
+      "lifespan": "1930–2021",
+      "pt": {
+        "role": "Política e acadêmica",
+        "description": "Política e acadêmica britânica, Shirley Williams foi deputada e ministra pelo Partido Trabalhista, participou da fundação do Social Democratic Party em 1981 e mais tarde integrou os Liberal Democrats. Também lecionou na Harvard Kennedy School."
+      },
+      "en": {
+        "role": "Politician and academic",
+        "description": "A British politician and academic, Shirley Williams served as a Labour MP and Cabinet minister, helped found the Social Democratic Party in 1981, and later joined the Liberal Democrats. She also taught at Harvard Kennedy School."
+      },
+      "book": {
+        "title": {
+          "pt": "Climbing the Bookshelves",
+          "en": "Climbing the Bookshelves"
+        },
+        "year": 2009,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/shirley-williams.jpg",
+        "sourceFile": "Shirley Williams at Birmingham 2010.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shirley_Williams_at_Birmingham_2010.jpg",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Keith Edkins",
+        "note": "Fotografia de Shirley Williams em 2010, licenciada sob CC BY-SA 3.0."
+      }
     }
   ]
 }
