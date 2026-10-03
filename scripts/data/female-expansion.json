@@ -800,16 +800,17 @@
       "region": "middle-east",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.today.duke.edu/2021/04/when-duke-gave-shelter-egyptian-intellectual",
         "https://sahistory.org.za/archive/biography-nawal-el-saadawi-sierra-hussey"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "huda-shaarawi",
@@ -817,16 +818,17 @@
       "region": "middle-east",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://library.aucegypt.edu/rare-books-special-collections/collections/egyptian-society-arts-culture",
         "https://www.aucegypt.edu/news/celebrating-egypts-1919-revolution"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "fatima-mernissi",
@@ -834,16 +836,17 @@
       "region": "africa",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://fatemamernissi.com/about-us",
         "https://www.blogs.unicamp.br/mulheresnafilosofia/2564-2/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "sarojini-naidu",
@@ -851,16 +854,17 @@
       "region": "south-asia",
       "period": "19th-20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://amritmahotsav.nic.in/district-reopsitory-detail.htm?17092=",
         "https://cmsadmin.amritmahotsav.nic.in/district-reopsitory-detail.htm?128="
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "vijaya-lakshmi-pandit",
@@ -868,16 +872,17 @@
       "region": "south-asia",
       "period": "20th-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://india.un.org/en/about/about-the-un",
         "https://www.un.org/ar/node/211672"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "aruna-asaf-ali",
@@ -885,16 +890,17 @@
       "region": "south-asia",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://amritmahotsav.nic.in/event-detail.htm?57877=",
         "https://cmsadmin.amritmahotsav.nic.in/unsung-heroes-detail.htm?320="
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "kamaladevi-chattopadhyay",
@@ -902,16 +908,17 @@
       "region": "south-asia",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://cmsadmin.amritmahotsav.nic.in/district-reopsitory-detail.htm?5507=",
         "https://amritmahotsav.nic.in/unsung-heroes-detail.htm?319="
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "savitribai-phule",
@@ -919,16 +926,17 @@
       "region": "south-asia",
       "period": "19th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://cdnbbsr.s3waas.gov.in/s33837a451cd0abc5ce4069304c5442c87/uploads/2024/11/20241126690139104.pdf",
         "https://lokbhavan.haryana.gov.in/savitribai-phule-an-iconic-reformer-educationist-honble-governor-haryana/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "begum-rokeya",
@@ -936,16 +944,17 @@
       "region": "south-asia",
       "period": "19th-20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.gbrcr.gov.bd/project/1/details",
         "https://teachers.gov.bd/content/details/1697585"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "malala-yousafzai",
@@ -953,16 +962,17 @@
       "region": "south-asia",
       "period": "21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.nobelprize.org/prizes/peace/2014/yousafzai/facts/",
         "https://www.nobelprize.org/prizes/peace/2014/yousafzai/biographical/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "aung-san-suu-kyi",

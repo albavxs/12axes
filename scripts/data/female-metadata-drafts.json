@@ -1355,6 +1355,286 @@
         "attribution": "Bengt Oberger",
         "note": "2017 portrait licensed under Creative Commons Attribution-ShareAlike 4.0."
       }
+    },
+    {
+      "id": "nawal-el-saadawi",
+      "lifespan": "1931–2021",
+      "pt": {
+        "role": "Médica, escritora e ativista",
+        "description": "Médica e escritora egípcia, Nawal El Saadawi publicou ficção e ensaios sobre direitos das mulheres, sexualidade, religião e poder e participou de campanhas públicas contra desigualdade de gênero e violência."
+      },
+      "en": {
+        "role": "Physician, writer, and activist",
+        "description": "An Egyptian physician and writer, Nawal El Saadawi published fiction and essays on women’s rights, sexuality, religion, and power and took part in public campaigns against gender inequality and violence."
+      },
+      "book": {
+        "title": {
+          "pt": "Mulher no Ponto Zero",
+          "en": "Woman at Point Zero"
+        },
+        "year": 1975,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/nawal-el-saadawi.jpg",
+        "sourceFile": "Nawal el Saadawi 01.JPG",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nawal_el_Saadawi_01.JPG",
+        "license": "CC BY 3.0",
+        "attribution": "Bengt Oberger",
+        "note": "Photograph at the Göteborg Book Fair in 2010, licensed CC BY 3.0."
+      }
+    },
+    {
+      "id": "huda-shaarawi",
+      "lifespan": "1879–1947",
+      "pt": {
+        "role": "Feminista e nacionalista egípcia",
+        "description": "Ativista egípcia, Huda Sha'arawi participou do movimento nacionalista de 1919, organizou mulheres em torno de direitos sociais e políticos e fundou a Egyptian Feminist Union em 1923."
+      },
+      "en": {
+        "role": "Egyptian feminist and nationalist",
+        "description": "An Egyptian activist, Huda Sha'arawi participated in the 1919 nationalist movement, organized women around social and political rights, and founded the Egyptian Feminist Union in 1923."
+      },
+      "book": {
+        "title": {
+          "pt": "Harem Years: The Memoirs of an Egyptian Feminist",
+          "en": "Harem Years: The Memoirs of an Egyptian Feminist"
+        },
+        "year": 1986,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/huda-shaarawi.jpg",
+        "sourceFile": "Huda Sha'arawi, 1925 photo by Underwood & Underwood.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Huda_Sha%27arawi,_1925_photo_by_Underwood_%26_Underwood.jpg",
+        "license": "Public domain (United States)",
+        "attribution": "Underwood & Underwood",
+        "note": "1925 press portrait; public domain in the United States."
+      }
+    },
+    {
+      "id": "fatima-mernissi",
+      "lifespan": "1940–2015",
+      "pt": {
+        "role": "Socióloga e escritora",
+        "description": "Socióloga e escritora marroquina, Fatema Mernissi pesquisou relações de gênero, sociedade civil, história islâmica e a participação das mulheres em sociedades muçulmanas, combinando trabalho acadêmico e projetos cívicos."
+      },
+      "en": {
+        "role": "Sociologist and writer",
+        "description": "A Moroccan sociologist and writer, Fatema Mernissi researched gender relations, civil society, Islamic history, and women’s participation in Muslim societies, combining academic work with civic projects."
+      },
+      "book": {
+        "title": {
+          "pt": "Beyond the Veil",
+          "en": "Beyond the Veil"
+        },
+        "year": 1975,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/fatima-mernissi.jpg",
+        "sourceFile": "Fatima Mernissi 2004 Al Azm Mernissi Soroush Mernissi cropped.tiff",
+        "sourceName": "Wikimedia Commons / Praemium Erasmianum Foundation",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Fatima_Mernissi_2004_Al_Azm_Mernissi_Soroush_Mernissi_cropped.tiff",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Praemium Erasmianum Foundation",
+        "note": "2004 Erasmus Prize acceptance-speech portrait; VRT permission confirmed and licensed CC BY-SA 4.0."
+      }
+    },
+    {
+      "id": "sarojini-naidu",
+      "lifespan": "1879–1949",
+      "pt": {
+        "role": "Poeta e dirigente política",
+        "description": "Poeta e ativista indiana, Sarojini Naidu participou do movimento pela independência, presidiu o Indian National Congress em 1925 e, após a independência, tornou-se governadora das United Provinces."
+      },
+      "en": {
+        "role": "Poet and political leader",
+        "description": "An Indian poet and activist, Sarojini Naidu participated in the independence movement, served as president of the Indian National Congress in 1925, and after independence became governor of the United Provinces."
+      },
+      "book": {
+        "title": {
+          "pt": "The Golden Threshold",
+          "en": "The Golden Threshold"
+        },
+        "year": 1905,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/sarojini-naidu.jpg",
+        "sourceFile": "Sarojini Naidu by JB Yeats.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sarojini_Naidu_by_JB_Yeats.jpg",
+        "license": "Public domain",
+        "attribution": "John Butler Yeats",
+        "note": "1896 portrait reproduced in The Golden Threshold; public domain."
+      }
+    },
+    {
+      "id": "vijaya-lakshmi-pandit",
+      "lifespan": "1900–1990",
+      "pt": {
+        "role": "Diplomata e política",
+        "description": "Diplomata e política indiana, Vijaya Lakshmi Pandit participou do movimento de independência, exerceu cargos ministeriais e diplomáticos e, em 1953, tornou-se a primeira mulher eleita presidente da Assembleia Geral da ONU."
+      },
+      "en": {
+        "role": "Diplomat and politician",
+        "description": "An Indian diplomat and politician, Vijaya Lakshmi Pandit participated in the independence movement, held ministerial and diplomatic posts, and in 1953 became the first woman elected president of the UN General Assembly."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/vijaya-lakshmi-pandit.jpg",
+        "sourceFile": "Vijaya Lakshmi Pandit.jpg",
+        "sourceName": "Wikimedia Commons / National Portrait Gallery",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vijaya_Lakshmi_Pandit.jpg",
+        "license": "Public domain in India",
+        "attribution": "Bassano",
+        "note": "1938 portrait by Bassano; public domain in India."
+      }
+    },
+    {
+      "id": "aruna-asaf-ali",
+      "lifespan": "1909–1996",
+      "pt": {
+        "role": "Ativista da independência e política",
+        "description": "Educadora e ativista indiana, Aruna Asaf Ali participou da Salt Satyagraha e do movimento Quit India, tornou-se símbolo da mobilização de 1942 e, após a independência, foi a primeira prefeita de Delhi."
+      },
+      "en": {
+        "role": "Independence activist and politician",
+        "description": "An Indian educator and activist, Aruna Asaf Ali participated in the Salt Satyagraha and Quit India movement, became a symbol of the 1942 mobilization, and after independence served as Delhi’s first mayor."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/aruna-asaf-ali.jpg",
+        "sourceFile": "Aruna Asaf Ali in the 1940s.png",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Aruna_Asaf_Ali_in_the_1940s.png",
+        "license": "Public domain / Public Domain Mark",
+        "attribution": "Unknown photographer",
+        "note": "Photograph from the 1940s; Commons identifies it as free of known copyright restrictions and public domain in India."
+      }
+    },
+    {
+      "id": "kamaladevi-chattopadhyay",
+      "lifespan": "1903–1988",
+      "pt": {
+        "role": "Ativista, reformadora social e promotora cultural",
+        "description": "Ativista indiana, Kamaladevi Chattopadhyay participou do movimento de independência, organizou mulheres, promoveu cooperativas e teve papel importante na preservação e institucionalização do artesanato e das artes cênicas indianas."
+      },
+      "en": {
+        "role": "Activist, social reformer, and cultural organizer",
+        "description": "An Indian activist, Kamaladevi Chattopadhyay participated in the independence movement, organized women, promoted cooperatives, and played a major role in preserving and institutionalizing Indian handicrafts and performing arts."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/kamaladevi-chattopadhyay.jpg",
+        "sourceFile": "Kamaladevi Chattopadhyay.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kamaladevi_Chattopadhyay.jpg",
+        "license": "Public domain in India",
+        "attribution": "Unknown photographer",
+        "note": "Historical photograph; Commons marks it public domain in India."
+      }
+    },
+    {
+      "id": "savitribai-phule",
+      "lifespan": "1831–1897",
+      "pt": {
+        "role": "Educadora, poeta e reformadora social",
+        "description": "Educadora e reformadora indiana, Savitribai Phule participou da criação de escolas para meninas e grupos marginalizados, trabalhou pela educação feminina e combateu discriminações de casta e práticas sociais que limitavam mulheres."
+      },
+      "en": {
+        "role": "Educator, poet, and social reformer",
+        "description": "An Indian educator and reformer, Savitribai Phule helped establish schools for girls and marginalized communities, promoted women’s education, and challenged caste discrimination and social practices restricting women."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/savitribai-phule.jpg",
+        "sourceFile": "First woman Teacher Savitri Bai Phule.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:First_woman_Teacher_Savitri_Bai_Phule.jpg",
+        "license": "CC0 1.0",
+        "attribution": "RATHOD SRAVAN",
+        "note": "Modern portrait artwork representing Savitribai Phule, released under CC0; this is not a historical photograph."
+      }
+    },
+    {
+      "id": "begum-rokeya",
+      "lifespan": "1880–1932",
+      "pt": {
+        "role": "Escritora, educadora e reformadora",
+        "description": "Escritora e educadora bengali, Begum Rokeya defendeu igualdade educacional e social para mulheres, fundou uma escola para meninas muçulmanas e usou ficção e ensaios para criticar restrições impostas às mulheres."
+      },
+      "en": {
+        "role": "Writer, educator, and reformer",
+        "description": "A Bengali writer and educator, Begum Rokeya advocated educational and social equality for women, founded a school for Muslim girls, and used fiction and essays to criticize restrictions imposed on women."
+      },
+      "book": {
+        "title": {
+          "pt": "O Sonho da Sultana",
+          "en": "Sultana's Dream"
+        },
+        "year": 1905,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/begum-rokeya.jpg",
+        "sourceFile": "Begum Rokeya.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Begum_Rokeya.jpg",
+        "license": "Public domain in India and Bangladesh",
+        "attribution": "Unknown photographer",
+        "note": "Historical portrait made before 1932; Commons marks it public domain under Indian and Bangladeshi law."
+      }
+    },
+    {
+      "id": "malala-yousafzai",
+      "lifespan": "1997–",
+      "pt": {
+        "role": "Ativista pelo direito à educação",
+        "description": "Ativista paquistanesa, Malala Yousafzai tornou-se uma voz internacional pelo direito de meninas e crianças à educação após enfrentar a repressão do Talibã no vale do Swat; recebeu o Nobel da Paz em 2014."
+      },
+      "en": {
+        "role": "Education-rights activist",
+        "description": "A Pakistani activist, Malala Yousafzai became an international advocate for girls’ and children’s right to education after confronting Taliban repression in the Swat Valley; she received the 2014 Nobel Peace Prize."
+      },
+      "book": {
+        "title": {
+          "pt": "Eu Sou Malala",
+          "en": "I Am Malala"
+        },
+        "year": 2013,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/malala-yousafzai.jpg",
+        "sourceFile": "Malala Yousafzai 2023 portrait 2x3.jpg",
+        "sourceName": "Wikimedia Commons / flowcomm",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Malala_Yousafzai_2023_portrait_2x3.jpg",
+        "license": "CC BY 2.0",
+        "attribution": "flowcomm",
+        "note": "2023 portrait at the Nelson Mandela Annual Lecture, licensed CC BY 2.0."
+      }
     }
   ]
 }
