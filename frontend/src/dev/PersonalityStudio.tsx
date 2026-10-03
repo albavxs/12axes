@@ -31,7 +31,7 @@ type Personality = {
     canMarkValid: boolean; isMarkedValid: boolean; status: 'error' | 'warning' | 'ok';
   };
   image: {
-    exists: boolean; bytes: number | null; normalizedPath: string | null;
+    exists: boolean; bytes: number | null; normalizedPath: string | null; error: string | null;
     metadata: { format: string | null; width: number | null; height: number | null } | null;
   };
   localDraft: EditableDraft | null;
