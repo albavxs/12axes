@@ -619,17 +619,18 @@
       "region": "north-america",
       "period": "19th-20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://home.nps.gov/people/jane-addams.htm",
         "https://home.nps.gov/places/hull-house.htm",
         "https://www.nobelprize.org/nomination/archive/show.php?id=408"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "rachel-carson",
@@ -637,16 +638,17 @@
       "region": "north-america",
       "period": "20th-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.epa.gov/archive/epa/aboutepa/rachel-carson.html",
         "https://www.fws.gov/staff-profile/rachel-carson-1907-1964-author-modern-environmental-movement"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "wangari-maathai",
@@ -654,16 +656,17 @@
       "region": "africa",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
-      "bookStatus": "pending",
+      "bookStatus": "review",
       "sources": [
         "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/",
         "https://www.greenbeltmovement.org/wangari-maathai/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "funmilayo-ransome-kuti",
@@ -671,16 +674,17 @@
       "region": "africa",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://shop.unesco.org/en/products/funmilayo-ransome-kuti-and-the-womens-union-of-abeokuta",
         "https://unesdoc.unesco.org/query?q=Series%3A%20%22UNESCO%20series%20on%20women%20in%20African%20history%22"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "joyce-banda",
@@ -688,16 +692,17 @@
       "region": "africa",
       "period": "20th-21st-century",
       "category": "politico",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.councilwomenworldleaders.org/joyce-banda",
         "https://press.un.org/en/2006/wom1560.doc.htm"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "miriam-makeba",
@@ -705,16 +710,17 @@
       "region": "africa",
       "period": "20th-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://sahistory.org.za/people/miriam-makeba",
         "https://sahistory.org.za/article/biography-miriam-makeba-narcy-negrete"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "nadine-gordimer",
@@ -722,16 +728,17 @@
       "region": "africa",
       "period": "20th-21st-century",
       "category": "intelectual",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.nobelprize.org/prizes/literature/1991/gordimer/facts/",
         "https://www.nobelprize.org/prizes/literature/1991/gordimer/article/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "leymah-gbowee",
@@ -739,16 +746,17 @@
       "region": "africa",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.nobelprize.org/prizes/peace/2011/gbowee/facts/",
         "https://www.nobelprize.org/prizes/peace/2011/gbowee/biographical/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "tawakkol-karman",
@@ -756,16 +764,17 @@
       "region": "middle-east",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.nobelprize.org/prizes/peace/2011/karman/facts/",
         "https://www.nobelprize.org/events/nobel-prize-summit/2021/speakers/tawakkol-karman-2/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "shirin-ebadi",
@@ -773,16 +782,17 @@
       "region": "middle-east",
       "period": "20th-21st-century",
       "category": "ativista",
-      "metadataStatus": "researching",
+      "metadataStatus": "review",
       "portraitStatus": "pending",
-      "translationStatus": "pending",
+      "translationStatus": "review",
       "profileStatus": "review",
       "bookStatus": "pending",
       "sources": [
         "https://www.nobelprize.org/prizes/peace/2003/ebadi/biographical/",
         "https://www.nobelprize.org/prizes/peace/2003/summary/"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json"
+      "evidenceFile": "scripts/data/female-profile-evidence.json",
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "nawal-el-saadawi",

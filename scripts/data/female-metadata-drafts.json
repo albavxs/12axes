@@ -1105,6 +1105,256 @@
         "attribution": "Unknown photographer",
         "note": "Historical portrait published no later than 1901; public domain in the United States."
       }
+    },
+    {
+      "id": "jane-addams",
+      "lifespan": "1860–1935",
+      "pt": {
+        "role": "Reformadora social e pacifista",
+        "description": "Reformadora norte-americana, Jane Addams cofundou a Hull House, atuou por sufrágio e reformas sociais e liderou iniciativas internacionais de paz, recebendo o Nobel da Paz em 1931."
+      },
+      "en": {
+        "role": "Social reformer and pacifist",
+        "description": "An American reformer, Jane Addams co-founded Hull House, advocated suffrage and social reform, and led international peace initiatives, receiving the Nobel Peace Prize in 1931."
+      },
+      "book": {
+        "title": {
+          "pt": "Vinte Anos em Hull-House",
+          "en": "Twenty Years at Hull-House"
+        },
+        "year": 1910,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/jane-addams.jpg",
+        "sourceFile": "Portrait of Jane Addams.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Portrait_of_Jane_Addams.jpg",
+        "license": "Public domain (United States)",
+        "attribution": "Elizabeth B. Brownell",
+        "note": "Portrait originally published in The World's Work in 1909; public domain in the United States."
+      }
+    },
+    {
+      "id": "rachel-carson",
+      "lifespan": "1907–1964",
+      "pt": {
+        "role": "Bióloga marinha e escritora",
+        "description": "Bióloga e escritora norte-americana, Rachel Carson trabalhou no U.S. Fish and Wildlife Service e, com Silent Spring, impulsionou o debate público sobre pesticidas, ecologia e proteção ambiental."
+      },
+      "en": {
+        "role": "Marine biologist and writer",
+        "description": "An American biologist and writer, Rachel Carson worked for the U.S. Fish and Wildlife Service and, through Silent Spring, helped drive public debate about pesticides, ecology, and environmental protection."
+      },
+      "book": {
+        "title": {
+          "pt": "Primavera Silenciosa",
+          "en": "Silent Spring"
+        },
+        "year": 1962,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/rachel-carson.jpg",
+        "sourceFile": "Rachel Louise Carson portrait.jpg",
+        "sourceName": "Wikimedia Commons / Smithsonian Institution",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Rachel_Louise_Carson_portrait.jpg",
+        "license": "No known copyright restrictions",
+        "attribution": "Smithsonian Institution",
+        "note": "Smithsonian portrait distributed through Flickr Commons with no known copyright restrictions."
+      }
+    },
+    {
+      "id": "wangari-maathai",
+      "lifespan": "1940–2011",
+      "pt": {
+        "role": "Ambientalista e ativista",
+        "description": "Bióloga e ativista queniana, Wangari Maathai fundou o Green Belt Movement, articulando reflorestamento, participação comunitária, direitos das mulheres e democracia; recebeu o Nobel da Paz em 2004."
+      },
+      "en": {
+        "role": "Environmentalist and activist",
+        "description": "A Kenyan biologist and activist, Wangari Maathai founded the Green Belt Movement, linking reforestation, community participation, women’s rights, and democracy; she received the 2004 Nobel Peace Prize."
+      },
+      "book": {
+        "title": {
+          "pt": "Unbowed: A Memoir",
+          "en": "Unbowed: A Memoir"
+        },
+        "year": 2006,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
+      "portrait": {
+        "path": "/personalities/portraits/wangari-maathai.jpg",
+        "sourceFile": "Wangari Maathai portrait.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Wangari_Maathai_portrait.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Kadee Angie Barbie",
+        "note": "Portrait licensed under Creative Commons Attribution-ShareAlike 4.0."
+      }
+    },
+    {
+      "id": "funmilayo-ransome-kuti",
+      "lifespan": "1900–1978",
+      "pt": {
+        "role": "Ativista e organizadora política",
+        "description": "Ativista nigeriana, Funmilayo Ransome-Kuti fundou e liderou a Abeokuta Women’s Union, mobilizando mulheres contra tributação injusta e por direitos sociais, participação política e oposição ao colonialismo."
+      },
+      "en": {
+        "role": "Activist and political organizer",
+        "description": "A Nigerian activist, Funmilayo Ransome-Kuti founded and led the Abeokuta Women’s Union, mobilizing women against unfair taxation and for social rights, political participation, and anti-colonial causes."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/funmilayo-ransome-kuti.jpg",
+        "sourceFile": "Funmilayo Ransome-Kuti (Women Activist).jpg",
+        "sourceName": "Wikimedia Commons / National Library of Nigeria",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Funmilayo_Ransome-Kuti_(Women_Activist).jpg",
+        "license": "CC0 1.0",
+        "attribution": "National Library of Nigeria / unknown photographer",
+        "note": "Portrait released under the CC0 1.0 public-domain dedication."
+      }
+    },
+    {
+      "id": "joyce-banda",
+      "lifespan": "1950–",
+      "pt": {
+        "role": "Política e ex-presidente do Malawi",
+        "description": "Política malauiana, Joyce Banda foi ministra, vice-presidente e presidente do Malawi entre 2012 e 2014, além de criar organizações voltadas a empreendedorismo, desenvolvimento rural e direitos das mulheres."
+      },
+      "en": {
+        "role": "Politician and former President of Malawi",
+        "description": "A Malawian politician, Joyce Banda served as minister, vice president, and president of Malawi from 2012 to 2014 and founded organizations focused on entrepreneurship, rural development, and women’s rights."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/joyce-banda.jpg",
+        "sourceFile": "Joyce Banda 2025 (profile).jpg",
+        "sourceName": "Wikimedia Commons / EU Election Observation Mission Malawi",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Joyce_Banda_2025_(profile).jpg",
+        "license": "European Commission reuse policy; attribution required",
+        "attribution": "© European Union, 1998–2026",
+        "note": "2025 EU Election Observation Mission portrait; reuse permitted with European Union attribution."
+      }
+    },
+    {
+      "id": "miriam-makeba",
+      "lifespan": "1932–2008",
+      "pt": {
+        "role": "Cantora e ativista antiapartheid",
+        "description": "Cantora sul-africana conhecida como Mama Africa, Miriam Makeba denunciou internacionalmente o apartheid durante décadas de exílio, usando apresentações públicas e discursos na ONU em defesa de direitos civis."
+      },
+      "en": {
+        "role": "Singer and anti-apartheid activist",
+        "description": "A South African singer known as Mama Africa, Miriam Makeba denounced apartheid internationally during decades of exile, using performances and United Nations speeches to advocate civil rights."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/miriam-makeba.jpg",
+        "sourceFile": "Miriam makeba 01.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Miriam_makeba_01.jpg",
+        "license": "CC BY-SA 3.0",
+        "attribution": "Paul Weinberg",
+        "note": "1991 photograph donated by the photographer and licensed CC BY-SA 3.0."
+      }
+    },
+    {
+      "id": "nadine-gordimer",
+      "lifespan": "1923–2014",
+      "pt": {
+        "role": "Escritora e ativista antiapartheid",
+        "description": "Escritora sul-africana, Nadine Gordimer produziu romances, contos e ensaios marcados pela experiência do apartheid e participou do movimento antiapartheid; recebeu o Nobel de Literatura em 1991."
+      },
+      "en": {
+        "role": "Writer and anti-apartheid activist",
+        "description": "A South African writer, Nadine Gordimer produced novels, stories, and essays shaped by the experience of apartheid and participated in the anti-apartheid movement; she received the 1991 Nobel Prize in Literature."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/nadine-gordimer.jpg",
+        "sourceFile": "Nadine Gordimer.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Nadine_Gordimer.jpg",
+        "license": "CC BY-SA 2.0",
+        "attribution": "Yaffa Phillips",
+        "note": "Portrait licensed under Creative Commons Attribution-ShareAlike 2.0."
+      }
+    },
+    {
+      "id": "leymah-gbowee",
+      "lifespan": "1972–",
+      "pt": {
+        "role": "Ativista pela paz e direitos das mulheres",
+        "description": "Assistente social e ativista liberiana, Leymah Gbowee liderou uma mobilização não violenta de mulheres cristãs e muçulmanas durante a guerra civil da Libéria e recebeu o Nobel da Paz em 2011."
+      },
+      "en": {
+        "role": "Peace and women’s-rights activist",
+        "description": "A Liberian social worker and activist, Leymah Gbowee led a nonviolent movement of Christian and Muslim women during Liberia’s civil war and received the 2011 Nobel Peace Prize."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/leymah-gbowee.jpg",
+        "sourceFile": "Leymah Gbowee (January 2012).jpg",
+        "sourceName": "Wikimedia Commons / Crossroads Foundation Photos",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Leymah_Gbowee_(January_2012).jpg",
+        "license": "CC BY 2.0",
+        "attribution": "Crossroads Foundation Photos",
+        "note": "2012 portrait licensed under Creative Commons Attribution 2.0."
+      }
+    },
+    {
+      "id": "tawakkol-karman",
+      "lifespan": "1979–",
+      "pt": {
+        "role": "Jornalista e ativista de direitos humanos",
+        "description": "Jornalista iemenita e cofundadora da Women Journalists Without Chains, Tawakkol Karman organizou protestos por liberdade de expressão e democracia e recebeu o Nobel da Paz em 2011."
+      },
+      "en": {
+        "role": "Journalist and human-rights activist",
+        "description": "A Yemeni journalist and co-founder of Women Journalists Without Chains, Tawakkol Karman organized protests for freedom of expression and democracy and received the 2011 Nobel Peace Prize."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/tawakkol-karman.jpg",
+        "sourceFile": "Tawakkol Karman Photo.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Tawakkol_Karman_Photo.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Salam4yemen",
+        "note": "2018 portrait licensed under Creative Commons Attribution-ShareAlike 4.0."
+      }
+    },
+    {
+      "id": "shirin-ebadi",
+      "lifespan": "1947–",
+      "pt": {
+        "role": "Jurista e ativista de direitos humanos",
+        "description": "Jurista iraniana e ex-juíza, Shirin Ebadi atua em defesa de democracia, direitos humanos e direitos de mulheres e crianças; recebeu o Nobel da Paz em 2003."
+      },
+      "en": {
+        "role": "Jurist and human-rights activist",
+        "description": "An Iranian jurist and former judge, Shirin Ebadi advocates democracy, human rights, and the rights of women and children; she received the 2003 Nobel Peace Prize."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/shirin-ebadi.jpg",
+        "sourceFile": "Shirin Ebadi 01.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Shirin_Ebadi_01.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Bengt Oberger",
+        "note": "2017 portrait licensed under Creative Commons Attribution-ShareAlike 4.0."
+      }
     }
   ]
 }
