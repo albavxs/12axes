@@ -712,10 +712,18 @@
         }
       ],
       "evidence": {
-        "representacao": "Northwestern documents Willard's leadership in the WCTU and her work to make woman suffrage part of its program, providing direct evidence of support for expanding women's political participation.",
-        "economia": "The Northwestern archival description links her reform program to economic equality and fair labor laws; this supports documenting reform interests but not a precise market-versus-planning score.",
-        "moral": "Her public reform work included women's equality and suffrage. Translating those positions into the project's moral axis still requires editorial review.",
-        "religiao": "Her activism operated within a Protestant temperance organization and religious reform milieu; organizational affiliation alone is insufficient to infer a numeric religion-axis position."
+        "estrutura": "Willard built a national reform organization with local chapters; this supports organized multi-level activism without a clear constitutional centralization doctrine.",
+        "representacao": "Women’s suffrage was a major part of her reform program, strongly supporting expanded political participation.",
+        "poder": "Temperance and prohibition activism accepted significant legal regulation of private alcohol use, placing her more toward moral/state control than civil-libertarian reformers.",
+        "imigracao": "Her movement operated in a nativist era and her racial record was contested; evidence does not support a strongly multicultural/open placement.",
+        "diplomacia": "The WCTU engaged peace reform and Willard supported arbitration and moral reform, favoring diplomacy over militarism.",
+        "intervencao": "Peace advocacy supports restraint in foreign conflict rather than assertive intervention.",
+        "economia": "Fair-labor and economic-equality reforms support progressive regulation within a market economy, not socialist ownership.",
+        "controle": "Her willingness to regulate alcohol and labor conditions supports above-moderate social/economic control.",
+        "comercio": "No distinctive trade doctrine is established.",
+        "religiao": "Her leadership of the Woman’s Christian Temperance Union was explicitly Protestant and religiously motivated; she is comparatively religious, though not a theocrat.",
+        "moral": "She combined women’s suffrage with temperance and Christian moral reform: progressive on gender participation but traditional/restrictive on personal morality.",
+        "tecnologia": "Technology was not central; moderate."
       }
     },
     {
