@@ -1,0 +1,27 @@
+{
+  "id": "tawakkol-karman",
+  "sources": [
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/2011/karman/facts/",
+      "institution": "Nobel Prize Outreach"
+    },
+    {
+      "url": "https://www.nobelprize.org/events/nobel-prize-summit/2021/speakers/tawakkol-karman-2/",
+      "institution": "Nobel Prize Outreach"
+    }
+  ],
+  "evidence": {
+    "representacao": "Nobel sources document Karman's nonviolent advocacy for democracy and women's full participation in public life.",
+    "poder": "Her journalism and activism centered freedom of expression and opposition to political repression.",
+    "diplomacia": "Her Nobel-recognized record emphasizes nonviolent action, peace and political reconciliation.",
+    "religiao": "Her public framing connects Islamic faith with women's political participation; this is evidence about her stated compatibility claim, not a numeric religion-axis placement.",
+    "estrutura": "Karman's democracy advocacy focuses accountable constitutional institutions rather than a specific federal-versus-centralized territorial design; keep structure moderate.",
+    "imigracao": "Her human-rights work is universalist and inclusive, but the reviewed sources do not establish a detailed immigration or assimilation policy.",
+    "intervencao": "Her Nobel-recognized nonviolent activism and peace advocacy support strong preference for political change through civic action rather than military intervention.",
+    "economia": "Her public record is centered on democracy, journalism and human rights rather than ownership or market design; keep economic placement moderate.",
+    "controle": "No reliable planning-versus-market doctrine is established in the reviewed sources.",
+    "comercio": "No reliable trade-policy doctrine is established.",
+    "moral": "Her advocacy for women's full political participation and rights supports a progressive equality position.",
+    "tecnologia": "As a journalist and free-expression activist she relied on modern communications, but no broad accelerationist or anti-technology doctrine is established."
+  }
+}
