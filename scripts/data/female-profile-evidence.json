@@ -1934,10 +1934,18 @@
         }
       ],
       "evidence": {
-        "representacao": "New Zealand Parliament documents Ardern's elected parliamentary service, opposition leadership and tenure as prime minister.",
-        "economia": "Her ministerial portfolio included child-poverty reduction and her government treated poverty and housing as public-policy priorities; that does not determine a complete market/planning score.",
-        "poder": "Her premiership included national-security and intelligence responsibility and policy responses after the Christchurch attacks; these require issue-specific review rather than a broad coercion score.",
-        "moral": "Government material documents sustained policy attention to child wellbeing and social inclusion."
+        "estrutura": "Ardern governed New Zealand’s unitary parliamentary state with strong national crisis coordination; this supports coordinated central capacity within democracy.",
+        "representacao": "Her parliamentary and prime-ministerial career operated through competitive elections and accountable democratic institutions.",
+        "poder": "Her government combined rights-based democracy with strong public-health restrictions, firearms regulation and online-harm/security responses; moderate-to-high regulatory state power rather than libertarian minimalism.",
+        "imigracao": "Her governments defended multicultural inclusion and refugee commitments while maintaining ordinary border controls; relatively pluralist but regulated.",
+        "diplomacia": "She emphasized multilateralism, international cooperation and negotiated responses, supporting a diplomatic orientation.",
+        "intervencao": "New Zealand remained an allied security partner but her public style emphasized international law and multilateral cooperation rather than unilateral force.",
+        "economia": "Her Labour governments combined private markets with welfare expansion, child-poverty policy and public investment; center-left mixed economy.",
+        "controle": "Public-health, labor, housing and welfare policies support substantial regulation without command planning.",
+        "comercio": "New Zealand remained strongly integrated into global trade and supported trade agreements; relatively open commerce.",
+        "religiao": "Ardern left the Mormon church and governed in secular terms; strongly secular public politics.",
+        "moral": "Social inclusion, reproductive-rights reform and equality policies place her on the progressive side.",
+        "tecnologia": "Her government engaged digital harms, online extremism and modern public-service technology, favoring regulated pragmatic technology."
       }
     },
     {
