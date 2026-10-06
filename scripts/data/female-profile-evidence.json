@@ -2216,6 +2216,37 @@
         "moral": "Her record strongly emphasizes gender equality, women's economic autonomy, social rights and human rights, supporting a progressive social orientation.",
         "tecnologia": "The reviewed sources focus on social policy and rights rather than technology ideology. Her governance was technocratic and evidence-oriented, supporting a pragmatic moderate-to-positive technology stance."
       }
+    },
+    {
+      "id": "rosa-luxemburg",
+      "sources": [
+        {
+          "url": "https://marxists.architexturez.net/portugues/luxemburgo/1900/ref_rev/index.htm",
+          "institution": "Marxists Internet Archive"
+        },
+        {
+          "url": "https://www.marxists.org/archive/luxemburg/1915/junius/ch06.htm",
+          "institution": "Marxists Internet Archive"
+        },
+        {
+          "url": "https://rosaluxemburg.org/en/positions/",
+          "institution": "Rosa Luxemburg Foundation"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Luxemburg emphasized mass self-activity, workers' organization and democratic participation from below rather than bureaucratic command. Her socialism was internationalist and hostile to rigid nationalist centralism, supporting a relatively decentralized participatory structure within socialist transformation.",
+        "representacao": "She defended political democracy and mass participation while criticizing both bourgeois parliamentarism as insufficient and authoritarian socialism. Evidence supports strong democratic participation rather than autocratic rule.",
+        "poder": "Her political thought opposed militarism, repression and bureaucratic domination, and stressed freedom for dissent within the workers' movement. This supports lower coercive-authoritarian power.",
+        "imigracao": "Her internationalist socialism rejected nationalist exclusion and centered class solidarity across borders. While not a modern immigration-policy program, this supports a relatively open/universalist orientation with appropriate historical caution.",
+        "diplomacia": "She was a leading anti-war socialist and condemned the First World War and nationalist militarism. This strongly supports a pacifist/internationalist diplomatic orientation.",
+        "intervencao": "Her anti-war writings strongly reject imperialist military conflict and nationalist intervention, supporting non-interventionist/anti-militarist placement.",
+        "economia": "She was a revolutionary Marxist committed to abolishing the capitalist wage system and replacing capitalist ownership with socialism. This is strong evidence for collective/public economic ownership.",
+        "controle": "Luxemburg supported socialist transformation but stressed mass democratic action rather than bureaucratic administration. Evidence supports high collective coordination with a strong anti-bureaucratic qualification.",
+        "comercio": "Her critique of capitalism included militarism and tariff policy and rejected nationalist protectionism as a durable solution. She was not a liberal free-trader; the evidence fits internationalist socialism rather than national protectionism.",
+        "religiao": "Her politics were secular Marxist and grounded in class, democracy and material social relations rather than religious authority. This supports a strongly secular position.",
+        "moral": "Her socialist internationalism and emphasis on emancipation support progressive social values, though her main writings were class-political rather than focused on later cultural-policy categories.",
+        "tecnologia": "Luxemburg treated capitalist development and productive forces as historically transformative but did not develop a distinct technocratic or anti-technology ideology. Use a moderate, modernist position rather than an extreme."
+      }
     }
   ]
 }
