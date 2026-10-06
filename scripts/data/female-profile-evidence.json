@@ -1999,6 +1999,37 @@
         "moral": "Her advocacy of birth control, women's equality, sexual autonomy and independence strongly supports progressive social positions.",
         "tecnologia": "The archival sources do not establish a distinctive doctrine on technology. Her politics focused on freedom and social relations, so avoid strong technological inference."
       }
+    },
+    {
+      "id": "emmeline-pankhurst",
+      "sources": [
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/startsuffragette-/",
+          "institution": "UK Parliament"
+        },
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/suffragetteswartime/",
+          "institution": "UK Parliament"
+        },
+        {
+          "url": "https://www.nationalarchives.gov.uk/explore-the-collection/stories/emmeline-pankhurst/",
+          "institution": "The National Archives (UK)"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Pankhurst's core campaign sought political rights within the British state rather than a redesign of territorial government. The reviewed sources provide little evidence for centralization versus federalism, so this axis should remain moderate.",
+        "representacao": "Her central political goal was women's suffrage and equal electoral participation. This is direct, strong evidence for broader democratic representation.",
+        "poder": "She challenged state repression, imprisonment and exclusion, but also endorsed militant direct action and later wartime mobilization. Evidence supports opposition to unjust political coercion without a generalized anti-state position.",
+        "imigracao": "The reviewed sources do not establish a meaningful immigration-policy position. No strong score should be inferred.",
+        "diplomacia": "Pankhurst strongly supported the British war effort after 1914, suspending suffragette militancy to support national mobilization. This makes her less pacifist than many contemporary suffragists.",
+        "intervencao": "Her wartime support indicates willingness to back national military mobilization in a major conflict, so the evidence does not support strict non-interventionism.",
+        "economia": "Her earlier links to labor politics and concern for women's work do not by themselves establish a complete ownership model. The reviewed sources are insufficient for an extreme market/public score.",
+        "controle": "There is not enough direct evidence in the reviewed material for a strong planning-versus-market-control position; keep moderate unless economic writings are added.",
+        "comercio": "No substantial trade-policy evidence appears in the reviewed sources. Avoid inferring from suffrage activism.",
+        "religiao": "The reviewed sources do not present religious governance as a central part of her politics. Her suffrage program was civic and electoral; a moderate secular placement is better supported than a strong religious score.",
+        "moral": "Her campaign for women's political equality and expansion of female public roles strongly supports progressive gender norms, though her later politics became more conservative on some issues.",
+        "tecnologia": "The reviewed sources do not establish a specific technology ideology. Wartime support for women entering industrial work shows acceptance of modernization but not enough for an extreme score."
+      }
     }
   ]
 }
