@@ -2955,6 +2955,33 @@
         "moral": "Her work on ethics, autonomy, minority rights and later New Left themes supports socially progressive and pluralist positions.",
         "tecnologia": "Her work on biopolitics considered moral and legal limits on genetic and biological technologies, supporting a cautious, human-centered rather than accelerationist technology stance."
       }
+    },
+    {
+      "id": "alva-myrdal",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/themes/heroines-of-peace-the-nine-nobel-women/",
+          "institution": "Nobel Prize Outreach"
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/facts/facts-on-the-nobel-peace-prize/",
+          "institution": "Nobel Prize Outreach"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Myrdal helped build Sweden's national welfare state and worked through international institutions, supporting strong coordinated public capacity rather than radical decentralization.",
+        "representacao": "Her career in democratic Swedish institutions, international organizations and advocacy for women's equal rights supports representative democracy and inclusive participation.",
+        "poder": "Her social-democratic and peace-oriented politics favor rights-constrained democratic government rather than authoritarian coercion.",
+        "imigracao": "Her internationalist and universalist work supports inclusive human-development policies, but the reviewed sources do not establish a detailed border doctrine.",
+        "diplomacia": "Her leadership in UN disarmament negotiations and Nobel-recognized peace work provide strong evidence for multilateral diplomacy and negotiated security.",
+        "intervencao": "Her disarmament activism and opposition to nuclear arms support a strongly non-militarist and non-interventionist orientation.",
+        "economia": "Her role in developing the Swedish welfare state supports a social-democratic mixed economy with significant public provision.",
+        "controle": "Welfare-state planning, social policy and coordinated public institutions support substantial regulation and planning short of command economics.",
+        "comercio": "The reviewed sources do not establish a distinctive protectionist or free-trade doctrine; keep moderate within an internationalist framework.",
+        "religiao": "Her public work was secular, rationalist and policy-oriented rather than grounded in religious authority.",
+        "moral": "Her advocacy for women's liberation and equal rights strongly supports progressive social-equality positions.",
+        "tecnologia": "Her anti-nuclear-weapons work shows caution toward destructive technologies while not opposing science or peaceful innovation; use a moderate risk-aware position."
+      }
     }
   ]
 }
