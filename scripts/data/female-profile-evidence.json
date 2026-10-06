@@ -4083,6 +4083,37 @@
         "moral": "Her advocacy for girls' education, racial inclusion, healthy families and equal opportunity supports socially liberal and egalitarian values, though her public role was not defined by radical cultural-policy advocacy.",
         "tecnologia": "Her education and youth initiatives use modern media and evidence-based public-health tools but do not define a broad technology ideology. Use a moderate pro-modernization position."
       }
+    },
+    {
+      "id": "nina-bang",
+      "sources": [
+        {
+          "url": "https://www.ft.dk/da/aktuelt/tema/kvindeportraet_2022",
+          "institution": "Folketinget - Danish Parliament"
+        },
+        {
+          "url": "https://kvindebiografiskleksikon.lex.dk/Nina_Bang/",
+          "institution": "Dansk Kvindebiografisk Leksikon / Lex"
+        },
+        {
+          "url": "https://danmarkshistorien.lex.dk/Nina_Bang%2C_1866-1928",
+          "institution": "Danmarkshistorien / Lex"
+        }
+      ],
+      "evidence": {
+        "estrutura": "As a Marxist social democrat and education minister, Bang sought national democratization of the school system and stronger public institutions. This supports relatively centralized public coordination rather than libertarian decentralization.",
+        "representacao": "She served in elected local and national bodies after women's suffrage and worked to democratize school governance. This supports representative democracy, despite a class-first rather than feminist political identity.",
+        "poder": "Bang accepted a strong democratic welfare state and party organization but operated within parliamentary institutions rather than authoritarian politics. Use a moderate order/state-capacity position constrained by democracy.",
+        "imigracao": "Her parents were German immigrants and her politics were class-oriented, but the reviewed sources do not establish a modern immigration/assimilation doctrine. Keep moderate.",
+        "diplomacia": "She wrote on foreign policy and participated in international socialist congresses. Her socialist internationalism supports engagement beyond nationalism, but she was not primarily a pacifist theorist.",
+        "intervencao": "The reviewed sources do not establish a clear military-intervention doctrine. Her Marxist internationalism weighs against aggressive nationalism, but keep moderate.",
+        "economia": "Bang was explicitly Marxist and social democratic, focused on working-class conditions and labor organization. This strongly supports public/social ownership and redistribution relative to laissez-faire capitalism.",
+        "controle": "Her socialist politics support substantial public planning, labor organization and state coordination of education and social policy.",
+        "comercio": "As a historian of trade and a Marxist, she analyzed commerce structurally rather than advocating laissez-faire. No simple tariff doctrine is established; use moderately protectionist/managed economic coordination.",
+        "religiao": "Her socialist political arguments were secular and class-based rather than grounded in religious authority.",
+        "moral": "She worked to improve working women's conditions and broke major political barriers, but she subordinated gender struggle to class struggle and was not a radical cultural feminist. Use a moderately progressive social position.",
+        "tecnologia": "Her historical and administrative work was evidence-oriented and modernization-friendly, but she left no distinctive technology doctrine. Use moderate technocratic modernism."
+      }
     }
   ]
 }
