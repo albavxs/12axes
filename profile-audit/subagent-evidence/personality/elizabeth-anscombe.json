@@ -1,0 +1,27 @@
+{
+  "id": "elizabeth-anscombe",
+  "sources": [
+    {
+      "url": "https://plato.stanford.edu/archives/sum2022/entries/anscombe/",
+      "institution": "Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "url": "https://academic.oup.com/book/50207/chapter-abstract/422031558",
+      "institution": "Oxford Academic"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Anscombe wrote political philosophy but did not advance a distinctive federal-versus-centralized constitutional program. Keep structural placement moderate.",
+    "representacao": "Her public political interventions were acts of conscience within democratic academic society rather than a developed theory of electoral representation. Use a moderate representative-democratic placement.",
+    "poder": "Her opposition to intentional killing of civilians and willingness to confront institutional authority over moral principle support strong constraints on state violence and consequentialist power.",
+    "imigracao": "No reliable immigration or assimilation doctrine is central to her work. Keep moderate.",
+    "diplomacia": "Her famous opposition to honoring Truman over Hiroshima and Nagasaki reflects moral limits on wartime state action rather than a broad diplomacy doctrine.",
+    "intervencao": "Her absolute rejection of intentionally killing innocents strongly supports a restrained just-war position and opposition to indiscriminate military intervention.",
+    "economia": "Anscombe's major work did not center ownership, redistribution or welfare policy. Keep economic placement moderate.",
+    "controle": "No planning-versus-market doctrine is established. Keep moderate.",
+    "comercio": "No trade-policy doctrine is established. Keep moderate.",
+    "religiao": "A committed Roman Catholic philosopher, Anscombe explicitly defended a theistic moral framework and divine law. This strongly supports a religious moral orientation, though not automatically theocratic government.",
+    "moral": "Her opposition to contraception and abortion and her virtue-ethical, Catholic moral commitments strongly support socially traditional positions.",
+    "tecnologia": "Her ethical criticism of atomic bombing shows willingness to constrain powerful technologies by moral limits, but she did not reject technology generally. Use a cautious human-centered placement."
+  }
+}
