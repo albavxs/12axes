@@ -1,0 +1,27 @@
+{
+  "id": "sirimavo-bandaranaike",
+  "sources": [
+    {
+      "url": "https://www.parliament.lk/en/learn/women-in-parliament/who-we-are",
+      "institution": "Parliament of Sri Lanka"
+    },
+    {
+      "url": "https://www.parliament.lk/uploads/documents/hansard/PUBDOC2063_document.pdf",
+      "institution": "Parliament of Sri Lanka"
+    }
+  ],
+  "evidence": {
+    "representacao": "Sri Lankan parliamentary history documents Bandaranaike's terms as prime minister and her place in the history of women's political leadership.",
+    "diplomacia": "Parliamentary material documents Sri Lanka's hosting of the 1976 Non-Aligned summit during her leadership, relevant to a non-aligned foreign-policy record.",
+    "economia": "The selected parliamentary sources do not by themselves establish the full scope of her economic nationalization and planning policies; those require dedicated policy sources before scoring.",
+    "estrutura": "National executive leadership does not alone reveal centralization/federalism preferences.",
+    "poder": "Her governments used strong state authority and emergency measures in periods of conflict, supporting a relatively order-oriented and centralized exercise of power.",
+    "imigracao": "Her politics centered Sinhala-majority state-building and national identity rather than multicultural immigration openness; use a more assimilationist/national orientation with caution.",
+    "intervencao": "Her non-aligned foreign policy emphasized sovereignty and resistance to great-power intervention while maintaining a capable state; this supports relative non-interventionism externally.",
+    "controle": "Her governments pursued nationalization, price controls and extensive state direction of the economy, supporting high planning and regulation.",
+    "comercio": "Import controls and economic nationalism support a more protectionist and managed-trade position.",
+    "religiao": "Her politics were intertwined with Sinhala-Buddhist nationalism, but Sri Lanka remained a constitutional state rather than a pure theocracy; use a moderately religious-national placement.",
+    "moral": "Her social record was mixed: she broke gender barriers as a woman leader but operated within culturally conservative majoritarian politics; use a moderate placement.",
+    "tecnologia": "Her governments emphasized state-led development but no distinctive technology ideology is established."
+  }
+}
