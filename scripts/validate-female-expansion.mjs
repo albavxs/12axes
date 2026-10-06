@@ -6,6 +6,11 @@ const manifestPath = resolve(root, 'scripts/data/female-expansion.json');
 const personalitiesPath = resolve(root, 'backend/src/main/resources/data/personalities.json');
 const evidencePath = resolve(root, 'scripts/data/female-profile-evidence.json');
 const metadataPath = resolve(root, 'scripts/data/female-metadata-drafts.json');
+const auditAnswersRoot = resolve(root, 'profile-audit/answers/personality');
+const AXES = [
+  'estrutura', 'representacao', 'poder', 'imigracao', 'diplomacia', 'intervencao',
+  'economia', 'controle', 'comercio', 'religiao', 'moral', 'tecnologia'
+];
 
 const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
 const personalities = JSON.parse(readFileSync(personalitiesPath, 'utf8'));
@@ -36,6 +41,10 @@ const planned = runtimeFemaleIds.size + candidates.length;
 const remainingUnplanned = Math.max(0, manifest.target.targetFemaleCount - planned);
 
 const errors = [];
+
+if (manifest.target.requiredAdditions !== manifest.target.targetFemaleCount - manifest.target.initialFemaleCount) {
+  errors.push(`target.requiredAdditions inconsistente: ${manifest.target.requiredAdditions}; esperado ${manifest.target.targetFemaleCount - manifest.target.initialFemaleCount}`);
+}
 
 if (duplicateIds.length) {
   errors.push(`IDs duplicados: ${[...new Set(duplicateIds)].join(', ')}`);
@@ -114,8 +123,27 @@ for (const candidate of candidates) {
       if (!Array.isArray(dossier.sources) || dossier.sources.length < 2) {
         errors.push(`${candidate.id}: dossiê precisa de pelo menos 2 fontes`);
       }
-      if (!dossier.evidence || Object.keys(dossier.evidence).length < 3) {
-        errors.push(`${candidate.id}: dossiê precisa de evidência em pelo menos 3 eixos`);
+      const evidenceKeys = Object.keys(dossier.evidence ?? {});
+      const unknownAxes = evidenceKeys.filter((axisId) => !AXES.includes(axisId));
+      if (evidenceKeys.length < 3) {
+        errors.push(`${candidate.id}: dossiê precisa de evidência em pelo menos 3 eixos para entrar em review`);
+      }
+      if (unknownAxes.length) {
+        errors.push(`${candidate.id}: dossiê contém eixos desconhecidos: ${unknownAxes.join(', ')}`);
+      }
+      if (['proposed', 'ready'].includes(candidate.profileStatus)) {
+        const missingAxes = AXES.filter((axisId) => !evidenceKeys.includes(axisId));
+        if (missingAxes.length) {
+          errors.push(
+            `${candidate.id}: profileStatus=${candidate.profileStatus} exige evidência 12/12; faltam: ${missingAxes.join(', ')}`
+          );
+        }
+      }
+      if (candidate.profileStatus === 'ready') {
+        const auditPath = resolve(auditAnswersRoot, `${candidate.id}.json`);
+        if (!existsSync(auditPath)) {
+          errors.push(`${candidate.id}: profileStatus=ready exige auditoria permanente em profile-audit/answers/personality/`);
+        }
       }
 
       const dossierUrls = new Set((dossier.sources ?? []).map((source) => source.url));
@@ -155,6 +183,15 @@ for (const [field, expected] of Object.entries(expectedProgress)) {
   }
 }
 
+const evidenceAxisSlots = candidates.reduce((total, candidate) => {
+  const dossier = evidenceById.get(candidate.id);
+  return total + AXES.filter((axisId) => Object.prototype.hasOwnProperty.call(dossier?.evidence ?? {}, axisId)).length;
+}, 0);
+const fullEvidenceDossiers = candidates.filter((candidate) => {
+  const dossier = evidenceById.get(candidate.id);
+  return AXES.every((axisId) => Object.prototype.hasOwnProperty.call(dossier?.evidence ?? {}, axisId));
+}).length;
+
 const summary = {
   target: manifest.target.targetFemaleCount,
   integrated: runtimeFemaleIds.size,
@@ -164,6 +201,10 @@ const summary = {
   blocked: blocked.length,
   remainingUnplanned,
   dossiers: evidence.personalities?.length ?? 0,
+  fullEvidenceDossiers,
+  evidenceAxisSlots,
+  evidenceAxisSlotsTotal: candidates.length * AXES.length,
+  missingEvidenceAxisSlots: candidates.length * AXES.length - evidenceAxisSlots,
   metadataDrafts: metadata.personalities?.length ?? 0,
   portraitsInReview: candidates.filter((candidate) => candidate.portraitStatus === 'review').length,
   integratedRecorded: manifest.integrated?.length ?? 0,

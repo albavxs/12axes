@@ -38,7 +38,7 @@ Uma mulher só está pronta quando:
 2. tradução EN foi revisada;
 3. retrato JPEG local foi revisado;
 4. fonte, licença e atribuição do retrato estão registradas;
-5. evidência factual está suficiente e revisada;
+5. evidência factual cobre os **12/12 eixos**, está suficiente e revisada;
 6. existem 240 respostas — 20 por eixo — mais o arquétipo;
 7. `python3 profile-audit/validate.py personality <id>` passa;
 8. o vetor é calculado pelo pipeline oficial a partir das respostas;
@@ -77,7 +77,7 @@ Isso evita fabricar um perfil político só para preencher o catálogo e deixa c
 
 Atacar continuamente os lotes da fila.
 
-Perfis ainda sem evidência suficiente continuam na fila, mas precisam terminar a pesquisa factual antes de responder as 240 perguntas.
+Perfis ainda sem evidência suficiente continuam na fila, mas ficam na fase `research`. O dispatch da auditoria só é liberado quando o dossiê cobre **12/12 eixos**. `review` pode representar material em revisão; `proposed` e `ready` exigem 12/12.
 
 ### Trilha B — retratos e metadata
 
@@ -135,3 +135,39 @@ main
 ```
 
 Mudança editorial entra primeiro na feature e depois é incorporada ao Studio. Mudança puramente de ferramenta fica apenas no Studio.
+
+
+## Execução paralela por subagentes
+
+A fila oficial é derivada do repositório, não de uma lista manual:
+
+```bash
+python3 profile-audit/female_audit_queue.py
+python3 profile-audit/female_audit_queue.py --batch 1
+python3 profile-audit/female_audit_queue.py --json
+```
+
+Cada item recebe uma fase:
+
+- `research`: ainda não possui evidência 12/12;
+- `audit`: evidência 12/12 concluída e ainda sem arquivo permanente;
+- itens com auditoria permanente deixam a fila automaticamente.
+
+Para evitar corrida de escrita, subagentes de pesquisa **não editam**
+`scripts/data/female-profile-evidence.json` em paralelo. Cada um grava um arquivo isolado em
+`profile-audit/subagent-evidence/personality/<id>.json`. O agente coordenador valida e incorpora
+cada dossiê sequencialmente com:
+
+```bash
+python3 profile-audit/merge_female_evidence.py <id>
+```
+
+Depois da evidência 12/12, os subagentes de auditoria usam a convenção já existente:
+
+```text
+profile-audit/subagent-out/personality/<id>.json
+```
+
+Um perfil por subagente. Nunca compartilhar respostas entre personalidades e nunca escrever vetor
+diretamente. O coordenador roda `validate.py`, calcula o vetor, arquiva as respostas e só então
+promove o perfil.

@@ -115,7 +115,12 @@ Uma candidata em `review`, `proposed` ou `ready` precisa ter:
 
 - `evidenceFile` apontando para `female-profile-evidence.json`;
 - pelo menos 2 fontes no dossiê;
-- evidência documentada em pelo menos 3 eixos.
+- em `review`, evidência documentada em pelo menos 3 eixos;
+- em `proposed` ou `ready`, evidência documentada em **12/12 eixos**;
+- em `ready`, auditoria permanente em `profile-audit/answers/personality/<id>.json`.
+
+A existência de algum dossiê não libera automaticamente a auditoria. O gate de dispatch das 240
+respostas é **evidência 12/12**.
 
 O validator também deve garantir:
 
