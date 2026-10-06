@@ -4052,6 +4052,37 @@
         "moral": "Her feminism, antiracism, LGBTQIA+ advocacy and defense of marginalized communities strongly support progressive social values.",
         "tecnologia": "Her legislative and activist work did not center a broad technology ideology. Use a moderate human-rights-oriented position."
       }
+    },
+    {
+      "id": "michelle-obama",
+      "sources": [
+        {
+          "url": "https://www.obamalibrary.gov/obamas/first-lady-michelle-obama",
+          "institution": "Barack Obama Presidential Library"
+        },
+        {
+          "url": "https://obamawhitehouse.archives.gov/administration/first-lady-michelle-obama",
+          "institution": "Obama White House Archives"
+        },
+        {
+          "url": "https://obamawhitehouse.archives.gov/letgirlslearn",
+          "institution": "Obama White House Archives"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Michelle Obama's public initiatives worked through federal programs, local schools, nonprofits and private partners. This supports pragmatic multilevel governance rather than a strong centralization or federalism doctrine.",
+        "representacao": "Her public speeches and civic work consistently encourage participation, education, voting and inclusion, supporting representative democratic norms even though she has not held elected office.",
+        "poder": "Her agenda emphasizes opportunity, education and community support rather than coercive state authority. The reviewed official sources do not establish a strong security-versus-liberty doctrine; use a moderately liberal position.",
+        "imigracao": "Her initiatives are inclusive and multicultural, but the reviewed official sources do not establish a detailed immigration or border policy. Keep moderate-to-inclusive.",
+        "diplomacia": "Let Girls Learn and her international advocacy for girls' education relied on international partnerships, cultural diplomacy and development cooperation, supporting a diplomatic rather than militarist orientation.",
+        "intervencao": "She has not articulated a detailed military-intervention doctrine. Her international public work is education- and development-based, supporting restraint.",
+        "economia": "Her programs emphasize education, health, employment opportunity and public-private partnerships within a market economy. This supports a center-left mixed economy rather than state ownership or laissez-faire extremes.",
+        "controle": "She accepts public health and education interventions while relying extensively on voluntary, nonprofit and private-sector cooperation. This supports moderate regulation and public coordination.",
+        "comercio": "No reliable free-trade versus protectionism doctrine is established by her First Lady initiatives. Keep moderate.",
+        "religiao": "Her public service operates within a secular constitutional framework, though she has a Christian personal background. No support exists for religious government.",
+        "moral": "Her advocacy for girls' education, racial inclusion, healthy families and equal opportunity supports socially liberal and egalitarian values, though her public role was not defined by radical cultural-policy advocacy.",
+        "tecnologia": "Her education and youth initiatives use modern media and evidence-based public-health tools but do not define a broad technology ideology. Use a moderate pro-modernization position."
+      }
     }
   ]
 }
