@@ -1,0 +1,27 @@
+{
+  "id": "raicho-hiratsuka",
+  "sources": [
+    {
+      "url": "https://www.ndl.go.jp/portrait/e/datas/380/",
+      "institution": "National Diet Library, Japan"
+    },
+    {
+      "url": "https://www5.jwu.ac.jp/st/grp/raiteu/raiteu01/raiteu-prize2005.pdf",
+      "institution": "Japan Women's University"
+    }
+  ],
+  "evidence": {
+    "representacao": "Sources document Hiratsuka's leadership in the Japanese women's movement and campaigns connected to women's political participation.",
+    "moral": "Her feminist organizing directly addressed women's liberation and equality.",
+    "diplomacia": "Japan Women's University material describes her postwar work for peace, providing evidence relevant to pacifist activism.",
+    "poder": "Women's-rights advocacy is rights-related, but the selected sources do not support a broad policing/surveillance/order position.",
+    "estrutura": "Hiratsuka organized national women's associations but did not articulate a distinct territorial federalism doctrine; keep structural placement moderate.",
+    "imigracao": "Her activism centered women's rights and peace in Japan rather than immigration or assimilation policy.",
+    "intervencao": "Her postwar peace activism supports skepticism toward military intervention and coercive nationalism.",
+    "economia": "Her maternity-protection advocacy supported public support for women's social roles, but does not establish a full ownership model.",
+    "controle": "Evidence supports social regulation and welfare protections without comprehensive planning.",
+    "comercio": "No reliable trade-policy doctrine is established.",
+    "religiao": "Her feminist program was secular and social rather than clerical; no case for religious government is established.",
+    "tecnologia": "No distinctive technology doctrine is established; keep moderate."
+  }
+}

@@ -35,7 +35,16 @@
       "evidence": {
         "representacao": "Documented civil-rights organizing challenged racial disenfranchisement and segregation; use primary material to distinguish voting-rights advocacy from broader institutional preferences.",
         "poder": "Her civil-rights work directly contested coercive segregation and unequal treatment under law.",
-        "moral": "Her activism centered racial equality and civil rights; translate this historical evidence into the project's axis only after editorial review."
+        "moral": "Her activism centered racial equality and civil rights; translate this historical evidence into the project's axis only after editorial review.",
+        "estrutura": "Parks relied on both grassroots local organizing and federal constitutional enforcement against segregation, supporting multilevel civil-rights governance rather than a pure centralization or decentralization extreme.",
+        "imigracao": "Her activism centered racial justice and citizenship in the United States, not immigration policy; keep moderate.",
+        "diplomacia": "Her methods emphasized organizing, coalition-building and nonviolent protest; this supports peaceful political action but not a detailed foreign-policy doctrine.",
+        "intervencao": "Parks opposed the Vietnam War and supported antiwar causes later in life, providing evidence for a relatively non-interventionist orientation.",
+        "economia": "Her later activism included housing, jobs, poverty and the Poor People's Campaign, supporting social-economic reform rather than laissez-faire indifference.",
+        "controle": "She supported public remedies for discrimination and poverty but not comprehensive economic planning.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "Her civil-rights activism was connected to Black church networks, but her political program was equal citizenship rather than religious government.",
+        "tecnologia": "No distinctive technology doctrine is established."
       }
     },
     {
@@ -346,7 +355,15 @@
         "representacao": "Election to Congress and the 1972 presidential campaign provide direct evidence for electoral-democratic participation and expanded representation.",
         "moral": "Her campaign and legislative priorities emphasize racial and gender equality, relevant to the social-progressive side.",
         "economia": "House biography and policy record point to anti-poverty, education and social-program commitments; map public/private and planning/market axes after policy review.",
-        "imigracao": "Do not infer immigration placement from civil-rights politics alone; seek issue-specific material before scoring."
+        "imigracao": "Do not infer immigration placement from civil-rights politics alone; seek issue-specific material before scoring.",
+        "estrutura": "Chisholm worked through federal legislative institutions while representing a local Brooklyn constituency; her record supports national civil-rights and social-policy action without a distinct centralization doctrine.",
+        "poder": "Her civil-rights, anti-discrimination and criminal-justice concerns support constitutional protections against unequal state power while retaining ordinary public institutions.",
+        "diplomacia": "Her congressional record was internationalist and generally skeptical of militarized priorities, favoring diplomacy and domestic social investment.",
+        "intervencao": "She opposed the Vietnam War and redirected attention toward social spending, supporting a relatively non-interventionist orientation.",
+        "controle": "Her anti-poverty and social-program agenda supports meaningful regulation and public provision without command planning.",
+        "comercio": "No reliable trade-policy doctrine is established from the reviewed sources.",
+        "religiao": "Her public program was civic and egalitarian rather than religiously governed; no basis for theocracy is established.",
+        "tecnologia": "No distinctive technology doctrine is established."
       }
     },
     {
@@ -436,7 +453,14 @@
         "representacao": "Abolitionist and women’s-rights advocacy provide evidence for expanding civic standing and democratic inclusion.",
         "religiao": "Religious preaching and spiritual conviction were central to her public persona; review must distinguish religiosity from theocratic politics.",
         "moral": "Her public advocacy challenged racial and gender hierarchy, strongly relevant to equality and social reform.",
-        "economia": "Antislavery work has direct labor/property implications, but modern economic-axis mapping needs careful historical translation."
+        "economia": "Antislavery work has direct labor/property implications, but modern economic-axis mapping needs careful historical translation.",
+        "estrutura": "Truth's activism relied on local abolitionist networks and federal action for emancipation and equal rights; she did not articulate a territorial federalism doctrine.",
+        "imigracao": "Her universal equality arguments challenge racial hierarchy but do not amount to a modern immigration or assimilation program.",
+        "diplomacia": "Her public methods were preaching, speaking, petitioning and political advocacy rather than militarism; keep a peaceful orientation.",
+        "intervencao": "She supported the Union cause in the Civil War to destroy slavery, so she was not an absolute pacifist; outside that context no general intervention doctrine is established.",
+        "controle": "Her support for land grants and material support for formerly enslaved people implies public redistribution but not comprehensive planning.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "tecnologia": "No meaningful modern technology doctrine can be established from the reviewed historical record."
       }
     },
     {
@@ -673,7 +697,14 @@
         "moral": "Her reform work challenged gender hierarchy; historical positions outside suffrage require source-specific review.",
         "estrutura": "Her support for a federal suffrage amendment is an issue-specific preference for national constitutional action, not enough by itself to define a broad federal/unitary score.",
         "religiao": "Quaker/reform networks may be relevant background but should not drive religious-axis scoring without direct political evidence.",
-        "economia": "Labor and property-rights concerns appear in suffrage-era reform; map economic axes only after evidence review."
+        "economia": "Labor and property-rights concerns appear in suffrage-era reform; map economic axes only after evidence review.",
+        "poder": "Anthony's arrest for voting and her civil-rights activism support opposition to legal exclusion and arbitrary restrictions on equal citizenship.",
+        "imigracao": "Her record in Reconstruction-era suffrage debates is mixed and at times used nativist or racially exclusionary rhetoric; avoid mapping her automatically to multicultural openness.",
+        "diplomacia": "Her public work centered abolition, suffrage and domestic reform rather than foreign policy; keep moderate.",
+        "intervencao": "No developed military-intervention doctrine is established.",
+        "controle": "Her equal-pay and property-rights advocacy favored legal reform within a market society rather than centralized planning.",
+        "comercio": "No reliable tariff or trade doctrine is established.",
+        "tecnologia": "No distinctive technology doctrine is established."
       }
     },
     {
@@ -920,7 +951,15 @@
         "representacao": "Official biographies document Ginsburg's litigation and institutional work on sex discrimination and equal legal participation.",
         "poder": "Her Women's Rights Project litigation provides direct evidence on constitutional and civil-rights protections; a general order-versus-liberty score requires review of a wider judicial record.",
         "moral": "Her career includes sustained legal advocacy against sex-based discrimination, relevant to gender-equality questions on the moral axis.",
-        "estrutura": "Service on federal courts does not by itself establish a centralization or federalism preference; constitutional decisions would need issue-specific review."
+        "estrutura": "Service on federal courts does not by itself establish a centralization or federalism preference; constitutional decisions would need issue-specific review.",
+        "imigracao": "Her judicial record included immigration cases, but the reviewed biographical sources do not support a simple assimilation-versus-multicultural score; keep moderate pending case-specific review.",
+        "diplomacia": "Her career focused constitutional and civil rights law rather than foreign policy; keep moderate.",
+        "intervencao": "No independent military-intervention doctrine is established.",
+        "economia": "Her jurisprudence operated within a regulated market economy and included workplace equality; no evidence supports either socialism or laissez-faire extremes.",
+        "controle": "She accepted substantial regulatory state capacity while emphasizing constitutional constraints; use moderate regulation rather than planning.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "Her constitutional approach defended religious liberty and secular law rather than religious government.",
+        "tecnologia": "Her career predates most contemporary technology-policy debates; no distinctive accelerationist or anti-technology doctrine is established."
       }
     },
     {
@@ -939,7 +978,15 @@
         "representacao": "Official biographical sources document O'Connor's elected and appointed service in Arizona government and the federal judiciary; this establishes institutional participation, not a complete democracy-axis position.",
         "estrutura": "Her career spans state legislative, state judicial and federal judicial institutions, but biography alone does not establish a substantive federalism or decentralization preference.",
         "poder": "Judicial office alone cannot be translated into a civil-liberty/order score; issue-specific opinions would be required before proposal.",
-        "moral": "The selected biographical sources do not support a broad traditionalist-progressive placement. This axis should remain explicitly uncertain pending direct jurisprudential evidence."
+        "moral": "The selected biographical sources do not support a broad traditionalist-progressive placement. This axis should remain explicitly uncertain pending direct jurisprudential evidence.",
+        "imigracao": "Her biographical record does not establish a clear immigration or assimilation doctrine; avoid inferring one from party affiliation or judicial office.",
+        "diplomacia": "Her career focused domestic law and judicial institutions rather than foreign policy; keep moderate.",
+        "intervencao": "No independent military-intervention doctrine is established.",
+        "economia": "Her jurisprudence accepted a market economy with constitutional regulation; biography alone does not support a strong ownership-system score.",
+        "controle": "She generally favored limited, case-specific government action and institutional restraint rather than centralized planning; use moderate-to-low economic control.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "Her judicial philosophy operated within secular constitutional law and religious-liberty protections rather than religious government.",
+        "tecnologia": "No distinctive technology ideology is established from the reviewed sources."
       }
     },
     {
@@ -1070,7 +1117,15 @@
         "tecnologia": "Official sources document Carson's scientific work and criticism of indiscriminate pesticide use. This supports a cautious technology-risk perspective, not a general anti-technology or pro-technology score.",
         "controle": "Silent Spring contributed to public debate over pesticide oversight and environmental regulation; a planning-versus-market score would overstate that issue-specific evidence.",
         "moral": "Her conservation work documents concern for ecological harms and public responsibility, relevant to environmental values but not sufficient for unrelated social-policy positions.",
-        "poder": "The selected sources concern environmental science and regulatory debate rather than surveillance, policing or civil liberties; that axis remains underdetermined."
+        "poder": "The selected sources concern environmental science and regulatory debate rather than surveillance, policing or civil liberties; that axis remains underdetermined.",
+        "estrutura": "Carson's work concerned environmental science and federal regulation rather than territorial federalism; keep structural placement moderate.",
+        "representacao": "She worked through public science, testimony and democratic debate rather than advocating a distinct regime model; keep representation moderately democratic but not extreme.",
+        "imigracao": "No immigration or assimilation doctrine is established.",
+        "diplomacia": "Her work was domestic and environmental rather than military or diplomatic; keep moderate.",
+        "intervencao": "No foreign military-intervention doctrine is established.",
+        "economia": "Her critique of pesticide harms supports regulation of private economic activity but does not imply public ownership or socialism.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "Her public environmental arguments were scientific and ethical rather than religiously grounded, supporting a secular institutional orientation."
       }
     },
     {
@@ -1262,7 +1317,15 @@
         "representacao": "Nobel material explicitly describes Ebadi's efforts for democracy and her legal work for equal participation and rights.",
         "poder": "Her legal practice and human-rights work include press cases, political violence and rights protections, providing direct civil-liberties evidence.",
         "moral": "The Nobel citation highlights her work for the rights of women and children.",
-        "religiao": "Her biography identifies her as a practicing Muslim, while her rights advocacy is legal and political; personal faith alone should not determine a religion-policy score."
+        "religiao": "Her biography identifies her as a practicing Muslim, while her rights advocacy is legal and political; personal faith alone should not determine a religion-policy score.",
+        "estrutura": "Ebadi's legal work focuses constitutional rights, judicial independence and accountable institutions rather than territorial federalism; keep structural placement moderate.",
+        "imigracao": "Her human-rights work supports equal treatment of minorities and refugees, but the reviewed sources do not establish an open-borders doctrine.",
+        "diplomacia": "Her Nobel-recognized work relies on law, dialogue and international human-rights institutions, supporting a strongly diplomatic orientation.",
+        "intervencao": "She has criticized both domestic repression and foreign military coercion, supporting a relatively non-interventionist, rights-based approach.",
+        "economia": "Her public work is not centered on ownership or market design; keep economic placement moderate.",
+        "controle": "No strong planning-versus-market doctrine is established.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "tecnologia": "Her rights work addresses modern media and expression, but no broad pro- or anti-technology ideology is established."
       }
     },
     {
@@ -1362,7 +1425,15 @@
         "representacao": "Government historical material documents Naidu's leadership in the Indian National Congress and her prominence as a woman in electoral and nationalist politics.",
         "intervencao": "Her involvement in the independence movement is direct evidence of anti-colonial nationalism, but it is not equivalent to the project's modern foreign-intervention axis.",
         "religiao": "Her public appeals to communal harmony provide evidence relevant to pluralism; they do not by themselves establish a state-religion policy.",
-        "poder": "Participation in civil-disobedience and independence campaigns is relevant to state coercion and political rights, while broader domestic order preferences remain uncertain."
+        "poder": "Participation in civil-disobedience and independence campaigns is relevant to state coercion and political rights, while broader domestic order preferences remain uncertain.",
+        "estrutura": "Naidu worked within the Indian National Congress and independence movement but did not leave a detailed federal-versus-centralized constitutional doctrine; keep moderate.",
+        "imigracao": "Her politics centered anti-colonial nationalism and communal harmony rather than modern immigration policy.",
+        "diplomacia": "Her international speaking and nationalist advocacy relied on political persuasion, cross-community cooperation and anti-colonial diplomacy rather than militarism.",
+        "economia": "The reviewed historical material does not establish a detailed ownership or market model; keep moderate.",
+        "controle": "No reliable planning-versus-market doctrine is established.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "moral": "Her leadership in women's political participation and support for equal civic standing support a progressive gender-equality placement.",
+        "tecnologia": "No distinctive technology doctrine is established."
       }
     },
     {
@@ -1454,7 +1525,15 @@
         "moral": "Government sources document Phule's campaigns for girls' education, caste equality, widow remarriage and against child marriage and untouchability.",
         "representacao": "Her schools expanded educational participation for girls and marginalized castes, establishing a record of social inclusion rather than an electoral-system position.",
         "poder": "Her reform activity directly challenged discriminatory social institutions; this is rights-related evidence but does not establish views on surveillance or public order.",
-        "economia": "The selected sources focus on education and social reform and do not support a reliable economic-system score."
+        "economia": "The selected sources focus on education and social reform and do not support a reliable economic-system score.",
+        "estrutura": "Phule built schools and reform networks at local and regional levels but did not articulate a territorial constitutional doctrine; keep moderate.",
+        "imigracao": "Her work focused caste, gender and education rather than immigration or assimilation policy.",
+        "diplomacia": "No foreign-policy doctrine is established; keep moderate.",
+        "intervencao": "No military-intervention doctrine is established.",
+        "controle": "Her reforms imply support for public and social provision of education and welfare but not centralized economic planning.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "She challenged caste and religiously justified hierarchy and worked in a reformist anti-Brahmanical milieu, supporting secular equality rather than clerical authority.",
+        "tecnologia": "Her work centered education, literacy and social reform rather than a distinct technology ideology."
       }
     },
     {
@@ -1585,7 +1664,15 @@
         "representacao": "Sri Lankan parliamentary history documents Bandaranaike's terms as prime minister and her place in the history of women's political leadership.",
         "diplomacia": "Parliamentary material documents Sri Lanka's hosting of the 1976 Non-Aligned summit during her leadership, relevant to a non-aligned foreign-policy record.",
         "economia": "The selected parliamentary sources do not by themselves establish the full scope of her economic nationalization and planning policies; those require dedicated policy sources before scoring.",
-        "estrutura": "National executive leadership does not alone reveal centralization/federalism preferences."
+        "estrutura": "National executive leadership does not alone reveal centralization/federalism preferences.",
+        "poder": "Her governments used strong state authority and emergency measures in periods of conflict, supporting a relatively order-oriented and centralized exercise of power.",
+        "imigracao": "Her politics centered Sinhala-majority state-building and national identity rather than multicultural immigration openness; use a more assimilationist/national orientation with caution.",
+        "intervencao": "Her non-aligned foreign policy emphasized sovereignty and resistance to great-power intervention while maintaining a capable state; this supports relative non-interventionism externally.",
+        "controle": "Her governments pursued nationalization, price controls and extensive state direction of the economy, supporting high planning and regulation.",
+        "comercio": "Import controls and economic nationalism support a more protectionist and managed-trade position.",
+        "religiao": "Her politics were intertwined with Sinhala-Buddhist nationalism, but Sri Lanka remained a constitutional state rather than a pure theocracy; use a moderately religious-national placement.",
+        "moral": "Her social record was mixed: she broke gender barriers as a woman leader but operated within culturally conservative majoritarian politics; use a moderate placement.",
+        "tecnologia": "Her governments emphasized state-led development but no distinctive technology ideology is established."
       }
     },
     {
@@ -1627,7 +1714,15 @@
         "moral": "Academic sources document Qiu Jin's arguments for women's education, autonomy and gender equality.",
         "representacao": "Her writing and organizing pressed for women's participation in public and political life in late Qing China.",
         "intervencao": "Her revolutionary nationalism is historically significant, but nationalist resistance to the Qing order should not be treated as a direct modern foreign-intervention score.",
-        "diplomacia": "Participation in revolutionary movements does not by itself establish a general militarist-versus-pacifist foreign policy."
+        "diplomacia": "Participation in revolutionary movements does not by itself establish a general militarist-versus-pacifist foreign policy.",
+        "estrutura": "Qiu Jin's revolutionary nationalism focused on overthrowing the Qing order and creating a modern republic, but the reviewed sources do not establish a clear federal-versus-centralized constitutional design.",
+        "poder": "Her execution by Qing authorities and revolutionary activism strongly support opposition to arbitrary autocratic coercion, though she also accepted revolutionary force.",
+        "imigracao": "Her politics centered Chinese national liberation and women's emancipation rather than immigration policy; avoid inferring a modern assimilation score.",
+        "economia": "Her surviving political profile is not detailed enough for a reliable public-versus-private ownership position.",
+        "controle": "No reliable planning-versus-market doctrine is established in the reviewed sources.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "Her politics were secular-revolutionary rather than grounded in clerical authority; no case for religious government is established.",
+        "tecnologia": "She advocated modernization and education but left no distinct technology ideology; use a moderate modernizing placement."
       }
     },
     {
@@ -1673,7 +1768,15 @@
         "representacao": "Sources document Hiratsuka's leadership in the Japanese women's movement and campaigns connected to women's political participation.",
         "moral": "Her feminist organizing directly addressed women's liberation and equality.",
         "diplomacia": "Japan Women's University material describes her postwar work for peace, providing evidence relevant to pacifist activism.",
-        "poder": "Women's-rights advocacy is rights-related, but the selected sources do not support a broad policing/surveillance/order position."
+        "poder": "Women's-rights advocacy is rights-related, but the selected sources do not support a broad policing/surveillance/order position.",
+        "estrutura": "Hiratsuka organized national women's associations but did not articulate a distinct territorial federalism doctrine; keep structural placement moderate.",
+        "imigracao": "Her activism centered women's rights and peace in Japan rather than immigration or assimilation policy.",
+        "intervencao": "Her postwar peace activism supports skepticism toward military intervention and coercive nationalism.",
+        "economia": "Her maternity-protection advocacy supported public support for women's social roles, but does not establish a full ownership model.",
+        "controle": "Evidence supports social regulation and welfare protections without comprehensive planning.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "Her feminist program was secular and social rather than clerical; no case for religious government is established.",
+        "tecnologia": "No distinctive technology doctrine is established; keep moderate."
       }
     },
     {
@@ -1928,7 +2031,16 @@
         "poder": "DHM documents Scholl's illegal resistance to the Nazi dictatorship, Gestapo arrest and execution after distributing White Rose leaflets.",
         "representacao": "The White Rose called for the overthrow of the Nazi regime and a different political future for Germany; this is evidence of anti-dictatorial resistance, not a complete model of preferred democratic institutions.",
         "moral": "Her resistance is directly documented as opposition to National Socialism and state repression.",
-        "metodologia": "Her short life and resistance context provide strong evidence on dictatorship and conscience but limited evidence for economic, trade or administrative axes."
+        "metodologia": "Her short life and resistance context provide strong evidence on dictatorship and conscience but limited evidence for economic, trade or administrative axes.",
+        "estrutura": "Scholl opposed totalitarian centralization under Nazism but left no detailed federal-versus-unitary constitutional program; use a moderate anti-totalitarian structural reading.",
+        "imigracao": "The White Rose's moral universalism rejected racist nationalism, supporting anti-exclusionary values, but not a modern immigration policy.",
+        "diplomacia": "White Rose writings condemned Hitler's war and called for an end to militarism, supporting a strongly anti-war orientation.",
+        "intervencao": "Her resistance opposed aggressive war and imperial expansion, supporting a strongly non-interventionist stance toward conquest.",
+        "economia": "Her surviving political record does not establish a reliable ownership or market doctrine.",
+        "controle": "No reliable planning-versus-market doctrine is established.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "Christian faith and moral conscience influenced the White Rose, but its program did not seek clerical rule; this supports personal religiosity within anti-totalitarian politics.",
+        "tecnologia": "No distinctive technology doctrine is established."
       }
     },
     {
@@ -2093,7 +2205,15 @@
         "representacao": "Finnish Government records Marin's service as prime minister and earlier parliamentary and municipal roles.",
         "moral": "European Parliament biographical material describes reforms on social justice and equality during her government.",
         "diplomacia": "Her premiership included Finland's response to Russia's full-scale invasion of Ukraine and the country's NATO accession; these events require policy-specific review rather than an inferred general militarism score.",
-        "economia": "Her government operated within Finland's social-democratic welfare-state framework, but a precise market/planning placement requires direct fiscal and economic-policy evidence."
+        "economia": "Her government operated within Finland's social-democratic welfare-state framework, but a precise market/planning placement requires direct fiscal and economic-policy evidence.",
+        "estrutura": "Marin governed Finland's unitary parliamentary system and worked through EU institutions; this supports coordinated national and supranational governance rather than radical decentralization.",
+        "poder": "Her government emphasized rule of law and social protections while also using emergency public-health powers during COVID-19; this supports rights-constrained but capable state authority.",
+        "imigracao": "Her political record is generally supportive of European mobility, refugee protection and inclusion, but not unrestricted borders; use a relatively open regulated placement.",
+        "intervencao": "Her government supported Ukraine after Russia's invasion and pursued NATO accession, showing willingness to use alliances and security assistance while remaining multilateral rather than unilateral.",
+        "controle": "Her social-democratic government supported welfare provision, labor protections and public investment without command planning.",
+        "comercio": "Finland under Marin remained deeply integrated in EU and global trade while supporting strategic resilience; use open but regulated trade.",
+        "religiao": "Her public politics are secular and rights-based rather than religiously grounded.",
+        "tecnologia": "Her government emphasized digitalization, education, green transition and innovation, supporting a pragmatic pro-technology orientation."
       }
     },
     {
