@@ -1,0 +1,27 @@
+{
+  "id": "janet-yellen",
+  "sources": [
+    {
+      "url": "https://home.treasury.gov/about/history/prior-secretaries/janet-yellen-2021-2025",
+      "institution": "U.S. Department of the Treasury"
+    },
+    {
+      "url": "https://home.treasury.gov/news/press-releases/jy0830",
+      "institution": "U.S. Department of the Treasury"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Yellen's career is within U.S. federal economic institutions and she supports national monetary and fiscal capacity. This favors strong federal coordination in macroeconomic policy without rejecting state and local government.",
+    "representacao": "Her public service occurs within conventional democratic institutions and independent technocratic agencies. Evidence supports representative constitutional government.",
+    "poder": "Yellen favors regulatory state capacity in finance and taxation but is not associated with expansive police or surveillance powers. Use a moderate institutional-order placement.",
+    "imigracao": "Her economic work is not primarily about immigration policy. The reviewed official sources do not establish a strong assimilation-versus-multicultural doctrine.",
+    "diplomacia": "As Treasury secretary she emphasized coordination among allies and multilateral economic agreements, supporting active international diplomacy.",
+    "intervencao": "Her international economic strategy used sanctions, allied coordination and financial pressure when national-security goals required it. This is more interventionist than strict neutrality, though not primarily military.",
+    "economia": "Yellen supports a market economy with strong macroeconomic stabilization, labor-market policy and public investment. This is a regulated mixed economy, not public ownership dominance.",
+    "controle": "Her Keynesian macroeconomic orientation accepts monetary management, fiscal intervention and financial regulation, placing her above laissez-faire but far below command planning.",
+    "comercio": "Treasury policy under Yellen favored global economic integration while coordinating international tax standards to limit harmful competition. This supports open but rules-based globalism.",
+    "religiao": "Her economic and public-policy arguments are secular and technocratic rather than religiously grounded.",
+    "moral": "Her policy emphasis on employment, worker dignity, inequality and inclusive growth supports moderately progressive social-economic values, without making her a broad cultural radical.",
+    "tecnologia": "She treated AI and financial innovation as productive but requiring risk management and regulation. This supports pragmatic pro-technology governance."
+  }
+}
