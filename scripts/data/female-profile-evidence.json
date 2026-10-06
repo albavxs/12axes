@@ -777,10 +777,18 @@
         }
       ],
       "evidence": {
-        "economia": "Official biographies document Perkins's role in Social Security, labor standards, unemployment relief and worker protections, establishing strong evidence for an active public role in social and labor policy.",
-        "controle": "Her work on federal labor standards and social-insurance institutions shows support for specific economic regulation; it does not automatically determine a full planning-versus-market score.",
-        "poder": "Workplace safety, collective-bargaining protections and limits on child labor are documented policy priorities relevant to how state power was used to protect workers.",
-        "representacao": "Her cabinet service and earlier reform work occurred within electoral and administrative institutions, but officeholding alone should not be used as a democracy score."
+        "estrutura": "Federal labor standards and national social-insurance programs show a willingness to use national authority for baseline protections within U.S. federalism.",
+        "representacao": "Her reform career operated through democratic administration and accountable public institutions, supporting institutional democracy.",
+        "poder": "Workplace safety, labor rights and social protections show use of state power to protect vulnerable people rather than maximize punitive coercion.",
+        "imigracao": "Perkins advocated admission of refugees in the Nazi era and worked within federal immigration administration; this supports a relatively humanitarian but regulated orientation.",
+        "diplomacia": "Foreign policy was not her principal field; humanitarian concerns favor a moderate diplomatic orientation.",
+        "intervencao": "No distinctive military-intervention doctrine is established; keep moderate.",
+        "economia": "Social Security, labor standards and unemployment relief strongly support an active public role within a mixed economy.",
+        "controle": "Federal regulation, social insurance and labor standards place her clearly above laissez-faire but below command planning.",
+        "comercio": "Trade policy was not central to her public legacy; no strong position established.",
+        "religiao": "Her social-reform ethics had religious influences, but public policy was secular and constitutional rather than theocratic.",
+        "moral": "Worker protections, women’s public leadership and child-labor restrictions support reformist/progressive social policy.",
+        "tecnologia": "Modern administrative and labor-safety policy used expert knowledge pragmatically; moderately technocratic/modernist."
       }
     },
     {
