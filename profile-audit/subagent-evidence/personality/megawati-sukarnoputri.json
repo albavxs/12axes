@@ -1,0 +1,27 @@
+{
+  "id": "megawati-sukarnoputri",
+  "sources": [
+    {
+      "url": "https://pusdipres.anri.go.id/presidenpedia?slug=presiden-megawati-soekarnoputri",
+      "institution": "National Archives of the Republic of Indonesia - Presidential Archives"
+    },
+    {
+      "url": "https://setkab.go.id/profil-kabinet/",
+      "institution": "Cabinet Secretariat of the Republic of Indonesia"
+    }
+  ],
+  "evidence": {
+    "representacao": "Official Indonesian records document Megawati's legislative, vice-presidential and presidential service during the post-Suharto Reformasi period.",
+    "estrutura": "Holding national executive office does not establish a centralization-versus-decentralization preference. Direct policy evidence is still required before proposing this axis.",
+    "economia": "The selected official biographical and cabinet sources establish tenure and institutional role but are insufficient for a reliable market/planning or ownership score.",
+    "poder": "The sources do not, by themselves, support a general civil-liberty/order placement. This dossier should remain cautious until policy-specific evidence is reviewed.",
+    "imigracao": "Her political record centers Indonesian nationalism and state governance rather than immigration or multicultural assimilation policy; keep moderate.",
+    "diplomacia": "As president she operated within ASEAN and Indonesia's non-aligned diplomatic tradition, supporting active state diplomacy rather than isolation.",
+    "intervencao": "Her government prioritized sovereignty and territorial integrity; evidence supports caution toward external intervention alongside willingness to use state force domestically for security.",
+    "controle": "Her administration retained a mixed economy with public-sector influence and regulatory state capacity rather than command planning.",
+    "comercio": "Indonesia under Megawati remained engaged in regional and global trade while protecting strategic national interests; use managed openness rather than an extreme.",
+    "religiao": "She led a secular-nationalist party in a Muslim-majority state and did not advocate clerical government, supporting secular-national institutions.",
+    "moral": "Her record is politically nationalist and institution-focused rather than socially revolutionary; keep broad cultural placement moderate.",
+    "tecnologia": "Her presidency supported modernization and state development but no distinctive technology ideology is established."
+  }
+}
