@@ -1,0 +1,31 @@
+{
+  "id": "barbara-jordan",
+  "sources": [
+    {
+      "url": "https://history.house.gov/People/Detail/16031",
+      "institution": "U.S. House of Representatives: History, Art & Archives"
+    },
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/barbara-jordan",
+      "institution": "National Women’s History Museum"
+    },
+    {
+      "url": "https://www.nps.gov/people/barbara-jordan.htm",
+      "institution": "U.S. National Park Service"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Jordan was a federal legislator and constitutionalist who worked through state and federal institutions. Her record does not support either radical decentralization or centralized executive rule; a moderate federalist placement is appropriate.",
+    "representacao": "Her congressional career, Watergate constitutional argument and emphasis on equal citizenship strongly support representative democracy, rule of law and accountable government.",
+    "poder": "Jordan emphasized constitutional limits, due process and legal equality, placing her toward civil liberties rather than unchecked executive coercion.",
+    "imigracao": "As chair of the U.S. Commission on Immigration Reform, Jordan supported legal immigration while arguing for credible enforcement and reductions in some categories. This supports a controlled/assimilation-leaning but not anti-immigrant position.",
+    "diplomacia": "Foreign policy was not a defining feature of her public legacy in the selected sources. Keep this axis moderate.",
+    "intervencao": "The reviewed sources do not establish a strong doctrine on military intervention abroad. Do not infer from Democratic Party affiliation.",
+    "economia": "Jordan's politics supported civil rights, public programs and pragmatic liberal reform within a market economy. This supports a center-left mixed-economy position rather than public ownership dominance.",
+    "controle": "Her institutional liberalism supports regulation and public policy tools but not command planning. A moderate regulatory position is best supported.",
+    "comercio": "The reviewed sources do not establish a distinctive trade doctrine. Keep near center.",
+    "religiao": "Jordan's public constitutional reasoning was civic and legal rather than theocratic. This supports a secular constitutional orientation.",
+    "moral": "Her civil-rights leadership and equal-citizenship commitments support social equality and inclusion, while her pragmatic style argues against an extreme cultural placement.",
+    "tecnologia": "Technology was not a central part of her political identity. Use a moderate score."
+  }
+}
