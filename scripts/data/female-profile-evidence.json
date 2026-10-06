@@ -2047,10 +2047,18 @@
         }
       ],
       "evidence": {
-        "representacao": "NZ History documents Sheppard's leadership of the suffrage campaign that culminated in women's parliamentary voting rights in 1893.",
-        "moral": "Her organizing explicitly challenged restrictions on women's social and political roles and continued into broader women's-rights work.",
-        "poder": "Her campaign relied on petitions, lobbying and public organizing within constitutional politics, providing evidence about methods rather than a full liberty/order position.",
-        "religiao": "Her activism had links to the Women's Christian Temperance Union, but organizational religious context should not be converted directly into a state-religion score."
+        "estrutura": "Sheppard pursued national suffrage legislation through constitutional institutions; no broad centralization doctrine.",
+        "representacao": "Leadership of New Zealand’s successful women’s suffrage movement makes her exceptionally democratic and inclusion-oriented.",
+        "poder": "Her constitutional petitioning supports civil political rights, while temperance activism accepted regulation of alcohol; mixed liberty/control profile.",
+        "imigracao": "Immigration was not a defining issue in the core sources; keep moderate.",
+        "diplomacia": "Foreign policy was peripheral; her reform methods were civic and nonviolent, supporting a mildly diplomatic orientation.",
+        "intervencao": "No aggressive foreign-policy doctrine is documented; reformist pacific methods favor restraint.",
+        "economia": "Her principal work was suffrage and social reform rather than ownership systems; moderate mixed economy.",
+        "controle": "Temperance and reform activism indicate willingness to regulate social harms, but not economic command planning.",
+        "comercio": "No trade-policy doctrine is established.",
+        "religiao": "Work through the Women’s Christian Temperance Union indicates meaningful Christian reform influence without support for theocracy.",
+        "moral": "Women’s equality was progressive, while temperance reflected restrictive moral reform; mixed but equality-leaning.",
+        "tecnologia": "Technology was not central; moderate."
       }
     },
     {
