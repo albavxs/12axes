@@ -1,0 +1,27 @@
+{
+  "id": "emma-goldman",
+  "sources": [
+    {
+      "url": "https://www.loc.gov/item/today-in-history/february-11",
+      "institution": "Library of Congress"
+    },
+    {
+      "url": "https://www.archives.gov/nhprc/projects/catalog/emma-goldman",
+      "institution": "U.S. National Archives"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Goldman explicitly embraced anarchism, described by the Library of Congress as the belief that government is unnecessary and undesirable. This is very strong evidence for radical decentralization/anti-state organization.",
+    "representacao": "She opposed coercive state authority and defended free speech and voluntary association rather than conventional parliamentary government. Her democratic commitments were libertarian and participatory, but not a simple endorsement of representative-state institutions.",
+    "poder": "Her activism for free speech, against conscription and against repressive laws strongly supports civil liberty and opposition to coercive state power.",
+    "imigracao": "Goldman was an immigrant who experienced deportation and political repression; the reviewed sources do not show a border-control program, but her anti-state universalism provides some evidence against coercive exclusion. Avoid an extreme score without migration-specific writings.",
+    "diplomacia": "Her opposition to wartime conscription and militarism supports a strongly anti-war orientation.",
+    "intervencao": "She was imprisoned for criticizing mandatory conscription during World War I and consistently opposed militarism, supporting a strongly non-interventionist position.",
+    "economia": "Goldman's anarchism and labor activism rejected capitalist hierarchy and supported worker emancipation. This is strong evidence against conventional private-capitalist ownership, though her anarchism also rejected state ownership as a bureaucratic substitute.",
+    "controle": "Because she opposed both capitalist domination and state authority, Goldman does not fit centralized economic planning. Evidence supports decentralized/voluntary organization rather than command control.",
+    "comercio": "Her political writings centered capitalism, labor and state coercion rather than tariff policy. Anarchist opposition to state-managed protectionism suggests little basis for protectionist nationalism, but precise free-trade placement is uncertain.",
+    "religiao": "Goldman was a prominent critic of religious authority and traditional institutions; the reviewed archival framing of her anarchist politics supports a strongly secular/anti-clerical orientation.",
+    "moral": "Her advocacy of birth control, women's equality, sexual autonomy and independence strongly supports progressive social positions.",
+    "tecnologia": "The archival sources do not establish a distinctive doctrine on technology. Her politics focused on freedom and social relations, so avoid strong technological inference."
+  }
+}

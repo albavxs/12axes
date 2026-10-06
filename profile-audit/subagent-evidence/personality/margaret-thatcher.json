@@ -1,0 +1,31 @@
+{
+  "id": "margaret-thatcher",
+  "sources": [
+    {
+      "url": "https://www.margaretthatcher.org/document/108306",
+      "institution": "Margaret Thatcher Foundation / Churchill Archive Centre"
+    },
+    {
+      "url": "https://www.margaretthatcher.org/document/108365",
+      "institution": "Margaret Thatcher Foundation / Churchill Archive Centre"
+    },
+    {
+      "url": "https://www.margaretthatcher.org/document/108296",
+      "institution": "Margaret Thatcher Foundation / Churchill Archive Centre"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Thatcher explicitly opposed a centralized European super-state and defended sovereign nation-states with cooperation between them. This supports decentralization away from supranational federal authority, though she favored a strong unitary British state domestically.",
+    "representacao": "Her speeches strongly defend parliamentary democracy, rule of law, independent judges and political liberty against communist dictatorship. This supports representative democracy.",
+    "poder": "She defended law and order, strong defense and state authority against terrorism and disorder, while also arguing for individual liberty and limits on government. Evidence supports a security-oriented but constitutional state, not blanket authoritarianism.",
+    "imigracao": "Her speeches expressed concern about large-scale immigration and its social/political effects, supporting a more restrictive or controlled immigration position than liberal-open models.",
+    "diplomacia": "She favored close Atlantic alliances, NATO strength, cooperation among sovereign democracies and active foreign policy. This is internationalist in alliances but hawkish on security.",
+    "intervencao": "Her record and speeches support robust defense and willingness to use force where national interests and allied security were at stake. This places her well away from non-interventionism.",
+    "economia": "She explicitly argued that wealth is created by individuals and enterprise, opposed nationalization and socialism, and championed free enterprise. This is strong evidence for private-market economics.",
+    "controle": "She repeatedly attacked central planning, bureaucracy, regulation and high taxation. This strongly supports low economic control/planning.",
+    "comercio": "She explicitly advocated open trade, global free trade and trans-Atlantic free trade, making this a strongly free-trade profile.",
+    "religiao": "Her rhetoric sometimes used Christian moral language, but her governing principles in the reviewed sources center liberty, law and enterprise rather than clerical rule. Evidence supports a secular constitutional state with culturally Christian conservatism.",
+    "moral": "Thatcher was a social conservative and emphasized national tradition, responsibility and order. This supports a relatively traditionalist placement, though not a theocratic one.",
+    "tecnologia": "She praised science, communications and rapid translation of new technology into production, especially in market economies. This supports a pro-technology, innovation-oriented position."
+  }
+}
