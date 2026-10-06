@@ -1,0 +1,31 @@
+{
+  "id": "tsai-ing-wen",
+  "sources": [
+    {
+      "url": "https://english.president.gov.tw/Page/646",
+      "institution": "Office of the President, Republic of China (Taiwan)"
+    },
+    {
+      "url": "https://english.president.gov.tw/News/6004",
+      "institution": "Office of the President, Republic of China (Taiwan)"
+    },
+    {
+      "url": "https://english.president.gov.tw/NEWS/6720",
+      "institution": "Office of the President, Republic of China (Taiwan)"
+    }
+  ],
+  "evidence": {
+    "representacao": "Official speeches and biography repeatedly emphasize democratic institutions, elections and citizen participation.",
+    "moral": "Her presidential record includes support for marriage equality and increased women's participation, direct evidence on specific equality issues.",
+    "diplomacia": "Official statements emphasize cross-Strait peace and stability, dialogue, international cooperation and Taiwan's external partnerships; security policy still requires issue-specific review.",
+    "economia": "Official speeches discuss pension reform, social fairness and economic development, but those policy goals do not directly determine a market/planning score.",
+    "estrutura": "Tsai governed Taiwan through national democratic institutions while working with local governments and international partners; this supports coordinated national governance without an extreme centralization doctrine.",
+    "poder": "Her administration emphasized democratic rule of law and civil rights while also strengthening security against external coercion, supporting a rights-constrained but capable state.",
+    "imigracao": "Her equality and inclusion agenda supports pluralism and regulated openness, though not unrestricted borders.",
+    "intervencao": "Her security policy emphasized deterrence, self-defense and partnerships rather than regime-change intervention abroad, supporting moderate-to-high non-intervention with strong defense.",
+    "controle": "Taiwan under Tsai combined market institutions with active industrial, social and strategic policy, supporting moderate state coordination rather than command planning.",
+    "comercio": "Her background in trade negotiations and Taiwan's export-oriented strategy strongly support comparatively open international trade and economic integration.",
+    "religiao": "Her governing arguments are secular and democratic rather than grounded in religious authority.",
+    "tecnologia": "Her administrations prioritized semiconductors, digital modernization, innovation and strategic technology, supporting a strongly pro-technology orientation."
+  }
+}

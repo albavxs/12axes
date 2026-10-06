@@ -1,0 +1,27 @@
+{
+  "id": "vijaya-lakshmi-pandit",
+  "sources": [
+    {
+      "url": "https://india.un.org/en/about/about-the-un",
+      "institution": "United Nations in India"
+    },
+    {
+      "url": "https://www.un.org/ar/node/211672",
+      "institution": "United Nations"
+    }
+  ],
+  "evidence": {
+    "diplomacia": "UN sources document Pandit's diplomatic career and presidency of the UN General Assembly, providing direct evidence of multilateral engagement.",
+    "representacao": "Her national and international public offices provide evidence of women's participation in representative institutions, though officeholding does not alone establish a democracy score.",
+    "intervencao": "Her diplomatic career and UN leadership favor multilateral negotiation and sovereignty over coercive regime-change intervention.",
+    "poder": "The selected institutional biographies are not sufficient for a general civil-liberty/order placement.",
+    "estrutura": "Pandit operated within India's emerging constitutional and federal institutions but did not leave a distinct territorial-centralization doctrine in the reviewed sources.",
+    "imigracao": "Her internationalism and anti-colonial politics support pluralist engagement across nations, but not a detailed immigration or assimilation program.",
+    "economia": "Her politics were associated with the Indian National Congress and developmental state-building, but the reviewed sources do not support an extreme ownership-system score.",
+    "controle": "No sufficiently direct evidence establishes a strong planning-versus-market preference; use a moderate developmental placement.",
+    "comercio": "No reliable independent trade-policy doctrine is established.",
+    "religiao": "Her public diplomacy reflected India's secular, pluralist state rather than religious government.",
+    "moral": "Her prominence as a woman in nationalist politics and international institutions supports expanded women's public participation and equality.",
+    "tecnologia": "No distinctive technology doctrine is established."
+  }
+}

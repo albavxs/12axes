@@ -1144,7 +1144,15 @@
         "representacao": "Nobel and Green Belt Movement sources document Maathai's democracy and human-rights advocacy in Kenya.",
         "moral": "Her work connected women's empowerment, environmental protection and community rights, relevant to equality and environmental values.",
         "diplomacia": "The Nobel record frames her work around sustainable development, democracy and peace, including international advocacy.",
-        "economia": "Grassroots livelihood and environmental programs are documented, but they do not by themselves establish a public-versus-private ownership preference."
+        "economia": "Grassroots livelihood and environmental programs are documented, but they do not by themselves establish a public-versus-private ownership preference.",
+        "estrutura": "The Green Belt Movement organized communities from below and linked local participation to national democratic reform, supporting a comparatively decentralized and participatory structure.",
+        "poder": "Her democracy and human-rights activism opposed authoritarian repression and arbitrary state power, supporting strong civil-liberty constraints.",
+        "imigracao": "Her public work centered environment, democracy and women's empowerment rather than immigration policy; keep moderate.",
+        "intervencao": "Her Nobel-recognized peace work and nonviolent civic activism support a strongly non-interventionist and conflict-prevention orientation.",
+        "controle": "Environmental protection, public accountability and community resource management support meaningful regulation without centralized command planning.",
+        "comercio": "No reliable tariff or international-trade doctrine is established.",
+        "religiao": "Her public political arguments centered ecology, democracy and human dignity rather than religious government; use a pluralist institutional placement.",
+        "tecnologia": "Her environmentalism supports caution toward ecologically harmful technologies while accepting science and practical innovation; use a moderate, risk-aware technology position."
       }
     },
     {
@@ -1298,7 +1306,15 @@
         "representacao": "Nobel sources document Karman's nonviolent advocacy for democracy and women's full participation in public life.",
         "poder": "Her journalism and activism centered freedom of expression and opposition to political repression.",
         "diplomacia": "Her Nobel-recognized record emphasizes nonviolent action, peace and political reconciliation.",
-        "religiao": "Her public framing connects Islamic faith with women's political participation; this is evidence about her stated compatibility claim, not a numeric religion-axis placement."
+        "religiao": "Her public framing connects Islamic faith with women's political participation; this is evidence about her stated compatibility claim, not a numeric religion-axis placement.",
+        "estrutura": "Karman's democracy advocacy focuses accountable constitutional institutions rather than a specific federal-versus-centralized territorial design; keep structure moderate.",
+        "imigracao": "Her human-rights work is universalist and inclusive, but the reviewed sources do not establish a detailed immigration or assimilation policy.",
+        "intervencao": "Her Nobel-recognized nonviolent activism and peace advocacy support strong preference for political change through civic action rather than military intervention.",
+        "economia": "Her public record is centered on democracy, journalism and human rights rather than ownership or market design; keep economic placement moderate.",
+        "controle": "No reliable planning-versus-market doctrine is established in the reviewed sources.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "moral": "Her advocacy for women's full political participation and rights supports a progressive equality position.",
+        "tecnologia": "As a journalist and free-expression activist she relied on modern communications, but no broad accelerationist or anti-technology doctrine is established."
       }
     },
     {
@@ -1451,8 +1467,16 @@
       "evidence": {
         "diplomacia": "UN sources document Pandit's diplomatic career and presidency of the UN General Assembly, providing direct evidence of multilateral engagement.",
         "representacao": "Her national and international public offices provide evidence of women's participation in representative institutions, though officeholding does not alone establish a democracy score.",
-        "intervencao": "Her internationalist diplomatic work is relevant to foreign-policy orientation, but a non-intervention versus nationalist-assertive placement requires issue-specific positions.",
-        "poder": "The selected institutional biographies are not sufficient for a general civil-liberty/order placement."
+        "intervencao": "Her diplomatic career and UN leadership favor multilateral negotiation and sovereignty over coercive regime-change intervention.",
+        "poder": "The selected institutional biographies are not sufficient for a general civil-liberty/order placement.",
+        "estrutura": "Pandit operated within India's emerging constitutional and federal institutions but did not leave a distinct territorial-centralization doctrine in the reviewed sources.",
+        "imigracao": "Her internationalism and anti-colonial politics support pluralist engagement across nations, but not a detailed immigration or assimilation program.",
+        "economia": "Her politics were associated with the Indian National Congress and developmental state-building, but the reviewed sources do not support an extreme ownership-system score.",
+        "controle": "No sufficiently direct evidence establishes a strong planning-versus-market preference; use a moderate developmental placement.",
+        "comercio": "No reliable independent trade-policy doctrine is established.",
+        "religiao": "Her public diplomacy reflected India's secular, pluralist state rather than religious government.",
+        "moral": "Her prominence as a woman in nationalist politics and international institutions supports expanded women's public participation and equality.",
+        "tecnologia": "No distinctive technology doctrine is established."
       }
     },
     {
@@ -1695,7 +1719,15 @@
         "representacao": "Official speeches and biography repeatedly emphasize democratic institutions, elections and citizen participation.",
         "moral": "Her presidential record includes support for marriage equality and increased women's participation, direct evidence on specific equality issues.",
         "diplomacia": "Official statements emphasize cross-Strait peace and stability, dialogue, international cooperation and Taiwan's external partnerships; security policy still requires issue-specific review.",
-        "economia": "Official speeches discuss pension reform, social fairness and economic development, but those policy goals do not directly determine a market/planning score."
+        "economia": "Official speeches discuss pension reform, social fairness and economic development, but those policy goals do not directly determine a market/planning score.",
+        "estrutura": "Tsai governed Taiwan through national democratic institutions while working with local governments and international partners; this supports coordinated national governance without an extreme centralization doctrine.",
+        "poder": "Her administration emphasized democratic rule of law and civil rights while also strengthening security against external coercion, supporting a rights-constrained but capable state.",
+        "imigracao": "Her equality and inclusion agenda supports pluralism and regulated openness, though not unrestricted borders.",
+        "intervencao": "Her security policy emphasized deterrence, self-defense and partnerships rather than regime-change intervention abroad, supporting moderate-to-high non-intervention with strong defense.",
+        "controle": "Taiwan under Tsai combined market institutions with active industrial, social and strategic policy, supporting moderate state coordination rather than command planning.",
+        "comercio": "Her background in trade negotiations and Taiwan's export-oriented strategy strongly support comparatively open international trade and economic integration.",
+        "religiao": "Her governing arguments are secular and democratic rather than grounded in religious authority.",
+        "tecnologia": "Her administrations prioritized semiconductors, digital modernization, innovation and strategic technology, supporting a strongly pro-technology orientation."
       }
     },
     {
@@ -1799,7 +1831,16 @@
         "diplomacia": "Surviving cultural and literary traditions depict Tomoe Gozen as a warrior in a medieval civil conflict. That does not establish a modern pacifist-versus-militarist foreign-policy preference.",
         "poder": "The sources concern martial reputation and later representation, not views on civil liberties, surveillance, policing or constitutional order.",
         "moral": "Evidence about a medieval warrior role cannot reliably answer modern traditionalist-progressive policy questions.",
-        "metodologia": "The historical source base is not sufficient for a defensible 12-axis political profile without a separate methodology for premodern or partly legendary figures. Human review should decide whether she belongs in this pipeline at all."
+        "metodologia": "The historical source base is not sufficient for a defensible 12-axis political profile without a separate methodology for premodern or partly legendary figures. Human review should decide whether she belongs in this pipeline at all.",
+        "estrutura": "The surviving historical-literary record does not establish Tomoe Gozen's views on territorial centralization, federalism or civilian administration; this axis is underdetermined.",
+        "representacao": "No reliable evidence establishes a preferred electoral, representative or constitutional regime; medieval warrior service cannot be translated directly into a modern democracy score.",
+        "imigracao": "No reliable evidence establishes views on immigration, assimilation or multicultural policy; this axis is underdetermined.",
+        "intervencao": "Her depiction as an active warrior in a civil conflict establishes willingness to use force in that historical context, but does not supply a modern foreign-intervention doctrine.",
+        "economia": "No reliable evidence establishes views on private/public ownership, redistribution or welfare; this axis is underdetermined.",
+        "controle": "No reliable evidence establishes a planning-versus-market position; this axis is underdetermined.",
+        "comercio": "No reliable evidence establishes a trade-policy position; this axis is underdetermined.",
+        "religiao": "The surviving sources used here do not establish a political program for religious authority or secular government; this axis is underdetermined.",
+        "tecnologia": "The medieval source base cannot support a defensible modern technology-policy preference; this axis is underdetermined."
       }
     },
     {
@@ -1953,7 +1994,15 @@
         "representacao": "UK Parliament documents her participation in the WSPU and later organizing through the East London Federation of Suffragettes around women's political rights.",
         "economia": "The East London Federation organized around unemployment, working conditions, food access, nurseries and support for working women, providing issue-specific evidence on social and labour policy.",
         "diplomacia": "The East London Federation opposed the First World War on socialist and political grounds and opposed conscription.",
-        "poder": "Opposition to wartime restrictions on free speech is direct civil-liberties evidence, though a broader domestic-order position needs additional review."
+        "poder": "Opposition to wartime restrictions on free speech is direct civil-liberties evidence, though a broader domestic-order position needs additional review.",
+        "estrutura": "Pankhurst's East London organizing emphasized grassroots participation, local working-class institutions and skepticism toward top-down party control; this supports a comparatively decentralized and participatory structure.",
+        "imigracao": "Her anti-imperialist and anti-racist politics, including later advocacy connected to Ethiopia and colonial questions, support universalist solidarity, but not a detailed modern border-policy program.",
+        "intervencao": "Her opposition to World War I and conscription provides strong evidence for anti-militarism and a relatively non-interventionist orientation.",
+        "controle": "Her socialism favored worker organization, social provision and collective control rather than laissez-faire markets, while remaining skeptical of bureaucratic domination.",
+        "comercio": "No reliable tariff or international-trade doctrine is established in the reviewed sources; keep this axis moderate.",
+        "religiao": "Her public politics were socialist, feminist and anti-imperialist rather than grounded in religious authority, supporting a secular institutional orientation.",
+        "moral": "Her suffrage activism, working-women organizing and feminism strongly support progressive gender and social-equality positions.",
+        "tecnologia": "The reviewed record does not establish a distinctive pro- or anti-technology ideology; use a moderate placement."
       }
     },
     {
@@ -2113,7 +2162,15 @@
         "representacao": "Official sources document Halonen's parliamentary career, presidency and explicit support for democratic participation and women's political participation.",
         "moral": "Her presidential speeches describe gender equality and women's rights as human-rights issues and support equal rights and opportunities.",
         "poder": "Her public statements emphasize human rights, anti-discrimination and civil society as essential to democracy.",
-        "diplomacia": "Presidential speeches frame international cooperation, human rights and multilateral action as central to global policy."
+        "diplomacia": "Presidential speeches frame international cooperation, human rights and multilateral action as central to global policy.",
+        "estrutura": "Halonen governed through Finland's unitary parliamentary system and European institutions, supporting coordinated national and multilevel governance rather than radical decentralization.",
+        "imigracao": "Her human-rights and anti-discrimination agenda supports inclusion and minority rights within regulated state institutions, but not unrestricted borders.",
+        "intervencao": "Her multilateral, human-rights-centered foreign policy and emphasis on international cooperation support restraint toward unilateral military intervention.",
+        "economia": "Her Social Democratic career and presidency fit a Nordic mixed economy with strong welfare provision rather than laissez-faire or full public ownership.",
+        "controle": "Support for social welfare, labor protections and public institutions implies substantial regulation and coordination without command planning.",
+        "comercio": "Finland's EU integration and international orientation support relatively open trade within regulated European institutions.",
+        "religiao": "Her public arguments center equality, rights and constitutional democracy rather than religious authority, supporting a secular state orientation.",
+        "tecnologia": "Her presidency operated in a highly digitalized Nordic policy environment and supported education and innovation, but no extreme technology ideology is established."
       }
     },
     {
@@ -2132,7 +2189,16 @@
         "representacao": "The Icelandic presidency records that Finnbogadóttir was elected president in 1980 and served through 1996, becoming the first woman in the world elected president by popular vote.",
         "diplomacia": "Her later UNESCO role as Goodwill Ambassador for Languages is evidence of sustained international cultural engagement, not a complete foreign-policy doctrine.",
         "moral": "Her public career expanded women's representation in national leadership; broader social-policy positions require issue-specific evidence.",
-        "metodologia": "The selected official sources are strongest on institutional role, culture and representation and do not establish economic or coercive-state positions."
+        "metodologia": "The selected official sources are strongest on institutional role, culture and representation and do not establish economic or coercive-state positions.",
+        "estrutura": "Finnbogadóttir served in Iceland's parliamentary constitutional system, but her largely ceremonial presidency does not establish a strong centralization-versus-federalism doctrine.",
+        "poder": "Her public role emphasized civic culture and democratic legitimacy rather than coercive state power; no evidence supports an authoritarian placement.",
+        "imigracao": "Her cultural and language work values national heritage, but the reviewed sources do not establish a restrictive immigration or assimilation policy.",
+        "intervencao": "Her international cultural engagement and ceremonial presidency support diplomacy and cooperation rather than military intervention; use a relatively restrained placement.",
+        "economia": "The reviewed official sources do not establish a detailed public-versus-private ownership position; keep moderate.",
+        "controle": "No reliable planning-versus-market doctrine is established from the reviewed sources.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "Her public role was constitutional and cultural rather than clerical, supporting a secular institutional orientation.",
+        "tecnologia": "No distinctive technology doctrine is established."
       }
     },
     {
@@ -2861,6 +2927,195 @@
         "religiao": "Rejected her Catholic upbringing and developed secular existentialist ethics.",
         "moral": "The Second Sex, abortion activism and anti-patriarchal work strongly support progressive gender and bodily-autonomy positions.",
         "tecnologia": "Technology was secondary to freedom and social relations; a moderate stance is appropriate."
+      }
+    },
+    {
+      "id": "agnes-heller",
+      "sources": [
+        {
+          "url": "https://www.scielo.org.mx/scielo.php?lng=en&nrm=iso&pid=S0185-16162025000300001&script=sci_abstract&tlng=en",
+          "institution": "UNAM / Estudios Políticos"
+        },
+        {
+          "url": "https://research.monash.edu/en/publications/agnes-heller-and-biopolitics/",
+          "institution": "Monash University"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Heller's later liberal-democratic philosophy emphasized constitutional institutions, pluralism and active citizenship rather than territorial centralization; no strong federal-versus-unitary doctrine is central.",
+        "representacao": "Her mature political thought explicitly defended liberal democracy, deliberation, multiparty representation and active citizenship against elective autocracy.",
+        "poder": "Her life under Nazism and Stalinism and later criticism of Orbán-era authoritarianism strongly support limits on arbitrary state power, civil liberties and constitutional checks.",
+        "imigracao": "Her work on minorities, universalism and pluralism supports inclusion and equal citizenship, though not a specific open-borders program.",
+        "diplomacia": "Her anti-totalitarian and cosmopolitan liberal commitments support international cooperation and dialogue rather than nationalist militarism.",
+        "intervencao": "She was anti-totalitarian but not a doctrinaire pacifist; the evidence supports skepticism toward coercive domination while leaving room for rights-based collective action.",
+        "economia": "Heller moved from Marxism toward a center-left liberal-democratic position, supporting social equality and welfare concerns without retaining a command-economy model.",
+        "controle": "Her later thought rejected Stalinist planning and bureaucratic control while accepting democratic social institutions; this supports moderate regulation rather than centralized planning.",
+        "comercio": "No detailed tariff doctrine is central to her work; her later liberal-democratic outlook is compatible with international openness but not laissez-faire absolutism.",
+        "religiao": "Her political theory is secular and grounded in ethics, dignity and constitutional pluralism rather than religious authority.",
+        "moral": "Her work on ethics, autonomy, minority rights and later New Left themes supports socially progressive and pluralist positions.",
+        "tecnologia": "Her work on biopolitics considered moral and legal limits on genetic and biological technologies, supporting a cautious, human-centered rather than accelerationist technology stance."
+      }
+    },
+    {
+      "id": "alva-myrdal",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/themes/heroines-of-peace-the-nine-nobel-women/",
+          "institution": "Nobel Prize Outreach"
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/facts/facts-on-the-nobel-peace-prize/",
+          "institution": "Nobel Prize Outreach"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Myrdal helped build Sweden's national welfare state and worked through international institutions, supporting strong coordinated public capacity rather than radical decentralization.",
+        "representacao": "Her career in democratic Swedish institutions, international organizations and advocacy for women's equal rights supports representative democracy and inclusive participation.",
+        "poder": "Her social-democratic and peace-oriented politics favor rights-constrained democratic government rather than authoritarian coercion.",
+        "imigracao": "Her internationalist and universalist work supports inclusive human-development policies, but the reviewed sources do not establish a detailed border doctrine.",
+        "diplomacia": "Her leadership in UN disarmament negotiations and Nobel-recognized peace work provide strong evidence for multilateral diplomacy and negotiated security.",
+        "intervencao": "Her disarmament activism and opposition to nuclear arms support a strongly non-militarist and non-interventionist orientation.",
+        "economia": "Her role in developing the Swedish welfare state supports a social-democratic mixed economy with significant public provision.",
+        "controle": "Welfare-state planning, social policy and coordinated public institutions support substantial regulation and planning short of command economics.",
+        "comercio": "The reviewed sources do not establish a distinctive protectionist or free-trade doctrine; keep moderate within an internationalist framework.",
+        "religiao": "Her public work was secular, rationalist and policy-oriented rather than grounded in religious authority.",
+        "moral": "Her advocacy for women's liberation and equal rights strongly supports progressive social-equality positions.",
+        "tecnologia": "Her anti-nuclear-weapons work shows caution toward destructive technologies while not opposing science or peaceful innovation; use a moderate risk-aware position."
+      }
+    },
+    {
+      "id": "anita-garibaldi",
+      "sources": [
+        {
+          "url": "https://www.camara.leg.br/tv/construtores-do-brasil/173997-anita-garibaldi/",
+          "institution": "Câmara dos Deputados"
+        },
+        {
+          "url": "https://www.cultura.sc.gov.br/espacos/mhsc/1432-mhsc/22936-mostra-200-anos-de-anita-garibaldi-vida-coragem-e-paixao",
+          "institution": "Fundação Catarinense de Cultura"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Anita fought in republican and separatist movements in southern Brazil and later in Italian unification conflicts, but the surviving record does not establish a detailed federal-versus-centralized constitutional doctrine.",
+        "representacao": "Her causes were republican and anti-monarchical, supporting opposition to dynastic imperial rule, but her biography does not establish a detailed electoral or representative model.",
+        "poder": "Her armed resistance to imperial forces demonstrates rejection of existing monarchical authority and willingness to challenge coercive state power through revolution.",
+        "imigracao": "Her transnational life between Brazil, Uruguay and Italy reflects mobility and international revolutionary networks, but does not establish a modern immigration or assimilation policy.",
+        "diplomacia": "Her political role was primarily military and revolutionary rather than diplomatic, supporting a more force-accepting than pacifist orientation.",
+        "intervencao": "She actively participated in armed revolutionary conflicts across countries, so the record does not support strict non-interventionism or pacifism.",
+        "economia": "No reliable ownership, redistribution or market doctrine is established from the reviewed biographical sources.",
+        "controle": "No reliable planning-versus-market doctrine is established.",
+        "comercio": "No reliable tariff or international-trade doctrine is established.",
+        "religiao": "The reviewed sources do not establish a political program for religious authority or secularism; keep this axis explicitly uncertain.",
+        "moral": "Her decision to fight alongside revolutionary forces and reject conventional nineteenth-century gender expectations supports a comparatively emancipatory social reading for her era.",
+        "tecnologia": "No defensible modern technology-policy position can be derived from the surviving nineteenth-century biographical record."
+      }
+    },
+    {
+      "id": "anna-schwartz",
+      "sources": [
+        {
+          "url": "https://www.nber.org/news/anna-schwartz-dead-96",
+          "institution": "National Bureau of Economic Research"
+        },
+        {
+          "url": "https://fraser.stlouisfed.org/files/docs/historical/nber/oralHistories/nber_oralhistory_schwartz.pdf",
+          "institution": "FRASER / Federal Reserve Bank of St. Louis"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Schwartz's work centers monetary institutions and economic history rather than territorial federalism; keep structural placement moderate.",
+        "representacao": "She worked within democratic academic and policy institutions but did not develop a distinctive theory of political representation; keep moderately democratic.",
+        "poder": "Her monetarist emphasis on rules and skepticism of discretionary central-bank intervention supports constraints on concentrated economic authority, though not a broad policing or civil-liberty doctrine.",
+        "imigracao": "No reliable immigration or assimilation doctrine is established.",
+        "diplomacia": "No meaningful foreign-policy or military doctrine is central to her work; keep moderate.",
+        "intervencao": "No reliable military-intervention doctrine is established.",
+        "economia": "Her monetarist work with Milton Friedman and emphasis on market mechanisms strongly support private-market economics over public ownership.",
+        "controle": "She criticized discretionary monetary management and favored rule-based monetary stability, supporting low economic planning and limited discretionary control.",
+        "comercio": "Monetarist economics is broadly compatible with market openness, but the reviewed sources do not establish a specific tariff doctrine; use moderately open trade rather than an extreme.",
+        "religiao": "No evidence establishes a role for religious authority in public policy; use a neutral-to-secular institutional placement.",
+        "moral": "Her scholarship is economic rather than cultural-policy oriented; broad traditionalist-progressive positions are underdetermined.",
+        "tecnologia": "Her research does not establish a distinctive ideology of technological acceleration or restriction."
+      }
+    },
+    {
+      "id": "antonieta-de-barros",
+      "sources": [
+        {
+          "url": "https://www.alesc.sc.gov.br/agencia/noticia/personalidades-do-parlamento-antonieta-de-barros/",
+          "institution": "Assembleia Legislativa de Santa Catarina"
+        },
+        {
+          "url": "https://memoriapolitica.alesc.sc.gov.br/biografia/68-Antonieta_de_Barros%26gt",
+          "institution": "Memória Política de Santa Catarina / ALESC"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Her legislative work focused state-level education and public-service policy while participating in national democratic life; no strong centralization-versus-federalism doctrine is established.",
+        "representacao": "Her election as one of Brazil's first Black women legislators and repeated parliamentary service provide strong evidence for representative democracy and broader political inclusion.",
+        "poder": "Her journalism, education work and civil-rights significance support equal citizenship and institutional protections rather than authoritarian coercion.",
+        "imigracao": "Her documented agenda centered education, racial equality and public service rather than immigration policy; keep moderate.",
+        "diplomacia": "No foreign-policy doctrine is established in the reviewed sources.",
+        "intervencao": "No military-intervention doctrine is established.",
+        "economia": "Her defense of public education, teachers, poor students and public servants supports an active social role for government within a mixed economy.",
+        "controle": "Her legislative record supports public provision and regulation in education and employment but not comprehensive economic planning.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "The reviewed institutional biographies do not establish a political program for religious governance; keep moderate.",
+        "moral": "Her advocacy for women's education, Black political representation and broader educational access supports socially progressive equality positions.",
+        "tecnologia": "Her agenda emphasized literacy and education as modernization tools; no broader technology ideology is established."
+      }
+    },
+    {
+      "id": "barbara-castle",
+      "sources": [
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/tradeindustry/industrycommunity/collections/equal-pay/barbara-castle/",
+          "institution": "UK Parliament"
+        },
+        {
+          "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-11481/",
+          "institution": "House of Commons Library"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Castle used national legislation and cabinet authority to establish labor and social standards, supporting coordinated national policy rather than radical decentralization.",
+        "representacao": "Her long parliamentary career, cabinet service and elected representation strongly support representative democratic institutions.",
+        "poder": "Her politics emphasized labor rights, legal equality and democratic government while accepting ordinary state authority; this supports moderate, rights-constrained government.",
+        "imigracao": "The reviewed sources focus on labor and equality rather than immigration policy; keep moderate.",
+        "diplomacia": "Her service as Minister for Overseas Development and European parliamentarian reflects international engagement, but not a militarist doctrine.",
+        "intervencao": "No strong general military-intervention doctrine is established from the reviewed sources; use a moderate Labour-internationalist placement.",
+        "economia": "As a Labour cabinet minister associated with equal pay, social services and worker protection, she supported a mixed economy with substantial public and redistributive roles.",
+        "controle": "Equal-pay legislation, labor regulation and social-services policy support significant economic regulation without command planning.",
+        "comercio": "The reviewed sources do not establish a distinctive protectionist or free-trade doctrine.",
+        "religiao": "Her public politics were secular, labor-oriented and legislative rather than religiously grounded.",
+        "moral": "Her central role in the Equal Pay Act and women's economic equality strongly supports progressive gender-equality positions.",
+        "tecnologia": "Her transport and productivity portfolios show pragmatic engagement with industrial modernization, but no extreme technology ideology is established."
+      }
+    },
+    {
+      "id": "beatrice-webb",
+      "sources": [
+        {
+          "url": "https://blogs.lse.ac.uk/lsehistory/2019/01/22/beatrice-webb/",
+          "institution": "London School of Economics"
+        },
+        {
+          "url": "https://www.lse.ac.uk/library/collection-highlights/welfare-and-social-security",
+          "institution": "LSE Library"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Webb's Poor Law work proposed coordinated national and local welfare provision, supporting strong institutional coordination rather than either radical localism or unitary absolutism.",
+        "representacao": "Fabian reformism pursued gradual institutional change through democratic administration, research and legislation, though Webb's technocratic style was less populist than mass-democratic activism.",
+        "poder": "Her social-reform program relied on capable public administration and expert institutions, accepting significant state authority while seeking rational, welfare-oriented government.",
+        "imigracao": "The reviewed LSE sources do not establish a reliable immigration or assimilation doctrine.",
+        "diplomacia": "Her support for the League of Nations Union and international reform supports multilateral cooperation rather than nationalist militarism.",
+        "intervencao": "Her internationalist reform orientation favors institutional cooperation and restraint over unilateral military intervention.",
+        "economia": "As a leading Fabian socialist and researcher of labor institutions, Webb strongly supported collective social provision and alternatives to laissez-faire capitalism.",
+        "controle": "Her Minority Report and welfare-state proposals explicitly favored coordinated public planning of education, health, pensions and employment support.",
+        "comercio": "No clear independent tariff doctrine is established in the reviewed sources; keep trade moderate within a planned social-democratic outlook.",
+        "religiao": "Her reform program was grounded in social science and public administration rather than religious authority, supporting a secular institutional position.",
+        "moral": "Her anti-poverty, labor and welfare reform work supports progressive social responsibility, though not all modern cultural-policy positions are documented.",
+        "tecnologia": "Her commitment to systematic social research, expert administration and institutional design supports a comparatively technocratic and pro-modernization orientation."
       }
     }
   ]
