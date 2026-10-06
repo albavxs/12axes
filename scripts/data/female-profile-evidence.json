@@ -929,7 +929,15 @@
         "representacao": "Official biographies document Ginsburg's litigation and institutional work on sex discrimination and equal legal participation.",
         "poder": "Her Women's Rights Project litigation provides direct evidence on constitutional and civil-rights protections; a general order-versus-liberty score requires review of a wider judicial record.",
         "moral": "Her career includes sustained legal advocacy against sex-based discrimination, relevant to gender-equality questions on the moral axis.",
-        "estrutura": "Service on federal courts does not by itself establish a centralization or federalism preference; constitutional decisions would need issue-specific review."
+        "estrutura": "Service on federal courts does not by itself establish a centralization or federalism preference; constitutional decisions would need issue-specific review.",
+        "imigracao": "Her judicial record included immigration cases, but the reviewed biographical sources do not support a simple assimilation-versus-multicultural score; keep moderate pending case-specific review.",
+        "diplomacia": "Her career focused constitutional and civil rights law rather than foreign policy; keep moderate.",
+        "intervencao": "No independent military-intervention doctrine is established.",
+        "economia": "Her jurisprudence operated within a regulated market economy and included workplace equality; no evidence supports either socialism or laissez-faire extremes.",
+        "controle": "She accepted substantial regulatory state capacity while emphasizing constitutional constraints; use moderate regulation rather than planning.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "Her constitutional approach defended religious liberty and secular law rather than religious government.",
+        "tecnologia": "Her career predates most contemporary technology-policy debates; no distinctive accelerationist or anti-technology doctrine is established."
       }
     },
     {
