@@ -3789,6 +3789,33 @@
         "moral": "Her politics were egalitarian and anti-imperialist, but she was not primarily a theorist of modern cultural issues. Use moderate progressive placement.",
         "tecnologia": "Her growth and capital theory engages industrial development positively; she was not anti-technology. Use a moderately technophile development-oriented position."
       }
+    },
+    {
+      "id": "kaja-kallas",
+      "sources": [
+        {
+          "url": "https://commission.europa.eu/about/organisation/college-commissioners/kaja-kallas_en",
+          "institution": "European Commission"
+        },
+        {
+          "url": "https://www.consilium.europa.eu/en/meetings/fac/2026/09/28/",
+          "institution": "Council of the European Union"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Kallas is a liberal European integrationist who supports capable national institutions alongside deeper EU cooperation. This supports shared supranational governance rather than either radical decentralization or exclusive national centralization.",
+        "representacao": "Her career in Estonia's Reform Party, parliament, premiership and EU institutions is rooted in competitive liberal democracy and rule-of-law commitments.",
+        "poder": "She emphasizes security against Russian, cyber and hybrid threats and supports stronger European defence. This makes her relatively security-oriented while remaining within liberal constitutional institutions.",
+        "imigracao": "Her portfolio engages EU neighborhood and security policy, but the reviewed sources do not establish an extreme open-versus-assimilationist migration stance. Use a moderately controlled European position.",
+        "diplomacia": "As EU High Representative she leads diplomacy, partnerships and rules-based international engagement, but couples them with deterrence and defence. This is active diplomacy rather than pacifism.",
+        "intervencao": "Kallas advocates sustained military and financial support for Ukraine and stronger European strategic capacity, placing her clearly more interventionist and assertive than non-interventionist profiles.",
+        "economia": "Her liberal political background favors private enterprise, competition and the European social-market economy rather than public ownership dominance.",
+        "controle": "Her policy tradition is market-oriented with EU regulation and strategic investment, supporting relatively low economic planning.",
+        "comercio": "She supports EU global partnerships and a new foreign economic policy within an integrated single market, favoring open but strategically managed global trade.",
+        "religiao": "Her public political arguments are secular, liberal and security-focused rather than based on religious authority.",
+        "moral": "Her liberal-democratic orientation supports civil rights and European values, placing her moderately progressive socially without implying a radical cultural program.",
+        "tecnologia": "Her current remit explicitly includes cyber, hybrid threats and defence innovation, and her Estonian background is strongly digital-state oriented. This supports a high pro-technology placement."
+      }
     }
   ]
 }
