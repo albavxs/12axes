@@ -1,0 +1,27 @@
+{
+  "id": "carmen-da-silva",
+  "sources": [
+    {
+      "url": "https://www.carmendasilva.com.br/vida/biografia",
+      "institution": "Carmen da Silva Archive"
+    },
+    {
+      "url": "https://repositorio.ufc.br/handle/riufc/44584",
+      "institution": "Universidade Federal do Ceará"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Carmen da Silva was a feminist journalist and intellectual rather than a constitutional theorist. Her work does not establish a clear centralization-versus-federalism doctrine.",
+    "representacao": "Her participation in the Brazilian feminist movement and public advocacy expanded women's voice in public debate and political life, supporting broader democratic participation.",
+    "poder": "Her writing challenged patriarchal authority within family and society and defended women's autonomy, supporting limits on coercive social and legal control.",
+    "imigracao": "Her public work focused on gender relations in Brazil rather than immigration policy. Keep moderate.",
+    "diplomacia": "She spent years in Uruguay and Argentina and engaged feminist debates across Latin America, but did not articulate a foreign-policy doctrine. Keep moderate.",
+    "intervencao": "No developed military-intervention doctrine is established. Her activism was civic and nonviolent.",
+    "economia": "She strongly advocated women's paid work and economic autonomy, supporting equal access to employment and independence within a mixed economy rather than a clear socialist ownership program.",
+    "controle": "Her feminism favored legal and social reforms to reduce structural inequality, but there is no basis for comprehensive economic planning. Use moderate regulation.",
+    "comercio": "No reliable trade-policy position is established. Keep moderate.",
+    "religiao": "Her feminist critique challenged traditional social norms rather than promoting clerical authority; the reviewed evidence supports a secular public sphere.",
+    "moral": "Her work on divorce, sexuality, contraception, women's autonomy and gender roles strongly supports progressive social positions.",
+    "tecnologia": "Her writing focused on social modernization and media rather than a distinct technology doctrine. Use a moderate modernist placement."
+  }
+}
