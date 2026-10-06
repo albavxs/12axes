@@ -3295,6 +3295,33 @@
         "moral": "Her work challenges racial, class and gender hierarchy and insists on the dignity of marginalized people, supporting a socially egalitarian placement.",
         "tecnologia": "Her concerns centered poverty, education and access rather than technology policy. Use a moderate position."
       }
+    },
+    {
+      "id": "chiquinha-gonzaga",
+      "sources": [
+        {
+          "url": "https://ims.com.br/titular-colecao/chiquinha-gonzaga/",
+          "institution": "Instituto Moreira Salles"
+        },
+        {
+          "url": "https://www.administracao.pr.gov.br/ArquivoPublico/Noticia/Chiquinha-Gonzaga",
+          "institution": "Arquivo Público do Paraná"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Gonzaga was a musician and activist rather than a constitutional theorist. Her abolitionist and republican sympathies support rejection of imperial hierarchy, but do not define a modern federal-versus-centralized model.",
+        "representacao": "Her republican and abolitionist activism aligned with expanding citizenship beyond slavery and monarchical privilege. This supports broader political inclusion, though she was not primarily an electoral theorist.",
+        "poder": "She defied patriarchal family control, professional exclusion and slavery, supporting resistance to entrenched coercive hierarchies and greater personal autonomy.",
+        "imigracao": "No reliable immigration or assimilation doctrine is established. Keep moderate.",
+        "diplomacia": "Her political engagement was domestic and cultural rather than foreign-policy oriented. Keep moderate.",
+        "intervencao": "No developed military-intervention doctrine is established. Keep moderate.",
+        "economia": "Her career as an independent professional musician and her fight for authors' rights support property in creative work and women's economic independence, while abolitionist commitments oppose coerced labor. This suggests a reformist mixed-economy orientation.",
+        "controle": "She advocated legal protection of authors' rights and social reform but not centralized economic planning. Use moderate regulation.",
+        "comercio": "No reliable international-trade doctrine is established. Keep moderate.",
+        "religiao": "Her activism and professional life were civic and artistic rather than clerical. No case exists for religious government.",
+        "moral": "Her separation from an oppressive marriage, professional independence, abolitionism and challenge to gender conventions strongly support progressive social autonomy for her era.",
+        "tecnologia": "Her pioneering work in modern urban music and professional composition reflects cultural modernization, but not a general technology ideology. Use moderate-to-positive modernism."
+      }
     }
   ]
 }
