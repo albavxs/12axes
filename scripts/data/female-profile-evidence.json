@@ -3843,6 +3843,33 @@
         "moral": "Her presidency was broadly liberal-European and supportive of inclusive civic rights, but she is not identified with radical cultural politics. Use moderate social liberalism.",
         "tecnologia": "A genetics graduate and leader of highly digital Estonia, Kaljulaid strongly supports science, digital government and technological modernization."
       }
+    },
+    {
+      "id": "kolinda-grabar-kitarovic",
+      "sources": [
+        {
+          "url": "https://www.predsjednik.hr/en/bivsi-predsjednici/kolinda-grabar-kitarovic/",
+          "institution": "Office of the President of Croatia"
+        },
+        {
+          "url": "https://www.nato.int/en/news-and-events/articles/news/2011/07/12/croatian-diplomat-to-lead-natos-public-diplomacy",
+          "institution": "NATO"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Grabar-Kitarović governed Croatia's unitary constitutional state while championing EU and NATO integration. This supports capable national institutions plus supranational cooperation rather than radical decentralization.",
+        "representacao": "Her career in parliament, government and the presidency is rooted in competitive electoral democracy and Euro-Atlantic democratic institutions.",
+        "poder": "Her security-policy background favors strong state defence and public order while remaining within constitutional democratic norms. This supports a moderately security-oriented position.",
+        "imigracao": "Her political tradition is center-right and security-conscious; the reviewed sources do not establish an extreme immigration position. Use moderately controlled migration.",
+        "diplomacia": "Foreign ministry, EU accession negotiations, U.S. ambassadorship and NATO public diplomacy show very strong diplomatic and alliance engagement.",
+        "intervencao": "Her NATO and Euro-Atlantic background supports collective defence and willingness to use allied power where security requires it, placing her away from strict non-interventionism.",
+        "economia": "Her center-right, EU-oriented politics fit a private-market mixed economy rather than state ownership dominance.",
+        "controle": "EU economic integration and center-right governance support market allocation with ordinary regulation rather than planning.",
+        "comercio": "EU accession and Euro-Atlantic integration strongly support open trade and regional/global economic integration.",
+        "religiao": "Her political background is culturally Catholic and conservative, but she governed through secular constitutional institutions. Use moderate religiosity, not theocracy.",
+        "moral": "Her center-right profile is more socially traditional than liberal-progressive European leaders, while still operating within EU rights norms.",
+        "tecnologia": "Her security and international-relations career supports modernization and institutional technology use, but no accelerationist doctrine is established. Use moderate-to-positive technology."
+      }
     }
   ]
 }
