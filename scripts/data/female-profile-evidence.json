@@ -1790,6 +1790,37 @@
         "representacao": "Institutional memory projects treat her as an active political actor in independence rather than only through her relationship with Simón Bolívar.",
         "metodologia": "Her early nineteenth-century context requires caution when translating revolutionary independence activity into contemporary 12-axis categories."
       }
+    },
+    {
+      "id": "alexandra-kollontai",
+      "sources": [
+        {
+          "url": "https://www.marxists.org/portugues/kollontai/index.htm",
+          "institution": "Marxists Internet Archive"
+        },
+        {
+          "url": "https://www.marxists.org/archive/kollonta/1921/workers-opposition/ch03.htm",
+          "institution": "Marxists Internet Archive"
+        },
+        {
+          "url": "https://www.marxists.org/francais/kollontai/works/1918/11/famille.htm",
+          "institution": "Marxists Internet Archive"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Kollontai defended a workers' republic but, through the Workers' Opposition, criticized bureaucratic administration and argued for broad self-activity of the working masses and a larger role for trade unions in economic administration. This supports a less bureaucratically centralized position inside an explicitly socialist state, not anti-state federalism.",
+        "representacao": "She argued for political equality of women and workers' participation in soviets and public administration, while remaining a Bolshevik committed to proletarian rule rather than liberal parliamentary pluralism. The evidence therefore supports mass participation but not an unrestricted liberal-democratic model.",
+        "poder": "Her Workers' Opposition texts criticize bureaucracy and defend initiative from below, which cuts against concentrated administrative control. At the same time she accepted revolutionary coercion and the dictatorship of the proletariat, so evidence does not support a strongly civil-libertarian extreme.",
+        "imigracao": "The reviewed texts focus on class, internationalism and women's emancipation rather than border or immigration policy. No strong direct position on migration controls is established; avoid inferring a score only from communist internationalism.",
+        "diplomacia": "Kollontai wrote against imperialist war, later served as a Soviet diplomat, and framed durable peace and anti-fascist international cooperation as major goals. This supports a comparatively anti-war and diplomatic orientation, while recognizing her loyalty to the Soviet state.",
+        "intervencao": "Her anti-war writing opposed imperialist conflict and she emphasized peace, but as a Bolshevik and later Soviet diplomat she did not advocate general isolationism. Evidence favors skepticism toward aggressive intervention more than complete non-intervention.",
+        "economia": "She was explicitly communist and argued for socialization of domestic functions, collective provision, workers' power and a socialist transformation of production. This is strong evidence for collective/public rather than private-market ownership.",
+        "controle": "Her socialism favored planned collective provision, but the Workers' Opposition criticized bureaucratic state management and sought worker/trade-union control of production. Evidence supports high economic coordination with an anti-bureaucratic qualification.",
+        "comercio": "The reviewed writings do not provide a clear, independent doctrine of tariffs or international trade. Her anti-capitalist economics suggests little commitment to laissez-faire trade, but a precise protectionism/globalism placement requires caution.",
+        "religiao": "Her political theory is secular Marxist and grounds emancipation in class relations and state/social organization rather than religious authority. The reviewed material offers no basis for a religiously governed social order.",
+        "moral": "She explicitly challenged traditional marriage, gender hierarchy and family dependence, defended easier divorce, women's economic independence, collective childcare and new sexual ethics. This is strong evidence for socially progressive positions.",
+        "tecnologia": "The evidence emphasizes modernization of social reproduction and collective services but contains no developed doctrine of technological acceleration, biotechnology or technocracy. Use only a modest inference from her modernizing socialist outlook and mark uncertainty."
+      }
     }
   ]
 }
