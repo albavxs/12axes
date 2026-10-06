@@ -1,0 +1,27 @@
+{
+  "id": "geraldine-ferraro",
+  "sources": [
+    {
+      "url": "https://history.house.gov/People/Detail/13081",
+      "institution": "U.S. House of Representatives: History, Art & Archives"
+    },
+    {
+      "url": "https://history.house.gov/Collection/Detail/30688",
+      "institution": "U.S. House of Representatives: History, Art & Archives"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Ferraro worked through federal legislative institutions and did not advocate a major structural redesign; moderate federalism.",
+    "representacao": "Congressional service and vice-presidential candidacy strongly support representative democracy and women’s political inclusion.",
+    "poder": "Her human-rights work and mainstream liberal politics support constitutional rights while accepting ordinary law-enforcement institutions; moderate-libertarian.",
+    "imigracao": "Her record is mainstream Democratic and pluralist, but immigration was not a defining issue in the selected sources; keep moderate-open.",
+    "diplomacia": "As a Cold War-era mainstream Democrat, she supported alliances and active international engagement rather than pacifism or isolation.",
+    "intervencao": "Her politics accepted U.S. alliance commitments and national security while not centering aggressive intervention; moderate.",
+    "economia": "Economic-equality legislation and liberal social policy fit a regulated market/mixed economy.",
+    "controle": "Supports anti-discrimination regulation and public policy without command planning; moderate control.",
+    "comercio": "No distinctive trade doctrine is established; moderate openness.",
+    "religiao": "Personally Catholic, but her public positions on reproductive rights and law were secular rather than clerical.",
+    "moral": "Feminist causes, reproductive rights and women’s equality support progressive social positions.",
+    "tecnologia": "Technology was not central to her political profile; moderate."
+  }
+}
