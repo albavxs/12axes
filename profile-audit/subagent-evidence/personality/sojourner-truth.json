@@ -1,0 +1,31 @@
+{
+  "id": "sojourner-truth",
+  "sources": [
+    {
+      "url": "https://www.nps.gov/people/sojourner-truth.htm",
+      "institution": "National Park Service"
+    },
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/sojourner-truth",
+      "institution": "National Women’s History Museum"
+    },
+    {
+      "url": "https://home.nps.gov/people/sojourner-truth.htm",
+      "institution": "U.S. National Park Service"
+    }
+  ],
+  "evidence": {
+    "poder": "NPS documents Truth's anti-slavery activism, directly relevant to liberty and coercion.",
+    "representacao": "Abolitionist and women’s-rights advocacy provide evidence for expanding civic standing and democratic inclusion.",
+    "religiao": "Religious preaching and spiritual conviction were central to her public persona; review must distinguish religiosity from theocratic politics.",
+    "moral": "Her public advocacy challenged racial and gender hierarchy, strongly relevant to equality and social reform.",
+    "economia": "Antislavery work has direct labor/property implications, but modern economic-axis mapping needs careful historical translation.",
+    "estrutura": "Truth's activism relied on local abolitionist networks and federal action for emancipation and equal rights; she did not articulate a territorial federalism doctrine.",
+    "imigracao": "Her universal equality arguments challenge racial hierarchy but do not amount to a modern immigration or assimilation program.",
+    "diplomacia": "Her public methods were preaching, speaking, petitioning and political advocacy rather than militarism; keep a peaceful orientation.",
+    "intervencao": "She supported the Union cause in the Civil War to destroy slavery, so she was not an absolute pacifist; outside that context no general intervention doctrine is established.",
+    "controle": "Her support for land grants and material support for formerly enslaved people implies public redistribution but not comprehensive planning.",
+    "comercio": "No reliable trade-policy doctrine is established.",
+    "tecnologia": "No meaningful modern technology doctrine can be established from the reviewed historical record."
+  }
+}
