@@ -1337,10 +1337,18 @@
         }
       ],
       "evidence": {
-        "representacao": "Government historical material documents Chattopadhyay's early electoral candidacy, women's political mobilization and independence activism.",
-        "economia": "Her work promoting cooperatives, crafts and artisan livelihoods provides evidence on community economic organization, but not a complete public/private ownership position.",
-        "moral": "Her advocacy for women's public participation and social reform is relevant to equality questions.",
-        "intervencao": "Her role in the independence movement is anti-colonial evidence and should be kept distinct from the project's modern interventionism axis."
+        "estrutura": "Her cooperative and community institution-building favors decentralized social organization rather than top-down state command.",
+        "representacao": "Early electoral candidacy, women’s mobilization and independence activism support democratic participation.",
+        "poder": "Anti-colonial civil disobedience and women’s rights activism weigh against unaccountable coercive authority.",
+        "imigracao": "Her work emphasized Indian self-determination and cultural pluralism rather than migration restrictions; relatively inclusive.",
+        "diplomacia": "Independence politics and international cultural work support peaceful solidarity more than militarism.",
+        "intervencao": "Anti-colonial activism strongly supports national self-determination and resistance to foreign domination.",
+        "economia": "Promotion of cooperatives and artisan livelihoods strongly supports cooperative/community economics over pure laissez-faire.",
+        "controle": "Her cooperative vision favors organized economic support without centralized command planning.",
+        "comercio": "Protection and promotion of domestic crafts imply some preference for preserving local production against destructive market pressures.",
+        "religiao": "Her cultural work was pluralist and civic rather than clerical; moderately secular.",
+        "moral": "Women’s public participation and social reform make her strongly progressive on gender.",
+        "tecnologia": "She valued craft traditions and cultural preservation, suggesting balanced rather than accelerationist technology."
       }
     },
     {
