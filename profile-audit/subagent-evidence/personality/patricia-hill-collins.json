@@ -1,0 +1,27 @@
+{
+  "id": "patricia-hill-collins",
+  "sources": [
+    {
+      "url": "https://socy.umd.edu/facultyprofile/collins/patricia-hill",
+      "institution": "University of Maryland Department of Sociology"
+    },
+    {
+      "url": "https://www.asanet.org/about/governance-and-leadership/council/presidents/patricia-hill-collins/",
+      "institution": "American Sociological Association"
+    }
+  ],
+  "evidence": {
+    "moral": "Black feminist thought and intersectionality scholarship directly inform equality, identity and anti-hierarchy analysis for the social axis.",
+    "economia": "Class is part of her intersectional framework; ownership/planning scoring requires narrower evidence from texts.",
+    "representacao": "Her scholarship on power, knowledge and marginalization is relevant to voice and representation but not equivalent to an electoral-system position.",
+    "poder": "Analysis of interlocking systems of oppression can inform liberty/security placement, but reviewer should avoid overprecision without direct policy claims.",
+    "estrutura": "Collins analyzes institutional power and community knowledge rather than territorial state structure; no strong federalism-versus-centralization doctrine is established.",
+    "imigracao": "Her intersectional analysis supports attention to race, gender, nationality and migration as overlapping identities, but not a specific border-policy program.",
+    "diplomacia": "Her scholarship is transnational and comparative but not focused on military or diplomatic doctrine; keep moderate.",
+    "intervencao": "No developed military-intervention doctrine is established.",
+    "controle": "Her critique of intersecting capitalism, race and gender supports social regulation and redistribution more than laissez-faire, without implying command planning.",
+    "comercio": "No reliable trade-policy doctrine is established.",
+    "religiao": "Her work engages Black women's experiences, including religion, but does not advocate religious government; institutional placement should remain secular-pluralist.",
+    "tecnologia": "No distinctive technology ideology is central to her scholarship; keep moderate."
+  }
+}

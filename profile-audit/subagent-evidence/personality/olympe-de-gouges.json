@@ -1,0 +1,27 @@
+{
+  "id": "olympe-de-gouges",
+  "sources": [
+    {
+      "url": "https://www.bnf.fr/fr/mediatheque/olympe-de-gouges-1748-1793",
+      "institution": "Bibliothèque nationale de France"
+    },
+    {
+      "url": "https://www.bnf.fr/fr/mediatheque/pionnieres-olympe-de-gouges",
+      "institution": "Bibliothèque nationale de France"
+    }
+  ],
+  "evidence": {
+    "representacao": "BnF material documents de Gouges's Declaration of the Rights of Woman and the Female Citizen and her demand that women be recognized as political and legal subjects.",
+    "moral": "Her writing directly challenged sex-based legal inequality and is strong evidence on gender equality.",
+    "poder": "Her political writing during the French Revolution engaged legal rights and political punishment; exact civil-liberty/order placement requires source-specific review rather than a revolutionary-era shortcut.",
+    "economia": "The selected BnF materials are not sufficient for a comprehensive public/private ownership or planning position.",
+    "estrutura": "De Gouges wrote within revolutionary France and defended constitutional political reform, but no durable federalism-versus-centralization doctrine is sufficiently established.",
+    "imigracao": "Her universal-rights arguments and opposition to slavery support broad human equality, though not a modern immigration-policy program.",
+    "diplomacia": "Her political writings favored civic reform and opposition to political violence more than militarism, but foreign policy was not a central doctrine.",
+    "intervencao": "No developed modern doctrine of military intervention is established; keep restrained and moderate.",
+    "controle": "Her economic positions were reformist and humanitarian rather than command-socialist; no case for comprehensive planning is established.",
+    "comercio": "No reliable trade-policy doctrine is established.",
+    "religiao": "Her rights arguments were grounded in natural and civic equality rather than clerical authority, supporting a comparatively secular political orientation.",
+    "tecnologia": "No meaningful technology doctrine is available for this eighteenth-century profile; keep moderate."
+  }
+}

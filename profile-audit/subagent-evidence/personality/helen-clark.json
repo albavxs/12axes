@@ -1,0 +1,27 @@
+{
+  "id": "helen-clark",
+  "sources": [
+    {
+      "url": "https://www.undp.org/our-leadership/past-administrators",
+      "institution": "United Nations Development Programme"
+    },
+    {
+      "url": "https://www3.parliament.nz/en/mps-and-electorates/former-members-of-parliament/clark-helen/",
+      "institution": "New Zealand Parliament"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Clark governed within New Zealand’s unitary parliamentary system while working with local and international institutions; no strong structural extremity is evident.",
+    "representacao": "Her long elected parliamentary career, opposition leadership and premiership strongly support representative democracy.",
+    "poder": "She governed through rule-bound democratic institutions and accepted national-security agencies, supporting a liberal but not anti-state position.",
+    "imigracao": "New Zealand Labour politics under Clark generally supported a diverse immigration society with regulation; this fits pluralist but managed migration.",
+    "diplomacia": "Foreign-affairs, disarmament and UNDP leadership strongly support multilateral diplomacy and international institutions.",
+    "intervencao": "Her internationalist record emphasizes multilateral legitimacy and development cooperation more than unilateral military force.",
+    "economia": "Labour governments combined private markets with high public investment in health, education and welfare; social-democratic mixed economy.",
+    "controle": "Public services, labor policy and social investment imply meaningful regulation without command planning.",
+    "comercio": "New Zealand remained highly trade-oriented and internationally integrated; relatively open commerce with social regulation.",
+    "religiao": "Her public politics are secular and institutional rather than religiously grounded.",
+    "moral": "Labour social policy and inclusion place her on the socially progressive side, though within mainstream institutional politics.",
+    "tecnologia": "Public administration and development work show pragmatic use of science and technology rather than ideological accelerationism."
+  }
+}

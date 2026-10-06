@@ -1,0 +1,27 @@
+{
+  "id": "miriam-makeba",
+  "sources": [
+    {
+      "url": "https://sahistory.org.za/people/miriam-makeba",
+      "institution": "South African History Online"
+    },
+    {
+      "url": "https://sahistory.org.za/article/biography-miriam-makeba-narcy-negrete",
+      "institution": "South African History Online"
+    }
+  ],
+  "evidence": {
+    "representacao": "Biographical sources document Makeba's public opposition to apartheid and advocacy for political and racial rights.",
+    "poder": "Her exile and anti-apartheid activism provide evidence concerning resistance to racially coercive state institutions.",
+    "diplomacia": "Her international advocacy, including appearances connected to the United Nations, made apartheid a transnational political issue.",
+    "moral": "Opposition to racial segregation and support for equal dignity are directly documented; broader social-policy views require separate evidence.",
+    "estrutura": "Makeba was an anti-apartheid activist and artist rather than a constitutional theorist; no reliable centralization-versus-federalism doctrine is established.",
+    "imigracao": "Her exile and transnational life support a strong anti-discrimination and anti-xenophobia reading, but not a detailed border-policy program.",
+    "intervencao": "Her international advocacy relied on cultural diplomacy, sanctions and political pressure against apartheid rather than military intervention.",
+    "economia": "Her anti-apartheid activism does not by itself establish a socialist or market ownership program; keep moderate.",
+    "controle": "No clear planning-versus-market doctrine is established.",
+    "comercio": "No reliable trade doctrine is established.",
+    "religiao": "Her public political advocacy was secular and anti-apartheid rather than religiously governed.",
+    "tecnologia": "Her work centered music, culture and political advocacy, not a distinctive technology ideology."
+  }
+}
