@@ -385,11 +385,18 @@
         }
       ],
       "evidence": {
-        "poder": "Escape from slavery, Underground Railroad work and Civil War service directly concern resistance to coercive bondage and state-backed domination.",
-        "representacao": "Abolition and later suffrage activity support democratic inclusion, though her historical context predates modern party democracy.",
-        "diplomacia": "Her Civil War service is a historical fact, not sufficient evidence by itself for a general militarist/pacifist score.",
-        "intervencao": "Union wartime service and direct action against slavery are relevant to force used for emancipatory ends; do not map as generic militarism.",
-        "religiao": "Religious conviction was important in her life; separate personal faith from policy about religious authority."
+        "estrutura": "Tubman relied on decentralized clandestine networks to escape slavery while later cooperating with Union military institutions; this supports local self-organization without an anti-state constitutional doctrine.",
+        "representacao": "Her abolitionism and later women’s-suffrage advocacy strongly support equal citizenship and broader democratic inclusion.",
+        "poder": "Escape from slavery and repeated resistance to state-backed bondage place her strongly against coercive domination and arbitrary deprivation of liberty.",
+        "imigracao": "Her work centered freedom from slavery rather than immigration law; the universal claim to freedom supports an inclusive rather than exclusionary tendency.",
+        "diplomacia": "Tubman aided the Union during the Civil War and participated in military operations, so she should not be portrayed as a categorical pacifist despite her humanitarian aims.",
+        "intervencao": "Her use of organized force was directed at emancipation from slavery inside a civil war, not a general doctrine of foreign intervention; keep this axis moderate and distinguish liberation from expansionism.",
+        "economia": "Abolition rejected ownership of people, but it does not by itself define public versus private ownership of the broader economy; moderate reformist placement is appropriate.",
+        "controle": "No comprehensive planning-versus-market program is documented; keep moderate.",
+        "comercio": "No trade-policy doctrine is documented.",
+        "religiao": "Christian faith was central to Tubman’s self-understanding and activism, making her personally religious without evidence for theocratic government.",
+        "moral": "Abolition and women’s suffrage strongly challenge racial and gender hierarchy and support egalitarian social values.",
+        "tecnologia": "Technology was not a defining political issue; moderate."
       }
     },
     {
