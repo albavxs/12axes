@@ -2061,6 +2061,37 @@
         "moral": "Her advocacy of women's suffrage, shared parental authority and women's political organization strongly supports progressive gender reforms, despite otherwise traditional elements in Peronist social culture.",
         "tecnologia": "The reviewed sources emphasize hospitals, schools, housing, welfare and mass organization rather than a distinctive technology doctrine. Use a pragmatic/moderate placement."
       }
+    },
+    {
+      "id": "golda-meir",
+      "sources": [
+        {
+          "url": "https://m.knesset.gov.il/EN/About/Pages/golda.aspx",
+          "institution": "Knesset"
+        },
+        {
+          "url": "https://www.tandfonline.com/doi/full/10.1080/00263206.2011.535675",
+          "institution": "Taylor & Francis / Middle Eastern Studies"
+        },
+        {
+          "url": "https://academic.oup.com/reference/62376/reference-article-abstract/554974534",
+          "institution": "Oxford University Press"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Meir worked within Israel's parliamentary state and Labor-Zionist institutions, without a distinctive doctrine of territorial decentralization. Her record supports a conventional national-state structure rather than a federalist extreme.",
+        "representacao": "She rose through party, labor and parliamentary institutions and served in an electoral parliamentary democracy. This supports representative institutions, though her security politics were often hard-line.",
+        "poder": "Meir accepted a strong security state in the context of repeated wars and terrorism. Her willingness to use coercive countermeasures places her toward order/security relative to civil-libertarian profiles.",
+        "imigracao": "Her Labor Zionism, struggle for aliyah and work absorbing Jewish immigrants strongly support openness to Jewish immigration specifically. This does not translate cleanly into universal open-border policy, so the axis requires contextual caution.",
+        "diplomacia": "She spent a decade as foreign minister, built relations with African states and engaged repeatedly in negotiations, showing strong use of diplomacy. At the same time, she maintained firm security positions.",
+        "intervencao": "Her premiership included the War of Attrition and Yom Kippur War, and she accepted forceful defense and retaliation. Evidence supports a more intervention/security-oriented stance than pacifist leaders, though she also pursued negotiations and rejected some escalatory options.",
+        "economia": "Meir came from Labor Zionism and the Histadrut and is credited with strengthening the welfare state and social legislation. This supports a social-democratic/public role in the economy rather than laissez-faire capitalism.",
+        "controle": "Her Labor background and welfare-state building support substantial public coordination and regulation, but Israel retained a mixed economy; evidence does not imply full command planning.",
+        "comercio": "The reviewed sources do not establish a strong independent tariff or trade doctrine. Her foreign-policy engagement and state-building suggest international economic engagement, but this axis should remain moderate.",
+        "religiao": "Meir was a Jewish national leader in a Jewish state but her Labor-Zionist politics were predominantly secular rather than theocratic. This supports a secular-national rather than religious-rule position.",
+        "moral": "Her record is mixed: she broke gender barriers as a female national leader but was not primarily a social-liberal reformer. Evidence supports moderate rather than strongly progressive placement on broad cultural questions.",
+        "tecnologia": "As a state-building leader she supported modern military, infrastructure and welfare institutions, but the reviewed sources do not establish a distinct ideology of technology. Use a moderate-to-pragmatic placement."
+      }
     }
   ]
 }
