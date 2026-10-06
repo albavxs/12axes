@@ -3708,6 +3708,33 @@
         "moral": "Her objective conception of the Good, virtue, attention and moral realism rejects pure relativism. This is not equivalent to social conservatism; use a moderate ethical-traditional tendency rather than a modern culture-war extreme.",
         "tecnologia": "Technology is not a central theme in her moral philosophy. Use a moderate human-centered placement."
       }
+    },
+    {
+      "id": "ivone-lara",
+      "sources": [
+        {
+          "url": "https://acervos.ims.com.br/index.php/Detail/objects/60260",
+          "institution": "Instituto Moreira Salles"
+        },
+        {
+          "url": "https://www.coc.fiocruz.br/todas-as-noticias/dona-ivone-lara-e-a-saude-mental-no-brasil/",
+          "institution": "Casa de Oswaldo Cruz / Fiocruz"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Ivone Lara was a social worker, nurse and artist rather than a constitutional theorist. Her career in Rio's public health system does not establish a federal-versus-centralized doctrine.",
+        "representacao": "As a Black woman who broke barriers in samba and professional public service, her career expanded cultural and professional representation, though she did not formulate an electoral-system theory.",
+        "poder": "Her social-work practice in psychiatric care was associated with more humane treatment and community/family engagement, supporting restraint on dehumanizing institutional power.",
+        "imigracao": "No reliable immigration or assimilation doctrine is established.",
+        "diplomacia": "Her work was cultural and domestic rather than foreign-policy oriented. Keep moderate.",
+        "intervencao": "No developed military-intervention doctrine is established. Keep moderate.",
+        "economia": "Her decades in public social services and health care demonstrate support for public provision and professional social assistance, though not a broad socialist ownership program.",
+        "controle": "Her career supports organized public health and social-welfare institutions rather than laissez-faire abandonment, but not comprehensive economic planning.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "Samba and Afro-Brazilian cultural life intersect with religious traditions, but her public career does not support religious government. Use secular pluralism.",
+        "moral": "Her pioneering role for Black women, community care and cultural inclusion supports egalitarian social values, though she was not primarily a political activist.",
+        "tecnologia": "Her health-care work supports professional medical and social-service modernization, but no general technology ideology is established."
+      }
     }
   ]
 }
