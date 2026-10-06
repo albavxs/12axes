@@ -693,10 +693,18 @@
         }
       ],
       "evidence": {
-        "representacao": "Abolition and women’s-rights convention work support democratic inclusion and equal civic standing.",
-        "poder": "Antislavery activism directly opposed coercive domination; broader state/security placement remains to review.",
-        "moral": "Her reform activism challenged slavery and gender exclusion, relevant to equality-oriented social scoring.",
-        "religiao": "Quaker ministry and reform theology were central; distinguish religious motivation from preference for religious government."
+        "estrutura": "Mott organized through voluntary associations and reform networks, suggesting decentralized civic organization without a constitutional federal doctrine.",
+        "representacao": "Abolitionism and Seneca Falls women’s-rights work strongly support equal citizenship and expanded democratic participation.",
+        "poder": "Antislavery activism directly opposed extreme coercion and legal domination, placing her strongly on liberty and equal-rights principles.",
+        "imigracao": "Her universalist Quaker abolitionism supports human equality and inclusion, though immigration law was not a major issue.",
+        "diplomacia": "Quaker pacifism strongly supports nonviolence and diplomatic settlement.",
+        "intervencao": "Pacifist principles and opposition to coercion favor non-intervention and peaceful reform.",
+        "economia": "Her reform work challenged slavery and supported women’s economic/legal rights but did not define a socialist ownership system; moderate market reform.",
+        "controle": "Voluntary reform and legal equality imply moderate/low centralized economic control.",
+        "comercio": "Abolitionist boycotts show moral use of commerce but not a general tariff doctrine; moderately open/internationalist.",
+        "religiao": "Quaker ministry was central to her life, making her personally religious while her egalitarian faith opposed clerical hierarchy and theocracy.",
+        "moral": "Abolition and women’s equality strongly support progressive egalitarian social values.",
+        "tecnologia": "Technology was not central; moderate."
       }
     },
     {
