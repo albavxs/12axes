@@ -3465,6 +3465,33 @@
         "moral": "Her work on poverty, women's rights and professional social welfare supports reformist egalitarian social values.",
         "tecnologia": "She emphasized evidence, statistics, professional training and administrative expertise, supporting a technocratic and empirical approach to social policy."
       }
+    },
+    {
+      "id": "edith-stein",
+      "sources": [
+        {
+          "url": "https://www.vatican.va/news_services/liturgy/saints/ns_lit_doc_19981011_edith_stein_en.html",
+          "institution": "The Holy See"
+        },
+        {
+          "url": "https://plato.stanford.edu/archives/fall2020/entries/stein/",
+          "institution": "Stanford Encyclopedia of Philosophy"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Stein wrote on personhood, community and the nature of the state, but did not advocate a simple centralized-versus-federal institutional formula. Her social philosophy values both personal freedom and genuine community.",
+        "representacao": "Her writings defend the dignity and agency of persons and she campaigned on women's education and public roles, supporting inclusion and civic participation while not centering electoral-system design.",
+        "poder": "Her philosophy emphasizes free individual persons within communal life, supporting limits on dehumanizing state power. Her death under Nazism reinforces the historical context of totalitarian persecution but should not substitute for her own theory.",
+        "imigracao": "As a Jewish-born German persecuted under Nazi racial law, her life demonstrates the stakes of exclusion, but she left no modern immigration program. Use a rights-based, non-xenophobic placement with caution.",
+        "diplomacia": "She was not primarily a foreign-policy thinker. Her Christian and philosophical universalism supports human solidarity, but no detailed diplomacy doctrine is established.",
+        "intervencao": "No developed military-intervention doctrine is central to her work. Use a restrained moderate position.",
+        "economia": "Her writings were not primarily economic. She defended meaningful social roles and women's professional participation but did not articulate a strong ownership or redistribution system.",
+        "controle": "No planning-versus-market doctrine is established. Keep moderate.",
+        "comercio": "No trade doctrine is established. Keep moderate.",
+        "religiao": "Stein became a Catholic philosopher and Carmelite nun and integrated Thomistic metaphysics with phenomenology. This strongly supports a religious worldview, though not necessarily coercive theocracy.",
+        "moral": "Her ethics were grounded in objective moral truth, Christian anthropology and traditional views on some gender and family questions while still defending women's education and public contribution. This supports socially traditional but intellectually complex placement.",
+        "tecnologia": "Her work centered phenomenology, ethics and theology rather than technology policy. Keep moderate."
+      }
     }
   ]
 }
