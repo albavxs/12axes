@@ -16,9 +16,10 @@ Current verified baseline:
 - the feature is ahead of `main` and not behind it;
 - no Personality Studio UI/server files exist in the feature branch;
 - 28 women are currently integrated in runtime;
-- 172 additional women remain in the editorial pipeline and are not promoted automatically.
+- 172 additional women remain in the editorial pipeline;
+- **release target: all 172 staged candidates reviewed and promoted, for 200 women in runtime total.**
 
-The 172 staged candidates may remain staged after this release. A staged candidate only becomes visible in runtime after the existing metadata, portrait, translation and profile gates are reviewed and promoted.
+This release is not complete while any of the 172 intended candidates remains only in staging. Each candidate must complete metadata, portrait, translation, profile/audit and maintainer-review gates before promotion.
 
 ## Photo closeout for the first editorial wave
 
@@ -150,6 +151,8 @@ Also verify:
 
 ## Release decision
 
-The feature can merge with staged candidates still unfinished because the pipeline is not runtime. What blocks the merge is a broken runtime, failing tests/validators, missing runtime portrait assets, or accidental Studio contamination.
+The feature merges only after the target reaches **200 women in runtime** (28 existing + all 172 staged candidates promoted).
 
-If the maintainership decision is instead to make any of the nine women visible in this release, those specific women must finish the full profile/audit/runtime promotion workflow above before merge.
+Any candidate still in staging blocks completion of this release. The final merge gate therefore requires all 172 candidates to have completed factual metadata, translation, local portrait review, 240-question profile audit, vector review, required ready statuses, runtime integration, and final validation.
+
+The Personality Studio remains development-only and is never part of the production merge.
