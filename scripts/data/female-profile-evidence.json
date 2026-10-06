@@ -3063,6 +3063,33 @@
         "moral": "Her advocacy for women's education, Black political representation and broader educational access supports socially progressive equality positions.",
         "tecnologia": "Her agenda emphasized literacy and education as modernization tools; no broader technology ideology is established."
       }
+    },
+    {
+      "id": "barbara-castle",
+      "sources": [
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/tradeindustry/industrycommunity/collections/equal-pay/barbara-castle/",
+          "institution": "UK Parliament"
+        },
+        {
+          "url": "https://commonslibrary.parliament.uk/research-briefings/cbp-11481/",
+          "institution": "House of Commons Library"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Castle used national legislation and cabinet authority to establish labor and social standards, supporting coordinated national policy rather than radical decentralization.",
+        "representacao": "Her long parliamentary career, cabinet service and elected representation strongly support representative democratic institutions.",
+        "poder": "Her politics emphasized labor rights, legal equality and democratic government while accepting ordinary state authority; this supports moderate, rights-constrained government.",
+        "imigracao": "The reviewed sources focus on labor and equality rather than immigration policy; keep moderate.",
+        "diplomacia": "Her service as Minister for Overseas Development and European parliamentarian reflects international engagement, but not a militarist doctrine.",
+        "intervencao": "No strong general military-intervention doctrine is established from the reviewed sources; use a moderate Labour-internationalist placement.",
+        "economia": "As a Labour cabinet minister associated with equal pay, social services and worker protection, she supported a mixed economy with substantial public and redistributive roles.",
+        "controle": "Equal-pay legislation, labor regulation and social-services policy support significant economic regulation without command planning.",
+        "comercio": "The reviewed sources do not establish a distinctive protectionist or free-trade doctrine.",
+        "religiao": "Her public politics were secular, labor-oriented and legislative rather than religiously grounded.",
+        "moral": "Her central role in the Equal Pay Act and women's economic equality strongly supports progressive gender-equality positions.",
+        "tecnologia": "Her transport and productivity portfolios show pragmatic engagement with industrial modernization, but no extreme technology ideology is established."
+      }
     }
   ]
 }
