@@ -1,0 +1,27 @@
+{
+  "id": "iris-murdoch",
+  "sources": [
+    {
+      "url": "https://plato.stanford.edu/entries/murdoch/",
+      "institution": "Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "url": "https://www.ox.ac.uk/news-and-events/oxford-people/iris-murdoch",
+      "institution": "University of Oxford"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Murdoch's philosophical work is moral and metaphysical rather than constitutional. No reliable federal-versus-centralized state doctrine is established.",
+    "representacao": "She did not develop a detailed theory of electoral institutions. Her humanistic philosophy values persons and moral attention, but this should not be converted into a strong democracy score without direct evidence.",
+    "poder": "Her moral philosophy resists egoistic domination and emphasizes seeing other persons justly, which supports skepticism toward arbitrary coercion, but she did not offer a developed policing or surveillance doctrine.",
+    "imigracao": "No reliable immigration or assimilation doctrine is established in her central philosophical work.",
+    "diplomacia": "Murdoch was not principally a foreign-policy theorist. Keep this axis moderate.",
+    "intervencao": "No developed doctrine of military intervention is established in the reviewed sources. Keep moderate.",
+    "economia": "She had early left-wing political interests, but her mature philosophical work does not supply a stable public-versus-private ownership program. Keep moderately social without overprecision.",
+    "controle": "No reliable planning-versus-market doctrine is established in her mature work. Keep moderate.",
+    "comercio": "No reliable trade-policy doctrine is established.",
+    "religiao": "Murdoch's moral philosophy draws deeply on Plato and engages Christian, Hindu and Buddhist thought, yet it does not argue for clerical political authority. This supports spiritual/philosophical openness within secular institutions.",
+    "moral": "Her objective conception of the Good, virtue, attention and moral realism rejects pure relativism. This is not equivalent to social conservatism; use a moderate ethical-traditional tendency rather than a modern culture-war extreme.",
+    "tecnologia": "Technology is not a central theme in her moral philosophy. Use a moderate human-centered placement."
+  }
+}
