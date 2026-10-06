@@ -12,8 +12,8 @@ Base de referência da frente:
 
 - 386 personalidades masculinas;
 - 16 mulheres no início da migração;
-- meta mínima: 193 mulheres;
-- o pipeline foi planejado acima da meta mínima para evitar descartar trabalho útil.
+- meta da release atual: **200 mulheres no runtime**;
+- as 172 candidatas em staging completam exatamente a passagem das 28 atuais para 200.
 
 Estado atual após a primeira integração ampliada:
 
@@ -22,7 +22,7 @@ Estado atual após a primeira integração ampliada:
 - 414 personalidades no total;
 - 172 candidatas ainda no pipeline;
 - 200 mulheres planejadas no total;
-- meta mínima de 193 já totalmente coberta pelo planejamento.
+- meta de 200 totalmente coberta pelo planejamento, ainda sujeita aos gates editoriais e de auditoria.
 
 ## 2. Invariantes de produto
 
@@ -175,7 +175,8 @@ A documentação deve refletir o estado real depois da reconciliação, e não s
 
 A frente termina quando:
 
-- houver pelo menos 193 mulheres integradas;
+- houver **200 mulheres integradas no runtime**;
+- as 200 mulheres tiverem auditoria permanente de 240 respostas + arquétipo;
 - os perfis integrados tiverem metadata PT/EN consistente;
 - retratos forem locais e validados;
 - vetores tiverem auditoria completa;
