@@ -3264,6 +3264,37 @@
         "moral": "Civil-rights advocacy, feminist representation and gun-control efforts place her on the socially liberal/progressive side of the project's broad moral axis.",
         "tecnologia": "No distinctive technology ideology is established, though her environmental and education work supports pragmatic use of scientific expertise and modernization."
       }
+    },
+    {
+      "id": "carolina-maria-de-jesus",
+      "sources": [
+        {
+          "url": "https://carolinamariadejesus.ims.com.br/biografia/",
+          "institution": "Instituto Moreira Salles"
+        },
+        {
+          "url": "https://www.gov.br/palmares/pt-br/assuntos/noticias/no-dia-14-de-marco-de-1914-nascia-a-grande-escritora-brasileira-carolina-maria-de-jesus",
+          "institution": "Fundação Cultural Palmares"
+        },
+        {
+          "url": "https://www.gov.br/bn/pt-br/central-de-conteudos/producao/publicacoes/colecoes/publicacoes-avulsas/carolina-maria-de-jesus-uma-escritora-improvavel",
+          "institution": "Fundação Biblioteca Nacional"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Carolina Maria de Jesus was a writer and social observer rather than a constitutional theorist. Her work documents how local poverty, urban neglect and distant public institutions shaped life in the favela, but does not establish a federal-versus-centralized doctrine.",
+        "representacao": "Her diaries sharply criticized politicians and exclusion from public life and gave political voice to poor Black women normally absent from elite institutions. This supports democratic inclusion and broader representation.",
+        "poder": "Her writing exposes police, bureaucratic and social power from the perspective of the poor and marginalized, supporting skepticism toward arbitrary authority and unequal enforcement.",
+        "imigracao": "Her work centers race, poverty and urban exclusion in Brazil rather than immigration policy. No reliable border or assimilation doctrine is established.",
+        "diplomacia": "She was not a foreign-policy actor. International publication and travel do not establish a diplomacy doctrine; keep moderate.",
+        "intervencao": "No developed military-intervention doctrine is established in her writings or biography. Keep moderate.",
+        "economia": "Quarto de Despejo repeatedly documents hunger, insecure work and structural inequality, supporting strong concern with redistribution and material social protection rather than laissez-faire indifference.",
+        "controle": "Her work supports a larger public responsibility for basic needs and poverty reduction, but does not articulate comprehensive economic planning. Use a moderate-to-high social-regulatory position.",
+        "comercio": "No reliable trade-policy doctrine is established. Keep moderate.",
+        "religiao": "Her writings include spiritual and religious references, but her political critique is not a program for religious rule. Use personal religiosity with secular public institutions.",
+        "moral": "Her work challenges racial, class and gender hierarchy and insists on the dignity of marginalized people, supporting a socially egalitarian placement.",
+        "tecnologia": "Her concerns centered poverty, education and access rather than technology policy. Use a moderate position."
+      }
     }
   ]
 }
