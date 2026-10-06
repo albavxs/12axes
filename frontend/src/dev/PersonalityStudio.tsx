@@ -26,6 +26,7 @@ type Personality = {
   evidence: { sources?: unknown[]; evidence?: Record<string, unknown> } | null;
   evidenceReady: boolean;
   audit: { answerExists: boolean; pendingExists: boolean; packetExists: boolean };
+  auditPlan?: { batch: number; position: number; totalPending: number } | null;
   editorial: {
     metadataValid: boolean; translationValid: boolean; portraitValid: boolean; bookValid: boolean;
     canMarkValid: boolean; isMarkedValid: boolean; status: 'error' | 'warning' | 'ok';
@@ -43,6 +44,7 @@ type Payload = {
   stats: {
     totalEntries: number; runtime: number; staging: number; runtimeMale: number;
     runtimeFemale: number; plannedFemale: number; errors: number; warnings: number; ok: number; localDrafts: number;
+    womenAuditDone: number; womenAuditPending: number; womenAuditBatches: number;
   };
   personalities: Personality[];
 };
@@ -160,6 +162,8 @@ function PersonalityStudio() {
     plannedWomen: 'Mulheres planejadas',
     errors: 'Erros',
     drafts: 'Rascunhos',
+    womenAudits: 'auditorias',
+    auditQueue: 'na fila',
     search: 'Buscar nome, id, função ou categoria…',
     states: 'Todos os estados',
     withError: 'Com erro',
@@ -283,6 +287,8 @@ function PersonalityStudio() {
     plannedWomen: 'Women planned',
     errors: 'Errors',
     drafts: 'Drafts',
+    womenAudits: 'audits',
+    auditQueue: 'queued',
     search: 'Search name, id, role or category…',
     states: 'All states',
     withError: 'Errors',
@@ -597,6 +603,8 @@ function PersonalityStudio() {
           <span><strong>{payload.stats.plannedFemale}</strong>{ui.women}</span>
           <span className={payload.stats.errors ? 'has-error' : ''}><strong>{payload.stats.errors}</strong>{ui.errors}</span>
           <span><strong>{payload.stats.localDrafts}</strong>{ui.drafts}</span>
+          <span><strong>{payload.stats.womenAuditDone}/200</strong>{ui.womenAudits}</span>
+          <span><strong>{payload.stats.womenAuditPending}</strong>{ui.auditQueue}</span>
         </div>
         <div className="studio-workbar-actions">
           <button className="studio-icon-button studio-bulk-button" type="button" disabled={saving} onClick={downloadPendingPortraits}>{ui.downloadPendingPortraits}</button>
@@ -763,7 +771,10 @@ function PersonalityStudio() {
                                   ? ui.auditPrepared
                                   : ui.auditNotStarted}
                         </strong>
-                        <span>{selected.profile ? ui.readonly : ui.noAxisProfile}</span>
+                        <span>
+                          {selected.profile ? ui.readonly : ui.noAxisProfile}
+                          {selected.auditPlan?.batch ? ` · lote ${selected.auditPlan.batch}/${payload.stats.womenAuditBatches}` : ''}
+                        </span>
                       </div>
                       {!selected.profile ? (
                         <button className="studio-icon-button" type="button" onClick={runAudit} disabled={auditing}>
