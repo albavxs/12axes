@@ -1,0 +1,27 @@
+{
+  "id": "frances-willard",
+  "sources": [
+    {
+      "url": "https://sites.northwestern.edu/radicalwoman/",
+      "institution": "Northwestern University"
+    },
+    {
+      "url": "https://findingaids.library.northwestern.edu/agents/people/2138",
+      "institution": "Northwestern University Archives"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Willard built a national reform organization with local chapters; this supports organized multi-level activism without a clear constitutional centralization doctrine.",
+    "representacao": "Women’s suffrage was a major part of her reform program, strongly supporting expanded political participation.",
+    "poder": "Temperance and prohibition activism accepted significant legal regulation of private alcohol use, placing her more toward moral/state control than civil-libertarian reformers.",
+    "imigracao": "Her movement operated in a nativist era and her racial record was contested; evidence does not support a strongly multicultural/open placement.",
+    "diplomacia": "The WCTU engaged peace reform and Willard supported arbitration and moral reform, favoring diplomacy over militarism.",
+    "intervencao": "Peace advocacy supports restraint in foreign conflict rather than assertive intervention.",
+    "economia": "Fair-labor and economic-equality reforms support progressive regulation within a market economy, not socialist ownership.",
+    "controle": "Her willingness to regulate alcohol and labor conditions supports above-moderate social/economic control.",
+    "comercio": "No distinctive trade doctrine is established.",
+    "religiao": "Her leadership of the Woman’s Christian Temperance Union was explicitly Protestant and religiously motivated; she is comparatively religious, though not a theocrat.",
+    "moral": "She combined women’s suffrage with temperance and Christian moral reform: progressive on gender participation but traditional/restrictive on personal morality.",
+    "tecnologia": "Technology was not central; moderate."
+  }
+}
