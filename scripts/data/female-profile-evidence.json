@@ -3959,6 +3959,37 @@
         "moral": "Her fight against domestic violence, impunity and gender inequality strongly supports progressive gender equality and bodily autonomy.",
         "tecnologia": "A trained biopharmacist, she has a scientific professional background, but her activism does not establish a broad technology ideology. Use moderately pro-science."
       }
+    },
+    {
+      "id": "maria-firmina-dos-reis",
+      "sources": [
+        {
+          "url": "https://cpbn.bn.gov.br/planor/handle/20.500.12156.6/54406?show=full",
+          "institution": "Fundação Biblioteca Nacional / CPBN"
+        },
+        {
+          "url": "https://www.gov.br/mdh/pt-br/navegue-por-temas/politicas-para-mulheres/arquivo/sobre/publicacoes/publicacoes/2010/titulo-e-memorias",
+          "institution": "Ministério dos Direitos Humanos e da Cidadania"
+        },
+        {
+          "url": "https://www.guimaraes.ma.gov.br/cidades/cidades",
+          "institution": "Prefeitura Municipal de Guimarães"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Maria Firmina dos Reis was an educator and abolitionist writer rather than a constitutional theorist. Her creation of a mixed free local school shows community institution-building, but no defensible federal-versus-centralized state doctrine is established.",
+        "representacao": "Her abolitionist writing gives enslaved people voice and moral agency and her educational work expanded access beyond elite male circles. This supports political and social inclusion, though she did not formulate an electoral-system theory.",
+        "poder": "Úrsula and A Escrava condemn slavery as coercive domination and expose violence exercised by slaveholders and institutions, strongly supporting opposition to arbitrary power over persons.",
+        "imigracao": "Her work addresses slavery, race and human dignity rather than modern immigration or assimilation policy. No reliable position is established.",
+        "diplomacia": "She was not a foreign-policy actor and left no developed doctrine of diplomacy or international conflict. Keep this axis indeterminate/moderate.",
+        "intervencao": "No developed military-intervention doctrine is established. Her abolitionist humanism should not be converted into a modern foreign-policy score.",
+        "economia": "Her anti-slavery position rejects ownership of human beings and the economic system built on coerced labor. Beyond that, her writing does not establish a complete public-versus-private ownership doctrine.",
+        "controle": "Her record supports public and community provision of education and abolition of coerced labor, but not comprehensive economic planning. Use moderate social-state coordination.",
+        "comercio": "Her condemnation of the slave trade is direct evidence against commerce in human beings, but it does not establish a general tariff or free-trade doctrine. Keep the modern trade axis moderate.",
+        "religiao": "Her abolitionist poetry invoked God, equality and fraternity, indicating personal Christian moral language without a program for clerical government. Use personal religiosity within civic equality.",
+        "moral": "Her abolitionism, education of girls and boys together, and literary humanization of enslaved people strongly support egalitarian and socially progressive values for her era.",
+        "tecnologia": "Her public work centered literature and education rather than technology. No distinctive technology doctrine is established."
+      }
     }
   ]
 }
