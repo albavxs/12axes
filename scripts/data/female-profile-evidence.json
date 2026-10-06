@@ -246,10 +246,18 @@
         }
       ],
       "evidence": {
-        "representacao": "Voting-rights organizing, the Mississippi Freedom Democratic Party and convention challenge supply direct evidence for strong democratic inclusion.",
-        "poder": "Her life and activism confronted racial terror, police violence and coercive suppression of Black political participation.",
-        "moral": "Civil-rights, voting-rights and bodily-autonomy evidence support a progressive equality profile, with religious language considered separately.",
-        "economia": "Freedom Farm and anti-poverty work are relevant evidence for material redistribution and community self-help, but need review before numeric mapping."
+        "estrutura": "Her organizing grew from local Black communities and participatory movement institutions, supporting grassroots power rather than centralized elite control.",
+        "representacao": "Voting-rights organizing and the Mississippi Freedom Democratic Party make her exceptionally strong on democratic inclusion.",
+        "poder": "Her experience of police abuse, racial terror and suppression of Black voters strongly supports civil-libertarian constraints on coercive authority.",
+        "imigracao": "Her politics centered racial equality rather than immigration; universal dignity supports pluralism, but a border-policy score should stay moderate.",
+        "diplomacia": "Foreign policy was not central to her legacy; keep moderate-to-diplomatic rather than infer militarism.",
+        "intervencao": "No detailed foreign-intervention doctrine is established; anti-oppression principles support restraint.",
+        "economia": "Freedom Farm and anti-poverty work support redistribution, community economic security and a larger social role than laissez-faire capitalism.",
+        "controle": "Community programs and public anti-poverty action support moderate public coordination without command planning.",
+        "comercio": "No trade doctrine is established.",
+        "religiao": "Christian faith was central to her rhetoric and activism, so she is more religious personally than many civil-rights peers, without advocating theocracy.",
+        "moral": "Civil rights and human dignity are strongly egalitarian; her religious worldview warrants a progressive-but-not-maximal modern cultural score.",
+        "tecnologia": "Technology was not central; moderate."
       }
     },
     {
