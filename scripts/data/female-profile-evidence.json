@@ -3349,6 +3349,37 @@
         "moral": "Her profile is institutionally liberal-European but personally and politically more centrist than progressive-left social movements. Use a moderate social-liberal placement.",
         "tecnologia": "Her EU and national roles emphasized competitiveness, research, development and modernization, supporting a pro-innovation and technocratic orientation."
       }
+    },
+    {
+      "id": "djamila-ribeiro",
+      "sources": [
+        {
+          "url": "https://www.djamilaribeiro.com.br/en/biography/",
+          "institution": "Djamila Ribeiro official biography"
+        },
+        {
+          "url": "https://acervo.bn.gov.br/sophia_web/autoridade/detalhe/001531386",
+          "institution": "Fundação Biblioteca Nacional"
+        },
+        {
+          "url": "https://www.camarasantos.sp.gov.br/camara-de-santos-homenageia-a-filosofa-djamila-ribeiro",
+          "institution": "Câmara Municipal de Santos"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Ribeiro's political philosophy centers structural racism, representation and institutional exclusion rather than a federal-versus-centralized constitutional model. Keep structural placement moderate.",
+        "representacao": "Her work on lugar de fala argues for expanding voice and visibility of groups excluded from dominant institutions, strongly supporting inclusive democratic representation.",
+        "poder": "Her antiracist and Black feminist analysis treats racism and sexism as systems of power embedded in institutions, supporting strong scrutiny of coercive and unequal authority.",
+        "imigracao": "Her work is transnational and attentive to race and diaspora, supporting cultural pluralism, though she does not advance a detailed border-policy program.",
+        "diplomacia": "Her international teaching and public advocacy emphasize dialogue, transnational feminism and human-rights exchange rather than military power.",
+        "intervencao": "No military-intervention doctrine is central to her work. Use a restrained, civil-society-oriented position.",
+        "economia": "Her analysis of structural racism and social inequality supports redistribution, equal opportunity and public action to address entrenched material inequality rather than laissez-faire neutrality.",
+        "controle": "Her policy-oriented antiracism supports institutional regulation and public programs where markets reproduce racial and gender inequality, but not command planning.",
+        "comercio": "No reliable free-trade versus protectionism doctrine is central to her work. Keep moderate.",
+        "religiao": "Her public philosophy is secular and rights-based while also engaging Afro-Brazilian cultural and religious traditions with respect. This supports secular pluralism rather than religious rule.",
+        "moral": "Black feminism, antiracism, gender equality and intersectional inclusion strongly support a progressive social position.",
+        "tecnologia": "Her work focuses on education, media and social structures rather than a distinct technology ideology. Use a moderate human-centered position."
+      }
     }
   ]
 }
