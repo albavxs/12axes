@@ -1789,10 +1789,18 @@
         }
       ],
       "evidence": {
-        "economia": "WHO documents Brundtland's long public-sector career in health, environment and government; this supports an active public-policy role but not a precise public/private ownership score.",
-        "tecnologia": "Her work linked public health, environment and sustainable development, reflecting use of scientific and institutional policy tools rather than a simple pro/anti-technology stance.",
-        "diplomacia": "She chaired the World Commission on Environment and Development and later led WHO, providing direct evidence of multilateral international engagement.",
-        "representacao": "Her repeated electoral and executive service in Norway is institutional-democratic evidence, though officeholding alone is not a full democracy-axis score."
+        "estrutura": "Norwegian social-democratic governance and international institutional work support coordinated national policy within democratic decentralization; no structural extreme.",
+        "representacao": "Repeated electoral leadership in Norway strongly supports representative democracy and accountable institutions.",
+        "poder": "Her public-health governance accepts regulatory authority while remaining within rights-based democratic institutions; moderate state-power placement.",
+        "imigracao": "Nordic social-democratic and internationalist politics support relatively pluralist inclusion, though immigration was not her defining field.",
+        "diplomacia": "Leadership of WHO and the World Commission on Environment and Development strongly support multilateral diplomacy.",
+        "intervencao": "Her international work emphasizes cooperation, development and institutions rather than unilateral force; relatively restrained intervention posture.",
+        "economia": "Social-democratic governance supports a mixed economy with strong welfare provision and public coordination.",
+        "controle": "Public health, environmental regulation and welfare policy imply substantial regulatory planning without command economics.",
+        "comercio": "Her sustainable-development internationalism accepts global economic integration subject to social/environmental rules; relatively open trade.",
+        "religiao": "Public policy is secular and technocratic rather than religiously grounded.",
+        "moral": "Gender equality, social welfare and human-rights-oriented Nordic politics support moderately progressive values.",
+        "tecnologia": "Science-based public health and sustainable-development policy support a strongly pragmatic pro-technology stance constrained by environmental and health goals."
       }
     },
     {
