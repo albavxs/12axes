@@ -1070,7 +1070,15 @@
         "tecnologia": "Official sources document Carson's scientific work and criticism of indiscriminate pesticide use. This supports a cautious technology-risk perspective, not a general anti-technology or pro-technology score.",
         "controle": "Silent Spring contributed to public debate over pesticide oversight and environmental regulation; a planning-versus-market score would overstate that issue-specific evidence.",
         "moral": "Her conservation work documents concern for ecological harms and public responsibility, relevant to environmental values but not sufficient for unrelated social-policy positions.",
-        "poder": "The selected sources concern environmental science and regulatory debate rather than surveillance, policing or civil liberties; that axis remains underdetermined."
+        "poder": "The selected sources concern environmental science and regulatory debate rather than surveillance, policing or civil liberties; that axis remains underdetermined.",
+        "estrutura": "Carson's work concerned environmental science and federal regulation rather than territorial federalism; keep structural placement moderate.",
+        "representacao": "She worked through public science, testimony and democratic debate rather than advocating a distinct regime model; keep representation moderately democratic but not extreme.",
+        "imigracao": "No immigration or assimilation doctrine is established.",
+        "diplomacia": "Her work was domestic and environmental rather than military or diplomatic; keep moderate.",
+        "intervencao": "No foreign military-intervention doctrine is established.",
+        "economia": "Her critique of pesticide harms supports regulation of private economic activity but does not imply public ownership or socialism.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "Her public environmental arguments were scientific and ethical rather than religiously grounded, supporting a secular institutional orientation."
       }
     },
     {
