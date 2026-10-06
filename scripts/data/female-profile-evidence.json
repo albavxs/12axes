@@ -1698,10 +1698,18 @@
         }
       ],
       "evidence": {
-        "poder": "BnF material documents Michel's armed participation in the Paris Commune, her arrest, trial and deportation; this provides evidence about resistance to state authority but not a complete modern civil-liberty/order position.",
-        "economia": "Biographical material connects her activism to opposition to worker exploitation and later revolutionary politics; a precise ownership/planning placement still requires review of her writings.",
-        "moral": "Sources document her concern with women's emancipation and social equality.",
-        "metodologia": "Her revolutionary context differs substantially from modern institutional politics, so axis translation should preserve the distinction between historical action and contemporary policy categories."
+        "estrutura": "Michel became an anarchist after the Paris Commune and rejected hierarchical state authority, strongly supporting decentralized social organization.",
+        "representacao": "She favored revolutionary popular self-government and direct participation rather than elite parliamentary rule; democratic but not conventional representative institutionalism.",
+        "poder": "Anarchism, imprisonment and opposition to state repression place her strongly on the anti-coercive side, despite her acceptance of revolutionary force.",
+        "imigracao": "Her anarchist internationalism and solidarity with colonized peoples favor pluralism and cross-border solidarity.",
+        "diplomacia": "She was a revolutionary willing to participate in armed struggle, so she is not a pacifist despite opposing state militarism.",
+        "intervencao": "Anti-imperial and anarchist politics strongly oppose state domination of other peoples, supporting self-determination.",
+        "economia": "Her revolutionary anarchism opposed capitalist exploitation and private domination, strongly favoring collective/social ownership.",
+        "controle": "Anarchist economics reject centralized state planning even while favoring collective ownership; low-to-moderate centralized control.",
+        "comercio": "No conventional tariff doctrine; anarchist internationalism weighs against nationalist protectionism.",
+        "religiao": "Her revolutionary anarchism was strongly anti-clerical and secular.",
+        "moral": "Women’s emancipation, social equality and revolutionary egalitarianism support progressive social positions.",
+        "tecnologia": "Technology was not central; moderate."
       }
     },
     {
