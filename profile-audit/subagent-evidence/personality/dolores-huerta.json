@@ -1,0 +1,27 @@
+{
+  "id": "dolores-huerta",
+  "sources": [
+    {
+      "url": "https://www.nps.gov/people/dolores-huerta.htm",
+      "institution": "U.S. National Park Service"
+    },
+    {
+      "url": "https://home.nps.gov/articles/000/dolores-huerta.htm",
+      "institution": "U.S. National Park Service"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Huerta built grassroots organizations and unions while lobbying state and federal institutions. This supports bottom-up community organization combined with willingness to use higher-level government for labor protections.",
+    "representacao": "Voter registration, candidate forums and Latina political participation have been central to her work, strongly supporting inclusive democratic representation.",
+    "poder": "Her organizing confronted abusive labor conditions and she was repeatedly arrested during nonviolent activism. This supports civil-liberty protections and skepticism toward coercive suppression, alongside acceptance of labor regulation.",
+    "imigracao": "Her movement defended migrant farmworkers from Mexico, the Philippines and other communities and emphasized equal treatment regardless of background. This supports an inclusive immigration and multicultural orientation.",
+    "diplomacia": "Her activism is domestic and movement-based rather than foreign-policy centered. Nonviolent coalition-building supports a cooperative orientation but not an extreme diplomacy score.",
+    "intervencao": "Her organizing explicitly embraced nonviolent action and social movements rather than military coercion, supporting a strongly restrained position.",
+    "economia": "Union organizing for wages, contracts and worker protections strongly supports labor power, redistribution toward workers and constraints on employer dominance within a mixed economy.",
+    "controle": "She supports collective bargaining, labor standards and public protections, indicating significant regulation without comprehensive state planning.",
+    "comercio": "Her boycotts were labor-organizing tools rather than a general tariff doctrine. Use moderate-to-managed openness rather than a strong trade extreme.",
+    "religiao": "Her movement included faith and community networks but her public program is civil-rights based rather than religiously governed. Use a secular-pluralist state position.",
+    "moral": "Her work for workers, women, Latinos and underrepresented groups strongly supports progressive equality and inclusion.",
+    "tecnologia": "No distinctive technology ideology is central to her record. Use a moderate pragmatic position."
+  }
+}
