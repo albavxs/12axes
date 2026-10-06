@@ -3009,6 +3009,33 @@
         "moral": "Her decision to fight alongside revolutionary forces and reject conventional nineteenth-century gender expectations supports a comparatively emancipatory social reading for her era.",
         "tecnologia": "No defensible modern technology-policy position can be derived from the surviving nineteenth-century biographical record."
       }
+    },
+    {
+      "id": "anna-schwartz",
+      "sources": [
+        {
+          "url": "https://www.nber.org/news/anna-schwartz-dead-96",
+          "institution": "National Bureau of Economic Research"
+        },
+        {
+          "url": "https://fraser.stlouisfed.org/files/docs/historical/nber/oralHistories/nber_oralhistory_schwartz.pdf",
+          "institution": "FRASER / Federal Reserve Bank of St. Louis"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Schwartz's work centers monetary institutions and economic history rather than territorial federalism; keep structural placement moderate.",
+        "representacao": "She worked within democratic academic and policy institutions but did not develop a distinctive theory of political representation; keep moderately democratic.",
+        "poder": "Her monetarist emphasis on rules and skepticism of discretionary central-bank intervention supports constraints on concentrated economic authority, though not a broad policing or civil-liberty doctrine.",
+        "imigracao": "No reliable immigration or assimilation doctrine is established.",
+        "diplomacia": "No meaningful foreign-policy or military doctrine is central to her work; keep moderate.",
+        "intervencao": "No reliable military-intervention doctrine is established.",
+        "economia": "Her monetarist work with Milton Friedman and emphasis on market mechanisms strongly support private-market economics over public ownership.",
+        "controle": "She criticized discretionary monetary management and favored rule-based monetary stability, supporting low economic planning and limited discretionary control.",
+        "comercio": "Monetarist economics is broadly compatible with market openness, but the reviewed sources do not establish a specific tariff doctrine; use moderately open trade rather than an extreme.",
+        "religiao": "No evidence establishes a role for religious authority in public policy; use a neutral-to-secular institutional placement.",
+        "moral": "Her scholarship is economic rather than cultural-policy oriented; broad traditionalist-progressive positions are underdetermined.",
+        "tecnologia": "Her research does not establish a distinctive ideology of technological acceleration or restriction."
+      }
     }
   ]
 }
