@@ -85,9 +85,18 @@ function normalizeDraft(input = {}) {
       sourceFile: cleanText(portrait.sourceFile, 500),
       sourceName: cleanText(portrait.sourceName, 240),
       sourceUrl: cleanText(portrait.sourceUrl, 1000),
+      sourceImageUrl: cleanText(portrait.sourceImageUrl, 1000),
       note: cleanText(portrait.note, 1200),
       license: cleanText(portrait.license, 240),
       attribution: cleanText(portrait.attribution, 500),
+      crop: portrait.crop && typeof portrait.crop === 'object'
+        ? {
+            x: Number(portrait.crop.x),
+            y: Number(portrait.crop.y),
+            width: Number(portrait.crop.width),
+            height: Number(portrait.crop.height),
+          }
+        : null,
     },
     book: {
       enabled: Boolean(book.enabled),
@@ -282,12 +291,76 @@ async function materializeCommonsPortrait(draft) {
   const buffer = Buffer.from(await imageResponse.arrayBuffer());
 
   mkdirSync(dirname(target), { recursive: true });
-  await sharp(buffer)
-    .rotate()
+  let pipeline = sharp(buffer).rotate();
+  const crop = draft.portrait.crop;
+  if (
+    crop &&
+    [crop.x, crop.y, crop.width, crop.height].every((value) => Number.isFinite(value)) &&
+    crop.x >= 0 && crop.y >= 0 && crop.width > 0 && crop.height > 0 &&
+    crop.x + crop.width <= 1 && crop.y + crop.height <= 1
+  ) {
+    const metadata = await sharp(buffer).metadata();
+    if (metadata.width && metadata.height) {
+      const left = Math.max(0, Math.floor(metadata.width * crop.x));
+      const top = Math.max(0, Math.floor(metadata.height * crop.y));
+      const width = Math.min(metadata.width - left, Math.max(1, Math.floor(metadata.width * crop.width)));
+      const height = Math.min(metadata.height - top, Math.max(1, Math.floor(metadata.height * crop.height)));
+      pipeline = pipeline.extract({ left, top, width, height });
+    }
+  }
+  await pipeline
     .resize({ width: 1200, height: 1600, fit: 'inside', withoutEnlargement: true })
     .jpeg({ quality: 90, progressive: true })
     .toFile(target);
 
+  return target;
+}
+
+async function materializeDirectPortrait(draft) {
+  const imageUrl = new URL(draft.portrait.sourceImageUrl);
+  const allowedHosts = new Set(['sammlung.wienmuseum.at']);
+  if (imageUrl.protocol !== 'https:' || !allowedHosts.has(imageUrl.hostname)) {
+    throw new Error('Direct portrait download host is not allowlisted.');
+  }
+
+  const portraitPath = draft.portrait.path;
+  if (!portraitPath.startsWith('/personalities/portraits/') || !portraitPath.toLowerCase().endsWith('.jpg')) {
+    throw new Error('Portrait path must be /personalities/portraits/<id>.jpg.');
+  }
+  const relative = portraitPath.replace(/^\/+/, '');
+  const target = resolve(publicRoot, relative);
+  const portraitsRoot = resolve(publicRoot, 'personalities/portraits');
+  if (!target.startsWith(portraitsRoot + '/')) throw new Error('Invalid portrait target path.');
+
+  const response = await fetch(imageUrl, {
+    headers: { 'User-Agent': '12axes-personality-studio/1.0' },
+  });
+  if (!response.ok) throw new Error('Could not download the institutional portrait image.');
+  const buffer = Buffer.from(await response.arrayBuffer());
+
+  mkdirSync(dirname(target), { recursive: true });
+  let pipeline = sharp(buffer).rotate();
+  const crop = draft.portrait.crop;
+  if (
+    crop &&
+    [crop.x, crop.y, crop.width, crop.height].every((value) => Number.isFinite(value)) &&
+    crop.x >= 0 && crop.y >= 0 && crop.width > 0 && crop.height > 0 &&
+    crop.x + crop.width <= 1 && crop.y + crop.height <= 1
+  ) {
+    const metadata = await sharp(buffer).metadata();
+    if (metadata.width && metadata.height) {
+      const left = Math.max(0, Math.floor(metadata.width * crop.x));
+      const top = Math.max(0, Math.floor(metadata.height * crop.y));
+      const width = Math.min(metadata.width - left, Math.max(1, Math.floor(metadata.width * crop.width)));
+      const height = Math.min(metadata.height - top, Math.max(1, Math.floor(metadata.height * crop.height)));
+      pipeline = pipeline.extract({ left, top, width, height });
+    }
+  }
+
+  await pipeline
+    .resize({ width: 1200, height: 1600, fit: 'inside', withoutEnlargement: true })
+    .jpeg({ quality: 90, progressive: true })
+    .toFile(target);
   return target;
 }
 
@@ -392,7 +465,8 @@ async function materializeAllPendingPortraits() {
         portrait,
         book: {},
       });
-      await materializeCommonsPortrait(draft);
+      if (draft.portrait.sourceImageUrl) await materializeDirectPortrait(draft);
+      else await materializeCommonsPortrait(draft);
       report.downloaded.push(entry.id);
       await sleep(900);
     } catch (error) {
@@ -417,12 +491,14 @@ async function materializeSelectedPortrait(id) {
   const metadataPath = resolve(scriptsDataRoot, 'female-metadata-drafts.json');
   const metadata = readJson(metadataPath, { personalities: [] });
   const entry = metadata.personalities?.find((item) => item.id === id);
-  if (!entry?.portrait?.sourceUrl || !entry?.portrait?.sourceFile || !entry?.portrait?.path) {
+  if (!entry?.portrait?.sourceUrl || !entry?.portrait?.path || (!entry?.portrait?.sourceFile && !entry?.portrait?.sourceImageUrl)) {
     throw new Error('Esta personalidade ainda não tem uma fonte de retrato pronta para download.');
   }
 
   const draft = normalizeDraft({ pt: {}, en: {}, portrait: entry.portrait, book: {} });
-  const target = await materializeCommonsPortrait(draft);
+  const target = draft.portrait.sourceImageUrl
+    ? await materializeDirectPortrait(draft)
+    : await materializeCommonsPortrait(draft);
   refreshSnapshot();
   return target;
 }

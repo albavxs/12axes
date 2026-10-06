@@ -292,12 +292,15 @@ const stagingEntries = await Promise.all(
         imagePath,
         previewImagePath: image.exists
           ? imagePath
-          : (draft?.portrait?.sourceFile
-              ? 'https://commons.wikimedia.org/wiki/Special:Redirect/file/' + encodeURIComponent(draft.portrait.sourceFile)
-              : ''),
+          : (draft?.portrait?.sourceImageUrl
+              ? draft.portrait.sourceImageUrl
+              : (draft?.portrait?.sourceFile
+                  ? 'https://commons.wikimedia.org/wiki/Special:Redirect/file/' + encodeURIComponent(draft.portrait.sourceFile) + '?width=800'
+                  : '')),
         imageSourceFile: draft?.portrait?.sourceFile ?? '',
         imageSourceName: draft?.portrait?.sourceName ?? '',
         imageSourceUrl: draft?.portrait?.sourceUrl ?? '',
+        imageSourceImageUrl: draft?.portrait?.sourceImageUrl ?? '',
         imageNote: draft?.portrait?.note ?? '',
         translated,
         profile: null,

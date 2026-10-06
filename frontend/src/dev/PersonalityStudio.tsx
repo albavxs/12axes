@@ -21,7 +21,7 @@ type Personality = {
   pipeline: Pipeline | null;
   id: string; name: string; role: string; category: string;
   representation: 'male' | 'female'; lifespan: string; description: string;
-  imagePath?: string; previewImagePath?: string; imageSourceFile?: string; imageSourceName?: string; imageSourceUrl?: string; imageNote?: string;
+  imagePath?: string; previewImagePath?: string; imageSourceFile?: string; imageSourceName?: string; imageSourceUrl?: string; imageSourceImageUrl?: string; imageNote?: string;
   translated: Translation | null; profile: Profile | null; book: Book | null;
   evidence: { sources?: unknown[]; evidence?: Record<string, unknown> } | null;
   evidenceReady: boolean;
@@ -683,7 +683,7 @@ function PersonalityStudio() {
                   <p>{language === 'en' ? (selected.translated?.description || selected.description || ui.descriptionMissing) : (selected.description || ui.descriptionMissing)}</p>
                   <div className="studio-profile-actions">
                     <button className="primary-button" type="button" onClick={openEditor}>{ui.edit}</button>
-                    {selected.source === 'staging' && !selected.image.exists && selected.imageSourceUrl && selected.imageSourceFile ? (
+                    {selected.source === 'staging' && !selected.image.exists && selected.imageSourceUrl && (selected.imageSourceFile || selected.imageSourceImageUrl) ? (
                       <button className="secondary-button" type="button" onClick={downloadSelectedPortrait} disabled={portraitBusy}>
                         {portraitBusy ? ui.downloadingPhoto : ui.downloadPhoto}
                       </button>
@@ -717,7 +717,7 @@ function PersonalityStudio() {
                         <strong>
                           {selected.image.exists
                             ? ui.localPhoto
-                            : selected.imageSourceUrl && selected.imageSourceFile
+                            : selected.imageSourceUrl && (selected.imageSourceFile || selected.imageSourceImageUrl)
                               ? ui.sourceReady
                               : ui.noPhotoSource}
                         </strong>
@@ -728,12 +728,12 @@ function PersonalityStudio() {
                         </span>
                       </div>
                       <div className="studio-action-buttons">
-                        {selected.source === 'staging' && !selected.image.exists && selected.imageSourceUrl && selected.imageSourceFile ? (
+                        {selected.source === 'staging' && !selected.image.exists && selected.imageSourceUrl && (selected.imageSourceFile || selected.imageSourceImageUrl) ? (
                           <button className="studio-icon-button" type="button" onClick={downloadSelectedPortrait} disabled={portraitBusy}>
                             {portraitBusy ? ui.downloadingPhoto : ui.downloadPhoto}
                           </button>
                         ) : null}
-                        {!selected.image.exists && (!selected.imageSourceUrl || !selected.imageSourceFile) ? (
+                        {!selected.image.exists && (!selected.imageSourceUrl || (!selected.imageSourceFile && !selected.imageSourceImageUrl)) ? (
                           <>
                             <button className="studio-icon-button" type="button" onClick={openEditor}>{ui.addPhotoSource}</button>
                             <a
