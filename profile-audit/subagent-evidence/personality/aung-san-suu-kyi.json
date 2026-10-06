@@ -1,0 +1,31 @@
+{
+  "id": "aung-san-suu-kyi",
+  "sources": [
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/1991/kyi/facts/",
+      "institution": "Nobel Prize Outreach"
+    },
+    {
+      "url": "https://webtv.un.org/en/asset/k18/k18inoichc",
+      "institution": "United Nations / International Court of Justice"
+    },
+    {
+      "url": "https://www.icj-cij.org/case/178",
+      "institution": "International Court of Justice"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Suu Kyi's political program operated within a national constitutional framework while seeking civilian government and accommodation among Myanmar's ethnic groups. The evidence does not establish a strong federal-versus-unitary doctrine, especially given unresolved ethnic conflicts.",
+    "representacao": "Her long nonviolent campaign against military rule and repeated electoral legitimacy strongly support representative democracy, but her later governing record complicates any idealized portrayal.",
+    "poder": "Her early career strongly opposed military repression, arbitrary detention and authoritarian rule. Later, as State Counsellor, her government was criticized for restrictions and failures regarding minorities, so the axis should remain liberal-leaning but not maximal.",
+    "imigracao": "Her later record during the Rohingya crisis weighs heavily against a broadly multicultural/open orientation. The government's treatment and exclusion of Rohingya require a more assimilationist/national-state placement than her earlier democracy image suggests.",
+    "diplomacia": "Her early nonviolent democratic strategy favored political settlement, but as head of government she defended Myanmar internationally at the ICJ. She was diplomatic in method while defending a deeply contested state position.",
+    "intervencao": "Her anti-junta politics support self-determination and skepticism of coercive rule, yet her later defense of state conduct in Rakhine complicates a simple non-interventionist characterization. Keep this axis moderate.",
+    "economia": "The reviewed core sources focus on democracy, rights and the Rohingya crisis rather than a distinctive economic system. Her governing coalition worked within a mixed market framework, suggesting a moderate market orientation.",
+    "controle": "There is insufficient evidence for comprehensive economic planning or laissez-faire deregulation. Use a moderate mixed-economy placement.",
+    "comercio": "Myanmar's opening period involved international economic engagement, but Suu Kyi's personal trade doctrine is not clearly established in these sources. Avoid an extreme score.",
+    "religiao": "She often drew on Buddhist moral language but advocated civilian democracy rather than clerical rule. The Rohingya controversy also shows religious-national identity pressures; a moderately secular rather than strongly irreligious placement is more defensible.",
+    "moral": "Her early human-rights reputation conflicts sharply with her government's record regarding the Rohingya and her ICJ defense. A broad progressive score should therefore be restrained rather than inferred from the Nobel-era image alone.",
+    "tecnologia": "Technology was not central to her political identity. A pragmatic moderate score is preferable."
+  }
+}

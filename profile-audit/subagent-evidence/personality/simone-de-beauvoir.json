@@ -1,0 +1,27 @@
+{
+  "id": "simone-de-beauvoir",
+  "sources": [
+    {
+      "url": "https://plato.stanford.edu/entries/beauvoir/",
+      "institution": "Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "url": "https://iep.utm.edu/simone-de-beauvoir/",
+      "institution": "Internet Encyclopedia of Philosophy"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Beauvoir's political thought emphasizes freedom situated within social structures and collective emancipation rather than a detailed constitutional theory of federalism. The evidence does not justify a strong centralization or decentralization extreme.",
+    "representacao": "Her public activism, defense of women's political agency, and opposition to colonial domination support broad democratic participation and accountability, though she was not principally a theorist of electoral institutions.",
+    "poder": "Her existential ethics stress freedom and resistance to oppression, and her anti-colonial activism condemned torture and coercive domination. This supports strong civil-libertarian instincts while still allowing collective political action.",
+    "imigracao": "Her writings on race, colonialism and otherness are strongly anti-hierarchical and anti-exclusionary, supporting a comparatively pluralist orientation, but she did not develop a detailed immigration-policy program.",
+    "diplomacia": "Beauvoir opposed French colonial violence, including torture in Algeria, and aligned with anti-imperialist causes. This supports skepticism toward militarism and coercive nationalism.",
+    "intervencao": "Her anti-colonial record weighs against imperial or externally coercive intervention and favors self-determination, without implying political isolationism.",
+    "economia": "Beauvoir moved in Marxist and socialist intellectual circles and analyzed women's material dependence and class structures. Evidence supports a left/socialist critique of capitalism, though she was not an economic-system designer.",
+    "controle": "Her politics accepted collective reform of social and economic structures but did not advocate a detailed command economy. A moderate-to-high planning/regulation placement is more defensible than either laissez-faire or total planning.",
+    "comercio": "The reviewed philosophical sources do not establish a distinctive tariff or trade doctrine. Anti-capitalist critique alone is insufficient to infer a strong protectionist score.",
+    "religiao": "She rejected the Catholic faith of her upbringing and developed a secular existentialist ethics independent of religious authority. This strongly supports a secular/irreligious placement.",
+    "moral": "The Second Sex, abortion activism and critique of patriarchal norms strongly support socially progressive positions on gender, sexuality and bodily autonomy.",
+    "tecnologia": "Her work is not organized around technological acceleration or anti-technology politics. A moderate position is appropriate, with emphasis on human freedom over technocratic solutions."
+  }
+}

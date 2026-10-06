@@ -1,0 +1,31 @@
+{
+  "id": "betty-friedan",
+  "sources": [
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/betty-friedan",
+      "institution": "National Women’s History Museum"
+    },
+    {
+      "url": "https://www.britannica.com/biography/Betty-Friedan",
+      "institution": "Encyclopaedia Britannica"
+    },
+    {
+      "url": "https://www.si.edu/stories/betty-friedans-birthday",
+      "institution": "Smithsonian Institution"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Friedan pursued equality through federal law, national organizations and constitutional rights but did not propose broad political centralization. This supports use of national guarantees within ordinary federal institutions.",
+    "representacao": "NOW, the National Women's Political Caucus and mass organizing aimed to increase women's participation in mainstream democratic institutions. This strongly supports representative participation.",
+    "poder": "Her reproductive-rights advocacy and opposition to sex discrimination support personal autonomy and civil liberties, not intrusive moral policing.",
+    "imigracao": "The core sources do not establish an immigration or assimilation platform. Keep this axis moderate.",
+    "diplomacia": "Foreign affairs were not central to Friedan's public program. The reviewed sources do not justify a strong military-versus-diplomatic score.",
+    "intervencao": "No distinctive doctrine on foreign military intervention is established in the reviewed biographies.",
+    "economia": "Friedan's labor background and feminism emphasized equal employment, anti-discrimination law and women's economic independence within a market society. This supports center-left economic regulation, not socialist ownership.",
+    "controle": "She favored enforcement of employment equality and social reform but worked within mainstream liberal institutions. Moderate regulation rather than centralized planning is best supported.",
+    "comercio": "The reviewed sources do not establish a trade-policy position.",
+    "religiao": "Her public arguments for women's equality and reproductive rights were secular legal and social claims rather than religious governance. This supports a secular state.",
+    "moral": "The Feminine Mystique, NOW, reproductive-rights activism and equal-opportunity campaigns strongly support progressive gender roles, though her record was more mainstream than later radical feminism.",
+    "tecnologia": "Technology was not central to her political thought. Use a moderate score."
+  }
+}
