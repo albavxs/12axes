@@ -20,6 +20,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "backend/src/main/resources/data"
 PIPELINE = ROOT / "scripts/data"
 ANSWERS = ROOT / "profile-audit/answers/personality"
+DRAFTS = ROOT / "profile-audit/subagent-out/personality"
 
 AXES = [
     "estrutura", "representacao", "poder", "imigracao", "diplomacia", "intervencao",
@@ -48,6 +49,14 @@ def build_queue():
 
     evidence_by_id = {entry["id"]: entry for entry in evidence.get("personalities", [])}
     audited = {path.stem for path in ANSWERS.glob("*.json")} if ANSWERS.exists() else set()
+    drafts = {path.stem for path in DRAFTS.glob("*.json")} if DRAFTS.exists() else set()
+
+    def phase_for(pid, missing):
+        if missing:
+            return "research"
+        if pid in drafts:
+            return "review"
+        return "audit"
     runtime_ids = {entry["id"] for entry in personalities}
     rows = []
 
@@ -63,7 +72,7 @@ def build_queue():
             "priority": -1,
             "evidenceAxes": len(present),
             "missingAxes": missing,
-            "phase": "audit" if not missing else "research",
+            "phase": phase_for(person["id"], missing),
         })
 
     for candidate in manifest.get("candidates", []):
@@ -80,7 +89,7 @@ def build_queue():
             "priority": STATUS_PRIORITY.get(status, 99),
             "evidenceAxes": len(present),
             "missingAxes": missing,
-            "phase": "audit" if not missing else "research",
+            "phase": phase_for(pid, missing),
         })
 
     rows.sort(key=lambda item: (item["priority"], item["name"].casefold(), item["id"]))
@@ -101,12 +110,14 @@ def main():
     batch_count = math.ceil(len(rows) / BATCH_SIZE) if rows else 0
     research = sum(row["phase"] == "research" for row in rows)
     audit = sum(row["phase"] == "audit" for row in rows)
+    review = sum(row["phase"] == "review" for row in rows)
 
     payload = {
         "targetFemaleCount": manifest["target"]["targetFemaleCount"],
         "pending": len(rows),
         "research": research,
         "auditReady": audit,
+        "inReview": review,
         "batches": batch_count,
         "batchSize": BATCH_SIZE,
         "items": selected,
@@ -118,7 +129,7 @@ def main():
 
     print(
         f"female audit queue: {len(rows)} pending · {research} research · "
-        f"{audit} audit-ready · {batch_count} batches"
+        f"{audit} audit-ready · {review} review · {batch_count} batches"
     )
     if args.batch is not None:
         print(f"batch {args.batch}/{batch_count}")

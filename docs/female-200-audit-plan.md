@@ -150,7 +150,8 @@ python3 profile-audit/female_audit_queue.py --json
 Cada item recebe uma fase:
 
 - `research`: ainda não possui evidência 12/12;
-- `audit`: evidência 12/12 concluída e ainda sem arquivo permanente;
+- `audit`: evidência 12/12 concluída, mas as 240 respostas ainda não foram produzidas;
+- `review`: saída temporária das 240 respostas existe e aguarda validação/revisão antes do arquivamento;
 - itens com auditoria permanente deixam a fila automaticamente.
 
 Para evitar corrida de escrita, subagentes de pesquisa **não editam**
