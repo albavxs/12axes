@@ -1,0 +1,27 @@
+{
+  "id": "begum-rokeya",
+  "sources": [
+    {
+      "url": "https://www.gbrcr.gov.bd/project/1/details",
+      "institution": "Government Begum Rokeya College, Bangladesh"
+    },
+    {
+      "url": "https://teachers.gov.bd/content/details/1697585",
+      "institution": "Bangladesh Teachers Portal"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Rokeya's reform work centered education and women's emancipation rather than state architecture. No strong centralized-versus-federal preference is established.",
+    "representacao": "Her schools, women's association and writing sought to bring women into public intellectual and social life. This strongly supports expanded participation and equal civic agency, though not a detailed electoral model.",
+    "poder": "Her critique of restrictions imposed on women supports personal autonomy and resistance to social coercion. The sources do not establish positions on policing or state surveillance.",
+    "imigracao": "The selected sources do not establish an immigration or assimilation policy. Keep this axis moderate.",
+    "diplomacia": "Rokeya was a social reformer rather than a foreign-policy actor. There is no basis for a strong military-versus-diplomatic score.",
+    "intervencao": "Her work does not establish a doctrine of foreign military intervention or national assertiveness. Use a moderate placement.",
+    "economia": "She linked women's emancipation to education, work and economic independence. This supports greater access and social reform but does not specify socialism versus capitalism.",
+    "controle": "Her program relied on education and reform institutions rather than economic planning. No strong planning or deregulation position is established.",
+    "comercio": "No substantive trade-policy evidence appears in the selected sources.",
+    "religiao": "Rokeya worked within Muslim society while criticizing restrictions justified by conservative custom and religious interpretation. This supports reformist and non-theocratic politics rather than hostility to religion itself.",
+    "moral": "Her advocacy for women's education, equality and independence, and her feminist utopian writing, strongly support socially progressive gender norms.",
+    "tecnologia": "Sultana's Dream imagines science and technology in a feminist utopia, and her educational reform was modernist. This supports a positive, emancipatory view of technology, though not technological accelerationism."
+  }
+}
