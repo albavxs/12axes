@@ -1883,6 +1883,37 @@
         "moral": "Her governments and political program included measures for women's development and greater female participation, placing her on the more socially reformist side in Pakistan's context. Evidence is strongest on gender equality rather than every cultural-policy question.",
         "tecnologia": "Her administrations prioritized power generation and development and defended Pakistan's strategic nuclear capability. This shows willingness to use modern technology for development and state capacity, but not a detailed ideology of technological acceleration."
       }
+    },
+    {
+      "id": "corazon-aquino",
+      "sources": [
+        {
+          "url": "https://officialgazette.gov.ph/constitutions/constitution-day/",
+          "institution": "Official Gazette of the Republic of the Philippines"
+        },
+        {
+          "url": "https://pidswebs.pids.gov.ph/CDN/PUBLICATIONS/pidsbk92-brcracy.pdf",
+          "institution": "Philippine Institute for Development Studies"
+        },
+        {
+          "url": "https://elibrary.judiciary.gov.ph/thebookshelf/showdocs/24/51756",
+          "institution": "Supreme Court of the Philippines E-Library"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Aquino restored constitutional government and accepted the 1987 Constitution's separation of powers and local-government framework. She used extraordinary transitional authority after Marcos, but the direction of her presidency was toward institutionalized constitutional government rather than permanent centralized rule.",
+        "representacao": "Her defining political project was restoration of elections, suffrage, legislature, judiciary and civil liberties after the Marcos dictatorship. This is strong evidence for democratic representation.",
+        "poder": "Aquino dismantled authoritarian structures and restored civil liberties and constitutional checks. However, her government faced coups and security crises, so the record reflects a conventional constitutional state rather than an anti-coercive minimal-state position.",
+        "imigracao": "The reviewed sources do not establish a clear immigration or multicultural border doctrine. A strong placement on this axis would require additional issue-specific evidence.",
+        "diplomacia": "Aquino maintained close international relations and handled the U.S. bases question through constitutional and negotiated processes rather than abrupt unilateral action. This supports institutional diplomacy.",
+        "intervencao": "Her government respected the existing U.S. bases agreement through its expiry while keeping future options open, indicating pragmatic security cooperation rather than ideological isolationism or aggressive interventionism.",
+        "economia": "PIDS assessments describe substantial continuity with market-oriented economic structures, while Aquino also pursued social reform such as agrarian redistribution. This supports a mixed economy with private property preserved and targeted redistribution.",
+        "controle": "Her administration did not replace markets with comprehensive state planning. Agrarian reform and recovery policy used legislation and regulation within a mixed economy, suggesting moderate control.",
+        "comercio": "The reviewed evidence is not sufficient to assign a strong protectionist or free-trade position. Her economic continuity and international orientation suggest no break with external commerce, but the axis should remain moderate unless trade-specific sources are added.",
+        "religiao": "Aquino was personally devout Catholic, but the restored constitutional order was not a theocracy and public authority was grounded in constitutional institutions. Evidence therefore supports religious personal values within a non-clerical state.",
+        "moral": "Her public politics combined Catholic conservatism with restoration of civil liberties and democratic rights. The evidence supports a culturally moderate-to-traditional profile rather than either authoritarian traditionalism or broad social progressivism.",
+        "tecnologia": "Her presidency focused on democratic restoration and economic recovery rather than a distinctive technology ideology. No strong direct evidence supports either technophilia or anti-technology; use a moderate placement."
+      }
     }
   ]
 }
