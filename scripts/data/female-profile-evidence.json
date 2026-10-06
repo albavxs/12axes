@@ -3148,6 +3148,33 @@
         "moral": "Her work strongly supports Indigenous rights, gender equality, environmental justice and protection of marginalized communities, placing her on the progressive egalitarian side of the social axis.",
         "tecnologia": "She did not reject technology in general; she opposed specific infrastructure projects when ecologically destructive and imposed without consent. This supports cautious, community-governed technological development."
       }
+    },
+    {
+      "id": "berta-lutz",
+      "sources": [
+        {
+          "url": "https://www.gov.br/arquivonacional/pt-br/canais_atendimento/imprensa/noticias/mulheres-na-historia/",
+          "institution": "Arquivo Nacional do Brasil"
+        },
+        {
+          "url": "https://www.gov.br/mre/pt-br/assuntos/paz-e-seguranca-internacionais/mulheres-paz-e-seguranca/bertha-lutz",
+          "institution": "Ministério das Relações Exteriores do Brasil"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Lutz pursued women's rights through Brazilian federal legislation and international institutions rather than a distinctive territorial decentralization doctrine. Her work supports effective national legal standards but not a strong structural extreme.",
+        "representacao": "Her defining campaign was women's suffrage and political participation, including founding the Federação Brasileira pelo Progresso Feminino. This strongly supports expanded democratic representation.",
+        "poder": "She used legal and institutional reform to challenge sex-based exclusion from public service and politics, supporting equal rights and limits on discriminatory state power.",
+        "imigracao": "The reviewed sources do not establish a meaningful immigration or assimilation doctrine. Keep this axis moderate.",
+        "diplomacia": "Lutz represented Brazil internationally and participated in inter-American and UN-related women's rights diplomacy. This supports multilateral engagement and institutional diplomacy.",
+        "intervencao": "Her public record centered civil, labor and women's rights rather than military policy. No strong interventionist doctrine is established; use a restrained institutional placement.",
+        "economia": "She worked on women's labor protections and access to public employment, supporting regulated labor markets and economic equality within a mixed economy rather than comprehensive public ownership.",
+        "controle": "Her advocacy for labor standards and legal protections supports moderate state regulation of employment while not implying central economic planning.",
+        "comercio": "No reliable trade-policy doctrine is established in the reviewed sources. Keep moderate.",
+        "religiao": "Her political arguments were civic, legal and scientific rather than grounded in religious authority. This supports a secular institutional orientation.",
+        "moral": "Her suffrage, education and women's-emancipation work strongly supports progressive gender equality.",
+        "tecnologia": "As a professional biologist and scientist, Lutz's career supports confidence in science and professional expertise, though she left no broad technology-policy doctrine."
+      }
     }
   ]
 }
