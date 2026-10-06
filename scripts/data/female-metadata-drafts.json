@@ -2934,7 +2934,21 @@
           "en": ""
         }
       },
-      "portrait": null
+      "portrait": {
+        "path": "/personalities/portraits/rosa-mayreder.jpg",
+        "sourceName": "Wien Museum Online Sammlung",
+        "sourceUrl": "https://sammlung.wienmuseum.at/objekt/42821-rosa-mayreder-1858-1938-schriftstellerin-und-frauenrechtlerin-und-ihr-mann-karl-mayreder-1856-1935-architekt-rueckseitig-eigenhaendige-widmung/",
+        "sourceImageUrl": "https://sammlung.wienmuseum.at/images/objects/42821/3252857_full.jpg",
+        "license": "CC0 1.0",
+        "attribution": "Wien Museum; photographer unknown",
+        "crop": {
+          "x": 0.27,
+          "y": 0.22,
+          "width": 0.3,
+          "height": 0.62
+        },
+        "note": "Photograph circa 1895 of Rosa Mayreder with Karl Mayreder. Wien Museum releases this object image under CC0. Crop targets Rosa on the left; maintainer must visually approve before ready."
+      }
     },
     {
       "id": "hedwig-dohm",
@@ -3156,7 +3170,21 @@
           "en": ""
         }
       },
-      "portrait": null
+      "portrait": {
+        "path": "/personalities/portraits/philippa-foot.jpg",
+        "sourceFile": "Somerville College graduates in 1939.jpg",
+        "sourceName": "Wikimedia Commons / Somerville College Oxford",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Somerville_College_graduates_in_1939.jpg",
+        "license": "Public domain (UK anonymous photograph)",
+        "attribution": "Somerville College Oxford; photographer unknown",
+        "crop": {
+          "x": 0.84,
+          "y": 0.56,
+          "width": 0.13,
+          "height": 0.34
+        },
+        "note": "1939 Somerville College matriculation photograph. Somerville identifies Philippa Foot as second row from the front, second from the right. Crop is a review aid and must be visually confirmed before ready."
+      }
     },
     {
       "id": "elizabeth-anscombe",
@@ -3955,7 +3983,21 @@
         "description": "An educator and social reformer associated with Savitribai and Jyotirao Phule in Pune, Fatima Sheikh is remembered in modern accounts for her role in educating girls and marginalized communities in the 19th century. Surviving historical documentation about her life is sparse, so biographical details should be treated cautiously."
       },
       "book": null,
-      "portrait": null,
+      "portrait": {
+        "path": "/personalities/portraits/fatima-sheikh.jpg",
+        "sourceFile": "Savitribai Phule with Fatima Sheikh.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Savitribai_Phule_with_Fatima_Sheikh.jpg",
+        "license": "Public Domain Mark 1.0 / PD-old-assumed",
+        "attribution": "Unknown photographer; source lineage documented on Wikimedia Commons",
+        "crop": {
+          "x": 0.1,
+          "y": 0.16,
+          "width": 0.46,
+          "height": 0.55
+        },
+        "note": "Historical group photograph identified by the source as Savitribai Phule (right) and Fatima Sheikh (left), with students and an unidentified woman. Commons notes theoretical copyright uncertainty and relies on PD-old-assumed/PDM. Crop targets Fatima Sheikh on the left; maintainer approval is required."
+      },
       "sources": [
         "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/gender-mainstreaming-a-legacy-of-learning-9874291/",
         "https://indianexpress.com/article/upsc-current-affairs/upsc-essentials/knowledge-nugget-savitribai-phule-birth-anniversary-jyotirao-dalit-9756695/"
