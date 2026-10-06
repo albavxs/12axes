@@ -1985,10 +1985,18 @@
         }
       ],
       "evidence": {
-        "representacao": "National Archives documents Gillard's parliamentary career and service as Australia's first woman prime minister.",
-        "economia": "Her earlier ministerial responsibilities included employment, workplace relations and social inclusion; the archives also document Fair Work legislation during her tenure as employment minister.",
-        "moral": "Her public career included education and social-inclusion policy, but these issue areas should not be collapsed into a single progressive/traditionalist score without further review.",
-        "poder": "The selected archival biography focuses on institutional and social policy rather than civil-liberty, surveillance or policing questions, so this axis remains underdetermined."
+        "estrutura": "Gillard governed through Australia’s federal parliamentary institutions and national policy frameworks; moderate national coordination within federalism.",
+        "representacao": "Her parliamentary career and premiership strongly support competitive representative democracy.",
+        "poder": "Her government accepted ordinary security institutions and strong border-management measures while remaining constitutional; moderate order/regulatory orientation.",
+        "imigracao": "Her asylum policies, including offshore and regional processing proposals, were comparatively restrictive despite broader multicultural Australian politics.",
+        "diplomacia": "She maintained close U.S. alliance ties and active regional diplomacy, making her more security-aligned than pacifist.",
+        "intervencao": "Her government accepted alliance commitments and overseas defense engagement; moderate willingness to intervene rather than non-interventionism.",
+        "economia": "Australian Labor under Gillard combined private markets with Fair Work labor regulation, public education and social policy; center-left mixed economy.",
+        "controle": "Workplace regulation and public programs support moderate state coordination, below command planning.",
+        "comercio": "Australia remained strongly committed to international trade and regional economic integration; open-trade orientation.",
+        "religiao": "Gillard has publicly described herself as an atheist and governed in secular terms.",
+        "moral": "Her record is mixed: strong gender/social-inclusion politics but opposition to same-sex marriage while prime minister prevents a maximal progressive score.",
+        "tecnologia": "Education, infrastructure and modern public administration support pragmatic pro-technology policy."
       }
     },
     {
