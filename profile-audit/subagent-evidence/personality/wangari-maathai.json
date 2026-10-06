@@ -1,0 +1,27 @@
+{
+  "id": "wangari-maathai",
+  "sources": [
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/2004/maathai/facts/",
+      "institution": "Nobel Prize Outreach"
+    },
+    {
+      "url": "https://www.greenbeltmovement.org/wangari-maathai/",
+      "institution": "Green Belt Movement"
+    }
+  ],
+  "evidence": {
+    "representacao": "Nobel and Green Belt Movement sources document Maathai's democracy and human-rights advocacy in Kenya.",
+    "moral": "Her work connected women's empowerment, environmental protection and community rights, relevant to equality and environmental values.",
+    "diplomacia": "The Nobel record frames her work around sustainable development, democracy and peace, including international advocacy.",
+    "economia": "Grassroots livelihood and environmental programs are documented, but they do not by themselves establish a public-versus-private ownership preference.",
+    "estrutura": "The Green Belt Movement organized communities from below and linked local participation to national democratic reform, supporting a comparatively decentralized and participatory structure.",
+    "poder": "Her democracy and human-rights activism opposed authoritarian repression and arbitrary state power, supporting strong civil-liberty constraints.",
+    "imigracao": "Her public work centered environment, democracy and women's empowerment rather than immigration policy; keep moderate.",
+    "intervencao": "Her Nobel-recognized peace work and nonviolent civic activism support a strongly non-interventionist and conflict-prevention orientation.",
+    "controle": "Environmental protection, public accountability and community resource management support meaningful regulation without centralized command planning.",
+    "comercio": "No reliable tariff or international-trade doctrine is established.",
+    "religiao": "Her public political arguments centered ecology, democracy and human dignity rather than religious government; use a pluralist institutional placement.",
+    "tecnologia": "Her environmentalism supports caution toward ecologically harmful technologies while accepting science and practical innovation; use a moderate, risk-aware technology position."
+  }
+}
