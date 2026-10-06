@@ -50,7 +50,7 @@ Depois rode novamente `female_audit_queue.py --batch N`.
 
 ### Fase B — audit
 
-Somente itens `phase=audit` podem receber as 240 perguntas.
+Somente itens `phase=audit` podem receber as 240 perguntas. Quando a saída temporária existir e ainda não houver auditoria permanente, a fila passa a mostrar `phase=review`.
 
 Para cada perfil, use o protocolo de `.claude/skills/audit-personality/SKILL.md` e
 `profile-audit/README.md`:
@@ -69,7 +69,8 @@ Dispare os subagentes simultaneamente. Depois, no coordenador:
 3. relançar somente o perfil que falhar;
 4. calcular vetor pelo pipeline oficial;
 5. arquivar em `profile-audit/answers/personality/<id>.json`;
-6. atualizar runtime/staging apenas depois da revisão humana.
+6. enquanto aguarda revisão humana, manter a saída em `subagent-out/personality/<id>.json` com `phase=review`;
+7. arquivar em `answers/` e atualizar runtime/staging apenas depois da revisão humana.
 
 ## Gate
 
