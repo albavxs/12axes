@@ -1914,6 +1914,37 @@
         "moral": "Her public politics combined Catholic conservatism with restoration of civil liberties and democratic rights. The evidence supports a culturally moderate-to-traditional profile rather than either authoritarian traditionalism or broad social progressivism.",
         "tecnologia": "Her presidency focused on democratic restoration and economic recovery rather than a distinctive technology ideology. No strong direct evidence supports either technophilia or anti-technology; use a moderate placement."
       }
+    },
+    {
+      "id": "dilma-rousseff",
+      "sources": [
+        {
+          "url": "https://www.biblioteca.presidencia.gov.br/presidencia/ex-presidentes/dilma-rousseff/biografia",
+          "institution": "Biblioteca da Presidência da República"
+        },
+        {
+          "url": "https://presidentes.an.gov.br/index.php/centro-de-referencia-de-acervos-presidenciais/assuntos/biografias/205-dilma-vana-rousseff",
+          "institution": "Arquivo Nacional do Brasil"
+        },
+        {
+          "url": "https://www.un.org/en/ga/69/meetings/gadebate/24sep/brazil.shtml",
+          "institution": "United Nations"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Rousseff governed through Brazil's federal presidential system and defended national coordination of major infrastructure, energy and social programs while operating with states and municipalities. This supports a relatively strong coordinating state without rejection of federalism.",
+        "representacao": "Her biography is rooted in opposition to military dictatorship and later electoral democratic politics; as president she publicly celebrated Brazil's post-dictatorship democracy and elections. This is strong evidence for democratic representation.",
+        "poder": "Her own experience of imprisonment and torture under dictatorship and her later democratic discourse support constitutional limits on coercive power and opposition to authoritarian rule. As head of state she still defended ordinary state security institutions, so not a minimal-state position.",
+        "imigracao": "The reviewed core sources do not provide enough detail for a strong immigration score. Her multilateral and rights-oriented foreign-policy language suggests openness to international cooperation, but migration-specific placement should remain cautious.",
+        "diplomacia": "At the UN she emphasized multilateral institutions, dialogue and cooperative international action. Brazil under Rousseff pursued active diplomacy through the UN, regional institutions and South-South forums, supporting a diplomatic rather than unilateral posture.",
+        "intervencao": "Brazilian foreign policy under Rousseff emphasized sovereignty, negotiation and multilateral legitimacy, generally favoring restraint toward unilateral military intervention. This supports a relatively non-interventionist orientation without implying isolationism.",
+        "economia": "Her governments combined a large role for public banks, state-linked investment, industrial policy and social programs with continued private markets. This is evidence for a state-active mixed economy leaning more interventionist than liberal-market models.",
+        "controle": "Her record includes national infrastructure programs, energy regulation, public credit and coordinated anti-poverty policy. This supports significant planning/regulatory capacity while stopping short of comprehensive command planning.",
+        "comercio": "Rousseff's international posture favored participation in global and regional trade and multilateral economic institutions while also using industrial policy and domestic-development tools. Evidence points to managed openness rather than either autarky or pure free trade.",
+        "religiao": "Her political career and official policy arguments are secular and constitutional; the reviewed sources do not ground state authority in religion. This supports a secular public-order position.",
+        "moral": "Her governments emphasized poverty reduction, social inclusion, women's political representation and civil rights, placing her on the progressive side of the project's social axis, though specific cultural issues should still be checked individually.",
+        "tecnologia": "Rousseff had a strong policy background in energy and infrastructure and promoted large-scale modernization, electricity access and development programs. This supports a pragmatic pro-technology and state-capacity orientation."
+      }
     }
   ]
 }
