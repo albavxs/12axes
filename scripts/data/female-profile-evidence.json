@@ -3990,6 +3990,37 @@
         "moral": "Her abolitionism, education of girls and boys together, and literary humanization of enslaved people strongly support egalitarian and socially progressive values for her era.",
         "tecnologia": "Her public work centered literature and education rather than technology. No distinctive technology doctrine is established."
       }
+    },
+    {
+      "id": "maria-lacerda-de-moura",
+      "sources": [
+        {
+          "url": "https://www.blogs.unicamp.br/mulheresnafilosofia/teorias-feministas/feminismo-educacao-libertaria-e-antifascismo-no-pensamento-de-maria-lacerda-de-moura/",
+          "institution": "Universidade Estadual de Campinas - Enciclopédia Mulheres na Filosofia"
+        },
+        {
+          "url": "https://seer.ufu.br/index.php/neguem/article/view/52982",
+          "institution": "Universidade Federal de Uberlândia"
+        },
+        {
+          "url": "https://www.anarquismo.lppe.uerj.br/textos/texto5.html",
+          "institution": "Universidade do Estado do Rio de Janeiro - LPPE"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Moura's libertarian/anarchist thought rejected hierarchical state organization and favored free, self-organized social relations. This strongly supports decentralization and voluntary association.",
+        "representacao": "She initially worked with suffragists but later criticized representative democracy as too narrow for women's emancipation. This supports participation from below but skepticism toward conventional parliamentary representation rather than autocracy.",
+        "poder": "Her anarchist individualism, antifascism and defense of freedom of conscience strongly oppose coercive state and religious authority, supporting a highly civil-libertarian position.",
+        "imigracao": "Her family assisted poor immigrants and her libertarian community included Spanish, French and Italian deserters. Her universalist pacifism weighs against xenophobic assimilation, though she did not formulate a modern border program.",
+        "diplomacia": "She was explicitly pacifist, organized anti-war campaigns and described war as unjustifiable. This strongly supports a pacifist diplomatic position.",
+        "intervencao": "Her antimilitarism and opposition to compulsory military service strongly support non-intervention and resistance to nationalist military coercion.",
+        "economia": "Her individualist anarchism opposed industrial capitalism and exploitation while favoring small self-managed property and voluntary exchange. This is anti-capitalist without favoring centralized state ownership.",
+        "controle": "She rejected both capitalist hierarchy and authoritarian state planning, supporting decentralized self-management rather than either command planning or corporate laissez-faire.",
+        "comercio": "She criticized finance and international commerce when tied to war and capitalist domination, but did not advocate nationalist tariffs. This supports skepticism toward capitalist global commerce rather than classic protectionism.",
+        "religiao": "Her upbringing and activism were strongly anticlerical and she supported a secular state and freedom of conscience. This strongly supports a secular/irreligious public order.",
+        "moral": "She defended free love, voluntary motherhood, women's sexual autonomy, feminist emancipation and criticism of traditional family morality. This strongly supports socially progressive positions.",
+        "tecnologia": "Her libertarian rural-community ideals and criticism of industrial capitalism suggest caution toward industrialist progress, but not rejection of science or education. Use a moderately naturalist/cautious technology position."
+      }
     }
   ]
 }
