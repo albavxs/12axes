@@ -1,9 +1,9 @@
 {
   "target": {
     "baselineMaleCount": 386,
-    "targetFemaleCount": 193,
+    "targetFemaleCount": 200,
     "initialFemaleCount": 16,
-    "requiredAdditions": 177
+    "requiredAdditions": 184
   },
   "statuses": [
     "pending",
@@ -2828,7 +2828,7 @@
     "integratedFemaleCount": 28,
     "pipelineCandidateCount": 172,
     "plannedFemaleCount": 200,
-    "targetFemaleCount": 193,
+    "targetFemaleCount": 200,
     "remainingUnplanned": 0,
     "readyCandidateCount": 0,
     "profileReviewCount": 82,
