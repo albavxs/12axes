@@ -1,0 +1,27 @@
+{
+  "id": "eleanor-roosevelt",
+  "sources": [
+    {
+      "url": "https://www.fdrlibrary.org/er-biography",
+      "institution": "Franklin D. Roosevelt Presidential Library"
+    },
+    {
+      "url": "https://www.fdrlibrary.org/human-rights",
+      "institution": "Franklin D. Roosevelt Presidential Library"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Roosevelt worked through federal institutions while advocating rights at national and international levels; this supports coordinated government within constitutional federalism.",
+    "representacao": "Civil rights, women’s participation and democratic public engagement strongly support representative inclusion.",
+    "poder": "Her human-rights work and defense of civil liberties favor strong constraints on coercive state power.",
+    "imigracao": "Her humanitarian and refugee advocacy and opposition to racial exclusion support a relatively pluralist/open orientation.",
+    "diplomacia": "Leadership in the UN Human Rights Commission and the Universal Declaration makes her strongly multilateral and diplomatic.",
+    "intervencao": "She supported international institutions and collective security rather than isolationism; this is restraint through institutions, not absolute non-intervention.",
+    "economia": "Her New Deal social-policy commitments support a social-democratic mixed economy with meaningful public provision.",
+    "controle": "Support for social insurance and federal welfare programs implies substantial regulation and coordination without command planning.",
+    "comercio": "Her internationalism favors external engagement, but she was not primarily a trade theorist; moderate openness.",
+    "religiao": "Her public rights language was civic and universal rather than clerical, supporting a secular constitutional state.",
+    "moral": "Racial equality, women’s rights and universal human rights support a strongly progressive social orientation for her era.",
+    "tecnologia": "Technology was secondary to institutions and rights; pragmatic moderate-modernist placement."
+  }
+}
