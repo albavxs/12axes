@@ -3816,6 +3816,33 @@
         "moral": "Her liberal-democratic orientation supports civil rights and European values, placing her moderately progressive socially without implying a radical cultural program.",
         "tecnologia": "Her current remit explicitly includes cyber, hybrid threats and defence innovation, and her Estonian background is strongly digital-state oriented. This supports a high pro-technology placement."
       }
+    },
+    {
+      "id": "kersti-kaljulaid",
+      "sources": [
+        {
+          "url": "https://president.ee/en/republic-of-estonia/heads-of-state/441/",
+          "institution": "Office of the President of Estonia"
+        },
+        {
+          "url": "https://president.ee/en/republic-of-estonia/heads-of-state/",
+          "institution": "Office of the President of Estonia"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Kaljulaid's career spans Estonia's national presidency, EU audit institutions and economic administration. She supports capable national institutions within European integration rather than either radical decentralization or isolationist centralization.",
+        "representacao": "As president in Estonia's parliamentary constitutional order, she consistently operated within liberal democratic institutions and rule-of-law norms.",
+        "poder": "Her public profile combines civil-libertarian democratic norms with concern for state resilience, cybersecurity and institutional accountability. Use a moderate security-aware liberal position.",
+        "imigracao": "The reviewed official biography does not establish a strong assimilation-versus-multicultural migration doctrine. Keep moderate.",
+        "diplomacia": "Her presidency and EU service are strongly internationalist and pro-European, supporting multilateral diplomacy and transatlantic cooperation.",
+        "intervencao": "Estonia's security environment made deterrence and allied commitments central, but her role was institutionally alliance-based rather than unilateral. Use a moderately interventionist security position.",
+        "economia": "Her career in investment banking, economic advice, energy management and the European Court of Auditors supports a market-oriented mixed economy and fiscal discipline.",
+        "controle": "She favors evidence-based public administration and fiscal oversight rather than central planning, supporting relatively low economic control.",
+        "comercio": "European integration and her economic background support open markets and cross-border economic cooperation.",
+        "religiao": "Her public-policy framework is secular and technocratic rather than grounded in religious authority.",
+        "moral": "Her presidency was broadly liberal-European and supportive of inclusive civic rights, but she is not identified with radical cultural politics. Use moderate social liberalism.",
+        "tecnologia": "A genetics graduate and leader of highly digital Estonia, Kaljulaid strongly supports science, digital government and technological modernization."
+      }
     }
   ]
 }
