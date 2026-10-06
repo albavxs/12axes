@@ -1,4 +1,4 @@
-import { existsSync, mkdirSync, readFileSync, statSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, readdirSync, statSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import sharp from 'sharp';
 
@@ -30,6 +30,14 @@ const englishById = new Map(english.map((entry) => [entry.id, entry]));
 const profileById = new Map(profiles.map((entry) => [entry.personalityId, entry]));
 const bookById = new Map(books.map((entry) => [entry.personalityId, entry]));
 const evidenceById = new Map((evidence.personalities ?? []).map((entry) => [entry.id, entry]));
+const provisionalEvidenceDir = resolve(auditRoot, 'subagent-evidence/personality');
+if (existsSync(provisionalEvidenceDir)) {
+  for (const name of readdirSync(provisionalEvidenceDir)) {
+    if (!name.endsWith('.json')) continue;
+    const dossier = readJson(resolve(provisionalEvidenceDir, name), null);
+    if (dossier?.id) evidenceById.set(dossier.id, dossier);
+  }
+}
 const draftById = new Map((metadataDrafts.personalities ?? []).map((entry) => [entry.id, entry]));
 const runtimeIds = new Set(personalities.map((entry) => entry.id));
 const axisIds = axes.map((axis) => axis.id);
