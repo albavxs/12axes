@@ -1,0 +1,27 @@
+{
+  "id": "clara-zetkin",
+  "sources": [
+    {
+      "url": "https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/clara-zetkin",
+      "institution": "Bundesstiftung zur Aufarbeitung der SED-Diktatur"
+    },
+    {
+      "url": "https://clara-zetkin-stiftung.de/biografie/",
+      "institution": "Clara-Zetkin-Stiftung"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Zetkin organized through socialist parties, unions and mass movements rather than advocating personalist executive rule; her socialism nevertheless accepted strong collective institutions, so neither radical federalism nor unitary authoritarianism alone fits.",
+    "representacao": "She campaigned for women’s suffrage and represented socialist and communist parties in parliamentary institutions, supporting mass political participation.",
+    "poder": "Her opposition to wartime repression and work in socialist opposition politics weigh against unchecked coercive authority, though she accepted revolutionary political organization.",
+    "imigracao": "Her socialist internationalism emphasized class solidarity across nations and weighs against ethnic-national exclusion; no detailed immigration statute program is documented.",
+    "diplomacia": "Her break with pro-war social democrats and anti-war organizing strongly support an anti-militarist orientation.",
+    "intervencao": "Internationalist socialism and opposition to imperial war support anti-imperial and relatively non-interventionist foreign politics.",
+    "economia": "Her politics were explicitly socialist and tied women’s emancipation to transformation of capitalist property relations.",
+    "controle": "Socialist economic coordination and labor organization support high public/collective control, short of evidence for Stalinist command administration.",
+    "comercio": "Her internationalism was not liberal free-trade doctrine; nationalist protectionism was also not central. Keep trade moderately internationalist.",
+    "religiao": "Her Marxist political framework was secular and did not ground public authority in religion.",
+    "moral": "Women’s emancipation, suffrage and equality place her strongly on the progressive gender side.",
+    "tecnologia": "Industrial modernity was treated through class politics rather than a distinct technology ideology; moderate modernist placement."
+  }
+}

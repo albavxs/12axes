@@ -1,0 +1,31 @@
+{
+  "id": "elizabeth-cady-stanton",
+  "sources": [
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/elizabeth-cady-stanton",
+      "institution": "National Women’s History Museum"
+    },
+    {
+      "url": "https://www.nps.gov/people/elizabeth-cady-stanton.htm",
+      "institution": "National Park Service"
+    },
+    {
+      "url": "https://www.loc.gov/collections/elizabeth-cady-stanton-papers/about-this-collection/",
+      "institution": "Library of Congress"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Her support for federal constitutional suffrage guarantees shows willingness to use national authority for rights, without a general anti-federalism program.",
+    "representacao": "Seneca Falls, suffrage leadership and equal citizenship make her strongly democratic and inclusion-oriented.",
+    "poder": "Her legal-rights advocacy and criticism of patriarchal law favor personal liberty and limits on coercive family/state authority.",
+    "imigracao": "Her historical rhetoric included exclusionary arguments during suffrage conflicts, so a maximally multicultural score would be misleading; moderate caution is warranted.",
+    "diplomacia": "Foreign affairs were not central to her work; no strong military-versus-diplomatic doctrine.",
+    "intervencao": "No clear foreign-intervention doctrine is established.",
+    "economia": "She defended women’s property and legal independence within a market society, suggesting reformist rather than socialist economics.",
+    "controle": "Legal equality and property reform do not imply centralized economic planning; moderate-low control.",
+    "comercio": "No trade-policy doctrine is established.",
+    "religiao": "The Woman’s Bible and critique of religious justifications for women’s subordination strongly support secular/anti-clerical politics.",
+    "moral": "Women’s legal, marital and political equality strongly challenge traditional gender hierarchy.",
+    "tecnologia": "Technology was not a defining political issue; moderate."
+  }
+}

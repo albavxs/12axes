@@ -1,0 +1,31 @@
+{
+  "id": "dorothy-height",
+  "sources": [
+    {
+      "url": "https://www.nps.gov/people/dorothy-i-height.htm",
+      "institution": "National Park Service"
+    },
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/dorothy-height",
+      "institution": "National Women’s History Museum"
+    },
+    {
+      "url": "https://home.nps.gov/people/dorothy-i-height.htm",
+      "institution": "U.S. National Park Service"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Height worked through national civil-rights organizations and local coalitions, favoring cooperative institutional reform rather than a distinctive centralization doctrine.",
+    "representacao": "Voting rights, political participation and coalition leadership strongly support representative democracy and inclusion.",
+    "poder": "Her civil-rights work opposed legally enforced racial hierarchy and state-tolerated discrimination, favoring rights constraints on coercive power.",
+    "imigracao": "Her coalition politics emphasized racial and social inclusion; this supports pluralism more than assimilation, though immigration policy was not a central field.",
+    "diplomacia": "Her work was primarily domestic civil-rights activism, with no strong military foreign-policy doctrine; a moderate diplomatic orientation is safest.",
+    "intervencao": "No strong doctrine on foreign intervention is established; her rights-based politics do not justify an extreme.",
+    "economia": "Anti-poverty, employment and economic-opportunity work support a center-left social-policy orientation within a mixed economy.",
+    "controle": "She favored public programs and anti-discrimination enforcement rather than command planning; moderate regulation.",
+    "comercio": "No distinctive trade doctrine is established.",
+    "religiao": "Height worked through institutions including the YWCA and had religious roots, but her public program was civic rather than theocratic.",
+    "moral": "Racial equality, women’s rights and civic inclusion strongly support socially progressive positions.",
+    "tecnologia": "Technology was not a defining political issue; moderate."
+  }
+}
