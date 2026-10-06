@@ -3090,6 +3090,33 @@
         "moral": "Her central role in the Equal Pay Act and women's economic equality strongly supports progressive gender-equality positions.",
         "tecnologia": "Her transport and productivity portfolios show pragmatic engagement with industrial modernization, but no extreme technology ideology is established."
       }
+    },
+    {
+      "id": "beatrice-webb",
+      "sources": [
+        {
+          "url": "https://blogs.lse.ac.uk/lsehistory/2019/01/22/beatrice-webb/",
+          "institution": "London School of Economics"
+        },
+        {
+          "url": "https://www.lse.ac.uk/library/collection-highlights/welfare-and-social-security",
+          "institution": "LSE Library"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Webb's Poor Law work proposed coordinated national and local welfare provision, supporting strong institutional coordination rather than either radical localism or unitary absolutism.",
+        "representacao": "Fabian reformism pursued gradual institutional change through democratic administration, research and legislation, though Webb's technocratic style was less populist than mass-democratic activism.",
+        "poder": "Her social-reform program relied on capable public administration and expert institutions, accepting significant state authority while seeking rational, welfare-oriented government.",
+        "imigracao": "The reviewed LSE sources do not establish a reliable immigration or assimilation doctrine.",
+        "diplomacia": "Her support for the League of Nations Union and international reform supports multilateral cooperation rather than nationalist militarism.",
+        "intervencao": "Her internationalist reform orientation favors institutional cooperation and restraint over unilateral military intervention.",
+        "economia": "As a leading Fabian socialist and researcher of labor institutions, Webb strongly supported collective social provision and alternatives to laissez-faire capitalism.",
+        "controle": "Her Minority Report and welfare-state proposals explicitly favored coordinated public planning of education, health, pensions and employment support.",
+        "comercio": "No clear independent tariff doctrine is established in the reviewed sources; keep trade moderate within a planned social-democratic outlook.",
+        "religiao": "Her reform program was grounded in social science and public administration rather than religious authority, supporting a secular institutional position.",
+        "moral": "Her anti-poverty, labor and welfare reform work supports progressive social responsibility, though not all modern cultural-policy positions are documented.",
+        "tecnologia": "Her commitment to systematic social research, expert administration and institutional design supports a comparatively technocratic and pro-modernization orientation."
+      }
     }
   ]
 }
