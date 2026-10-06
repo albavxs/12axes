@@ -3928,6 +3928,37 @@
         "moral": "Her emphasis on human rights, civil society and women's empowerment supports socially liberal/progressive values.",
         "tecnologia": "Her national-security work supported modernization and nonproliferation while focusing on risks of nuclear technology. Use pragmatic pro-technology with strong security constraints."
       }
+    },
+    {
+      "id": "maria-da-penha",
+      "sources": [
+        {
+          "url": "https://www.institutomariadapenha.org.br/quem-e-maria-da-penha.html?lang=pt",
+          "institution": "Instituto Maria da Penha"
+        },
+        {
+          "url": "https://www.oas.org/en/IACHR/jsForm/?File=%2Fen%2FIACHR%2FObservatory%2Ftimeline.asp",
+          "institution": "Inter-American Commission on Human Rights"
+        },
+        {
+          "url": "https://www.oas.org/en/iachr/women/decisions/iachr.asp",
+          "institution": "Inter-American Commission on Human Rights"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Maria da Penha's advocacy sought stronger national and state implementation of protections against domestic violence. This supports effective coordinated public institutions, not a distinct federal-versus-centralized constitutional ideology.",
+        "representacao": "Her public activism and rights advocacy seek equal citizenship and state accountability for women, supporting democratic participation and representation.",
+        "poder": "Her central political lesson is that state institutions must protect victims rather than tolerate private violence. This supports targeted protective state power combined with accountability for police and judicial failure.",
+        "imigracao": "Her activism does not establish a specific immigration or assimilation doctrine. Keep moderate.",
+        "diplomacia": "Taking her case to the Inter-American human-rights system demonstrates strong reliance on international legal institutions and transnational rights mechanisms.",
+        "intervencao": "Her international strategy used legal and human-rights pressure rather than military coercion, supporting peaceful institutional intervention and military restraint.",
+        "economia": "Her advocacy centers violence prevention, services and rights rather than ownership of the economy. Public funding for protection services implies social provision but not a socialist ownership doctrine.",
+        "controle": "She supports legislation, enforcement and public programs targeted at domestic violence, indicating regulatory state capacity rather than economy-wide planning.",
+        "comercio": "No reliable trade-policy doctrine is established. Keep moderate.",
+        "religiao": "Her rights advocacy is legal and civic rather than grounded in religious authority. Use a secular-pluralist public position.",
+        "moral": "Her fight against domestic violence, impunity and gender inequality strongly supports progressive gender equality and bodily autonomy.",
+        "tecnologia": "A trained biopharmacist, she has a scientific professional background, but her activism does not establish a broad technology ideology. Use moderately pro-science."
+      }
     }
   ]
 }
