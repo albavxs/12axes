@@ -1,0 +1,43 @@
+{
+  "id": "angela-davis",
+  "sources": [
+    {
+      "url": "https://campusdirectory.ucsc.edu/cd_detail?guid=G000122719",
+      "institution": "University of California, Santa Cruz"
+    },
+    {
+      "url": "https://women.ucsc.edu/",
+      "institution": "University of California, Santa Cruz"
+    },
+    {
+      "url": "https://campusdirectory.ucsc.edu/cd_detail?uid=aydavis",
+      "institution": "University of California, Santa Cruz"
+    },
+    {
+      "url": "https://news.ucsc.edu/2019/07/davis-hall-fame/",
+      "institution": "University of California, Santa Cruz"
+    },
+    {
+      "url": "https://news.ucsc.edu/2022/02/abolition-feminism-now/",
+      "institution": "University of California, Santa Cruz"
+    },
+    {
+      "url": "https://www.pbs.org/video/angela-davis-a-revolutionary-roadmap-for-building-a-better-future-wYG6L2/",
+      "institution": "PBS"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Davis's abolitionist and movement politics emphasize community power and transformation from below rather than concentration of authority in police, prisons or centralized coercive institutions. She does not advocate simple abolition of all public institutions.",
+    "representacao": "Her recent public arguments stress mass participation, coalition-building and democracy beyond merely electing individual leaders. This supports participatory-democratic rather than technocratic or autocratic rule.",
+    "poder": "Prison abolition, opposition to policing and incarceration, and criticism of the carceral state place Davis strongly on the civil-libertarian/anti-coercive side of the power axis.",
+    "imigracao": "Her internationalist anti-racist and coalition politics extend across racial and national categories, supporting a pluralist orientation, though immigration law is not the central focus of the reviewed sources.",
+    "diplomacia": "Her anti-war, internationalist and solidarity politics have generally opposed militarism and state violence. This supports a strongly diplomatic/anti-militarist placement.",
+    "intervencao": "Davis's anti-imperialist politics and solidarity with movements abroad weigh against coercive foreign intervention by powerful states. This supports non-intervention/self-determination rather than isolationism.",
+    "economia": "Her Communist Party membership, class analysis and continuing critique of capitalism strongly support collective/socialist economic preferences rather than laissez-faire private-market primacy.",
+    "controle": "Her politics favor public and collective solutions to social inequality but are skeptical of punitive state bureaucracies. This supports high social/economic coordination with less enthusiasm for authoritarian command administration.",
+    "comercio": "Her anti-capitalist internationalism does not translate cleanly into nationalist protectionism. The reviewed sources support skepticism toward corporate globalization but not a simple tariff doctrine.",
+    "religiao": "Her scholarship and activism are secular and grounded in political, racial, gender and class analysis rather than religious authority. This supports a strongly secular state.",
+    "moral": "Black feminism, LGBTQ advocacy and intersectional liberation are central to her work, strongly supporting socially progressive positions.",
+    "tecnologia": "Technology is not a defining axis of Davis's political thought. Her emphasis is on social institutions and liberation rather than technological acceleration; use a moderate score."
+  }
+}
