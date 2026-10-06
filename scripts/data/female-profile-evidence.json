@@ -560,10 +560,18 @@
         }
       ],
       "evidence": {
-        "moral": "Scholarship on race, gender and structural inequality is directly relevant to the social-progressive side of the axis.",
-        "poder": "Legal analysis of state institutions and discrimination is relevant, but do not infer a broad policing/security score without direct issue review.",
-        "representacao": "Critical race theory and intersectionality work concern legal recognition of overlapping discrimination and institutional inclusion.",
-        "economia": "Structural inequality appears in her work; economic vector needs sources about property, markets or redistribution."
+        "estrutura": "Crenshaw analyzes structural power across legal institutions but does not advocate a specific federal-versus-unitary architecture; modest decentralist/institutional reform tendency.",
+        "representacao": "Civil-rights and intersectionality scholarship argues for recognition and inclusion of people marginalized by law and institutions; strongly democratic/inclusion-oriented.",
+        "poder": "Her work on discrimination, policing-related harms and legal inequality favors rights constraints on coercive institutions.",
+        "imigracao": "Intersectional and anti-discrimination frameworks support pluralism across race, gender and identity; relatively multicultural.",
+        "diplomacia": "Foreign policy is not her principal field; human-rights orientation favors diplomacy but should remain moderate.",
+        "intervencao": "No detailed military-intervention doctrine; anti-domination principles support restraint.",
+        "economia": "Structural inequality analysis supports redistributive and anti-discrimination interventions, though she is not an ownership-system theorist.",
+        "controle": "Legal remedies and institutional regulation support moderate public control, not command planning.",
+        "comercio": "No substantive trade doctrine is established.",
+        "religiao": "Her public scholarship is secular legal analysis rather than religious governance.",
+        "moral": "Intersectionality, feminist legal theory and civil-rights scholarship place her strongly on progressive equality.",
+        "tecnologia": "Technology is not central to her core theory; moderate modernist."
       }
     },
     {
