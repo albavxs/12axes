@@ -956,7 +956,15 @@
         "representacao": "Official biographical sources document O'Connor's elected and appointed service in Arizona government and the federal judiciary; this establishes institutional participation, not a complete democracy-axis position.",
         "estrutura": "Her career spans state legislative, state judicial and federal judicial institutions, but biography alone does not establish a substantive federalism or decentralization preference.",
         "poder": "Judicial office alone cannot be translated into a civil-liberty/order score; issue-specific opinions would be required before proposal.",
-        "moral": "The selected biographical sources do not support a broad traditionalist-progressive placement. This axis should remain explicitly uncertain pending direct jurisprudential evidence."
+        "moral": "The selected biographical sources do not support a broad traditionalist-progressive placement. This axis should remain explicitly uncertain pending direct jurisprudential evidence.",
+        "imigracao": "Her biographical record does not establish a clear immigration or assimilation doctrine; avoid inferring one from party affiliation or judicial office.",
+        "diplomacia": "Her career focused domestic law and judicial institutions rather than foreign policy; keep moderate.",
+        "intervencao": "No independent military-intervention doctrine is established.",
+        "economia": "Her jurisprudence accepted a market economy with constitutional regulation; biography alone does not support a strong ownership-system score.",
+        "controle": "She generally favored limited, case-specific government action and institutional restraint rather than centralized planning; use moderate-to-low economic control.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "Her judicial philosophy operated within secular constitutional law and religious-liberty protections rather than religious government.",
+        "tecnologia": "No distinctive technology ideology is established from the reviewed sources."
       }
     },
     {
