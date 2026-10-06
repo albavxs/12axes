@@ -1,0 +1,27 @@
+{
+  "id": "ellen-johnson-sirleaf",
+  "sources": [
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/2011/johnson_sirleaf/facts/",
+      "institution": "Nobel Prize"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/2011/press-release/",
+      "institution": "Norwegian Nobel Committee"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Sirleaf rebuilt Liberia through national institutions after civil war and worked through a unitary constitutional state. The reviewed sources do not show a distinctive decentralization doctrine, so placement should reflect conventional national governance rather than a strong structural extreme.",
+    "representacao": "She was Africa's first democratically elected female head of state and is explicitly credited with strengthening democracy, freedom of speech and women's political participation. This strongly supports representative-democratic placement.",
+    "poder": "Her postwar record emphasized civilian government, peace, freedom of speech and institutional rebuilding after authoritarianism and conflict. Evidence supports constitutional restraint on coercive power, though not a minimal state.",
+    "imigracao": "The reviewed Nobel sources do not establish a clear immigration or border-policy doctrine. Avoid inferring a strong score from Liberia's postwar context alone.",
+    "diplomacia": "Her peace-building work and long international career, including service in UN development institutions, support a strongly diplomatic and multilateral orientation.",
+    "intervencao": "Her Nobel recognition centers non-violent struggle and peace-building rather than military activism. This supports relative restraint and preference for political settlement, without implying isolationism.",
+    "economia": "She is credited with promoting economic and social development and had a professional background in public finance and development. The sources support a pragmatic mixed/developmental economy, but do not justify an extreme public-ownership score.",
+    "controle": "Her governance relied on public institutions and development policy in a post-conflict state, implying meaningful regulation and state capacity. The reviewed material does not support comprehensive command planning.",
+    "comercio": "The core sources do not provide enough direct evidence on tariffs or trade openness. Her international-development background suggests engagement with global markets, but this axis should remain moderate pending trade-specific evidence.",
+    "religiao": "Her public political record in the reviewed sources is framed around democracy, peace, development and women's rights rather than religious rule. Evidence supports a non-theocratic state.",
+    "moral": "Her work strengthening women's rights and participation strongly supports progressive positions on gender equality and civic inclusion.",
+    "tecnologia": "The reviewed sources emphasize development and institution-building, not a distinctive technology ideology. Use a moderate/pragmatic placement rather than either technophilia or anti-technology."
+  }
+}
