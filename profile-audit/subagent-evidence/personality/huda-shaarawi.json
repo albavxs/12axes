@@ -1,0 +1,27 @@
+{
+  "id": "huda-shaarawi",
+  "sources": [
+    {
+      "url": "https://library.aucegypt.edu/rare-books-special-collections/collections/egyptian-society-arts-culture",
+      "institution": "American University in Cairo"
+    },
+    {
+      "url": "https://www.aucegypt.edu/news/celebrating-egypts-1919-revolution",
+      "institution": "American University in Cairo"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Sha'arawi sought national independence and organized civil society rather than a detailed federal or central-state architecture; moderate structure is most defensible.",
+    "representacao": "Women’s political organization and public participation were central to her activism, strongly supporting expanded representation.",
+    "poder": "Mass protest against colonial authority and advocacy for women’s autonomy weigh against unaccountable coercive rule.",
+    "imigracao": "Her politics centered Egyptian nationalism and women’s rights, not immigration; national identity matters but does not justify a hard exclusion score.",
+    "diplomacia": "Anti-colonial nationalism favored national self-determination; her movement was political and civic rather than militarist doctrine.",
+    "intervencao": "Opposition to colonial domination strongly supports self-determination and resistance to external intervention.",
+    "economia": "Her program emphasized education and social reform more than ownership systems; moderate mixed-economy placement.",
+    "controle": "No command-planning doctrine is established; modest public reform is more defensible than laissez-faire or total planning.",
+    "comercio": "Nationalist context may imply concern with foreign domination, but no precise tariff doctrine is documented.",
+    "religiao": "She worked within Muslim Egyptian society while challenging restrictive gender customs; reformist rather than theocratic or strongly anti-religious.",
+    "moral": "Women’s education, organization and social autonomy make her strongly progressive on gender hierarchy.",
+    "tecnologia": "Education and social modernization suggest a moderately modernist stance without a distinct technology doctrine."
+  }
+}

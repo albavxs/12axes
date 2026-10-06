@@ -1,0 +1,27 @@
+{
+  "id": "leymah-gbowee",
+  "sources": [
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/2011/gbowee/facts/",
+      "institution": "Nobel Prize Outreach"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/2011/gbowee/biographical/",
+      "institution": "Nobel Prize Outreach"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Her peace movement built grassroots coalitions across communities rather than centralized political hierarchy; modest decentralist tendency.",
+    "representacao": "Women’s participation in peacebuilding and public decision-making is central to her activism.",
+    "poder": "Nonviolent mobilization against armed factions and coercive conflict strongly favors restraint on violence and civic pressure over force.",
+    "imigracao": "Interfaith and cross-community organizing supports inclusive pluralism rather than cultural exclusion.",
+    "diplomacia": "Her movement’s defining strategy was nonviolent pressure for negotiated peace, placing her strongly on the pacifist/diplomatic pole.",
+    "intervencao": "Preference for locally driven peace and political settlement supports self-determination and non-intervention.",
+    "economia": "Postwar peacebuilding includes women’s economic empowerment, but no full ownership-system doctrine; moderate-left development orientation.",
+    "controle": "No command-planning doctrine; community development and public support imply moderate regulation.",
+    "comercio": "No trade-policy doctrine is established.",
+    "religiao": "Christian faith and deliberate Christian-Muslim cooperation make religion important personally while opposing sectarian rule.",
+    "moral": "Women’s rights and interfaith peacebuilding strongly support egalitarian social values.",
+    "tecnologia": "Technology was not a defining issue; moderate."
+  }
+}

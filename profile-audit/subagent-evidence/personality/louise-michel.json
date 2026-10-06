@@ -1,0 +1,27 @@
+{
+  "id": "louise-michel",
+  "sources": [
+    {
+      "url": "https://www.bnf.fr/fr/louise-michel-une-heroine-de-la-commune",
+      "institution": "Bibliothèque nationale de France"
+    },
+    {
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb451482239",
+      "institution": "Bibliothèque nationale de France"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Michel became an anarchist after the Paris Commune and rejected hierarchical state authority, strongly supporting decentralized social organization.",
+    "representacao": "She favored revolutionary popular self-government and direct participation rather than elite parliamentary rule; democratic but not conventional representative institutionalism.",
+    "poder": "Anarchism, imprisonment and opposition to state repression place her strongly on the anti-coercive side, despite her acceptance of revolutionary force.",
+    "imigracao": "Her anarchist internationalism and solidarity with colonized peoples favor pluralism and cross-border solidarity.",
+    "diplomacia": "She was a revolutionary willing to participate in armed struggle, so she is not a pacifist despite opposing state militarism.",
+    "intervencao": "Anti-imperial and anarchist politics strongly oppose state domination of other peoples, supporting self-determination.",
+    "economia": "Her revolutionary anarchism opposed capitalist exploitation and private domination, strongly favoring collective/social ownership.",
+    "controle": "Anarchist economics reject centralized state planning even while favoring collective ownership; low-to-moderate centralized control.",
+    "comercio": "No conventional tariff doctrine; anarchist internationalism weighs against nationalist protectionism.",
+    "religiao": "Her revolutionary anarchism was strongly anti-clerical and secular.",
+    "moral": "Women’s emancipation, social equality and revolutionary egalitarianism support progressive social positions.",
+    "tecnologia": "Technology was not central; moderate."
+  }
+}

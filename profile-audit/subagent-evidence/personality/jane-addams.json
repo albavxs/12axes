@@ -1,0 +1,31 @@
+{
+  "id": "jane-addams",
+  "sources": [
+    {
+      "url": "https://home.nps.gov/people/jane-addams.htm",
+      "institution": "National Park Service"
+    },
+    {
+      "url": "https://home.nps.gov/places/hull-house.htm",
+      "institution": "National Park Service"
+    },
+    {
+      "url": "https://www.nobelprize.org/nomination/archive/show.php?id=408",
+      "institution": "Nobel Prize Outreach"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Settlement-house and municipal reform work emphasized community-level institutions and local civic participation, supporting a decentralist/community tendency.",
+    "representacao": "Women’s suffrage and civic organizing strongly support expanded democratic participation.",
+    "poder": "Her reform work opposed exploitation and punitive inequality, favoring social protection and civil reform over coercive order.",
+    "imigracao": "Hull House served immigrant communities and Addams defended pluralistic civic integration rather than forced cultural erasure.",
+    "diplomacia": "Organized pacifism and international peace leadership make her strongly diplomatic and anti-war.",
+    "intervencao": "Her opposition to war and leadership in women’s peace movements strongly support non-intervention and peaceful settlement.",
+    "economia": "Settlement reform addressed labor conditions, poverty and social services, supporting a progressive/social-democratic role for public institutions.",
+    "controle": "She favored labor regulation and social services but not centralized command planning.",
+    "comercio": "Internationalism does not establish a specific tariff doctrine; moderate openness is most defensible.",
+    "religiao": "Her ethics had Protestant/social-gospel influences, but public reform was civic and pluralist rather than clerical.",
+    "moral": "Suffrage, immigrant support and social reform make her strongly progressive for her era.",
+    "tecnologia": "She valued social science and practical urban reform; moderate pragmatic modernism."
+  }
+}
