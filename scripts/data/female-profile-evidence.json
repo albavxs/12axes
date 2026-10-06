@@ -3573,6 +3573,33 @@
         "moral": "Her radical challenge to conventional sexuality, marriage and gender roles strongly supports socially progressive positions, despite later controversial views on some contemporary gender debates.",
         "tecnologia": "Her later environmental interests and Cave Creek rainforest work show ecological concern rather than technological acceleration. Use a cautious, human-and-nature-centered placement."
       }
+    },
+    {
+      "id": "gisela-bock",
+      "sources": [
+        {
+          "url": "https://www.fu-berlin.de/informationen-fuer/beschaeftigte/personalia/wir-trauern/2025/bock/index.html",
+          "institution": "Freie Universität Berlin"
+        },
+        {
+          "url": "https://www.mvbz.fu-berlin.de/en/news/gisela_bock.html",
+          "institution": "Freie Universität Berlin - Margherita von Brentano Center"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Bock was a historian and feminist scholar rather than a constitutional theorist. Her work does not establish a federal-versus-centralized state preference; keep moderate.",
+        "representacao": "Her involvement in the autonomous women's movement and scholarship making excluded women's experiences visible support broader democratic participation and representation.",
+        "poder": "Her research on forced sterilization under National Socialism documents the dangers of state coercion over bodies and reproduction, supporting strong rights constraints on authoritarian biopolitics.",
+        "imigracao": "Her comparative European and transnational scholarship rejects narrow national framing, but the reviewed sources do not establish a specific immigration policy. Use a moderately pluralist position.",
+        "diplomacia": "Her academic internationalism and comparative work support cross-border intellectual cooperation, not a foreign-policy doctrine. Keep restrained and moderate.",
+        "intervencao": "No developed military-intervention doctrine is central to her work. Historical study of authoritarianism does not itself establish a specific foreign-policy score.",
+        "economia": "Her feminist analysis of unpaid domestic labor as part of capitalist economic structures supports criticism of market arrangements that hide reproductive labor, but not a complete ownership program.",
+        "controle": "Her scholarship critiques unregulated social and economic hierarchies, but does not prescribe centralized economic planning. Use moderate regulation.",
+        "comercio": "No reliable trade-policy doctrine is established. Keep moderate.",
+        "religiao": "Her scholarship and activism are secular-academic rather than grounded in religious authority. This supports a secular institutional orientation.",
+        "moral": "Women's and gender history, bodily autonomy and critique of forced sterilization strongly support egalitarian and progressive social values.",
+        "tecnologia": "Her work on eugenics and forced sterilization illustrates strong ethical limits on biomedical state power; this supports cautious governance of technology rather than either anti-science or accelerationism."
+      }
     }
   ]
 }
