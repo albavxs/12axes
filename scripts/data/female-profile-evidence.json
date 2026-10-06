@@ -4141,6 +4141,33 @@
         "moral": "Her humanistic treatment of psychiatric patients, rejection of dehumanizing procedures and emphasis on affection and creative expression support progressive dignity-centered social values.",
         "tecnologia": "Her opposition to lobotomy and electroshock shows strong caution toward invasive medical technology when it violates patient dignity, while she embraced therapeutic innovation in art and occupational care. Use cautious human-centered technology rather than anti-science."
       }
+    },
+    {
+      "id": "olga-benario",
+      "sources": [
+        {
+          "url": "https://cpdoc.fgv.br/biografias/luis-carlos-prestes",
+          "institution": "FGV CPDOC"
+        },
+        {
+          "url": "https://www.holocaust-denkmal-berlin.de/raum-der-namen/biographien/biographie/7911",
+          "institution": "Foundation Memorial to the Murdered Jews of Europe"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Benário was a committed communist revolutionary associated with the Comintern and disciplined party organization. This supports strong collective political organization rather than libertarian decentralization, although her personal writings do not provide a detailed federalism theory.",
+        "representacao": "Her revolutionary communist politics were not centered on liberal parliamentary democracy and accepted extra-parliamentary insurrection. This places her below liberal-democratic maximalism, while her anti-fascism strongly opposes racial dictatorship.",
+        "poder": "She participated in revolutionary underground activity and accepted disciplined political struggle, but was herself a victim of authoritarian imprisonment, deportation and Nazi murder. Evidence supports a complex position: tolerance for revolutionary state power alongside absolute opposition to fascist coercion.",
+        "imigracao": "As a German Jewish exile active internationally and later deported from Brazil, her life strongly reflects opposition to racist exclusion and nationalist persecution. This supports an internationalist, non-xenophobic orientation rather than restrictive assimilation.",
+        "diplomacia": "Her politics were internationalist and tied to transnational communist networks, but she was not a conventional diplomat. Her orientation was revolutionary international solidarity rather than pacifist interstate diplomacy.",
+        "intervencao": "Her revolutionary activity included support for armed insurrection and political struggle abroad, placing her away from non-interventionism despite anti-fascist motivations.",
+        "economia": "As a communist activist, she supported abolition of capitalist ownership and a collectively organized socialist economy. This strongly supports public/collective ownership.",
+        "controle": "Her Marxist-Leninist political environment favored coordinated socialist planning rather than laissez-faire markets.",
+        "comercio": "Communist internationalism rejects capitalist free trade but not in favor of nationalist tariff protection; use a managed/planned international economic orientation rather than classic protectionism.",
+        "religiao": "Her political identity was secular communist, and there is no basis for religious governance. This strongly supports secular public institutions.",
+        "moral": "Her anti-fascism, internationalism and opposition to racial persecution support egalitarian social values, though she was not a theorist of the later cultural issues in this axis.",
+        "tecnologia": "Her politics emerged from industrial modernity and revolutionary modernization but she left no distinctive technology doctrine. Use a moderate pro-modernization position."
+      }
     }
   ]
 }
