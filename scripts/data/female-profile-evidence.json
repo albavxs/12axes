@@ -215,11 +215,18 @@
         }
       ],
       "evidence": {
-        "representacao": "SNCC evidence highlights participatory, bottom-up movement democracy and skepticism toward charismatic top-down leadership.",
-        "economia": "Her co-founding role in the Young Negroes Cooperative League is evidence of interest in cooperative economic organization, but it is insufficient by itself to set a public/private or planning/market score.",
-        "moral": "Her organizing for racial equality and youth participation supports a socially egalitarian reading in the project’s terms.",
-        "estrutura": "Her preference for grassroots organizing and local leadership is relevant to decentralization, but should not be overread as constitutional federalism.",
-        "poder": "Her civil-rights activism opposed coercive segregation and political intimidation; specific criminal-justice scoring still needs focused review."
+        "estrutura": "Her preference for grassroots local leadership and suspicion of top-down charismatic control strongly support decentralized organization.",
+        "representacao": "Participatory democracy and bottom-up leadership were central to her organizing philosophy.",
+        "poder": "Civil-rights activism against segregation, intimidation and political repression strongly favors civil liberties over coercive order.",
+        "imigracao": "Her coalition politics and racial equality work support pluralist inclusion, though immigration law was not a core issue.",
+        "diplomacia": "Foreign policy was not central, but her movement politics generally favored nonviolent organizing over militarism.",
+        "intervencao": "No detailed foreign-intervention doctrine is established; anti-domination principles support restraint.",
+        "economia": "Her cooperative organizing and anti-poverty work support cooperative/redistributive economics rather than laissez-faire individualism.",
+        "controle": "Grassroots cooperative economics suggests collective organization with skepticism of centralized command; moderate planning.",
+        "comercio": "No trade-policy doctrine is established.",
+        "religiao": "Her activism interacted with church-based civil-rights networks but remained civic and participatory rather than theocratic.",
+        "moral": "Racial equality, youth empowerment and grassroots democracy strongly support progressive egalitarian values.",
+        "tecnologia": "Technology was not central; moderate."
       }
     },
     {
