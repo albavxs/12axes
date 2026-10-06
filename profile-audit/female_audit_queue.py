@@ -21,6 +21,7 @@ DATA = ROOT / "backend/src/main/resources/data"
 PIPELINE = ROOT / "scripts/data"
 ANSWERS = ROOT / "profile-audit/answers/personality"
 DRAFTS = ROOT / "profile-audit/subagent-out/personality"
+EVIDENCE_DRAFTS = ROOT / "profile-audit/subagent-evidence/personality"
 
 AXES = [
     "estrutura", "representacao", "poder", "imigracao", "diplomacia", "intervencao",
@@ -48,6 +49,17 @@ def build_queue():
     evidence = load(PIPELINE / "female-profile-evidence.json")
 
     evidence_by_id = {entry["id"]: entry for entry in evidence.get("personalities", [])}
+    # Dossiês isolados são evidência provisória durante a produção em lote.
+    # Eles sobrepõem o consolidado para a fila, mas só entram no JSON compartilhado
+    # depois da revisão humana final.
+    if EVIDENCE_DRAFTS.exists():
+        for path in EVIDENCE_DRAFTS.glob("*.json"):
+            try:
+                draft = load(path)
+            except (OSError, json.JSONDecodeError):
+                continue
+            if isinstance(draft, dict) and draft.get("id"):
+                evidence_by_id[draft["id"]] = draft
     audited = {path.stem for path in ANSWERS.glob("*.json")} if ANSWERS.exists() else set()
     drafts = {path.stem for path in DRAFTS.glob("*.json")} if DRAFTS.exists() else set()
 
