@@ -3546,6 +3546,33 @@
         "moral": "Her opposition to contraception and abortion and her virtue-ethical, Catholic moral commitments strongly support socially traditional positions.",
         "tecnologia": "Her ethical criticism of atomic bombing shows willingness to constrain powerful technologies by moral limits, but she did not reject technology generally. Use a cautious human-centered placement."
       }
+    },
+    {
+      "id": "germaine-greer",
+      "sources": [
+        {
+          "url": "https://library.unimelb.edu.au/asc/collections/highlights/collections/germainegreer",
+          "institution": "University of Melbourne Archives"
+        },
+        {
+          "url": "https://library.unimelb.edu.au/asc/collections/highlights/collections/germainegreer/about-the-collection",
+          "institution": "University of Melbourne Archives"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Greer's feminism and association with libertarian currents emphasize individual and sexual autonomy over centralized social control, but she has not advanced a detailed federal-versus-unitary constitutional doctrine. Use a moderately decentralist, anti-bureaucratic placement.",
+        "representacao": "Her public feminism aimed to expand women's voice, independence and participation, but she is primarily an intellectual rather than an electoral-system theorist. Evidence supports broad democratic participation.",
+        "poder": "The Female Eunuch and her broader feminist work attack social, familial and sexual domination, supporting strong personal liberty and skepticism toward coercive authority.",
+        "imigracao": "Her writings range across cultures and women internationally, but the reviewed archival evidence does not establish a detailed immigration or assimilation program. Keep moderate.",
+        "diplomacia": "She is not primarily a foreign-policy thinker. Her international feminist engagement is civil-society based rather than militarist; use a restrained moderate position.",
+        "intervencao": "No developed doctrine of military intervention is central to her work. Her libertarian feminist orientation weighs against coercive intervention, but keep historical caution.",
+        "economia": "Greer's feminist critique challenged women's economic dependence and conventional household relations, but she did not present a stable public-versus-private ownership program. Use a mildly left/libertarian position rather than socialism by assumption.",
+        "controle": "Her libertarian and anti-hierarchical tendencies argue against comprehensive economic planning, even while she criticizes capitalist and domestic power. Use moderate-to-market decentralization.",
+        "comercio": "No reliable trade-policy doctrine is established. Keep moderate.",
+        "religiao": "Her work sharply critiques patriarchal social traditions and religious sexual morality, supporting a secular orientation rather than religious government.",
+        "moral": "Her radical challenge to conventional sexuality, marriage and gender roles strongly supports socially progressive positions, despite later controversial views on some contemporary gender debates.",
+        "tecnologia": "Her later environmental interests and Cave Creek rainforest work show ecological concern rather than technological acceleration. Use a cautious, human-and-nature-centered placement."
+      }
     }
   ]
 }
