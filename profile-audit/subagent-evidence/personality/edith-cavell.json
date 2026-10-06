@@ -11,17 +11,18 @@
     }
   ],
   "evidence": {
-    "estrutura": "Cavell was not a constitutional theorist; her humanitarian career provides no basis for a strong centralization or decentralization position.",
-    "representacao": "She was not principally an electoral activist, but her resistance to occupation and service to civilians align more with accountable civic order than autocracy; evidence remains limited.",
-    "poder": "Her arrest and execution under military occupation and her aid to those fleeing repression support strong humanitarian limits on coercive state power.",
-    "imigracao": "Treating wounded people across nationality lines supports universalist humanitarianism, but not a modern immigration-policy platform.",
-    "diplomacia": "Her cross-national nursing and humanitarian ethic favor humane treatment and conflict restraint rather than militarist nationalism.",
-    "intervencao": "She aided Allied personnel escaping occupation, so she was not politically neutral toward the conflict; this supports resistance to occupation more than general non-interventionism.",
-    "economia": "No meaningful economic ownership doctrine is established.",
-    "controle": "No planning-versus-market doctrine is established.",
-    "comercio": "No trade-policy doctrine is established.",
-    "religiao": "Cavell’s Anglican faith was important personally, but her humanitarian work did not constitute a program for religious government.",
-    "moral": "Care across national lines and professional service support humanitarian ethics; broader cultural-policy positions are underdetermined.",
-    "tecnologia": "Professional nursing and modern medical organization suggest pragmatic acceptance of applied science, not technological ideology."
+    "diplomacia": "Sources document Cavell's treatment of wounded soldiers without regard to nationality during the First World War, a humanitarian record distinct from a general foreign-policy doctrine.",
+    "poder": "She helped Allied soldiers escape occupied Belgium, was arrested by German authorities and executed, providing evidence about resistance under military occupation rather than a broad domestic-state-power position.",
+    "moral": "Her nursing and humanitarian actions emphasized care across national lines.",
+    "metodologia": "Cavell was not principally a political theorist or officeholder, so many of the project's 12 axes remain underdetermined and should not be filled by biographical inference.",
+    "estrutura": "Cavell was a nurse and humanitarian rather than a constitutional theorist. The reviewed record provides no reliable centralization-versus-federalism position.",
+    "representacao": "She left no developed electoral or regime theory. Her conduct under occupation should not be converted into a strong democracy score by itself.",
+    "imigracao": "Her care for wounded people regardless of nationality supports humanitarian universalism, but she left no modern immigration or assimilation doctrine.",
+    "intervencao": "Helping soldiers escape occupation and her humanitarian neutrality show opposition to occupation and concern for persons across national lines, but not a general doctrine of foreign military intervention.",
+    "economia": "No reliable ownership, redistribution or market doctrine is established in the reviewed sources.",
+    "controle": "No reliable planning-versus-market doctrine is established in the reviewed sources.",
+    "comercio": "No reliable trade-policy doctrine is established in the reviewed sources.",
+    "religiao": "Cavell was a practicing Anglican whose final statements reflected Christian faith, but her humanitarian nursing was not a program for religious government. This supports personal religiosity without theocracy.",
+    "tecnologia": "Her career in professional nursing and medical training suggests acceptance of modern medical practice, but there is no broader technology ideology."
   }
 }
