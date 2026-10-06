@@ -3322,6 +3322,33 @@
         "moral": "Her separation from an oppressive marriage, professional independence, abolitionism and challenge to gender conventions strongly support progressive social autonomy for her era.",
         "tecnologia": "Her pioneering work in modern urban music and professional composition reflects cultural modernization, but not a general technology ideology. Use moderate-to-positive modernism."
       }
+    },
+    {
+      "id": "dalia-grybauskaite",
+      "sources": [
+        {
+          "url": "https://istorineprezidentura.lt/en/presidents/dalia-grybauskaite-en/",
+          "institution": "Historical Presidential Palace of Lithuania"
+        },
+        {
+          "url": "https://www.europarl.europa.eu/cmsdata/239243/Bio%20Dalia%20Grybauskaite.pdf",
+          "institution": "European Parliament"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Grybauskaitė governed within Lithuania's unitary constitutional system and strongly supported deeper EU cooperation. This supports effective national institutions plus supranational coordination rather than radical decentralization.",
+        "representacao": "She was twice elected president and operated within Lithuania's competitive democratic system, supporting representative democracy, rule of law and European institutional standards.",
+        "poder": "Her presidency emphasized national security, anti-corruption and institutional discipline while remaining within constitutional checks. This supports a security-conscious but rule-bound state.",
+        "imigracao": "Her public record emphasized EU border and security cooperation more than open-border advocacy. Use a controlled but European-coordinated migration position.",
+        "diplomacia": "Her career includes foreign ministry, EU mission, U.S. embassy and presidency, with a strongly pro-EU and transatlantic orientation. This supports active multilateral diplomacy.",
+        "intervencao": "As commander-in-chief and a strong critic of Russian aggression, she supported NATO deterrence and robust defense. This places her more hawkish than pacifist leaders while still alliance-based rather than unilateral.",
+        "economia": "Her finance and EU budget career emphasized fiscal discipline, competitiveness and market integration. This supports a market-oriented mixed economy rather than state ownership dominance.",
+        "controle": "She favored disciplined public finances, regulation through EU institutions and targeted public investment rather than central planning. This supports moderate economic control.",
+        "comercio": "She helped negotiate Lithuania's free-trade and association arrangements with the EU, strongly supporting open trade and European market integration.",
+        "religiao": "Her public governing framework is secular and European-institutional rather than religiously grounded. Use a secular state placement.",
+        "moral": "Her profile is institutionally liberal-European but personally and politically more centrist than progressive-left social movements. Use a moderate social-liberal placement.",
+        "tecnologia": "Her EU and national roles emphasized competitiveness, research, development and modernization, supporting a pro-innovation and technocratic orientation."
+      }
     }
   ]
 }
