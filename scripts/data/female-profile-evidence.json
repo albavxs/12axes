@@ -3627,6 +3627,33 @@
         "moral": "Her demand for equal political, civil and social rights for women and more radical treatment of gender roles strongly supports progressive social values.",
         "tecnologia": "No distinctive technology ideology is established in the surviving corpus. Keep moderate."
       }
+    },
+    {
+      "id": "hedwig-dohm",
+      "sources": [
+        {
+          "url": "https://www.demokratie-geschichte.de/koepfe/2257",
+          "institution": "Stiftung Orte der deutschen Demokratiegeschichte"
+        },
+        {
+          "url": "https://www.deutsche-biographie.de/pnd11852643X.html",
+          "institution": "Deutsche Biographie"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Dohm's political writing centers equality, suffrage and family law rather than a territorial state model. No strong centralization-versus-federalism doctrine is established.",
+        "representacao": "She was an early explicit advocate of women's suffrage and complete political equality, strongly supporting universal democratic representation.",
+        "poder": "Her work attacks legal dependence of women in marriage, property and family law, supporting personal autonomy and constraints on patriarchal state authority.",
+        "imigracao": "The reviewed biographical sources do not establish a meaningful immigration or assimilation doctrine. Keep moderate.",
+        "diplomacia": "The democracy-history profile documents her clear protest against World War I, supporting a pacifist orientation.",
+        "intervencao": "Her opposition to World War I and militarism weighs strongly toward non-intervention and restraint.",
+        "economia": "Dohm demanded women's economic independence and full economic equality. This supports reform of property and labor relations, though not enough for a full socialist ownership doctrine.",
+        "controle": "Her equality agenda required legal reform but did not amount to central economic planning. Use moderate regulation.",
+        "comercio": "No reliable trade-policy doctrine is established. Keep moderate.",
+        "religiao": "Although from a Protestant background, her political arguments challenged traditional authority and were grounded in rights rather than clerical governance. Use a secular-pluralist public position.",
+        "moral": "Her demands for full legal, social and economic equality and critique of marriage and antifeminism strongly support progressive social values.",
+        "tecnologia": "No distinctive technology doctrine is established. Keep moderate."
+      }
     }
   ]
 }
