@@ -3492,6 +3492,33 @@
         "moral": "Her ethics were grounded in objective moral truth, Christian anthropology and traditional views on some gender and family questions while still defending women's education and public contribution. This supports socially traditional but intellectually complex placement.",
         "tecnologia": "Her work centered phenomenology, ethics and theology rather than technology policy. Keep moderate."
       }
+    },
+    {
+      "id": "edith-summerskill",
+      "sources": [
+        {
+          "url": "https://www.parliament.uk/about/living-heritage/evolutionofparliament/houseoflords/house-of-lords-reform/from-the-collections/from-the-parliamentary-collections-lords-reform/the-work-of-the-life-peers/edithsummerskill1901-1980/",
+          "institution": "UK Parliament"
+        },
+        {
+          "url": "https://www.kcl.ac.uk/people/baroness-edith-summerskill",
+          "institution": "King's College London"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Summerskill pursued nationwide health, insurance and equality reforms through Parliament and central government, supporting strong national standards rather than purely local provision.",
+        "representacao": "Her long elected parliamentary career and Labour Party leadership support representative democratic institutions and expanded women's political participation.",
+        "poder": "She accepted an active regulatory state but also campaigned for legal reforms expanding personal rights, including abortion and homosexual law reform. This supports liberal civil rights within a strong social state.",
+        "imigracao": "The reviewed sources do not establish a distinctive immigration doctrine. Keep moderate.",
+        "diplomacia": "Her record is primarily domestic social policy. No strong diplomacy doctrine is established.",
+        "intervencao": "During World War II she supported women's participation in civil defense and the Home Guard, so she was not an absolute pacifist. Still, no general interventionist doctrine is established.",
+        "economia": "As a Labour politician and advocate of the NHS and National Insurance, she strongly supported public social provision and redistribution within a mixed economy.",
+        "controle": "Her socialist medical and welfare politics support significant public planning and regulation in health and social insurance, though not comprehensive command planning.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "Her reform politics were secular and parliamentary rather than grounded in religious authority. Use a secular institutional placement.",
+        "moral": "Her advocacy of abortion law reform, homosexual law reform, women's equality and meaningful careers strongly supports socially progressive positions.",
+        "tecnologia": "As a physician and health-policy reformer, she supported modern medicine and professional expertise. This suggests pragmatic pro-science modernization."
+      }
     }
   ]
 }
