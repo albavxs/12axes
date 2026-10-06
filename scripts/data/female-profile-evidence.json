@@ -2185,6 +2185,37 @@
         "moral": "Thatcher was a social conservative and emphasized national tradition, responsibility and order. This supports a relatively traditionalist placement, though not a theocratic one.",
         "tecnologia": "She praised science, communications and rapid translation of new technology into production, especially in market economies. This supports a pro-technology, innovation-oriented position."
       }
+    },
+    {
+      "id": "michelle-bachelet",
+      "sources": [
+        {
+          "url": "https://www.ohchr.org/en/statements-and-speeches/2022/03/video-q-and-michelle-bachelet-un-high-commissioner-human-rights",
+          "institution": "Office of the UN High Commissioner for Human Rights"
+        },
+        {
+          "url": "https://www.spensiones.cl/portal/institucional/594/w3-article-4193.html",
+          "institution": "Superintendencia de Pensiones, Government of Chile"
+        },
+        {
+          "url": "https://www.gob.cl/noticias/jefa-de-estado-informa-en-cadena-nacional-medidas-para-mejorar-sistema-de-pensiones/",
+          "institution": "Government of Chile"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Bachelet governed within Chile's unitary democratic state and emphasized national social-policy guarantees. The reviewed sources do not establish a strong decentralization doctrine, so the structure axis should remain moderate.",
+        "representacao": "Her political career and later human-rights leadership consistently emphasize democratic institutions, participation and rights. This strongly supports representative-democratic placement.",
+        "poder": "Her human-rights framework places fundamental rights at the center of policy and argues against abuses of state power. Evidence supports strong rights constraints on coercive authority.",
+        "imigracao": "The reviewed core sources do not provide enough direct evidence on migration policy. Avoid inferring a strong position from her human-rights role alone.",
+        "diplomacia": "Her service as UN High Commissioner and international human-rights advocacy strongly support multilateral diplomacy and international institutions.",
+        "intervencao": "Her public record in the reviewed sources emphasizes human rights and multilateral processes rather than unilateral military force. This supports restraint, though her prior service as defense minister means she was not institutionally anti-military.",
+        "economia": "Bachelet explicitly defended an economy that places people and human rights at its core and expanded Chile's social-protection system while retaining a mixed market economy. This supports a social-democratic mixed-economy position.",
+        "controle": "Pension reforms added solidarity pillars and public guarantees to a market-based system, indicating meaningful regulation and redistribution without command planning.",
+        "comercio": "The reviewed sources do not establish a strong independent trade doctrine. Chile remained a globally integrated market economy, but this dossier should avoid assigning an extreme free-trade score without trade-specific evidence.",
+        "religiao": "Her governing and human-rights arguments are secular and rights-based rather than religiously grounded. This supports a secular state.",
+        "moral": "Her record strongly emphasizes gender equality, women's economic autonomy, social rights and human rights, supporting a progressive social orientation.",
+        "tecnologia": "The reviewed sources focus on social policy and rights rather than technology ideology. Her governance was technocratic and evidence-oriented, supporting a pragmatic moderate-to-positive technology stance."
+      }
     }
   ]
 }
