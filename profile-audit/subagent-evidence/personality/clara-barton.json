@@ -1,0 +1,35 @@
+{
+  "id": "clara-barton",
+  "sources": [
+    {
+      "url": "https://www.nps.gov/people/clara-barton.htm",
+      "institution": "National Park Service"
+    },
+    {
+      "url": "https://www.nps.gov/places/000/clara-barton-national-historic-site.htm",
+      "institution": "National Park Service"
+    },
+    {
+      "url": "https://www.redcross.org/about-us/who-we-are/history/clara-barton.html",
+      "institution": "American Red Cross"
+    },
+    {
+      "url": "https://www.loc.gov/exhibits/civil-war-in-america/biographies/clara-barton.html",
+      "institution": "Library of Congress"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Barton worked through national humanitarian institutions and federal advocacy for the Geneva Convention, but did not develop a constitutional centralization theory. Keep structure moderate.",
+    "representacao": "She supported women's suffrage and rights and expanded women's public roles, supporting broader civic participation and representative inclusion.",
+    "poder": "Her humanitarian work focused protecting wounded soldiers and civilians and limiting the harms of war. This supports humanitarian constraints on coercive power rather than punitive state authority.",
+    "imigracao": "The reviewed sources do not establish a meaningful immigration or assimilation position. Keep moderate.",
+    "diplomacia": "Her work with the International Red Cross and campaign for U.S. ratification of the Geneva Convention strongly support international humanitarian cooperation and diplomacy.",
+    "intervencao": "Barton did not advocate pacifist abolition of armed forces; instead she sought neutral humanitarian protection during conflicts. This supports restraint and rules-based conduct more than either militarism or strict non-interventionism.",
+    "economia": "Her public legacy centered humanitarian organization, equal pay and public service, not a comprehensive economic ownership doctrine. A moderate mixed-economy placement is appropriate.",
+    "controle": "Founding and leading a large humanitarian organization shows institutional coordination, but not economic planning. Keep near center.",
+    "comercio": "No trade-policy doctrine is established.",
+    "religiao": "Her humanitarian work was civic and universal rather than a program for religious government. The selected sources do not justify a strongly religious-state score.",
+    "moral": "Equal-pay demands, women's-rights support and a life spent breaking gender barriers support moderately progressive social values.",
+    "tecnologia": "Her career embraced organizational and medical innovation where useful but did not develop a technology ideology. Use a pragmatic moderate score."
+  }
+}
