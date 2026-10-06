@@ -317,6 +317,26 @@ const stagingEntries = await Promise.all(
 );
 
 const entries = [...runtimeEntries, ...stagingEntries];
+
+const queueRank = { review: 0, proposed: 1, researching: 2, pending: 3, ready: 4 };
+const womenAuditQueue = entries
+  .filter((entry) => entry.representation === 'female' && !entry.audit.answerExists)
+  .sort((a, b) => {
+    if (a.source !== b.source) return a.source === 'runtime' ? -1 : 1;
+    const ar = queueRank[a.pipeline?.profileStatus] ?? 9;
+    const br = queueRank[b.pipeline?.profileStatus] ?? 9;
+    if (ar !== br) return ar - br;
+    return a.name.localeCompare(b.name, 'pt-BR', { sensitivity: 'base' });
+  });
+
+womenAuditQueue.forEach((entry, index) => {
+  entry.auditPlan = {
+    batch: Math.floor(index / 15) + 1,
+    position: index + 1,
+    totalPending: womenAuditQueue.length,
+  };
+});
+
 const stats = {
   totalEntries: entries.length,
   runtime: runtimeEntries.length,
@@ -328,6 +348,9 @@ const stats = {
   warnings: entries.filter((entry) => entry.validation.errors.length === 0 && entry.validation.warnings.length > 0).length,
   ok: entries.filter((entry) => entry.validation.errors.length === 0 && entry.validation.warnings.length === 0).length,
   localDrafts: entries.filter((entry) => entry.localDraft).length,
+  womenAuditDone: entries.filter((entry) => entry.representation === 'female' && entry.audit.answerExists).length,
+  womenAuditPending: womenAuditQueue.length,
+  womenAuditBatches: Math.ceil(womenAuditQueue.length / 15),
 };
 
 mkdirSync(outDir, { recursive: true });
