@@ -3870,6 +3870,37 @@
         "moral": "Her center-right profile is more socially traditional than liberal-progressive European leaders, while still operating within EU rights norms.",
         "tecnologia": "Her security and international-relations career supports modernization and institutional technology use, but no accelerationist doctrine is established. Use moderate-to-positive technology."
       }
+    },
+    {
+      "id": "liz-truss",
+      "sources": [
+        {
+          "url": "https://www.gov.uk/government/people/elizabeth-truss",
+          "institution": "UK Government"
+        },
+        {
+          "url": "https://www.gov.uk/government/speeches/chief-secretary-to-the-treasury-liz-truss-speech-to-the-london-school-of-economics",
+          "institution": "UK Government"
+        },
+        {
+          "url": "https://www.gov.uk/government/speeches/foreign-secretary-liz-truss-building-the-network-of-liberty",
+          "institution": "UK Government"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Truss strongly emphasizes national sovereignty after Brexit while supporting alliances among sovereign democracies. Domestically she favors a strong unitary UK state more than federal devolution, placing her toward central national authority.",
+        "representacao": "Her rhetoric explicitly champions liberal democracy, individual liberty and rule of law against authoritarian systems, strongly supporting representative democratic institutions.",
+        "poder": "She combines strong individual-liberty rhetoric with hawkish security and law-and-order positions. Use a moderate security orientation constrained by liberal constitutionalism.",
+        "imigracao": "Her Conservative record favors controlled immigration and national border sovereignty rather than open borders, supporting a more restrictive/assimilationist placement.",
+        "diplomacia": "As foreign secretary she argued for assertive alliances and a 'network of liberty,' pairing diplomacy with hard-power deterrence. This is more militarist than pacifist.",
+        "intervencao": "She supports active use of British diplomatic, economic and security power to shape international outcomes and defend allies, placing her clearly away from non-interventionism.",
+        "economia": "Truss explicitly champions free enterprise, low taxes and private markets, strongly supporting private ownership.",
+        "controle": "Her economic program rejects statism and emphasizes deregulation, low taxation and a 'sleek state,' strongly supporting free-market allocation.",
+        "comercio": "Free trade is one of her clearest stated commitments; she repeatedly argues for lowering barriers and expanding open global trade.",
+        "religiao": "Her governing arguments are secular and liberal-economic rather than grounded in religious authority. Use a secular constitutional placement.",
+        "moral": "Her Conservative politics are culturally center-right, but her public rhetoric also emphasizes individual freedom and women's opportunity. Use moderately traditional rather than hard social conservatism.",
+        "tecnologia": "She portrays technology, science and innovation as engines of freedom and growth, supporting a strongly pro-technology orientation."
+      }
     }
   ]
 }
