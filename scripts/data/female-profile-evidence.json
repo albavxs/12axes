@@ -1821,6 +1821,37 @@
         "moral": "She explicitly challenged traditional marriage, gender hierarchy and family dependence, defended easier divorce, women's economic independence, collective childcare and new sexual ethics. This is strong evidence for socially progressive positions.",
         "tecnologia": "The evidence emphasizes modernization of social reproduction and collective services but contains no developed doctrine of technological acceleration, biotechnology or technocracy. Use only a modest inference from her modernizing socialist outlook and mark uncertainty."
       }
+    },
+    {
+      "id": "angela-merkel",
+      "sources": [
+        {
+          "url": "https://www.bundesregierung.de/breg-en/service/archive/speech-by-federal-chancellor-angela-merkel-to-the-european-parliament-strasbourg-13-november-2018-1550688",
+          "institution": "Federal Government of Germany"
+        },
+        {
+          "url": "https://www.bundesregierung.de/breg-en/service/archive/speech-by-federal-chancellor-angela-merkel-on-the-german-presidency-of-the-council-of-the-eu-to-the-european-committee-of-the-regions-on-13-october-2020-video-conference--1798832",
+          "institution": "Federal Government of Germany"
+        },
+        {
+          "url": "https://news.harvard.edu/gazette/story/2019/05/at-harvard-commencement-merkel-tells-grads-break-the-walls-that-hem-you-in/",
+          "institution": "Harvard University"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Merkel consistently defended the European Union and coordinated European solutions, but within a union of member states and Germany's federal constitutional order. The evidence supports shared/multilevel governance rather than either pure national centralization or radical decentralization.",
+        "representacao": "Her speeches explicitly defend democracy, elections, rule of law, human rights and pluralist institutions, and warn against anti-democratic populism. This strongly supports representative-democratic placement.",
+        "poder": "Merkel emphasized rule of law, democratic checks and human rights rather than unconstrained executive authority. Her governments also supported security institutions, so the evidence is liberal-institutional rather than anti-state.",
+        "imigracao": "She defended a humanitarian response to refugees and a common European asylum policy while also calling for orderly, controlled and reduced migration flows through EU cooperation. This indicates a relatively open but regulated position rather than either open borders or hard closure.",
+        "diplomacia": "Merkel repeatedly advocated multilateralism, European unity, transatlantic cooperation and negotiated common positions. This supports a diplomatic, alliance-oriented approach and low preference for unilateral militarism.",
+        "intervencao": "The sources emphasize cooperation, sanctions, alliances and multilateral action rather than unilateral military intervention. They do not support strict non-interventionism, but do support restraint and institution-based foreign policy.",
+        "economia": "Merkel's center-right record and public speeches defend market prosperity, enterprise and private economic activity while retaining Germany's social-market framework. Evidence supports a market-oriented mixed economy rather than either laissez-faire absolutism or public ownership dominance.",
+        "controle": "Her approach fits regulated social-market capitalism: markets operate within legal, fiscal, social and EU regulatory frameworks. This implies moderate rather than maximal state planning.",
+        "comercio": "At Harvard she explicitly linked mutual prosperity to international free trade, and her EU policy favored integrated markets. This is strong evidence for relatively open trade.",
+        "religiao": "Merkel led a Christian democratic party but her public governing arguments in the reviewed sources are framed in constitutional, democratic and human-rights terms rather than religious law. Evidence supports a secular state with culturally Christian political roots.",
+        "moral": "She generally governed from a centrist/Christian-democratic position while defending equal dignity, human rights and pluralism. The reviewed sources support moderate social liberalism, but not an extreme progressive placement on every cultural issue.",
+        "tecnologia": "Her governments linked climate policy and industrial modernization, and supported a greener economy and energy transition. This indicates a pragmatic pro-technology stance constrained by safety, environmental policy and regulation rather than techno-libertarianism."
+      }
     }
   ]
 }
