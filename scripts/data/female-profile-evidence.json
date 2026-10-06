@@ -277,10 +277,18 @@
         }
       ],
       "evidence": {
-        "poder": "The anti-lynching campaign directly addressed extralegal violence, state failure and racialized coercion.",
-        "representacao": "Her anti-lynching journalism, suffrage work and civil-rights organizing provide evidence for democratic inclusion and legal equality.",
-        "moral": "Her work against racism and for women’s suffrage supports an egalitarian social reading in context.",
-        "religiao": "Christian moral argument appears in the reform milieu, but her profile should not be reduced to religiosity without direct evidence."
+        "estrutura": "Wells used local journalism, civic organization and national campaigns against racial violence; no strong federalism doctrine, though local self-organization mattered.",
+        "representacao": "Suffrage and civil-rights activism strongly support equal voting rights and democratic inclusion.",
+        "poder": "Her anti-lynching campaign directly opposed extralegal violence and state failure to protect equal rights, placing her strongly on civil-liberties and due-process principles.",
+        "imigracao": "Her politics focused racial citizenship more than immigration; equality arguments favor pluralism but border policy remains underdetermined.",
+        "diplomacia": "She was not primarily a foreign-policy actor; keep moderate rather than infer militarism from domestic conflict.",
+        "intervencao": "No clear foreign-intervention doctrine is established; opposition to domination supports restraint.",
+        "economia": "Her reform work addressed racial and economic inequality but did not define a comprehensive ownership system; mildly reformist mixed economy.",
+        "controle": "Support for legal enforcement of equal rights implies public regulation, not command economic planning.",
+        "comercio": "No substantive trade doctrine is established.",
+        "religiao": "Christian reform language was present in her milieu and life, but her public claims were civic and rights-based rather than theocratic.",
+        "moral": "Anti-racism, suffrage and women’s rights strongly support egalitarian social positions.",
+        "tecnologia": "Investigative journalism and data collection show pragmatic use of modern tools, not a technology ideology."
       }
     },
     {
