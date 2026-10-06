@@ -2092,6 +2092,37 @@
         "moral": "Her record is mixed: she broke gender barriers as a female national leader but was not primarily a social-liberal reformer. Evidence supports moderate rather than strongly progressive placement on broad cultural questions.",
         "tecnologia": "As a state-building leader she supported modern military, infrastructure and welfare institutions, but the reviewed sources do not establish a distinct ideology of technology. Use a moderate-to-pragmatic placement."
       }
+    },
+    {
+      "id": "greta-thunberg",
+      "sources": [
+        {
+          "url": "https://www.un.org/development/desa/en/news/sustainable/climate-summit-2019.html",
+          "institution": "United Nations"
+        },
+        {
+          "url": "https://www.un.org/development/desa/youth/news/2019/09/greta-thunberg/",
+          "institution": "United Nations DESA Youth"
+        },
+        {
+          "url": "https://brasil.un.org/pt-br/84220-c%C3%BApula-da-juventude-pelo-clima-da-onu-jovens-pedem-fim-dos-combust%C3%ADveis-f%C3%B3sseis",
+          "institution": "United Nations Brazil"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Thunberg's activism is global and pushes national governments, cities and international institutions to act, but she has not advanced a detailed theory of federal versus centralized state structure. This axis should remain moderate.",
+        "representacao": "Her activism relies on public protest, accountability and pressure on elected leaders, and criticizes political failure rather than rejecting democratic participation. Evidence supports democratic accountability, though she is an activist rather than an institutional theorist.",
+        "poder": "She demands strong public action on climate but does not advocate broad coercive or surveillance powers. The evidence supports regulatory capacity targeted at emissions, not generalized authoritarian control.",
+        "imigracao": "The reviewed climate sources do not establish a substantive migration or border-policy position. Avoid inferring one from progressive activism alone.",
+        "diplomacia": "Her campaign treats climate change as a global collective-action problem and engages the UN and international agreements. This strongly supports multilateral cooperation.",
+        "intervencao": "Her public record is centered on nonviolent climate activism rather than military affairs. There is insufficient evidence for a strong foreign-military intervention score.",
+        "economia": "She calls for fundamental changes in how economies are powered and for ending fossil-fuel dependence and subsidies. This supports willingness to constrain markets for environmental goals, but does not establish a complete socialist ownership program.",
+        "controle": "Her climate demands imply substantial regulation, carbon policy and planned transition away from fossil fuels. This supports above-minimal public coordination without proving support for comprehensive economic planning.",
+        "comercio": "The reviewed sources do not establish a clear tariff or trade doctrine. Climate conditionality may imply environmental constraints on commerce, but a strong protectionist/free-trade placement would be speculative.",
+        "religiao": "Her public arguments are explicitly science- and evidence-based rather than religious. This supports a secular orientation.",
+        "moral": "Her activism emphasizes intergenerational justice, collective responsibility and global solidarity. That supports a progressive social orientation, though she is not a broad cultural-policy politician.",
+        "tecnologia": "She accepts scientific and technological solutions as necessary but repeatedly stresses that existing solutions must be implemented and that technology alone is not a substitute for political action. This supports pragmatic pro-science technology rather than techno-solutionism."
+      }
     }
   ]
 }
