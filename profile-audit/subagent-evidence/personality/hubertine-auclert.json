@@ -1,0 +1,27 @@
+{
+  "id": "hubertine-auclert",
+  "sources": [
+    {
+      "url": "https://www.bnf.fr/fr/mediatheque/hubertine-auclert",
+      "institution": "Bibliothèque nationale de France"
+    },
+    {
+      "url": "https://ccfr.bnf.fr/portailccfr/ark:/16871/004b1454821",
+      "institution": "Catalogue collectif de France / Bibliothèque historique de la Ville de Paris"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Auclert campaigned through national laws and republican institutions while also organizing independent feminist societies. This supports strong national legal equality without a distinctive federal-versus-centralized doctrine.",
+    "representacao": "Women's suffrage was the center of her activism; she denounced male-only 'universal' suffrage and demanded full political citizenship for women. This strongly supports democratic representation.",
+    "poder": "Her tax resistance and challenges to laws excluding women from citizenship demonstrate resistance to unequal state power and support equal civil liberty.",
+    "imigracao": "Her writings on women in colonial Algeria reveal interest in gender under colonial rule, but they do not provide a simple modern immigration-policy doctrine. Keep moderate with anti-colonial caution.",
+    "diplomacia": "Her activism was domestic and colonial-feminist rather than formal foreign policy. Keep moderate.",
+    "intervencao": "No developed military-intervention doctrine is central to her record. Criticism of colonial gender conditions counsels against reading her as a militarist.",
+    "economia": "Auclert linked political citizenship to economic and legal independence for women, supporting equality before property and labor law rather than a complete socialist ownership program.",
+    "controle": "She sought legal reforms securing women's rights but not comprehensive central planning. Use moderate economic regulation.",
+    "comercio": "No reliable trade-policy doctrine is established. Keep moderate.",
+    "religiao": "Though educated in a convent, her mature politics were republican and feminist rather than clerical. This supports a secular civic order.",
+    "moral": "Her campaign for suffrage, divorce reform and women's equal legal status strongly supports progressive gender and social positions.",
+    "tecnologia": "No distinctive technology doctrine is established. Keep moderate."
+  }
+}
