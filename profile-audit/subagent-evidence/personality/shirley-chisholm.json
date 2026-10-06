@@ -1,0 +1,31 @@
+{
+  "id": "shirley-chisholm",
+  "sources": [
+    {
+      "url": "https://history.house.gov/People/Detail/10918",
+      "institution": "U.S. House of Representatives: History, Art & Archives"
+    },
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/shirley-chisholm",
+      "institution": "National Women’s History Museum"
+    },
+    {
+      "url": "https://guides.loc.gov/shirley-chisholm",
+      "institution": "Library of Congress"
+    }
+  ],
+  "evidence": {
+    "representacao": "Election to Congress and the 1972 presidential campaign provide direct evidence for electoral-democratic participation and expanded representation.",
+    "moral": "Her campaign and legislative priorities emphasize racial and gender equality, relevant to the social-progressive side.",
+    "economia": "House biography and policy record point to anti-poverty, education and social-program commitments; map public/private and planning/market axes after policy review.",
+    "imigracao": "Do not infer immigration placement from civil-rights politics alone; seek issue-specific material before scoring.",
+    "estrutura": "Chisholm worked through federal legislative institutions while representing a local Brooklyn constituency; her record supports national civil-rights and social-policy action without a distinct centralization doctrine.",
+    "poder": "Her civil-rights, anti-discrimination and criminal-justice concerns support constitutional protections against unequal state power while retaining ordinary public institutions.",
+    "diplomacia": "Her congressional record was internationalist and generally skeptical of militarized priorities, favoring diplomacy and domestic social investment.",
+    "intervencao": "She opposed the Vietnam War and redirected attention toward social spending, supporting a relatively non-interventionist orientation.",
+    "controle": "Her anti-poverty and social-program agenda supports meaningful regulation and public provision without command planning.",
+    "comercio": "No reliable trade-policy doctrine is established from the reviewed sources.",
+    "religiao": "Her public program was civic and egalitarian rather than religiously governed; no basis for theocracy is established.",
+    "tecnologia": "No distinctive technology doctrine is established."
+  }
+}
