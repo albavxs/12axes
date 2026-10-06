@@ -2928,6 +2928,33 @@
         "moral": "The Second Sex, abortion activism and anti-patriarchal work strongly support progressive gender and bodily-autonomy positions.",
         "tecnologia": "Technology was secondary to freedom and social relations; a moderate stance is appropriate."
       }
+    },
+    {
+      "id": "agnes-heller",
+      "sources": [
+        {
+          "url": "https://www.scielo.org.mx/scielo.php?lng=en&nrm=iso&pid=S0185-16162025000300001&script=sci_abstract&tlng=en",
+          "institution": "UNAM / Estudios Políticos"
+        },
+        {
+          "url": "https://research.monash.edu/en/publications/agnes-heller-and-biopolitics/",
+          "institution": "Monash University"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Heller's later liberal-democratic philosophy emphasized constitutional institutions, pluralism and active citizenship rather than territorial centralization; no strong federal-versus-unitary doctrine is central.",
+        "representacao": "Her mature political thought explicitly defended liberal democracy, deliberation, multiparty representation and active citizenship against elective autocracy.",
+        "poder": "Her life under Nazism and Stalinism and later criticism of Orbán-era authoritarianism strongly support limits on arbitrary state power, civil liberties and constitutional checks.",
+        "imigracao": "Her work on minorities, universalism and pluralism supports inclusion and equal citizenship, though not a specific open-borders program.",
+        "diplomacia": "Her anti-totalitarian and cosmopolitan liberal commitments support international cooperation and dialogue rather than nationalist militarism.",
+        "intervencao": "She was anti-totalitarian but not a doctrinaire pacifist; the evidence supports skepticism toward coercive domination while leaving room for rights-based collective action.",
+        "economia": "Heller moved from Marxism toward a center-left liberal-democratic position, supporting social equality and welfare concerns without retaining a command-economy model.",
+        "controle": "Her later thought rejected Stalinist planning and bureaucratic control while accepting democratic social institutions; this supports moderate regulation rather than centralized planning.",
+        "comercio": "No detailed tariff doctrine is central to her work; her later liberal-democratic outlook is compatible with international openness but not laissez-faire absolutism.",
+        "religiao": "Her political theory is secular and grounded in ethics, dignity and constitutional pluralism rather than religious authority.",
+        "moral": "Her work on ethics, autonomy, minority rights and later New Left themes supports socially progressive and pluralist positions.",
+        "tecnologia": "Her work on biopolitics considered moral and legal limits on genetic and biological technologies, supporting a cautious, human-centered rather than accelerationist technology stance."
+      }
     }
   ]
 }
