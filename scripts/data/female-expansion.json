@@ -1684,7 +1684,7 @@
       "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "review",
-      "profileStatus": "proposed",
+      "profileStatus": "review",
       "bookStatus": "pending",
       "metadataFile": "scripts/data/female-metadata-drafts.json",
       "sources": [
@@ -2913,11 +2913,11 @@
     "targetFemaleCount": 200,
     "remainingUnplanned": 0,
     "readyCandidateCount": 0,
-    "profileReviewCount": 82,
+    "profileReviewCount": 83,
     "profileResearchingCount": 57,
     "profilePendingCount": 29,
     "blockedFromRuntimeCount": 175,
-    "profileProposedCount": 7
+    "profileProposedCount": 6
   },
   "gates": {
     "readyRequires": [

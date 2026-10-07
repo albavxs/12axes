@@ -4649,12 +4649,12 @@
       "book": null,
       "portrait": {
         "path": "/personalities/portraits/kim-jong-suk.jpg",
-        "sourceFile": "Kim Jong-suk.jpg",
+        "sourceFile": "Kim Jeong Suk 1.jpg",
         "sourceName": "Wikimedia Commons",
-        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kim_Jong-suk.jpg",
-        "license": "CC BY-SA 4.0",
-        "attribution": "Juche1912 / Wikimedia Commons",
-        "note": "O Commons registra o arquivo como 'own work' do uploader apesar de representar uma fotografia histórica. A procedência do retrato deve ser revisada antes de promover portraitStatus para ready."
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kim_Jeong_Suk_1.jpg",
+        "license": "Public domain (North Korea)",
+        "attribution": "Unknown photographer; historical photograph dated 1945",
+        "note": "Commons identifies the photograph as a 1945 image first published in North Korea and public domain under the cited DPRK copyright term. Source chain is better than the previous self-published upload, but provenance should still be manually reviewed before portraitStatus=ready."
       },
       "sources": [
         "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002540509",
