@@ -4469,6 +4469,33 @@
         "moral": "Her Conservatism is socially moderate: she operated from a traditional center-right party while accepting major equality protections and environmental obligations. Use a centrist-to-moderately traditional social placement.",
         "tecnologia": "Her industrial strategy, environmental plan and modernization agenda support pragmatic technological development under regulation, not techno-libertarianism."
       }
+    },
+    {
+      "id": "vaira-vike-freiberga",
+      "sources": [
+        {
+          "url": "https://www.president.lv/en/vaira-vike-freiberga",
+          "institution": "Chancery of the President of Latvia"
+        },
+        {
+          "url": "https://www.president.lv/lv/Vaira-Vike-Freiberga-biografija",
+          "institution": "Chancery of the President of Latvia"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Vīķe-Freiberga governed within Latvia's parliamentary constitutional system while strongly supporting integration into European and Atlantic institutions. This favors multilevel/shared governance rather than isolated national centralization.",
+        "representacao": "Her elected presidency, public defense of democracy and work on European historical dialogue strongly support liberal-democratic representation and constitutional institutions.",
+        "poder": "Her biography as a refugee from Soviet occupation and her emphasis on democracy weigh against authoritarian state power, while her NATO advocacy accepts capable defense institutions. This supports a rights-constrained security state.",
+        "imigracao": "Her own refugee and diaspora experience and international career support cultural openness, though the reviewed presidential biography does not establish a detailed immigration program. Use moderately pluralist placement.",
+        "diplomacia": "She played a leading role in Latvia's accession to NATO and the European Union and later served as a UN reform envoy. This strongly supports active alliance and multilateral diplomacy.",
+        "intervencao": "Her NATO orientation accepts collective defense and allied security commitments, placing her away from strict non-interventionism while not implying unilateral militarism.",
+        "economia": "Her presidency coincided with Latvia's integration into European market institutions. The reviewed biography supports market-democratic integration rather than state-socialist ownership, though it is not a detailed economic manifesto.",
+        "controle": "EU-oriented market reform suggests limited-to-moderate state economic control within regulatory institutions rather than centralized planning.",
+        "comercio": "European Union integration strongly supports open regional trade and economic integration rather than protectionist autarky.",
+        "religiao": "Her public arguments emphasize democracy, national identity and European institutions rather than religious governance. Use secular constitutional politics.",
+        "moral": "Her public role included women's leadership, democracy and social issues but not a radical cultural program. Use moderate social liberalism.",
+        "tecnologia": "As a psychologist, academic and supporter of European modernization, she is compatible with evidence-based technological development, though no distinctive technology ideology is established."
+      }
     }
   ]
 }
