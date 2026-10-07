@@ -4793,6 +4793,33 @@
         "moral": "Girls' education, anti-caste work and willingness to defy restrictive gender norms strongly support progressive social values for her historical context.",
         "tecnologia": "Her work centered education and literacy in the nineteenth century; no meaningful modern technology-policy doctrine can be established."
       }
+    },
+    {
+      "id": "hatoon-al-fassi",
+      "sources": [
+        {
+          "url": "https://research.manchester.ac.uk/en/persons/hatoon.alfassi/",
+          "institution": "University of Manchester"
+        },
+        {
+          "url": "https://pure.manchester.ac.uk/ws/portalfiles/portal/cv/ca62fb11-5693-4ebf-b430-2e5636f7c7b4?locale=en_GB",
+          "institution": "University of Manchester"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Al-Fassi is a historian and women's-rights activist rather than a constitutional designer. Her work emphasizes civil society and women's participation in Saudi public institutions, but no reliable centralization-versus-decentralization doctrine is established.",
+        "representacao": "Women's political participation is an explicit area of her research and activism. Her work around Saudi women's public participation strongly supports broader representation and inclusion.",
+        "poder": "Her academic-freedom recognition and activism in a restrictive political environment support greater space for civil society, scholarship and individual rights, rather than unconstrained state authority.",
+        "imigracao": "Her scholarship spans Arabia, the Gulf and the Middle East, but does not establish a detailed immigration or assimilation program. Keep moderate.",
+        "diplomacia": "Her international academic career and cross-border work support exchange and cooperation, but no developed foreign-policy doctrine is established.",
+        "intervencao": "No reliable military-intervention doctrine is established. Her work is civic, academic and rights-oriented, so use a restrained position with caution.",
+        "economia": "Her contribution to SDG work includes poverty and gender equality, but the reviewed sources do not establish a socialist or market ownership doctrine. Use moderate social-development economics.",
+        "controle": "Women's empowerment and development policy imply some public responsibility, but no comprehensive planning-versus-market doctrine is established. Keep moderate.",
+        "comercio": "No reliable tariff or international-trade doctrine is established.",
+        "religiao": "Al-Fassi identifies with Islamic feminism and studies women across pre-Islamic, Islamic and modern Arabia. She seeks reform and women's rights within Muslim contexts rather than secular eradication of religion or clerical authoritarianism. Use a moderately religious/pluralist placement.",
+        "moral": "Feminism, women's rights and political participation strongly support progressive gender and social values in the Saudi context.",
+        "tecnologia": "Her work is historical and social rather than technological. No distinctive technology ideology is established."
+      }
     }
   ]
 }
