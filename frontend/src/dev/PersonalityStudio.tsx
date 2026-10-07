@@ -122,6 +122,7 @@ function PersonalityStudio() {
   const [form, setForm] = useState<EditableDraft | null>(null);
   const [saving, setSaving] = useState(false);
   const [auditing, setAuditing] = useState(false);
+  const [auditingAll, setAuditingAll] = useState(false);
   const [portraitBusy, setPortraitBusy] = useState(false);
   const [auditResult, setAuditResult] = useState<{ ok: boolean; message: string; output: string } | null>(null);
   const [notice, setNotice] = useState<{ tone: 'good' | 'bad'; text: string } | null>(null);
@@ -225,6 +226,8 @@ function PersonalityStudio() {
     runAudit: 'Rodar auditoria',
     runningAudit: 'Auditando…',
     auditRunnerHint: 'Valida as 240 respostas existentes com o validador do projeto; não gera pontuação automaticamente.',
+    validateAllAudits: 'Pré-validar 188 audits',
+    validatingAllAudits: 'Pré-validando…',
     dossier: 'Dossiê',
     sources: 'Fontes',
     evidenceFields: 'Campos de evidência',
@@ -354,6 +357,8 @@ function PersonalityStudio() {
     runAudit: 'Run audit',
     runningAudit: 'Auditing…',
     auditRunnerHint: 'Validates existing 240 answers with the project validator; it does not generate scores automatically.',
+    validateAllAudits: 'Pre-validate 188 audits',
+    validatingAllAudits: 'Pre-validating…',
     dossier: 'Dossier',
     sources: 'Sources',
     evidenceFields: 'Evidence fields',
@@ -469,6 +474,27 @@ function PersonalityStudio() {
       if (group === 'book' && field !== 'enabled' && field in next.book) (next.book as unknown as Record<string, string>)[field] = String(value);
       return next;
     });
+  }
+
+  async function validateAllAuditDrafts() {
+    setAuditingAll(true);
+    setNotice(null);
+    try {
+      const response = await fetch('/__dev/personality-studio-api/audit-all', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ source: 'staging', id: 'bulk-audit' }),
+      });
+      const body = await response.json();
+      if (!response.ok) throw new Error(body.error || 'Could not pre-validate audit drafts');
+      const failedIds = Array.isArray(body.failed) ? body.failed.map((item: { id: string }) => item.id) : [];
+      const suffix = failedIds.length ? ` Falharam: ${failedIds.slice(0, 12).join(', ')}${failedIds.length > 12 ? '…' : ''}` : '';
+      setNotice({ tone: body.ok ? 'good' : 'bad', text: `${body.message}${suffix}` });
+    } catch (error) {
+      setNotice({ tone: 'bad', text: error instanceof Error ? error.message : String(error) });
+    } finally {
+      setAuditingAll(false);
+    }
   }
 
   async function downloadPendingPortraits() {
@@ -619,6 +645,9 @@ function PersonalityStudio() {
           <span><strong>{payload.stats.womenAuditReview}</strong>{ui.auditReview}</span>
         </div>
         <div className="studio-workbar-actions">
+          <button className="studio-icon-button studio-bulk-button" type="button" disabled={auditingAll} onClick={validateAllAuditDrafts}>
+            {auditingAll ? ui.validatingAllAudits : ui.validateAllAudits}
+          </button>
           <button className="studio-icon-button studio-bulk-button" type="button" disabled={saving} onClick={downloadPendingPortraits}>{ui.downloadPendingPortraits}</button>
         </div>
         <div className="studio-composition">
