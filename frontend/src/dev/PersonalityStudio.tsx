@@ -818,7 +818,7 @@ function PersonalityStudio() {
                         <p className="studio-eyebrow">{ui.profileCard}</p>
                         <strong>
                           {selected.profile
-                            ? ui.complete
+                            ? (selected.source === 'staging' && selected.pipeline?.profileStatus !== 'ready' ? ui.proposalReady : ui.complete)
                             : selected.auditProfile
                               ? ui.auditAnswersReady
                               : selected.proposalProfile
@@ -832,11 +832,17 @@ function PersonalityStudio() {
                                   : ui.auditNotStarted}
                         </strong>
                         <span>
-                          {selected.profile ? ui.readonly : selected.auditProfile ? ui.draftReadonly : selected.proposalProfile ? ui.proposalReadonly : ui.noAxisProfile}
+                          {selected.profile
+                            ? (selected.source === 'staging' && selected.pipeline?.profileStatus !== 'ready' ? ui.proposalReadonly : ui.readonly)
+                            : selected.auditProfile
+                              ? ui.draftReadonly
+                              : selected.proposalProfile
+                                ? ui.proposalReadonly
+                                : ui.noAxisProfile}
                           {selected.auditPlan?.batch ? ` · lote ${selected.auditPlan.batch}/${payload.stats.womenAuditBatches}` : ''}
                         </span>
                       </div>
-                      {!selected.profile ? (
+                      {(!selected.profile || (selected.source === 'staging' && selected.pipeline?.profileStatus !== 'ready')) ? (
                         <button className="studio-icon-button" type="button" onClick={runAudit} disabled={auditing}>
                           {auditing
                             ? (selected.audit.answerExists || selected.audit.pendingExists ? ui.runningAudit : ui.preparingAudit)
@@ -943,7 +949,11 @@ function PersonalityStudio() {
                   <div><p className="studio-eyebrow">profile</p><h3>{ui.axes}</h3></div>
                   {selected.profile || selected.auditProfile || selected.proposalProfile ? (
                     <span className="studio-readonly-label">
-                      {selected.profile ? ui.readonly : selected.auditProfile ? ui.draftReadonly : ui.proposalReadonly}
+                      {selected.profile
+                        ? (selected.source === 'staging' && selected.pipeline?.profileStatus !== 'ready' ? ui.proposalReadonly : ui.readonly)
+                        : selected.auditProfile
+                          ? ui.draftReadonly
+                          : ui.proposalReadonly}
                     </span>
                   ) : null}
                 </div>
