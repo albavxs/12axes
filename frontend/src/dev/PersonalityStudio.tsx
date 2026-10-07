@@ -44,7 +44,7 @@ type Payload = {
   stats: {
     totalEntries: number; runtime: number; staging: number; runtimeMale: number;
     runtimeFemale: number; plannedFemale: number; errors: number; warnings: number; ok: number; localDrafts: number;
-    womenAuditDone: number; womenAuditPending: number; womenAuditReview: number; womenAuditBatches: number;
+    womenAuditDone: number; womenVectorReady: number; womenAuditPending: number; womenAuditReview: number; womenAuditBatches: number;
   };
   personalities: Personality[];
 };
@@ -166,6 +166,7 @@ function PersonalityStudio() {
     errors: 'Erros',
     drafts: 'Rascunhos',
     womenAudits: 'auditorias',
+    womenVectors: '12 eixos',
     auditQueue: 'na fila',
     auditReview: 'aguardando revisão',
     auditStates: 'Todas auditorias',
@@ -298,6 +299,7 @@ function PersonalityStudio() {
     errors: 'Errors',
     drafts: 'Drafts',
     womenAudits: 'audits',
+    womenVectors: '12 axes',
     auditQueue: 'queued',
     auditReview: 'awaiting review',
     auditStates: 'All audits',
@@ -644,6 +646,7 @@ function PersonalityStudio() {
           <span className={payload.stats.errors ? 'has-error' : ''}><strong>{payload.stats.errors}</strong>{ui.errors}</span>
           <span><strong>{payload.stats.localDrafts}</strong>{ui.drafts}</span>
           <span><strong>{payload.stats.womenAuditDone}/200</strong>{ui.womenAudits}</span>
+          <span><strong>{payload.stats.womenVectorReady}/200</strong>{ui.womenVectors}</span>
           <span><strong>{payload.stats.womenAuditReview}</strong>{ui.auditReview}</span>
         </div>
         <div className="studio-workbar-actions">
