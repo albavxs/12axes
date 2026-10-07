@@ -4955,6 +4955,33 @@
         "moral": "Her scholarship on women's history, gender, colonialism and feminist critique strongly supports gender equality and progressive social values.",
         "tecnologia": "Her work is historical and religious-studies scholarship rather than technology policy. No distinctive technology ideology is established."
       }
+    },
+    {
+      "id": "loujain-al-hathloul",
+      "sources": [
+        {
+          "url": "https://www.loujainalhathloul.org/about-loujain",
+          "institution": "Loujain al-Hathloul campaign/family site"
+        },
+        {
+          "url": "https://www.menarights.org/en/documents/intimidation-and-reprisals-cooperation-un-submission-secretary-general-1",
+          "institution": "MENA Rights Group"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Al-Hathloul's activism targets women's legal status and state restrictions in Saudi Arabia rather than territorial constitutional design. No federal-versus-centralized doctrine is established.",
+        "representacao": "She built public campaigns to expand women's voice and autonomy and engaged international human-rights mechanisms. This strongly supports broader political participation and civic representation.",
+        "poder": "Repeated arrest, imprisonment, alleged torture, indefinite travel restrictions and repression for peaceful activism define her political experience. Her activism strongly supports civil liberties and sharp limits on arbitrary state coercion.",
+        "imigracao": "Her unresolved travel ban and international education experience strongly support freedom of movement, though she has not articulated a general immigration or border doctrine. Use an open-mobility tendency with caution.",
+        "diplomacia": "She has engaged international human-rights institutions and transnational advocacy rather than military politics. This supports international legal and diplomatic pressure.",
+        "intervencao": "Her cause relies on rights advocacy, civil society and international scrutiny rather than military intervention. Use a restrained non-military orientation.",
+        "economia": "Her shelter work and women's-autonomy activism include economic reintegration of women escaping abuse, but she does not offer a broad socialist or market doctrine. Keep moderate.",
+        "controle": "She supports legal reform and protective institutions for women without a general economic-planning program. Keep moderate.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "Her campaigns oppose male guardianship and coercive restrictions justified through conservative interpretations, but she does not advocate suppressing Islam. This supports reformist/plural religious politics rather than theocracy.",
+        "moral": "Women's freedom to drive, bodily and legal autonomy, ending guardianship and protection from domestic violence strongly support progressive gender values.",
+        "tecnologia": "Social media was central to her consciousness-raising campaigns and public activism. This supports positive use of digital technology while her later repression highlights the need for privacy and rights safeguards."
+      }
     }
   ]
 }
