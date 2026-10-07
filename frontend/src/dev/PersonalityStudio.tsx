@@ -22,7 +22,8 @@ type Personality = {
   id: string; name: string; role: string; category: string;
   representation: 'male' | 'female'; lifespan: string; description: string;
   imagePath?: string; previewImagePath?: string; imageSourceFile?: string; imageSourceName?: string; imageSourceUrl?: string; imageSourceImageUrl?: string; imageNote?: string;
-  translated: Translation | null; profile: Profile | null; auditProfile: Profile | null; auditProfileSource: 'draft' | 'archived' | null; book: Book | null;
+  translated: Translation | null; profile: Profile | null; auditProfile: Profile | null; auditProfileSource: 'draft' | 'archived' | null;
+  proposalProfile: Profile | null; proposalProfileStatus: string | null; proposalProfileConfidence: string | null; book: Book | null;
   evidence: { sources?: unknown[]; evidence?: Record<string, unknown> } | null;
   evidenceReady: boolean;
   audit: { answerExists: boolean; pendingExists: boolean; packetExists: boolean };
@@ -200,6 +201,8 @@ function PersonalityStudio() {
     axes: 'Perfil em 12 eixos',
     readonly: 'resultado salvo · somente leitura',
     draftReadonly: 'vetor calculado das 240 respostas · aguardando sua revisão',
+    proposalReadonly: 'proposta editorial baseada em evidências · ainda não validada pelas 240 perguntas',
+    proposalReady: 'Proposta de 12 eixos pronta',
     axesHelp: 'Cada eixo vai de 0 (polo à esquerda) a 100 (polo à direita). Em drafts, o valor é calculado das 240 respostas + arquétipo.',
     noAxisProfile: 'Ainda não existem respostas suficientes para calcular os 12 eixos desta personalidade.',
     dataCard: 'Dados',
@@ -818,7 +821,9 @@ function PersonalityStudio() {
                             ? ui.complete
                             : selected.auditProfile
                               ? ui.auditAnswersReady
-                              : selected.audit.answerExists
+                              : selected.proposalProfile
+                                ? ui.proposalReady
+                                : selected.audit.answerExists
                               ? ui.auditComplete
                               : selected.audit.pendingExists
                                 ? ui.auditAnswersReady
@@ -827,7 +832,7 @@ function PersonalityStudio() {
                                   : ui.auditNotStarted}
                         </strong>
                         <span>
-                          {selected.profile ? ui.readonly : selected.auditProfile ? ui.draftReadonly : ui.noAxisProfile}
+                          {selected.profile ? ui.readonly : selected.auditProfile ? ui.draftReadonly : selected.proposalProfile ? ui.proposalReadonly : ui.noAxisProfile}
                           {selected.auditPlan?.batch ? ` · lote ${selected.auditPlan.batch}/${payload.stats.womenAuditBatches}` : ''}
                         </span>
                       </div>
@@ -936,13 +941,17 @@ function PersonalityStudio() {
               <section className="studio-panel studio-axis-panel">
                 <div className="studio-panel-title studio-panel-title--row">
                   <div><p className="studio-eyebrow">profile</p><h3>{ui.axes}</h3></div>
-                  {selected.profile || selected.auditProfile ? <span className="studio-readonly-label">{selected.profile ? ui.readonly : ui.draftReadonly}</span> : null}
+                  {selected.profile || selected.auditProfile || selected.proposalProfile ? (
+                    <span className="studio-readonly-label">
+                      {selected.profile ? ui.readonly : selected.auditProfile ? ui.draftReadonly : ui.proposalReadonly}
+                    </span>
+                  ) : null}
                 </div>
                 <p className="studio-axis-help">{ui.axesHelp}</p>
-                {selected.profile || selected.auditProfile ? (
+                {selected.profile || selected.auditProfile || selected.proposalProfile ? (
                   <div className="studio-axes">
                     {payload.axes.map((axis) => {
-                      const activeProfile = selected.profile ?? selected.auditProfile;
+                      const activeProfile = selected.profile ?? selected.auditProfile ?? selected.proposalProfile;
                       const value = activeProfile?.vector[axis.id];
                       const position = typeof value === 'number' ? Math.max(0, Math.min(100, value)) : 50;
                       return (
