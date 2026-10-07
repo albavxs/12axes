@@ -6,7 +6,7 @@ name: Jiang Qing
 role: Dirigente comunista e figura da Revolução Cultural
 category: politico
 lifespan: 1914–1991
-description: Atriz antes de se tornar uma dirigente do Partido Comunista Chinês, Jiang Qing foi esposa de Mao Zedong, integrou o Politburo e exerceu papel central na política cultural da Revolução Cultural. Após a morte de Mao, foi presa como integrante do chamado Grupo dos Quatro e posteriormente condenada.
+description: Atriz antes de se tornar dirigente do Partido Comunista Chinês, Jiang Qing foi esposa de Mao Zedong, integrou o Politburo e teve papel central na política cultural da Revolução Cultural. Após a morte de Mao, foi presa com o Grupo dos Quatro e posteriormente condenada.
 
 METODOLOGIA (obrigatória):
 - Para CADA um dos 12 eixos, escreva primeiro um personaBrief de 1–2 frases conectando especificamente os dados curados ao tema daquele eixo.
