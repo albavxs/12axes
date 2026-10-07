@@ -2770,7 +2770,7 @@
       "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "review",
-      "profileStatus": "researching",
+      "profileStatus": "proposed",
       "bookStatus": "pending",
       "sources": [
         "https://balcanica.rs/index.php/journal/article/download/128/135/131",
@@ -2806,7 +2806,7 @@
       "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "review",
-      "profileStatus": "researching",
+      "profileStatus": "proposed",
       "bookStatus": "pending",
       "sources": [
         "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002540509",
@@ -2914,10 +2914,10 @@
     "remainingUnplanned": 0,
     "readyCandidateCount": 0,
     "profileReviewCount": 83,
-    "profileResearchingCount": 57,
+    "profileResearchingCount": 55,
     "profilePendingCount": 29,
     "blockedFromRuntimeCount": 175,
-    "profileProposedCount": 6
+    "profileProposedCount": 8
   },
   "gates": {
     "readyRequires": [
