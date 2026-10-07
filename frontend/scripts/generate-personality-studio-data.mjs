@@ -370,14 +370,14 @@ const stagingEntries = await Promise.all(
         imageSourceImageUrl: draft?.portrait?.sourceImageUrl ?? '',
         imageNote: draft?.portrait?.note ?? '',
         translated,
-        profile: null,
+        profile: candidate?.profileVector
+          ? { personalityId: id, vector: candidate.profileVector }
+          : null,
         auditProfile: auditComputed.profile,
         auditProfileSource: auditComputed.source,
-        proposalProfile: candidate?.profileVector
-          ? { personalityId: id, vector: candidate.profileVector }
-          : dossier?.proposedVector
-            ? { personalityId: id, vector: dossier.proposedVector }
-            : null,
+        proposalProfile: !candidate?.profileVector && dossier?.proposedVector
+          ? { personalityId: id, vector: dossier.proposedVector }
+          : null,
         proposalProfileStatus: candidate?.profileVectorSource ?? dossier?.proposedVectorStatus ?? null,
         proposalProfileConfidence: candidate?.profileVectorConfidence ?? dossier?.proposedVectorConfidence ?? null,
         book,
