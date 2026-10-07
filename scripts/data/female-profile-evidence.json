@@ -4523,6 +4523,33 @@
         "moral": "Reproductive health, economic autonomy, anti-violence policy and women's rights strongly support progressive gender and social values.",
         "tecnologia": "Ciudad Mujer emphasizes evidence-based integrated service delivery and evaluation, indicating pragmatic institutional modernization rather than a broad technology ideology."
       }
+    },
+    {
+      "id": "viorica-dancila",
+      "sources": [
+        {
+          "url": "https://www.europarl.europa.eu/news/ro/press-room/20190109IPR23015/presedintia-romaniei-la-consiliul-ue-dezbatere-cu-premierul-viorica-dancila",
+          "institution": "European Parliament"
+        },
+        {
+          "url": "https://www.europarl.europa.eu/news/en/press-room/20181106IPR18326/romania-meps-are-deeply-concerned-about-judicial-independence-and-rule-of-law",
+          "institution": "European Parliament"
+        }
+      ],
+      "evidence": {
+        "estrutura": "As prime minister, Dăncilă worked through Romania's national government while leading an EU Council presidency focused on cohesion among member states and reducing regional development gaps. This supports a conventional national state embedded in multilevel EU governance rather than a strong federalist or decentralist doctrine.",
+        "representacao": "Her government operated within Romania's electoral parliamentary system, but the European Parliament raised serious concerns about judicial independence, checks and balances, anti-corruption safeguards and treatment of protests during her premiership. This supports a democratic but institutionally contested placement rather than a maximal liberal-democratic score.",
+        "poder": "Her government emphasized citizen security, stronger cyber protection and migration enforcement, while the EP criticized disproportionate police response to protests and risks to judicial independence. This supports a relatively stronger order/security orientation than liberal-rights profiles.",
+        "imigracao": "Dăncilă's EU presidency priorities included coherent management of migration flows and strengthening the EU's external borders. This supports controlled/restrictive migration policy rather than open-border multiculturalism.",
+        "diplomacia": "Her presidency of the EU Council emphasized cohesion, enlargement toward the Western Balkans and common European priorities. This supports active European diplomacy and institutional cooperation.",
+        "intervencao": "The reviewed sources focus on EU security and enlargement rather than military intervention. She supports European collective action but no strong doctrine of unilateral external intervention is established; use a moderate position.",
+        "economia": "Her EU agenda emphasized reducing development gaps, cohesion policy, economic growth and competitiveness. As a Social Democratic politician, this fits a mixed economy with social and regional public policy rather than laissez-faire minimalism.",
+        "controle": "Her policy program combined competitiveness and industrial digitalization with cohesion funds and public development policy, supporting moderate-to-substantial economic coordination within markets.",
+        "comercio": "Her EU-centered agenda presumes participation in the Single Market and regional economic integration. This supports relatively open European trade rather than national protectionist autarky.",
+        "religiao": "The reviewed policy agenda is institutional and secular; no evidence supports religious government. Romania's cultural conservatism should not be substituted for Dăncilă's own church-state doctrine.",
+        "moral": "Her party and governing context were socially more conservative than Western European progressive parties, while her own EU agenda focused more on economic and institutional issues than cultural reform. Use a moderate-to-traditional social placement with caution.",
+        "tecnologia": "Digitalization, cyber protection and European industrial competitiveness were explicit priorities of her 2019 EU Council presidency. This supports pragmatic pro-technology modernization under state/EU coordination."
+      }
     }
   ]
 }
