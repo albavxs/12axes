@@ -4280,6 +4280,33 @@
         "moral": "Her political agency challenged the gender constraints of her era and her independence activism supports civic equality in a broad historical sense, but modern cultural-policy questions remain underdetermined.",
         "tecnologia": "No meaningful modern technology-policy preference can be inferred from the surviving historical record."
       }
+    },
+    {
+      "id": "rigoberta-menchu",
+      "sources": [
+        {
+          "url": "https://www.nobelprize.org/prizes/peace/1992/tum/facts/",
+          "institution": "Nobel Prize Outreach"
+        },
+        {
+          "url": "https://www.nobelprize.org/prizes/peace/1992/tum/lecture/",
+          "institution": "Nobel Prize Outreach"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Menchú's Nobel lecture argues that a democratic Guatemala must recognize Indigenous identity and peoples' rights. This supports plural, community-sensitive governance rather than forced cultural centralization.",
+        "representacao": "She explicitly links democracy to Indigenous participation, human rights and political inclusion, strongly supporting representative and participatory democratic inclusion.",
+        "poder": "Her life and activism opposed military repression, torture, genocide and discrimination by state forces. This strongly supports rights constraints on coercive state power.",
+        "imigracao": "Her exile in Mexico and emphasis on ethno-cultural reconciliation support protection of displaced people and cultural pluralism rather than forced assimilation, though she does not advocate unrestricted borders.",
+        "diplomacia": "Menchú increasingly favored reconciliation and participated in the international process around Guatemalan peace negotiations. This strongly supports negotiation, peace-building and multilateral engagement.",
+        "intervencao": "Her mature public position emphasizes peace, reconciliation and political settlement rather than military escalation. This supports restraint and non-interventionist instincts, though her earlier movement context included armed conflict around her.",
+        "economia": "Her activism grew from Indigenous peasant communities, farm-worker exploitation and demands for social justice. This supports redistribution, labor protection and communal rights rather than laissez-faire economics.",
+        "controle": "She supports public responsibility for rights, development and Indigenous communities, but the sources do not establish comprehensive command planning. Use moderate-to-high social coordination.",
+        "comercio": "Her critique of plantation exploitation and marginalization is economically relevant, but the reviewed Nobel material does not establish a tariff or free-trade doctrine. Keep moderate.",
+        "religiao": "Her early activism involved the Catholic Church while her Nobel language also centers Maya culture and plural Indigenous identity. This supports religious and cultural pluralism rather than clerical government.",
+        "moral": "Her work for Indigenous rights, women's rights, anti-racism and ethno-cultural reconciliation strongly supports egalitarian and progressive social values.",
+        "tecnologia": "Her public thought emphasizes community, human rights and respect for Mother Nature rather than technological acceleration. Use a cautious, human- and environment-centered technology position."
+      }
     }
   ]
 }
