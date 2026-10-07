@@ -102,7 +102,23 @@
         "religiao": "Public thought is secular and grounded in race, gender, class and political analysis.",
         "moral": "Black feminism and LGBTQ/intersectional liberation strongly support progressive social positions.",
         "tecnologia": "Technology is secondary to social liberation; moderate."
-      }
+      },
+      "proposedVector": {
+        "estrutura": 59.3,
+        "representacao": 93.6,
+        "poder": 6.3,
+        "imigracao": 10.5,
+        "diplomacia": 5.1,
+        "intervencao": 96,
+        "economia": 97.2,
+        "controle": 90.1,
+        "comercio": 72.9,
+        "religiao": 97.6,
+        "moral": 97.9,
+        "tecnologia": 72.5
+      },
+      "proposedVectorStatus": "audit-output-prevalidated",
+      "proposedVectorConfidence": "high-formal-medium-editorial"
     },
     {
       "id": "ayn-rand",
@@ -4171,7 +4187,23 @@
         "religiao": "Her political identity was secular communist, and there is no basis for religious governance. This strongly supports secular public institutions.",
         "moral": "Her anti-fascism, internationalism and opposition to racial persecution support egalitarian social values, though she was not a theorist of the later cultural issues in this axis.",
         "tecnologia": "Her politics emerged from industrial modernity and revolutionary modernization but she left no distinctive technology doctrine. Use a moderate pro-modernization position."
-      }
+      },
+      "proposedVector": {
+        "estrutura": 25.6,
+        "representacao": 37.6,
+        "poder": 67.4,
+        "imigracao": 15.2,
+        "diplomacia": 60,
+        "intervencao": 25.7,
+        "economia": 97.2,
+        "controle": 96,
+        "comercio": 63.3,
+        "religiao": 96.4,
+        "moral": 77.6,
+        "tecnologia": 65.3
+      },
+      "proposedVectorStatus": "audit-output-prevalidated",
+      "proposedVectorConfidence": "high-formal-medium-editorial"
     },
     {
       "id": "pagu",
@@ -5444,7 +5476,23 @@
         "religiao": "Her public political identity and the ruling party were officially secular communist. This supports secular state institutions.",
         "moral": "The regime combined socialist employment and education for women with coercive pronatalist policy and restrictions on abortion and contraception. The moral axis is therefore mixed and should not be inferred from communist labels alone.",
         "tecnologia": "Her official persona strongly emphasized chemistry, science and industrial modernization, although scholarship documents the propagandistic construction of her scientific prestige. This still supports a modernist/technology-oriented public image."
-      }
+      },
+      "proposedVector": {
+        "estrutura": 6,
+        "representacao": 5,
+        "poder": 88,
+        "imigracao": 50,
+        "diplomacia": 58,
+        "intervencao": 20,
+        "economia": 91,
+        "controle": 91,
+        "comercio": 82,
+        "religiao": 84,
+        "moral": 34,
+        "tecnologia": 61
+      },
+      "proposedVectorStatus": "evidence-backed-editorial-proposal",
+      "proposedVectorConfidence": "low-to-medium"
     },
     {
       "id": "jiang-qing",
@@ -5471,7 +5519,23 @@
         "religiao": "Cultural Revolution politics attacked traditional and religious institutions and promoted explicitly secular revolutionary ideology. This strongly supports irreligious state orientation.",
         "moral": "She championed radical attacks on inherited cultural hierarchy and remade art around revolutionary models. That is culturally radical, but the project's modern progressive/traditional axis is not a direct one-to-one mapping.",
         "tecnologia": "Maoist campaigns promoted industrial modernization while also attacking expert and academic authority during the Cultural Revolution. Evidence is mixed; avoid an extreme technology score without the 240-question audit."
-      }
+      },
+      "proposedVector": {
+        "estrutura": 9,
+        "representacao": 7,
+        "poder": 93,
+        "imigracao": 52,
+        "diplomacia": 65,
+        "intervencao": 22,
+        "economia": 93,
+        "controle": 96,
+        "comercio": 86,
+        "religiao": 94,
+        "moral": 54,
+        "tecnologia": 59
+      },
+      "proposedVectorStatus": "evidence-backed-editorial-proposal",
+      "proposedVectorConfidence": "medium"
     },
     {
       "id": "kim-jong-suk",
@@ -5498,7 +5562,23 @@
         "religiao": "Communist revolutionary identity supports a secular political orientation, but there is insufficient personal writing to justify an extreme score solely from later state atheism.",
         "moral": "The later regime recast her image to serve changing gender ideals. The KCI study specifically warns that her symbolic role was reconstructed over time, so modern social-values scoring must be conservative.",
         "tecnologia": "No distinctive personal technology doctrine is established. Avoid importing later North Korean industrial or military policy into her profile."
-      }
+      },
+      "proposedVector": {
+        "estrutura": 40,
+        "representacao": 30,
+        "poder": 77,
+        "imigracao": 50,
+        "diplomacia": 72,
+        "intervencao": 24,
+        "economia": 82,
+        "controle": 78,
+        "comercio": 60,
+        "religiao": 78,
+        "moral": 46,
+        "tecnologia": 52
+      },
+      "proposedVectorStatus": "evidence-backed-editorial-proposal",
+      "proposedVectorConfidence": "low-to-medium"
     },
     {
       "id": "vilma-espin",
@@ -5525,7 +5605,23 @@
         "religiao": "Her political work was secular and rooted in communist mass organizations rather than religious governance. This supports an irreligious/secular state placement.",
         "moral": "Women's equality, childcare, literacy, family-law reform and participation in employment were central to her public work. This strongly supports progressive gender and social policy.",
         "tecnologia": "Espín trained as a chemical engineer and worked in industrial development as well as politics. This supports a modernist, pro-science and pro-technology orientation."
-      }
+      },
+      "proposedVector": {
+        "estrutura": 20,
+        "representacao": 32,
+        "poder": 75,
+        "imigracao": 24,
+        "diplomacia": 63,
+        "intervencao": 33,
+        "economia": 87,
+        "controle": 84,
+        "comercio": 74,
+        "religiao": 82,
+        "moral": 79,
+        "tecnologia": 78
+      },
+      "proposedVectorStatus": "evidence-backed-editorial-proposal",
+      "proposedVectorConfidence": "medium"
     },
     {
       "id": "celia-sanchez",
@@ -5552,7 +5648,23 @@
         "religiao": "Her revolutionary public role was secular. There is no evidence in the reviewed material for religious government.",
         "moral": "The critical biography emphasizes her status as a revolutionary woman who challenged gender conventions. This supports social egalitarianism, while not proving views on every modern cultural issue.",
         "tecnologia": "Her record focuses organization, war, archival preservation and government rather than a distinct technology ideology. Use a pragmatic middle-to-modernist placement."
-      }
+      },
+      "proposedVector": {
+        "estrutura": 19,
+        "representacao": 32,
+        "poder": 78,
+        "imigracao": 29,
+        "diplomacia": 62,
+        "intervencao": 34,
+        "economia": 87,
+        "controle": 84,
+        "comercio": 77,
+        "religiao": 79,
+        "moral": 73,
+        "tecnologia": 69
+      },
+      "proposedVectorStatus": "evidence-backed-editorial-proposal",
+      "proposedVectorConfidence": "medium"
     },
     {
       "id": "haydee-santamaria",
@@ -5579,7 +5691,23 @@
         "religiao": "Her politics and cultural administration were secular, with no evidence for religious governance.",
         "moral": "Duke's biography highlights her cultural protection of queer, Black and feminist artists even within a restrictive state environment. This provides unusually strong evidence for progressive cultural inclusion.",
         "tecnologia": "Her record centers culture and revolutionary organization, not a distinct technology doctrine. Use a moderate modernist placement."
-      }
+      },
+      "proposedVector": {
+        "estrutura": 22,
+        "representacao": 40,
+        "poder": 75,
+        "imigracao": 20,
+        "diplomacia": 64,
+        "intervencao": 44,
+        "economia": 86,
+        "controle": 80,
+        "comercio": 73,
+        "religiao": 78,
+        "moral": 85,
+        "tecnologia": 72
+      },
+      "proposedVectorStatus": "evidence-backed-editorial-proposal",
+      "proposedVectorConfidence": "medium"
     },
     {
       "id": "tamara-bunke",
@@ -5606,7 +5734,23 @@
         "religiao": "Her activism was secular communist, and the reviewed sources provide no basis for religious governance.",
         "moral": "Her revolutionary internationalism and participation in women's organizations support egalitarian social values, but she was not a theorist of later cultural-policy questions.",
         "tecnologia": "No distinctive technology doctrine is documented. Her intelligence and communications work indicates practical modernism but not an ideological technology program."
-      }
+      },
+      "proposedVector": {
+        "estrutura": 30,
+        "representacao": 38,
+        "poder": 78,
+        "imigracao": 16,
+        "diplomacia": 88,
+        "intervencao": 28,
+        "economia": 90,
+        "controle": 86,
+        "comercio": 66,
+        "religiao": 87,
+        "moral": 78,
+        "tecnologia": 65
+      },
+      "proposedVectorStatus": "evidence-backed-editorial-proposal",
+      "proposedVectorConfidence": "medium"
     },
     {
       "id": "dolores-ibarruri",
@@ -5633,7 +5777,23 @@
         "religiao": "Her public ideology was secular communist and opposed clerical political dominance. This strongly supports secular state institutions.",
         "moral": "Her mobilization of women and working-class politics challenged traditional gender and class hierarchy, supporting progressive equality, though her views predate many present-day cultural issues.",
         "tecnologia": "Her politics were rooted in industrial working-class modernity and socialist modernization, but no distinctive technology doctrine is established. Use a moderate pro-modernization placement."
-      }
+      },
+      "proposedVector": {
+        "estrutura": 25,
+        "representacao": 46,
+        "poder": 73,
+        "imigracao": 25,
+        "diplomacia": 68,
+        "intervencao": 48,
+        "economia": 90,
+        "controle": 89,
+        "comercio": 74,
+        "religiao": 88,
+        "moral": 64,
+        "tecnologia": 69
+      },
+      "proposedVectorStatus": "evidence-backed-editorial-proposal",
+      "proposedVectorConfidence": "medium"
     }
   ]
 }
