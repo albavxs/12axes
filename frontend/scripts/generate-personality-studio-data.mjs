@@ -415,6 +415,7 @@ const stats = {
   ok: entries.filter((entry) => entry.validation.errors.length === 0 && entry.validation.warnings.length === 0).length,
   localDrafts: entries.filter((entry) => entry.localDraft).length,
   womenAuditDone: entries.filter((entry) => entry.representation === 'female' && entry.audit.answerExists).length,
+  womenVectorReady: entries.filter((entry) => entry.representation === 'female' && (entry.profile?.vector || entry.auditProfile?.vector)).length,
   womenAuditPending: womenAuditQueue.length,
   womenAuditReview: entries.filter((entry) => entry.representation === 'female' && !entry.audit.answerExists && entry.audit.pendingExists).length,
   womenAuditBatches: Math.ceil(womenAuditQueue.length / 15),
