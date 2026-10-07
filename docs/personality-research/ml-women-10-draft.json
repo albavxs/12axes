@@ -1,11 +1,11 @@
 {
-  "status": "DRAFT_NOT_VALIDATED",
+  "status": "STAGED_PENDING_EDITORIAL_AND_240Q_AUDIT",
   "notes": [
-    "Este arquivo é pesquisa editorial, NÃO é carregado pelo backend nem aprovado no Personality Studio.",
-    "Valores de cada eixo são estimativas iniciais sujeitas a revisão documental independente, especialmente militarismo, autocracia, imigração e eixo tecnologia/biologia.",
-    "Exigem-se retratos reais, arquivos locais, licenças/fontes verificadas e validação completa antes de copiar os registros para personalities.json e personality-profiles.json.",
-    "Angela Davis representa tradição marxista e atuação histórica no CPUSA; não se deve automaticamente atribuir apoio a governos autocráticos.",
-    "Biografias norte-coreanas de Kim Jong-suk precisam de especial cautela com fontes oficiais."
+    "Os 10 nomes já estão representados no pipeline de staging; Angela Davis e Olga Benário já existiam e foram reaproveitadas sem duplicação.",
+    "Os vetores deste arquivo continuam sendo estimativas editoriais provisórias e NÃO são carregados pelo backend.",
+    "O perfil político definitivo deve vir do fluxo de auditoria humana de 240 perguntas + arquétipo e só então ser promovido a ready.",
+    "Retratos possuem fonte/licença/atribuição preparadas no staging; assets locais ainda devem ser baixados/revisados pelo Personality Studio quando ausentes.",
+    "Kim Jong-suk e Elena Ceaușescu permanecem em researching por limitações de atribuição individual e/ou qualidade documental."
   ],
   "entries": [
     {
@@ -38,7 +38,8 @@
         "religiao": 81,
         "moral": 29,
         "tecnologia": 61
-      }
+      },
+      "pipelineStaged": true
     },
     {
       "id": "jiang-qing",
@@ -70,7 +71,8 @@
         "religiao": 92,
         "moral": 54,
         "tecnologia": 59
-      }
+      },
+      "pipelineStaged": true
     },
     {
       "id": "kim-jong-suk",
@@ -102,7 +104,8 @@
         "religiao": 66,
         "moral": 46,
         "tecnologia": 56
-      }
+      },
+      "pipelineStaged": true
     },
     {
       "id": "vilma-espin",
@@ -134,7 +137,8 @@
         "religiao": 82,
         "moral": 79,
         "tecnologia": 78
-      }
+      },
+      "pipelineStaged": true
     },
     {
       "id": "celia-sanchez",
@@ -166,7 +170,8 @@
         "religiao": 79,
         "moral": 73,
         "tecnologia": 69
-      }
+      },
+      "pipelineStaged": true
     },
     {
       "id": "haydee-santamaria",
@@ -198,7 +203,8 @@
         "religiao": 78,
         "moral": 79,
         "tecnologia": 72
-      }
+      },
+      "pipelineStaged": true
     },
     {
       "id": "tamara-bunke",
@@ -230,7 +236,8 @@
         "religiao": 87,
         "moral": 78,
         "tecnologia": 65
-      }
+      },
+      "pipelineStaged": true
     },
     {
       "id": "dolores-ibarruri",
@@ -262,10 +269,11 @@
         "religiao": 86,
         "moral": 59,
         "tecnologia": 69
-      }
+      },
+      "pipelineStaged": true
     },
     {
-      "id": "olga-benario-prestes",
+      "id": "olga-benario",
       "name": "Olga Benário Prestes",
       "region": "Alemanha/Brasil",
       "lifespan": "1908–1942",
@@ -276,7 +284,7 @@
       "source": "https://brasilescola.uol.com.br/historiab/vida-olga-benario-prestes.htm",
       "photo": {
         "status": "pending",
-        "imagePath": "/personalities/portraits/olga-benario-prestes.jpg",
+        "imagePath": "/personalities/portraits/olga-benario.jpg",
         "sourceUrl": null,
         "license": null
       },
@@ -294,7 +302,8 @@
         "religiao": 93,
         "moral": 72,
         "tecnologia": 67
-      }
+      },
+      "pipelineStaged": true
     },
     {
       "id": "angela-davis",
@@ -326,7 +335,8 @@
         "religiao": 95,
         "moral": 97,
         "tecnologia": 77
-      }
+      },
+      "pipelineStaged": true
     }
   ]
 }
