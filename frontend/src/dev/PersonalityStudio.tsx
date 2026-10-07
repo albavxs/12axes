@@ -44,7 +44,7 @@ type Payload = {
   stats: {
     totalEntries: number; runtime: number; staging: number; runtimeMale: number;
     runtimeFemale: number; plannedFemale: number; errors: number; warnings: number; ok: number; localDrafts: number;
-    womenAuditDone: number; womenAuditPending: number; womenAuditBatches: number;
+    womenAuditDone: number; womenAuditPending: number; womenAuditReview: number; womenAuditBatches: number;
   };
   personalities: Personality[];
 };
@@ -52,6 +52,7 @@ type Payload = {
 type RepresentationFilter = 'all' | 'male' | 'female';
 type StatusFilter = 'all' | 'error' | 'warning' | 'ok';
 type SourceFilter = 'all' | 'runtime' | 'staging';
+type AuditFilter = 'all' | 'review' | 'archived';
 type StudioLanguage = 'pt' | 'en';
 type StudioTheme = 'light' | 'dark';
 type SortOrder = 'az' | 'za';
@@ -110,6 +111,7 @@ function PersonalityStudio() {
   const [representation, setRepresentation] = useState<RepresentationFilter>('all');
   const [source, setSource] = useState<SourceFilter>('all');
   const [status, setStatus] = useState<StatusFilter>('all');
+  const [auditFilter, setAuditFilter] = useState<AuditFilter>('all');
   const [language, setLanguage] = useState<StudioLanguage>(() => (localStorage.getItem('personality-studio:language') as StudioLanguage) || 'pt');
   const [theme, setTheme] = useState<StudioTheme>(() => (localStorage.getItem('personality-studio:theme') as StudioTheme) || 'light');
   const [sortOrder, setSortOrder] = useState<SortOrder>('az');
@@ -164,6 +166,10 @@ function PersonalityStudio() {
     drafts: 'Rascunhos',
     womenAudits: 'auditorias',
     auditQueue: 'na fila',
+    auditReview: 'aguardando revisão',
+    auditStates: 'Todas auditorias',
+    auditReviewOnly: 'Aguardando revisão',
+    auditArchivedOnly: 'Arquivadas',
     search: 'Buscar nome, id, função ou categoria…',
     states: 'Todos os estados',
     withError: 'Com erro',
@@ -289,6 +295,10 @@ function PersonalityStudio() {
     drafts: 'Drafts',
     womenAudits: 'audits',
     auditQueue: 'queued',
+    auditReview: 'awaiting review',
+    auditStates: 'All audits',
+    auditReviewOnly: 'Awaiting review',
+    auditArchivedOnly: 'Archived',
     search: 'Search name, id, role or category…',
     states: 'All states',
     withError: 'Errors',
@@ -412,6 +422,8 @@ function PersonalityStudio() {
         if (representation !== 'all' && personality.representation !== representation) return false;
         if (source !== 'all' && personality.source !== source) return false;
         if (status !== 'all' && personality.validation.status !== status) return false;
+        if (auditFilter === 'review' && (personality.audit.answerExists || !personality.audit.pendingExists)) return false;
+        if (auditFilter === 'archived' && !personality.audit.answerExists) return false;
         if (!normalizedQuery) return true;
         return [personality.id, personality.name, personality.translated?.name, personality.role, personality.category]
           .filter(Boolean)
@@ -423,7 +435,7 @@ function PersonalityStudio() {
         const result = aName.localeCompare(bName, language === 'pt' ? 'pt-BR' : 'en', { sensitivity: 'base' });
         return sortOrder === 'az' ? result : -result;
       });
-  }, [payload, query, representation, source, status, sortOrder, language]);
+  }, [payload, query, representation, source, status, auditFilter, sortOrder, language]);
 
   useEffect(() => {
     if (!filtered.length) return;
@@ -604,7 +616,7 @@ function PersonalityStudio() {
           <span className={payload.stats.errors ? 'has-error' : ''}><strong>{payload.stats.errors}</strong>{ui.errors}</span>
           <span><strong>{payload.stats.localDrafts}</strong>{ui.drafts}</span>
           <span><strong>{payload.stats.womenAuditDone}/200</strong>{ui.womenAudits}</span>
-          <span><strong>{payload.stats.womenAuditPending}</strong>{ui.auditQueue}</span>
+          <span><strong>{payload.stats.womenAuditReview}</strong>{ui.auditReview}</span>
         </div>
         <div className="studio-workbar-actions">
           <button className="studio-icon-button studio-bulk-button" type="button" disabled={saving} onClick={downloadPendingPortraits}>{ui.downloadPendingPortraits}</button>
@@ -648,6 +660,11 @@ function PersonalityStudio() {
           <option value="error">{ui.withError}</option>
           <option value="warning">{ui.withWarning}</option>
           <option value="ok">{ui.clean}</option>
+        </select>
+        <select value={auditFilter} onChange={(event) => setAuditFilter(event.target.value as AuditFilter)} aria-label="Filter by audit state">
+          <option value="all">{ui.auditStates}</option>
+          <option value="review">{ui.auditReviewOnly}</option>
+          <option value="archived">{ui.auditArchivedOnly}</option>
         </select>
         <span className="studio-result-count">{filtered.length} {ui.visible}</span>
       </section>
