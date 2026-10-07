@@ -6,7 +6,7 @@ name: Vilma Espín
 role: Revolucionária, engenheira e dirigente política
 category: politico
 lifespan: 1930–2007
-description: Engenheira química e revolucionária cubana, Vilma Espín atuou na resistência ao regime de Fulgencio Batista e no Movimento 26 de Julho. Após 1959, fundou e presidiu a Federação de Mulheres Cubanas por décadas, integrou o Comitê Central do Partido Comunista e defendeu políticas de participação social e direitos das mulheres.
+description: Engenheira química e revolucionária cubana, Vilma Espín participou da resistência a Batista e do Movimento 26 de Julho. Após 1959, fundou e presidiu a Federação de Mulheres Cubanas, integrou o Comitê Central do Partido Comunista e promoveu a participação social das mulheres.
 
 METODOLOGIA (obrigatória):
 - Para CADA um dos 12 eixos, escreva primeiro um personaBrief de 1–2 frases conectando especificamente os dados curados ao tema daquele eixo.
