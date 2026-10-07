@@ -5252,6 +5252,33 @@
         "moral": "Institutions for women, children, rural youth and disadvantaged groups support reformist and moderately progressive social values.",
         "tecnologia": "Engineering education, computer classes and training initiatives in her social work support a pragmatic pro-modernization stance."
       }
+    },
+    {
+      "id": "rania-al-abdullah",
+      "sources": [
+        {
+          "url": "https://www.queenrania.jo/en/rania",
+          "institution": "Office of Queen Rania"
+        },
+        {
+          "url": "https://www.queenrania.jo/en/initiatives/the-queen-rania-foundation-for-education-and-development",
+          "institution": "Queen Rania Foundation"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Queen Rania works within Jordan's constitutional monarchy and through national foundations rather than proposing a territorial restructuring of the state. Keep structure moderate-to-centralized.",
+        "representacao": "Her public agenda promotes youth, women and community participation, but she is not an advocate of competitive-party democratization as a central program. Use moderate representation.",
+        "poder": "Her initiatives emphasize opportunity, education and social reform while operating within the existing monarchy. The record does not justify either a strongly libertarian or authoritarian personal score.",
+        "imigracao": "Her humanitarian advocacy and Jordan's regional context include concern for refugees and vulnerable communities, supporting relatively inclusive humanitarian treatment without an open-borders doctrine.",
+        "diplomacia": "Her international advocacy on education, refugees, youth and development relies heavily on global institutions and cross-border partnerships. This supports diplomacy and international cooperation.",
+        "intervencao": "Her public work centers humanitarian, educational and development responses rather than military action. This supports a restrained non-military orientation.",
+        "economia": "She promotes entrepreneurship, skills, education and opportunity alongside social-development programs. This supports a market-friendly mixed economy rather than either laissez-faire or public ownership dominance.",
+        "controle": "Her foundations use research, policy development and targeted public-private initiatives rather than comprehensive planning. Use low-to-moderate control.",
+        "comercio": "No reliable standalone trade-policy doctrine is established, though her economic outlook is internationally connected rather than autarkic.",
+        "religiao": "She is a Muslim queen in a Muslim-majority constitutional monarchy, but her public agenda is pluralist, educational and social rather than clerical. Use moderate religious-cultural influence without theocracy.",
+        "moral": "Her advocacy for women, children, education and community participation supports reformist social values within a culturally conservative context.",
+        "tecnologia": "Innovation, digital education, entrepreneurship and technology are explicit parts of her public agenda, supporting a strongly pro-technology orientation."
+      }
     }
   ]
 }
