@@ -129,6 +129,12 @@ function PersonalityStudio() {
   const [notice, setNotice] = useState<{ tone: 'good' | 'bad'; text: string } | null>(null);
 
   async function loadCatalog(preferredKey?: string | null) {
+    await fetch('/__dev/personality-studio-api/refresh', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: '{}',
+      cache: 'no-store',
+    });
     const response = await fetch(`/__dev/personality-studio/catalog.json?t=${Date.now()}`, { cache: 'no-store' });
     const body = await response.json();
     if (!response.ok) throw new Error(body.error || 'Could not load catalog');
