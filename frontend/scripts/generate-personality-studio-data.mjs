@@ -21,6 +21,8 @@ const english = readJson(resolve(dataRoot, 'i18n/en/personalities.json'), []);
 const profiles = readJson(resolve(dataRoot, 'personality-profiles.json'), []);
 const books = readJson(resolve(dataRoot, 'books.json'), []);
 const axes = readJson(resolve(dataRoot, 'axes.json'), []);
+const questions = readJson(resolve(dataRoot, 'questions-pool.json'), []);
+const archetypeQuestions = readJson(resolve(dataRoot, 'archetype-questions.json'), []);
 const evidence = readJson(resolve(scriptsDataRoot, 'female-profile-evidence.json'), { personalities: [] });
 const manifest = readJson(resolve(scriptsDataRoot, 'female-expansion.json'), { candidates: [] });
 const metadataDrafts = readJson(resolve(scriptsDataRoot, 'female-metadata-drafts.json'), { personalities: [] });
@@ -41,6 +43,56 @@ if (existsSync(provisionalEvidenceDir)) {
 const draftById = new Map((metadataDrafts.personalities ?? []).map((entry) => [entry.id, entry]));
 const runtimeIds = new Set(personalities.map((entry) => entry.id));
 const axisIds = axes.map((axis) => axis.id);
+const questionById = new Map(questions.map((question) => [question.id, question]));
+const answerScore = { DT: 0, D: 0.25, N: 0.5, C: 0.75, CT: 1 };
+
+function computeAuditVector(auditData) {
+  if (!auditData || typeof auditData !== 'object') return null;
+
+  const totals = Object.fromEntries(axisIds.map((axisId) => [axisId, [0, 0]]));
+  for (const axisId of axisIds) {
+    const answers = auditData?.[axisId]?.answers;
+    if (!answers || typeof answers !== 'object') return null;
+
+    for (const [questionId, answer] of Object.entries(answers)) {
+      const question = questionById.get(questionId);
+      const score = answerScore[answer];
+      if (!question || typeof score !== 'number') return null;
+      const weight = Number(question.weight ?? 1);
+      const contribution = question.agreePole === 'LEFT' ? score : 1 - score;
+      totals[axisId][0] += contribution * weight;
+      totals[axisId][1] += weight;
+    }
+  }
+
+  const archetype = auditData.archetype ?? {};
+  for (const question of archetypeQuestions) {
+    const selected = question.options?.find((option) => option.id === archetype[question.id]);
+    if (!selected) continue;
+    for (const [axisId, leftPercent] of Object.entries(selected.effects ?? {})) {
+      if (!totals[axisId]) continue;
+      totals[axisId][0] += Number(leftPercent) / 100;
+      totals[axisId][1] += 1;
+    }
+  }
+
+  if (axisIds.some((axisId) => totals[axisId][1] <= 0)) return null;
+  return Object.fromEntries(axisIds.map((axisId) => [
+    axisId,
+    Math.round((totals[axisId][0] / totals[axisId][1]) * 1000) / 10,
+  ]));
+}
+
+function auditProfileFor(id) {
+  const answerPath = resolve(auditRoot, 'answers/personality', `${id}.json`);
+  const pendingPath = resolve(auditRoot, 'subagent-out/personality', `${id}.json`);
+  const sourcePath = existsSync(answerPath) ? answerPath : existsSync(pendingPath) ? pendingPath : null;
+  if (!sourcePath) return { profile: null, source: null };
+  const vector = computeAuditVector(readJson(sourcePath, null));
+  return vector
+    ? { profile: { personalityId: id, vector }, source: sourcePath === answerPath ? 'archived' : 'draft' }
+    : { profile: null, source: null };
+}
 
 async function inspectImage(imagePath) {
   const trimmed = typeof imagePath === 'string' ? imagePath.trim() : '';
@@ -98,6 +150,7 @@ const runtimeEntries = await Promise.all(personalities.map(async (personality) =
   const auditAnswerExists = existsSync(resolve(auditRoot, 'answers/personality', `${id}.json`));
   const auditPendingExists = existsSync(resolve(auditRoot, 'subagent-out/personality', `${id}.json`));
   const auditPacketExists = existsSync(resolve(repoRoot, '.personality-studio/audit-packets', `${id}.txt`));
+  const auditComputed = auditProfileFor(id);
   const image = await inspectImage(personality.imagePath);
   const errors = [];
   const warnings = [];
@@ -153,6 +206,8 @@ const runtimeEntries = await Promise.all(personalities.map(async (personality) =
     ...personality,
     translated,
     profile,
+    auditProfile: auditComputed.profile,
+    auditProfileSource: auditComputed.source,
     book,
     evidence: dossier,
     evidenceReady: Boolean((dossier?.sources?.length ?? 0) >= 2 && axisIds.every((axisId) => String(dossier?.evidence?.[axisId] ?? '').trim())),
@@ -312,6 +367,8 @@ const stagingEntries = await Promise.all(
         imageNote: draft?.portrait?.note ?? '',
         translated,
         profile: null,
+        auditProfile: auditComputed.profile,
+        auditProfileSource: auditComputed.source,
         book,
         evidence: dossier,
         evidenceReady: Boolean((dossier?.sources?.length ?? 0) >= 2 && axisIds.every((axisId) => String(dossier?.evidence?.[axisId] ?? '').trim())),
