@@ -4199,6 +4199,33 @@
         "moral": "Her feminism, sexual autonomy, modernist cultural rebellion and solidarity with working women strongly support progressive social values.",
         "tecnologia": "Her modernist cultural work embraced artistic experimentation and modern media, though she left no broad technology-policy program. Use moderately pro-modernization."
       }
+    },
+    {
+      "id": "patsy-mink",
+      "sources": [
+        {
+          "url": "https://history.house.gov/People/Detail/18329",
+          "institution": "U.S. House of Representatives: History, Art & Archives"
+        },
+        {
+          "url": "https://history.house.gov/Blog/2022/May/5-31-Educators-Mink/",
+          "institution": "U.S. House of Representatives: History, Art & Archives"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Mink saw members of Congress as national legislators and supported federal civil-rights, education and welfare laws. This supports substantial federal capacity while remaining within U.S. federalism.",
+        "representacao": "Her career as the first woman of color elected to Congress and her emphasis on national representation strongly support inclusive representative democracy.",
+        "poder": "Mink used federal law to combat discrimination and expand rights, but also accepted ordinary state regulatory authority. This supports a rights-protective liberal state rather than authoritarian security power.",
+        "imigracao": "Her Japanese-American family background and Hawaii constituency informed pluralist politics, but the reviewed House sources do not establish a detailed immigration doctrine. Use a moderately inclusive position.",
+        "diplomacia": "Her congressional career included national policy but the core reviewed sources center domestic education and welfare rather than foreign policy. Keep diplomacy moderate.",
+        "intervencao": "Mink opposed the Vietnam War and was associated with anti-war positions, supporting a comparatively non-interventionist orientation.",
+        "economia": "She defended Great Society programs and the social welfare state, supporting a center-left mixed economy with significant public social provision.",
+        "controle": "Her legislative approach favored federal education, welfare and anti-discrimination regulation within a market economy rather than central planning.",
+        "comercio": "No strong independent trade-policy doctrine is established in the reviewed House sources. Keep moderate.",
+        "religiao": "Her policy arguments were civil-rights and constitutional rather than religiously grounded. Use a secular public-order position.",
+        "moral": "Title IX, women's rights, civil rights and anti-discrimination legislation strongly support socially progressive equality.",
+        "tecnologia": "Her scientific education and policy work support pragmatic trust in expertise, but she left no distinctive technology ideology. Use moderate-to-positive technology."
+      }
     }
   ]
 }
