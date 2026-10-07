@@ -4307,6 +4307,33 @@
         "moral": "Her work for Indigenous rights, women's rights, anti-racism and ethno-cultural reconciliation strongly supports egalitarian and progressive social values.",
         "tecnologia": "Her public thought emphasizes community, human rights and respect for Mother Nature rather than technological acceleration. Use a cautious, human- and environment-centered technology position."
       }
+    },
+    {
+      "id": "rosa-mayreder",
+      "sources": [
+        {
+          "url": "https://www.wien.gv.at/spezial/pionierinnen/pionierinnen-vor-1860-geboren/rosa-mayreder/",
+          "institution": "City of Vienna"
+        },
+        {
+          "url": "https://fraueninbewegung.onb.ac.at/index.php/node/1579",
+          "institution": "Austrian National Library"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Mayreder organized through voluntary women's associations and international civic networks rather than advancing a detailed territorial-state doctrine. This supports civil-society participation but not a strong federalism score.",
+        "representacao": "As a leading women's-rights activist she fought exclusion from education, public life and political participation, supporting broader democratic representation of women.",
+        "poder": "Her analysis of gender relations, power and sexual double standards challenged entrenched social hierarchy. This supports individual autonomy and constraints on coercive gender authority.",
+        "imigracao": "Austrian National Library material describes her internationalism and rejection of racist discrimination. This supports a pluralist, anti-xenophobic orientation rather than forced assimilation.",
+        "diplomacia": "During and after World War I she became deeply involved in the international women's peace movement. This strongly supports pacifism and diplomacy over militarism.",
+        "intervencao": "Her pacifism and leadership in the Women's International League for Peace and Freedom support strong skepticism toward military intervention and nationalist war.",
+        "economia": "Mayreder belonged to the left wing of the bourgeois women's movement and addressed women's economic emancipation, but she was not a socialist economic theorist. This supports reformist social policy within a mixed economy.",
+        "controle": "Her politics sought legal and social reform rather than comprehensive state economic planning. Use moderate regulation rather than either command planning or laissez-faire.",
+        "comercio": "Her internationalism does not establish a specific free-trade or tariff doctrine. Keep trade moderate.",
+        "religiao": "Her cultural philosophy challenged inherited moral conventions, but the reviewed institutional sources do not establish a detailed church-state program. Use moderately secular public institutions with caution.",
+        "moral": "She attacked the sexual double standard, women's subordination and prescribed gender roles and demanded changes in power relations. This strongly supports progressive social values.",
+        "tecnologia": "Her work was cultural, philosophical and artistic rather than technological. No distinctive technology doctrine is established."
+      }
     }
   ]
 }
