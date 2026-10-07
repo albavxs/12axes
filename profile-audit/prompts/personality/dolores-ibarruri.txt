@@ -6,7 +6,7 @@ name: Dolores Ibárruri
 role: Dirigente comunista
 category: politico
 lifespan: 1895–1989
-description: Conhecida como La Pasionaria, Dolores Ibárruri foi uma das principais dirigentes do Partido Comunista da Espanha. Teve papel de destaque durante a Guerra Civil Espanhola, passou décadas no exílio soviético e permaneceu uma referência do comunismo espanhol, retornando ao país na transição democrática.
+description: Conhecida como La Pasionaria, Dolores Ibárruri foi dirigente central do Partido Comunista da Espanha. Teve destaque na Guerra Civil Espanhola, passou décadas no exílio soviético e permaneceu referência do comunismo espanhol, retornando ao país na transição democrática.
 
 METODOLOGIA (obrigatória):
 - Para CADA um dos 12 eixos, escreva primeiro um personaBrief de 1–2 frases conectando especificamente os dados curados ao tema daquele eixo.
