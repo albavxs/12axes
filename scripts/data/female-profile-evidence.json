@@ -4901,6 +4901,33 @@
         "moral": "Her center-right nationalist coalition was socially conservative in many respects, despite her status as a pioneering female head of government. Use moderately traditional social placement.",
         "tecnologia": "Her governments emphasized infrastructure, education and modernization but no distinctive technology ideology is established. Use pragmatic moderate technophilia."
       }
+    },
+    {
+      "id": "lakshmi-sahgal",
+      "sources": [
+        {
+          "url": "https://cmsadmin.amritmahotsav.nic.in/unsung-heroes-detail.htm?244=",
+          "institution": "Government of India – Azadi Ka Amrit Mahotsav"
+        },
+        {
+          "url": "https://static.pib.gov.in/WriteReadData/userfiles/Unsung%20Heroes%20of%20Freedom%20Movement_p1.pdf",
+          "institution": "Press Information Bureau, Government of India"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Sahgal fought for an independent Indian state and later joined the Communist Party of India (Marxist), but the reviewed sources do not establish a detailed federal-versus-centralized constitutional doctrine. Use moderate-to-centralized developmental state placement.",
+        "representacao": "After independence she participated in electoral left politics and was a presidential candidate while remaining active in mass women's organizations. This supports representative democracy combined with movement politics.",
+        "poder": "Her anti-colonial military career demonstrates willingness to use organized force against imperial rule, while her later activism served refugees, riot victims and marginalized people. This yields a mixed position: not civil-libertarian pacifism, but strongly opposed to colonial and communal repression.",
+        "imigracao": "Her medical service to refugees during Partition and the Bangladesh war supports humanitarian treatment of displaced people, though no general border-policy doctrine is established.",
+        "diplomacia": "Her independence struggle used armed alliance with the INA and Japan rather than diplomacy alone, but her post-independence career focused on social and political activism. Use a moderately hawkish historical placement with caution.",
+        "intervencao": "She actively served in an armed anti-colonial force and accepted military struggle for national liberation. This places her away from absolute non-interventionism, though it should not be read as support for imperial foreign wars.",
+        "economia": "Her later CPI(M) affiliation, women's-movement leadership and service to the poor strongly support socialist economics, redistribution and public provision.",
+        "controle": "Communist political affiliation and left activism support substantial public planning and regulation rather than market autonomy.",
+        "comercio": "Her socialist politics are less aligned with laissez-faire global trade, but the reviewed sources do not establish a specific tariff doctrine. Use managed/protection-leaning trade with caution.",
+        "religiao": "Her political career was secular, socialist and anti-communal rather than religiously governed. This strongly supports secular institutions.",
+        "moral": "Women's military participation, women's movement leadership, refugee service and left social activism strongly support gender equality and progressive social values.",
+        "tecnologia": "As a physician and organizer she embraced modern medicine and institutional capacity, but no broad technology ideology is established. Use pragmatic moderate technophilia."
+      }
     }
   ]
 }
