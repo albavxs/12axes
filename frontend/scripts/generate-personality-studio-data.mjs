@@ -358,6 +358,7 @@ const stats = {
   localDrafts: entries.filter((entry) => entry.localDraft).length,
   womenAuditDone: entries.filter((entry) => entry.representation === 'female' && entry.audit.answerExists).length,
   womenAuditPending: womenAuditQueue.length,
+  womenAuditReview: entries.filter((entry) => entry.representation === 'female' && !entry.audit.answerExists && entry.audit.pendingExists).length,
   womenAuditBatches: Math.ceil(womenAuditQueue.length / 15),
 };
 
