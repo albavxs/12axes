@@ -1,0 +1,27 @@
+{
+  "id": "theresa-may",
+  "sources": [
+    {
+      "url": "https://www.gov.uk/government/history/past-prime-ministers/theresa-may",
+      "institution": "Government of the United Kingdom"
+    },
+    {
+      "url": "https://www.gov.uk/government/people/theresa-may",
+      "institution": "Government of the United Kingdom"
+    }
+  ],
+  "evidence": {
+    "estrutura": "May defended a single Brexit settlement applying across the United Kingdom and governed through a strong national executive within the UK's devolved constitutional order. This supports national coordination more than radical territorial decentralization.",
+    "representacao": "Her career was parliamentary and electoral, and even amid Brexit conflict she pursued legislation and parliamentary approval. This supports representative democracy despite a strong executive style.",
+    "poder": "As Home Secretary she favored robust policing, counter-terrorism and immigration enforcement, indicating greater acceptance of state security power than liberal-libertarian profiles, while remaining within constitutional democratic institutions.",
+    "imigracao": "Immigration control was central to her Home Office record and Brexit politics. This strongly supports a more restrictive and assimilation-oriented placement than open-border liberalism.",
+    "diplomacia": "Her government negotiated extensively with the European Union and coordinated responses with allies, but also emphasized national sovereignty and security. This supports alliance diplomacy with a relatively firm security posture.",
+    "intervencao": "In 2018 she authorized UK military action in Syria after the Douma chemical-weapons attack and coordinated responses to Russian actions. This supports willingness to intervene militarily in selected cases rather than non-interventionism.",
+    "economia": "Her government combined Conservative market economics, tax reductions and employment goals with an industrial strategy and public commitments such as net zero. This supports a market-oriented mixed economy rather than pure laissez-faire.",
+    "controle": "The Modern Industrial Strategy and climate commitments accept targeted state planning and regulation while retaining market allocation. Use moderate rather than minimal or command control.",
+    "comercio": "Brexit sought national control outside EU institutions while May negotiated a continuing economic relationship with Europe. This supports managed openness with greater national trade sovereignty rather than either autarky or frictionless supranational integration.",
+    "religiao": "May is personally Christian, but her government operated within secular constitutional law rather than seeking clerical rule. This supports personal religiosity with institutional secularism.",
+    "moral": "Her Conservatism is socially moderate: she operated from a traditional center-right party while accepting major equality protections and environmental obligations. Use a centrist-to-moderately traditional social placement.",
+    "tecnologia": "Her industrial strategy, environmental plan and modernization agenda support pragmatic technological development under regulation, not techno-libertarianism."
+  }
+}
