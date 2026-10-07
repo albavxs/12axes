@@ -41,7 +41,7 @@
       "metadataStatus": "ready",
       "portraitStatus": "review",
       "translationStatus": "ready",
-      "profileStatus": "review",
+      "profileStatus": "ready",
       "bookStatus": "ready",
       "sources": [
         "https://campusdirectory.ucsc.edu/cd_detail?guid=G000122719",
@@ -51,23 +51,7 @@
         "https://www.archives.gov/research/african-americans/individuals/angela-davis"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json",
-      "metadataFile": "scripts/data/female-metadata-drafts.json",
-      "profileVector": {
-        "estrutura": 59.3,
-        "representacao": 93.6,
-        "poder": 6.3,
-        "imigracao": 10.5,
-        "diplomacia": 5.1,
-        "intervencao": 96,
-        "economia": 97.2,
-        "controle": 90.1,
-        "comercio": 72.9,
-        "religiao": 97.6,
-        "moral": 97.9,
-        "tecnologia": 72.5
-      },
-      "profileVectorSource": "audit-output-prevalidated",
-      "profileVectorConfidence": "high-formal-medium-editorial"
+      "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
       "id": "dorothy-height",
@@ -1700,30 +1684,14 @@
       "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "review",
-      "profileStatus": "review",
+      "profileStatus": "ready",
       "bookStatus": "pending",
       "metadataFile": "scripts/data/female-metadata-drafts.json",
       "sources": [
         "https://cpdoc.fgv.br/biografias/luis-carlos-prestes",
         "https://www.holocaust-denkmal-berlin.de/raum-der-namen/biographien/biographie/7911"
       ],
-      "evidenceFile": "scripts/data/female-profile-evidence.json",
-      "profileVector": {
-        "estrutura": 25.6,
-        "representacao": 37.6,
-        "poder": 67.4,
-        "imigracao": 15.2,
-        "diplomacia": 60,
-        "intervencao": 25.7,
-        "economia": 97.2,
-        "controle": 96,
-        "comercio": 63.3,
-        "religiao": 96.4,
-        "moral": 77.6,
-        "tecnologia": 65.3
-      },
-      "profileVectorSource": "audit-output-prevalidated",
-      "profileVectorConfidence": "high-formal-medium-editorial"
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "anita-garibaldi",
@@ -2802,30 +2770,14 @@
       "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "review",
-      "profileStatus": "proposed",
+      "profileStatus": "ready",
       "bookStatus": "pending",
       "sources": [
         "https://balcanica.rs/index.php/journal/article/download/128/135/131",
         "https://www.rciusa.info/post/the-history-of-romania-in-one-object-ceau%C8%99escu-s-personality-cult-in-paintings"
       ],
       "metadataFile": "scripts/data/female-metadata-drafts.json",
-      "evidenceFile": "scripts/data/female-profile-evidence.json",
-      "profileVector": {
-        "estrutura": 6,
-        "representacao": 5,
-        "poder": 88,
-        "imigracao": 50,
-        "diplomacia": 58,
-        "intervencao": 20,
-        "economia": 91,
-        "controle": 91,
-        "comercio": 82,
-        "religiao": 84,
-        "moral": 34,
-        "tecnologia": 61
-      },
-      "profileVectorSource": "evidence-backed-editorial-proposal",
-      "profileVectorConfidence": "low-to-medium"
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "jiang-qing",
@@ -2836,30 +2788,14 @@
       "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "review",
-      "profileStatus": "proposed",
+      "profileStatus": "ready",
       "bookStatus": "pending",
       "sources": [
         "https://www.hoover.org/news/tracking-jiang-qing-1914-1991-stanford-universitys-hoover-archives",
         "https://www.marxists.org/archive/jiang-qing/"
       ],
       "metadataFile": "scripts/data/female-metadata-drafts.json",
-      "evidenceFile": "scripts/data/female-profile-evidence.json",
-      "profileVector": {
-        "estrutura": 9,
-        "representacao": 7,
-        "poder": 93,
-        "imigracao": 52,
-        "diplomacia": 65,
-        "intervencao": 22,
-        "economia": 93,
-        "controle": 96,
-        "comercio": 86,
-        "religiao": 94,
-        "moral": 54,
-        "tecnologia": 59
-      },
-      "profileVectorSource": "evidence-backed-editorial-proposal",
-      "profileVectorConfidence": "medium"
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "kim-jong-suk",
@@ -2870,30 +2806,14 @@
       "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "review",
-      "profileStatus": "proposed",
+      "profileStatus": "ready",
       "bookStatus": "pending",
       "sources": [
         "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002540509",
         "https://www.kinu.or.kr/eng/module/report/download.do?id=20827"
       ],
       "metadataFile": "scripts/data/female-metadata-drafts.json",
-      "evidenceFile": "scripts/data/female-profile-evidence.json",
-      "profileVector": {
-        "estrutura": 40,
-        "representacao": 30,
-        "poder": 77,
-        "imigracao": 50,
-        "diplomacia": 72,
-        "intervencao": 24,
-        "economia": 82,
-        "controle": 78,
-        "comercio": 60,
-        "religiao": 78,
-        "moral": 46,
-        "tecnologia": 52
-      },
-      "profileVectorSource": "evidence-backed-editorial-proposal",
-      "profileVectorConfidence": "low-to-medium"
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "vilma-espin",
@@ -2904,30 +2824,14 @@
       "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "review",
-      "profileStatus": "proposed",
+      "profileStatus": "ready",
       "bookStatus": "pending",
       "sources": [
         "https://www.theguardian.com/news/2007/jun/20/obituaries.cuba",
         "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/espin-de-castro-vilma-1930-2007"
       ],
       "metadataFile": "scripts/data/female-metadata-drafts.json",
-      "evidenceFile": "scripts/data/female-profile-evidence.json",
-      "profileVector": {
-        "estrutura": 20,
-        "representacao": 32,
-        "poder": 75,
-        "imigracao": 24,
-        "diplomacia": 63,
-        "intervencao": 33,
-        "economia": 87,
-        "controle": 84,
-        "comercio": 74,
-        "religiao": 82,
-        "moral": 79,
-        "tecnologia": 78
-      },
-      "profileVectorSource": "evidence-backed-editorial-proposal",
-      "profileVectorConfidence": "medium"
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "celia-sanchez",
@@ -2938,30 +2842,14 @@
       "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "review",
-      "profileStatus": "proposed",
+      "profileStatus": "ready",
       "bookStatus": "pending",
       "sources": [
         "https://academic.oup.com/north-carolina-scholarship-online/book/37675",
         "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sanchez-manduley-celia-1920-1980"
       ],
       "metadataFile": "scripts/data/female-metadata-drafts.json",
-      "evidenceFile": "scripts/data/female-profile-evidence.json",
-      "profileVector": {
-        "estrutura": 19,
-        "representacao": 32,
-        "poder": 78,
-        "imigracao": 29,
-        "diplomacia": 62,
-        "intervencao": 34,
-        "economia": 87,
-        "controle": 84,
-        "comercio": 77,
-        "religiao": 79,
-        "moral": 73,
-        "tecnologia": 69
-      },
-      "profileVectorSource": "evidence-backed-editorial-proposal",
-      "profileVectorConfidence": "medium"
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "haydee-santamaria",
@@ -2972,30 +2860,14 @@
       "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "review",
-      "profileStatus": "proposed",
+      "profileStatus": "ready",
       "bookStatus": "pending",
       "sources": [
         "https://www.dukeupress.edu/Haydee-Santamaria-Cuban-Revolutionary",
         "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/santamaria-haydee-1927-1980"
       ],
       "metadataFile": "scripts/data/female-metadata-drafts.json",
-      "evidenceFile": "scripts/data/female-profile-evidence.json",
-      "profileVector": {
-        "estrutura": 22,
-        "representacao": 40,
-        "poder": 75,
-        "imigracao": 20,
-        "diplomacia": 64,
-        "intervencao": 44,
-        "economia": 86,
-        "controle": 80,
-        "comercio": 73,
-        "religiao": 78,
-        "moral": 85,
-        "tecnologia": 72
-      },
-      "profileVectorSource": "evidence-backed-editorial-proposal",
-      "profileVectorConfidence": "medium"
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "tamara-bunke",
@@ -3006,30 +2878,14 @@
       "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "review",
-      "profileStatus": "proposed",
+      "profileStatus": "ready",
       "bookStatus": "pending",
       "sources": [
         "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/bunke-tamara-1937-1967",
         "https://www.htw-berlin.de/forschung/online-forschungskatalog/projekte/projekt/?eid=2716"
       ],
       "metadataFile": "scripts/data/female-metadata-drafts.json",
-      "evidenceFile": "scripts/data/female-profile-evidence.json",
-      "profileVector": {
-        "estrutura": 30,
-        "representacao": 38,
-        "poder": 78,
-        "imigracao": 16,
-        "diplomacia": 88,
-        "intervencao": 28,
-        "economia": 90,
-        "controle": 86,
-        "comercio": 66,
-        "religiao": 87,
-        "moral": 78,
-        "tecnologia": 65
-      },
-      "profileVectorSource": "evidence-backed-editorial-proposal",
-      "profileVectorConfidence": "medium"
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "dolores-ibarruri",
@@ -3040,30 +2896,14 @@
       "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "review",
-      "profileStatus": "proposed",
+      "profileStatus": "ready",
       "bookStatus": "pending",
       "sources": [
         "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/autoridad/66015",
         "https://www.pce.es/en/historia-del-pce/"
       ],
       "metadataFile": "scripts/data/female-metadata-drafts.json",
-      "evidenceFile": "scripts/data/female-profile-evidence.json",
-      "profileVector": {
-        "estrutura": 25,
-        "representacao": 46,
-        "poder": 73,
-        "imigracao": 25,
-        "diplomacia": 68,
-        "intervencao": 48,
-        "economia": 90,
-        "controle": 89,
-        "comercio": 74,
-        "religiao": 88,
-        "moral": 64,
-        "tecnologia": 69
-      },
-      "profileVectorSource": "evidence-backed-editorial-proposal",
-      "profileVectorConfidence": "medium"
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     }
   ],
   "progress": {
