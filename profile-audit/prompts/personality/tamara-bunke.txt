@@ -6,7 +6,7 @@ name: Tamara Bunke
 role: Revolucionária, agente e guerrilheira
 category: ativista
 lifespan: 1937–1967
-description: Revolucionária teuto-argentina conhecida como Tania, Tamara Bunke viveu na Alemanha Oriental e depois em Cuba, onde trabalhou para instituições revolucionárias e foi recrutada para uma missão clandestina na Bolívia. Integrou a guerrilha ligada a Che Guevara e morreu em uma emboscada do Exército boliviano em 1967.
+description: Revolucionária teuto-argentina conhecida como Tania, Tamara Bunke viveu na Alemanha Oriental e em Cuba, trabalhou para instituições revolucionárias e foi recrutada para uma missão clandestina na Bolívia. Integrou a guerrilha ligada a Che Guevara e morreu em uma emboscada em 1967.
 
 METODOLOGIA (obrigatória):
 - Para CADA um dos 12 eixos, escreva primeiro um personaBrief de 1–2 frases conectando especificamente os dados curados ao tema daquele eixo.
