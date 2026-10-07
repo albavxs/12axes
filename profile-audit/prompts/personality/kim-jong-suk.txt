@@ -6,7 +6,7 @@ name: Kim Jong-suk
 role: Guerrilheira comunista e figura revolucionária
 category: ativista
 lifespan: 1917–1949
-description: Kim Jong-suk foi uma militante comunista coreana associada à guerrilha antijaponesa e esposa de Kim Il-sung. Depois de sua morte, o Estado norte-coreano transformou sua memória em parte importante da mitologia política da família Kim; por isso, detalhes biográficos e atribuições ideológicas individuais exigem cautela documental.
+description: Kim Jong-suk foi uma militante comunista coreana ligada à guerrilha antijaponesa e esposa de Kim Il-sung. Após sua morte, o Estado norte-coreano incorporou sua memória à mitologia da família Kim, exigindo cautela ao separar fatos biográficos de construções posteriores.
 
 METODOLOGIA (obrigatória):
 - Para CADA um dos 12 eixos, escreva primeiro um personaBrief de 1–2 frases conectando especificamente os dados curados ao tema daquele eixo.
