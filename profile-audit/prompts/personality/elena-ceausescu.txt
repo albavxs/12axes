@@ -6,7 +6,7 @@ name: Elena Ceaușescu
 role: Dirigente comunista e vice-primeira-ministra
 category: politico
 lifespan: 1916–1989
-description: Dirigente do Partido Comunista Romeno e esposa de Nicolae Ceaușescu, Elena Ceaușescu ascendeu aos mais altos órgãos do partido e do Estado, tornando-se vice-primeira-ministra. Sua projeção esteve ligada ao culto à personalidade e ao caráter autoritário do regime romeno, além de uma imagem oficial de cientista amplamente construída pela propaganda estatal.
+description: Dirigente do Partido Comunista Romeno e esposa de Nicolae Ceaușescu, Elena Ceaușescu chegou ao alto escalão do partido e ao cargo de vice-primeira-ministra. Sua projeção esteve ligada ao culto à personalidade, ao autoritarismo e a uma reputação científica promovida pelo Estado.
 
 METODOLOGIA (obrigatória):
 - Para CADA um dos 12 eixos, escreva primeiro um personaBrief de 1–2 frases conectando especificamente os dados curados ao tema daquele eixo.
