@@ -33,6 +33,7 @@ import importlib.util
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 DATA = os.path.join(BASE, "..", "backend", "src", "main", "resources", "data")
+SCRIPTS_DATA = os.path.join(BASE, "..", "scripts", "data")
 
 _spec = importlib.util.spec_from_file_location("compat", os.path.join(BASE, "compatibility.py"))
 compat = importlib.util.module_from_spec(_spec)
@@ -95,6 +96,38 @@ def load(name):
         return json.load(f)
 
 
+def personality_metadata(pid):
+    """Retorna metadata de runtime ou, no Studio, de uma candidata ainda em staging."""
+    runtime = {m["id"]: m for m in load("personalities.json")}
+    if pid in runtime:
+        return runtime[pid]
+
+    manifest_path = os.path.join(SCRIPTS_DATA, "female-expansion.json")
+    drafts_path = os.path.join(SCRIPTS_DATA, "female-metadata-drafts.json")
+    if not (os.path.exists(manifest_path) and os.path.exists(drafts_path)):
+        return None
+
+    with open(manifest_path, encoding="utf-8") as f:
+        manifest = json.load(f)
+    with open(drafts_path, encoding="utf-8") as f:
+        drafts = json.load(f)
+
+    candidate = next((x for x in manifest.get("candidates", []) if x.get("id") == pid), None)
+    draft = next((x for x in drafts.get("personalities", []) if x.get("id") == pid), None)
+    if not candidate or not draft:
+        return None
+
+    return {
+        "id": pid,
+        "name": candidate.get("name", pid),
+        "role": (draft.get("pt") or {}).get("role", ""),
+        "category": candidate.get("category", ""),
+        "representation": "female",
+        "lifespan": draft.get("lifespan", ""),
+        "description": (draft.get("pt") or {}).get("description", ""),
+    }
+
+
 def vectors(catalog):
     pf, key, _ = CATALOGS[catalog]
     return {p[key]: p["vector"] for p in load(pf)}
@@ -144,8 +177,7 @@ def main():
     # ---------- [CATEGORIA] ----------
     # So personalidades tem category; o backend rejeita valor fora da lista.
     if catalog == "personality":
-        meta = {m["id"]: m for m in load(CATALOGS[catalog][2])}
-        entry = meta.get(pid)
+        entry = personality_metadata(pid)
         if entry is None:
             errors.append(f"[CATEGORIA] {pid} nao existe em personalities.json")
         else:
@@ -165,7 +197,7 @@ def main():
     # Media/mediana medida nos tres catalogos: ~30 palavras / ~220 caracteres.
     # Descricoes muito longas destoam do catalogo e crescem a cada atualizacao.
     meta_file = CATALOGS[catalog][2]
-    entrada = {m["id"]: m for m in load(meta_file)}.get(pid)
+    entrada = personality_metadata(pid) if catalog == "personality" else {m["id"]: m for m in load(meta_file)}.get(pid)
     if entrada and entrada.get("description"):
         desc = entrada["description"]
         palavras = len(desc.split())
