@@ -1,0 +1,332 @@
+{
+  "status": "DRAFT_NOT_VALIDATED",
+  "notes": [
+    "Este arquivo é pesquisa editorial, NÃO é carregado pelo backend nem aprovado no Personality Studio.",
+    "Valores de cada eixo são estimativas iniciais sujeitas a revisão documental independente, especialmente militarismo, autocracia, imigração e eixo tecnologia/biologia.",
+    "Exigem-se retratos reais, arquivos locais, licenças/fontes verificadas e validação completa antes de copiar os registros para personalities.json e personality-profiles.json.",
+    "Angela Davis representa tradição marxista e atuação histórica no CPUSA; não se deve automaticamente atribuir apoio a governos autocráticos.",
+    "Biografias norte-coreanas de Kim Jong-suk precisam de especial cautela com fontes oficiais."
+  ],
+  "entries": [
+    {
+      "id": "elena-ceausescu",
+      "name": "Elena Ceaușescu",
+      "region": "Romênia",
+      "lifespan": "1916–1989",
+      "role": "Militante ou dirigente comunista",
+      "category": "politico",
+      "representation": "female",
+      "description": "Dirigente do Partido Comunista Romeno e esposa de Nicolae Ceaușescu. Exerceu influência política no regime de partido único associado ao culto à personalidade, à repressão e ao nacional-comunismo.",
+      "source": "https://en.wikipedia.org/wiki/Elena_Ceau%C8%99escu",
+      "photo": {
+        "status": "pending",
+        "imagePath": "/personalities/portraits/elena-ceausescu.jpg",
+        "sourceUrl": null,
+        "license": null
+      },
+      "axisAudit": "provisional-editorial-estimate-not-validated",
+      "vector": {
+        "estrutura": 6,
+        "representacao": 5,
+        "poder": 88,
+        "imigracao": 72,
+        "diplomacia": 72,
+        "intervencao": 16,
+        "economia": 91,
+        "controle": 91,
+        "comercio": 86,
+        "religiao": 81,
+        "moral": 29,
+        "tecnologia": 61
+      }
+    },
+    {
+      "id": "jiang-qing",
+      "name": "Jiang Qing",
+      "region": "China",
+      "lifespan": "1914–1991",
+      "role": "Militante ou dirigente comunista",
+      "category": "politico",
+      "representation": "female",
+      "description": "Dirigente maoísta e integrante do Grupo dos Quatro. Foi figura central da Revolução Cultural chinesa, ligada a campanhas de mobilização política e perseguição de adversários.",
+      "source": "https://www.britannica.com/biography/Jiang-Qing",
+      "photo": {
+        "status": "pending",
+        "imagePath": "/personalities/portraits/jiang-qing.jpg",
+        "sourceUrl": null,
+        "license": null
+      },
+      "axisAudit": "provisional-editorial-estimate-not-validated",
+      "vector": {
+        "estrutura": 9,
+        "representacao": 7,
+        "poder": 93,
+        "imigracao": 52,
+        "diplomacia": 69,
+        "intervencao": 22,
+        "economia": 93,
+        "controle": 96,
+        "comercio": 86,
+        "religiao": 92,
+        "moral": 54,
+        "tecnologia": 59
+      }
+    },
+    {
+      "id": "kim-jong-suk",
+      "name": "Kim Jong-suk",
+      "region": "Coreia",
+      "lifespan": "1917–1949",
+      "role": "Militante ou dirigente comunista",
+      "category": "politico",
+      "representation": "female",
+      "description": "Guerrilheira comunista coreana associada à resistência antijaponesa e à trajetória de Kim Il-sung. A biografia oficial norte-coreana contém elementos de culto político que exigem verificação independente.",
+      "source": "https://en.wikipedia.org/wiki/Kim_Jong-suk",
+      "photo": {
+        "status": "pending",
+        "imagePath": "/personalities/portraits/kim-jong-suk.jpg",
+        "sourceUrl": null,
+        "license": null
+      },
+      "axisAudit": "provisional-editorial-estimate-not-validated",
+      "vector": {
+        "estrutura": 12,
+        "representacao": 18,
+        "poder": 77,
+        "imigracao": 57,
+        "diplomacia": 83,
+        "intervencao": 12,
+        "economia": 85,
+        "controle": 83,
+        "comercio": 79,
+        "religiao": 66,
+        "moral": 46,
+        "tecnologia": 56
+      }
+    },
+    {
+      "id": "vilma-espin",
+      "name": "Vilma Espín",
+      "region": "Cuba",
+      "lifespan": "1930–2007",
+      "role": "Militante ou dirigente comunista",
+      "category": "politico",
+      "representation": "female",
+      "description": "Revolucionária cubana que participou do movimento contra Batista e liderou a Federação de Mulheres Cubanas, atuando na ampliação de direitos e na organização social durante o governo socialista.",
+      "source": "https://en.wikipedia.org/wiki/Vilma_Esp%C3%ADn",
+      "photo": {
+        "status": "pending",
+        "imagePath": "/personalities/portraits/vilma-espin.jpg",
+        "sourceUrl": null,
+        "license": null
+      },
+      "axisAudit": "provisional-editorial-estimate-not-validated",
+      "vector": {
+        "estrutura": 20,
+        "representacao": 32,
+        "poder": 75,
+        "imigracao": 24,
+        "diplomacia": 63,
+        "intervencao": 33,
+        "economia": 87,
+        "controle": 84,
+        "comercio": 74,
+        "religiao": 82,
+        "moral": 79,
+        "tecnologia": 78
+      }
+    },
+    {
+      "id": "celia-sanchez",
+      "name": "Celia Sánchez",
+      "region": "Cuba",
+      "lifespan": "1920–1980",
+      "role": "Militante ou dirigente comunista",
+      "category": "politico",
+      "representation": "female",
+      "description": "Organizadora da Revolução Cubana, participou da rede clandestina e do apoio à guerrilha. Posteriormente ocupou funções de destaque no governo revolucionário.",
+      "source": "https://en.wikipedia.org/wiki/Celia_S%C3%A1nchez",
+      "photo": {
+        "status": "pending",
+        "imagePath": "/personalities/portraits/celia-sanchez.jpg",
+        "sourceUrl": null,
+        "license": null
+      },
+      "axisAudit": "provisional-editorial-estimate-not-validated",
+      "vector": {
+        "estrutura": 19,
+        "representacao": 32,
+        "poder": 78,
+        "imigracao": 29,
+        "diplomacia": 69,
+        "intervencao": 34,
+        "economia": 87,
+        "controle": 84,
+        "comercio": 77,
+        "religiao": 79,
+        "moral": 73,
+        "tecnologia": 69
+      }
+    },
+    {
+      "id": "haydee-santamaria",
+      "name": "Haydée Santamaría",
+      "region": "Cuba",
+      "lifespan": "1922–1980",
+      "role": "Militante ou dirigente comunista",
+      "category": "politico",
+      "representation": "female",
+      "description": "Revolucionária cubana ligada ao assalto ao quartel Moncada e à Revolução de 1959. Fundou e dirigiu a Casa de las Américas, instituição de intercâmbio cultural.",
+      "source": "https://en.wikipedia.org/wiki/Hayd%C3%A9e_Santamar%C3%ADa",
+      "photo": {
+        "status": "pending",
+        "imagePath": "/personalities/portraits/haydee-santamaria.jpg",
+        "sourceUrl": null,
+        "license": null
+      },
+      "axisAudit": "provisional-editorial-estimate-not-validated",
+      "vector": {
+        "estrutura": 22,
+        "representacao": 40,
+        "poder": 75,
+        "imigracao": 20,
+        "diplomacia": 67,
+        "intervencao": 44,
+        "economia": 86,
+        "controle": 80,
+        "comercio": 73,
+        "religiao": 78,
+        "moral": 79,
+        "tecnologia": 72
+      }
+    },
+    {
+      "id": "tamara-bunke",
+      "name": "Tamara Bunke",
+      "region": "Argentina/Alemanha",
+      "lifespan": "1937–1967",
+      "role": "Militante ou dirigente comunista",
+      "category": "politico",
+      "representation": "female",
+      "description": "Militante comunista teuto-argentina conhecida como Tania. Participou da Revolução Cubana e da guerrilha chefiada por Che Guevara na Bolívia, onde morreu em 1967.",
+      "source": "https://en.wikipedia.org/wiki/Tamara_Bunke",
+      "photo": {
+        "status": "pending",
+        "imagePath": "/personalities/portraits/tamara-bunke.jpg",
+        "sourceUrl": null,
+        "license": null
+      },
+      "axisAudit": "provisional-editorial-estimate-not-validated",
+      "vector": {
+        "estrutura": 30,
+        "representacao": 38,
+        "poder": 78,
+        "imigracao": 16,
+        "diplomacia": 88,
+        "intervencao": 56,
+        "economia": 90,
+        "controle": 86,
+        "comercio": 66,
+        "religiao": 87,
+        "moral": 78,
+        "tecnologia": 65
+      }
+    },
+    {
+      "id": "dolores-ibarruri",
+      "name": "Dolores Ibárruri",
+      "region": "Espanha",
+      "lifespan": "1895–1989",
+      "role": "Militante ou dirigente comunista",
+      "category": "politico",
+      "representation": "female",
+      "description": "Conhecida como La Pasionaria, foi dirigente do Partido Comunista da Espanha, símbolo da resistência antifranquista e importante figura política do exílio republicano.",
+      "source": "https://www.treccani.it/enciclopedia/ibarruri-dolores-detta-la-pasionaria/",
+      "photo": {
+        "status": "pending",
+        "imagePath": "/personalities/portraits/dolores-ibarruri.jpg",
+        "sourceUrl": null,
+        "license": null
+      },
+      "axisAudit": "provisional-editorial-estimate-not-validated",
+      "vector": {
+        "estrutura": 25,
+        "representacao": 38,
+        "poder": 73,
+        "imigracao": 31,
+        "diplomacia": 71,
+        "intervencao": 48,
+        "economia": 90,
+        "controle": 91,
+        "comercio": 77,
+        "religiao": 86,
+        "moral": 59,
+        "tecnologia": 69
+      }
+    },
+    {
+      "id": "olga-benario-prestes",
+      "name": "Olga Benário Prestes",
+      "region": "Alemanha/Brasil",
+      "lifespan": "1908–1942",
+      "role": "Militante ou dirigente comunista",
+      "category": "politico",
+      "representation": "female",
+      "description": "Revolucionária comunista alemã vinculada à Internacional Comunista. Atuou com Luís Carlos Prestes no Brasil, foi deportada pelo governo Vargas para a Alemanha nazista e assassinada em 1942.",
+      "source": "https://brasilescola.uol.com.br/historiab/vida-olga-benario-prestes.htm",
+      "photo": {
+        "status": "pending",
+        "imagePath": "/personalities/portraits/olga-benario-prestes.jpg",
+        "sourceUrl": null,
+        "license": null
+      },
+      "axisAudit": "provisional-editorial-estimate-not-validated",
+      "vector": {
+        "estrutura": 25,
+        "representacao": 28,
+        "poder": 82,
+        "imigracao": 17,
+        "diplomacia": 81,
+        "intervencao": 54,
+        "economia": 94,
+        "controle": 91,
+        "comercio": 77,
+        "religiao": 93,
+        "moral": 72,
+        "tecnologia": 67
+      }
+    },
+    {
+      "id": "angela-davis",
+      "name": "Angela Davis",
+      "region": "Estados Unidos",
+      "lifespan": "1944–",
+      "role": "Militante ou dirigente comunista",
+      "category": "politico",
+      "representation": "female",
+      "description": "Filósofa e ativista marxista estadunidense, antiga dirigente e candidata do Partido Comunista dos EUA. Defende direitos civis, feminismo, abolicionismo penal e crítica ao racismo estrutural.",
+      "source": "https://www.archives.gov/research/african-americans/individuals/angela-davis",
+      "photo": {
+        "status": "pending",
+        "imagePath": "/personalities/portraits/angela-davis.jpg",
+        "sourceUrl": null,
+        "license": null
+      },
+      "axisAudit": "provisional-editorial-estimate-not-validated",
+      "vector": {
+        "estrutura": 42,
+        "representacao": 91,
+        "poder": 18,
+        "imigracao": 6,
+        "diplomacia": 13,
+        "intervencao": 83,
+        "economia": 87,
+        "controle": 78,
+        "comercio": 29,
+        "religiao": 95,
+        "moral": 97,
+        "tecnologia": 77
+      }
+    }
+  ]
+}
