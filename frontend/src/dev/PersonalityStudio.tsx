@@ -22,7 +22,7 @@ type Personality = {
   id: string; name: string; role: string; category: string;
   representation: 'male' | 'female'; lifespan: string; description: string;
   imagePath?: string; previewImagePath?: string; imageSourceFile?: string; imageSourceName?: string; imageSourceUrl?: string; imageSourceImageUrl?: string; imageNote?: string;
-  translated: Translation | null; profile: Profile | null; book: Book | null;
+  translated: Translation | null; profile: Profile | null; auditProfile: Profile | null; auditProfileSource: 'draft' | 'archived' | null; book: Book | null;
   evidence: { sources?: unknown[]; evidence?: Record<string, unknown> } | null;
   evidenceReady: boolean;
   audit: { answerExists: boolean; pendingExists: boolean; packetExists: boolean };
@@ -196,9 +196,10 @@ function PersonalityStudio() {
     english: 'Inglês',
     book: 'Livro',
     axes: 'Perfil em 12 eixos',
-    readonly: 'resultado da auditoria · somente leitura',
-    axesHelp: 'Cada eixo vai de 0 (polo à esquerda) a 100 (polo à direita). O marcador mostra o valor atualmente salvo.',
-    noAxisProfile: 'Ainda não existe um vetor de 12 eixos para esta personalidade.',
+    readonly: 'resultado salvo · somente leitura',
+    draftReadonly: 'vetor calculado das 240 respostas · aguardando sua revisão',
+    axesHelp: 'Cada eixo vai de 0 (polo à esquerda) a 100 (polo à direita). Em drafts, o valor é calculado das 240 respostas + arquétipo.',
+    noAxisProfile: 'Ainda não existem respostas suficientes para calcular os 12 eixos desta personalidade.',
     dataCard: 'Dados',
     photoCard: 'Foto',
     profileCard: 'Perfil 12 eixos',
@@ -327,9 +328,10 @@ function PersonalityStudio() {
     english: 'English',
     book: 'Book',
     axes: '12-axis profile',
-    readonly: 'audit result · read-only',
-    axesHelp: 'Each axis runs from 0 (left pole) to 100 (right pole). The marker shows the currently saved value.',
-    noAxisProfile: 'There is no 12-axis vector for this personality yet.',
+    readonly: 'saved result · read-only',
+    draftReadonly: 'vector computed from the 240 answers · awaiting your review',
+    axesHelp: 'Each axis runs from 0 (left pole) to 100 (right pole). For drafts, the value is computed from the 240 answers + archetype.',
+    noAxisProfile: 'There are not enough audit answers to compute this personality’s 12-axis vector yet.',
     dataCard: 'Data',
     photoCard: 'Photo',
     profileCard: '12-axis profile',
@@ -809,7 +811,9 @@ function PersonalityStudio() {
                         <strong>
                           {selected.profile
                             ? ui.complete
-                            : selected.audit.answerExists
+                            : selected.auditProfile
+                              ? ui.auditAnswersReady
+                              : selected.audit.answerExists
                               ? ui.auditComplete
                               : selected.audit.pendingExists
                                 ? ui.auditAnswersReady
@@ -818,7 +822,7 @@ function PersonalityStudio() {
                                   : ui.auditNotStarted}
                         </strong>
                         <span>
-                          {selected.profile ? ui.readonly : ui.noAxisProfile}
+                          {selected.profile ? ui.readonly : selected.auditProfile ? ui.draftReadonly : ui.noAxisProfile}
                           {selected.auditPlan?.batch ? ` · lote ${selected.auditPlan.batch}/${payload.stats.womenAuditBatches}` : ''}
                         </span>
                       </div>
@@ -927,13 +931,14 @@ function PersonalityStudio() {
               <section className="studio-panel studio-axis-panel">
                 <div className="studio-panel-title studio-panel-title--row">
                   <div><p className="studio-eyebrow">profile</p><h3>{ui.axes}</h3></div>
-                  {selected.profile ? <span className="studio-readonly-label">{ui.readonly}</span> : null}
+                  {selected.profile || selected.auditProfile ? <span className="studio-readonly-label">{selected.profile ? ui.readonly : ui.draftReadonly}</span> : null}
                 </div>
                 <p className="studio-axis-help">{ui.axesHelp}</p>
-                {selected.profile ? (
+                {selected.profile || selected.auditProfile ? (
                   <div className="studio-axes">
                     {payload.axes.map((axis) => {
-                      const value = selected.profile?.vector[axis.id];
+                      const activeProfile = selected.profile ?? selected.auditProfile;
+                      const value = activeProfile?.vector[axis.id];
                       const position = typeof value === 'number' ? Math.max(0, Math.min(100, value)) : 50;
                       return (
                         <div className="studio-axis-row" key={axis.id}>
