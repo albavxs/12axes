@@ -4874,6 +4874,33 @@
         "moral": "Gender justice, feminism, challenges to patriarchy and work on masculinity place her strongly on the progressive side of the social axis.",
         "tecnologia": "Her organizing used media and popular education pragmatically, but she did not advance a distinctive technology ideology. Keep moderate."
       }
+    },
+    {
+      "id": "khaleda-zia",
+      "sources": [
+        {
+          "url": "https://www.parliament.gov.bd/about/leaders-of-all-parliaments",
+          "institution": "Bangladesh Parliament"
+        },
+        {
+          "url": "https://www.reuters.com/world/asia-pacific/obituary-khaleda-zia-bangladeshs-first-female-prime-minister-dies-80-2025-12-30/",
+          "institution": "Reuters"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Zia governed through Bangladesh's unitary parliamentary system and did not advocate federal restructuring. This supports a comparatively centralized national-state framework.",
+        "representacao": "Her 1991 victory helped restore parliamentary government after military rule, and her BNP competed through elections for decades. However, boycotts, intense polarization and disputed electoral processes complicate a maximal democratic score.",
+        "poder": "Her governments operated in a highly confrontational political environment and used strong executive and security institutions, while she herself later faced detention under rivals. This supports a relatively order-oriented but not openly military-dictatorial placement.",
+        "imigracao": "Her governments dealt with regional migration and refugee pressures, but the reviewed sources do not establish a clear personal doctrine on borders or multiculturalism. Use moderate restriction consistent with center-right nationalism.",
+        "diplomacia": "As prime minister she pursued conventional relations with India, China, the United States and regional institutions. This supports active state diplomacy rather than isolation.",
+        "intervencao": "Her nationalism emphasized Bangladeshi sovereignty and conventional defense, with no record of expansionist foreign military intervention. This supports moderate sovereignty/non-intervention.",
+        "economia": "Her BNP governments promoted market-oriented reforms and private-sector growth while retaining social programs and public education. This supports a market-leaning mixed economy.",
+        "controle": "Privatization and market reform place her below social-democratic planning models, though the state retained substantial development responsibilities. Use low-to-moderate control.",
+        "comercio": "Her governments pursued export-oriented development and integration into global markets. This supports relatively open trade.",
+        "religiao": "BNP politics gave Islam a more visible role in Bangladeshi national identity than secular Awami League politics, while retaining parliamentary constitutional government. This supports meaningful religious influence without full theocracy.",
+        "moral": "Her center-right nationalist coalition was socially conservative in many respects, despite her status as a pioneering female head of government. Use moderately traditional social placement.",
+        "tecnologia": "Her governments emphasized infrastructure, education and modernization but no distinctive technology ideology is established. Use pragmatic moderate technophilia."
+      }
     }
   ]
 }
