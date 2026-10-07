@@ -43,7 +43,7 @@ type Payload = {
   axes: Axis[];
   stats: {
     totalEntries: number; runtime: number; staging: number; runtimeMale: number;
-    runtimeFemale: number; plannedFemale: number; errors: number; warnings: number; ok: number; localDrafts: number;
+    runtimeFemale: number; plannedFemale: number; excludedFemale: number; replacementSlots: number; errors: number; warnings: number; ok: number; localDrafts: number;
     womenAuditDone: number; womenVectorReady: number; womenAuditPending: number; womenAuditReview: number; womenAuditBatches: number;
   };
   personalities: Personality[];
@@ -183,6 +183,7 @@ function PersonalityStudio() {
     targetWomen: 'Meta mulheres',
     current: 'atual',
     planned: 'planejado',
+    excluded: 'excluídas do fluxo',
     remaining: 'faltam',
     edit: 'Editar informações',
     discard: 'Descartar rascunho',
@@ -316,6 +317,7 @@ function PersonalityStudio() {
     targetWomen: 'Women target',
     current: 'current',
     planned: 'planned',
+    excluded: 'excluded from workflow',
     remaining: 'remaining',
     edit: 'Edit information',
     discard: 'Discard draft',
@@ -665,7 +667,7 @@ function PersonalityStudio() {
           <label>
             <span>{ui.targetWomen}</span>
             <input type="number" min="0" value={targetWomen} onChange={(event) => setTargetWomen(Math.max(0, Number(event.target.value) || 0))} />
-            <small>{ui.planned}: {payload.stats.plannedFemale} · {ui.remaining}: {Math.max(0, targetWomen - payload.stats.plannedFemale)}</small>
+            <small>{ui.planned}: {payload.stats.plannedFemale} · {ui.remaining}: {Math.max(0, targetWomen - payload.stats.plannedFemale)} · {ui.excluded}: {payload.stats.excludedFemale}</small>
           </label>
         </div>
       </section>
