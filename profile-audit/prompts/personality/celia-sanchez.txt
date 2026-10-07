@@ -6,7 +6,7 @@ name: Celia Sánchez
 role: Revolucionária e dirigente política
 category: politico
 lifespan: 1920–1980
-description: Celia Sánchez foi uma das principais organizadoras do Movimento 26 de Julho, inicialmente transportando armas e suprimentos e depois atuando como combatente na Sierra Maestra. Após a revolução, tornou-se uma alta funcionária do governo cubano e colaboradora próxima de Fidel Castro.
+description: Celia Sánchez foi uma das principais organizadoras do Movimento 26 de Julho, transportando armas e suprimentos e depois atuando como combatente na Sierra Maestra. Após a revolução, tornou-se alta funcionária do governo cubano e colaboradora próxima de Fidel Castro.
 
 METODOLOGIA (obrigatória):
 - Para CADA um dos 12 eixos, escreva primeiro um personaBrief de 1–2 frases conectando especificamente os dados curados ao tema daquele eixo.
