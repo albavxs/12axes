@@ -1,6 +1,6 @@
 import { spawn, spawnSync } from 'node:child_process';
 import { createServer } from 'node:http';
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from 'node:fs';
 import { dirname, resolve } from 'node:path';
 import sharp from 'sharp';
 
@@ -601,6 +601,32 @@ function runAuditValidation(id) {
   };
 }
 
+function runAllPendingAuditValidation() {
+  if (!existsSync(auditPendingRoot)) {
+    return { ok: true, message: 'Nenhuma saída de auditoria pendente encontrada.', passed: [], failed: [] };
+  }
+
+  const ids = readdirSync(auditPendingRoot)
+    .filter((name) => name.endsWith('.json'))
+    .map((name) => name.slice(0, -5))
+    .sort((a, b) => a.localeCompare(b, 'en'));
+
+  const passed = [];
+  const failed = [];
+  for (const id of ids) {
+    const report = runAuditValidation(id);
+    if (report.ok) passed.push(id);
+    else failed.push({ id, message: report.message, output: report.output.slice(0, 4000) });
+  }
+
+  return {
+    ok: failed.length === 0,
+    message: `Pré-validação: ${passed.length} passaram, ${failed.length} têm bloqueios. Nada foi arquivado ou promovido.`,
+    passed,
+    failed,
+  };
+}
+
 function jsonResponse(res, status, payload) {
   res.statusCode = status;
   res.setHeader('Content-Type', 'application/json; charset=utf-8');
@@ -674,6 +700,11 @@ const api = createServer(async (req, res) => {
     if (req.url === '/__dev/personality-studio-api/audit') {
       const report = runAuditValidation(id);
       refreshSnapshot();
+      return jsonResponse(res, 200, report);
+    }
+
+    if (req.url === '/__dev/personality-studio-api/audit-all') {
+      const report = runAllPendingAuditValidation();
       return jsonResponse(res, 200, report);
     }
 
