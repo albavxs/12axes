@@ -373,11 +373,13 @@ const stagingEntries = await Promise.all(
         profile: null,
         auditProfile: auditComputed.profile,
         auditProfileSource: auditComputed.source,
-        proposalProfile: dossier?.proposedVector
-          ? { personalityId: id, vector: dossier.proposedVector }
-          : null,
-        proposalProfileStatus: dossier?.proposedVectorStatus ?? null,
-        proposalProfileConfidence: dossier?.proposedVectorConfidence ?? null,
+        proposalProfile: candidate?.profileVector
+          ? { personalityId: id, vector: candidate.profileVector }
+          : dossier?.proposedVector
+            ? { personalityId: id, vector: dossier.proposedVector }
+            : null,
+        proposalProfileStatus: candidate?.profileVectorSource ?? dossier?.proposedVectorStatus ?? null,
+        proposalProfileConfidence: candidate?.profileVectorConfidence ?? dossier?.proposedVectorConfidence ?? null,
         book,
         evidence: dossier,
         evidenceReady: Boolean((dossier?.sources?.length ?? 0) >= 2 && axisIds.every((axisId) => String(dossier?.evidence?.[axisId] ?? '').trim())),
