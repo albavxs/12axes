@@ -208,6 +208,9 @@ const runtimeEntries = await Promise.all(personalities.map(async (personality) =
     profile,
     auditProfile: auditComputed.profile,
     auditProfileSource: auditComputed.source,
+    proposalProfile: null,
+    proposalProfileStatus: null,
+    proposalProfileConfidence: null,
     book,
     evidence: dossier,
     evidenceReady: Boolean((dossier?.sources?.length ?? 0) >= 2 && axisIds.every((axisId) => String(dossier?.evidence?.[axisId] ?? '').trim())),
@@ -370,6 +373,11 @@ const stagingEntries = await Promise.all(
         profile: null,
         auditProfile: auditComputed.profile,
         auditProfileSource: auditComputed.source,
+        proposalProfile: dossier?.proposedVector
+          ? { personalityId: id, vector: dossier.proposedVector }
+          : null,
+        proposalProfileStatus: dossier?.proposedVectorStatus ?? null,
+        proposalProfileConfidence: dossier?.proposedVectorConfidence ?? null,
         book,
         evidence: dossier,
         evidenceReady: Boolean((dossier?.sources?.length ?? 0) >= 2 && axisIds.every((axisId) => String(dossier?.evidence?.[axisId] ?? '').trim())),
