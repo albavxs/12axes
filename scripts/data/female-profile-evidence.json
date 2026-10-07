@@ -4631,6 +4631,33 @@
         "moral": "Gender equality, poverty reduction, education, social inclusion and sustainable development strongly support progressive and egalitarian social values.",
         "tecnologia": "The SDGs and sustainable-development agenda rely on modern infrastructure, innovation and data while emphasizing inclusion and environmental constraints. This supports pragmatic pro-technology modernization."
       }
+    },
+    {
+      "id": "amina-mama",
+      "sources": [
+        {
+          "url": "https://fri.ucdavis.edu/people/amina-mama",
+          "institution": "University of California, Davis – Feminist Research Institute"
+        },
+        {
+          "url": "https://culturalstudies.ucdavis.edu/people/amina-mama",
+          "institution": "University of California, Davis"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Mama's feminism emphasizes African and transnational women's movements, community advocacy and critical analysis of the state. This favors bottom-up civil-society organization rather than highly centralized political authority.",
+        "representacao": "Her work joins feminist theory with activism and aims to strengthen women's movements and marginalized political voice. This strongly supports participatory and inclusive representation.",
+        "poder": "Her research on gender and the state, militarism, colonialism and political development is explicitly critical of coercive and patriarchal power. This supports strong civil-libertarian and anti-authoritarian tendencies.",
+        "imigracao": "Her Nigerian-British, transnational career and work across African, European and U.S. contexts emphasize transnational feminism and resistance to colonial/racial hierarchy. This supports pluralism, though not a detailed border-policy program.",
+        "diplomacia": "Her academic and activist work builds transnational networks and collaborative movements. This supports international cooperation and solidarity rather than militarist diplomacy.",
+        "intervencao": "Militarism and conflict are explicit research interests, approached critically from feminist perspectives. This supports skepticism toward military intervention and coercive security politics.",
+        "economia": "Her work on gender, development, colonialism and globalization critiques structural inequality and neoliberal forms of power. This supports redistribution and social provisioning over laissez-faire economics.",
+        "controle": "Her feminist politics support public responsibility and social transformation but are wary of authoritarian state structures. Use moderate-to-high social coordination combined with decentralized participation.",
+        "comercio": "Her globalization and development work is critical of unequal global economic structures, but does not reduce to nationalist protectionism. Use managed global integration rather than pure free trade or autarky.",
+        "religiao": "Her scholarship is secular and critical-social-scientific rather than based on religious authority. This supports secular public institutions.",
+        "moral": "Her career centers feminist social justice, gender equality, anti-colonial analysis and challenges to patriarchal norms. This strongly supports progressive social values.",
+        "tecnologia": "Her use of digital publishing, documentary film and collaborative research indicates pragmatic use of technology, while her politics remain focused on social consequences rather than technological acceleration. Use moderate technophilia."
+      }
     }
   ]
 }
