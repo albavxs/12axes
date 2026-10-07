@@ -4577,6 +4577,33 @@
         "moral": "Her advocacy for Native rights, women's leadership, community dignity and cultural survival supports egalitarian and socially inclusive values.",
         "tecnologia": "Her administration invested in practical infrastructure and service modernization, but she left no broad ideology of technological acceleration. Use pragmatic, community-centered modernization."
       }
+    },
+    {
+      "id": "zuzana-caputova",
+      "sources": [
+        {
+          "url": "https://archiv.prezident.sk/zuzana-caputova/en/page/biography/",
+          "institution": "Office of the President of the Slovak Republic"
+        },
+        {
+          "url": "https://www.prezident.sk/zuzana-caputova/",
+          "institution": "Office of the President of the Slovak Republic"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Čaputová's career began in local self-government and community development before moving to national office. This supports appreciation of local civic capacity within a constitutional national and European framework rather than strong centralization.",
+        "representacao": "Her candidacy explicitly emphasized restoring trust, justice, human dignity and alignment with democratic Europe; she was elected president in a competitive vote. This strongly supports liberal-democratic representation.",
+        "poder": "Her legal career focused on rule of law, judicial functioning, public-official accountability, transparency and stronger public control of authority. This strongly supports institutional checks on coercive and executive power.",
+        "imigracao": "Her broader progressive and European orientation is pluralist, but the reviewed official biography does not establish a detailed immigration or border program. Use moderate inclusion rather than an extreme.",
+        "diplomacia": "She explicitly aligned Slovakia with democratic Europe and, as president, operated within EU and NATO institutions. This supports active European and alliance diplomacy rather than isolation.",
+        "intervencao": "Her European and transatlantic orientation accepts collective security institutions, but her legal-rights profile does not support unilateral militarism. Use moderate alliance-based intervention rather than either extreme.",
+        "economia": "Her public career emphasized rule of law, environmental protection and responsible public administration rather than a distinct socialist or laissez-faire program. This supports a regulated market economy with public safeguards.",
+        "controle": "Her environmental law and public-integrity work supports regulation and accountable public administration, but not comprehensive economic planning. Use moderate state coordination.",
+        "comercio": "European integration implies support for the EU Single Market and open regional commerce. No evidence supports protectionist autarky.",
+        "religiao": "Her public program is framed in constitutional justice, dignity and democratic values rather than religious authority. This supports a secular state.",
+        "moral": "Her Progressive Slovakia background, human-dignity agenda, environmental activism and public advocacy are consistent with socially liberal positions, though not every cultural issue is documented in the biography.",
+        "tecnologia": "Her environmental and public-administration background supports evidence-based modernization constrained by sustainability and public accountability rather than unregulated technological acceleration."
+      }
     }
   ]
 }
