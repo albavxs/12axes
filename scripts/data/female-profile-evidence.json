@@ -5009,6 +5009,33 @@
         "moral": "Her agenda emphasizes dignity, education, integrity and European democratic norms. Social positioning is broadly liberal-moderate rather than highly traditionalist.",
         "tecnologia": "Good-governance reform, digital public administration and European modernization support a pragmatic pro-technology stance under public accountability."
       }
+    },
+    {
+      "id": "masih-alinejad",
+      "sources": [
+        {
+          "url": "https://www.justice.gov/opa/pr/staten-island-man-sentenced-murder-hire-plot-and-stalking-journalist-and-prominent-critic",
+          "institution": "U.S. Department of Justice"
+        },
+        {
+          "url": "https://www.justice.gov/opa/pr/two-russian-mob-leaders-sentenced-25-years-prison-murder-hire-targeting-journalist-behalf",
+          "institution": "U.S. Department of Justice"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Alinejad is a journalist and dissident activist rather than a theorist of territorial constitutional structure. Her opposition is directed at Iran's authoritarian system, not a detailed federalism doctrine.",
+        "representacao": "Her work promotes political expression, civil liberties and public opposition to authoritarian rule. This strongly supports democratic participation and plural political representation.",
+        "poder": "The Iranian state's attempts to kidnap or murder her because of her criticism make opposition to coercive authoritarian power central to her politics. She strongly favors civil freedom over state repression.",
+        "imigracao": "As an Iranian-American exile and dissident, she defends freedom of movement and transnational civil society, but no detailed immigration or border policy is established.",
+        "diplomacia": "Her advocacy is international and seeks foreign political support against repression. She favors strong external pressure on the Iranian regime, so her diplomacy axis is less pacifist than purely dialogue-oriented activists.",
+        "intervencao": "Alinejad openly seeks international action and pressure against Iran's authoritarian government. The reviewed sources do not establish support for war, but she is less sovereignty/non-intervention oriented than many human-rights activists.",
+        "economia": "Her public activism focuses political freedom and women's rights rather than a coherent ownership or welfare-state program. Keep economic placement moderate.",
+        "controle": "No reliable planning-versus-market doctrine is established.",
+        "comercio": "Sanctions and external pressure appear in the wider opposition context, but the reviewed sources do not establish a standalone free-trade or protectionist theory. Keep moderate.",
+        "religiao": "Her activism strongly opposes compulsory hijab and state enforcement of religious norms. This supports a highly secular state and freedom of individual belief.",
+        "moral": "Campaigns against compulsory veiling and for women's civil liberties strongly support progressive gender and personal-autonomy values.",
+        "tecnologia": "Digital journalism and social media are core tools of her activism and international reach. This supports pro-technology communication paired with strong security/privacy concerns."
+      }
     }
   ]
 }
