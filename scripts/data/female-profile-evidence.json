@@ -5144,6 +5144,33 @@
         "moral": "Defense of women, minors, protesters, minorities and opposition to compulsory hijab and the death penalty strongly support progressive rights-based social positions.",
         "tecnologia": "Her activism and repression involve modern media and information controls, but she has not developed a broad technology ideology. Use a moderate pro-access, rights-protected placement."
       }
+    },
+    {
+      "id": "ngozi-okonjo-iweala",
+      "sources": [
+        {
+          "url": "https://www.wto.org/english/thewto_e/dg_e/dg_e.htm",
+          "institution": "World Trade Organization"
+        },
+        {
+          "url": "https://www.wto.org/english/news_e/news24_e/dgno_29nov24_e.htm",
+          "institution": "World Trade Organization"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Okonjo-Iweala is a technocratic economist and international institutional leader rather than a theorist of territorial federalism. Her work favors capable national institutions and multilateral governance.",
+        "representacao": "Her agenda emphasizes rules-based institutions, transparency, reform and inclusive economic governance, but she is not primarily an electoral-democracy theorist. Use a moderately pro-institutional democratic placement.",
+        "poder": "Her public record includes anti-corruption reform and rules-based administration, supporting constraints on arbitrary power together with strong state capacity.",
+        "imigracao": "Her work is globally oriented and development-focused, but the reviewed WTO sources do not establish a specific immigration or assimilation doctrine.",
+        "diplomacia": "As WTO Director-General she works through consensus, negotiation and multilateral institutions. This strongly supports diplomacy and international cooperation.",
+        "intervencao": "Her response to geopolitical tension emphasizes dialogue, economic cooperation and rules rather than military solutions. This supports non-military, institution-based conflict management.",
+        "economia": "Her World Bank, finance-ministry and WTO record supports market-oriented development, fiscal reform, private-sector growth and social investment rather than state ownership dominance.",
+        "controle": "She supports regulation, fiscal discipline and institutional reform but generally favors markets and private-sector development over command planning.",
+        "comercio": "Open, rules-based and inclusive global trade is central to her current mandate and stated agenda. This strongly supports free and multilateral trade.",
+        "religiao": "Her professional public agenda is secular and institutional. No evidence supports religious governance.",
+        "moral": "Her development agenda emphasizes poverty reduction, inclusion and opportunities for women and developing countries. This supports moderate egalitarian social values without a broad cultural-policy program.",
+        "tecnologia": "She emphasizes modernization, resilience, digital trade and institutional adaptation, supporting a pragmatic pro-technology orientation."
+      }
     }
   ]
 }
