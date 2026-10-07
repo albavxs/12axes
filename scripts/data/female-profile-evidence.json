@@ -4820,6 +4820,33 @@
         "moral": "Feminism, women's rights and political participation strongly support progressive gender and social values in the Saudi context.",
         "tecnologia": "Her work is historical and social rather than technological. No distinctive technology ideology is established."
       }
+    },
+    {
+      "id": "irene-khan",
+      "sources": [
+        {
+          "url": "https://www.amnesty.org/en/documents/ORG10/005/2009/en/",
+          "institution": "Amnesty International"
+        },
+        {
+          "url": "https://www.un.org/unispal/document/report-special-rapporteur-23aug24/",
+          "institution": "United Nations"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Khan's career is centered on international law, rights and rule-of-law institutions rather than territorial state design. No strong federal-versus-centralized doctrine is established.",
+        "representacao": "Her work at Amnesty, IDLO and as UN Special Rapporteur consistently promotes accountable institutions, civic voice and freedom of expression. This strongly supports democratic representation.",
+        "poder": "Freedom of expression, refugee protection, opposition to unlawful detention and criticism of disproportionate restrictions are central to her career. This strongly supports civil liberties and constraints on coercive state power.",
+        "imigracao": "Khan spent two decades at UNHCR protecting refugees and asylum seekers and criticized abusive detention of asylum seekers. This strongly supports rights-based and relatively open treatment of migrants and refugees.",
+        "diplomacia": "Her UN, Amnesty and international rule-of-law work rely on international law, negotiation and multilateral institutions. This strongly supports diplomacy and global cooperation.",
+        "intervencao": "Her human-rights advocacy challenges abuses in war and counter-terrorism while favoring international legal accountability. This supports restraint toward military intervention and preference for law-based non-military tools.",
+        "economia": "She expanded Amnesty's mandate into economic, social and cultural rights and wrote on poverty and human rights. This supports social protections and redistribution within a mixed economy rather than laissez-faire.",
+        "controle": "Her rule-of-law approach favors regulation and institutions that ensure social justice without advocating command planning. Use moderate public coordination.",
+        "comercio": "No standalone tariff doctrine is established. Her internationalism suggests openness but human-rights conditions matter; keep moderate.",
+        "religiao": "As a Muslim human-rights lawyer, Khan defends universal freedom of belief and secular legal rights rather than religious government. This supports pluralist secular institutions.",
+        "moral": "Women's rights, refugee rights, freedom of expression, social justice and equality strongly support progressive social values.",
+        "tecnologia": "Her current freedom-of-expression mandate addresses social media and digital rights, supporting technology use under human-rights safeguards rather than either techno-libertarianism or rejection."
+      }
     }
   ]
 }
