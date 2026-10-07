@@ -231,6 +231,7 @@ const stagingEntries = await Promise.all(
       const auditAnswerExists = existsSync(resolve(auditRoot, 'answers/personality', `${id}.json`));
       const auditPendingExists = existsSync(resolve(auditRoot, 'subagent-out/personality', `${id}.json`));
       const auditPacketExists = existsSync(resolve(repoRoot, '.personality-studio/audit-packets', `${id}.txt`));
+      const auditComputed = auditProfileFor(id);
       const imagePath = draft?.portrait?.path ?? '';
       const image = await inspectImage(imagePath);
       const translated = draft?.en ? { id, name: candidate.name, role: draft.en.role, description: draft.en.description } : null;
