@@ -1,0 +1,27 @@
+{
+  "id": "policarpa-salavarrieta",
+  "sources": [
+    {
+      "url": "https://enciclopedia.banrepcultural.org/index.php/Policarpa_Salavarrieta",
+      "institution": "Banco de la República Cultural, Colombia"
+    },
+    {
+      "url": "https://enciclopedia.banrepcultural.org/Policarpa_Salavarrieta_%28english_version%29",
+      "institution": "Banco de la República Cultural, Colombia"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Salavarrieta participated in the struggle to end Spanish colonial rule in New Granada. This establishes support for political sovereignty but not a detailed federal-versus-centralized constitutional model.",
+    "representacao": "Her commitment to independence and republican insurgent networks supports rejection of colonial rule, but surviving evidence does not establish a developed theory of electoral representation.",
+    "poder": "She resisted royalist authority, conducted clandestine work for insurgents and was executed by the colonial regime. This strongly supports opposition to arbitrary colonial coercion, though not a complete modern security-state doctrine.",
+    "imigracao": "No reliable position on immigration, assimilation or multiculturalism is established by the surviving historical record.",
+    "diplomacia": "Her activity occurred inside an independence war rather than conventional diplomacy. No general diplomacy-versus-militarism doctrine can be reconstructed reliably.",
+    "intervencao": "She actively supported an armed anti-colonial independence movement. That demonstrates willingness to use force against colonial rule, but should not be mechanically mapped to modern interstate interventionism.",
+    "economia": "The surviving biographical record does not establish a reliable ownership, redistribution or welfare doctrine.",
+    "controle": "No reliable planning-versus-market doctrine is established.",
+    "comercio": "No reliable tariff or trade-policy doctrine is established.",
+    "religiao": "Her early-nineteenth-century Catholic social context does not establish a personal program for religious government or secularism. Keep this axis underdetermined.",
+    "moral": "Her political agency challenged the gender constraints of her era and her independence activism supports civic equality in a broad historical sense, but modern cultural-policy questions remain underdetermined.",
+    "tecnologia": "No meaningful modern technology-policy preference can be inferred from the surviving historical record."
+  }
+}
