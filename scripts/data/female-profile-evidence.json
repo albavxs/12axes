@@ -5387,6 +5387,33 @@
         "moral": "Women's political organization, independence activism and constitutional participation strongly support women's equality and reformist social values.",
         "tecnologia": "Her politics focused independence, governance and social organization rather than technology. Use a pragmatic moderate placement."
       }
+    },
+    {
+      "id": "vera-songwe",
+      "sources": [
+        {
+          "url": "https://www.uneca.org/node/6118",
+          "institution": "United Nations Economic Commission for Africa"
+        },
+        {
+          "url": "https://archive.uneca.org/stories/vera-songwe-appointed-executive-secretary-economic-commission-africa",
+          "institution": "United Nations Economic Commission for Africa"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Songwe is an economist and development-policy leader rather than a constitutional theorist. Her work favors capable national and regional institutions without a specific centralization-versus-federalism doctrine.",
+        "representacao": "Her governance work emphasizes institutional reform, policy accountability and inclusive development, supporting democratic-quality institutions without a specific electoral-system program.",
+        "poder": "Macroeconomic reform, governance and institutional accountability are central to her work. This supports rule-bound state capacity rather than arbitrary executive power.",
+        "imigracao": "Her regional African development work is cross-border and integration-oriented, but the reviewed sources do not establish a specific immigration or assimilation doctrine.",
+        "diplomacia": "Senior UN, World Bank and regional roles strongly support multilateral cooperation and international economic diplomacy.",
+        "intervencao": "Her agenda focuses development finance, institutions, trade and cooperation rather than military policy. This supports a restrained non-military orientation.",
+        "economia": "Her World Bank, IFC and ECA career supports market-based development, private-sector growth, macroeconomic stability and public investment. This is a market-oriented developmental mixed economy.",
+        "controle": "She favors fiscal and institutional reform, investment frameworks and public policy rather than command planning. Use low-to-moderate economic control.",
+        "comercio": "Trade, competitiveness and African regional integration are explicit priorities in her ECA work, strongly supporting open and integrated regional trade.",
+        "religiao": "Her professional public agenda is secular and technocratic. No evidence supports religious governance.",
+        "moral": "Her development work addresses poverty, inequality and inclusive growth, supporting moderate egalitarian social values without a broad cultural-policy agenda.",
+        "tecnologia": "Digital transformation is explicitly listed among the priorities she brought to ECA. This strongly supports a pro-technology and digital-development orientation."
+      }
     }
   ]
 }
