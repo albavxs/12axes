@@ -4334,6 +4334,33 @@
         "moral": "She attacked the sexual double standard, women's subordination and prescribed gender roles and demanded changes in power relations. This strongly supports progressive social values.",
         "tecnologia": "Her work was cultural, philosophical and artistic rather than technological. No distinctive technology doctrine is established."
       }
+    },
+    {
+      "id": "sheila-rowbotham",
+      "sources": [
+        {
+          "url": "https://www.versobooks.com/en-gb/blogs/authors/rowbotham-sheila",
+          "institution": "Verso Books"
+        },
+        {
+          "url": "https://www.versobooks.com/en-gb/products/2771-daring-to-hope",
+          "institution": "Verso Books"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Rowbotham's socialist feminism grew from grassroots women's liberation, labor and social movements and is skeptical of hierarchical organization. This supports relatively decentralized, participatory forms of socialist politics.",
+        "representacao": "Her work emphasizes collective participation, women's voices and movement democracy rather than elite control, supporting broad democratic representation from below.",
+        "poder": "Her feminism critiques patriarchal, class and institutional hierarchies and favors autonomy and liberation, supporting strong civil-libertarian constraints on coercive power.",
+        "imigracao": "Her politics were shaped by anti-racism, international solidarity and radical social movements. This supports cultural pluralism, though she is not primarily an immigration-policy theorist.",
+        "diplomacia": "Her participation in anti-war and international-solidarity movements, including campaigns around Vietnam, supports an anti-militarist and internationalist orientation.",
+        "intervencao": "Her radical-left and anti-war activism weighs strongly against imperial military intervention and coercive foreign policy.",
+        "economia": "Rowbotham is a socialist feminist whose work links women's subordination to labor and capitalist social relations. This strongly supports collective provision, labor power and redistribution over laissez-faire capitalism.",
+        "controle": "Her socialism is notably movement-oriented and skeptical of rigid hierarchy, favoring democratic social coordination rather than bureaucratic command planning.",
+        "comercio": "Her critique of capitalism and international solidarity do not translate into nationalist protectionism. Use a managed/internationalist economic orientation rather than classic free-trade liberalism.",
+        "religiao": "Her historical and political arguments are secular and materialist rather than grounded in religious authority. This supports secular public institutions.",
+        "moral": "Women's liberation, abortion rights, equality and transformation of gender relations place her strongly on the progressive side of the social axis.",
+        "tecnologia": "Her work centers labor, daily life and social organization rather than a distinct technology ideology. Use a moderate position attentive to technology's effects on work and power."
+      }
     }
   ]
 }
