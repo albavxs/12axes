@@ -642,6 +642,11 @@ const api = createServer(async (req, res) => {
     }
     if (req.method !== 'POST') return jsonResponse(res, 405, { error: 'Method not allowed.' });
 
+    if (req.url === '/__dev/personality-studio-api/refresh') {
+      refreshSnapshot();
+      return jsonResponse(res, 200, { ok: true, message: 'Snapshot do Studio regenerado a partir dos arquivos atuais.' });
+    }
+
     const body = await readRequestBody(req);
     const source = cleanText(body.source, 20);
     const id = cleanText(body.id, 180);
