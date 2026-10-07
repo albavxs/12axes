@@ -6,7 +6,7 @@ name: Haydée Santamaría
 role: Revolucionária e dirigente cultural
 category: politico
 lifespan: 1922–1980
-description: Revolucionária cubana, Haydée Santamaría participou do ataque ao Quartel Moncada, atuou na organização clandestina contra Batista e integrou a direção revolucionária. Após 1959, fundou e dirigiu a Casa de las Américas, tornando-se uma figura central da política cultural cubana e do intercâmbio intelectual latino-americano.
+description: Revolucionária cubana, Haydée Santamaría participou do ataque ao Quartel Moncada, da resistência clandestina a Batista e da direção revolucionária. Após 1959, fundou e dirigiu a Casa de las Américas, tornando-se figura central da cultura cubana e do intercâmbio latino-americano.
 
 METODOLOGIA (obrigatória):
 - Para CADA um dos 12 eixos, escreva primeiro um personaBrief de 1–2 frases conectando especificamente os dados curados ao tema daquele eixo.
