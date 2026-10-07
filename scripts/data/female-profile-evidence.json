@@ -83,6 +83,10 @@
         {
           "url": "https://news.ucsc.edu/2019/07/davis-hall-fame/",
           "institution": "University of California, Santa Cruz"
+        },
+        {
+          "url": "https://www.archives.gov/research/african-americans/individuals/angela-davis",
+          "institution": "U.S. National Archives"
         }
       ],
       "evidence": {
@@ -5413,6 +5417,222 @@
         "religiao": "Her professional public agenda is secular and technocratic. No evidence supports religious governance.",
         "moral": "Her development work addresses poverty, inequality and inclusive growth, supporting moderate egalitarian social values without a broad cultural-policy agenda.",
         "tecnologia": "Digital transformation is explicitly listed among the priorities she brought to ECA. This strongly supports a pro-technology and digital-development orientation."
+      }
+    },
+    {
+      "id": "elena-ceausescu",
+      "sources": [
+        {
+          "url": "https://balcanica.rs/index.php/journal/article/download/128/135/131",
+          "institution": "Institute for Balkan Studies, Serbian Academy of Sciences and Arts"
+        },
+        {
+          "url": "https://www.rciusa.info/post/the-history-of-romania-in-one-object-ceau%C8%99escu-s-personality-cult-in-paintings",
+          "institution": "Romanian Cultural Institute in New York"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Elena Ceaușescu held senior posts in a highly centralized Romanian party-state. This is strong contextual evidence for central state authority, but it should not be treated as a personal constitutional theory.",
+        "representacao": "Her political power operated inside a one-party dictatorship and an extensive personality cult. This strongly supports an authoritarian rather than pluralist-democratic placement.",
+        "poder": "The Ceaușescu regime relied on censorship, coercive security institutions and repression. Elena shared top-level power, but axis attribution should distinguish regime context from individually documented orders.",
+        "imigracao": "The reviewed sources do not establish a distinctive personal immigration or assimilation doctrine. Keep this axis conservative and evidence-limited rather than inferring it from Romanian nationalism.",
+        "diplomacia": "She participated in high-level state diplomacy and the regime cultivated autonomy within the communist bloc. There is insufficient evidence for a personal militarist doctrine.",
+        "intervencao": "Romanian national communism emphasized sovereignty and political independence from Moscow while remaining authoritarian at home. This supports sovereignty-oriented nationalism more clearly than foreign military interventionism.",
+        "economia": "She was a top official in a socialist state dominated by public ownership. This strongly supports a public-sector economic placement.",
+        "controle": "The Romanian communist economy relied on centralized state planning and political direction of production. Her senior leadership role supports strong planning, while exact intensity remains for the audit.",
+        "comercio": "The regime pursued tightly managed external trade and later severe debt-repayment policies. This supports managed/protectionist economics contextually, though not as a uniquely Elena-authored doctrine.",
+        "religiao": "Her public political identity and the ruling party were officially secular communist. This supports secular state institutions.",
+        "moral": "The regime combined socialist employment and education for women with coercive pronatalist policy and restrictions on abortion and contraception. The moral axis is therefore mixed and should not be inferred from communist labels alone.",
+        "tecnologia": "Her official persona strongly emphasized chemistry, science and industrial modernization, although scholarship documents the propagandistic construction of her scientific prestige. This still supports a modernist/technology-oriented public image."
+      }
+    },
+    {
+      "id": "jiang-qing",
+      "sources": [
+        {
+          "url": "https://www.hoover.org/news/tracking-jiang-qing-1914-1991-stanford-universitys-hoover-archives",
+          "institution": "Hoover Institution, Stanford University"
+        },
+        {
+          "url": "https://www.marxists.org/archive/jiang-qing/",
+          "institution": "Marxists Internet Archive — primary speeches collection"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Jiang Qing rose through the centralized Chinese Communist Party and Cultural Revolution leadership. Her politics favored revolutionary party authority rather than federal decentralization.",
+        "representacao": "Her power came through the Maoist one-party system, the Cultural Revolution Group and Politburo rather than competitive elections. This strongly supports an authoritarian revolutionary placement.",
+        "poder": "Her Cultural Revolution role and speeches endorsed intensive political struggle and campaigns against ideological opponents. This supports high tolerance for coercive revolutionary authority.",
+        "imigracao": "Immigration was not a meaningful focus of her political record in the reviewed material. Keep near the middle unless stronger evidence appears.",
+        "diplomacia": "Her primary record is domestic revolutionary politics and culture; some speeches addressed diplomatic cadres, but there is not enough evidence for an extreme foreign-policy score.",
+        "intervencao": "Maoist revolutionary internationalism and support for class struggle place her away from strict non-interventionist liberalism, though her personal record is not a conventional military foreign-policy program.",
+        "economia": "Her Maoist politics operated within collective ownership and opposition to capitalist restoration. This strongly supports public/collective economics.",
+        "controle": "Cultural Revolution radicalism remained committed to a planned socialist economy and political direction of production. This supports strong planning.",
+        "comercio": "The Mao-era system emphasized self-reliance and state-managed foreign trade. This supports a protectionist/managed placement contextually rather than a personal tariff doctrine.",
+        "religiao": "Cultural Revolution politics attacked traditional and religious institutions and promoted explicitly secular revolutionary ideology. This strongly supports irreligious state orientation.",
+        "moral": "She championed radical attacks on inherited cultural hierarchy and remade art around revolutionary models. That is culturally radical, but the project's modern progressive/traditional axis is not a direct one-to-one mapping.",
+        "tecnologia": "Maoist campaigns promoted industrial modernization while also attacking expert and academic authority during the Cultural Revolution. Evidence is mixed; avoid an extreme technology score without the 240-question audit."
+      }
+    },
+    {
+      "id": "kim-jong-suk",
+      "sources": [
+        {
+          "url": "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002540509",
+          "institution": "Korean Citation Index / Institute for Far Eastern Studies"
+        },
+        {
+          "url": "https://www.kinu.or.kr/eng/module/report/download.do?id=20827",
+          "institution": "Korea Institute for National Unification"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Reliable scholarship reviewed here focuses more on Kim Jong-suk's later symbolic construction than on a personal constitutional program. Do not infer a strong centralization score solely from the later DPRK.",
+        "representacao": "She was a communist guerrilla figure rather than an elected pluralist politician, but the evidence base is too thin to reconstruct a detailed theory of representation. Keep this axis under research.",
+        "poder": "Anti-Japanese guerrilla participation implies acceptance of armed revolutionary struggle. Later North Korean portrayals amplify her militant image, so individual coercive-state preferences require cautious separation from state mythology.",
+        "imigracao": "No reliable personal immigration doctrine is established in the reviewed sources. Keep near the midpoint pending stronger evidence.",
+        "diplomacia": "The sources do not establish an individual diplomatic doctrine. Her anti-colonial revolutionary context should not be converted automatically into a later DPRK foreign-policy score.",
+        "intervencao": "Her remembered role is anti-Japanese armed resistance, not a documented general doctrine of interstate intervention. Code revolutionary militancy separately from expansionism.",
+        "economia": "As a communist activist in Kim Il-sung's guerrilla movement, she belonged to a socialist revolutionary milieu, but detailed personal economic positions are poorly documented.",
+        "controle": "No sufficiently specific personal planning doctrine is established. Communist affiliation suggests support for coordinated socialist economics, but the exact value must remain audit-dependent.",
+        "comercio": "No personal trade doctrine is established in the reliable material reviewed. Keep moderate pending evidence.",
+        "religiao": "Communist revolutionary identity supports a secular political orientation, but there is insufficient personal writing to justify an extreme score solely from later state atheism.",
+        "moral": "The later regime recast her image to serve changing gender ideals. The KCI study specifically warns that her symbolic role was reconstructed over time, so modern social-values scoring must be conservative.",
+        "tecnologia": "No distinctive personal technology doctrine is established. Avoid importing later North Korean industrial or military policy into her profile."
+      }
+    },
+    {
+      "id": "vilma-espin",
+      "sources": [
+        {
+          "url": "https://www.theguardian.com/news/2007/jun/20/obituaries.cuba",
+          "institution": "The Guardian"
+        },
+        {
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/espin-de-castro-vilma-1930-2007",
+          "institution": "Encyclopedia of Latin American History and Culture"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Espín became a senior figure in Cuba's centralized revolutionary state and Communist Party, while her mass-organization work also mobilized local participation. This supports central coordination without treating her as a constitutional theorist.",
+        "representacao": "She served in one-party Cuban institutions and Communist Party leadership rather than competitive multiparty politics. At the same time, her Federation work expanded women's organized participation; score authority and participation separately.",
+        "poder": "Espín participated in clandestine resistance and the Rebel Army against Batista, demonstrating acceptance of armed revolutionary struggle. Her later work was primarily organizational and social rather than security administration.",
+        "imigracao": "Her international women's work and revolutionary internationalism support cross-border solidarity, but immigration policy was not a central personal field. Avoid an extreme score.",
+        "diplomacia": "She led Cuban delegations to international women's conferences and maintained extensive international contacts. This supports active international engagement rather than isolation.",
+        "intervencao": "Her revolutionary background involved armed overthrow of Batista and anti-imperialist politics, but there is little evidence of a personal doctrine favoring foreign military intervention.",
+        "economia": "As a Communist Party leader and FMC president, she worked within and defended Cuba's socialist public economy. This strongly supports public ownership and social provision.",
+        "controle": "Her political career operated in a planned socialist economy, and the social programs she advanced relied heavily on coordinated public institutions. This supports strong planning.",
+        "comercio": "Cuban revolutionary economics emphasized managed external trade and state control, but the reviewed biographies do not establish a personal tariff doctrine. Use regime context cautiously.",
+        "religiao": "Her political work was secular and rooted in communist mass organizations rather than religious governance. This supports an irreligious/secular state placement.",
+        "moral": "Women's equality, childcare, literacy, family-law reform and participation in employment were central to her public work. This strongly supports progressive gender and social policy.",
+        "tecnologia": "Espín trained as a chemical engineer and worked in industrial development as well as politics. This supports a modernist, pro-science and pro-technology orientation."
+      }
+    },
+    {
+      "id": "celia-sanchez",
+      "sources": [
+        {
+          "url": "https://academic.oup.com/north-carolina-scholarship-online/book/37675",
+          "institution": "Oxford Academic / University of North Carolina Scholarship Online"
+        },
+        {
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sanchez-manduley-celia-1920-1980",
+          "institution": "Encyclopedia of Latin American History and Culture"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Sánchez became a high-ranking official in Cuba's centralized revolutionary government and Communist Party context. She is best documented as an organizer and stateswoman, not a constitutional theorist.",
+        "representacao": "Her revolutionary legitimacy came from the 26th of July Movement and later one-party institutions rather than competitive elections. This supports a non-liberal representative model.",
+        "poder": "She moved arms, fought in the Sierra Maestra and helped organize revolutionary forces. This is strong evidence for acceptance of armed political struggle, while later security-policy views are less documented.",
+        "imigracao": "No distinct immigration doctrine appears in the reviewed biographies. Keep the axis moderate and avoid inference from Cuban state policy.",
+        "diplomacia": "The Oxford/UNC biography describes her as an international ambassador as well as a government official. This supports active diplomatic engagement, not necessarily militarism.",
+        "intervencao": "Her life centered on armed revolution in Cuba rather than a general doctrine of foreign intervention. Anti-imperialist revolutionary solidarity is relevant but should not be converted into expansionism.",
+        "economia": "As a senior revolutionary official, she supported the socialist transformation of Cuba and a public-sector economy. This supports public ownership.",
+        "controle": "Her state career took place inside Cuba's planned socialist system, supporting coordinated economic planning, though the biographies do not present her as an economic theorist.",
+        "comercio": "No detailed personal trade doctrine is established. Cuba's managed socialist trade context is relevant but should carry limited weight.",
+        "religiao": "Her revolutionary public role was secular. There is no evidence in the reviewed material for religious government.",
+        "moral": "The critical biography emphasizes her status as a revolutionary woman who challenged gender conventions. This supports social egalitarianism, while not proving views on every modern cultural issue.",
+        "tecnologia": "Her record focuses organization, war, archival preservation and government rather than a distinct technology ideology. Use a pragmatic middle-to-modernist placement."
+      }
+    },
+    {
+      "id": "haydee-santamaria",
+      "sources": [
+        {
+          "url": "https://www.dukeupress.edu/Haydee-Santamaria-Cuban-Revolutionary",
+          "institution": "Duke University Press"
+        },
+        {
+          "url": "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/santamaria-haydee-1927-1980",
+          "institution": "Encyclopedia of Latin American History and Culture"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Santamaría became a founding Central Committee member in Cuba's centralized communist system while also building a cultural institution with international networks. This supports strong public coordination with some institutional pluralism in culture.",
+        "representacao": "Her career ran through revolutionary and one-party institutions, not liberal electoral competition. Her Casa de las Américas work nevertheless broadened participation in cultural life.",
+        "poder": "She participated in the armed Moncada attack, underground organization and weapons movement. This strongly supports acceptance of revolutionary force against dictatorship.",
+        "imigracao": "Her cultural internationalism connected Latin American, Caribbean and global intellectuals, but immigration law was not her policy field. Use an open/internationalist tendency without extremity.",
+        "diplomacia": "Casa de las Américas and her international revolutionary contacts strongly support international cultural and political engagement.",
+        "intervencao": "Her revolutionary record is militant and anti-imperialist, but the evidence supports revolutionary solidarity more clearly than a general preference for interstate military intervention.",
+        "economia": "As a Cuban Communist Party leader, she supported the socialist revolution and public economic order. This strongly favors public over private ownership.",
+        "controle": "Her political environment and party position support planned socialist coordination, though she was primarily a cultural rather than economic administrator.",
+        "comercio": "No clear personal trade doctrine is documented. Keep this axis moderate-to-managed rather than inferring maximal protectionism.",
+        "religiao": "Her politics and cultural administration were secular, with no evidence for religious governance.",
+        "moral": "Duke's biography highlights her cultural protection of queer, Black and feminist artists even within a restrictive state environment. This provides unusually strong evidence for progressive cultural inclusion.",
+        "tecnologia": "Her record centers culture and revolutionary organization, not a distinct technology doctrine. Use a moderate modernist placement."
+      }
+    },
+    {
+      "id": "tamara-bunke",
+      "sources": [
+        {
+          "url": "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/bunke-tamara-1937-1967",
+          "institution": "Encyclopedia.com"
+        },
+        {
+          "url": "https://www.htw-berlin.de/forschung/online-forschungskatalog/projekte/projekt/?eid=2716",
+          "institution": "HTW Berlin University of Applied Sciences"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Bunke worked in disciplined communist and clandestine organizations, but she never governed a state or articulated a constitutional design. Keep the centralization axis moderate and evidence-limited.",
+        "representacao": "Her political path was revolutionary and underground rather than electoral. This places her away from liberal-parliamentary politics, but there is insufficient evidence for a personal authoritarian governing doctrine.",
+        "poder": "Clandestine intelligence work and participation in Che Guevara's Bolivian guerrilla campaign provide direct evidence of willingness to use armed revolutionary methods.",
+        "imigracao": "Her life across Argentina, East Germany, Cuba and Bolivia and her internationalist communist commitments support cosmopolitan cross-border solidarity rather than ethnonational exclusion.",
+        "diplomacia": "She worked as a translator and in international revolutionary networks, but her final mission was clandestine rather than conventional diplomacy. This is internationalist yet militant.",
+        "intervencao": "Participation in a guerrilla project intended to spread revolution beyond Cuba places her clearly away from strict non-interventionism.",
+        "economia": "Her communist commitments and work for socialist Cuba support collective/socialist economics over laissez-faire capitalism.",
+        "controle": "Her political milieu favored planned socialist coordination, though she left little evidence of detailed personal economic policy. Use a strong but not maximal planning tendency.",
+        "comercio": "No substantive personal trade doctrine is documented. Communist internationalism is not the same as nationalist protectionism, so keep this axis moderate.",
+        "religiao": "Her activism was secular communist, and the reviewed sources provide no basis for religious governance.",
+        "moral": "Her revolutionary internationalism and participation in women's organizations support egalitarian social values, but she was not a theorist of later cultural-policy questions.",
+        "tecnologia": "No distinctive technology doctrine is documented. Her intelligence and communications work indicates practical modernism but not an ideological technology program."
+      }
+    },
+    {
+      "id": "dolores-ibarruri",
+      "sources": [
+        {
+          "url": "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/autoridad/66015",
+          "institution": "PARES — Spanish State Archives"
+        },
+        {
+          "url": "https://www.pce.es/en/historia-del-pce/",
+          "institution": "Communist Party of Spain historical archive"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Ibárruri rose through a highly disciplined Communist Party and favored strong collective organization. Her politics were nevertheless tied to the Spanish Republic and later to the PCE's democratic transition strategy, so avoid a simple unitary-state inference.",
+        "representacao": "PARES documents her early orthodox communist and Stalin-aligned leadership, while later PCE history records a turn toward a parliamentary, plural-party road to socialism. Her representation score should reflect this major evolution over time.",
+        "poder": "During the Civil War she advocated disciplined armed defense of the Republic and militant anti-fascism. This supports strong security/revolutionary authority in wartime, tempered by later democratic strategy.",
+        "imigracao": "Her long Soviet exile and international communist activity support internationalism rather than xenophobic assimilation. Immigration policy itself was not a central personal doctrine.",
+        "diplomacia": "She was a prominent international communist representative with close Soviet ties and later advocated peace and democratization. This supports active international alignment with a changing balance between militancy and peaceful strategy.",
+        "intervencao": "Her 1930s record strongly supports armed anti-fascist resistance, while later PCE strategy emphasized a peaceful road to socialism. The audit should capture temporal evolution rather than freezing the Civil War moment.",
+        "economia": "As a lifelong communist leader, she supported socialist ownership and the political power of the working class. This strongly favors public/collective economics.",
+        "controle": "Her orthodox Marxist-Leninist period strongly supported planned socialist economics, though later Eurocommunist-era party evolution moderates the broader political package.",
+        "comercio": "Communist economic planning implies managed trade, but she was not primarily a trade-policy theorist. Use moderate-to-strong state management rather than a nationalist tariff extreme.",
+        "religiao": "Her public ideology was secular communist and opposed clerical political dominance. This strongly supports secular state institutions.",
+        "moral": "Her mobilization of women and working-class politics challenged traditional gender and class hierarchy, supporting progressive equality, though her views predate many present-day cultural issues.",
+        "tecnologia": "Her politics were rooted in industrial working-class modernity and socialist modernization, but no distinctive technology doctrine is established. Use a moderate pro-modernization placement."
       }
     }
   ]
