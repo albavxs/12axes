@@ -410,6 +410,8 @@ const stats = {
   runtimeMale: runtimeEntries.filter((entry) => entry.representation === 'male').length,
   runtimeFemale: runtimeEntries.filter((entry) => entry.representation === 'female').length,
   plannedFemale: runtimeEntries.filter((entry) => entry.representation === 'female').length + stagingEntries.length,
+  excludedFemale: (manifest.excludedCandidates ?? []).length,
+  replacementSlots: Math.max(0, (manifest.target?.targetFemaleCount ?? 200) - (runtimeEntries.filter((entry) => entry.representation === 'female').length + stagingEntries.length)),
   errors: entries.filter((entry) => entry.validation.errors.length > 0).length,
   warnings: entries.filter((entry) => entry.validation.errors.length === 0 && entry.validation.warnings.length > 0).length,
   ok: entries.filter((entry) => entry.validation.errors.length === 0 && entry.validation.warnings.length === 0).length,
