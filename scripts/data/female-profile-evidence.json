@@ -5306,6 +5306,33 @@
         "moral": "Her civic, educational and international work supports women's participation, pluralism and moderate social liberalism.",
         "tecnologia": "Her public profile emphasizes diplomacy, education and institutions more than technology. Use a moderate pragmatic placement."
       }
+    },
+    {
+      "id": "salome-zourabichvili",
+      "sources": [
+        {
+          "url": "https://www.coe.int/en/web/presidency/georgia-news/-/asset_publisher/xRTT3jC6NrRc/content/salome-zurabichvili-georgia-has-consolidated-its-democratic-institutions-/16695",
+          "institution": "Council of Europe"
+        },
+        {
+          "url": "https://pace.coe.int/news/7761/salome-zurabichvili-georgia-has-consolidated-its-democratic-institutions-",
+          "institution": "Parliamentary Assembly of the Council of Europe"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Zourabichvili defended Georgia's 2018 constitutional framework and strong democratic institutions within a unitary state. This supports rule-bound national institutions rather than a radical decentralization program.",
+        "representacao": "Her public statements explicitly defend democratisation, pluralism, civil participation and democratic institutions. This strongly supports representative democracy.",
+        "poder": "She emphasizes rule of law, human rights and institutional constraints and later positioned herself against democratic backsliding. This supports limits on arbitrary executive power.",
+        "imigracao": "Her European orientation and French-Georgian background support cultural openness, but the reviewed sources do not establish a detailed immigration or asylum doctrine.",
+        "diplomacia": "A career diplomat, former foreign minister and president, she strongly favors European integration, international institutions and diplomatic engagement.",
+        "intervencao": "She strongly defends Georgian sovereignty and Euro-Atlantic security cooperation in the face of occupation, making her more supportive of collective defense than strict non-interventionists while rejecting expansionist force.",
+        "economia": "Her Council of Europe remarks combine sustained economic growth with social and healthcare rights. This supports a market-oriented mixed economy with social guarantees.",
+        "controle": "She supports capable public institutions and social rights but not command planning. Use low-to-moderate economic control.",
+        "comercio": "European integration and closer alignment with EU institutions support relatively open trade and economic integration.",
+        "religiao": "Her public constitutional agenda is rights-based and European rather than clerically governed. Keep religious influence moderate within a secular institutional framework.",
+        "moral": "Human rights, environmental rights, civil participation and European democratic norms support moderately progressive social values.",
+        "tecnologia": "Her politics emphasize modernization and European integration, but no distinctive technology doctrine is central. Use pragmatic moderate technophilia."
+      }
     }
   ]
 }
