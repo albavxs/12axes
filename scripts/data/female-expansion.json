@@ -47,7 +47,8 @@
         "https://campusdirectory.ucsc.edu/cd_detail?guid=G000122719",
         "https://women.ucsc.edu/",
         "https://campusdirectory.ucsc.edu/cd_detail?uid=aydavis",
-        "https://news.ucsc.edu/2019/07/davis-hall-fame/"
+        "https://news.ucsc.edu/2019/07/davis-hall-fame/",
+        "https://www.archives.gov/research/african-americans/individuals/angela-davis"
       ],
       "evidenceFile": "scripts/data/female-profile-evidence.json",
       "metadataFile": "scripts/data/female-metadata-drafts.json"
@@ -1683,9 +1684,14 @@
       "metadataStatus": "review",
       "portraitStatus": "pending",
       "translationStatus": "review",
-      "profileStatus": "researching",
+      "profileStatus": "proposed",
       "bookStatus": "pending",
-      "metadataFile": "scripts/data/female-metadata-drafts.json"
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://cpdoc.fgv.br/biografias/luis-carlos-prestes",
+        "https://www.holocaust-denkmal-berlin.de/raum-der-namen/biographien/biographie/7911"
+      ],
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     },
     {
       "id": "anita-garibaldi",
@@ -2754,19 +2760,164 @@
         "https://gna.org.gh/2025/10/former-first-lady-nana-konadu-agyeman-rawlings-is-dead/",
         "https://gna.org.gh/2025/11/president-mahama-leads-ghanaians-to-bid-farewell-to-former-first-lady/"
       ]
+    },
+    {
+      "id": "elena-ceausescu",
+      "name": "Elena Ceaușescu",
+      "region": "europe",
+      "period": "20th-century",
+      "category": "politico",
+      "metadataStatus": "review",
+      "portraitStatus": "pending",
+      "translationStatus": "review",
+      "profileStatus": "researching",
+      "bookStatus": "pending",
+      "sources": [
+        "https://balcanica.rs/index.php/journal/article/download/128/135/131",
+        "https://www.rciusa.info/post/the-history-of-romania-in-one-object-ceau%C8%99escu-s-personality-cult-in-paintings"
+      ],
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
+    },
+    {
+      "id": "jiang-qing",
+      "name": "Jiang Qing",
+      "region": "east-asia",
+      "period": "20th-century",
+      "category": "politico",
+      "metadataStatus": "review",
+      "portraitStatus": "pending",
+      "translationStatus": "review",
+      "profileStatus": "proposed",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.hoover.org/news/tracking-jiang-qing-1914-1991-stanford-universitys-hoover-archives",
+        "https://www.marxists.org/archive/jiang-qing/"
+      ],
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
+    },
+    {
+      "id": "kim-jong-suk",
+      "name": "Kim Jong-suk",
+      "region": "east-asia",
+      "period": "20th-century",
+      "category": "ativista",
+      "metadataStatus": "review",
+      "portraitStatus": "pending",
+      "translationStatus": "review",
+      "profileStatus": "researching",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002540509",
+        "https://www.kinu.or.kr/eng/module/report/download.do?id=20827"
+      ],
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
+    },
+    {
+      "id": "vilma-espin",
+      "name": "Vilma Espín",
+      "region": "latin-america",
+      "period": "20th-century",
+      "category": "politico",
+      "metadataStatus": "review",
+      "portraitStatus": "pending",
+      "translationStatus": "review",
+      "profileStatus": "proposed",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.theguardian.com/news/2007/jun/20/obituaries.cuba",
+        "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/espin-de-castro-vilma-1930-2007"
+      ],
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
+    },
+    {
+      "id": "celia-sanchez",
+      "name": "Celia Sánchez",
+      "region": "latin-america",
+      "period": "20th-century",
+      "category": "politico",
+      "metadataStatus": "review",
+      "portraitStatus": "pending",
+      "translationStatus": "review",
+      "profileStatus": "proposed",
+      "bookStatus": "pending",
+      "sources": [
+        "https://academic.oup.com/north-carolina-scholarship-online/book/37675",
+        "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sanchez-manduley-celia-1920-1980"
+      ],
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
+    },
+    {
+      "id": "haydee-santamaria",
+      "name": "Haydée Santamaría",
+      "region": "latin-america",
+      "period": "20th-century",
+      "category": "politico",
+      "metadataStatus": "review",
+      "portraitStatus": "pending",
+      "translationStatus": "review",
+      "profileStatus": "proposed",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.dukeupress.edu/Haydee-Santamaria-Cuban-Revolutionary",
+        "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/santamaria-haydee-1927-1980"
+      ],
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
+    },
+    {
+      "id": "tamara-bunke",
+      "name": "Tamara Bunke",
+      "region": "europe-latin-america",
+      "period": "20th-century",
+      "category": "ativista",
+      "metadataStatus": "review",
+      "portraitStatus": "pending",
+      "translationStatus": "review",
+      "profileStatus": "proposed",
+      "bookStatus": "pending",
+      "sources": [
+        "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/bunke-tamara-1937-1967",
+        "https://www.htw-berlin.de/forschung/online-forschungskatalog/projekte/projekt/?eid=2716"
+      ],
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
+    },
+    {
+      "id": "dolores-ibarruri",
+      "name": "Dolores Ibárruri",
+      "region": "europe",
+      "period": "20th-century",
+      "category": "politico",
+      "metadataStatus": "review",
+      "portraitStatus": "pending",
+      "translationStatus": "review",
+      "profileStatus": "proposed",
+      "bookStatus": "pending",
+      "sources": [
+        "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/autoridad/66015",
+        "https://www.pce.es/en/historia-del-pce/"
+      ],
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "evidenceFile": "scripts/data/female-profile-evidence.json"
     }
   ],
   "progress": {
     "integratedFemaleCount": 28,
-    "pipelineCandidateCount": 167,
-    "plannedFemaleCount": 195,
+    "pipelineCandidateCount": 175,
+    "plannedFemaleCount": 203,
     "targetFemaleCount": 200,
-    "remainingUnplanned": 5,
+    "remainingUnplanned": 0,
     "readyCandidateCount": 0,
     "profileReviewCount": 82,
-    "profileResearchingCount": 56,
+    "profileResearchingCount": 57,
     "profilePendingCount": 29,
-    "blockedFromRuntimeCount": 167
+    "blockedFromRuntimeCount": 175,
+    "profileProposedCount": 7
   },
   "gates": {
     "readyRequires": [
