@@ -6,6 +6,20 @@
 >
 > Gate de merge: **200 mulheres no runtime com perfil auditável e revisado**.
 
+## Exclusões editoriais do lote de 200 — 6 de outubro de 2026
+
+A pedido do mantenedor, os seguintes IDs foram retirados da fila ativa de auditoria, da seleção de staging no Studio e da promoção ao runtime:
+
+- `carmen-da-silva` — Carmen da Silva
+- `gisela-bock` — Gisela Bock
+- `hatoon-al-fassi` — Hatoon al-Fassi
+- `iris-murdoch` — Iris Murdoch
+- `sheila-rowbotham` — Sheila Rowbotham
+
+Os registros foram preservados em `scripts/data/female-expansion.json → excludedCandidates` para rastreabilidade; arquivos de evidência, metadata e 240 respostas já preparados não são automaticamente apagados, mas **não contam como candidatas ativas**.
+
+O planejamento passa de **200/200 para 195/200** (28 runtime + 167 candidatas); são necessárias **5 substitutas** para manter a meta de 200. A validação final de expansão permanece bloqueada enquanto a meta estiver incompleta. Não selecionar nem reintegrar essas cinco automaticamente.
+
 ## Estado inicial verificado
 
 - 28 mulheres já estão no runtime;

@@ -23,6 +23,7 @@ const metadata = existsSync(metadataPath)
 
 const requiredStatuses = ['metadataStatus', 'portraitStatus', 'translationStatus', 'profileStatus'];
 const candidates = manifest.candidates;
+const exclusions = manifest.excludedCandidates ?? [];
 const evidenceById = new Map((evidence.personalities ?? []).map((entry) => [entry.id, entry]));
 const metadataById = new Map((metadata.personalities ?? []).map((entry) => [entry.id, entry]));
 const runtimeFemaleIds = new Set(
@@ -33,6 +34,8 @@ const runtimeFemaleIds = new Set(
 
 const ids = candidates.map((candidate) => candidate.id);
 const duplicateIds = ids.filter((id, index) => ids.indexOf(id) !== index);
+const excludedIds = exclusions.map((entry) => entry.id);
+const overlappingExclusions = excludedIds.filter((id) => ids.includes(id) || runtimeFemaleIds.has(id));
 const ready = candidates.filter((candidate) =>
   requiredStatuses.every((field) => candidate[field] === 'ready')
 );
@@ -48,6 +51,12 @@ if (manifest.target.requiredAdditions !== manifest.target.targetFemaleCount - ma
 
 if (duplicateIds.length) {
   errors.push(`IDs duplicados: ${[...new Set(duplicateIds)].join(', ')}`);
+}
+if (new Set(excludedIds).size !== excludedIds.length) {
+  errors.push('Exclusões duplicadas no manifesto');
+}
+if (overlappingExclusions.length) {
+  errors.push(`Personalidades excluídas ainda no fluxo ativo: ${[...new Set(overlappingExclusions)].join(', ')}`);
 }
 if (planned < manifest.target.targetFemaleCount) {
   errors.push(`Planejamento incompleto: ${planned}/${manifest.target.targetFemaleCount}`);
@@ -197,6 +206,8 @@ const summary = {
   integrated: runtimeFemaleIds.size,
   pipeline: candidates.length,
   planned,
+  excluded: exclusions.length,
+  replacementSlots: remainingUnplanned,
   ready: ready.length,
   blocked: blocked.length,
   remainingUnplanned,
