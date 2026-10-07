@@ -1,0 +1,27 @@
+{
+  "id": "meira-kumar",
+  "sources": [
+    {
+      "url": "https://eparlib.sansad.in/bitstream/123456789/54/1/Speakers_of_Lok_Sabha.pdf",
+      "institution": "Lok Sabha Secretariat, Parliament of India"
+    },
+    {
+      "url": "https://eparlib.sansad.in/bitstream/123456789/782469/1/Indian_Parliamentary_Diplomacy_Eng.pdf",
+      "institution": "Lok Sabha Secretariat, Parliament of India"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Kumar served in India's federal parliamentary system, including as cabinet minister and Speaker, but did not advance a distinctive centralization or federalism doctrine. Use conventional federal-institutional placement.",
+    "representacao": "As the first woman Speaker of the Lok Sabha and a long-serving parliamentarian, she strongly represents parliamentary democracy, procedural fairness and inclusive political representation.",
+    "poder": "Her public career emphasizes equality, justice and impartial parliamentary procedure rather than coercive security politics. This supports a rights-oriented constitutional state.",
+    "imigracao": "Her diplomacy includes work against racism, racial discrimination and xenophobia, supporting social inclusion, though no detailed border-policy doctrine is established.",
+    "diplomacia": "A former diplomat and parliamentary diplomat, Kumar led delegations worldwide and emphasized bilateral and multilateral dialogue. This strongly supports diplomacy and international cooperation.",
+    "intervencao": "Her record emphasizes parliamentary diplomacy, dialogue and multilateral engagement rather than military activism. Use a restrained position.",
+    "economia": "As Social Justice and Empowerment minister and advocate of inclusive growth and socio-economic equity, she supports redistribution and public responsibility within India's mixed economy.",
+    "controle": "Her politics support social policy and public programs to reduce inequality, but not command planning. Use moderate public coordination.",
+    "comercio": "Her extensive diplomatic work does not establish a specific tariff doctrine. Keep moderate.",
+    "religiao": "Her public program focuses constitutional equality and anti-discrimination rather than religious governance. This supports secular institutions.",
+    "moral": "Her advocacy for Dalit rights, equality, social justice and freedom from exploitation strongly supports progressive egalitarian values.",
+    "tecnologia": "No distinctive technology ideology is documented. Her parliamentary modernization role supports pragmatic rather than ideological technology use."
+  }
+}
