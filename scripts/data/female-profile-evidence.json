@@ -5360,6 +5360,33 @@
         "moral": "Her record includes women's participation and social-development gains alongside conservative compromises and rights controversies. Use a mixed-to-moderately progressive social placement.",
         "tecnologia": "Digital Bangladesh, infrastructure modernization and state-led technological development strongly support a pro-technology orientation, while shutdowns and surveillance concerns temper a libertarian digital-rights reading."
       }
+    },
+    {
+      "id": "suchitra-kripalani",
+      "sources": [
+        {
+          "url": "https://amritmahotsav.nic.in/district-reopsitory-detail.htm?10567=",
+          "institution": "Ministry of Culture, Government of India"
+        },
+        {
+          "url": "https://cmsadmin.amritmahotsav.nic.in/district-reopsitory-detail.htm?32=",
+          "institution": "Ministry of Culture, Government of India"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Kripalani served in India's Constituent Assembly and later as Chief Minister of Uttar Pradesh, operating within a federal constitutional system. This supports conventional federal institutions rather than radical decentralization.",
+        "representacao": "Participation in the Constituent Assembly, electoral politics and creation of the women's wing of Congress strongly support democratic representation and women's political participation.",
+        "poder": "Her anti-colonial activism challenged imperial authority, while her later career used constitutional institutions. This supports civilian constitutional power with willingness to resist illegitimate rule.",
+        "imigracao": "The reviewed sources do not establish a distinctive immigration or assimilation policy. Keep moderate.",
+        "diplomacia": "Her record is mainly domestic independence and constitutional politics rather than foreign policy. Use a moderate cooperative placement.",
+        "intervencao": "Her participation in the Quit India movement reflects resistance to colonial rule, not a general doctrine of foreign military intervention. Keep moderate with anti-imperial caution.",
+        "economia": "Congress-era social reform and state governance support a mixed developmental economy with public responsibility rather than laissez-faire.",
+        "controle": "As a state chief minister in post-independence India, she governed within a planning-oriented mixed economy. This supports moderate-to-high public coordination without full command ownership.",
+        "comercio": "Her era favored managed trade and developmental protection, but the reviewed sources do not establish a personal tariff doctrine. Use a moderately managed placement.",
+        "religiao": "Her nationalist and constitutional career was institutionally secular rather than based on religious government.",
+        "moral": "Women's political organization, independence activism and constitutional participation strongly support women's equality and reformist social values.",
+        "tecnologia": "Her politics focused independence, governance and social organization rather than technology. Use a pragmatic moderate placement."
+      }
     }
   ]
 }
