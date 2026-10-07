@@ -2440,7 +2440,11 @@
         "license": "Public domain mark",
         "attribution": "Partido Comunista Brasileiro / historical image",
         "note": "Imagem histórica identificada no Commons como livre de restrições conhecidas."
-      }
+      },
+      "sources": [
+        "https://cpdoc.fgv.br/biografias/luis-carlos-prestes",
+        "https://www.holocaust-denkmal-berlin.de/raum-der-namen/biographien/biographie/7911"
+      ]
     },
     {
       "id": "anita-garibaldi",
@@ -4577,6 +4581,214 @@
       "sources": [
         "https://gna.org.gh/2025/10/former-first-lady-nana-konadu-agyeman-rawlings-is-dead/",
         "https://gna.org.gh/2025/11/president-mahama-leads-ghanaians-to-bid-farewell-to-former-first-lady/"
+      ]
+    },
+    {
+      "id": "elena-ceausescu",
+      "lifespan": "1916–1989",
+      "pt": {
+        "role": "Dirigente comunista e vice-primeira-ministra",
+        "description": "Dirigente do Partido Comunista Romeno e esposa de Nicolae Ceaușescu, Elena Ceaușescu ascendeu aos mais altos órgãos do partido e do Estado, tornando-se vice-primeira-ministra. Sua projeção esteve ligada ao culto à personalidade e ao caráter autoritário do regime romeno, além de uma imagem oficial de cientista amplamente construída pela propaganda estatal."
+      },
+      "en": {
+        "role": "Communist official and deputy prime minister",
+        "description": "A Romanian Communist Party official and wife of Nicolae Ceaușescu, Elena Ceaușescu rose to the highest party and state bodies and became deputy prime minister. Her prominence was tied to the regime's personality cult and authoritarian rule, as well as an official scientific image heavily constructed by state propaganda."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/elena-ceausescu.jpg",
+        "sourceFile": "Elena Ceausescu portrait.jpg",
+        "sourceName": "Wikimedia Commons / Fototeca online a comunismului românesc",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Elena_Ceausescu_portrait.jpg",
+        "license": "Attribution-only license (VRT confirmed)",
+        "attribution": "Fototeca online a comunismului românesc, photo #E595 / Romanian National Archives",
+        "note": "Retrato da Fototeca online a comunismului românesc. Ao reutilizar, preservar os requisitos de atribuição indicados no Commons, incluindo número da foto, nome da base, data de acesso e cota arquivística."
+      },
+      "sources": [
+        "https://balcanica.rs/index.php/journal/article/download/128/135/131",
+        "https://www.rciusa.info/post/the-history-of-romania-in-one-object-ceau%C8%99escu-s-personality-cult-in-paintings"
+      ]
+    },
+    {
+      "id": "jiang-qing",
+      "lifespan": "1914–1991",
+      "pt": {
+        "role": "Dirigente comunista e figura da Revolução Cultural",
+        "description": "Atriz antes de se tornar uma dirigente do Partido Comunista Chinês, Jiang Qing foi esposa de Mao Zedong, integrou o Politburo e exerceu papel central na política cultural da Revolução Cultural. Após a morte de Mao, foi presa como integrante do chamado Grupo dos Quatro e posteriormente condenada."
+      },
+      "en": {
+        "role": "Communist official and Cultural Revolution figure",
+        "description": "An actress before becoming a Chinese Communist Party official, Jiang Qing was Mao Zedong's wife, served on the Politburo, and played a central role in Cultural Revolution cultural politics. After Mao's death, she was arrested as a member of the so-called Gang of Four and later convicted."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/jiang-qing.jpg",
+        "sourceFile": "Jiang Qing 6.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jiang_Qing_6.jpg",
+        "license": "Public domain (China)",
+        "attribution": "Unidentified photographer / historical magazine cover, circa 1935",
+        "note": "Imagem histórica de Jiang Qing sob o nome artístico Lan Ping; o Commons a identifica como domínio público na China."
+      },
+      "sources": [
+        "https://www.hoover.org/news/tracking-jiang-qing-1914-1991-stanford-universitys-hoover-archives",
+        "https://www.marxists.org/archive/jiang-qing/"
+      ]
+    },
+    {
+      "id": "kim-jong-suk",
+      "lifespan": "1917–1949",
+      "pt": {
+        "role": "Guerrilheira comunista e figura revolucionária",
+        "description": "Kim Jong-suk foi uma militante comunista coreana associada à guerrilha antijaponesa e esposa de Kim Il-sung. Depois de sua morte, o Estado norte-coreano transformou sua memória em parte importante da mitologia política da família Kim; por isso, detalhes biográficos e atribuições ideológicas individuais exigem cautela documental."
+      },
+      "en": {
+        "role": "Communist guerrilla and revolutionary figure",
+        "description": "Kim Jong-suk was a Korean communist activist associated with anti-Japanese guerrilla activity and the wife of Kim Il-sung. After her death, the North Korean state made her memory an important part of the Kim family's political mythology, so biographical details and individual ideological attributions require particular documentary caution."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/kim-jong-suk.jpg",
+        "sourceFile": "Kim Jong-suk.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Kim_Jong-suk.jpg",
+        "license": "CC BY-SA 4.0",
+        "attribution": "Juche1912 / Wikimedia Commons",
+        "note": "O Commons registra o arquivo como 'own work' do uploader apesar de representar uma fotografia histórica. A procedência do retrato deve ser revisada antes de promover portraitStatus para ready."
+      },
+      "sources": [
+        "https://www.kci.go.kr/kciportal/landing/article.kci?arti_id=ART002540509",
+        "https://www.kinu.or.kr/eng/module/report/download.do?id=20827"
+      ]
+    },
+    {
+      "id": "vilma-espin",
+      "lifespan": "1930–2007",
+      "pt": {
+        "role": "Revolucionária, engenheira e dirigente política",
+        "description": "Engenheira química e revolucionária cubana, Vilma Espín atuou na resistência ao regime de Fulgencio Batista e no Movimento 26 de Julho. Após 1959, fundou e presidiu a Federação de Mulheres Cubanas por décadas, integrou o Comitê Central do Partido Comunista e defendeu políticas de participação social e direitos das mulheres."
+      },
+      "en": {
+        "role": "Revolutionary, engineer, and political leader",
+        "description": "A Cuban chemical engineer and revolutionary, Vilma Espín took part in resistance to Fulgencio Batista and the 26th of July Movement. After 1959, she founded and led the Federation of Cuban Women for decades, served on the Communist Party Central Committee, and promoted women's social participation and rights."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/vilma-espin.jpg",
+        "sourceFile": "Vilma Espín Guillois.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Vilma_Esp%C3%ADn_Guillois.jpg",
+        "license": "Public domain (Cuba)",
+        "attribution": "Unknown photographer / scan from Vilma Espín Guillois: El Fuego de la Libertad",
+        "note": "Retrato circa 1958; o Commons o identifica como domínio público sob as regras aplicáveis a fotografias cubanas antigas."
+      },
+      "sources": [
+        "https://www.theguardian.com/news/2007/jun/20/obituaries.cuba",
+        "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/espin-de-castro-vilma-1930-2007"
+      ]
+    },
+    {
+      "id": "celia-sanchez",
+      "lifespan": "1920–1980",
+      "pt": {
+        "role": "Revolucionária e dirigente política",
+        "description": "Celia Sánchez foi uma das principais organizadoras do Movimento 26 de Julho, inicialmente transportando armas e suprimentos e depois atuando como combatente na Sierra Maestra. Após a revolução, tornou-se uma alta funcionária do governo cubano e colaboradora próxima de Fidel Castro."
+      },
+      "en": {
+        "role": "Revolutionary and political official",
+        "description": "Celia Sánchez was one of the leading organizers of the 26th of July Movement, first moving arms and supplies and later serving as a combatant in the Sierra Maestra. After the revolution, she became a senior Cuban government official and a close collaborator of Fidel Castro."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/celia-sanchez.jpg",
+        "sourceFile": "Celia Sanchez.jpg",
+        "sourceName": "Wikimedia Commons",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Celia_Sanchez.jpg",
+        "license": "Public domain (Cuba)",
+        "attribution": "Unknown photographer",
+        "note": "O arquivo do Commons é pequeno e sua fonte intermediária é Pinterest. A identidade é catalogada no Commons, mas a procedência é fraca; manter portraitStatus pending até revisão ou substituição por fonte arquivística melhor."
+      },
+      "sources": [
+        "https://academic.oup.com/north-carolina-scholarship-online/book/37675",
+        "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sanchez-manduley-celia-1920-1980"
+      ]
+    },
+    {
+      "id": "haydee-santamaria",
+      "lifespan": "1922–1980",
+      "pt": {
+        "role": "Revolucionária e dirigente cultural",
+        "description": "Revolucionária cubana, Haydée Santamaría participou do ataque ao Quartel Moncada, atuou na organização clandestina contra Batista e integrou a direção revolucionária. Após 1959, fundou e dirigiu a Casa de las Américas, tornando-se uma figura central da política cultural cubana e do intercâmbio intelectual latino-americano."
+      },
+      "en": {
+        "role": "Revolutionary and cultural leader",
+        "description": "A Cuban revolutionary, Haydée Santamaría took part in the Moncada Barracks attack, worked in the underground movement against Batista, and joined the revolutionary leadership. After 1959, she founded and led Casa de las Américas, becoming a central figure in Cuban cultural policy and Latin American intellectual exchange."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/haydee-santamaria.jpg",
+        "sourceFile": "Haydée Santamaría.jpg",
+        "sourceName": "Wikimedia Commons / Casa de las Américas",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Hayd%C3%A9e_Santamar%C3%ADa.jpg",
+        "license": "Public domain (Cuba)",
+        "attribution": "Casa de las Américas",
+        "note": "Recorte de fotografia de reunião da Casa de las Américas em 1968; o Commons a identifica como domínio público em Cuba."
+      },
+      "sources": [
+        "https://www.dukeupress.edu/Haydee-Santamaria-Cuban-Revolutionary",
+        "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/santamaria-haydee-1927-1980"
+      ]
+    },
+    {
+      "id": "tamara-bunke",
+      "lifespan": "1937–1967",
+      "pt": {
+        "role": "Revolucionária, agente e guerrilheira",
+        "description": "Revolucionária teuto-argentina conhecida como Tania, Tamara Bunke viveu na Alemanha Oriental e depois em Cuba, onde trabalhou para instituições revolucionárias e foi recrutada para uma missão clandestina na Bolívia. Integrou a guerrilha ligada a Che Guevara e morreu em uma emboscada do Exército boliviano em 1967."
+      },
+      "en": {
+        "role": "Revolutionary, agent, and guerrilla",
+        "description": "A German-Argentine revolutionary known as Tania, Tamara Bunke lived in East Germany and later Cuba, where she worked for revolutionary institutions and was recruited for a clandestine mission in Bolivia. She joined the guerrilla force associated with Che Guevara and was killed in a Bolivian Army ambush in 1967."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/tamara-bunke.jpg",
+        "sourceFile": "TamaraBunke1.jpg",
+        "sourceName": "Wikimedia Commons / Museo Che Guevara",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:TamaraBunke1.jpg",
+        "license": "Public domain (Cuba)",
+        "attribution": "Cuban government / Centro de Estudios Che Guevara, Havana",
+        "note": "Retrato de 1964 preservado pelo Museo Che Guevara; o Commons o identifica como domínio público sob as regras aplicáveis a fotografias cubanas."
+      },
+      "sources": [
+        "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/bunke-tamara-1937-1967",
+        "https://www.htw-berlin.de/forschung/online-forschungskatalog/projekte/projekt/?eid=2716"
+      ]
+    },
+    {
+      "id": "dolores-ibarruri",
+      "lifespan": "1895–1989",
+      "pt": {
+        "role": "Dirigente comunista",
+        "description": "Conhecida como La Pasionaria, Dolores Ibárruri foi uma das principais dirigentes do Partido Comunista da Espanha. Teve papel de destaque durante a Guerra Civil Espanhola, passou décadas no exílio soviético e permaneceu uma referência do comunismo espanhol, retornando ao país na transição democrática."
+      },
+      "en": {
+        "role": "Communist leader",
+        "description": "Known as La Pasionaria, Dolores Ibárruri was one of the leading figures of the Communist Party of Spain. She played a prominent role during the Spanish Civil War, spent decades in Soviet exile, and remained a major reference for Spanish communism before returning during Spain's democratic transition."
+      },
+      "book": null,
+      "portrait": {
+        "path": "/personalities/portraits/dolores-ibarruri.jpg",
+        "sourceFile": "Dolores Ibárruri 1936.jpg",
+        "sourceName": "Wikimedia Commons / Bibliothèque nationale de France",
+        "sourceUrl": "https://commons.wikimedia.org/wiki/File:Dolores_Ib%C3%A1rruri_1936.jpg",
+        "license": "Public domain",
+        "attribution": "Agence Meurisse / Bibliothèque nationale de France",
+        "note": "Retrato de 1936 identificado pela BnF; o Commons o marca como domínio público."
+      },
+      "sources": [
+        "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/autoridad/66015",
+        "https://www.pce.es/en/historia-del-pce/"
       ]
     }
   ]
