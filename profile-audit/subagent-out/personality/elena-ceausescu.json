@@ -75,7 +75,7 @@
     }
   },
   "imigracao": {
-    "personaBrief": "Não há doutrina migratória pessoal bem documentada; o nacional-comunismo romeno e a ênfase na identidade nacional sugerem assimilação moderada, sem base para uma posição extrema sobre fronteiras.",
+    "personaBrief": "A documentação não registra uma doutrina migratória própria, mas o nacional-comunismo romeno enfatizava identidade e coesão nacionais; isso favorece assimilação e preservação cultural sem justificar um fechamento total.",
     "answers": {
       "imigracao_01": "C",
       "imigracao_02": "D",
@@ -85,8 +85,8 @@
       "imigracao_06": "D",
       "imigracao_07": "C",
       "imigracao_08": "D",
-      "imigracao_09": "D",
-      "imigracao_10": "C",
+      "imigracao_09": "C",
+      "imigracao_10": "D",
       "imigracao_11": "C",
       "imigracao_12": "D",
       "imigracao_13": "C",
@@ -95,12 +95,12 @@
       "imigracao_16": "D",
       "imigracao_17": "D",
       "imigracao_18": "C",
-      "imigracao_19": "D",
-      "imigracao_20": "C"
+      "imigracao_19": "C",
+      "imigracao_20": "D"
     }
   },
   "diplomacia": {
-    "personaBrief": "A liderança romena valorizava defesa própria e autonomia estratégica, mas Elena não formulou uma doutrina militar pessoal; o perfil combina capacidade defensiva e disposição diplomática sem pacifismo absoluto.",
+    "personaBrief": "A Romênia de Ceaușescu valorizava defesa própria e autonomia estratégica, mas também diplomacia independente entre blocos; Elena não formulou militarismo pessoal, por isso o perfil evita tanto pacifismo quanto belicismo extremos.",
     "answers": {
       "diplomacia_01": "C",
       "diplomacia_02": "C",
@@ -116,36 +116,36 @@
       "diplomacia_12": "D",
       "diplomacia_13": "C",
       "diplomacia_14": "D",
-      "diplomacia_15": "C",
+      "diplomacia_15": "D",
       "diplomacia_16": "C",
-      "diplomacia_17": "C",
+      "diplomacia_17": "D",
       "diplomacia_18": "DT",
       "diplomacia_19": "C",
       "diplomacia_20": "C"
     }
   },
   "intervencao": {
-    "personaBrief": "O nacional-comunismo romeno enfatizou soberania e independência em relação a Moscou e rejeitou ingerências externas, ao mesmo tempo em que defendia interesses nacionais; isso produz uma combinação de não intervenção e soberanismo.",
+    "personaBrief": "O nacional-comunismo romeno insistia fortemente em soberania, independência em relação a Moscou e oposição a ingerências como a invasão da Tchecoslováquia; isso distingue o regime de projetos comunistas mais intervencionistas.",
     "answers": {
-      "intervencao_01": "C",
-      "intervencao_02": "C",
-      "intervencao_03": "C",
+      "intervencao_01": "CT",
+      "intervencao_02": "D",
+      "intervencao_03": "CT",
       "intervencao_04": "D",
-      "intervencao_05": "D",
-      "intervencao_06": "C",
-      "intervencao_07": "D",
-      "intervencao_08": "C",
+      "intervencao_05": "C",
+      "intervencao_06": "D",
+      "intervencao_07": "C",
+      "intervencao_08": "D",
       "intervencao_09": "C",
-      "intervencao_10": "C",
+      "intervencao_10": "D",
       "intervencao_11": "C",
       "intervencao_12": "D",
-      "intervencao_13": "C",
+      "intervencao_13": "CT",
       "intervencao_14": "D",
       "intervencao_15": "C",
       "intervencao_16": "C",
-      "intervencao_17": "C",
+      "intervencao_17": "CT",
       "intervencao_18": "C",
-      "intervencao_19": "C",
+      "intervencao_19": "CT",
       "intervencao_20": "C"
     }
   },
@@ -250,60 +250,60 @@
     }
   },
   "moral": {
-    "personaBrief": "Apesar da retórica socialista sobre participação feminina, o regime adotou forte pronatalismo, proibiu amplamente aborto e contracepção e promoveu família e disciplina social, produzindo um perfil moral mais tradicional.",
+    "personaBrief": "A política do regime combinou participação feminina no trabalho com pronatalismo coercivo, forte restrição ao aborto e contracepção e exaltação da família; esses fatos sustentam uma orientação moral claramente tradicional.",
     "answers": {
-      "moral_01": "D",
-      "moral_02": "C",
-      "moral_03": "D",
-      "moral_04": "C",
+      "moral_01": "DT",
+      "moral_02": "CT",
+      "moral_03": "DT",
+      "moral_04": "CT",
       "moral_05": "D",
-      "moral_06": "C",
+      "moral_06": "CT",
       "moral_07": "D",
-      "moral_08": "C",
+      "moral_08": "CT",
       "moral_09": "DT",
       "moral_10": "CT",
       "moral_11": "D",
-      "moral_12": "C",
+      "moral_12": "CT",
       "moral_13": "D",
-      "moral_14": "C",
+      "moral_14": "CT",
       "moral_15": "D",
-      "moral_16": "C",
+      "moral_16": "CT",
       "moral_17": "DT",
       "moral_18": "C",
       "moral_19": "D",
-      "moral_20": "C"
+      "moral_20": "CT"
     }
   },
   "tecnologia": {
-    "personaBrief": "Sua persona oficial exaltava química, ciência, industrialização e modernização, embora sua reputação científica fosse politicamente construída; isso indica modernismo tecnológico sem compromisso claro com biotecnologia ou transumanismo.",
+    "personaBrief": "Sua persona oficial exaltava química, ciência, industrialização e modernização, ainda que sua reputação científica fosse politicamente construída; isso sustenta modernismo tecnológico sem transumanismo.",
     "answers": {
       "tecnologia_01": "C",
       "tecnologia_02": "D",
       "tecnologia_03": "C",
-      "tecnologia_04": "C",
+      "tecnologia_04": "D",
       "tecnologia_05": "C",
       "tecnologia_06": "D",
       "tecnologia_07": "C",
       "tecnologia_08": "D",
-      "tecnologia_09": "D",
+      "tecnologia_09": "C",
       "tecnologia_10": "D",
       "tecnologia_11": "C",
       "tecnologia_12": "D",
       "tecnologia_13": "C",
-      "tecnologia_14": "C",
-      "tecnologia_15": "D",
+      "tecnologia_14": "D",
+      "tecnologia_15": "C",
       "tecnologia_16": "D",
       "tecnologia_17": "C",
       "tecnologia_18": "D",
       "tecnologia_19": "C",
-      "tecnologia_20": "C"
+      "tecnologia_20": "D"
     }
   },
   "archetype": {
     "sociedade": "E",
     "poder": "A",
     "economia": "A",
-    "mundo": "B",
+    "mundo": "D",
     "tecnologia": "D"
   }
 }
