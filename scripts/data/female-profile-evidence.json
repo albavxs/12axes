@@ -4766,6 +4766,33 @@
         "moral": "She is not primarily a cultural-policy theorist. Her public profile includes women in leadership and development, but broad social-axis placement should remain moderate.",
         "tecnologia": "Her current work discusses AI, financial markets and economic change with a generally innovation-oriented but risk-aware perspective. This supports pragmatic pro-technology adoption rather than anti-technology."
       }
+    },
+    {
+      "id": "fatima-sheikh",
+      "sources": [
+        {
+          "url": "https://indianexpress.com/article/explained/who-was-fatima-sheikh-indias-forgotten-feminist-icon-8371155/",
+          "institution": "The Indian Express"
+        },
+        {
+          "url": "https://cdnbbsr.s3waas.gov.in/s33837a451cd0abc5ce4069304c5442c87/uploads/2024/11/20241126690139104.pdf",
+          "institution": "Government of India educational publication"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Sheikh was an educator and social reformer, not a constitutional theorist. Her work through local schools and household/community networks supports grassroots institution-building but does not establish a federal-versus-centralized state doctrine.",
+        "representacao": "Her work deliberately expanded educational participation to girls, Dalits and other groups excluded from knowledge and public life. This supports inclusive social participation, though no formal electoral-system theory is documented.",
+        "poder": "She persisted despite threats and opposition from dominant caste and religious conservatives and supported education as a means of emancipation. This supports resistance to coercive social hierarchy, but not a complete modern policing doctrine.",
+        "imigracao": "No reliable immigration or border-policy position is established from the surviving historical record.",
+        "diplomacia": "No developed foreign-policy or diplomacy doctrine is established.",
+        "intervencao": "No developed military-intervention doctrine is established.",
+        "economia": "Her educational mission targeted socially and economically marginalized groups and required collective/community provision, but no comprehensive ownership or redistribution doctrine survives.",
+        "controle": "Her work supports public/community provision of education rather than laissez-faire neglect, but does not establish centralized economic planning.",
+        "comercio": "No reliable trade-policy doctrine is established.",
+        "religiao": "As a Muslim woman who collaborated across religious and caste lines and faced orthodox opposition, her work supports religious pluralism and reform rather than clerical control. A simple secular-versus-religious score should remain moderate.",
+        "moral": "Girls' education, anti-caste work and willingness to defy restrictive gender norms strongly support progressive social values for her historical context.",
+        "tecnologia": "Her work centered education and literacy in the nineteenth century; no meaningful modern technology-policy doctrine can be established."
+      }
     }
   ]
 }
