@@ -4739,6 +4739,33 @@
         "moral": "Minority equality, women's empowerment, reconciliation, human rights and anti-discrimination strongly support socially inclusive and progressive values.",
         "tecnologia": "Her development discourse treated technology as part of economic modernization but did not formulate a distinct technology ideology. Use pragmatic moderate technophilia."
       }
+    },
+    {
+      "id": "dambisa-moyo",
+      "sources": [
+        {
+          "url": "https://dambisamoyo.com/",
+          "institution": "Dambisa Moyo official site"
+        },
+        {
+          "url": "https://www.imf.org/external/pubs/ft/fandd/2013/06/women.htm",
+          "institution": "International Monetary Fund – Finance & Development"
+        }
+      ],
+      "evidence": {
+        "estrutura": "Moyo writes about governance and global institutions rather than advocating a detailed domestic federal-versus-centralized constitutional system. Keep structural placement moderate.",
+        "representacao": "Her work questions the performance of democratic systems and political leadership but does not advocate authoritarian rule. As a House of Lords member and public-policy commentator, she remains within constitutional institutional politics; use moderate democratic placement rather than an extreme.",
+        "poder": "Her economic arguments emphasize governance quality, accountability and institutional performance, not expansion of coercive state power. Use a moderate rights/order balance.",
+        "imigracao": "Her global-economy work is internationalist, but the reviewed sources do not establish a detailed immigration or assimilation doctrine. Keep moderate.",
+        "diplomacia": "Her career and writing are deeply international, focused on geopolitics and global institutions. This supports active international engagement rather than isolation.",
+        "intervencao": "She analyzes geopolitical risk but is not chiefly a military-intervention theorist. No reliable hawkish or pacifist extreme is established; keep moderate.",
+        "economia": "Moyo is strongly market-oriented: she criticizes long-term aid dependence, favors private capital and market-based development finance, and has extensive corporate and investment experience. This supports private-market economics.",
+        "controle": "Her development prescriptions emphasize capital markets, investment, governance and alternatives to state-to-state aid, supporting relatively low economic planning and greater market allocation.",
+        "comercio": "Her official site explicitly features arguments for free trade and warnings about deglobalization. This strongly supports open international trade.",
+        "religiao": "Her public economic and political work is secular; no evidence supports religious governance.",
+        "moral": "She is not primarily a cultural-policy theorist. Her public profile includes women in leadership and development, but broad social-axis placement should remain moderate.",
+        "tecnologia": "Her current work discusses AI, financial markets and economic change with a generally innovation-oriented but risk-aware perspective. This supports pragmatic pro-technology adoption rather than anti-technology."
+      }
     }
   ]
 }
