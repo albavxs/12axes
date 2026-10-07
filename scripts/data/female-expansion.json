@@ -1727,19 +1727,6 @@
       "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
-      "id": "carmen-da-silva",
-      "name": "Carmen da Silva",
-      "region": "latin-america",
-      "period": "20th-century",
-      "category": "intelectual",
-      "metadataStatus": "review",
-      "portraitStatus": "pending",
-      "translationStatus": "review",
-      "profileStatus": "researching",
-      "bookStatus": "review",
-      "metadataFile": "scripts/data/female-metadata-drafts.json"
-    },
-    {
       "id": "maria-lacerda-de-moura",
       "name": "Maria Lacerda de Moura",
       "region": "latin-america",
@@ -1961,35 +1948,9 @@
       "metadataFile": "scripts/data/female-metadata-drafts.json"
     },
     {
-      "id": "gisela-bock",
-      "name": "Gisela Bock",
-      "region": "europe",
-      "period": "20th-21st-century",
-      "category": "intelectual",
-      "metadataStatus": "review",
-      "portraitStatus": "pending",
-      "translationStatus": "review",
-      "profileStatus": "researching",
-      "bookStatus": "review",
-      "metadataFile": "scripts/data/female-metadata-drafts.json"
-    },
-    {
       "id": "germaine-greer",
       "name": "Germaine Greer",
       "region": "oceania-europe",
-      "period": "20th-21st-century",
-      "category": "intelectual",
-      "metadataStatus": "review",
-      "portraitStatus": "pending",
-      "translationStatus": "review",
-      "profileStatus": "researching",
-      "bookStatus": "review",
-      "metadataFile": "scripts/data/female-metadata-drafts.json"
-    },
-    {
-      "id": "sheila-rowbotham",
-      "name": "Sheila Rowbotham",
-      "region": "europe",
       "period": "20th-21st-century",
       "category": "intelectual",
       "metadataStatus": "review",
@@ -2056,19 +2017,6 @@
       "name": "G. E. M. Anscombe",
       "region": "europe",
       "period": "20th-21st-century",
-      "category": "filosofo",
-      "metadataStatus": "review",
-      "portraitStatus": "pending",
-      "translationStatus": "review",
-      "profileStatus": "researching",
-      "bookStatus": "review",
-      "metadataFile": "scripts/data/female-metadata-drafts.json"
-    },
-    {
-      "id": "iris-murdoch",
-      "name": "Iris Murdoch",
-      "region": "europe",
-      "period": "20th-century",
       "category": "filosofo",
       "metadataStatus": "review",
       "portraitStatus": "pending",
@@ -2659,22 +2607,6 @@
       ]
     },
     {
-      "id": "hatoon-al-fassi",
-      "name": "Hatoon al-Fassi",
-      "region": "middle-east",
-      "period": "20th-21st-century",
-      "category": "intelectual",
-      "metadataStatus": "review",
-      "portraitStatus": "pending",
-      "translationStatus": "review",
-      "profileStatus": "pending",
-      "bookStatus": "review",
-      "metadataFile": "scripts/data/female-metadata-drafts.json",
-      "sources": [
-        "https://research.manchester.ac.uk/en/persons/hatoon.alfassi"
-      ]
-    },
-    {
       "id": "amina-wadud",
       "name": "Amina Wadud",
       "region": "north-america",
@@ -2826,15 +2758,15 @@
   ],
   "progress": {
     "integratedFemaleCount": 28,
-    "pipelineCandidateCount": 172,
-    "plannedFemaleCount": 200,
+    "pipelineCandidateCount": 167,
+    "plannedFemaleCount": 195,
     "targetFemaleCount": 200,
-    "remainingUnplanned": 0,
+    "remainingUnplanned": 5,
     "readyCandidateCount": 0,
     "profileReviewCount": 82,
-    "profileResearchingCount": 60,
-    "profilePendingCount": 30,
-    "blockedFromRuntimeCount": 172
+    "profileResearchingCount": 56,
+    "profilePendingCount": 29,
+    "blockedFromRuntimeCount": 167
   },
   "gates": {
     "readyRequires": [
@@ -2925,6 +2857,81 @@
       "id": "condoleezza-rice",
       "name": "Condoleezza Rice",
       "integratedAtCommit": "99bae2a4eec84b6a0dda198a12237f9ff149e500"
+    }
+  ],
+  "excludedCandidates": [
+    {
+      "id": "carmen-da-silva",
+      "name": "Carmen da Silva",
+      "region": "latin-america",
+      "period": "20th-century",
+      "category": "intelectual",
+      "metadataStatus": "review",
+      "portraitStatus": "pending",
+      "translationStatus": "review",
+      "profileStatus": "researching",
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "exclusionReason": "Excluded from 200-women audit and promotion workflow at maintainer request (2026-10-06)."
+    },
+    {
+      "id": "gisela-bock",
+      "name": "Gisela Bock",
+      "region": "europe",
+      "period": "20th-21st-century",
+      "category": "intelectual",
+      "metadataStatus": "review",
+      "portraitStatus": "pending",
+      "translationStatus": "review",
+      "profileStatus": "researching",
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "exclusionReason": "Excluded from 200-women audit and promotion workflow at maintainer request (2026-10-06)."
+    },
+    {
+      "id": "sheila-rowbotham",
+      "name": "Sheila Rowbotham",
+      "region": "europe",
+      "period": "20th-21st-century",
+      "category": "intelectual",
+      "metadataStatus": "review",
+      "portraitStatus": "pending",
+      "translationStatus": "review",
+      "profileStatus": "researching",
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "exclusionReason": "Excluded from 200-women audit and promotion workflow at maintainer request (2026-10-06)."
+    },
+    {
+      "id": "iris-murdoch",
+      "name": "Iris Murdoch",
+      "region": "europe",
+      "period": "20th-century",
+      "category": "filosofo",
+      "metadataStatus": "review",
+      "portraitStatus": "pending",
+      "translationStatus": "review",
+      "profileStatus": "researching",
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "exclusionReason": "Excluded from 200-women audit and promotion workflow at maintainer request (2026-10-06)."
+    },
+    {
+      "id": "hatoon-al-fassi",
+      "name": "Hatoon al-Fassi",
+      "region": "middle-east",
+      "period": "20th-21st-century",
+      "category": "intelectual",
+      "metadataStatus": "review",
+      "portraitStatus": "pending",
+      "translationStatus": "review",
+      "profileStatus": "pending",
+      "bookStatus": "review",
+      "metadataFile": "scripts/data/female-metadata-drafts.json",
+      "sources": [
+        "https://research.manchester.ac.uk/en/persons/hatoon.alfassi"
+      ],
+      "exclusionReason": "Excluded from 200-women audit and promotion workflow at maintainer request (2026-10-06)."
     }
   ]
 }
