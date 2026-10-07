@@ -1,0 +1,31 @@
+{
+  "id": "pagu",
+  "sources": [
+    {
+      "url": "https://ael.ifch.unicamp.br/node/163",
+      "institution": "Arquivo Edgard Leuenroth / Universidade Estadual de Campinas"
+    },
+    {
+      "url": "https://www.siarq.unicamp.br/difusao/exposicoes/mostra-unicamp-recortes-de-uma-trajetoria/acervodapesquisa",
+      "institution": "Arquivo Central / Universidade Estadual de Campinas"
+    },
+    {
+      "url": "https://pagu.unicamp.br/2022/03/23/a-biblioteca-do-nucleo-possui-acervos-ou-documentos-da-pagu-patricia-galvao-1910-1962/",
+      "institution": "Núcleo de Estudos de Gênero Pagu / Unicamp"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Pagu's communist activism emphasized class organization and revolutionary politics rather than a federal-versus-centralized constitutional theory. Her later break with the PCB complicates any assumption of permanent support for rigid party centralism.",
+    "representacao": "She was a political activist and journalist rather than an electoral theorist. Her communist period accepted extra-parliamentary struggle, while her journalism broadened public political debate. Use a mixed participatory but non-liberal-parliamentary placement.",
+    "poder": "Pagu was repeatedly imprisoned and tortured under Vargas and later became disillusioned with party authoritarianism. Her record supports strong opposition to political repression even though her early communism accepted revolutionary discipline.",
+    "imigracao": "Her international travels and communist networks were cosmopolitan, but the reviewed sources do not establish a detailed immigration program. Use moderately internationalist inclusion.",
+    "diplomacia": "She traveled and engaged with international political and cultural networks, but did not develop a conventional foreign-policy doctrine. Use internationalist rather than isolationist placement.",
+    "intervencao": "Her early communist militancy did not equate to a doctrine of interstate military intervention. Later cultural and journalistic work supports no strong militarist position; keep moderate.",
+    "economia": "Parque Industrial explicitly depicts exploitation of working-class women and reflects communist solidarity with labor. This strongly supports a left, anti-capitalist economic orientation.",
+    "controle": "During her communist phase she supported revolutionary social transformation, but later broke with the PCB. Use substantial economic coordination without assuming lifelong support for rigid command planning.",
+    "comercio": "Her critique focuses on industrial capitalism and class exploitation rather than tariff policy. Use moderately anti-laissez-faire rather than nationalist protectionism.",
+    "religiao": "Her modernist and communist political activity was secular and non-clerical. No support exists for religious government.",
+    "moral": "Her feminism, sexual autonomy, modernist cultural rebellion and solidarity with working women strongly support progressive social values.",
+    "tecnologia": "Her modernist cultural work embraced artistic experimentation and modern media, though she left no broad technology-policy program. Use moderately pro-modernization."
+  }
+}

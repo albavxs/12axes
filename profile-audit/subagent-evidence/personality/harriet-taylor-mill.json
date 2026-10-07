@@ -1,0 +1,27 @@
+{
+  "id": "harriet-taylor-mill",
+  "sources": [
+    {
+      "url": "https://plato.stanford.edu/entries/harriet-mill/",
+      "institution": "Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "url": "https://plato.stanford.edu/archives/win2011/entries/harriet-mill/",
+      "institution": "Stanford Encyclopedia of Philosophy Archive"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Taylor Mill's surviving work centers rights, liberty and women's equality rather than territorial organization. No clear federal-versus-centralized doctrine is established.",
+    "representacao": "The Enfranchisement of Women explicitly argues for women's suffrage and equality in political rights, strongly supporting representative democracy and universal political participation.",
+    "poder": "Her arguments for women's civil and social equality and individual liberty oppose patriarchal legal domination, supporting strong civil-liberty placement.",
+    "imigracao": "No reliable immigration or assimilation doctrine is established in her surviving work. Keep moderate.",
+    "diplomacia": "Foreign policy is not a central subject of her surviving work. Keep moderate.",
+    "intervencao": "No developed military-intervention doctrine is established. Use a restrained moderate placement.",
+    "economia": "Stanford notes her association with progressive ideals including socialism alongside individual liberty. Her own work supports women's economic independence and challenges exploitative dependence, suggesting a reformist/socialist tendency rather than laissez-faire.",
+    "controle": "Her political thought values liberty strongly, so even where sympathetic to socialism it does not support bureaucratic command. Use moderate social regulation rather than full planning.",
+    "comercio": "No reliable trade doctrine is attributable to Taylor Mill independently. Keep moderate.",
+    "religiao": "Her political arguments are grounded in equality and liberty rather than religious authority. Use a secular-liberal institutional placement.",
+    "moral": "Her demand for equal political, civil and social rights for women and more radical treatment of gender roles strongly supports progressive social values.",
+    "tecnologia": "No distinctive technology ideology is established in the surviving corpus. Keep moderate."
+  }
+}

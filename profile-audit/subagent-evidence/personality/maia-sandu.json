@@ -1,0 +1,27 @@
+{
+  "id": "maia-sandu",
+  "sources": [
+    {
+      "url": "https://presedinte.md/eng/biography",
+      "institution": "Presidency of the Republic of Moldova"
+    },
+    {
+      "url": "https://presedinte.md/eng/",
+      "institution": "Presidency of the Republic of Moldova"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Sandu's career includes local-national public administration, parliament, premiership and presidency. Her program emphasizes functioning national institutions and local European-style administration rather than a radical territorial redesign.",
+    "representacao": "She founded an electoral party, won competitive presidential elections in 2020 and 2024 and frames her program around democratic institutions and public accountability. This strongly supports representative democracy.",
+    "poder": "Her political identity is built around anti-corruption, good governance, rule of law and reform of public institutions. This supports stronger checks on arbitrary authority while retaining capable state institutions.",
+    "imigracao": "Moldova's European orientation and large diaspora make mobility central to its politics. Sandu supports European integration and citizens' cross-border ties rather than isolation, though no open-borders doctrine is implied.",
+    "diplomacia": "Her presidency is strongly pro-European and uses international partnerships to secure Moldova's development and security. This supports active diplomacy and integration with European institutions.",
+    "intervencao": "Sandu strongly defends Moldovan sovereignty amid Russian pressure and seeks international security support while avoiding expansionist military politics. This supports sovereignty and defensive alliance cooperation rather than aggressive intervention.",
+    "economia": "Her background at the World Bank and Ministry of Economy, along with reform politics, supports a market-oriented economy with institutional reform, public investment and social support.",
+    "controle": "She favors public-sector reform, anti-corruption rules and targeted state capacity rather than extensive command planning. This implies low-to-moderate economic control.",
+    "comercio": "European integration and closer ties with the EU strongly support open regional trade and economic integration.",
+    "religiao": "Her political agenda is secular, institutional and European rather than clerically governed. No evidence supports religious rule.",
+    "moral": "Her agenda emphasizes dignity, education, integrity and European democratic norms. Social positioning is broadly liberal-moderate rather than highly traditionalist.",
+    "tecnologia": "Good-governance reform, digital public administration and European modernization support a pragmatic pro-technology stance under public accountability."
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "madeleine-albright",
+  "sources": [
+    {
+      "url": "https://history.state.gov/departmenthistory/people/albright-madeleine-korbel",
+      "institution": "U.S. Department of State - Office of the Historian"
+    },
+    {
+      "url": "https://1997-2001.state.gov/about_state/biography/albright.html",
+      "institution": "U.S. Department of State"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Albright worked within U.S. federal institutions and international alliances rather than advocating a distinct federal-versus-centralized redesign. Use conventional national institutional capacity.",
+    "representacao": "She explicitly promoted democratic values, free-market democracies and civil society abroad, strongly supporting representative democracy.",
+    "poder": "Her foreign policy favored strong U.S. and NATO power but was grounded in democratic institutions and human-rights rhetoric. This supports a security-oriented liberal state rather than authoritarian domestic power.",
+    "imigracao": "As a refugee and immigrant herself, Albright's biography reflects openness to immigrant integration, but the reviewed official sources do not establish a detailed border-policy program. Use moderately inclusive placement.",
+    "diplomacia": "As UN ambassador and secretary of state she was deeply multilateral and alliance-oriented, using extensive diplomacy while also defending U.S. leadership.",
+    "intervencao": "She successfully pressed for NATO military intervention in Kosovo and supported active American leadership, making her clearly interventionist rather than neutral/non-interventionist.",
+    "economia": "Her State Department record promoted free-market democratization and civil societies, supporting a market-oriented mixed economy.",
+    "controle": "She favored regulated market democracy rather than central planning, supporting relatively low economic control.",
+    "comercio": "Normalization with Vietnam and promotion of market democracies support international economic openness, though trade was not her sole focus.",
+    "religiao": "Her public foreign-policy arguments were secular and democratic rather than religiously grounded.",
+    "moral": "Her emphasis on human rights, civil society and women's empowerment supports socially liberal/progressive values.",
+    "tecnologia": "Her national-security work supported modernization and nonproliferation while focusing on risks of nuclear technology. Use pragmatic pro-technology with strong security constraints."
+  }
+}

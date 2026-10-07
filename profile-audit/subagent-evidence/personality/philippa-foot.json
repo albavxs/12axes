@@ -1,0 +1,27 @@
+{
+  "id": "philippa-foot",
+  "sources": [
+    {
+      "url": "https://plato.stanford.edu/entries/philippa-foot/",
+      "institution": "Stanford Encyclopedia of Philosophy"
+    },
+    {
+      "url": "https://plato.stanford.edu/archives/fall2022/entries/philippa-foot/",
+      "institution": "Stanford Encyclopedia of Philosophy Archive"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Foot's work is moral philosophy rather than constitutional theory. No defensible federal-versus-centralized state doctrine is established.",
+    "representacao": "She did not develop a detailed electoral or regime theory. Her sympathy for contractualist moral approaches and respect for rights support liberal public justification, but representation should remain moderate.",
+    "poder": "Her moral philosophy treats justice, duties and constraints on harming others as objective moral considerations. This supports strong moral limits on coercion and intentional harm, but not a detailed security-policy program.",
+    "imigracao": "No reliable immigration or assimilation doctrine is established in her central work.",
+    "diplomacia": "She was not a foreign-policy theorist. Keep diplomacy moderate.",
+    "intervencao": "Her work on the doctrine of double effect and trolley cases emphasizes distinctions between intending harm and redirecting threats. This supports strict moral constraints on violence rather than an interventionist foreign-policy program.",
+    "economia": "Foot did not present a comprehensive ownership, redistribution or market doctrine. Keep economic placement moderate.",
+    "controle": "No planning-versus-market doctrine is established. Keep moderate.",
+    "comercio": "No trade-policy doctrine is established. Keep moderate.",
+    "religiao": "Although her ethics was influenced by Aristotelian naturalism and she engaged with Anscombe, Foot's mature ethical naturalism does not depend on religious authority. Use a secular philosophical placement.",
+    "moral": "She defended objective morality, natural goodness, virtue, justice and duties against subjectivism. This supports moral objectivism, but should not be equated mechanically with contemporary social conservatism; use moderately traditional/communitarian ethics.",
+    "tecnologia": "The trolley problem and applied ethics illustrate caution about harming persons through technological or institutional choices, but no general technology ideology is established. Use moderate human-centered caution."
+  }
+}
