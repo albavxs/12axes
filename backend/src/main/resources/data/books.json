@@ -2638,5 +2638,103 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "angela-davis",
+    "title": {
+      "pt": "Mulheres, Raça e Classe",
+      "en": "Women, Race & Class"
+    },
+    "year": 1981,
+    "url": {
+      "pt": "",
+      "en": ""
+    },
+    "author": "Angela Davis",
+    "associationType": "author"
+  },
+  {
+    "personalityId": "dolores-ibarruri",
+    "title": {
+      "pt": "El único camino",
+      "en": "El único camino"
+    },
+    "year": 1962,
+    "url": {
+      "pt": "",
+      "en": ""
+    },
+    "author": "Dolores Ibárruri",
+    "associationType": "author"
+  },
+  {
+    "personalityId": "olga-benario",
+    "title": {
+      "pt": "Olga",
+      "en": "Olga"
+    },
+    "year": 1985,
+    "url": {
+      "pt": "",
+      "en": ""
+    },
+    "author": "Fernando Morais",
+    "associationType": "biography"
+  },
+  {
+    "personalityId": "vilma-espin",
+    "title": {
+      "pt": "Las mujeres en Cuba: haciendo una revolución dentro de la revolución",
+      "en": "Women in Cuba: The Making of a Revolution Within the Revolution"
+    },
+    "year": 2012,
+    "url": {
+      "pt": "",
+      "en": ""
+    },
+    "author": "Vilma Espín, Asela de los Santos, Yolanda Ferrer",
+    "associationType": "author"
+  },
+  {
+    "personalityId": "haydee-santamaria",
+    "title": {
+      "pt": "Haydée habla del Moncada",
+      "en": "Haydée habla del Moncada"
+    },
+    "year": 1978,
+    "url": {
+      "pt": "",
+      "en": ""
+    },
+    "author": "Haydée Santamaría",
+    "associationType": "author"
+  },
+  {
+    "personalityId": "celia-sanchez",
+    "title": {
+      "pt": "One Day in December: Celia Sánchez and the Cuban Revolution",
+      "en": "One Day in December: Celia Sánchez and the Cuban Revolution"
+    },
+    "year": 2013,
+    "url": {
+      "pt": "",
+      "en": ""
+    },
+    "author": "Nancy Stout",
+    "associationType": "biography"
+  },
+  {
+    "personalityId": "tamara-bunke",
+    "title": {
+      "pt": "Tania: Undercover with Che Guevara in Bolivia",
+      "en": "Tania: Undercover with Che Guevara in Bolivia"
+    },
+    "year": 2005,
+    "url": {
+      "pt": "",
+      "en": ""
+    },
+    "author": "Ulises Estrada",
+    "associationType": "biography"
   }
 ]
