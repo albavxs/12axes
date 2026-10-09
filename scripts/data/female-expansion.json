@@ -1685,7 +1685,7 @@
       "portraitStatus": "pending",
       "translationStatus": "review",
       "profileStatus": "ready",
-      "bookStatus": "pending",
+      "bookStatus": "ready",
       "metadataFile": "scripts/data/female-metadata-drafts.json",
       "sources": [
         "https://cpdoc.fgv.br/biografias/luis-carlos-prestes",
@@ -2825,7 +2825,7 @@
       "portraitStatus": "pending",
       "translationStatus": "review",
       "profileStatus": "ready",
-      "bookStatus": "pending",
+      "bookStatus": "ready",
       "sources": [
         "https://www.theguardian.com/news/2007/jun/20/obituaries.cuba",
         "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/espin-de-castro-vilma-1930-2007"
@@ -2843,7 +2843,7 @@
       "portraitStatus": "pending",
       "translationStatus": "review",
       "profileStatus": "ready",
-      "bookStatus": "pending",
+      "bookStatus": "ready",
       "sources": [
         "https://academic.oup.com/north-carolina-scholarship-online/book/37675",
         "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/sanchez-manduley-celia-1920-1980"
@@ -2861,7 +2861,7 @@
       "portraitStatus": "pending",
       "translationStatus": "review",
       "profileStatus": "ready",
-      "bookStatus": "pending",
+      "bookStatus": "ready",
       "sources": [
         "https://www.dukeupress.edu/Haydee-Santamaria-Cuban-Revolutionary",
         "https://www.encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/santamaria-haydee-1927-1980"
@@ -2879,7 +2879,7 @@
       "portraitStatus": "pending",
       "translationStatus": "review",
       "profileStatus": "ready",
-      "bookStatus": "pending",
+      "bookStatus": "ready",
       "sources": [
         "https://www.encyclopedia.com/women/encyclopedias-almanacs-transcripts-and-maps/bunke-tamara-1937-1967",
         "https://www.htw-berlin.de/forschung/online-forschungskatalog/projekte/projekt/?eid=2716"
@@ -2897,7 +2897,7 @@
       "portraitStatus": "pending",
       "translationStatus": "review",
       "profileStatus": "ready",
-      "bookStatus": "pending",
+      "bookStatus": "ready",
       "sources": [
         "https://pares.cultura.gob.es/ParesBusquedas20/catalogo/autoridad/66015",
         "https://www.pce.es/en/historia-del-pce/"
