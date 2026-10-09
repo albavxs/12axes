@@ -58,6 +58,20 @@ class BookRecommendationServiceTest {
     }
 
     @Test
+    void biographyKeepsTheRealBookAuthorAndUsesItInTheAffiliateSearch() {
+        var recommendations = service.recommend(
+                List.of(match("olga-benario", 99)),
+                QuizDataService.LANG_PT
+        );
+
+        assertThat(recommendations).hasSize(1);
+        var book = recommendations.getFirst();
+        assertThat(book.author()).isEqualTo("Fernando Morais");
+        assertThat(book.associationType()).isEqualTo("biography");
+        assertThat(book.url()).contains("Fernando+Morais");
+    }
+
+    @Test
     void neverReturnsMoreThanThreeBooks() {
         var availableIds = dataService.getBooks().keySet().stream().limit(4).toList();
         assertThat(availableIds).hasSize(4);
