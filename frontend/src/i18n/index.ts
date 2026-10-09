@@ -182,6 +182,8 @@ interface Strings {
   booksTitle: string;
   booksTopLabel: string;
   booksAuthorLabel: string;
+  booksSubjectLabel: string;
+  booksBy: (author: string) => string;
   booksLead: string;
   booksWhy: (pct: number) => string;
   booksYearBc: (year: number) => string;
@@ -591,7 +593,9 @@ const pt: Strings = {
   booksTitle: 'Para ler',
   booksTopLabel: 'Mais próxima de você',
   booksAuthorLabel: 'Autor',
-  booksLead: 'Uma obra de cada uma das personalidades mais próximas dos seus resultados.',
+  booksSubjectLabel: 'Sobre',
+  booksBy: (author) => `por ${author}`,
+  booksLead: 'Obras escritas por ou sobre as personalidades mais próximas dos seus resultados.',
   booksWhy: (pct) => `${pct}% compatível`,
   booksYearBc: (year) => `${year} a.C.`,
   booksCta: 'Ver na Amazon',
@@ -1062,7 +1066,9 @@ const en: Strings = {
   booksTitle: 'Further reading',
   booksTopLabel: 'Closest to you',
   booksAuthorLabel: 'Author',
-  booksLead: 'One work by each of the figures closest to your results.',
+  booksSubjectLabel: 'About',
+  booksBy: (author) => `by ${author}`,
+  booksLead: 'Works written by or about the figures closest to your results.',
   booksWhy: (pct) => `${pct}% compatible`,
   booksYearBc: (year) => `${year} BC`,
   booksCta: 'See on Amazon',
