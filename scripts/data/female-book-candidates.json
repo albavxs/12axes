@@ -1,0 +1,98 @@
+{
+  "note": "Phase 3 candidate works for the 6 women with no book in books.json. Editorial preference: own work > memoirs/speeches > academic/recognised biography > historical study > none. Verified against Open Library.",
+  "candidates": {
+    "dilma-rousseff": {
+      "decision": "propose",
+      "preferenceTier": "recognised-biography",
+      "title": {
+        "pt": "A Vida Quer é Coragem: A Trajetória de Dilma Rousseff, a Primeira Presidenta do Brasil",
+        "en": "A Vida Quer é Coragem: A Trajetória de Dilma Rousseff"
+      },
+      "author": "Ricardo Batista Amaral",
+      "year": 2011,
+      "associationType": "biography",
+      "identifiers": { "isbn10": "8575427350", "isbn13": "9788575427354" },
+      "publisher": "Primeira Pessoa",
+      "language": "pt",
+      "rationale": "Rousseff has published no memoir or authored work. Amaral's is the standard Brazilian biography, published by Primeira Pessoa/Sextante and widely distributed.",
+      "openLibrary": "https://openlibrary.org/works/OL16565033W"
+    },
+    "corazon-aquino": {
+      "decision": "propose",
+      "preferenceTier": "own-memoirs",
+      "title": {
+        "pt": "To Love Another Day: As Memórias de Cory Aquino",
+        "en": "To Love Another Day: The Memoirs of Cory Aquino"
+      },
+      "author": "Corazon Aquino",
+      "year": 2020,
+      "associationType": "author",
+      "identifiers": { "isbn10": null, "isbn13": "9798677358920" },
+      "publisher": "Independently published",
+      "language": "en",
+      "rationale": "Closest thing to her own voice: transcribed from private filmed interviews recorded to support the autobiography she left unfinished at her death in 2009. Published posthumously by her family.",
+      "openLibrary": "https://openlibrary.org/works/OL36887799W"
+    },
+    "michelle-bachelet": {
+      "decision": "propose",
+      "preferenceTier": "academic-biography",
+      "title": {
+        "pt": "Michelle Bachelet: Una Mujer Política",
+        "en": "Michelle Bachelet: Una Mujer Política"
+      },
+      "author": "Lucía Dammert, Silvia Borzutzky",
+      "year": 2019,
+      "associationType": "biography",
+      "identifiers": { "isbn10": "956303404X", "isbn13": "9789563034042" },
+      "publisher": "Editorial USACH",
+      "language": "es",
+      "rationale": "Bachelet has published no memoir. This is the academic treatment of her two presidencies (human rights, social policy, democratic quality, inclusion of women), from a university press.",
+      "openLibrary": "https://openlibrary.org/works/OL44660796W"
+    },
+    "elena-ceausescu": {
+      "decision": "propose",
+      "preferenceTier": "recognised-biography",
+      "title": {
+        "pt": "The Rise and Fall of Nicolae and Elena Ceausescu",
+        "en": "The Rise and Fall of Nicolae and Elena Ceausescu"
+      },
+      "author": "Mark Almond",
+      "year": 1992,
+      "associationType": "biography",
+      "identifiers": { "isbn10": "1855925737", "isbn13": "9781855925106" },
+      "publisher": "Chapmans",
+      "language": "en",
+      "rationale": "Her own 'scientific' publications in polymer chemistry are regarded as ghostwritten and fraudulent, so they are editorially inadequate as authored works. Almond's is a recognised historical biography covering her specifically, not only Nicolae. Alternative considered: Edward Behr, Kiss the Hand You Cannot Bite (1991, ISBN 9780679401285).",
+      "openLibrary": null
+    },
+    "jiang-qing": {
+      "decision": "propose",
+      "preferenceTier": "academic-biography",
+      "title": {
+        "pt": "Madame Mao: The White-Boned Demon",
+        "en": "Madame Mao: The White-Boned Demon"
+      },
+      "author": "Ross Terrill",
+      "year": 1984,
+      "associationType": "biography",
+      "identifiers": { "isbn10": "0671744844", "isbn13": "9780671744847" },
+      "publisher": "Bantam Books; revised edition Stanford University Press, 1999",
+      "language": "en",
+      "rationale": "The standard scholarly biography, revised and reissued by Stanford University Press. Alternative considered: Roxane Witke, Comrade Chiang Ch'ing (1977, ISBN 9780316949002), built on sixty hours of interviews with Jiang Qing herself — closer to her own voice but long out of print.",
+      "openLibrary": null
+    },
+    "kim-jong-suk": {
+      "decision": "no-book",
+      "preferenceTier": "none",
+      "title": null,
+      "author": null,
+      "year": null,
+      "associationType": null,
+      "identifiers": { "isbn10": null, "isbn13": null },
+      "publisher": null,
+      "language": null,
+      "rationale": "No editorially adequate work exists. The only book-length treatments are DPRK state hagiographies from the Foreign Languages Publishing House in Pyongyang (Kim Jong Suk, 2002; Kim Ok Sun, Kim Jong Suk, the Anti-Japanese Heroine, 1997), which carry no ISBN, no independent scholarship and no commercial distribution. Per the audit rule, this stays no-book rather than filling the slot.",
+      "openLibrary": null
+    }
+  }
+}

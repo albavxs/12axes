@@ -1,0 +1,1475 @@
+{
+  "generatedAt": "2026-10-10T02:11:58.882Z",
+  "scope": "representation === \"female\"",
+  "note": "Staging only. books.json is not modified by this audit.",
+  "totals": {
+    "women": 38,
+    "withBook": 32,
+    "withoutBook": 6
+  },
+  "personalities": [
+    {
+      "personalityId": "dilma-rousseff",
+      "name": "Dilma Rousseff",
+      "hasBook": false,
+      "book": null,
+      "candidate": {
+        "decision": "propose",
+        "preferenceTier": "recognised-biography",
+        "title": {
+          "pt": "A Vida Quer é Coragem: A Trajetória de Dilma Rousseff, a Primeira Presidenta do Brasil",
+          "en": "A Vida Quer é Coragem: A Trajetória de Dilma Rousseff"
+        },
+        "author": "Ricardo Batista Amaral",
+        "year": 2011,
+        "associationType": "biography",
+        "identifiers": {
+          "isbn10": "8575427350",
+          "isbn13": "9788575427354"
+        },
+        "publisher": "Primeira Pessoa",
+        "language": "pt",
+        "rationale": "Rousseff has published no memoir or authored work. Amaral's is the standard Brazilian biography, published by Primeira Pessoa/Sextante and widely distributed.",
+        "openLibrary": "https://openlibrary.org/works/OL16565033W"
+      },
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": {
+        "openLibrary": {
+          "url": "https://openlibrary.org/works/OL16565033W",
+          "title": "A vida quer é coragem",
+          "authors": [
+            "Ricardo Batista Amaral"
+          ],
+          "year": 2011,
+          "isbns": [
+            "9788575427354",
+            "8575427350"
+          ],
+          "publishers": [
+            "Primeira Pessoa"
+          ],
+          "languages": [
+            "por"
+          ]
+        }
+      },
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "eva-peron",
+      "name": "Eva Perón",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "A Razão da Minha Vida",
+          "en": "La razón de mi vida"
+        },
+        "author": null,
+        "year": 1951,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "greta-thunberg",
+      "name": "Greta Thunberg",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "O Livro do Clima",
+          "en": "The Climate Book"
+        },
+        "author": null,
+        "year": 2022,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "margaret-thatcher",
+      "name": "Margaret Thatcher",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "A Arte de Governar",
+          "en": "Statecraft"
+        },
+        "author": null,
+        "year": 2002,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "rosa-luxemburg",
+      "name": "Rosa Luxemburgo",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Reforma ou Revolução",
+          "en": "Reform or Revolution"
+        },
+        "author": null,
+        "year": 1899,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "angela-merkel",
+      "name": "Angela Merkel",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Liberdade",
+          "en": "Freedom"
+        },
+        "author": null,
+        "year": 2024,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "indira-gandhi",
+      "name": "Indira Gandhi",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Minha Verdade",
+          "en": "My Truth"
+        },
+        "author": null,
+        "year": 1980,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "emma-goldman",
+      "name": "Emma Goldman",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Anarquismo e Outros Ensaios",
+          "en": "Anarchism and Other Essays"
+        },
+        "author": null,
+        "year": 1910,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "alexandra-kollontai",
+      "name": "Alexandra Kollontai",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "A Nova Mulher e a Moral Sexual",
+          "en": "The New Woman and Sexual Morality"
+        },
+        "author": null,
+        "year": 1918,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "golda-meir",
+      "name": "Golda Meir",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Minha Vida",
+          "en": "My Life"
+        },
+        "author": null,
+        "year": 1975,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "benazir-bhutto",
+      "name": "Benazir Bhutto",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Reconciliação: Islã, Democracia e Ocidente",
+          "en": "Reconciliation: Islam, Democracy, and the West"
+        },
+        "author": null,
+        "year": 2008,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "ellen-johnson-sirleaf",
+      "name": "Ellen Johnson Sirleaf",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Esta Criança Será Grande",
+          "en": "This Child Will Be Great"
+        },
+        "author": null,
+        "year": 2009,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "corazon-aquino",
+      "name": "Corazon Aquino",
+      "hasBook": false,
+      "book": null,
+      "candidate": {
+        "decision": "propose",
+        "preferenceTier": "own-memoirs",
+        "title": {
+          "pt": "To Love Another Day: As Memórias de Cory Aquino",
+          "en": "To Love Another Day: The Memoirs of Cory Aquino"
+        },
+        "author": "Corazon Aquino",
+        "year": 2020,
+        "associationType": "author",
+        "identifiers": {
+          "isbn10": null,
+          "isbn13": "9798677358920"
+        },
+        "publisher": "Independently published",
+        "language": "en",
+        "rationale": "Closest thing to her own voice: transcribed from private filmed interviews recorded to support the autobiography she left unfinished at her death in 2009. Published posthumously by her family.",
+        "openLibrary": "https://openlibrary.org/works/OL36887799W"
+      },
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "michelle-bachelet",
+      "name": "Michelle Bachelet",
+      "hasBook": false,
+      "book": null,
+      "candidate": {
+        "decision": "propose",
+        "preferenceTier": "academic-biography",
+        "title": {
+          "pt": "Michelle Bachelet: Una Mujer Política",
+          "en": "Michelle Bachelet: Una Mujer Política"
+        },
+        "author": "Lucía Dammert, Silvia Borzutzky",
+        "year": 2019,
+        "associationType": "biography",
+        "identifiers": {
+          "isbn10": "956303404X",
+          "isbn13": "9789563034042"
+        },
+        "publisher": "Editorial USACH",
+        "language": "es",
+        "rationale": "Bachelet has published no memoir. This is the academic treatment of her two presidencies (human rights, social policy, democratic quality, inclusion of women), from a university press.",
+        "openLibrary": "https://openlibrary.org/works/OL44660796W"
+      },
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "simone-de-beauvoir",
+      "name": "Simone de Beauvoir",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "O Segundo Sexo",
+          "en": "The Second Sex"
+        },
+        "author": null,
+        "year": 1949,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "emmeline-pankhurst",
+      "name": "Emmeline Pankhurst",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Minha Própria História",
+          "en": "My Own Story"
+        },
+        "author": null,
+        "year": 1914,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "ayn-rand",
+      "name": "Ayn Rand",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Capitalismo: O Ideal Desconhecido",
+          "en": "Capitalism: The Unknown Ideal"
+        },
+        "author": null,
+        "year": 1966,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "hannah-arendt",
+      "name": "Hannah Arendt",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Origens do Totalitarismo",
+          "en": "The Origins of Totalitarianism"
+        },
+        "author": null,
+        "year": 1951,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "mary-wollstonecraft",
+      "name": "Mary Wollstonecraft",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Reivindicação dos Direitos da Mulher",
+          "en": "A Vindication of the Rights of Woman"
+        },
+        "author": null,
+        "year": 1792,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "elinor-ostrom",
+      "name": "Elinor Ostrom",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Governando os Comuns",
+          "en": "Governing the Commons"
+        },
+        "author": null,
+        "year": 1990,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "judith-butler",
+      "name": "Judith Butler",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Problemas de Gênero",
+          "en": "Gender Trouble"
+        },
+        "author": null,
+        "year": 1990,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "bell-hooks",
+      "name": "bell hooks",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Teoria Feminista: Da Margem ao Centro",
+          "en": "Feminist Theory: From Margin to Center"
+        },
+        "author": null,
+        "year": 1984,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "lelia-gonzalez",
+      "name": "Lélia Gonzalez",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Por um Feminismo Afro-Latino-Americano",
+          "en": "Por um Feminismo Afro-Latino-Americano"
+        },
+        "author": null,
+        "year": 2020,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "nisia-floresta",
+      "name": "Nísia Floresta",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Direitos das Mulheres e Injustiça dos Homens",
+          "en": "Women’s Rights and Men’s Injustice"
+        },
+        "author": null,
+        "year": 1832,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "dorothy-day",
+      "name": "Dorothy Day",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "A Longa Solidão",
+          "en": "The Long Loneliness"
+        },
+        "author": null,
+        "year": 1952,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "phyllis-schlafly",
+      "name": "Phyllis Schlafly",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Uma Escolha, Não um Eco",
+          "en": "A Choice Not an Echo"
+        },
+        "author": null,
+        "year": 1964,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "jane-jacobs",
+      "name": "Jane Jacobs",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Morte e Vida de Grandes Cidades",
+          "en": "The Death and Life of Great American Cities"
+        },
+        "author": null,
+        "year": 1961,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "condoleezza-rice",
+      "name": "Condoleezza Rice",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Democracia: Histórias da Longa Estrada para a Liberdade",
+          "en": "Democracy: Stories from the Long Road to Freedom"
+        },
+        "author": null,
+        "year": 2017,
+        "associationType": null
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "elena-ceausescu",
+      "name": "Elena Ceaușescu",
+      "hasBook": false,
+      "book": null,
+      "candidate": {
+        "decision": "propose",
+        "preferenceTier": "recognised-biography",
+        "title": {
+          "pt": "The Rise and Fall of Nicolae and Elena Ceausescu",
+          "en": "The Rise and Fall of Nicolae and Elena Ceausescu"
+        },
+        "author": "Mark Almond",
+        "year": 1992,
+        "associationType": "biography",
+        "identifiers": {
+          "isbn10": "1855925737",
+          "isbn13": "9781855925106"
+        },
+        "publisher": "Chapmans",
+        "language": "en",
+        "rationale": "Her own 'scientific' publications in polymer chemistry are regarded as ghostwritten and fraudulent, so they are editorially inadequate as authored works. Almond's is a recognised historical biography covering her specifically, not only Nicolae. Alternative considered: Edward Behr, Kiss the Hand You Cannot Bite (1991, ISBN 9780679401285).",
+        "openLibrary": null
+      },
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "jiang-qing",
+      "name": "Jiang Qing",
+      "hasBook": false,
+      "book": null,
+      "candidate": {
+        "decision": "propose",
+        "preferenceTier": "academic-biography",
+        "title": {
+          "pt": "Madame Mao: The White-Boned Demon",
+          "en": "Madame Mao: The White-Boned Demon"
+        },
+        "author": "Ross Terrill",
+        "year": 1984,
+        "associationType": "biography",
+        "identifiers": {
+          "isbn10": "0671744844",
+          "isbn13": "9780671744847"
+        },
+        "publisher": "Bantam Books; revised edition Stanford University Press, 1999",
+        "language": "en",
+        "rationale": "The standard scholarly biography, revised and reissued by Stanford University Press. Alternative considered: Roxane Witke, Comrade Chiang Ch'ing (1977, ISBN 9780316949002), built on sixty hours of interviews with Jiang Qing herself — closer to her own voice but long out of print.",
+        "openLibrary": null
+      },
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "kim-jong-suk",
+      "name": "Kim Jong-suk",
+      "hasBook": false,
+      "book": null,
+      "candidate": {
+        "decision": "no-book",
+        "preferenceTier": "none",
+        "title": null,
+        "author": null,
+        "year": null,
+        "associationType": null,
+        "identifiers": {
+          "isbn10": null,
+          "isbn13": null
+        },
+        "publisher": null,
+        "language": null,
+        "rationale": "No editorially adequate work exists. The only book-length treatments are DPRK state hagiographies from the Foreign Languages Publishing House in Pyongyang (Kim Jong Suk, 2002; Kim Ok Sun, Kim Jong Suk, the Anti-Japanese Heroine, 1997), which carry no ISBN, no independent scholarship and no commercial distribution. Per the audit rule, this stays no-book rather than filling the slot.",
+        "openLibrary": null
+      },
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "no-book",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "vilma-espin",
+      "name": "Vilma Espín",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Las mujeres en Cuba: haciendo una revolución dentro de la revolución",
+          "en": "Women in Cuba: The Making of a Revolution Within the Revolution"
+        },
+        "author": "Vilma Espín, Asela de los Santos, Yolanda Ferrer",
+        "year": 2012,
+        "associationType": "author"
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "celia-sanchez",
+      "name": "Celia Sánchez",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "One Day in December: Celia Sánchez and the Cuban Revolution",
+          "en": "One Day in December: Celia Sánchez and the Cuban Revolution"
+        },
+        "author": "Nancy Stout",
+        "year": 2013,
+        "associationType": "biography"
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": {
+        "openLibrary": {
+          "url": "https://openlibrary.org/works/OL19963925W",
+          "title": "One day in December",
+          "authors": [
+            "Nancy Stout"
+          ],
+          "year": 2013,
+          "isbns": [
+            "1583673172",
+            "9781583673171"
+          ],
+          "publishers": [
+            "Monthly Review Press"
+          ],
+          "languages": [
+            "eng"
+          ]
+        }
+      },
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "haydee-santamaria",
+      "name": "Haydée Santamaría",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Haydée habla del Moncada",
+          "en": "Haydée habla del Moncada"
+        },
+        "author": "Haydée Santamaría",
+        "year": 1978,
+        "associationType": "author"
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "tamara-bunke",
+      "name": "Tamara Bunke",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Tania: Undercover with Che Guevara in Bolivia",
+          "en": "Tania: Undercover with Che Guevara in Bolivia"
+        },
+        "author": "Ulises Estrada",
+        "year": 2005,
+        "associationType": "biography"
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "dolores-ibarruri",
+      "name": "Dolores Ibárruri",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "El único camino",
+          "en": "El único camino"
+        },
+        "author": "Dolores Ibárruri",
+        "year": 1962,
+        "associationType": "author"
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "olga-benario",
+      "name": "Olga Benário Prestes",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Olga",
+          "en": "Olga"
+        },
+        "author": "Fernando Morais",
+        "year": 1985,
+        "associationType": "biography"
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    },
+    {
+      "personalityId": "angela-davis",
+      "name": "Angela Davis",
+      "hasBook": true,
+      "book": {
+        "title": {
+          "pt": "Mulheres, Raça e Classe",
+          "en": "Women, Race & Class"
+        },
+        "author": "Angela Davis",
+        "year": 1981,
+        "associationType": "author"
+      },
+      "candidate": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null,
+          "isbn": null,
+          "matchedTitle": null,
+          "format": null,
+          "note": null
+        }
+      },
+      "alternativeProviders": null,
+      "resolution": "pending",
+      "checkedAt": null
+    }
+  ]
+}
