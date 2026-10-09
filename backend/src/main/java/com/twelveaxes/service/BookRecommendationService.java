@@ -50,13 +50,19 @@ public class BookRecommendationService {
 
     private BookRecommendation toRecommendation(PersonalityMatch match, Book book, String lang) {
         String title = localized(book.title(), lang);
+        String author = book.author() == null || book.author().isBlank() ? match.name() : book.author();
+        String associationType = book.associationType() == null || book.associationType().isBlank()
+                ? "author"
+                : book.associationType();
         return new BookRecommendation(
                 match.personalityId(),
                 match.name(),
                 match.imagePath(),
                 title,
                 book.year(),
-                affiliateUrl(localized(book.url(), lang), title, match.name(), lang),
+                affiliateUrl(localized(book.url(), lang), title, author, lang),
+                author,
+                associationType,
                 match.compatibility()
         );
     }
