@@ -86,6 +86,29 @@ class BookRecommendationServiceTest {
         assertThat(service.recommend(ranked, QuizDataService.LANG_PT)).hasSize(3);
     }
 
+    @Test
+    void multiAuthorCreditIsKeptForDisplayButTrimmedInTheSearch() {
+        var recommendations = service.recommend(
+                List.of(match("vilma-espin", 99)),
+                QuizDataService.LANG_PT
+        );
+
+        assertThat(recommendations).hasSize(1);
+        var book = recommendations.getFirst();
+        // O credito completo continua visivel para o leitor.
+        assertThat(book.author()).contains("Asela de los Santos");
+        // A busca leva so a primeira autora.
+        assertThat(book.url()).contains("Vilma+Esp%C3%ADn").doesNotContain("Asela");
+    }
+
+    @Test
+    void deliversTheEditionThatExistsWhenThereIsNoPortugueseOne() {
+        // Nao existe edicao em portugues de Women in Cuba, so a inglesa da
+        // Pathfinder e a espanhola. O leitor pt recebe a que da para comprar.
+        var book = dataService.getBooks().get("vilma-espin");
+        assertThat(book.title().get("pt")).isEqualTo(book.title().get("en"));
+    }
+
     private PersonalityMatch match(String id, double compatibility) {
         return new PersonalityMatch(
                 id,

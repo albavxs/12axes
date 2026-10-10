@@ -67,12 +67,27 @@ public class BookRecommendationService {
         );
     }
 
+    /**
+     * Primeiro autor creditado, para a busca gerada. A linha de credito completa
+     * ("Vilma Espin, Asela de los Santos, Yolanda Ferrer") transforma a busca
+     * numa frase longa que nao casa com nenhuma entrada de catalogo: a Amazon
+     * responde "Nenhum resultado". O credito completo continua na exibicao.
+     */
+    static String searchAuthor(String author) {
+        if (author == null || author.isBlank()) {
+            return "";
+        }
+        String first = author.split(",|&| and ")[0].trim();
+        return first.isEmpty() ? author.trim() : first;
+    }
+
     static String affiliateUrl(String directUrl, String title, String author, String lang) {
         if (directUrl != null && !directUrl.isBlank()) {
             return directUrl;
         }
         boolean english = QuizDataService.LANG_EN.equals(lang);
-        String query = URLEncoder.encode(title + " " + author, StandardCharsets.UTF_8);
+        String terms = (title + " " + searchAuthor(author)).trim();
+        String query = URLEncoder.encode(terms, StandardCharsets.UTF_8);
         return "https://" + (english ? AMAZON_US_HOST : AMAZON_BR_HOST)
                 + "/s?k=" + query + "&i=stripbooks&tag=" + (english ? AMAZON_US_TAG : AMAZON_BR_TAG);
     }
