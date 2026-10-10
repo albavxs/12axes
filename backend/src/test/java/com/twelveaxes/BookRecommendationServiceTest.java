@@ -58,7 +58,7 @@ class BookRecommendationServiceTest {
     }
 
     @Test
-    void biographyKeepsTheRealBookAuthorAndUsesItInTheAffiliateSearch() {
+    void biographyKeepsTheRealBookAuthorSeparateFromThePersonality() {
         var recommendations = service.recommend(
                 List.of(match("olga-benario", 99)),
                 QuizDataService.LANG_PT
@@ -68,7 +68,36 @@ class BookRecommendationServiceTest {
         var book = recommendations.getFirst();
         assertThat(book.author()).isEqualTo("Fernando Morais");
         assertThat(book.associationType()).isEqualTo("biography");
-        assertThat(book.url()).contains("Fernando+Morais");
+    }
+
+    @Test
+    void usesTheStoredProductUrlWhenThereIsOne() {
+        var book = service.recommend(
+                List.of(match("olga-benario", 99)),
+                QuizDataService.LANG_PT
+        ).getFirst();
+
+        // URL verificada vence a busca gerada: leva direto ao produto.
+        assertThat(book.url()).contains("/dp/").doesNotContain("/s?k=");
+    }
+
+    @Test
+    void fallsBackToAGeneratedSearchWhenNoUrlIsStored() {
+        String withoutUrl = dataService.getBooks().entrySet().stream()
+                .filter(entry -> {
+                    var url = entry.getValue().url();
+                    return url == null || url.get("pt") == null || url.get("pt").isBlank();
+                })
+                .map(Map.Entry::getKey)
+                .findFirst()
+                .orElseThrow();
+
+        var book = service.recommend(
+                List.of(match(withoutUrl, 99)),
+                QuizDataService.LANG_PT
+        ).getFirst();
+
+        assertThat(book.url()).contains("/s?k=").contains("tag=12axes-20");
     }
 
     @Test
@@ -87,18 +116,16 @@ class BookRecommendationServiceTest {
     }
 
     @Test
-    void multiAuthorCreditIsKeptForDisplayButTrimmedInTheSearch() {
+    void multiAuthorCreditIsKeptForDisplay() {
         var recommendations = service.recommend(
                 List.of(match("vilma-espin", 99)),
                 QuizDataService.LANG_PT
         );
 
         assertThat(recommendations).hasSize(1);
-        var book = recommendations.getFirst();
-        // O credito completo continua visivel para o leitor.
-        assertThat(book.author()).contains("Asela de los Santos");
-        // A busca leva so a primeira autora.
-        assertThat(book.url()).contains("Vilma+Esp%C3%ADn").doesNotContain("Asela");
+        // O credito completo continua visivel para o leitor; o recorte para a
+        // busca gerada e coberto por BookRecommendationServiceSearchTest.
+        assertThat(recommendations.getFirst().author()).contains("Asela de los Santos");
     }
 
     @Test
