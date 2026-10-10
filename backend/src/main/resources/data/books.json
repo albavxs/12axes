@@ -2342,7 +2342,7 @@
   {
     "personalityId": "eva-peron",
     "title": {
-      "pt": "A Razão da Minha Vida",
+      "pt": "La razón de mi vida",
       "en": "La razón de mi vida"
     },
     "year": 1951,
@@ -2390,7 +2390,7 @@
   {
     "personalityId": "angela-merkel",
     "title": {
-      "pt": "Liberdade",
+      "pt": "Liberdade: Memórias 1945-2021",
       "en": "Freedom"
     },
     "year": 2024,
@@ -2414,7 +2414,7 @@
   {
     "personalityId": "emma-goldman",
     "title": {
-      "pt": "Anarquismo e Outros Ensaios",
+      "pt": "Anarquismo e Outros Ensaios (com notas)",
       "en": "Anarchism and Other Essays"
     },
     "year": 1910,
@@ -2427,7 +2427,7 @@
     "personalityId": "alexandra-kollontai",
     "title": {
       "pt": "A Nova Mulher e a Moral Sexual",
-      "en": "The New Woman and Sexual Morality"
+      "en": "Sexual Relations and the Class Struggle: Love and the New Morality"
     },
     "year": 1918,
     "url": {
@@ -2450,7 +2450,7 @@
   {
     "personalityId": "benazir-bhutto",
     "title": {
-      "pt": "Reconciliação: Islã, Democracia e Ocidente",
+      "pt": "Reconciliation: Islam, Democracy, and the West",
       "en": "Reconciliation: Islam, Democracy, and the West"
     },
     "year": 2008,
@@ -2462,7 +2462,7 @@
   {
     "personalityId": "ellen-johnson-sirleaf",
     "title": {
-      "pt": "Esta Criança Será Grande",
+      "pt": "This Child Will Be Great",
       "en": "This Child Will Be Great"
     },
     "year": 2009,
@@ -2486,8 +2486,8 @@
   {
     "personalityId": "emmeline-pankhurst",
     "title": {
-      "pt": "Minha Própria História",
-      "en": "My Own Story"
+      "pt": "Suffragette: My Own Story",
+      "en": "Suffragette: My Own Story"
     },
     "year": 1914,
     "url": {
@@ -2534,7 +2534,7 @@
   {
     "personalityId": "elinor-ostrom",
     "title": {
-      "pt": "Governando os Comuns",
+      "pt": "Governing the Commons: The Evolution of Institutions for Collective Action",
       "en": "Governing the Commons"
     },
     "year": 1990,
@@ -2583,7 +2583,7 @@
     "personalityId": "nisia-floresta",
     "title": {
       "pt": "Direitos das Mulheres e Injustiça dos Homens",
-      "en": "Women’s Rights and Men’s Injustice"
+      "en": "Direitos das Mulheres e Injustiça dos Homens"
     },
     "year": 1832,
     "url": {
@@ -2606,7 +2606,7 @@
   {
     "personalityId": "phyllis-schlafly",
     "title": {
-      "pt": "Uma Escolha, Não um Eco",
+      "pt": "A Choice Not an Echo",
       "en": "A Choice Not an Echo"
     },
     "year": 1964,
@@ -2630,7 +2630,7 @@
   {
     "personalityId": "condoleezza-rice",
     "title": {
-      "pt": "Democracia: Histórias da Longa Estrada para a Liberdade",
+      "pt": "Democracy: Stories from the Long Road to Freedom",
       "en": "Democracy: Stories from the Long Road to Freedom"
     },
     "year": 2017,
