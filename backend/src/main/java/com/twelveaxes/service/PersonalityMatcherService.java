@@ -15,6 +15,9 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class PersonalityMatcherService {
+    public static final String REPRESENTATION_MALE = "male";
+    public static final String REPRESENTATION_FEMALE = "female";
+
     private static final int TOP_MATCHES = 8;
     private static final int CATEGORY_MATCHES = 3;
     private static final int BOTTOM_MATCHES = 3;
@@ -33,9 +36,31 @@ public class PersonalityMatcherService {
     }
 
     public List<PersonalityMatch> findMatches(List<AxisResult> axisResults, String lang) {
-        return rankAll(axisResults, lang).stream()
+        return findMatches(axisResults, lang, REPRESENTATION_MALE);
+    }
+
+    public List<PersonalityMatch> findMatches(List<AxisResult> axisResults, String lang, String representation) {
+        return rankAll(axisResults, lang, representation).stream()
                 .limit(TOP_MATCHES)
                 .toList();
+    }
+
+    public List<PersonalityMatch> findMixedMatches(List<AxisResult> axisResults, String lang) {
+        return rankAll(axisResults, lang, null).stream()
+                .limit(TOP_MATCHES)
+                .toList();
+    }
+
+    /**
+     * Ranking completo usado por consumidores que precisam continuar procurando
+     * depois do recorte visual de TOP_MATCHES (por exemplo, livros).
+     */
+    public List<PersonalityMatch> findAllMatches(List<AxisResult> axisResults, String lang, String representation) {
+        return rankAll(axisResults, lang, representation);
+    }
+
+    public List<PersonalityMatch> findAllMixedMatches(List<AxisResult> axisResults, String lang) {
+        return rankAll(axisResults, lang, null);
     }
 
     public PersonalityMatch findTopMatch(List<AxisResult> axisResults) {
@@ -46,11 +71,25 @@ public class PersonalityMatcherService {
         return findMatches(axisResults, lang).getFirst();
     }
 
+    public PersonalityMatch findTopMatch(List<AxisResult> axisResults, String lang, String representation) {
+        List<PersonalityMatch> matches = findMatches(axisResults, lang, representation);
+        return matches.isEmpty() ? null : matches.getFirst();
+    }
+
+    public PersonalityMatch findTopMixedMatch(List<AxisResult> axisResults, String lang) {
+        List<PersonalityMatch> matches = findMixedMatches(axisResults, lang);
+        return matches.isEmpty() ? null : matches.getFirst();
+    }
+
     // Tres personalidades de categorias distintas entre si e diferentes da
     // categoria da mais compativel: percorre o ranking de cima para baixo e
     // pega a primeira de cada categoria ainda nao vista.
     public List<PersonalityMatch> findCategoryMatches(List<AxisResult> axisResults, String lang) {
-        List<PersonalityMatch> ranking = rankAll(axisResults, lang);
+        return findCategoryMatches(axisResults, lang, REPRESENTATION_MALE);
+    }
+
+    public List<PersonalityMatch> findCategoryMatches(List<AxisResult> axisResults, String lang, String representation) {
+        List<PersonalityMatch> ranking = rankAll(axisResults, lang, representation);
         if (ranking.isEmpty()) {
             return List.of();
         }
@@ -74,8 +113,12 @@ public class PersonalityMatcherService {
     // mais compativel para a menos. Diferente de findCategoryMatches, que so
     // devolve tres: aqui nenhuma area de atuacao fica de fora.
     public List<PersonalityMatch> findBestPerCategory(List<AxisResult> axisResults, String lang) {
+        return findBestPerCategory(axisResults, lang, REPRESENTATION_MALE);
+    }
+
+    public List<PersonalityMatch> findBestPerCategory(List<AxisResult> axisResults, String lang, String representation) {
         Map<String, PersonalityMatch> melhorPorCategoria = new LinkedHashMap<>();
-        for (PersonalityMatch match : rankAll(axisResults, lang)) {
+        for (PersonalityMatch match : rankAll(axisResults, lang, representation)) {
             if (match.category() != null) {
                 melhorPorCategoria.putIfAbsent(match.category(), match);
             }
@@ -85,9 +128,34 @@ public class PersonalityMatcherService {
                 .toList();
     }
 
+    public List<PersonalityMatch> findMixedBestPerCategory(List<AxisResult> axisResults, String lang) {
+        Map<String, PersonalityMatch> bestByCategory = new LinkedHashMap<>();
+        for (PersonalityMatch match : rankAll(axisResults, lang, null)) {
+            if (match.category() != null) {
+                bestByCategory.putIfAbsent(match.category(), match);
+            }
+        }
+        return bestByCategory.values().stream()
+                .sorted(Comparator.comparingDouble(PersonalityMatch::compatibility).reversed())
+                .limit(TOP_MATCHES)
+                .toList();
+    }
+
     // As tres menos compativeis do catalogo inteiro, em ordem crescente.
     public List<PersonalityMatch> findBottomMatches(List<AxisResult> axisResults, String lang) {
-        List<PersonalityMatch> ranking = rankAll(axisResults, lang);
+        return findBottomMatches(axisResults, lang, REPRESENTATION_MALE);
+    }
+
+    public List<PersonalityMatch> findBottomMatches(List<AxisResult> axisResults, String lang, String representation) {
+        List<PersonalityMatch> ranking = rankAll(axisResults, lang, representation);
+        return ranking.stream()
+                .skip(Math.max(0, ranking.size() - BOTTOM_MATCHES))
+                .sorted(Comparator.comparingDouble(PersonalityMatch::compatibility))
+                .toList();
+    }
+
+    public List<PersonalityMatch> findMixedBottomMatches(List<AxisResult> axisResults, String lang) {
+        List<PersonalityMatch> ranking = rankAll(axisResults, lang, null);
         return ranking.stream()
                 .skip(Math.max(0, ranking.size() - BOTTOM_MATCHES))
                 .sorted(Comparator.comparingDouble(PersonalityMatch::compatibility))
@@ -96,12 +164,14 @@ public class PersonalityMatcherService {
 
     // Ranking completo do catalogo, do mais ao menos compativel. Todos os
     // recortes (topo, categorias, opostos) saem desta mesma lista.
-    private List<PersonalityMatch> rankAll(List<AxisResult> axisResults, String lang) {
-        return rankingMemo.get(List.of(QuizDataService.normalizeLang(lang), axisResults),
-                () -> computeRanking(axisResults, lang));
+    private List<PersonalityMatch> rankAll(List<AxisResult> axisResults, String lang, String representation) {
+        String normalizedRepresentation = normalizeRepresentation(representation);
+        String cacheRepresentation = normalizedRepresentation == null ? "all" : normalizedRepresentation;
+        return rankingMemo.get(List.of(QuizDataService.normalizeLang(lang), cacheRepresentation, axisResults),
+                () -> computeRanking(axisResults, lang, normalizedRepresentation));
     }
 
-    private List<PersonalityMatch> computeRanking(List<AxisResult> axisResults, String lang) {
+    private List<PersonalityMatch> computeRanking(List<AxisResult> axisResults, String lang, String representation) {
         Map<String, Double> userVector = profileMatchScorer.userVectorFor(axisResults);
 
         Comparator<PersonalityCandidate> byScore =
@@ -109,6 +179,7 @@ public class PersonalityMatcherService {
         Comparator<PersonalityCandidate> byName = Comparator.comparing(candidate -> candidate.personality().name());
 
         List<PersonalityCandidate> candidates = dataService.getPersonalities(QuizDataService.normalizeLang(lang)).stream()
+                .filter(personality -> representation == null || representation.equals(representationOf(personality)))
                 .map(personality -> toCandidate(personality, userVector))
                 .toList();
         List<Double> catalogScores = candidates.stream()
@@ -128,11 +199,6 @@ public class PersonalityMatcherService {
         return new PersonalityCandidate(personality, compatibility, 0.0);
     }
 
-    private PersonalityCandidate withPercentile(PersonalityCandidate candidate, List<Double> catalogScores) {
-        double percentile = profileMatchScorer.percentile(candidate.compatibility(), catalogScores);
-        return new PersonalityCandidate(candidate.personality(), candidate.compatibility(), percentile);
-    }
-
     private PersonalityMatch toMatch(PersonalityCandidate candidate) {
         Personality personality = candidate.personality();
         return new PersonalityMatch(
@@ -140,6 +206,7 @@ public class PersonalityMatcherService {
                 personality.name(),
                 personality.role(),
                 personality.category(),
+                representationOf(personality),
                 personality.lifespan(),
                 personality.description(),
                 personality.imagePath(),
@@ -150,6 +217,26 @@ public class PersonalityMatcherService {
                 candidate.compatibilityPercentile(),
                 targetVectorFor(personality)
         );
+    }
+
+    private String normalizeRepresentation(String representation) {
+        if (representation == null || representation.isBlank()) {
+            return null;
+        }
+        return switch (representation.trim().toLowerCase()) {
+            case REPRESENTATION_FEMALE -> REPRESENTATION_FEMALE;
+            default -> REPRESENTATION_MALE;
+        };
+    }
+
+    public static String representationOf(Personality personality) {
+        if (personality.representation() == null || personality.representation().isBlank()) {
+            return REPRESENTATION_MALE;
+        }
+        return switch (personality.representation().trim().toLowerCase()) {
+            case REPRESENTATION_FEMALE -> REPRESENTATION_FEMALE;
+            default -> REPRESENTATION_MALE;
+        };
     }
 
     private Map<String, Double> targetVectorFor(Personality personality) {

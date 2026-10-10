@@ -1,0 +1,27 @@
+{
+  "id": "shirin-ebadi",
+  "sources": [
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/2003/ebadi/biographical/",
+      "institution": "Nobel Prize Outreach"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/2003/summary/",
+      "institution": "Nobel Prize Outreach"
+    }
+  ],
+  "evidence": {
+    "representacao": "Nobel material explicitly describes Ebadi's efforts for democracy and her legal work for equal participation and rights.",
+    "poder": "Her legal practice and human-rights work include press cases, political violence and rights protections, providing direct civil-liberties evidence.",
+    "moral": "The Nobel citation highlights her work for the rights of women and children.",
+    "religiao": "Her biography identifies her as a practicing Muslim, while her rights advocacy is legal and political; personal faith alone should not determine a religion-policy score.",
+    "estrutura": "Ebadi's legal work focuses constitutional rights, judicial independence and accountable institutions rather than territorial federalism; keep structural placement moderate.",
+    "imigracao": "Her human-rights work supports equal treatment of minorities and refugees, but the reviewed sources do not establish an open-borders doctrine.",
+    "diplomacia": "Her Nobel-recognized work relies on law, dialogue and international human-rights institutions, supporting a strongly diplomatic orientation.",
+    "intervencao": "She has criticized both domestic repression and foreign military coercion, supporting a relatively non-interventionist, rights-based approach.",
+    "economia": "Her public work is not centered on ownership or market design; keep economic placement moderate.",
+    "controle": "No strong planning-versus-market doctrine is established.",
+    "comercio": "No reliable trade-policy doctrine is established.",
+    "tecnologia": "Her rights work addresses modern media and expression, but no broad pro- or anti-technology ideology is established."
+  }
+}

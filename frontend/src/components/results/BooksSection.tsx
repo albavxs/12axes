@@ -36,7 +36,7 @@ export function BooksSection({ books }: { books?: BookRecommendation[] }) {
                 fallback={personalityInitials(book.personalityName)}
               />
               <div>
-                <span className="e-read-label">{index === 0 ? t.booksTopLabel : t.booksAuthorLabel}</span>
+                <span className="e-read-label">{book.associationType === 'biography' ? t.booksSubjectLabel : (index === 0 ? t.booksTopLabel : t.booksAuthorLabel)}</span>
                 <strong>{book.personalityName}</strong>
               </div>
             </div>
@@ -47,7 +47,11 @@ export function BooksSection({ books }: { books?: BookRecommendation[] }) {
               </svg>
               <div>
                 <h3>{book.title}</h3>
-                {book.year ? <span className="e-read-year">{formatYear(book.year)}</span> : null}
+                {book.author && book.author !== book.personalityName ? (
+                  <span className="e-read-year">
+                    {t.booksBy(book.author)}{book.year ? ` · ${formatYear(book.year)}` : ''}
+                  </span>
+                ) : book.year ? <span className="e-read-year">{formatYear(book.year)}</span> : null}
               </div>
             </div>
             <a className="e-read-btn" href={book.url} target="_blank" rel="sponsored noopener noreferrer">

@@ -2338,5 +2338,403 @@
       "pt": "",
       "en": ""
     }
+  },
+  {
+    "personalityId": "eva-peron",
+    "title": {
+      "pt": "A Razão da Minha Vida",
+      "en": "La razón de mi vida"
+    },
+    "year": 1951,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/B0BW6N3443?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/B0BW6N3443?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "greta-thunberg",
+    "title": {
+      "pt": "O Livro do Clima",
+      "en": "The Climate Book"
+    },
+    "year": 2022,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/6559215601?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/0593492323?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "margaret-thatcher",
+    "title": {
+      "pt": "A Arte de Governar",
+      "en": "Statecraft"
+    },
+    "year": 2002,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/6550521203?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/0060199733?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "rosa-luxemburg",
+    "title": {
+      "pt": "Reforma ou Revolução",
+      "en": "Reform or Revolution"
+    },
+    "year": 1899,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/8577433749?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/0486447766?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "angela-merkel",
+    "title": {
+      "pt": "Liberdade",
+      "en": "Freedom"
+    },
+    "year": 2024,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/8542243226?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/1250319900?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "indira-gandhi",
+    "title": {
+      "pt": "Minha Verdade",
+      "en": "My Truth"
+    },
+    "year": 1980,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/0394179765?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/B01FHY6N5Y?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "emma-goldman",
+    "title": {
+      "pt": "Anarquismo e Outros Ensaios",
+      "en": "Anarchism and Other Essays"
+    },
+    "year": 1910,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/B0HKDQSSH8?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/1512179299?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "alexandra-kollontai",
+    "title": {
+      "pt": "A Nova Mulher e a Moral Sexual",
+      "en": "The New Woman and Sexual Morality"
+    },
+    "year": 1918,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/6558910330?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/B00KMDD4V2?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "golda-meir",
+    "title": {
+      "pt": "Minha Vida",
+      "en": "My Life"
+    },
+    "year": 1975,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/1399603531?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/1399603531?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "benazir-bhutto",
+    "title": {
+      "pt": "Reconciliação: Islã, Democracia e Ocidente",
+      "en": "Reconciliation: Islam, Democracy, and the West"
+    },
+    "year": 2008,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/0061567590?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/0061567582?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "ellen-johnson-sirleaf",
+    "title": {
+      "pt": "Esta Criança Será Grande",
+      "en": "This Child Will Be Great"
+    },
+    "year": 2009,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/B0024CF0JI?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/B0024CF0JI?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "simone-de-beauvoir",
+    "title": {
+      "pt": "O Segundo Sexo",
+      "en": "The Second Sex"
+    },
+    "year": 1949,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/6556408506?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/030727778X?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "emmeline-pankhurst",
+    "title": {
+      "pt": "Minha Própria História",
+      "en": "My Own Story"
+    },
+    "year": 1914,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/B00QPHQUYW?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/B013XCVVOA?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "ayn-rand",
+    "title": {
+      "pt": "Capitalismo: O Ideal Desconhecido",
+      "en": "Capitalism: The Unknown Ideal"
+    },
+    "year": 1966,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/6550521130?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/0451147952?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "hannah-arendt",
+    "title": {
+      "pt": "Origens do Totalitarismo",
+      "en": "The Origins of Totalitarianism"
+    },
+    "year": 1951,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/8535922040?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/0063354489?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "mary-wollstonecraft",
+    "title": {
+      "pt": "Reivindicação dos Direitos da Mulher",
+      "en": "A Vindication of the Rights of Woman"
+    },
+    "year": 1792,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/6558701243?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/B004TP7JMO?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "elinor-ostrom",
+    "title": {
+      "pt": "Governando os Comuns",
+      "en": "Governing the Commons"
+    },
+    "year": 1990,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/1107569788?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/1107569788?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "judith-butler",
+    "title": {
+      "pt": "Problemas de Gênero",
+      "en": "Gender Trouble"
+    },
+    "year": 1990,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/8520006116?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/0415389550?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "bell-hooks",
+    "title": {
+      "pt": "Teoria Feminista: Da Margem ao Centro",
+      "en": "Feminist Theory: From Margin to Center"
+    },
+    "year": 1984,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/8527311666?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/B0D5ZPQG8M?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "lelia-gonzalez",
+    "title": {
+      "pt": "Por um Feminismo Afro-Latino-Americano",
+      "en": "Por um Feminismo Afro-Latino-Americano"
+    },
+    "year": 2020,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/8537818895?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/8537818895?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "nisia-floresta",
+    "title": {
+      "pt": "Direitos das Mulheres e Injustiça dos Homens",
+      "en": "Women’s Rights and Men’s Injustice"
+    },
+    "year": 1832,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/6589758573?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/B0DM6LV39X?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "dorothy-day",
+    "title": {
+      "pt": "A Longa Solidão",
+      "en": "The Long Loneliness"
+    },
+    "year": 1952,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/B001U38RH4?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/0060617519?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "phyllis-schlafly",
+    "title": {
+      "pt": "Uma Escolha, Não um Eco",
+      "en": "A Choice Not an Echo"
+    },
+    "year": 1964,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/162157315X?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/162157315X?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "jane-jacobs",
+    "title": {
+      "pt": "Morte e Vida de Grandes Cidades",
+      "en": "The Death and Life of Great American Cities"
+    },
+    "year": 1961,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/8578274210?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/067974195X?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "condoleezza-rice",
+    "title": {
+      "pt": "Democracia: Histórias da Longa Estrada para a Liberdade",
+      "en": "Democracy: Stories from the Long Road to Freedom"
+    },
+    "year": 2017,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/1538727463?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/145554017X?tag=12axes0d-20"
+    }
+  },
+  {
+    "personalityId": "angela-davis",
+    "title": {
+      "pt": "Mulheres, Raça e Classe",
+      "en": "Women, Race & Class"
+    },
+    "year": 1981,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/8575595032?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/0394713516?tag=12axes0d-20"
+    },
+    "author": "Angela Davis",
+    "associationType": "author"
+  },
+  {
+    "personalityId": "dolores-ibarruri",
+    "title": {
+      "pt": "They Shall Not Pass: The Autobiography of La Pasionaria",
+      "en": "They Shall Not Pass: The Autobiography of La Pasionaria"
+    },
+    "year": 1962,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/0717804682?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/0717804682?tag=12axes0d-20"
+    },
+    "author": "Dolores Ibárruri",
+    "associationType": "author"
+  },
+  {
+    "personalityId": "olga-benario",
+    "title": {
+      "pt": "Olga",
+      "en": "Olga"
+    },
+    "year": 1985,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/6559211665?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/B0097DHRBQ?tag=12axes0d-20"
+    },
+    "author": "Fernando Morais",
+    "associationType": "biography"
+  },
+  {
+    "personalityId": "vilma-espin",
+    "title": {
+      "pt": "Women in Cuba: The Making of a Revolution Within the Revolution",
+      "en": "Women in Cuba: The Making of a Revolution Within the Revolution"
+    },
+    "year": 2012,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/1604880368?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/1604880368?tag=12axes0d-20"
+    },
+    "author": "Vilma Espín, Asela de los Santos, Yolanda Ferrer",
+    "associationType": "author"
+  },
+  {
+    "personalityId": "haydee-santamaria",
+    "title": {
+      "pt": "Haydée habla del Moncada",
+      "en": "Haydée habla del Moncada"
+    },
+    "year": 1978,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/1876175923?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/B003AP2NK2?tag=12axes0d-20"
+    },
+    "author": "Haydée Santamaría",
+    "associationType": "author"
+  },
+  {
+    "personalityId": "celia-sanchez",
+    "title": {
+      "pt": "One Day in December: Celia Sánchez and the Cuban Revolution",
+      "en": "One Day in December: Celia Sánchez and the Cuban Revolution"
+    },
+    "year": 2013,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/1583673172?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/1583673172?tag=12axes0d-20"
+    },
+    "author": "Nancy Stout",
+    "associationType": "biography"
+  },
+  {
+    "personalityId": "tamara-bunke",
+    "title": {
+      "pt": "Tania: Undercover with Che Guevara in Bolivia",
+      "en": "Tania: Undercover with Che Guevara in Bolivia"
+    },
+    "year": 2005,
+    "url": {
+      "pt": "https://www.amazon.com.br/dp/1876175435?tag=12axes-20",
+      "en": "https://www.amazon.com/dp/1876175435?tag=12axes0d-20"
+    },
+    "author": "Ulises Estrada",
+    "associationType": "biography"
   }
 ]

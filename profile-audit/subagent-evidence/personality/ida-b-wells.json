@@ -1,0 +1,31 @@
+{
+  "id": "ida-b-wells",
+  "sources": [
+    {
+      "url": "https://www.nps.gov/people/ida-b-wells.htm",
+      "institution": "National Park Service"
+    },
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/ida-b-wells-barnett",
+      "institution": "National Women’s History Museum"
+    },
+    {
+      "url": "https://www.loc.gov/exhibits/civil-rights-act/prologue.html",
+      "institution": "Library of Congress"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Wells used local journalism, civic organization and national campaigns against racial violence; no strong federalism doctrine, though local self-organization mattered.",
+    "representacao": "Suffrage and civil-rights activism strongly support equal voting rights and democratic inclusion.",
+    "poder": "Her anti-lynching campaign directly opposed extralegal violence and state failure to protect equal rights, placing her strongly on civil-liberties and due-process principles.",
+    "imigracao": "Her politics focused racial citizenship more than immigration; equality arguments favor pluralism but border policy remains underdetermined.",
+    "diplomacia": "She was not primarily a foreign-policy actor; keep moderate rather than infer militarism from domestic conflict.",
+    "intervencao": "No clear foreign-intervention doctrine is established; opposition to domination supports restraint.",
+    "economia": "Her reform work addressed racial and economic inequality but did not define a comprehensive ownership system; mildly reformist mixed economy.",
+    "controle": "Support for legal enforcement of equal rights implies public regulation, not command economic planning.",
+    "comercio": "No substantive trade doctrine is established.",
+    "religiao": "Christian reform language was present in her milieu and life, but her public claims were civic and rights-based rather than theocratic.",
+    "moral": "Anti-racism, suffrage and women’s rights strongly support egalitarian social positions.",
+    "tecnologia": "Investigative journalism and data collection show pragmatic use of modern tools, not a technology ideology."
+  }
+}

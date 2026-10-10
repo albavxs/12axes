@@ -1,0 +1,27 @@
+{
+  "id": "kate-sheppard",
+  "sources": [
+    {
+      "url": "https://nzhistory.govt.nz/people/kate-sheppard",
+      "institution": "New Zealand Ministry for Culture and Heritage"
+    },
+    {
+      "url": "https://nzhistory.govt.nz/politics/womens-suffrage/brief-history",
+      "institution": "New Zealand Ministry for Culture and Heritage"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Sheppard pursued national suffrage legislation through constitutional institutions; no broad centralization doctrine.",
+    "representacao": "Leadership of New Zealand’s successful women’s suffrage movement makes her exceptionally democratic and inclusion-oriented.",
+    "poder": "Her constitutional petitioning supports civil political rights, while temperance activism accepted regulation of alcohol; mixed liberty/control profile.",
+    "imigracao": "Immigration was not a defining issue in the core sources; keep moderate.",
+    "diplomacia": "Foreign policy was peripheral; her reform methods were civic and nonviolent, supporting a mildly diplomatic orientation.",
+    "intervencao": "No aggressive foreign-policy doctrine is documented; reformist pacific methods favor restraint.",
+    "economia": "Her principal work was suffrage and social reform rather than ownership systems; moderate mixed economy.",
+    "controle": "Temperance and reform activism indicate willingness to regulate social harms, but not economic command planning.",
+    "comercio": "No trade-policy doctrine is established.",
+    "religiao": "Work through the Women’s Christian Temperance Union indicates meaningful Christian reform influence without support for theocracy.",
+    "moral": "Women’s equality was progressive, while temperance reflected restrictive moral reform; mixed but equality-leaning.",
+    "tecnologia": "Technology was not central; moderate."
+  }
+}

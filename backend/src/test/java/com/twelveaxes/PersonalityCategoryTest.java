@@ -3,6 +3,8 @@ package com.twelveaxes;
 import static org.assertj.core.api.Assertions.assertThat;
 
 import com.twelveaxes.service.QuizDataService;
+import java.nio.file.Files;
+import java.nio.file.Path;
 import java.util.Set;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,6 +16,7 @@ class PersonalityCategoryTest {
             "politico", "religioso", "economista", "filosofo",
             "teorico", "empresario", "intelectual", "ativista"
     );
+    private static final Set<String> REPRESENTACOES_VALIDAS = Set.of("male", "female");
 
     @Autowired
     private QuizDataService dataService;
@@ -25,6 +28,41 @@ class PersonalityCategoryTest {
                 .allSatisfy(personality -> assertThat(personality.category())
                         .as("Personalidade %s precisa de categoria valida", personality.id())
                         .isIn(CATEGORIAS_VALIDAS));
+    }
+
+    @Test
+    void everyPersonalityHasAValidRepresentation() {
+        assertThat(dataService.getPersonalities())
+                .isNotEmpty()
+                .allSatisfy(personality -> assertThat(personality.representation())
+                        .as("Personalidade %s precisa de representation valida", personality.id())
+                        .isIn(REPRESENTACOES_VALIDAS));
+    }
+
+
+    @Test
+    void catalogContainsFemalePersonalitiesAndLocalPortraits() {
+        var women = dataService.getPersonalities().stream()
+                .filter(personality -> "female".equals(personality.representation()))
+                .toList();
+
+        assertThat(women)
+                .as("O catalogo precisa manter representacao feminina")
+                .isNotEmpty()
+                .allSatisfy(personality -> {
+                    assertThat(personality.imagePath())
+                            .as("Personalidade feminina %s precisa de retrato", personality.id())
+                            .isNotBlank()
+                            .startsWith("/personalities/portraits/");
+                    assertThat(personality.imagePath())
+                            .as("Retrato feminino deve ser asset local: %s", personality.id())
+                            .doesNotStartWith("http://")
+                            .doesNotStartWith("https://");
+                    Path imagePath = Path.of("..", "frontend", "public", personality.imagePath().replaceFirst("^/+", ""));
+                    assertThat(Files.exists(imagePath))
+                            .as("Retrato feminino local precisa existir: %s -> %s", personality.id(), imagePath)
+                            .isTrue();
+                });
     }
 
     @Test
@@ -45,8 +83,13 @@ class PersonalityCategoryTest {
         var en = dataService.getPersonalities(QuizDataService.LANG_EN);
 
         assertThat(en).hasSameSizeAs(pt);
-        assertThat(en).allSatisfy(personality -> assertThat(personality.category())
-                .as("Personalidade %s precisa de categoria no catalogo EN", personality.id())
-                .isIn(CATEGORIAS_VALIDAS));
+        assertThat(en).allSatisfy(personality -> {
+            assertThat(personality.category())
+                    .as("Personalidade %s precisa de categoria no catalogo EN", personality.id())
+                    .isIn(CATEGORIAS_VALIDAS);
+            assertThat(personality.representation())
+                    .as("Personalidade %s precisa de representation no catalogo EN", personality.id())
+                    .isIn(REPRESENTACOES_VALIDAS);
+        });
     }
 }

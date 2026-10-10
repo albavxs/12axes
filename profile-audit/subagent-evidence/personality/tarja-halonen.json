@@ -1,0 +1,27 @@
+{
+  "id": "tarja-halonen",
+  "sources": [
+    {
+      "url": "https://www.presidentti.fi/halonen/public/default625a.html?contentid=168259&contentlan=2&culture=en-US&nodeid=41419",
+      "institution": "Office of the President of Finland"
+    },
+    {
+      "url": "https://www.presidentti.fi/halonen/public/default9c52.html",
+      "institution": "Office of the President of Finland"
+    }
+  ],
+  "evidence": {
+    "representacao": "Official sources document Halonen's parliamentary career, presidency and explicit support for democratic participation and women's political participation.",
+    "moral": "Her presidential speeches describe gender equality and women's rights as human-rights issues and support equal rights and opportunities.",
+    "poder": "Her public statements emphasize human rights, anti-discrimination and civil society as essential to democracy.",
+    "diplomacia": "Presidential speeches frame international cooperation, human rights and multilateral action as central to global policy.",
+    "estrutura": "Halonen governed through Finland's unitary parliamentary system and European institutions, supporting coordinated national and multilevel governance rather than radical decentralization.",
+    "imigracao": "Her human-rights and anti-discrimination agenda supports inclusion and minority rights within regulated state institutions, but not unrestricted borders.",
+    "intervencao": "Her multilateral, human-rights-centered foreign policy and emphasis on international cooperation support restraint toward unilateral military intervention.",
+    "economia": "Her Social Democratic career and presidency fit a Nordic mixed economy with strong welfare provision rather than laissez-faire or full public ownership.",
+    "controle": "Support for social welfare, labor protections and public institutions implies substantial regulation and coordination without command planning.",
+    "comercio": "Finland's EU integration and international orientation support relatively open trade within regulated European institutions.",
+    "religiao": "Her public arguments center equality, rights and constitutional democracy rather than religious authority, supporting a secular state orientation.",
+    "tecnologia": "Her presidency operated in a highly digitalized Nordic policy environment and supported education and innovation, but no extreme technology ideology is established."
+  }
+}

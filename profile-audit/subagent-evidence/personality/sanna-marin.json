@@ -1,0 +1,27 @@
+{
+  "id": "sanna-marin",
+  "sources": [
+    {
+      "url": "https://valtioneuvosto.fi/en/governments-and-ministers/ministers/-/min/sanna-marin",
+      "institution": "Finnish Government"
+    },
+    {
+      "url": "https://www.europarl.europa.eu/cmsdata/305572/Speakers%27%20biographical%20details-.pdf",
+      "institution": "European Parliament"
+    }
+  ],
+  "evidence": {
+    "representacao": "Finnish Government records Marin's service as prime minister and earlier parliamentary and municipal roles.",
+    "moral": "European Parliament biographical material describes reforms on social justice and equality during her government.",
+    "diplomacia": "Her premiership included Finland's response to Russia's full-scale invasion of Ukraine and the country's NATO accession; these events require policy-specific review rather than an inferred general militarism score.",
+    "economia": "Her government operated within Finland's social-democratic welfare-state framework, but a precise market/planning placement requires direct fiscal and economic-policy evidence.",
+    "estrutura": "Marin governed Finland's unitary parliamentary system and worked through EU institutions; this supports coordinated national and supranational governance rather than radical decentralization.",
+    "poder": "Her government emphasized rule of law and social protections while also using emergency public-health powers during COVID-19; this supports rights-constrained but capable state authority.",
+    "imigracao": "Her political record is generally supportive of European mobility, refugee protection and inclusion, but not unrestricted borders; use a relatively open regulated placement.",
+    "intervencao": "Her government supported Ukraine after Russia's invasion and pursued NATO accession, showing willingness to use alliances and security assistance while remaining multilateral rather than unilateral.",
+    "controle": "Her social-democratic government supported welfare provision, labor protections and public investment without command planning.",
+    "comercio": "Finland under Marin remained deeply integrated in EU and global trade while supporting strategic resilience; use open but regulated trade.",
+    "religiao": "Her public politics are secular and rights-based rather than religiously grounded.",
+    "tecnologia": "Her government emphasized digitalization, education, green transition and innovation, supporting a pragmatic pro-technology orientation."
+  }
+}

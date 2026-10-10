@@ -60,19 +60,31 @@ public class DimensionMatcherService {
      *                  nada ao leitor.
      */
     public List<DimensionMatch> findAll(List<AxisResult> axisResults, String lang, String excludeId) {
+        return findAll(axisResults, lang, excludeId, PersonalityMatcherService.REPRESENTATION_MALE);
+    }
+
+    public List<DimensionMatch> findAll(
+            List<AxisResult> axisResults,
+            String lang,
+            String excludeId,
+            String representation) {
         List<DimensionMatch> matches = new ArrayList<>();
         Set<String> excludedIds = new LinkedHashSet<>();
         if (excludeId != null) {
             excludedIds.add(excludeId);
         }
-        addIfPresent(matches, excludedIds, POLITICAL, POLITICAL_AXES, axisResults, lang);
-        addIfPresent(matches, excludedIds, SOCIAL, SOCIAL_AXES, axisResults, lang);
-        addIfPresent(matches, excludedIds, ECONOMIC, ECONOMIC_AXES, axisResults, lang);
+        addIfPresent(matches, excludedIds, POLITICAL, POLITICAL_AXES, axisResults, lang, representation);
+        addIfPresent(matches, excludedIds, SOCIAL, SOCIAL_AXES, axisResults, lang, representation);
+        addIfPresent(matches, excludedIds, ECONOMIC, ECONOMIC_AXES, axisResults, lang, representation);
         return List.copyOf(matches);
     }
 
     public List<DimensionMatch> findAll(List<AxisResult> axisResults, String lang) {
         return findAll(axisResults, lang, null);
+    }
+
+    public List<DimensionMatch> findAllMixed(List<AxisResult> axisResults, String lang, String excludeId) {
+        return findAll(axisResults, lang, excludeId, null);
     }
 
     private void addIfPresent(
@@ -81,8 +93,9 @@ public class DimensionMatcherService {
             String dimension,
             List<String> axisIds,
             List<AxisResult> axisResults,
-            String lang) {
-        PersonalityMatch match = findBestFor(axisIds, axisResults, lang, excludedIds);
+            String lang,
+            String representation) {
+        PersonalityMatch match = findBestFor(axisIds, axisResults, lang, excludedIds, representation);
         if (match != null) {
             matches.add(new DimensionMatch(dimension, match));
             excludedIds.add(match.personalityId());
@@ -93,10 +106,14 @@ public class DimensionMatcherService {
             List<String> axisIds,
             List<AxisResult> axisResults,
             String lang,
-            Set<String> excludedIds) {
+            Set<String> excludedIds,
+            String representation) {
         Map<String, Double> userVector = profileMatchScorer.userVectorFor(axisResults);
+        String normalizedRepresentation = normalizeRepresentation(representation);
         List<Personality> personalities = dataService.getPersonalities(QuizDataService.normalizeLang(lang)).stream()
                 .filter(personality -> !excludedIds.contains(personality.id()))
+                .filter(personality -> normalizedRepresentation == null
+                        || normalizedRepresentation.equals(PersonalityMatcherService.representationOf(personality)))
                 .toList();
         if (personalities.isEmpty()) {
             return null;
@@ -126,6 +143,7 @@ public class DimensionMatcherService {
                 personality.name(),
                 personality.role(),
                 personality.category(),
+                PersonalityMatcherService.representationOf(personality),
                 personality.lifespan(),
                 personality.description(),
                 personality.imagePath(),
@@ -135,6 +153,16 @@ public class DimensionMatcherService {
                 round1(scored.score()),
                 percentile,
                 targetVectorFor(personality));
+    }
+
+    private String normalizeRepresentation(String representation) {
+        if (representation == null || representation.isBlank()) {
+            return null;
+        }
+        return switch (representation.trim().toLowerCase()) {
+            case PersonalityMatcherService.REPRESENTATION_FEMALE -> PersonalityMatcherService.REPRESENTATION_FEMALE;
+            default -> PersonalityMatcherService.REPRESENTATION_MALE;
+        };
     }
 
     private Map<String, Double> targetVectorFor(Personality personality) {

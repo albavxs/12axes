@@ -1,0 +1,35 @@
+{
+  "id": "harriet-tubman",
+  "sources": [
+    {
+      "url": "https://www.nps.gov/people/harriet-tubman.htm",
+      "institution": "National Park Service"
+    },
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/harriet-tubman",
+      "institution": "National Women’s History Museum"
+    },
+    {
+      "url": "https://www.nps.gov/articles/000/harriet-tubman-s-boston.htm",
+      "institution": "U.S. National Park Service"
+    },
+    {
+      "url": "https://www.nps.gov/hart/faqs.htm",
+      "institution": "U.S. National Park Service"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Tubman relied on decentralized clandestine networks to escape slavery while later cooperating with Union military institutions; this supports local self-organization without an anti-state constitutional doctrine.",
+    "representacao": "Her abolitionism and later women’s-suffrage advocacy strongly support equal citizenship and broader democratic inclusion.",
+    "poder": "Escape from slavery and repeated resistance to state-backed bondage place her strongly against coercive domination and arbitrary deprivation of liberty.",
+    "imigracao": "Her work centered freedom from slavery rather than immigration law; the universal claim to freedom supports an inclusive rather than exclusionary tendency.",
+    "diplomacia": "Tubman aided the Union during the Civil War and participated in military operations, so she should not be portrayed as a categorical pacifist despite her humanitarian aims.",
+    "intervencao": "Her use of organized force was directed at emancipation from slavery inside a civil war, not a general doctrine of foreign intervention; keep this axis moderate and distinguish liberation from expansionism.",
+    "economia": "Abolition rejected ownership of people, but it does not by itself define public versus private ownership of the broader economy; moderate reformist placement is appropriate.",
+    "controle": "No comprehensive planning-versus-market program is documented; keep moderate.",
+    "comercio": "No trade-policy doctrine is documented.",
+    "religiao": "Christian faith was central to Tubman’s self-understanding and activism, making her personally religious without evidence for theocratic government.",
+    "moral": "Abolition and women’s suffrage strongly challenge racial and gender hierarchy and support egalitarian social values.",
+    "tecnologia": "Technology was not a defining political issue; moderate."
+  }
+}

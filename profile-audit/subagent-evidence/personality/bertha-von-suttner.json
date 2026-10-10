@@ -1,0 +1,31 @@
+{
+  "id": "bertha-von-suttner",
+  "sources": [
+    {
+      "url": "https://www.nobelprize.org/prizes/peace/1905/suttner/facts/",
+      "institution": "Nobel Prize Outreach"
+    },
+    {
+      "url": "https://www.nobelprize.org/prizes/themes/heroines-of-peace-the-nine-nobel-women/",
+      "institution": "Nobel Prize Outreach"
+    },
+    {
+      "url": "https://www.nobelprize.org/nobel_prizes/peace/laureates/1905/suttner-bio.html",
+      "institution": "Nobel Prize Outreach"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Von Suttner favored international institutions, arbitration and European cooperation but did not develop a domestic federalism doctrine. A moderate structural score is appropriate.",
+    "representacao": "Her peace activism relied on civil society, congresses, public persuasion and international associations, indicating support for accountable public politics rather than autocracy.",
+    "poder": "Her critique of militarism and state violence weighs against coercive state power, though she was not an anarchist or theorist of minimal government.",
+    "imigracao": "The reviewed Nobel material does not establish views on immigration or cultural assimilation. Keep this axis moderate.",
+    "diplomacia": "International arbitration, peace congresses, conciliation and opposition to arms races were central to her life's work. This is very strong evidence for the diplomatic/pacifist pole.",
+    "intervencao": "Her anti-militarism and support for arbitration strongly oppose aggressive intervention and war as instruments of national policy.",
+    "economia": "Her work focused peace, nationalism and social progress rather than a comprehensive economic ownership system. Keep economic ownership near center.",
+    "controle": "No clear planning-versus-market program is established. Use a moderate score.",
+    "comercio": "Her internationalist outlook is compatible with cross-border cooperation, but the selected sources do not establish a trade doctrine. Avoid a strong free-trade inference.",
+    "religiao": "Her peace activism was framed in secular internationalist and humanitarian terms rather than religious government. This supports a secular public orientation.",
+    "moral": "She challenged militarist aristocratic norms and became a prominent woman public intellectual, supporting reformist/progressive social values without a broad modern cultural program.",
+    "tecnologia": "She warned about using rapidly developing aviation as a military instrument and treated technological change critically when it enabled war. This supports cautious rather than accelerationist technology politics."
+  }
+}

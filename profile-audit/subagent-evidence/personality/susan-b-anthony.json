@@ -1,0 +1,31 @@
+{
+  "id": "susan-b-anthony",
+  "sources": [
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/susan-b-anthony",
+      "institution": "National Women’s History Museum"
+    },
+    {
+      "url": "https://susanb.org/her-story/biography/",
+      "institution": "National Susan B. Anthony Museum & House"
+    },
+    {
+      "url": "https://www.loc.gov/collections/susan-b-anthony-papers/about-this-collection/",
+      "institution": "Library of Congress"
+    }
+  ],
+  "evidence": {
+    "representacao": "Women’s suffrage organizing is direct evidence for expanding electoral representation and citizenship.",
+    "moral": "Her reform work challenged gender hierarchy; historical positions outside suffrage require source-specific review.",
+    "estrutura": "Her support for a federal suffrage amendment is an issue-specific preference for national constitutional action, not enough by itself to define a broad federal/unitary score.",
+    "religiao": "Quaker/reform networks may be relevant background but should not drive religious-axis scoring without direct political evidence.",
+    "economia": "Labor and property-rights concerns appear in suffrage-era reform; map economic axes only after evidence review.",
+    "poder": "Anthony's arrest for voting and her civil-rights activism support opposition to legal exclusion and arbitrary restrictions on equal citizenship.",
+    "imigracao": "Her record in Reconstruction-era suffrage debates is mixed and at times used nativist or racially exclusionary rhetoric; avoid mapping her automatically to multicultural openness.",
+    "diplomacia": "Her public work centered abolition, suffrage and domestic reform rather than foreign policy; keep moderate.",
+    "intervencao": "No developed military-intervention doctrine is established.",
+    "controle": "Her equal-pay and property-rights advocacy favored legal reform within a market society rather than centralized planning.",
+    "comercio": "No reliable tariff or trade doctrine is established.",
+    "tecnologia": "No distinctive technology doctrine is established."
+  }
+}

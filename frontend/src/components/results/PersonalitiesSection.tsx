@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { t } from '../../i18n';
-import type { Axis, AxisResult, DimensionMatch, PersonalityMatch } from '../../types/quiz';
+import type { Axis, AxisResult, DimensionMatch, PersonalityMatch, PersonalityRepresentationMode } from '../../types/quiz';
 import { personalityInitials, resolvePersonalityImageSrc } from '../../utils/personalityImage';
 import { SafeImg } from '../editorial/primitives';
 import { Closeness } from './Closeness';
 import { InfoSheet } from './InfoSheet';
-import { DimList, FarList, MatchHero } from './parts';
+import { DimList, FarList, MatchHero, Tabs } from './parts';
 
 interface PersonalitiesSectionProps {
   axes: Axis[];
@@ -13,6 +13,10 @@ interface PersonalitiesSectionProps {
   top: PersonalityMatch;
   dimensions: DimensionMatch[];
   distant: PersonalityMatch[];
+  representationMode: PersonalityRepresentationMode;
+  representationModes: PersonalityRepresentationMode[];
+  disabledRepresentationModes: PersonalityRepresentationMode[];
+  onRepresentationModeChange: (mode: PersonalityRepresentationMode) => void;
 }
 
 export function Portrait({ match, className }: { match: PersonalityMatch; className: string }) {
@@ -26,12 +30,35 @@ export function Portrait({ match, className }: { match: PersonalityMatch; classN
   );
 }
 
-export function PersonalitiesSection({ top, dimensions, distant, axes, results }: PersonalitiesSectionProps) {
+export function PersonalitiesSection({
+  top,
+  dimensions,
+  distant,
+  axes,
+  results,
+  representationMode,
+  representationModes,
+  disabledRepresentationModes,
+  onRepresentationModeChange
+}: PersonalitiesSectionProps) {
   const [info, setInfo] = useState<PersonalityMatch | null>(null);
 
   return (
     <section className="e-panel" id="personalidades" data-reveal>
       <h2>{t.personalitiesSectionTitle}</h2>
+
+      {representationModes.length > 1 && (
+        <Tabs
+          label={t.personalityRepresentationTabsAria}
+          value={representationMode}
+          onChange={onRepresentationModeChange}
+          options={representationModes.map((mode) => ({
+            value: mode,
+            label: t.personalityRepresentationLabels[mode],
+            disabled: disabledRepresentationModes.includes(mode)
+          }))}
+        />
+      )}
 
       <MatchHero
         visual={<Portrait match={top} className="e-portrait" />}

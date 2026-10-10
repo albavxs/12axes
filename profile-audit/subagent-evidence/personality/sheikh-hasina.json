@@ -1,0 +1,27 @@
+{
+  "id": "sheikh-hasina",
+  "sources": [
+    {
+      "url": "https://www.un.org/sg/en/content/sg/statements/2024-08-05/statement-attributable-the-spokesperson-for-the-secretary-general-bangladesh",
+      "institution": "United Nations"
+    },
+    {
+      "url": "https://www.ohchr.org/sites/default/files/2024-08/OHCHR-Preliminary-Analysis-of-Recent-Protests-and-Unrest-in-Bangladesh-16082024_2.pdf",
+      "institution": "Office of the UN High Commissioner for Human Rights"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Hasina governed Bangladesh's highly centralized unitary state for long periods and concentrated authority in national executive institutions. This supports a strongly centralized structural placement.",
+    "representacao": "Her Awami League won repeated elections and she came to power electorally, but opposition restrictions, disputed contests and the 2024 collapse amid mass protests substantially weaken a maximal democratic score.",
+    "poder": "OHCHR documented serious allegations of excessive force, arbitrary detention, disappearances, torture and restrictions on expression and assembly during the final period of her government. This strongly supports a high-authority/coercive-power placement.",
+    "imigracao": "Her government hosted large numbers of Rohingya refugees while also seeking repatriation and maintaining border controls. This supports humanitarian accommodation combined with controlled borders.",
+    "diplomacia": "Her governments pursued active relations with India, China, the United States, the UN and regional partners, reflecting pragmatic multi-vector diplomacy.",
+    "intervencao": "Bangladesh under Hasina emphasized sovereignty and conventional defense rather than expansionist foreign intervention. Use a moderate sovereignty-oriented placement.",
+    "economia": "Her governments pursued export-led growth, infrastructure, private-sector development and large public projects. This supports a market-developmental mixed economy.",
+    "controle": "Strong state planning, infrastructure direction and industrial policy coexisted with private enterprise, supporting above-moderate economic coordination.",
+    "comercio": "Bangladesh's export-oriented growth model and integration into global garment markets support relatively open trade, though with developmental-state management.",
+    "religiao": "The Awami League is historically more secular than Islamist rivals, but Hasina governed in a Muslim-majority constitutional order with political accommodation of religious constituencies. Use a secular-leaning but not strongly anti-religious placement.",
+    "moral": "Her record includes women's participation and social-development gains alongside conservative compromises and rights controversies. Use a mixed-to-moderately progressive social placement.",
+    "tecnologia": "Digital Bangladesh, infrastructure modernization and state-led technological development strongly support a pro-technology orientation, while shutdowns and surveillance concerns temper a libertarian digital-rights reading."
+  }
+}

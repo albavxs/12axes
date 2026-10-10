@@ -110,6 +110,7 @@ export interface PersonalityMatch {
   name: string;
   role: string;
   category: PersonalityCategory;
+  representation?: 'male' | 'female';
   lifespan: string;
   description: string;
   imagePath: string;
@@ -129,6 +130,10 @@ export interface BookRecommendation {
   /** Ano da primeira publicação; negativo = a.C. */
   year?: number;
   url: string;
+  /** Autor real da obra. Em biografias, é diferente da personalidade associada. */
+  author?: string;
+  /** "author" para obra da personalidade; "biography" para obra sobre ela. */
+  associationType?: 'author' | 'biography';
   compatibility: number;
 }
 
@@ -155,6 +160,7 @@ export interface AxisTension {
 }
 
 export type ProfileDimension = 'political' | 'social' | 'economic';
+export type PersonalityRepresentationMode = 'male' | 'mixed' | 'female';
 
 export interface DimensionMatch {
   dimension: ProfileDimension;
@@ -181,12 +187,26 @@ export interface QuizResult {
   dimensionMatches: DimensionMatch[];
   categoryBestMatches: PersonalityMatch[];
   bottomPersonalityMatches: PersonalityMatch[];
+  topFemalePersonalityMatch: PersonalityMatch | null;
+  femalePersonalityMatches: PersonalityMatch[];
+  femaleDimensionMatches: DimensionMatch[];
+  femaleCategoryBestMatches: PersonalityMatch[];
+  bottomFemalePersonalityMatches: PersonalityMatch[];
+  topMixedPersonalityMatch: PersonalityMatch | null;
+  mixedPersonalityMatches: PersonalityMatch[];
+  mixedDimensionMatches: DimensionMatch[];
+  mixedCategoryBestMatches: PersonalityMatch[];
+  bottomMixedPersonalityMatches: PersonalityMatch[];
   mostUnusualAxis: AxisOutlier;
   mostCommonAxis: AxisOutlier;
   // null quando o perfil nao contraria padrao nenhum (centristas e moderados).
   axisTension: AxisTension | null;
   /** Até 3 livros das personalidades mais compatíveis, com link de afiliado pronto. */
   bookRecommendations?: BookRecommendation[];
+  /** Livros do ranking feminino para o mesmo resultado ideológico. */
+  femaleBookRecommendations?: BookRecommendation[];
+  /** Livros do ranking global, sem filtro de representação. */
+  mixedBookRecommendations?: BookRecommendation[];
 }
 
 export interface Candidate {

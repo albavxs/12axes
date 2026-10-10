@@ -112,7 +112,7 @@ export function FarList({ title, items }: { title: string; items: FarItem[] }) {
 interface TabsProps<T extends string> {
   label: string;
   value: T;
-  options: { value: T; label: string }[];
+  options: { value: T; label: string; disabled?: boolean }[];
   onChange: (value: T) => void;
 }
 
@@ -126,6 +126,8 @@ export function Tabs<T extends string>({ label, value, options, onChange }: Tabs
           role="tab"
           aria-selected={value === option.value}
           onClick={() => onChange(option.value)}
+          disabled={option.disabled}
+          aria-disabled={option.disabled || undefined}
         >
           {option.label}
         </button>

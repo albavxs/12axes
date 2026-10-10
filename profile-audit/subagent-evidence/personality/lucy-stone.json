@@ -1,0 +1,27 @@
+{
+  "id": "lucy-stone",
+  "sources": [
+    {
+      "url": "https://www.nps.gov/people/lucy-stone.htm",
+      "institution": "National Park Service"
+    },
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/lucy-stone",
+      "institution": "National Women's History Museum"
+    }
+  ],
+  "evidence": {
+    "representacao": "Sources document Stone's sustained advocacy for woman suffrage and women's political rights.",
+    "poder": "Her abolitionist and equal-rights activism challenged legal exclusions based on race and sex; this is civil-rights evidence, not a complete civil-liberty/order profile.",
+    "moral": "Her public advocacy for women's legal and social equality is directly relevant to the project's traditionalist-progressive axis.",
+    "economia": "Property, taxation and employment questions appear in the broader women's-rights context, but a general market/planning position requires additional issue-specific evidence.",
+    "estrutura": "Stone pursued abolition and women's rights through national and state constitutional change, but did not articulate a distinct territorial centralization doctrine; keep structural placement moderate.",
+    "imigracao": "Her abolitionist equal-rights politics support legal equality across race and sex, but the reviewed sources do not establish a specific immigration or assimilation program.",
+    "diplomacia": "Her record is centered on domestic abolition and suffrage rather than foreign policy; keep diplomacy moderate.",
+    "intervencao": "No developed military-intervention doctrine is established in the reviewed sources.",
+    "controle": "Property and employment equality for women imply legal reform of market institutions, not centralized economic planning.",
+    "comercio": "No reliable tariff or trade doctrine is established.",
+    "religiao": "Stone's reformism emerged partly from liberal Protestant and abolitionist networks, but her public agenda was civic equality rather than religious government.",
+    "tecnologia": "No distinctive technology doctrine is established."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "eva-peron",
+  "sources": [
+    {
+      "url": "https://www.argentina.gob.ar/secretariageneral/museo-casa-rosada/reforma-de-1949-y-ley-de-sufragio-femenino",
+      "institution": "Government of Argentina / Museo Casa Rosada"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/noticias/70-anos-del-fallecimiento-de-eva-duarte-de-peron",
+      "institution": "Government of Argentina"
+    },
+    {
+      "url": "https://www.argentina.gob.ar/node/374261",
+      "institution": "Government of Argentina"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Eva Perón operated inside a Peronist system that the Argentine government's historical account describes as increasingly centralizing political power. Her own role was national and movement-centered rather than federalist.",
+    "representacao": "She was a leading force behind women's suffrage and formal incorporation of women into electoral politics, strongly supporting expansion of representation. This coexisted with Peronist efforts to consolidate political hegemony, so the democratic evidence is mixed rather than purely liberal.",
+    "poder": "Her politics were closely tied to a strong executive-centered Peronist state and mass mobilization. The evidence therefore supports greater acceptance of concentrated state power than liberal-institutional profiles, despite her expansion of women's political rights.",
+    "imigracao": "The reviewed government sources focus on labor, welfare and women's citizenship, not immigration policy. Avoid a strong placement without additional evidence.",
+    "diplomacia": "Eva Perón was not the principal architect of Argentine foreign policy. The reviewed evidence is insufficient for a strong diplomatic or militarist score.",
+    "intervencao": "There is insufficient direct evidence in the reviewed sources on military intervention or non-intervention. Keep this axis moderate pending specific foreign-policy material.",
+    "economia": "Her public role centered labor rights, social welfare and redistribution through the Eva Perón Foundation, within Peronism's state-active economic model. This supports a more collectivist/state-social orientation than laissez-faire economics.",
+    "controle": "The Peronist context and her welfare/labor activism support a substantial coordinating role for the state and organized labor, though not full command planning.",
+    "comercio": "The reviewed sources do not provide direct evidence on trade protection or openness. Peronism's broader economic nationalism may be relevant, but a strong score should not be inferred from movement identity alone.",
+    "religiao": "Eva's public politics existed in a culturally Catholic country and within Peronism, but the reviewed evidence centers social rights and political mobilization rather than clerical rule. A strongly theocratic placement is not supported.",
+    "moral": "Her advocacy of women's suffrage, shared parental authority and women's political organization strongly supports progressive gender reforms, despite otherwise traditional elements in Peronist social culture.",
+    "tecnologia": "The reviewed sources emphasize hospitals, schools, housing, welfare and mass organization rather than a distinctive technology doctrine. Use a pragmatic/moderate placement."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "gloria-steinem",
+  "sources": [
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/gloria-steinem",
+      "institution": "National Women’s History Museum"
+    },
+    {
+      "url": "https://www.britannica.com/biography/Gloria-Steinem",
+      "institution": "Encyclopaedia Britannica"
+    },
+    {
+      "url": "https://americanhistory.si.edu/explore/exhibitions/american-enterprise/online/global-era/biographies-1980s%E2%80%932010s",
+      "institution": "Smithsonian National Museum of American History"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Steinem’s movement politics emphasize grassroots organizations, networks and social movements rather than centralized executive power; modest decentralist tendency.",
+    "representacao": "Women’s political organizing, caucuses and public advocacy strongly support democratic participation and equal representation.",
+    "poder": "Reproductive autonomy, opposition to gender violence and civil-rights activism strongly favor personal liberty over coercive moral regulation.",
+    "imigracao": "Her intersectional feminism and solidarity politics support multicultural inclusion and opposition to exclusionary identity politics.",
+    "diplomacia": "Her activism has generally favored human rights, nonviolence and international feminist solidarity over militarism.",
+    "intervencao": "Anti-war and anti-imperialist currents in her activism support restraint and skepticism toward coercive intervention.",
+    "economia": "Workplace equality and feminist economic critique support center-left redistribution/regulation rather than either laissez-faire or state ownership.",
+    "controle": "Supports regulation and social protections while operating within civil-society liberal politics; moderate control.",
+    "comercio": "No distinctive tariff doctrine; internationalist social movements suggest moderate openness with labor/human-rights concerns.",
+    "religiao": "Her public feminism is strongly secular and critical of patriarchal religious authority, though not simply anti-religious.",
+    "moral": "Reproductive rights, gender equality and LGBTQ-inclusive feminism make her strongly socially progressive.",
+    "tecnologia": "Technology is not central; moderately positive toward modern communications and social change."
+  }
+}

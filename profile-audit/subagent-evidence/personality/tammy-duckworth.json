@@ -1,0 +1,27 @@
+{
+  "id": "tammy-duckworth",
+  "sources": [
+    {
+      "url": "https://www.duckworth.senate.gov/about-tammy/biography",
+      "institution": "Office of U.S. Senator Tammy Duckworth"
+    },
+    {
+      "url": "https://www.duckworth.senate.gov/about-tammy/issues/veterans",
+      "institution": "Office of U.S. Senator Tammy Duckworth"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Duckworth works through federal institutions while representing state and local interests. Her legislative record supports ordinary U.S. federalism with meaningful national programs rather than either radical decentralization or unitary centralization.",
+    "representacao": "She is an elected House member and senator and publicly frames policy through democratic legislation, equal access and representation. This strongly supports representative democracy.",
+    "poder": "Her veterans and disability work emphasizes rights, access and public accountability, but her military background and national-security roles support conventional security institutions. This suggests a moderate balance rather than either authoritarianism or libertarian minimalism.",
+    "imigracao": "As a Thai-born American senator and advocate for inclusive citizenship and military families, her public profile is broadly pluralist; however the reviewed official biography does not establish a complete border-policy doctrine. Use moderate inclusion.",
+    "diplomacia": "Duckworth serves on Foreign Relations and supports strengthening U.S. relations with Indo-Pacific partners. This supports active alliance diplomacy combined with credible military capability.",
+    "intervencao": "As an Iraq War veteran and Armed Services member she accepts military force as a legitimate state instrument, but her record emphasizes alliances and security commitments rather than unilateral expansion. Use moderate interventionism.",
+    "economia": "Her agenda for working families, veterans' benefits, health care and employment supports a mixed economy with substantial public social provision.",
+    "controle": "She supports regulation and public programs in health, accessibility, transport and veterans affairs while operating within a market economy. This implies moderate state coordination.",
+    "comercio": "Her Commerce Committee role and support for international investment indicate engagement with open economic relations, but the reviewed biography does not establish an extreme free-trade doctrine. Use moderate openness.",
+    "religiao": "Her official political agenda is secular and constitutional; no evidence supports religious government.",
+    "moral": "Reproductive freedom, IVF access, disability rights, family-friendly policy and women's equality support socially liberal and egalitarian positions.",
+    "tecnologia": "Her Commerce, Science & Transportation work and modernization of veterans communication support pragmatic adoption of technology, constrained by accessibility and public-safety concerns."
+  }
+}

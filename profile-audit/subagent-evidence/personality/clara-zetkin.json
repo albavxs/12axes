@@ -1,0 +1,27 @@
+{
+  "id": "clara-zetkin",
+  "sources": [
+    {
+      "url": "https://www.bundesstiftung-aufarbeitung.de/de/recherche/kataloge-datenbanken/biographische-datenbanken/clara-zetkin",
+      "institution": "Bundesstiftung zur Aufarbeitung der SED-Diktatur"
+    },
+    {
+      "url": "https://clara-zetkin-stiftung.de/biografie/",
+      "institution": "Clara-Zetkin-Stiftung"
+    }
+  ],
+  "evidence": {
+    "representacao": "Biographical sources document Zetkin's long work organizing women in socialist parties and her advocacy for women's political participation and suffrage.",
+    "economia": "Her political work was explicitly tied to socialism and the labour movement; sources describe her view that women's emancipation was connected to broader transformation of the economic and social order.",
+    "moral": "Her organizing focused on women's emancipation and equal political participation; this is direct evidence on gender-equality questions, while other social-policy positions require separate review.",
+    "diplomacia": "Her break with the SPD's wartime line and later anti-war activity are historically relevant, but a numeric diplomacy score would require issue-specific editorial review.",
+    "estrutura": "Zetkin worked in centralized socialist parties but stressed mass organization of workers and women rather than a personal doctrine of territorial federalism. Evidence supports organized collective institutions without a clear constitutional centralization extreme.",
+    "poder": "Her opposition to repression, anti-war activism and advocacy of working-class political organization cut against unrestricted coercive rule, while revolutionary socialism accepted strong collective political action. This supports a mixed but anti-dictatorial reading.",
+    "imigracao": "Her internationalist socialism emphasized class solidarity across national boundaries. There is no modern immigration program in the reviewed sources; this supports universalist rather than nationalist cultural politics with historical caution.",
+    "intervencao": "Her anti-war break with the SPD and opposition to World War I strongly support resistance to imperialist military intervention and nationalist war.",
+    "controle": "Her socialist politics favored collective control over production and socialized economic organization, supporting strong public or collective coordination rather than laissez-faire markets.",
+    "comercio": "The reviewed evidence does not establish a standalone tariff doctrine. Her internationalist socialism rejects nationalist economic chauvinism but also rejects liberal capitalism, so avoid treating her as either a classic free-trader or protectionist.",
+    "religiao": "Her Marxist political framework was secular and materialist, and her public program was not grounded in religious authority. This supports a secular state orientation.",
+    "tecnologia": "She treated industrial modernity as part of the material basis of class politics but left no distinctive technology ideology in the reviewed evidence. Use a moderate modernist placement."
+  }
+}

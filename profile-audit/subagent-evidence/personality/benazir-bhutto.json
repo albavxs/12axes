@@ -1,0 +1,31 @@
+{
+  "id": "benazir-bhutto",
+  "sources": [
+    {
+      "url": "https://jpis.pu.edu.pk/45/article/view/78",
+      "institution": "University of the Punjab"
+    },
+    {
+      "url": "https://journals.iub.edu.pk/index.php/sjps/article/view/4701",
+      "institution": "The Islamia University of Bahawalpur"
+    },
+    {
+      "url": "https://www.tandfonline.com/doi/full/10.1080/02684527.2021.1877418",
+      "institution": "Taylor & Francis / Intelligence and National Security"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Bhutto worked through Pakistan's federal parliamentary institutions and coalition politics rather than advocating abolition of provincial structures. The reviewed material does not establish a distinctive centralization doctrine beyond operating within the federal state.",
+    "representacao": "Her career centered on resistance to military dictatorship, electoral legitimacy, parliamentary opposition and restoration of civilian government. This is strong evidence for democratic representation despite the dynastic structure of her party.",
+    "poder": "She opposed military rule and emphasized civilian constitutional authority, but as prime minister governed in a security-heavy environment and negotiated with entrenched state institutions. Evidence supports civilian checks on coercive power more strongly than libertarian minimal-state politics.",
+    "imigracao": "The reviewed sources do not establish a clear program on immigration or multicultural border policy. Avoid deriving a strong score from party identity or Pakistan's regional politics alone.",
+    "diplomacia": "Studies of her foreign policy show active parliamentary engagement on Kashmir, Afghanistan, the United States and regional relations; she also pursued international diplomacy as prime minister. This supports an engaged diplomatic posture rather than isolation.",
+    "intervencao": "Bhutto favored active foreign policy and defense of Pakistan's strategic interests, including the nuclear program, while operating through diplomatic and state channels. The evidence does not support pacifist non-interventionism, but neither does it justify a strongly expansionist placement.",
+    "economia": "Her politics moved away from the PPP's earlier socialist model toward privatization, deregulation, foreign investment and market reform, while retaining public development programs. This supports a mixed but noticeably market-oriented economic position.",
+    "controle": "She accepted state development initiatives and social programs but also embraced deregulation and privatization. Evidence supports moderate economic regulation rather than comprehensive planning.",
+    "comercio": "Her second-term orientation toward investment, privatization and economic liberalization implies greater openness to international capital and markets. Direct evidence on tariff doctrine is limited, so avoid an extreme free-trade score.",
+    "religiao": "Bhutto operated within an Islamic republic but was associated with a more secular/civilian political current and women's participation in public life. The evidence supports resistance to theocratic political exclusion, though not rejection of Islam's public role.",
+    "moral": "Her governments and political program included measures for women's development and greater female participation, placing her on the more socially reformist side in Pakistan's context. Evidence is strongest on gender equality rather than every cultural-policy question.",
+    "tecnologia": "Her administrations prioritized power generation and development and defended Pakistan's strategic nuclear capability. This shows willingness to use modern technology for development and state capacity, but not a detailed ideology of technological acceleration."
+  }
+}

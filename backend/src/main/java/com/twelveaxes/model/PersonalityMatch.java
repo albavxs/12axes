@@ -7,6 +7,7 @@ public record PersonalityMatch(
         String name,
         String role,
         String category,
+        String representation,
         String lifespan,
         String description,
         String imagePath,

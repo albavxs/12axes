@@ -1,0 +1,27 @@
+{
+  "id": "bartolina-sisa",
+  "sources": [
+    {
+      "url": "https://mujer.sea.gob.bo/src/personajeResultado.php?variable=4",
+      "institution": "Servicio Estatal de Autonomías, Bolivia"
+    },
+    {
+      "url": "https://sea.gob.bo/mujeres-y-democracia/participacion_politica/index.html",
+      "institution": "Servicio Estatal de Autonomías, Bolivia"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Sisa's struggle emerged from Indigenous communities resisting Spanish colonial rule. This supports local/communal autonomy against imperial central authority, while modern federalism categories remain anachronistic.",
+    "representacao": "Her leadership in Indigenous resistance demonstrates political agency from communities excluded by the colonial order. It supports popular self-rule, though modern electoral representation did not exist in her context.",
+    "poder": "Colonial repression and her leadership in armed resistance strongly situate her against imposed coercive rule. Her own use of armed struggle prevents equating this with modern pacifist civil libertarianism.",
+    "imigracao": "The conflict was colonial rather than an immigration-policy debate. Defense of Indigenous society against settler-colonial domination suggests strong cultural self-determination, but modern migration questions should remain cautious.",
+    "diplomacia": "Her leadership was part of armed anti-colonial revolt rather than interstate diplomacy. This supports willingness to use force under occupation rather than pacifism.",
+    "intervencao": "Resistance to Spanish imperial rule is direct evidence for opposition to foreign domination and strong national/communal self-determination.",
+    "economia": "The uprising challenged colonial extraction and hierarchy affecting Indigenous communities. This supports opposition to extractive elite control, though no modern ownership system can be confidently assigned.",
+    "controle": "The sources do not establish a modern planning-versus-market doctrine. Keep this axis moderate.",
+    "comercio": "The colonial context involved extractive trade structures, but the sources do not establish Sisa's own tariff or trade program. Avoid a strong modern trade score.",
+    "religiao": "Her struggle was Indigenous and anti-colonial, but selected sources do not establish a specific clerical-versus-secular state program. Keep moderate.",
+    "moral": "Her status as an Indigenous woman military-political leader challenged colonial and gender hierarchies, but modern cultural-policy categories are only partially applicable.",
+    "tecnologia": "No meaningful technology-policy evidence exists for this eighteenth-century profile. Keep near center and treat modern questions cautiously."
+  }
+}

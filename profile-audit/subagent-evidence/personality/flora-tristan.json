@@ -1,0 +1,27 @@
+{
+  "id": "flora-tristan",
+  "sources": [
+    {
+      "url": "https://catalogue.bnf.fr/ark%3A/12148/cb11927116m.public",
+      "institution": "Bibliothèque nationale de France"
+    },
+    {
+      "url": "https://www.bnf.fr/fr/mediatheque/flora-tristan",
+      "institution": "Bibliothèque nationale de France"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Tristan proposed a universal Workers' Union linking workers across trades and places into a common organization. This supports organized collective coordination rather than anarchic fragmentation, while still relying on workers' self-organization.",
+    "representacao": "She sought political and social voice for workers and women, supporting broader participation and democratic inclusion.",
+    "poder": "Her rights advocacy challenged legal and social subordination, favoring liberty from coercive hierarchy.",
+    "imigracao": "Her Franco-Peruvian life and international worker solidarity support cross-border universalism rather than cultural exclusion.",
+    "diplomacia": "Her politics emphasized international worker solidarity and social reform rather than militarism.",
+    "intervencao": "Internationalist socialism and anti-domination principles support opposition to coercive imperial intervention.",
+    "economia": "She was an early socialist who advocated workers' organization and linked labor emancipation to women’s emancipation; strongly collectivist relative to laissez-faire.",
+    "controle": "The Workers' Union, workers' palaces, common education and organized social reform imply substantial collective coordination of social life and labor, though not a later bureaucratic command economy.",
+    "comercio": "Her international worker focus is not a protectionist-nationalist trade doctrine; keep moderate/internationalist.",
+    "religiao": "Her socialism and feminism were not simply secular materialism: accounts of her thought describe mystical and religious elements alongside social reform. This supports a more religious/spiritual placement than later Marxist socialism, without implying clerical government.",
+    "moral": "Feminist advocacy against women’s legal and social subordination strongly supports progressive gender norms.",
+    "tecnologia": "Industrial society was part of her labor analysis, but she had no distinct technology ideology; moderate modernist."
+  }
+}

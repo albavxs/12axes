@@ -1,0 +1,27 @@
+{
+  "id": "akiko-yosano",
+  "sources": [
+    {
+      "url": "https://www.ndl.go.jp/portrait/e/datas/347",
+      "institution": "National Diet Library, Japan"
+    },
+    {
+      "url": "https://www.ndl.go.jp/portrait/e/pickup/011/index.html",
+      "institution": "National Diet Library, Japan"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Yosano's public work centered literature, education and women's status rather than constitutional design. The selected sources do not establish a general preference for centralized or decentralized government.",
+    "representacao": "Her advocacy for women's education and public voice expanded women's civic agency, but the sources do not show a comprehensive electoral-democracy doctrine. A moderately participatory placement is warranted with caution.",
+    "poder": "Her individualist literary voice and criticism of social constraints on women point toward personal autonomy, but the evidence is too thin for a strong position on policing, surveillance or criminal justice.",
+    "imigracao": "The selected National Diet Library sources do not establish views on immigration, assimilation or multicultural policy. Keep this axis moderate and explicitly uncertain.",
+    "diplomacia": "Her famous Russo-Japanese War poem 'You Shall Not Die' is significant anti-war evidence and directly challenges patriotic sacrifice, supporting a less militarist orientation.",
+    "intervencao": "Her anti-war writing weighs against aggressive nationalist intervention, although one poem is not a complete foreign-policy doctrine. A restrained rather than isolationist position is best supported.",
+    "economia": "The sources emphasize literature, women's education and family/social questions rather than ownership or market systems. No strong economic-system placement is justified.",
+    "controle": "There is no direct evidence for either centralized economic planning or laissez-faire regulation. Keep near the center pending issue-specific material.",
+    "comercio": "The selected sources do not establish a trade-policy position; avoid projecting Japan's national policies onto Yosano personally.",
+    "religiao": "The available sources do not establish support for religious government or clerical authority. Her modern literary and educational activism is compatible with a secular public sphere, but not enough for an extreme score.",
+    "moral": "Her writing and educational advocacy challenged traditional constraints on women and defended women's self-expression and education. This is strong evidence for progressive gender norms.",
+    "tecnologia": "Her role in founding a modern educational institution and translating classics into modern language reflects cultural modernization, but she had no clear technology ideology. Use a moderate modernist placement."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "domitila-barrios",
+  "sources": [
+    {
+      "url": "https://www.concivil.umsa.bo/web/guest/personalidades",
+      "institution": "Universidad Mayor de San Andrés"
+    },
+    {
+      "url": "https://uwaterloo.ca/equity-diversity-inclusion-anti-racism/catalogs/educational-catalogue-resources/1977-let-me-speak-domitila-barrios-chungara",
+      "institution": "University of Waterloo"
+    },
+    {
+      "url": "https://www.si.edu/object/siris_sil_967677",
+      "institution": "Smithsonian Libraries and Archives"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Barrios organized through miners' communities, unions and housewives' committees, emphasizing worker and community organization from below rather than centralized elite rule. This supports participatory collective organization more than territorial federalism.",
+    "representacao": "She organized women and miners politically, ran for office and used testimony to demand that poor working-class communities be heard. This strongly supports mass political participation and representation of excluded groups.",
+    "poder": "Her activism confronted military dictatorships, imprisonment and massacres, strongly supporting resistance to authoritarian coercion and arbitrary state violence.",
+    "imigracao": "Her political work centered Bolivian miners and class struggle rather than immigration policy. No reliable border doctrine is established.",
+    "diplomacia": "Her participation in the 1975 International Women's Year conference and transnational testimony show international advocacy, but not a detailed state diplomacy doctrine.",
+    "intervencao": "Her struggle against military dictatorship and repression was primarily organized through strikes, testimony and mass mobilization rather than foreign military intervention. This supports anti-militarist restraint.",
+    "economia": "Her testimony explicitly analyzes class exploitation, mine workers' poverty and enrichment of owners, supporting a strongly socialist or worker-oriented economic position.",
+    "controle": "She supported unions, collective struggle and social control over economic conditions, implying substantial coordination and regulation beyond laissez-faire markets.",
+    "comercio": "Her critique targets capitalist exploitation rather than international trade as such. No clean free-trade versus protectionist doctrine is established; use a moderately anti-laissez-faire placement.",
+    "religiao": "Her political arguments were centered on class and democracy rather than religious authority. No case exists for clerical government.",
+    "moral": "Her organizing elevated working-class women as political actors and challenged both class and gender subordination, supporting progressive egalitarian social values.",
+    "tecnologia": "Her work arose in mining communities and focused on labor conditions rather than technology policy. Use a moderate position."
+  }
+}

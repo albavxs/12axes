@@ -1,7 +1,7 @@
 // Dicionário de UI PT/EN. O idioma é resolvido uma vez por carga de página
 // (?lang → localStorage → navigator) e trocar de idioma recarrega a página,
 // para que quiz e resultados sejam rebuscados já no idioma novo.
-import type { PersonalityCategory, ProfileDimension } from '../types/quiz';
+import type { PersonalityCategory, PersonalityRepresentationMode, ProfileDimension } from '../types/quiz';
 
 export type Lang = 'pt' | 'en';
 
@@ -182,12 +182,16 @@ interface Strings {
   booksTitle: string;
   booksTopLabel: string;
   booksAuthorLabel: string;
+  booksSubjectLabel: string;
+  booksBy: (author: string) => string;
   booksLead: string;
   booksWhy: (pct: number) => string;
   booksYearBc: (year: number) => string;
   booksCta: string;
   areasSectionTitle: string;
   areasTabsAria: string;
+  personalityRepresentationTabsAria: string;
+  personalityRepresentationLabels: Record<PersonalityRepresentationMode, string>;
   areasGeneralTab: string;
   areasByAreaTab: string;
   personalitiesDistantTitle: string;
@@ -589,13 +593,21 @@ const pt: Strings = {
   booksTitle: 'Para ler',
   booksTopLabel: 'Mais próxima de você',
   booksAuthorLabel: 'Autor',
-  booksLead: 'Uma obra de cada uma das personalidades mais próximas dos seus resultados.',
+  booksSubjectLabel: 'Sobre',
+  booksBy: (author) => `por ${author}`,
+  booksLead: 'Obras escritas por ou sobre as personalidades mais próximas dos seus resultados.',
   booksWhy: (pct) => `${pct}% compatível`,
   booksYearBc: (year) => `${year} a.C.`,
   booksCta: 'Ver na Amazon',
   areasGeneralTitle: 'Os mais próximos dos seus resultados',
   areasSectionTitle: 'Os mais próximos por área de atuação',
   areasTabsAria: 'Modo de exibição das personalidades',
+  personalityRepresentationTabsAria: 'Representação das personalidades',
+  personalityRepresentationLabels: {
+    male: 'Masculina',
+    mixed: 'Mista',
+    female: 'Feminina',
+  },
   areasGeneralTab: 'Compatibilidade geral',
   areasByAreaTab: 'Área de atuação',
   personalitiesDistantTitle: 'As mais distantes de você',
@@ -1054,13 +1066,21 @@ const en: Strings = {
   booksTitle: 'Further reading',
   booksTopLabel: 'Closest to you',
   booksAuthorLabel: 'Author',
-  booksLead: 'One work by each of the figures closest to your results.',
+  booksSubjectLabel: 'About',
+  booksBy: (author) => `by ${author}`,
+  booksLead: 'Works written by or about the figures closest to your results.',
   booksWhy: (pct) => `${pct}% compatible`,
   booksYearBc: (year) => `${year} BC`,
   booksCta: 'See on Amazon',
   areasGeneralTitle: 'The closest figures to your results',
   areasSectionTitle: 'The closest figures by field',
   areasTabsAria: 'How figures are grouped',
+  personalityRepresentationTabsAria: 'Personality representation',
+  personalityRepresentationLabels: {
+    male: 'Male',
+    mixed: 'Mixed',
+    female: 'Female',
+  },
   areasGeneralTab: 'Overall compatibility',
   areasByAreaTab: 'Field',
   personalitiesDistantTitle: 'Furthest from you',

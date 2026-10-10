@@ -1,0 +1,35 @@
+{
+  "id": "christabel-pankhurst",
+  "sources": [
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/overview/startsuffragette-/",
+      "institution": "UK Parliament"
+    },
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/suffrage-societies-response/the-response-of-the-wspu/",
+      "institution": "UK Parliament"
+    },
+    {
+      "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/electionsvoting/womenvote/case-studies-women-parliament/what-difference/the-vote-for-some/",
+      "institution": "UK Parliament"
+    },
+    {
+      "url": "https://www.npg.org.uk/whatson/display/2014/suffragettes-deeds-not-words/dame-christabel-pankhurst-1880-1958",
+      "institution": "National Portrait Gallery, London"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Pankhurst's suffrage program focused national voting rights and parliamentary change rather than territorial structure. No strong centralization/federalism doctrine is established.",
+    "representacao": "Her central objective was women's suffrage and eligibility for political power, strongly supporting expansion of political representation.",
+    "poder": "She supported militant civil disobedience and confrontation when ordinary channels failed, while opposing the state's exclusion of women. This produces a civil-liberties profile tempered by acceptance of militant tactics.",
+    "imigracao": "The reviewed parliamentary and biographical sources do not establish an immigration policy. Keep moderate.",
+    "diplomacia": "During World War I she and the WSPU suspended suffrage militancy and strongly supported the British war effort. This places her significantly more militarist than many other suffragists.",
+    "intervencao": "Her wartime patriotism and support for national mobilization indicate willingness to support military action for national objectives, rather than non-interventionism.",
+    "economia": "Her political identity was dominated by suffrage rather than ownership or market policy. No strong economic-system position is established.",
+    "controle": "The sources do not establish centralized planning or laissez-faire economics. Keep near center.",
+    "comercio": "No substantive trade-policy evidence is established.",
+    "religiao": "Her later life included Christian religious commitment, but her suffrage politics were not a program of clerical government. A moderately religious/traditional placement is defensible without implying theocracy.",
+    "moral": "Her fight for women's political equality strongly challenged traditional gender roles, while later social views were more conservative. Overall she remains progressive on gender but not maximally so.",
+    "tecnologia": "Technology was not a defining political issue in her career. Use a moderate score."
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "id": "indira-gandhi",
+  "sources": [
+    {
+      "url": "https://www.pmindia.gov.in/en/former_pm/smt-indira-gandhi-2/",
+      "institution": "Prime Minister of India"
+    },
+    {
+      "url": "https://www.pib.gov.in/FactsheetDetails.aspx?Id=149224&lang=2&reg=3",
+      "institution": "Press Information Bureau, Government of India"
+    },
+    {
+      "url": "https://indiragandhi.in/en/timeline/index/prime-minister-timeline",
+      "institution": "Indira Gandhi Memorial Trust"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Gandhi increasingly concentrated authority in the central government, especially during the Emergency when state authority was brought under stronger central control. This supports a strongly centralizing placement.",
+    "representacao": "She won major electoral mandates and operated within parliamentary democracy, but the 1975-77 Emergency suspended elections, jailed opposition leaders and curtailed press freedom. The record is therefore mixed, with substantial authoritarian deviation.",
+    "poder": "The Emergency involved preventive detention, censorship and overriding executive powers. This is direct evidence for a high tolerance of concentrated coercive state power during crisis.",
+    "imigracao": "The reviewed sources do not establish a distinctive immigration doctrine. Avoid deriving a strong score from nationalism or regional conflict alone.",
+    "diplomacia": "She personally held the external-affairs portfolio and led India through major international crises, including the 1971 war and non-aligned diplomacy. Evidence supports an active, state-centered foreign policy rather than isolation.",
+    "intervencao": "Her leadership during the 1971 India-Pakistan war and assertive regional strategy supports willingness to use military force for national strategic objectives, so she is not a non-interventionist profile.",
+    "economia": "Her government nationalized major banks and industries and used public ownership to pursue national priorities and redistribution. This is strong evidence for a large public-sector role.",
+    "controle": "Nationalization, planning institutions and directed credit toward agriculture and small industry support substantial state economic coordination and planning.",
+    "comercio": "Her economic model emphasized self-reliance and a large state sector more than trade liberalization. The reviewed sources support a more protectionist/managed orientation than open-market liberalism, though a precise tariff position needs trade-specific material.",
+    "religiao": "Her governing ideology was officially secular and rooted in the Indian constitutional state rather than religious law. Religious conflict was politically important, but the reviewed evidence does not support theocratic governance.",
+    "moral": "She promoted social reform and development but also presided over coercive Emergency-era policies. On the project's broad social axis, evidence is mixed; avoid equating economic leftism with cultural progressivism.",
+    "tecnologia": "She held the atomic-energy and space portfolios and promoted space research, scientific manpower and peaceful uses of atomic energy. This strongly supports a technophile/state-modernizing orientation."
+  }
+}

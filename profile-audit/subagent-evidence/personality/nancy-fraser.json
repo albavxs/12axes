@@ -1,0 +1,31 @@
+{
+  "id": "nancy-fraser",
+  "sources": [
+    {
+      "url": "https://www.newschool.edu/nssr/faculty/nancy-fraser/",
+      "institution": "The New School for Social Research"
+    },
+    {
+      "url": "https://www.britannica.com/biography/Nancy-Fraser",
+      "institution": "Encyclopaedia Britannica"
+    },
+    {
+      "url": "https://www.newschool.edu/lang/faculty/nancy-fraser/",
+      "institution": "The New School"
+    }
+  ],
+  "evidence": {
+    "economia": "Her work on capitalism, redistribution, recognition and crisis provides direct evidence for economic and social analysis, pending editorial mapping.",
+    "moral": "Recognition, feminism and justice theory are central to her work and strongly relevant to social equality.",
+    "representacao": "Democratic justice and public-sphere theory are relevant to participation, but not a simple electoral-system score.",
+    "controle": "Critiques of capitalism and neoliberalism suggest skepticism toward laissez-faire, but precise planning/market placement requires text review.",
+    "estrutura": "Fraser's democratic theory focuses on public spheres, transnational justice and institutional design rather than territorial federalism; use a moderate structural placement.",
+    "poder": "Her work critiques domination and exclusion and supports rights, democratic participation and accountability, placing her against concentrated coercive power.",
+    "imigracao": "Her transnational justice framework rejects methodological nationalism and supports inclusion across borders, though not necessarily fully open borders.",
+    "diplomacia": "Her global-justice framework favors transnational democratic institutions and cooperation rather than militarism.",
+    "intervencao": "She is not known for a militarist foreign-policy doctrine; her theory favors democratic and social solutions over coercive intervention.",
+    "comercio": "Her critique of neoliberal capitalism supports skepticism toward unrestricted global market integration, but not nationalist autarky.",
+    "religiao": "Her work is secular critical theory and does not ground political authority in religion.",
+    "tecnologia": "Her work centers capitalism, care, recognition and democracy rather than a distinct technology ideology; keep moderate."
+  }
+}

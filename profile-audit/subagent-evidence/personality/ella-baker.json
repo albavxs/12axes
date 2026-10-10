@@ -1,0 +1,31 @@
+{
+  "id": "ella-baker",
+  "sources": [
+    {
+      "url": "https://snccdigital.org/people/ella-baker/",
+      "institution": "SNCC Digital Gateway"
+    },
+    {
+      "url": "https://kinginstitute.stanford.edu/baker-ella-josephine",
+      "institution": "The Martin Luther King, Jr. Research and Education Institute, Stanford University"
+    },
+    {
+      "url": "https://home.nps.gov/articles/women-in-the-african-american-civil-rights-movement-an-historic-context.htm",
+      "institution": "U.S. National Park Service"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Her preference for grassroots local leadership and suspicion of top-down charismatic control strongly support decentralized organization.",
+    "representacao": "Participatory democracy and bottom-up leadership were central to her organizing philosophy.",
+    "poder": "Civil-rights activism against segregation, intimidation and political repression strongly favors civil liberties over coercive order.",
+    "imigracao": "Her coalition politics and racial equality work support pluralist inclusion, though immigration law was not a core issue.",
+    "diplomacia": "Foreign policy was not central, but her movement politics generally favored nonviolent organizing over militarism.",
+    "intervencao": "No detailed foreign-intervention doctrine is established; anti-domination principles support restraint.",
+    "economia": "Her cooperative organizing and anti-poverty work support cooperative/redistributive economics rather than laissez-faire individualism.",
+    "controle": "Grassroots cooperative economics suggests collective organization with skepticism of centralized command; moderate planning.",
+    "comercio": "No trade-policy doctrine is established.",
+    "religiao": "Her activism interacted with church-based civil-rights networks but remained civic and participatory rather than theocratic.",
+    "moral": "Racial equality, youth empowerment and grassroots democracy strongly support progressive egalitarian values.",
+    "tecnologia": "Technology was not central; moderate."
+  }
+}

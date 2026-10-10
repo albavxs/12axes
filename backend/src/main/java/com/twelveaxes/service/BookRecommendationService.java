@@ -5,11 +5,8 @@ import com.twelveaxes.model.BookRecommendation;
 import com.twelveaxes.model.PersonalityMatch;
 import java.net.URLEncoder;
 import java.nio.charset.StandardCharsets;
-import java.util.Comparator;
-import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
-import java.util.stream.Stream;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -32,35 +29,56 @@ public class BookRecommendationService {
      * atuacao) que tem livro cadastrado, da maior para a menor compatibilidade.
      */
     public List<BookRecommendation> recommend(
-            List<PersonalityMatch> generalMatches,
-            List<PersonalityMatch> areaMatches,
+            List<PersonalityMatch> rankedMatches,
             String lang
     ) {
         String normalizedLang = QuizDataService.normalizeLang(lang);
         Map<String, Book> books = dataService.getBooks();
-        Map<String, PersonalityMatch> candidates = new LinkedHashMap<>();
-        Stream.concat(generalMatches.stream(), areaMatches.stream())
-                .filter(match -> books.containsKey(match.personalityId()))
-                .forEach(match -> candidates.putIfAbsent(match.personalityId(), match));
 
-        return candidates.values().stream()
-                .sorted(Comparator.comparingDouble(PersonalityMatch::compatibility).reversed())
+        return rankedMatches.stream()
+                .filter(match -> hasAvailableBook(books.get(match.personalityId()), normalizedLang))
                 .limit(MAX_BOOKS)
                 .map(match -> toRecommendation(match, books.get(match.personalityId()), normalizedLang))
                 .toList();
     }
 
+    private boolean hasAvailableBook(Book book, String lang) {
+        return book != null
+                && localized(book.title(), lang) != null
+                && !localized(book.title(), lang).isBlank();
+    }
+
     private BookRecommendation toRecommendation(PersonalityMatch match, Book book, String lang) {
         String title = localized(book.title(), lang);
+        String author = book.author() == null || book.author().isBlank() ? match.name() : book.author();
+        String associationType = book.associationType() == null || book.associationType().isBlank()
+                ? "author"
+                : book.associationType();
         return new BookRecommendation(
                 match.personalityId(),
                 match.name(),
                 match.imagePath(),
                 title,
                 book.year(),
-                affiliateUrl(localized(book.url(), lang), title, match.name(), lang),
+                affiliateUrl(localized(book.url(), lang), title, author, lang),
+                author,
+                associationType,
                 match.compatibility()
         );
+    }
+
+    /**
+     * Primeiro autor creditado, para a busca gerada. A linha de credito completa
+     * ("Vilma Espin, Asela de los Santos, Yolanda Ferrer") transforma a busca
+     * numa frase longa que nao casa com nenhuma entrada de catalogo: a Amazon
+     * responde "Nenhum resultado". O credito completo continua na exibicao.
+     */
+    static String searchAuthor(String author) {
+        if (author == null || author.isBlank()) {
+            return "";
+        }
+        String first = author.split(",|&| and ")[0].trim();
+        return first.isEmpty() ? author.trim() : first;
     }
 
     static String affiliateUrl(String directUrl, String title, String author, String lang) {
@@ -68,7 +86,8 @@ public class BookRecommendationService {
             return directUrl;
         }
         boolean english = QuizDataService.LANG_EN.equals(lang);
-        String query = URLEncoder.encode(title + " " + author, StandardCharsets.UTF_8);
+        String terms = (title + " " + searchAuthor(author)).trim();
+        String query = URLEncoder.encode(terms, StandardCharsets.UTF_8);
         return "https://" + (english ? AMAZON_US_HOST : AMAZON_BR_HOST)
                 + "/s?k=" + query + "&i=stripbooks&tag=" + (english ? AMAZON_US_TAG : AMAZON_BR_TAG);
     }

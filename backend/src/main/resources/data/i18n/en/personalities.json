@@ -2408,5 +2408,249 @@
     "role": "King of Castile and León",
     "lifespan": "c. 1201–1252",
     "description": "King of Castile from 1217 and León from 1230, he consolidated the union of the crowns and conquered Córdoba and Seville. He ruled as a medieval Catholic monarch and promoted legal and administrative organization in conquered territories."
+  },
+  {
+    "id": "dilma-rousseff",
+    "name": "Dilma Rousseff",
+    "role": "Former President of Brazil and NDB President",
+    "lifespan": "1947–",
+    "description": "Economist, Brazil’s first woman president and President of the New Development Bank, Dilma Rousseff combines developmentalism, social policy, public investment, Global South integration, and support for sustainable infrastructure, science and innovation."
+  },
+  {
+    "id": "eva-peron",
+    "name": "Eva Perón",
+    "role": "Argentine political and social leader",
+    "lifespan": "1919–1952",
+    "description": "A central figure of early Peronism, Eva Perón acted as a link to workers and unions, promoted social welfare, and helped mobilize women politically, including support for women's suffrage and organization of the women's branch of the Peronist Party."
+  },
+  {
+    "id": "greta-thunberg",
+    "name": "Greta Thunberg",
+    "role": "Climate activist",
+    "lifespan": "2003–",
+    "description": "Swedish climate activist associated with Fridays for Future, Thunberg pressures governments and businesses for rapid emissions cuts and structural responses to the climate crisis, criticizing approaches based only on promises, conventional growth or isolated technological solutions."
+  },
+  {
+    "id": "margaret-thatcher",
+    "name": "Margaret Thatcher",
+    "role": "Prime Minister of the United Kingdom",
+    "lifespan": "1925–2013",
+    "description": "Britain's first female prime minister, Thatcher governed from 1979 to 1990 as a Conservative. Her government pursued privatization, deregulation, trade-union reform, tax cuts and greater use of market mechanisms."
+  },
+  {
+    "id": "rosa-luxemburg",
+    "name": "Rosa Luxemburg",
+    "role": "Marxist theorist and revolutionary",
+    "lifespan": "1871–1919",
+    "description": "Polish-German Marxist theorist and revolutionary, Luxemburg criticized capitalism, imperialism and militarism, advocated mass action and socialist transformation, while also defending elections and freedoms of press, assembly and political debate."
+  },
+  {
+    "id": "angela-merkel",
+    "name": "Angela Merkel",
+    "role": "Former Chancellor of Germany",
+    "lifespan": "1954–",
+    "description": "A physicist and CDU politician, Merkel served as German chancellor from 2005 to 2021, the first woman to hold the office. She governed for four terms, mostly in grand coalitions, and played a central role in German and European politics."
+  },
+  {
+    "id": "indira-gandhi",
+    "name": "Indira Gandhi",
+    "role": "Prime Minister of India",
+    "lifespan": "1917–1984",
+    "description": "Leader of the Indian National Congress and the first woman to head India's government, Gandhi served as prime minister from 1966 to 1977 and again from 1980 to 1984, combining strong political centralization with state-directed economic policies."
+  },
+  {
+    "id": "emma-goldman",
+    "name": "Emma Goldman",
+    "role": "Anarchist and political activist",
+    "lifespan": "1869–1940",
+    "description": "An anarchist and activist, Goldman advocated free speech, birth control, women's equality and independence, and union organization. Her opposition to compulsory military conscription during World War I led to imprisonment and later deportation from the United States."
+  },
+  {
+    "id": "alexandra-kollontai",
+    "name": "Alexandra Kollontai",
+    "role": "Revolutionary, theorist and diplomat",
+    "lifespan": "1872–1952",
+    "description": "A Bolshevik revolutionary and Marxist feminist theorist, Kollontai served as commissar for social welfare, organized working women, advocated reproductive rights and greater worker autonomy, and later served as a Soviet diplomat."
+  },
+  {
+    "id": "golda-meir",
+    "name": "Golda Meir",
+    "role": "Prime Minister of Israel",
+    "lifespan": "1898–1978",
+    "description": "A Labor Party leader and prime minister of Israel from 1969 to 1974, Meir's career was rooted in Labor Zionism, the Histadrut labor federation and the building of Israeli state institutions."
+  },
+  {
+    "id": "benazir-bhutto",
+    "name": "Benazir Bhutto",
+    "role": "Prime Minister of Pakistan",
+    "lifespan": "1953–2007",
+    "description": "Leader of the Pakistan People's Party, Bhutto became in 1988 the first woman to head the government of a Muslim-majority country. She advocated civilian government and faced strong military and Islamist opposition during her career."
+  },
+  {
+    "id": "ellen-johnson-sirleaf",
+    "name": "Ellen Johnson Sirleaf",
+    "role": "Former President of Liberia",
+    "lifespan": "1938–",
+    "description": "President of Liberia from 2006 to 2018, Johnson Sirleaf was Africa's first democratically elected female head of state. Her presidency was associated with postwar reconstruction, women's rights, freedom of speech and economic reform."
+  },
+  {
+    "id": "corazon-aquino",
+    "name": "Corazon Aquino",
+    "role": "Former President of the Philippines",
+    "lifespan": "1933–2009",
+    "description": "Aquino became president of the Philippines in 1986 after the movement that ended Ferdinand Marcos's authoritarian rule. Her presidency restored democratic institutions and faced repeated coup attempts."
+  },
+  {
+    "id": "michelle-bachelet",
+    "name": "Michelle Bachelet",
+    "role": "Former President of Chile",
+    "lifespan": "1951–",
+    "description": "A physician and Socialist politician, Bachelet was Chile's first female president, serving in 2006–2010 and 2014–2018. She also led UN Women and served as UN High Commissioner for Human Rights."
+  },
+  {
+    "id": "simone-de-beauvoir",
+    "name": "Simone de Beauvoir",
+    "role": "Feminist philosopher and public intellectual",
+    "lifespan": "1908–1986",
+    "description": "French existentialist philosopher, writer and public intellectual, Beauvoir became a central figure in feminist theory. The Second Sex analyzed women's subordination and connected freedom, autonomy and social transformation."
+  },
+  {
+    "id": "emmeline-pankhurst",
+    "name": "Emmeline Pankhurst",
+    "role": "British suffragette leader",
+    "lifespan": "1858–1928",
+    "description": "A leader of the British suffrage movement, Pankhurst founded the Women's Social and Political Union in 1903. Frustrated by the lack of progress through conventional means, she led a militant campaign for women's voting rights."
+  },
+  {
+    "id": "ayn-rand",
+    "name": "Ayn Rand",
+    "role": "Objectivist philosopher",
+    "description": "A Russian-American novelist and philosopher, Rand created Objectivism, defending reason, individualism, rational egoism, and laissez-faire capitalism against collectivism, compulsory altruism, and religion."
+  },
+  {
+    "id": "hannah-arendt",
+    "name": "Hannah Arendt",
+    "role": "Political philosopher",
+    "description": "A German political philosopher based in the United States, Arendt analyzed totalitarianism, revolution, public freedom, and political action, defending plurality, republican institutions, and participatory councils."
+  },
+  {
+    "id": "mary-wollstonecraft",
+    "name": "Mary Wollstonecraft",
+    "role": "Philosopher and writer",
+    "description": "An English Enlightenment philosopher, Wollstonecraft defended equal education and civil rights for women, criticizing patriarchal hierarchies and linking republican virtue to rational autonomy."
+  },
+  {
+    "id": "elinor-ostrom",
+    "name": "Elinor Ostrom",
+    "role": "Institutional economist",
+    "description": "An American political economist, Ostrom studied commons and showed how communities can govern shared resources through local rules, trust, and cooperation without relying only on state or market."
+  },
+  {
+    "id": "judith-butler",
+    "name": "Judith Butler",
+    "role": "Post-structuralist philosopher",
+    "description": "An American philosopher, Butler developed the theory of gender performativity, criticizing sexual norms, state violence, and identity exclusions through feminism, queer theory, and an ethics of precarity."
+  },
+  {
+    "id": "bell-hooks",
+    "name": "bell hooks",
+    "role": "Feminist theorist",
+    "description": "An American intellectual and educator, hooks articulated intersectional feminism, antiracist critique, and liberatory pedagogy, defending cultural transformation against patriarchy, capitalism, and white supremacy."
+  },
+  {
+    "id": "lelia-gonzalez",
+    "name": "Lélia Gonzalez",
+    "role": "Intellectual and activist",
+    "description": "A Brazilian intellectual, Gonzalez articulated Black feminism, criticism of structural racism, and Afro-Latin American affirmation, working in Black, feminist, and democratization movements."
+  },
+  {
+    "id": "nisia-floresta",
+    "name": "Nísia Floresta",
+    "role": "Writer and educator",
+    "description": "A Brazilian writer and educator, Nísia Floresta defended women’s education, abolition, and women’s rights in the 19th century, engaging with Enlightenment liberalism and early feminism."
+  },
+  {
+    "id": "dorothy-day",
+    "name": "Dorothy Day",
+    "role": "Catholic activist",
+    "description": "An American Catholic journalist and activist, Day founded the Catholic Worker, combining pacifism, hospitality to the poor, communitarian distributism, and Christian criticism of capitalism and the military state."
+  },
+  {
+    "id": "phyllis-schlafly",
+    "name": "Phyllis Schlafly",
+    "role": "Conservative activist",
+    "description": "An American conservative activist, Schlafly led opposition to the Equal Rights Amendment, defending the traditional family, anticommunism, national sovereignty, and grassroots mobilization of the religious right."
+  },
+  {
+    "id": "jane-jacobs",
+    "name": "Jane Jacobs",
+    "role": "Urbanist and writer",
+    "description": "An American-Canadian urban writer and activist, Jacobs criticized centralized planning and authoritarian urban renewal, defending dense, diverse, walkable neighborhoods governed by local communities."
+  },
+  {
+    "id": "condoleezza-rice",
+    "name": "Condoleezza Rice",
+    "role": "Diplomat and secretary of state",
+    "description": "An American diplomat and George W. Bush’s secretary of state, Rice defended military power, democracy promotion, free enterprise, and U.S. alliances after 9/11 and during the Iraq War."
+  },
+  {
+    "id": "elena-ceausescu",
+    "name": "Elena Ceaușescu",
+    "role": "Communist official and deputy prime minister",
+    "description": "A Romanian Communist Party official and wife of Nicolae Ceaușescu, Elena Ceaușescu rose to the party’s top leadership and became deputy prime minister. Her prominence was tied to the regime’s personality cult, authoritarian rule, and a scientific reputation promoted by the state."
+  },
+  {
+    "id": "jiang-qing",
+    "name": "Jiang Qing",
+    "role": "Communist official and Cultural Revolution figure",
+    "description": "An actress before becoming a Chinese Communist Party official, Jiang Qing was Mao Zedong’s wife, served on the Politburo, and played a central role in Cultural Revolution cultural politics. After Mao’s death, she was arrested with the Gang of Four and later convicted."
+  },
+  {
+    "id": "kim-jong-suk",
+    "name": "Kim Jong-suk",
+    "role": "Communist guerrilla and revolutionary figure",
+    "description": "Kim Jong-suk was a Korean communist activist linked to anti-Japanese guerrilla activity and the wife of Kim Il-sung. After her death, the North Korean state incorporated her memory into Kim family mythology, requiring caution when separating biography from later construction."
+  },
+  {
+    "id": "vilma-espin",
+    "name": "Vilma Espín",
+    "role": "Revolutionary, engineer, and political leader",
+    "description": "A Cuban chemical engineer and revolutionary, Vilma Espín joined resistance to Batista and the 26th of July Movement. After 1959, she founded and led the Federation of Cuban Women, served on the Communist Party Central Committee, and promoted women’s social participation."
+  },
+  {
+    "id": "celia-sanchez",
+    "name": "Celia Sánchez",
+    "role": "Revolutionary and political official",
+    "description": "Celia Sánchez was a leading organizer of the 26th of July Movement, moving arms and supplies before serving as a combatant in the Sierra Maestra. After the revolution, she became a senior Cuban government official and close collaborator of Fidel Castro."
+  },
+  {
+    "id": "haydee-santamaria",
+    "name": "Haydée Santamaría",
+    "role": "Revolutionary and cultural leader",
+    "description": "A Cuban revolutionary, Haydée Santamaría took part in the Moncada Barracks attack, underground resistance to Batista, and revolutionary leadership. After 1959, she founded and led Casa de las Américas, becoming a central figure in Cuban cultural life and Latin American exchange."
+  },
+  {
+    "id": "tamara-bunke",
+    "name": "Tamara Bunke",
+    "role": "Revolutionary, agent, and guerrilla",
+    "description": "A German-Argentine revolutionary known as Tania, Tamara Bunke lived in East Germany and Cuba, worked for revolutionary institutions, and was recruited for a clandestine mission in Bolivia. She joined Che Guevara’s guerrilla force and was killed in an ambush in 1967."
+  },
+  {
+    "id": "dolores-ibarruri",
+    "name": "Dolores Ibárruri",
+    "role": "Communist leader",
+    "description": "Known as La Pasionaria, Dolores Ibárruri was a leading figure of the Communist Party of Spain. She was prominent during the Spanish Civil War, spent decades in Soviet exile, and remained a major reference for Spanish communism before returning during the democratic transition."
+  },
+  {
+    "id": "olga-benario",
+    "name": "Olga Benário Prestes",
+    "role": "Anti-fascist political activist",
+    "description": "Olga Benário Prestes was a German communist activist who participated in revolutionary movements in Europe and later in Brazil. Arrested by the Vargas government, she was deported while pregnant to Nazi Germany in 1936 and was killed at the Bernburg killing center in 1942."
+  },
+  {
+    "id": "angela-davis",
+    "name": "Angela Davis",
+    "role": "Professor and activist",
+    "description": "An American professor, writer, and activist, Angela Davis has developed academic and public work on prisons, race, gender, and class, becoming an influential voice in debates on feminism, racial justice, and prison abolition."
   }
 ]

@@ -1,0 +1,27 @@
+{
+  "id": "edith-abbott",
+  "sources": [
+    {
+      "url": "https://www.lib.uchicago.edu/collex/exhibits/university-chicago-centennial-catalogues/university-chicago-faculty-centennial-view/edith-abbott-1876-1957-social-service-administration/",
+      "institution": "University of Chicago Library"
+    },
+    {
+      "url": "https://news.uchicago.edu/explainer/social-work-explained",
+      "institution": "University of Chicago"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Abbott believed public welfare should move from fragmented private charity toward stronger public administration and national standards. This supports greater centralized public capacity where social provision required coordination.",
+    "representacao": "Her reform work operated through democratic government, universities and public administration rather than anti-parliamentary politics. This supports conventional representative institutions and professional administration.",
+    "poder": "She favored using public authority to protect vulnerable people through welfare and labor policy, but not authoritarian policing or political repression. This supports rule-bound social-state power.",
+    "imigracao": "Abbott studied immigration and social conditions empirically and was associated with progressive reform, but the reviewed sources do not establish an open-borders doctrine. Use a moderate inclusive position.",
+    "diplomacia": "Her work was primarily domestic social policy and academic research. No distinctive diplomacy doctrine is established.",
+    "intervencao": "No military-intervention doctrine is established. Keep moderate.",
+    "economia": "Her career strongly supports public welfare, social insurance and professional social administration within a mixed economy, placing her clearly away from laissez-faire minimalism.",
+    "controle": "She explicitly supported expansion of government-funded and professionally administered welfare institutions, supporting substantial state regulation and coordination.",
+    "comercio": "No reliable tariff or trade doctrine is established.",
+    "religiao": "Abbott helped move welfare provision away from dependence on private church charity toward professional public administration, supporting a secular institutional approach.",
+    "moral": "Her work on poverty, women's rights and professional social welfare supports reformist egalitarian social values.",
+    "tecnologia": "She emphasized evidence, statistics, professional training and administrative expertise, supporting a technocratic and empirical approach to social policy."
+  }
+}

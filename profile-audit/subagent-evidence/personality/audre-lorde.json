@@ -1,0 +1,35 @@
+{
+  "id": "audre-lorde",
+  "sources": [
+    {
+      "url": "https://www.poetryfoundation.org/poets/audre-lorde",
+      "institution": "Poetry Foundation"
+    },
+    {
+      "url": "https://www.poets.org/poet/audre-lorde",
+      "institution": "Academy of American Poets"
+    },
+    {
+      "url": "https://nmaahc.si.edu/audre-lorde",
+      "institution": "Smithsonian National Museum of African American History and Culture"
+    },
+    {
+      "url": "https://library.hunter.cuny.edu/news/honoring-audre-lorde",
+      "institution": "Hunter College, CUNY"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Lorde's political writing emphasizes differences, local voices and resistance to domination rather than a constitutional program of centralization. Her suspicion of hierarchical power supports some decentralist tendency without a formal federal doctrine.",
+    "representacao": "Her work insists that marginalized people speak for themselves and participate in collective struggle rather than be represented by dominant institutions. This supports participatory inclusion and democratic accountability.",
+    "poder": "Her critique of racism, sexism, homophobia and institutional violence strongly favors personal and civil freedom over coercive social control.",
+    "imigracao": "As the daughter of Caribbean immigrants and a theorist of difference, Lorde defended coexistence across identities and rejected assimilation through erasure. This supports a multicultural orientation, though not a specific border-policy platform.",
+    "diplomacia": "Her solidarity work, including support for anti-apartheid struggles, was internationalist and anti-oppression rather than militarist. Evidence favors nonviolent solidarity and diplomacy.",
+    "intervencao": "Lorde opposed domination and imperial forms of hierarchy, which supports skepticism toward coercive intervention by powerful states. She did not advocate isolation from international struggles.",
+    "economia": "Classism and material inequality are explicit parts of her intersectional critique. This supports a left-leaning redistributive orientation, but not a complete public-ownership program.",
+    "controle": "Her politics support collective action against structural inequality but are skeptical of dominant institutions. Moderate regulation/social provision is more defensible than centralized command planning.",
+    "comercio": "The reviewed sources do not establish a tariff or global-trade doctrine. Do not infer one from anti-capitalist or anti-racist critique alone.",
+    "religiao": "Lorde's public thought is not organized around religious authority, and she criticized institutions that reproduce hierarchy. This supports a secular public orientation.",
+    "moral": "Her Black lesbian feminist thought directly challenges traditional norms around gender, sexuality and family and strongly supports pluralist/progressive social positions.",
+    "tecnologia": "Technology is peripheral to her political writing. Use a moderate score rather than project current technology debates onto her work."
+  }
+}

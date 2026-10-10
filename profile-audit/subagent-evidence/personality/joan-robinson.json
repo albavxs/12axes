@@ -1,0 +1,27 @@
+{
+  "id": "joan-robinson",
+  "sources": [
+    {
+      "url": "https://www.girton.cam.ac.uk/news/joan-robinson",
+      "institution": "Girton College, University of Cambridge"
+    },
+    {
+      "url": "https://www.girton.cam.ac.uk/pioneering-history/making-a-difference",
+      "institution": "Girton College, University of Cambridge"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Robinson was an economist rather than a constitutional theorist. No reliable territorial centralization doctrine is established.",
+    "representacao": "Her political sympathies were left-wing and at times admiring of socialist experiments, but her economics does not provide a clear electoral-regime theory. Keep representation moderate pending direct political writings.",
+    "poder": "Her economic work criticizes monopoly power and exploitation, supporting skepticism toward concentrated private economic power. This does not automatically establish a civil-liberty versus security position.",
+    "imigracao": "No reliable immigration doctrine is central to her work. Keep moderate.",
+    "diplomacia": "She engaged internationally with development and socialist economies but was not primarily a diplomacy theorist. Keep moderate.",
+    "intervencao": "No stable military-intervention doctrine is established. Her anti-imperialist sympathies suggest restraint toward great-power intervention.",
+    "economia": "As a central Keynesian and later heterodox economist critical of orthodox capitalism, Robinson strongly supports a large public role, demand management and alternatives to laissez-faire economics.",
+    "controle": "Her Keynesian and socialist sympathies support substantial macroeconomic planning and public coordination, though her work is not a blueprint for total command planning.",
+    "comercio": "Her development economics criticized simplistic free-trade orthodoxy and unequal international economic relations, supporting managed trade rather than pure laissez-faire globalism.",
+    "religiao": "Her economics and public thought are secular rather than grounded in religious authority.",
+    "moral": "Her politics were egalitarian and anti-imperialist, but she was not primarily a theorist of modern cultural issues. Use moderate progressive placement.",
+    "tecnologia": "Her growth and capital theory engages industrial development positively; she was not anti-technology. Use a moderately technophile development-oriented position."
+  }
+}

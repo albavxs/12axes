@@ -1,0 +1,31 @@
+{
+  "id": "alice-paul",
+  "sources": [
+    {
+      "url": "https://www.womenshistory.org/education-resources/biographies/alice-paul",
+      "institution": "National Women’s History Museum"
+    },
+    {
+      "url": "https://www.nps.gov/people/alice-paul.htm",
+      "institution": "National Park Service"
+    },
+    {
+      "url": "https://www.nps.gov/bepa/learn/alice-paul.htm",
+      "institution": "U.S. National Park Service"
+    }
+  ],
+  "evidence": {
+    "estrutura": "Paul deliberately shifted the U.S. suffrage campaign toward a federal constitutional amendment and later authored a federal Equal Rights Amendment. This supports willingness to use national constitutional authority for equal-rights guarantees, though not general centralization.",
+    "representacao": "Her life's work centered universal women's suffrage, voting rights and equal citizenship. This is direct and very strong evidence for representative-democratic inclusion.",
+    "poder": "Her arrests, imprisonment, hunger strikes and force-feeding during suffrage campaigns made state coercion a lived political issue. Her strategy strongly favors protest rights and civil liberties over suppression of dissent.",
+    "imigracao": "Core NPS and museum biographies do not establish a program on immigration or assimilation. This axis should stay moderate rather than be inferred from equal-rights feminism.",
+    "diplomacia": "Paul focused overwhelmingly on women's rights rather than foreign policy. There is insufficient evidence for a strong military-versus-diplomatic position.",
+    "intervencao": "The reviewed sources do not establish a foreign-intervention doctrine. Her transnational organizing for women's rights should not be treated as evidence of interventionism.",
+    "economia": "The Equal Rights Amendment and equality campaigns sought equal legal treatment in employment and civic life, but did not amount to a socialist or laissez-faire ownership program. A mixed/centrist economic placement is most defensible.",
+    "controle": "Paul advocated legal guarantees against sex discrimination rather than economic planning. There is little evidence for either command planning or deregulated laissez-faire economics.",
+    "comercio": "No substantive trade-policy position is established in the reviewed sources.",
+    "religiao": "Paul's Quaker background shaped an egalitarian upbringing, but her public program was legal and civic rather than religious governance. This supports a secular constitutional orientation with religious personal roots.",
+    "moral": "Her lifelong campaign for formal equality between women and men and the ERA strongly supports progressive gender norms and legal equality.",
+    "tecnologia": "Technology was not a defining theme of her political program. Use a neutral-to-moderate modernist position rather than inventing a technology ideology."
+  }
+}

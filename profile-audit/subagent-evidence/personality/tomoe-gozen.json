@@ -1,0 +1,32 @@
+{
+  "id": "tomoe-gozen",
+  "sources": [
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/54499",
+      "institution": "The Metropolitan Museum of Art"
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/893321",
+      "institution": "The Metropolitan Museum of Art"
+    },
+    {
+      "url": "https://visualizingcultures.mit.edu/opium_wars_japan/noble3.html",
+      "institution": "Massachusetts Institute of Technology"
+    }
+  ],
+  "evidence": {
+    "diplomacia": "Surviving cultural and literary traditions depict Tomoe Gozen as a warrior in a medieval civil conflict. That does not establish a modern pacifist-versus-militarist foreign-policy preference.",
+    "poder": "The sources concern martial reputation and later representation, not views on civil liberties, surveillance, policing or constitutional order.",
+    "moral": "Evidence about a medieval warrior role cannot reliably answer modern traditionalist-progressive policy questions.",
+    "metodologia": "The historical source base is not sufficient for a defensible 12-axis political profile without a separate methodology for premodern or partly legendary figures. Human review should decide whether she belongs in this pipeline at all.",
+    "estrutura": "The surviving historical-literary record does not establish Tomoe Gozen's views on territorial centralization, federalism or civilian administration; this axis is underdetermined.",
+    "representacao": "No reliable evidence establishes a preferred electoral, representative or constitutional regime; medieval warrior service cannot be translated directly into a modern democracy score.",
+    "imigracao": "No reliable evidence establishes views on immigration, assimilation or multicultural policy; this axis is underdetermined.",
+    "intervencao": "Her depiction as an active warrior in a civil conflict establishes willingness to use force in that historical context, but does not supply a modern foreign-intervention doctrine.",
+    "economia": "No reliable evidence establishes views on private/public ownership, redistribution or welfare; this axis is underdetermined.",
+    "controle": "No reliable evidence establishes a planning-versus-market position; this axis is underdetermined.",
+    "comercio": "No reliable evidence establishes a trade-policy position; this axis is underdetermined.",
+    "religiao": "The surviving sources used here do not establish a political program for religious authority or secular government; this axis is underdetermined.",
+    "tecnologia": "The medieval source base cannot support a defensible modern technology-policy preference; this axis is underdetermined."
+  }
+}

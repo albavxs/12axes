@@ -1,0 +1,27 @@
+{
+  "id": "savitribai-phule",
+  "sources": [
+    {
+      "url": "https://cdnbbsr.s3waas.gov.in/s33837a451cd0abc5ce4069304c5442c87/uploads/2024/11/20241126690139104.pdf",
+      "institution": "Government of India educational publication"
+    },
+    {
+      "url": "https://lokbhavan.haryana.gov.in/savitribai-phule-an-iconic-reformer-educationist-honble-governor-haryana/",
+      "institution": "Lok Bhavan Haryana, Government of India"
+    }
+  ],
+  "evidence": {
+    "moral": "Government sources document Phule's campaigns for girls' education, caste equality, widow remarriage and against child marriage and untouchability.",
+    "representacao": "Her schools expanded educational participation for girls and marginalized castes, establishing a record of social inclusion rather than an electoral-system position.",
+    "poder": "Her reform activity directly challenged discriminatory social institutions; this is rights-related evidence but does not establish views on surveillance or public order.",
+    "economia": "The selected sources focus on education and social reform and do not support a reliable economic-system score.",
+    "estrutura": "Phule built schools and reform networks at local and regional levels but did not articulate a territorial constitutional doctrine; keep moderate.",
+    "imigracao": "Her work focused caste, gender and education rather than immigration or assimilation policy.",
+    "diplomacia": "No foreign-policy doctrine is established; keep moderate.",
+    "intervencao": "No military-intervention doctrine is established.",
+    "controle": "Her reforms imply support for public and social provision of education and welfare but not centralized economic planning.",
+    "comercio": "No reliable trade-policy doctrine is established.",
+    "religiao": "She challenged caste and religiously justified hierarchy and worked in a reformist anti-Brahmanical milieu, supporting secular equality rather than clerical authority.",
+    "tecnologia": "Her work centered education, literacy and social reform rather than a distinct technology ideology."
+  }
+}

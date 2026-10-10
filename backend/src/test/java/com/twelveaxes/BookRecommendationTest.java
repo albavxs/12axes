@@ -10,9 +10,6 @@ import com.twelveaxes.model.PersonalityMatch;
 import com.twelveaxes.model.QuizResult;
 import com.twelveaxes.service.QuizDataService;
 import java.nio.charset.StandardCharsets;
-import java.util.Set;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.web.servlet.AutoConfigureMockMvc;
@@ -41,21 +38,23 @@ class BookRecommendationTest {
     }
 
     @Test
-    void recommendsUpToThreeBooksFromTopPersonalitiesSortedByCompatibility() throws Exception {
+    void recommendsUpToThreeBooksFromEachRepresentationRankingSortedByCompatibility() throws Exception {
         QuizResult result = result("pt");
-        Set<String> pool = Stream.concat(result.personalityMatches().stream(), result.categoryBestMatches().stream())
-                .map(PersonalityMatch::personalityId)
-                .collect(Collectors.toSet());
 
-        assertThat(result.bookRecommendations()).isNotEmpty().hasSizeLessThanOrEqualTo(3);
-        assertThat(result.bookRecommendations())
-                .isSortedAccordingTo((a, b) -> Double.compare(b.compatibility(), a.compatibility()));
-        assertThat(result.bookRecommendations()).extracting(BookRecommendation::personalityId)
-                .doesNotHaveDuplicates()
-                .allSatisfy(id -> {
-                    assertThat(pool).contains(id);
-                    assertThat(dataService.getBooks()).containsKey(id);
-                });
+        assertRecommendations(result.bookRecommendations());
+        assertRecommendations(result.femaleBookRecommendations());
+        assertRecommendations(result.mixedBookRecommendations());
+    }
+
+    @Test
+    void femaleAndMixedRecommendationsUseTheirOwnRanking() throws Exception {
+        QuizResult result = result("pt");
+
+        assertThat(result.femaleBookRecommendations()).isNotEmpty();
+        assertThat(result.femaleBookRecommendations())
+                .extracting(BookRecommendation::personalityId)
+                .allSatisfy(id -> assertThat(dataService.getPersonalityById(id).representation()).isEqualTo("female"));
+        assertThat(result.mixedBookRecommendations()).isNotEmpty();
     }
 
     @Test
@@ -70,6 +69,15 @@ class BookRecommendationTest {
     void usesUsStoreAndTagInEnglish() throws Exception {
         assertThat(result("en").bookRecommendations()).allSatisfy(book ->
                 assertThat(book.url()).startsWith("https://www.amazon.com/").contains("tag=12axes0d-20"));
+    }
+
+    private void assertRecommendations(java.util.List<BookRecommendation> recommendations) {
+        assertThat(recommendations).isNotEmpty().hasSizeLessThanOrEqualTo(3);
+        assertThat(recommendations)
+                .isSortedAccordingTo((a, b) -> Double.compare(b.compatibility(), a.compatibility()));
+        assertThat(recommendations).extracting(BookRecommendation::personalityId)
+                .doesNotHaveDuplicates()
+                .allSatisfy(id -> assertThat(dataService.getBooks()).containsKey(id));
     }
 
     @Test

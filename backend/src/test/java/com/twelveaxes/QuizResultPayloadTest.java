@@ -32,6 +32,13 @@ class QuizResultPayloadTest {
                 .andExpect(jsonPath("$.countryDimensionMatches[0].dimension").value("political"))
                 .andExpect(jsonPath("$.bottomCountryMatches.length()").value(3))
                 .andExpect(jsonPath("$.topPersonalityMatch.category").isNotEmpty())
+                .andExpect(jsonPath("$.topPersonalityMatch.representation").value("male"))
+                .andExpect(jsonPath("$.femalePersonalityMatches").isArray())
+                .andExpect(jsonPath("$.mixedPersonalityMatches").isArray())
+                .andExpect(jsonPath("$.topMixedPersonalityMatch.representation").isNotEmpty())
+                .andExpect(jsonPath("$.bookRecommendations").isArray())
+                .andExpect(jsonPath("$.femaleBookRecommendations").isArray())
+                .andExpect(jsonPath("$.mixedBookRecommendations").isArray())
                 .andExpect(jsonPath("$.dimensionMatches.length()").value(3))
                 .andExpect(jsonPath("$.dimensionMatches[0].dimension").value("political"))
                 .andExpect(jsonPath("$.countryDimensionMatches.length()").value(3))
@@ -45,6 +52,15 @@ class QuizResultPayloadTest {
     }
 
     @Test
+    void representationSpecificBookRecommendationsUseMatchingPersonalities() throws Exception {
+        mockMvc.perform(get("/api/results/by-axes").param("v", VETOR))
+                .andExpect(status().isOk())
+                .andExpect(jsonPath("$.bookRecommendations[*].personalityId").isArray())
+                .andExpect(jsonPath("$.femaleBookRecommendations[*].personalityId").isArray())
+                .andExpect(jsonPath("$.mixedBookRecommendations[*].personalityId").isArray());
+    }
+
+    @Test
     void englishResultCarriesEveryNewSection() throws Exception {
         mockMvc.perform(get("/api/results/by-axes").param("v", VETOR).param("lang", "en"))
                 .andExpect(status().isOk())
@@ -52,6 +68,8 @@ class QuizResultPayloadTest {
                 .andExpect(jsonPath("$.dimensionMatches[0].dimension").value("political"))
                 .andExpect(jsonPath("$.categoryBestMatches.length()").value(8))
                 .andExpect(jsonPath("$.categoryBestMatches[0].category").isNotEmpty())
+                .andExpect(jsonPath("$.topPersonalityMatch.representation").value("male"))
+                .andExpect(jsonPath("$.mixedPersonalityMatches").isArray())
                 .andExpect(jsonPath("$.topHistoricalCountryMatch.historical").value(true));
     }
 }
