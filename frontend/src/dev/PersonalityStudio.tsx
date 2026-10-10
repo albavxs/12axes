@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState, type ReactNode } from 'react';
 import '../styles/personality-studio.css';
+import BookValidationStudio from './BookValidationStudio';
 
 type Axis = { id: string; label: string; leftPole: string; rightPole: string };
 type Translation = { id: string; name?: string; role?: string; description?: string };
@@ -665,6 +666,7 @@ function PersonalityStudio() {
             {auditingAll ? ui.validatingAllAudits : ui.validateAllAudits}
           </button>
           <button className="studio-icon-button studio-bulk-button" type="button" disabled={saving} onClick={downloadPendingPortraits}>{ui.downloadPendingPortraits}</button>
+          <a className="studio-icon-button studio-link-button studio-bulk-button" href="#book-validation">{language === 'pt' ? 'Validar livros' : 'Validate books'}</a>
         </div>
         <div className="studio-composition">
           <span className="studio-composition-title">{ui.composition}</span>
@@ -1004,6 +1006,8 @@ function PersonalityStudio() {
           ) : <div className="studio-empty">{ui.select}</div>}
         </article>
       </section>
+
+      <BookValidationStudio personalities={payload.personalities} language={language} />
 
       {editing && selected && form ? (
         <div className="studio-editor-backdrop" role="presentation" onMouseDown={(event) => { if (event.currentTarget === event.target) setEditing(false); }}>
