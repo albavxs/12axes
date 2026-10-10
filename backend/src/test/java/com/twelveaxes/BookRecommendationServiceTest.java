@@ -58,6 +58,49 @@ class BookRecommendationServiceTest {
     }
 
     @Test
+    void biographyKeepsTheRealBookAuthorSeparateFromThePersonality() {
+        var recommendations = service.recommend(
+                List.of(match("olga-benario", 99)),
+                QuizDataService.LANG_PT
+        );
+
+        assertThat(recommendations).hasSize(1);
+        var book = recommendations.getFirst();
+        assertThat(book.author()).isEqualTo("Fernando Morais");
+        assertThat(book.associationType()).isEqualTo("biography");
+    }
+
+    @Test
+    void usesTheStoredProductUrlWhenThereIsOne() {
+        var book = service.recommend(
+                List.of(match("olga-benario", 99)),
+                QuizDataService.LANG_PT
+        ).getFirst();
+
+        // URL verificada vence a busca gerada: leva direto ao produto.
+        assertThat(book.url()).contains("/dp/").doesNotContain("/s?k=");
+    }
+
+    @Test
+    void fallsBackToAGeneratedSearchWhenNoUrlIsStored() {
+        String withoutUrl = dataService.getBooks().entrySet().stream()
+                .filter(entry -> {
+                    var url = entry.getValue().url();
+                    return url == null || url.get("pt") == null || url.get("pt").isBlank();
+                })
+                .map(Map.Entry::getKey)
+                .findFirst()
+                .orElseThrow();
+
+        var book = service.recommend(
+                List.of(match(withoutUrl, 99)),
+                QuizDataService.LANG_PT
+        ).getFirst();
+
+        assertThat(book.url()).contains("/s?k=").contains("tag=12axes-20");
+    }
+
+    @Test
     void neverReturnsMoreThanThreeBooks() {
         var availableIds = dataService.getBooks().keySet().stream().limit(4).toList();
         assertThat(availableIds).hasSize(4);
@@ -70,6 +113,27 @@ class BookRecommendationServiceTest {
         );
 
         assertThat(service.recommend(ranked, QuizDataService.LANG_PT)).hasSize(3);
+    }
+
+    @Test
+    void multiAuthorCreditIsKeptForDisplay() {
+        var recommendations = service.recommend(
+                List.of(match("vilma-espin", 99)),
+                QuizDataService.LANG_PT
+        );
+
+        assertThat(recommendations).hasSize(1);
+        // O credito completo continua visivel para o leitor; o recorte para a
+        // busca gerada e coberto por BookRecommendationServiceSearchTest.
+        assertThat(recommendations.getFirst().author()).contains("Asela de los Santos");
+    }
+
+    @Test
+    void deliversTheEditionThatExistsWhenThereIsNoPortugueseOne() {
+        // Nao existe edicao em portugues de Women in Cuba, so a inglesa da
+        // Pathfinder e a espanhola. O leitor pt recebe a que da para comprar.
+        var book = dataService.getBooks().get("vilma-espin");
+        assertThat(book.title().get("pt")).isEqualTo(book.title().get("en"));
     }
 
     private PersonalityMatch match(String id, double compatibility) {

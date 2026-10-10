@@ -2431,7 +2431,17 @@
         "role": "Anti-fascist political activist",
         "description": "Olga Benário Prestes was a German communist activist who participated in revolutionary movements in Europe and later in Brazil. Arrested by the Vargas government, she was deported while pregnant to Nazi Germany in 1936 and was killed at the Bernburg killing center in 1942."
       },
-      "book": null,
+      "book": {
+        "title": {
+          "pt": "Olga",
+          "en": "Olga"
+        },
+        "year": 1985,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
       "portrait": {
         "path": "/personalities/portraits/olga-benario.jpg",
         "sourceFile": "Olga Benário Prestes.jpg",
@@ -4672,7 +4682,17 @@
         "role": "Revolutionary, engineer, and political leader",
         "description": "A Cuban chemical engineer and revolutionary, Vilma Espín joined resistance to Batista and the 26th of July Movement. After 1959, she founded and led the Federation of Cuban Women, served on the Communist Party Central Committee, and promoted women’s social participation."
       },
-      "book": null,
+      "book": {
+        "title": {
+          "pt": "Las mujeres en Cuba: haciendo una revolución dentro de la revolución",
+          "en": "Women in Cuba: The Making of a Revolution Within the Revolution"
+        },
+        "year": 2012,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
       "portrait": {
         "path": "/personalities/portraits/vilma-espin.jpg",
         "sourceFile": "Vilma Espín Guillois.jpg",
@@ -4698,7 +4718,17 @@
         "role": "Revolutionary and political official",
         "description": "Celia Sánchez was a leading organizer of the 26th of July Movement, moving arms and supplies before serving as a combatant in the Sierra Maestra. After the revolution, she became a senior Cuban government official and close collaborator of Fidel Castro."
       },
-      "book": null,
+      "book": {
+        "title": {
+          "pt": "One Day in December: Celia Sánchez and the Cuban Revolution",
+          "en": "One Day in December: Celia Sánchez and the Cuban Revolution"
+        },
+        "year": 2013,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
       "portrait": {
         "path": "/personalities/portraits/celia-sanchez.jpg",
         "sourceFile": "Celia Sanchez.jpg",
@@ -4724,7 +4754,17 @@
         "role": "Revolutionary and cultural leader",
         "description": "A Cuban revolutionary, Haydée Santamaría took part in the Moncada Barracks attack, underground resistance to Batista, and revolutionary leadership. After 1959, she founded and led Casa de las Américas, becoming a central figure in Cuban cultural life and Latin American exchange."
       },
-      "book": null,
+      "book": {
+        "title": {
+          "pt": "Haydée habla del Moncada",
+          "en": "Haydée habla del Moncada"
+        },
+        "year": 1978,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
       "portrait": {
         "path": "/personalities/portraits/haydee-santamaria.jpg",
         "sourceFile": "Haydée Santamaría.jpg",
@@ -4750,7 +4790,17 @@
         "role": "Revolutionary, agent, and guerrilla",
         "description": "A German-Argentine revolutionary known as Tania, Tamara Bunke lived in East Germany and Cuba, worked for revolutionary institutions, and was recruited for a clandestine mission in Bolivia. She joined Che Guevara’s guerrilla force and was killed in an ambush in 1967."
       },
-      "book": null,
+      "book": {
+        "title": {
+          "pt": "Tania: Undercover with Che Guevara in Bolivia",
+          "en": "Tania: Undercover with Che Guevara in Bolivia"
+        },
+        "year": 2005,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
       "portrait": {
         "path": "/personalities/portraits/tamara-bunke.jpg",
         "sourceFile": "TamaraBunke1.jpg",
@@ -4776,7 +4826,17 @@
         "role": "Communist leader",
         "description": "Known as La Pasionaria, Dolores Ibárruri was a leading figure of the Communist Party of Spain. She was prominent during the Spanish Civil War, spent decades in Soviet exile, and remained a major reference for Spanish communism before returning during the democratic transition."
       },
-      "book": null,
+      "book": {
+        "title": {
+          "pt": "El único camino",
+          "en": "El único camino"
+        },
+        "year": 1962,
+        "url": {
+          "pt": "",
+          "en": ""
+        }
+      },
       "portrait": {
         "path": "/personalities/portraits/dolores-ibarruri.jpg",
         "sourceFile": "Dolores Ibárruri 1936.jpg",

@@ -1,0 +1,34 @@
+{
+  "generatedAt": "2026-10-10T02:10:35.703Z",
+  "source": "scripts/data/female-book-availability.json",
+  "scope": "representation === \"female\"",
+  "amazonAvailable": [],
+  "amazonUnavailable": [],
+  "needsAlternativeProvider": [],
+  "noRecommendation": [
+    {
+      "personalityId": "kim-jong-suk",
+      "name": "Kim Jong-suk",
+      "resolution": "no-book",
+      "title": null,
+      "author": null,
+      "associationType": null,
+      "proposed": true,
+      "priceTier": null,
+      "price": null,
+      "merchant": null,
+      "amazon": {
+        "br": {
+          "status": "pending",
+          "url": null
+        },
+        "us": {
+          "status": "pending",
+          "url": null
+        }
+      },
+      "alternativeProviders": null
+    }
+  ],
+  "importPriced": []
+}

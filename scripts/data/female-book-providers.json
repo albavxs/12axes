@@ -1,0 +1,64 @@
+{
+  "dilma-rousseff": {
+    "query": {
+      "title": "A Vida Quer é Coragem: A Trajetória de Dilma Rousseff, a Primeira Presidenta do Brasil",
+      "author": "Ricardo Batista Amaral"
+    },
+    "openLibrary": {
+      "url": "https://openlibrary.org/works/OL16565033W",
+      "title": "A vida quer é coragem",
+      "authors": [
+        "Ricardo Batista Amaral"
+      ],
+      "year": 2011,
+      "isbns": [
+        "9788575427354",
+        "8575427350"
+      ],
+      "publishers": [
+        "Primeira Pessoa"
+      ],
+      "languages": [
+        "por"
+      ]
+    },
+    "candidates": [
+      "A vida quer é coragem"
+    ]
+  },
+  "alexandra-kollontai": {
+    "query": {
+      "title": "A Nova Mulher e a Moral Sexual",
+      "author": "Alexandra Kollontai"
+    },
+    "openLibrary": null,
+    "candidates": []
+  },
+  "celia-sanchez": {
+    "query": {
+      "title": "One Day in December: Celia Sánchez and the Cuban Revolution",
+      "author": "Nancy Stout"
+    },
+    "openLibrary": {
+      "url": "https://openlibrary.org/works/OL19963925W",
+      "title": "One day in December",
+      "authors": [
+        "Nancy Stout"
+      ],
+      "year": 2013,
+      "isbns": [
+        "1583673172",
+        "9781583673171"
+      ],
+      "publishers": [
+        "Monthly Review Press"
+      ],
+      "languages": [
+        "eng"
+      ]
+    },
+    "candidates": [
+      "One day in December"
+    ]
+  }
+}

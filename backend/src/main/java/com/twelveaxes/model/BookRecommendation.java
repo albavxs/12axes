@@ -1,9 +1,9 @@
 package com.twelveaxes.model;
 
 /**
- * Livro recomendado no resultado, ja no idioma pedido e com o link de afiliado montado.
+ * Livro recomendado no resultado, já no idioma pedido e com o link de afiliado montado.
  *
- * @param compatibility compatibilidade do usuario com a personalidade autora
+ * @param compatibility compatibilidade do usuário com a personalidade associada
  */
 public record BookRecommendation(
         String personalityId,
@@ -12,6 +12,8 @@ public record BookRecommendation(
         String title,
         Integer year,
         String url,
+        String author,
+        String associationType,
         double compatibility
 ) {
 }

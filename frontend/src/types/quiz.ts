@@ -130,6 +130,10 @@ export interface BookRecommendation {
   /** Ano da primeira publicação; negativo = a.C. */
   year?: number;
   url: string;
+  /** Autor real da obra. Em biografias, é diferente da personalidade associada. */
+  author?: string;
+  /** "author" para obra da personalidade; "biography" para obra sobre ela. */
+  associationType?: 'author' | 'biography';
   compatibility: number;
 }
 
