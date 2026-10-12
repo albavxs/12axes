@@ -46,6 +46,9 @@ public class PersonalityMatcherService {
         return findMatches(axisResults, lang).getFirst();
     }
 
+    // Tres personalidades de categorias distintas entre si e diferentes da
+    // categoria da mais compativel: percorre o ranking de cima para baixo e
+    // pega a primeira de cada categoria ainda nao vista.
     public List<PersonalityMatch> findCategoryMatches(List<AxisResult> axisResults, String lang) {
         List<PersonalityMatch> ranking = rankAll(axisResults, lang);
         if (ranking.isEmpty()) {
@@ -67,6 +70,9 @@ public class PersonalityMatcherService {
         return List.copyOf(selecionadas);
     }
 
+    // A personalidade mais compativel de CADA categoria do catalogo, da categoria
+    // mais compativel para a menos. Diferente de findCategoryMatches, que so
+    // devolve tres: aqui nenhuma area de atuacao fica de fora.
     public List<PersonalityMatch> findBestPerCategory(List<AxisResult> axisResults, String lang) {
         Map<String, PersonalityMatch> melhorPorCategoria = new LinkedHashMap<>();
         for (PersonalityMatch match : rankAll(axisResults, lang)) {
@@ -79,6 +85,7 @@ public class PersonalityMatcherService {
                 .toList();
     }
 
+    // As tres menos compativeis do catalogo inteiro, em ordem crescente.
     public List<PersonalityMatch> findBottomMatches(List<AxisResult> axisResults, String lang) {
         List<PersonalityMatch> ranking = rankAll(axisResults, lang);
         return ranking.stream()
@@ -87,6 +94,8 @@ public class PersonalityMatcherService {
                 .toList();
     }
 
+    // Ranking completo do catalogo, do mais ao menos compativel. Todos os
+    // recortes (topo, categorias, opostos) saem desta mesma lista.
     private List<PersonalityMatch> rankAll(List<AxisResult> axisResults, String lang) {
         return rankingMemo.get(List.of(QuizDataService.normalizeLang(lang), axisResults),
                 () -> computeRanking(axisResults, lang));
