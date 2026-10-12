@@ -15,9 +15,6 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class PersonalityMatcherService {
-    public static final String REPRESENTATION_MALE = "male";
-    public static final String REPRESENTATION_FEMALE = "female";
-
     private static final int TOP_MATCHES = 8;
     private static final int CATEGORY_MATCHES = 3;
     private static final int BOTTOM_MATCHES = 3;
@@ -32,16 +29,11 @@ public class PersonalityMatcherService {
     }
 
     public List<PersonalityMatch> findMatches(List<AxisResult> axisResults) {
-        return findMatches(axisResults, QuizDataService.LANG_PT, REPRESENTATION_MALE);
+        return findMatches(axisResults, QuizDataService.LANG_PT);
     }
 
     public List<PersonalityMatch> findMatches(List<AxisResult> axisResults, String lang) {
-        return findMatches(axisResults, lang, REPRESENTATION_MALE);
-    }
-
-    public List<PersonalityMatch> findMatches(
-            List<AxisResult> axisResults, String lang, String representation) {
-        return rankAll(axisResults, lang, representation).stream()
+        return rankAll(axisResults, lang).stream()
                 .limit(TOP_MATCHES)
                 .toList();
     }
@@ -54,19 +46,8 @@ public class PersonalityMatcherService {
         return findMatches(axisResults, lang).getFirst();
     }
 
-    public PersonalityMatch findTopMatch(
-            List<AxisResult> axisResults, String lang, String representation) {
-        List<PersonalityMatch> matches = findMatches(axisResults, lang, representation);
-        return matches.isEmpty() ? null : matches.getFirst();
-    }
-
     public List<PersonalityMatch> findCategoryMatches(List<AxisResult> axisResults, String lang) {
-        return findCategoryMatches(axisResults, lang, REPRESENTATION_MALE);
-    }
-
-    public List<PersonalityMatch> findCategoryMatches(
-            List<AxisResult> axisResults, String lang, String representation) {
-        List<PersonalityMatch> ranking = rankAll(axisResults, lang, representation);
+        List<PersonalityMatch> ranking = rankAll(axisResults, lang);
         if (ranking.isEmpty()) {
             return List.of();
         }
@@ -87,13 +68,8 @@ public class PersonalityMatcherService {
     }
 
     public List<PersonalityMatch> findBestPerCategory(List<AxisResult> axisResults, String lang) {
-        return findBestPerCategory(axisResults, lang, REPRESENTATION_MALE);
-    }
-
-    public List<PersonalityMatch> findBestPerCategory(
-            List<AxisResult> axisResults, String lang, String representation) {
         Map<String, PersonalityMatch> melhorPorCategoria = new LinkedHashMap<>();
-        for (PersonalityMatch match : rankAll(axisResults, lang, representation)) {
+        for (PersonalityMatch match : rankAll(axisResults, lang)) {
             if (match.category() != null) {
                 melhorPorCategoria.putIfAbsent(match.category(), match);
             }
@@ -104,28 +80,19 @@ public class PersonalityMatcherService {
     }
 
     public List<PersonalityMatch> findBottomMatches(List<AxisResult> axisResults, String lang) {
-        return findBottomMatches(axisResults, lang, REPRESENTATION_MALE);
-    }
-
-    public List<PersonalityMatch> findBottomMatches(
-            List<AxisResult> axisResults, String lang, String representation) {
-        List<PersonalityMatch> ranking = rankAll(axisResults, lang, representation);
+        List<PersonalityMatch> ranking = rankAll(axisResults, lang);
         return ranking.stream()
                 .skip(Math.max(0, ranking.size() - BOTTOM_MATCHES))
                 .sorted(Comparator.comparingDouble(PersonalityMatch::compatibility))
                 .toList();
     }
 
-    private List<PersonalityMatch> rankAll(
-            List<AxisResult> axisResults, String lang, String representation) {
-        String normalizedRepresentation = normalizeRepresentation(representation);
-        return rankingMemo.get(
-                List.of(QuizDataService.normalizeLang(lang), normalizedRepresentation, axisResults),
-                () -> computeRanking(axisResults, lang, normalizedRepresentation));
+    private List<PersonalityMatch> rankAll(List<AxisResult> axisResults, String lang) {
+        return rankingMemo.get(List.of(QuizDataService.normalizeLang(lang), axisResults),
+                () -> computeRanking(axisResults, lang));
     }
 
-    private List<PersonalityMatch> computeRanking(
-            List<AxisResult> axisResults, String lang, String representation) {
+    private List<PersonalityMatch> computeRanking(List<AxisResult> axisResults, String lang) {
         Map<String, Double> userVector = profileMatchScorer.userVectorFor(axisResults);
 
         Comparator<PersonalityCandidate> byScore =
@@ -133,7 +100,6 @@ public class PersonalityMatcherService {
         Comparator<PersonalityCandidate> byName = Comparator.comparing(candidate -> candidate.personality().name());
 
         List<PersonalityCandidate> candidates = dataService.getPersonalities(QuizDataService.normalizeLang(lang)).stream()
-                .filter(personality -> representation.equals(representationOf(personality)))
                 .map(personality -> toCandidate(personality, userVector))
                 .toList();
         List<Double> catalogScores = candidates.stream()
@@ -173,19 +139,6 @@ public class PersonalityMatcherService {
                 candidate.compatibilityPercentile(),
                 targetVectorFor(personality)
         );
-    }
-
-    public static String normalizeRepresentation(String representation) {
-        if (representation == null) {
-            return REPRESENTATION_MALE;
-        }
-        return REPRESENTATION_FEMALE.equals(representation.trim().toLowerCase())
-                ? REPRESENTATION_FEMALE
-                : REPRESENTATION_MALE;
-    }
-
-    public static String representationOf(Personality personality) {
-        return normalizeRepresentation(personality.representation());
     }
 
     private Map<String, Double> targetVectorFor(Personality personality) {

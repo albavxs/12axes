@@ -4,7 +4,7 @@ import { HOME_AXES } from './data/homeAxes';
 import type { ExampleResult } from './data/exampleResult';
 import { LANG, setLang, t } from './i18n';
 import { fetchQuiz, fetchSharedResult, submitResults } from './services/quizApi';
-import type { AnswerValue, PersonalityRepresentation, QuizPayload, QuizResult, QuizVariant } from './types/quiz';
+import type { AnswerValue, QuizPayload, QuizResult, QuizVariant } from './types/quiz';
 import { HomeScreen } from './components/editorial/HomeScreen';
 import { VariantScreen } from './components/editorial/VariantScreen';
 import { ResultsScreen } from './components/editorial/ResultsScreen';
@@ -56,23 +56,11 @@ function parseSharedResultUrl(): number[] | null {
 
 const SHARED_RESULT_VALUES = parseSharedResultUrl();
 
-function parseSharedRepresentation(): PersonalityRepresentation {
-  if (typeof window === 'undefined') {
-    return 'male';
-  }
-  return new URLSearchParams(window.location.search).get('representation') === 'female'
-    ? 'female'
-    : 'male';
-}
-
-const SHARED_PERSONALITY_REPRESENTATION = parseSharedRepresentation();
-
-function sharedResultUrl(result: QuizResult, representation: PersonalityRepresentation): string {
+function sharedResultUrl(result: QuizResult): string {
   const query = result.axes
     .map((axis, index) => `${AXIS_URL_KEYS[index] ?? `x${index}`}=${axis.leftPercent}`)
     .join('&');
-  const representationQuery = representation === 'female' ? '&representation=female' : '';
-  return `/results?${query}${representationQuery}`;
+  return `/results?${query}`;
 }
 
 function LoadingPanel({ message }: { message: string }) {
@@ -122,9 +110,6 @@ function MainApp() {
   const [result, setResult] = useState<QuizResult | null>(null);
   const [isLoading, setIsLoading] = useState(FULL_MODE || SHARED_RESULT_VALUES !== null);
   const [isSharedView, setIsSharedView] = useState(false);
-  const [personalityRepresentation, setPersonalityRepresentation] =
-    useState<PersonalityRepresentation>(SHARED_PERSONALITY_REPRESENTATION);
-  const [isPersonalityModeLoading, setIsPersonalityModeLoading] = useState(false);
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [isAdvancing, setIsAdvancing] = useState(false);
   // Toggle do desktop; no mobile fica escondido e sempre ligado.
@@ -147,7 +132,7 @@ function MainApp() {
 
   useEffect(() => {
     if (SHARED_RESULT_VALUES) {
-      fetchSharedResult(SHARED_RESULT_VALUES, SHARED_PERSONALITY_REPRESENTATION)
+      fetchSharedResult(SHARED_RESULT_VALUES)
         .then((sharedResult) => {
           setResult(sharedResult);
           setIsSharedView(true);
@@ -459,39 +444,17 @@ function MainApp() {
       const nextResult = await submitResults(
         quiz.variant ?? selectedVariant,
         payload,
-        archetype,
-        personalityRepresentation
+        archetype
       );
       setResult(nextResult);
       setIsSharedView(false);
       // URL compartilhável: quem abrir este link vê o mesmo resultado.
-      window.history.replaceState(null, '', sharedResultUrl(nextResult, personalityRepresentation));
+      window.history.replaceState(null, '', sharedResultUrl(nextResult));
       setScreen('results');
     } catch (err) {
       setError(err instanceof Error ? err.message : t.errCalc);
     } finally {
       setIsSubmitting(false);
-    }
-  }
-
-  async function changePersonalityRepresentation(representation: PersonalityRepresentation) {
-    if (!result || representation === personalityRepresentation || isPersonalityModeLoading) {
-      return;
-    }
-    setIsPersonalityModeLoading(true);
-    setError(null);
-    try {
-      const nextResult = await fetchSharedResult(
-        result.axes.map((axis) => axis.leftPercent),
-        representation
-      );
-      setResult(nextResult);
-      setPersonalityRepresentation(representation);
-      window.history.replaceState(null, '', sharedResultUrl(nextResult, representation));
-    } catch (err) {
-      setError(err instanceof Error ? err.message : t.errCalc);
-    } finally {
-      setIsPersonalityModeLoading(false);
     }
   }
 
@@ -788,9 +751,6 @@ function MainApp() {
           axisResults={resultByAxis}
           isSharing={isSharing}
           error={error}
-          personalityRepresentation={personalityRepresentation}
-          isPersonalityModeLoading={isPersonalityModeLoading}
-          onPersonalityRepresentationChange={(representation) => void changePersonalityRepresentation(representation)}
           onRedo={() => void startQuiz(selectedVariant)}
           onShare={() => void downloadResultsPng()}
         />

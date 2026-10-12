@@ -1,6 +1,6 @@
 import type { CSSProperties } from 'react';
 import { t } from '../../i18n';
-import type { Axis, AxisResult, PersonalityRepresentation, QuizPayload, QuizResult } from '../../types/quiz';
+import type { Axis, AxisResult, QuizPayload, QuizResult } from '../../types/quiz';
 import { catStyle } from '../../utils/ideologyColors';
 import { SupportSection } from '../SupportSection';
 import { BooksSection } from '../results/BooksSection';
@@ -22,9 +22,6 @@ interface ResultsScreenProps {
   axisResults: Map<string, AxisResult>;
   isSharing: boolean;
   error: string | null;
-  personalityRepresentation: PersonalityRepresentation;
-  isPersonalityModeLoading: boolean;
-  onPersonalityRepresentationChange: (representation: PersonalityRepresentation) => void;
   onRedo: () => void;
   onShare: () => void;
 }
@@ -36,9 +33,6 @@ export function ResultsScreen({
   axisResults,
   isSharing,
   error,
-  personalityRepresentation,
-  isPersonalityModeLoading,
-  onPersonalityRepresentationChange,
   onRedo,
   onShare
 }: ResultsScreenProps) {
@@ -95,9 +89,6 @@ export function ResultsScreen({
             distant={result.bottomPersonalityMatches}
             axes={axes}
             results={axisResults}
-            representation={personalityRepresentation}
-            isSwitching={isPersonalityModeLoading}
-            onRepresentationChange={onPersonalityRepresentationChange}
           />
 
           <AreasSection generalMatches={result.personalityMatches} areaMatches={result.categoryBestMatches} axes={axes} results={axisResults} />

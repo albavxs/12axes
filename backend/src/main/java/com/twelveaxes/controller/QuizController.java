@@ -91,13 +91,9 @@ public class QuizController {
     @ResponseStatus(HttpStatus.OK)
     public QuizResult results(
             @Valid @RequestBody ResultRequest request,
-            @RequestParam(defaultValue = QuizDataService.LANG_PT) String lang,
-            @RequestParam(defaultValue = PersonalityMatcherService.REPRESENTATION_MALE) String representation
+            @RequestParam(defaultValue = QuizDataService.LANG_PT) String lang
     ) {
-        return buildResult(
-                scoringService.score(request, lang),
-                lang,
-                PersonalityMatcherService.normalizeRepresentation(representation));
+        return buildResult(scoringService.score(request, lang), lang);
     }
 
     // Resultado compartilhável: reconstrói matches a partir do vetor de eixos
@@ -105,20 +101,16 @@ public class QuizController {
     @GetMapping("/api/results/by-axes")
     public QuizResult resultsByAxes(
             @RequestParam("v") String values,
-            @RequestParam(defaultValue = QuizDataService.LANG_PT) String lang,
-            @RequestParam(defaultValue = PersonalityMatcherService.REPRESENTATION_MALE) String representation
+            @RequestParam(defaultValue = QuizDataService.LANG_PT) String lang
     ) {
-        return buildResult(
-                scoringService.scoreFromLeftPercents(parseAxisValues(values), lang),
-                lang,
-                PersonalityMatcherService.normalizeRepresentation(representation));
+        return buildResult(scoringService.scoreFromLeftPercents(parseAxisValues(values), lang), lang);
     }
 
-    private QuizResult buildResult(List<AxisResult> axes, String lang, String representation) {
+    private QuizResult buildResult(List<AxisResult> axes, String lang) {
         var matches = matcherService.findMatches(axes, lang);
-        var personalityMatches = personalityMatcherService.findMatches(axes, lang, representation);
+        var personalityMatches = personalityMatcherService.findMatches(axes, lang);
         var topPersonality = personalityMatches.getFirst();
-        var categoryBestMatches = personalityMatcherService.findBestPerCategory(axes, lang, representation);
+        var categoryBestMatches = personalityMatcherService.findBestPerCategory(axes, lang);
         var topCountry = countryMatcherService.findTopMatch(axes, lang);
         var topHistoricalCountry = countryMatcherService.findTopHistoricalMatch(axes, lang);
         return new QuizResult(
@@ -134,9 +126,9 @@ public class QuizController {
                 countryMatcherService.findBottomMatches(axes, lang),
                 topPersonality,
                 personalityMatches,
-                dimensionMatcherService.findAll(axes, lang, topPersonality.personalityId(), representation),
+                dimensionMatcherService.findAll(axes, lang, topPersonality.personalityId()),
                 categoryBestMatches,
-                personalityMatcherService.findBottomMatches(axes, lang, representation),
+                personalityMatcherService.findBottomMatches(axes, lang),
                 axisOutlierService.findMostUnusual(axes, lang),
                 axisOutlierService.findMostCommon(axes, lang),
                 axisTensionService.findStrongest(axes, lang),
@@ -189,14 +181,9 @@ public class QuizController {
 
     @GetMapping("/api/personalities")
     public List<Personality> personalities(
-            @RequestParam(defaultValue = QuizDataService.LANG_PT) String lang,
-            @RequestParam(defaultValue = PersonalityMatcherService.REPRESENTATION_MALE) String representation
+            @RequestParam(defaultValue = QuizDataService.LANG_PT) String lang
     ) {
-        String normalizedRepresentation = PersonalityMatcherService.normalizeRepresentation(representation);
-        return dataService.getPersonalities(lang).stream()
-                .filter(personality -> normalizedRepresentation.equals(
-                        PersonalityMatcherService.representationOf(personality)))
-                .toList();
+        return dataService.getPersonalities(lang);
     }
 
     @GetMapping("/api/personalities/{id}")

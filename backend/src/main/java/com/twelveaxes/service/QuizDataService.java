@@ -213,7 +213,6 @@ public class QuizDataService {
                     tr.getOrDefault("name", personality.name()),
                     tr.getOrDefault("role", personality.role()),
                     personality.category(),
-                    personality.representation(),
                     personality.lifespan(),
                     tr.getOrDefault("description", personality.description()),
                     personality.imagePath(),

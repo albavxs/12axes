@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { t } from '../../i18n';
-import type { Axis, AxisResult, DimensionMatch, PersonalityMatch, PersonalityRepresentation } from '../../types/quiz';
+import type { Axis, AxisResult, DimensionMatch, PersonalityMatch } from '../../types/quiz';
 import { personalityInitials, resolvePersonalityImageSrc } from '../../utils/personalityImage';
 import { SafeImg } from '../editorial/primitives';
 import { Closeness } from './Closeness';
@@ -13,9 +13,6 @@ interface PersonalitiesSectionProps {
   top: PersonalityMatch;
   dimensions: DimensionMatch[];
   distant: PersonalityMatch[];
-  representation: PersonalityRepresentation;
-  isSwitching: boolean;
-  onRepresentationChange: (representation: PersonalityRepresentation) => void;
 }
 
 export function Portrait({ match, className }: { match: PersonalityMatch; className: string }) {
@@ -34,37 +31,13 @@ export function PersonalitiesSection({
   dimensions,
   distant,
   axes,
-  results,
-  representation,
-  isSwitching,
-  onRepresentationChange
+  results
 }: PersonalitiesSectionProps) {
   const [info, setInfo] = useState<PersonalityMatch | null>(null);
 
   return (
     <section className="e-panel" id="personalidades" data-reveal>
       <h2>{t.personalitiesSectionTitle}</h2>
-
-      <div className="e-actions" role="group" aria-label={t.personalityRepresentationAria}>
-        <button
-          className={representation === 'male' ? 'e-btn e-btn-primary' : 'e-btn e-btn-ghost'}
-          type="button"
-          aria-pressed={representation === 'male'}
-          disabled={isSwitching}
-          onClick={() => onRepresentationChange('male')}
-        >
-          {t.personalityRepresentationMen}
-        </button>
-        <button
-          className={representation === 'female' ? 'e-btn e-btn-primary' : 'e-btn e-btn-ghost'}
-          type="button"
-          aria-pressed={representation === 'female'}
-          disabled={isSwitching}
-          onClick={() => onRepresentationChange('female')}
-        >
-          {t.personalityRepresentationWomen}
-        </button>
-      </div>
 
       <MatchHero
         visual={<Portrait match={top} className="e-portrait" />}
